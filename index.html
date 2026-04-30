@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="zh-CN" data-theme="light">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+  <meta name="theme-color" content="#ffffff" id="meta-theme-color" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+  <meta name="apple-mobile-web-app-title" content="早间新闻" />
+  <!-- iOS 添加到主屏幕图标（内联 SVG data URI，离线也有效） -->
+  <link rel="apple-touch-icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 180 180'%3E%3Crect width='180' height='180' rx='38' fill='%23E8326A'/%3E%3Ctext x='90' y='130' font-size='100' text-anchor='middle'%3E%F0%9F%93%B0%3C/text%3E%3C/svg%3E" />
+  <title>📰 早间新闻</title>
+  <link rel="stylesheet" href="css/main.css" />
+  <!-- PWA manifest（可选，方便添加到主屏幕） -->
+  <link rel="manifest" href="manifest.json" />
+</head>
+<body>
+
+<!-- ===== 离线提示条 ===== -->
+<div class="offline-banner" id="offlineBanner" style="display:none">
+  <span class="offline-icon">📡</span>
+  <span class="offline-text">当前离线，显示已缓存内容</span>
+</div>
+
+<!-- ===== HEADER ===== -->
+<header class="app-header" id="appHeader">
+  <div class="header-inner">
+    <div class="header-logo">
+      <span class="logo-icon">📰</span>
+      <span class="logo-text">早间新闻</span>
+    </div>
+    <div class="header-actions">
+      <button class="btn-icon" id="btnTheme" title="切换主题" aria-label="切换主题">
+        <span class="theme-icon">🌙</span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<!-- ===== DATE STRIP ===== -->
+<div class="date-strip-wrap" id="dateStripWrap">
+  <div class="date-strip" id="dateStrip">
+    <!-- 由 JS 动态生成 -->
+  </div>
+</div>
+
+<!-- ===== MAIN CONTENT ===== -->
+<main class="app-main" id="appMain">
+
+  <!-- 今日头条一句话 -->
+  <div class="today-headline" id="todayHeadline" style="display:none">
+    <span class="headline-badge">🔥 今日头条</span>
+    <span class="headline-text" id="headlineText"></span>
+  </div>
+
+  <!-- 要点速览 -->
+  <section class="glance-section" id="glanceSection" style="display:none">
+    <div class="section-title">📊 今日要点速览</div>
+    <div class="glance-grid" id="glanceGrid"></div>
+  </section>
+
+  <!-- 分类 Tab -->
+  <div class="category-tabs-wrap">
+    <div class="category-tabs" id="categoryTabs">
+      <!-- 由 JS 动态生成 -->
+    </div>
+  </div>
+
+  <!-- 新闻卡片列表 -->
+  <div class="news-list" id="newsList">
+    <!-- 骨架屏占位 -->
+    <div class="skeleton-wrap" id="skeletonWrap">
+      <div class="skeleton-card"></div>
+      <div class="skeleton-card"></div>
+      <div class="skeleton-card"></div>
+    </div>
+    <!-- 新闻内容由 JS 动态生成 -->
+  </div>
+
+</main>
+
+<!-- ===== BOTTOM NAV ===== -->
+<nav class="bottom-nav" id="bottomNav">
+  <button class="nav-item" data-tab="archive" id="navArchive">
+    <span class="nav-icon">📅</span>
+    <span class="nav-label">归档</span>
+  </button>
+  <button class="nav-item active" data-tab="today" id="navToday">
+    <span class="nav-icon">🏠</span>
+    <span class="nav-label">今日</span>
+  </button>
+  <button class="nav-item" data-tab="search" id="navSearch">
+    <span class="nav-icon">🔍</span>
+    <span class="nav-label">搜索</span>
+  </button>
+</nav>
+
+<!-- ===== ARCHIVE DRAWER ===== -->
+<div class="drawer-overlay" id="drawerOverlay"></div>
+<div class="archive-drawer" id="archiveDrawer">
+  <div class="drawer-handle"></div>
+  <div class="drawer-header">
+    <h2 class="drawer-title">📅 新闻归档</h2>
+    <button class="btn-icon" id="btnCloseDrawer">✕</button>
+  </div>
+  <div class="drawer-content" id="drawerContent">
+    <!-- 由 JS 动态生成 -->
+  </div>
+</div>
+
+<!-- ===== SEARCH PANEL ===== -->
+<div class="search-panel" id="searchPanel">
+  <div class="search-header">
+    <button class="btn-icon search-back" id="btnSearchBack">←</button>
+    <div class="search-input-wrap">
+      <span class="search-input-icon">🔍</span>
+      <input type="search" class="search-input" id="searchInput"
+             placeholder="搜索新闻关键词..." autocomplete="off" />
+    </div>
+  </div>
+  <div class="search-results" id="searchResults">
+    <div class="search-placeholder">输入关键词开始搜索</div>
+  </div>
+</div>
+
+<!-- ===== DESKTOP SIDEBAR ===== -->
+<aside class="sidebar" id="sidebar">
+  <div class="sidebar-inner">
+    <div class="sidebar-title">📅 归档</div>
+    <div class="sidebar-content" id="sidebarContent">
+      <!-- 由 JS 动态生成 -->
+    </div>
+    <div class="sidebar-search">
+      <div class="search-input-wrap">
+        <span class="search-input-icon">🔍</span>
+        <input type="search" class="search-input" id="sidebarSearchInput"
+               placeholder="搜索关键词..." autocomplete="off" />
+      </div>
+    </div>
+  </div>
+</aside>
+
+<!-- 桌面端遮罩，点击关闭 -->
+<div class="sidebar-overlay" id="sidebarOverlay"></div>
+
+<script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+<script src="js/app.js"></script>
+<!-- 注册 Service Worker -->
+<script>
+if ('serviceWorker' in navigator) {
+  window.addEventListener('load', () => {
+    navigator.serviceWorker.register('/sw.js')
+      .then(reg => console.log('[SW] 注册成功，scope:', reg.scope))
+      .catch(err => console.warn('[SW] 注册失败:', err));
+  });
+}
+</script>
+</body>
+</html>

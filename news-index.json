@@ -1,0 +1,102 @@
+{
+  "updated": "2026-04-29T09:42:10",
+  "months": [
+    {
+      "id": "202604",
+      "label": "2026年04月",
+      "days": [
+        {
+          "date": "20260429",
+          "label": "04-29 周三",
+          "type": "morning",
+          "typeCN": "早间",
+          "file": "news/202604/20260429_早间.md"
+        },
+        {
+          "date": "20260428",
+          "label": "04-28 周二",
+          "type": "morning",
+          "typeCN": "早间",
+          "file": "news/202604/20260428_早间.md"
+        },
+        {
+          "date": "20260427",
+          "label": "04-27 周一",
+          "type": "morning",
+          "typeCN": "早间",
+          "file": "news/202604/20260427_早间.md"
+        },
+        {
+          "date": "20260426",
+          "label": "04-26 周日",
+          "type": "morning",
+          "typeCN": "早间",
+          "file": "news/202604/20260426_早间.md"
+        },
+        {
+          "date": "20260426",
+          "label": "04-26 周日",
+          "type": "weekly",
+          "typeCN": "周报",
+          "file": "news/202604/20260426_周报.md"
+        },
+        {
+          "date": "20260425",
+          "label": "04-25 周六",
+          "type": "morning",
+          "typeCN": "早间",
+          "file": "news/202604/20260425_早间.md"
+        },
+        {
+          "date": "20260424",
+          "label": "04-24 周五",
+          "type": "morning",
+          "typeCN": "早间",
+          "file": "news/202604/20260424_早间.md"
+        },
+        {
+          "date": "20260423",
+          "label": "04-23 周四",
+          "type": "morning",
+          "typeCN": "早间",
+          "file": "news/202604/20260423_早间.md"
+        },
+        {
+          "date": "20260422",
+          "label": "04-22 周三",
+          "type": "morning",
+          "typeCN": "早间",
+          "file": "news/202604/20260422_早间.md"
+        },
+        {
+          "date": "20260421",
+          "label": "04-21 周二",
+          "type": "morning",
+          "typeCN": "早间",
+          "file": "news/202604/20260421_早间.md"
+        },
+        {
+          "date": "20260420",
+          "label": "04-20 周一",
+          "type": "morning",
+          "typeCN": "早间",
+          "file": "news/202604/20260420_早间.md"
+        },
+        {
+          "date": "20260419",
+          "label": "04-19 周日",
+          "type": "morning",
+          "typeCN": "早间",
+          "file": "news/202604/20260419_早间.md"
+        },
+        {
+          "date": "20260418",
+          "label": "04-18 周六",
+          "type": "morning",
+          "typeCN": "早间",
+          "file": "news/202604/20260418_早间.md"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+# 早间新闻生成脚本 - Python 依赖
+
+# AI API 客户端（支持 OpenAI 兼容接口）
+openai>=1.0.0
+
+# 搜索 API 客户端
+tavily-python>=0.3.0
+
+# 环境变量管理
+python-dotenv>=1.0.0
+
+# HTTP 请求库（备用）
+requests>=2.31.0
