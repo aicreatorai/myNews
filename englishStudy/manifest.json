@@ -1,0 +1,56 @@
+[
+  {
+    "id": "ios",
+    "file": "1、iOS开发完整词汇大全.json",
+    "name": "iOS 开发",
+    "description": "iOS 开发完整技术词汇大全相关词汇",
+    "icon": "fab fa-apple",
+    "sections": 161,
+    "vocabs": 948
+  },
+  {
+    "id": "harmonyos",
+    "file": "2、HarmonyOS开发完整词汇.json",
+    "name": "HarmonyOS 开发",
+    "description": "HarmonyOS 开发完整技术词汇相关词汇",
+    "icon": "fas fa-mobile-alt",
+    "sections": 117,
+    "vocabs": 597
+  },
+  {
+    "id": "software",
+    "file": "3、软件开发完整词汇.json",
+    "name": "软件开发",
+    "description": "软件开发完整技术词汇大全相关词汇",
+    "icon": "fas fa-laptop-code",
+    "sections": 64,
+    "vocabs": 598
+  },
+  {
+    "id": "frontend",
+    "file": "4、前端开发完整词汇.json",
+    "name": "前端开发",
+    "description": "前端开发完整技术词汇大全相关词汇",
+    "icon": "fab fa-html5",
+    "sections": 104,
+    "vocabs": 745
+  },
+  {
+    "id": "android",
+    "file": "5、Android开发完整词汇.json",
+    "name": "Android 开发",
+    "description": "Android 开发完整技术词汇大全相关词汇",
+    "icon": "fab fa-android",
+    "sections": 77,
+    "vocabs": 757
+  },
+  {
+    "id": "ai",
+    "file": "6、AI相关词汇.json",
+    "name": "AI 技术",
+    "description": "AI 相关技术词汇大全相关词汇",
+    "icon": "fas fa-brain",
+    "sections": 70,
+    "vocabs": 695
+  }
+]

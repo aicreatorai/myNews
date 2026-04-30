@@ -1,0 +1,3875 @@
+{
+  "title": "AI 相关技术词汇大全",
+  "parts": [
+    {
+      "name": "第一部分：机器学习基础",
+      "groups": [
+        {
+          "name": "第一组 - 核心概念",
+          "words": [
+            {
+              "word": "machine learning",
+              "phonetic": "/məˈʃiːn ˈlɜːrnɪŋ/",
+              "meaning": "机器学习"
+            },
+            {
+              "word": "artificial intelligence",
+              "phonetic": "/ˌɑːrtɪfɪʃl ɪnˈtelɪdʒəns/",
+              "meaning": "人工智能"
+            },
+            {
+              "word": "algorithm",
+              "phonetic": "/ˈælɡərɪðəm/",
+              "meaning": "算法"
+            },
+            {
+              "word": "model",
+              "phonetic": "/ˈmɑːdl/",
+              "meaning": "模型"
+            },
+            {
+              "word": "training",
+              "phonetic": "/ˈtreɪnɪŋ/",
+              "meaning": "训练"
+            }
+          ]
+        },
+        {
+          "name": "第二组 - 学习类型",
+          "words": [
+            {
+              "word": "supervised learning",
+              "phonetic": "/ˈsuːpərvaɪzd ˈlɜːrnɪŋ/",
+              "meaning": "监督学习"
+            },
+            {
+              "word": "unsupervised learning",
+              "phonetic": "/ʌnˈsuːpərvaɪzd ˈlɜːrnɪŋ/",
+              "meaning": "无监督学习"
+            },
+            {
+              "word": "reinforcement learning",
+              "phonetic": "/ˌriːɪnˈfɔːrsmənt ˈlɜːrnɪŋ/",
+              "meaning": "强化学习"
+            },
+            {
+              "word": "deep learning",
+              "phonetic": "/diːp ˈlɜːrnɪŋ/",
+              "meaning": "深度学习"
+            },
+            {
+              "word": "transfer learning",
+              "phonetic": "/ˈtrænsfɜːr ˈlɜːrnɪŋ/",
+              "meaning": "迁移学习"
+            },
+            {
+              "word": "semi-supervised learning",
+              "phonetic": "/ˈsɛmi ˈsuːpərvaɪzd ˈlɜːrnɪŋ/",
+              "meaning": "半监督学习"
+            },
+            {
+              "word": "self-supervised learning",
+              "phonetic": "/self ˈsuːpərvaɪzd ˈlɜːrnɪŋ/",
+              "meaning": "自监督学习"
+            },
+            {
+              "word": "few-shot learning",
+              "phonetic": "/fjuː ʃɑːt ˈlɜːrnɪŋ/",
+              "meaning": "少样本学习"
+            },
+            {
+              "word": "zero-shot learning",
+              "phonetic": "/ˈzɪroʊ ʃɑːt ˈlɜːrnɪŋ/",
+              "meaning": "零样本学习"
+            },
+            {
+              "word": "meta-learning",
+              "phonetic": "/ˈmetə ˈlɜːrnɪŋ/",
+              "meaning": "元学习"
+            }
+          ]
+        },
+        {
+          "name": "第三组 - 数据与特征",
+          "words": [
+            {
+              "word": "dataset",
+              "phonetic": "/ˈdeɪtəset/",
+              "meaning": "数据集"
+            },
+            {
+              "word": "feature",
+              "phonetic": "/ˈfiːtʃər/",
+              "meaning": "特征"
+            },
+            {
+              "word": "label",
+              "phonetic": "/ˈleɪbl/",
+              "meaning": "标签"
+            },
+            {
+              "word": "sample",
+              "phonetic": "/ˈsæmpl/",
+              "meaning": "样本"
+            },
+            {
+              "word": "attribute",
+              "phonetic": "/ˈætrɪbjuːt/",
+              "meaning": "属性"
+            },
+            {
+              "word": "data point",
+              "phonetic": "/ˈdeɪtə pɔɪnt/",
+              "meaning": "数据点"
+            },
+            {
+              "word": "ground truth",
+              "phonetic": "/ɡraʊnd truːθ/",
+              "meaning": "真值/基准真相"
+            },
+            {
+              "word": "feature vector",
+              "phonetic": "/ˈfiːtʃər ˈvektər/",
+              "meaning": "特征向量"
+            },
+            {
+              "word": "dimension",
+              "phonetic": "/ˌdaɪˈmenʃn/",
+              "meaning": "维度"
+            },
+            {
+              "word": "corpus",
+              "phonetic": "/ˈkɔːrpəs/",
+              "meaning": "语料库"
+            }
+          ]
+        },
+        {
+          "name": "第四组 - 模型评估指标",
+          "words": [
+            {
+              "word": "accuracy",
+              "phonetic": "/ˈækjərəsi/",
+              "meaning": "准确率"
+            },
+            {
+              "word": "precision",
+              "phonetic": "/prɪˈsɪʒn/",
+              "meaning": "精确率"
+            },
+            {
+              "word": "recall",
+              "phonetic": "/rɪˈkɔːl/",
+              "meaning": "召回率"
+            },
+            {
+              "word": "f1 score",
+              "phonetic": "/ef wʌn skɔːr/",
+              "meaning": "F1分数"
+            },
+            {
+              "word": "confusion matrix",
+              "phonetic": "/kənˈfjuːʒn ˈmeɪtrɪks/",
+              "meaning": "混淆矩阵"
+            },
+            {
+              "word": "auc",
+              "phonetic": "/eɪ juː siː/",
+              "meaning": "曲线下面积"
+            },
+            {
+              "word": "roc curve",
+              "phonetic": "/ɑːr oʊ siː kɜːrv/",
+              "meaning": "受试者工作特征曲线"
+            },
+            {
+              "word": "mean squared error",
+              "phonetic": "/miːn skwerd ˈerər/",
+              "meaning": "均方误差"
+            },
+            {
+              "word": "rmse",
+              "phonetic": "/ɑːr em es iː/",
+              "meaning": "均方根误差"
+            },
+            {
+              "word": "mae",
+              "phonetic": "/em eɪ iː/",
+              "meaning": "平均绝对误差"
+            }
+          ]
+        },
+        {
+          "name": "第五组 - 损失与优化",
+          "words": [
+            {
+              "word": "loss function",
+              "phonetic": "/lɔːs ˈfʌŋkʃn/",
+              "meaning": "损失函数"
+            },
+            {
+              "word": "gradient descent",
+              "phonetic": "/ˈɡreɪdiənt dɪˈsent/",
+              "meaning": "梯度下降"
+            },
+            {
+              "word": "backpropagation",
+              "phonetic": "/ˌbækˌprɑːpəˈɡeɪʃn/",
+              "meaning": "反向传播"
+            },
+            {
+              "word": "learning rate",
+              "phonetic": "/ˈlɜːrnɪŋ reɪt/",
+              "meaning": "学习率"
+            },
+            {
+              "word": "epoch",
+              "phonetic": "/ˈepək/",
+              "meaning": "训练轮次"
+            },
+            {
+              "word": "batch",
+              "phonetic": "/bætʃ/",
+              "meaning": "批次"
+            },
+            {
+              "word": "batch size",
+              "phonetic": "/bætʃ saɪz/",
+              "meaning": "批次大小"
+            },
+            {
+              "word": "iteration",
+              "phonetic": "/ˌɪtəˈreɪʃn/",
+              "meaning": "迭代次数"
+            },
+            {
+              "word": "cost function",
+              "phonetic": "/kɔːst ˈfʌŋkʃn/",
+              "meaning": "代价函数"
+            },
+            {
+              "word": "objective function",
+              "phonetic": "/əbˈdʒektɪv ˈfʌŋkʃn/",
+              "meaning": "目标函数"
+            }
+          ]
+        },
+        {
+          "name": "第六组 - 正则化技术",
+          "words": [
+            {
+              "word": "regularization",
+              "phonetic": "/ˌreɡjələrəˈzeɪʃn/",
+              "meaning": "正则化"
+            },
+            {
+              "word": "l1 regularization",
+              "phonetic": "/el wʌn ˌreɡjələrəˈzeɪʃn/",
+              "meaning": "L1正则化"
+            },
+            {
+              "word": "l2 regularization",
+              "phonetic": "/el tuː ˌreɡjələrəˈzeɪʃn/",
+              "meaning": "L2正则化"
+            },
+            {
+              "word": "early stopping",
+              "phonetic": "/ˈɜːrli ˈstɑːpɪŋ/",
+              "meaning": "早停法"
+            },
+            {
+              "word": "data augmentation",
+              "phonetic": "/ˈdeɪtə ˌɔːɡmenˈteɪʃn/",
+              "meaning": "数据增强"
+            },
+            {
+              "word": "dropout",
+              "phonetic": "/ˈdrɑːpaʊt/",
+              "meaning": "随机失活"
+            },
+            {
+              "word": "weight decay",
+              "phonetic": "/weɪt dɪˈkeɪ/",
+              "meaning": "权重衰减"
+            },
+            {
+              "word": "noise injection",
+              "phonetic": "/nɔɪz ɪnˈdʒekʃn/",
+              "meaning": "噪声注入"
+            },
+            {
+              "word": "label smoothing",
+              "phonetic": "/ˈleɪbl ˈsmuːðɪŋ/",
+              "meaning": "标签平滑"
+            },
+            {
+              "word": "mixup",
+              "phonetic": "/ˈmɪksʌp/",
+              "meaning": "混合增强"
+            }
+          ]
+        },
+        {
+          "name": "第七组 - 经典机器学习算法",
+          "words": [
+            {
+              "word": "linear regression",
+              "phonetic": "/ˈlɪniər rɪˈɡreʃn/",
+              "meaning": "线性回归"
+            },
+            {
+              "word": "logistic regression",
+              "phonetic": "/ləˈdʒɪstɪk rɪˈɡreʃn/",
+              "meaning": "逻辑回归"
+            },
+            {
+              "word": "decision tree",
+              "phonetic": "/dɪˈsɪʒn triː/",
+              "meaning": "决策树"
+            },
+            {
+              "word": "random forest",
+              "phonetic": "/ˈrændəm ˈfɔːrɪst/",
+              "meaning": "随机森林"
+            },
+            {
+              "word": "support vector machine",
+              "phonetic": "/səˈpɔːrt ˈvektər məˈʃiːn/",
+              "meaning": "支持向量机"
+            },
+            {
+              "word": "naive bayes",
+              "phonetic": "/naɪˈiːv ˈbeɪzɪz/",
+              "meaning": "朴素贝叶斯"
+            },
+            {
+              "word": "k-nearest neighbors",
+              "phonetic": "/keɪ ˈnɪərəst ˈneɪbərz/",
+              "meaning": "K近邻"
+            },
+            {
+              "word": "pca",
+              "phonetic": "/piː siː eɪ/",
+              "meaning": "主成分分析"
+            },
+            {
+              "word": "k-means",
+              "phonetic": "/keɪ miːnz/",
+              "meaning": "K均值聚类"
+            },
+            {
+              "word": "gradient boosting",
+              "phonetic": "/ˈɡreɪdiənt ˈbuːstɪŋ/",
+              "meaning": "梯度提升"
+            }
+          ]
+        },
+        {
+          "name": "第八组 - 集成学习与进阶算法",
+          "words": [
+            {
+              "word": "ensemble learning",
+              "phonetic": "/ɑːnˈsɑːmbl ˈlɜːrnɪŋ/",
+              "meaning": "集成学习"
+            },
+            {
+              "word": "bagging",
+              "phonetic": "/ˈbæɡɪŋ/",
+              "meaning": "装袋法"
+            },
+            {
+              "word": "boosting",
+              "phonetic": "/ˈbuːstɪŋ/",
+              "meaning": "提升法"
+            },
+            {
+              "word": "xgboost",
+              "phonetic": "/eks dʒiː buːst/",
+              "meaning": "极端梯度提升"
+            },
+            {
+              "word": "lightgbm",
+              "phonetic": "/ˈlaɪt dʒiː biː em/",
+              "meaning": "轻量级梯度提升机"
+            },
+            {
+              "word": "catboost",
+              "phonetic": "/kæt buːst/",
+              "meaning": "类别提升"
+            },
+            {
+              "word": "adaboost",
+              "phonetic": "/əˈdɑː buːst/",
+              "meaning": "自适应提升"
+            },
+            {
+              "word": "stacking",
+              "phonetic": "/ˈstækɪŋ/",
+              "meaning": "堆叠法"
+            },
+            {
+              "word": "voting classifier",
+              "phonetic": "/ˈvoʊtɪŋ ˈklæsɪfaɪər/",
+              "meaning": "投票分类器"
+            },
+            {
+              "word": "bootstrapping",
+              "phonetic": "/ˈbuːtstræpɪŋ/",
+              "meaning": "自助抽样"
+            }
+          ]
+        },
+        {
+          "name": "第九组 - 贝叶斯与概率方法",
+          "words": [
+            {
+              "word": "bayesian inference",
+              "phonetic": "/ˈbeɪziən ˈɪnfərəns/",
+              "meaning": "贝叶斯推理"
+            },
+            {
+              "word": "prior probability",
+              "phonetic": "/ˈpraɪər ˌprɑːbəˈbɪləti/",
+              "meaning": "先验概率"
+            },
+            {
+              "word": "posterior probability",
+              "phonetic": "/pɑːˈstɪriər ˌprɑːbəˈbɪləti/",
+              "meaning": "后验概率"
+            },
+            {
+              "word": "likelihood",
+              "phonetic": "/ˈlaɪklihʊd/",
+              "meaning": "似然函数"
+            },
+            {
+              "word": "maximum likelihood estimation",
+              "phonetic": "/ˈmæksɪməm ˈlaɪklihʊd ˌestɪˈmeɪʃn/",
+              "meaning": "最大似然估计"
+            },
+            {
+              "word": "markov chain",
+              "phonetic": "/ˈmɑːrkɔf tʃeɪn/",
+              "meaning": "马尔可夫链"
+            },
+            {
+              "word": "monte carlo",
+              "phonetic": "/ˈmɑːnti ˈkɑːrloʊ/",
+              "meaning": "蒙特卡洛"
+            },
+            {
+              "word": "gaussian distribution",
+              "phonetic": "/ˈɡaʊsiən ˌdɪstrɪˈbjuːʃn/",
+              "meaning": "高斯分布"
+            },
+            {
+              "word": "bernoulli distribution",
+              "phonetic": "/ˌbernuːli ˌdɪstrɪˈbjuːʃn/",
+              "meaning": "伯努利分布"
+            },
+            {
+              "word": "poisson distribution",
+              "phonetic": "/ˈpwɑːsɑːn ˌdɪstrɪˈbjuːʃn/",
+              "meaning": "泊松分布"
+            }
+          ]
+        },
+        {
+          "name": "第十组 - 特征工程与选择",
+          "words": [
+            {
+              "word": "feature engineering",
+              "phonetic": "/ˈfiːtʃər ˌendʒɪˈnɪrɪŋ/",
+              "meaning": "特征工程"
+            },
+            {
+              "word": "feature selection",
+              "phonetic": "/ˈfiːtʃər sɪˈlekʃn/",
+              "meaning": "特征选择"
+            },
+            {
+              "word": "feature extraction",
+              "phonetic": "/ˈfiːtʃər ɪkˈstrækʃn/",
+              "meaning": "特征提取"
+            },
+            {
+              "word": "dimensionality reduction",
+              "phonetic": "/dɪˌmenʃəˈnæləti rɪˈdʌkʃn/",
+              "meaning": "降维"
+            },
+            {
+              "word": "t-sne",
+              "phonetic": "/tiː sniː/",
+              "meaning": "t分布随机邻域嵌入"
+            },
+            {
+              "word": "ica",
+              "phonetic": "/aɪ siː eɪ/",
+              "meaning": "独立成分分析"
+            },
+            {
+              "word": "feature scaling",
+              "phonetic": "/ˈfiːtʃər ˈskeɪlɪŋ/",
+              "meaning": "特征缩放"
+            },
+            {
+              "word": "normalization",
+              "phonetic": "/ˌnɔːrməlaɪˈzeɪʃn/",
+              "meaning": "归一化"
+            },
+            {
+              "word": "standardization",
+              "phonetic": "/ˌstændərdaɪˈzeɪʃn/",
+              "meaning": "标准化"
+            },
+            {
+              "word": "one-hot encoding",
+              "phonetic": "/wʌn hɑːt ɪnˈkoʊdɪŋ/",
+              "meaning": "独热编码"
+            }
+          ]
+        },
+        {
+          "name": "第十一组 - 数据预处理",
+          "words": [
+            {
+              "word": "data cleaning",
+              "phonetic": "/ˈdeɪtə ˈkliːnɪŋ/",
+              "meaning": "数据清洗"
+            },
+            {
+              "word": "missing value",
+              "phonetic": "/ˈmɪsɪŋ ˈvæljuː/",
+              "meaning": "缺失值"
+            },
+            {
+              "word": "outlier detection",
+              "phonetic": "/ˈaʊtlaɪər dɪˈtekʃn/",
+              "meaning": "异常值检测"
+            },
+            {
+              "word": "data imputation",
+              "phonetic": "/ˈdeɪtə ˌɪmpjuːˈteɪʃn/",
+              "meaning": "数据插补"
+            },
+            {
+              "word": "data normalization",
+              "phonetic": "/ˈdeɪtə ˌnɔːrməlaɪˈzeɪʃn/",
+              "meaning": "数据归一化"
+            },
+            {
+              "word": "data standardization",
+              "phonetic": "/ˈdeɪtə ˌstændərdaɪˈzeɪʃn/",
+              "meaning": "数据标准化"
+            },
+            {
+              "word": "train-test split",
+              "phonetic": "/treɪn test splɪt/",
+              "meaning": "训练测试集划分"
+            },
+            {
+              "word": "cross-validation",
+              "phonetic": "/krɔːs ˌvælɪˈdeɪʃn/",
+              "meaning": "交叉验证"
+            },
+            {
+              "word": "stratified sampling",
+              "phonetic": "/ˈstrætɪfaɪd ˈsæmplɪŋ/",
+              "meaning": "分层抽样"
+            },
+            {
+              "word": "data leakage",
+              "phonetic": "/ˈdeɪtə ˈliːkɪdʒ/",
+              "meaning": "数据泄漏"
+            }
+          ]
+        },
+        {
+          "name": "第十二组 - 优化算法进阶",
+          "words": [
+            {
+              "word": "stochastic gradient descent",
+              "phonetic": "/stəˈkæstɪk ˈɡreɪdiənt dɪˈsent/",
+              "meaning": "随机梯度下降"
+            },
+            {
+              "word": "adam optimizer",
+              "phonetic": "/ˈædəm ˈɑːptɪmaɪzər/",
+              "meaning": "Adam优化器"
+            },
+            {
+              "word": "momentum",
+              "phonetic": "/moʊˈmentəm/",
+              "meaning": "动量"
+            },
+            {
+              "word": "learning rate decay",
+              "phonetic": "/ˈlɜːrnɪŋ reɪt dɪˈkeɪ/",
+              "meaning": "学习率衰减"
+            },
+            {
+              "word": "rmsprop",
+              "phonetic": "/ɑːr em es prɑːp/",
+              "meaning": "均方根传播"
+            },
+            {
+              "word": "adagrad",
+              "phonetic": "/ˈædəɡræd/",
+              "meaning": "自适应梯度算法"
+            },
+            {
+              "word": "adamw",
+              "phonetic": "/ˈædəm dʌbəljuː/",
+              "meaning": "带权重衰减的Adam"
+            },
+            {
+              "word": "nesterov momentum",
+              "phonetic": "/ˈnestərɔf moʊˈmentəm/",
+              "meaning": "内斯特罗夫动量"
+            },
+            {
+              "word": "conjugate gradient",
+              "phonetic": "/ˈkɑːndʒʊɡət ˈɡreɪdiənt/",
+              "meaning": "共轭梯度"
+            },
+            {
+              "word": "hessian matrix",
+              "phonetic": "/ˈhesiən ˈmeɪtrɪks/",
+              "meaning": "海森矩阵"
+            }
+          ]
+        },
+        {
+          "name": "第十三组 - 假设检验与统计",
+          "words": [
+            {
+              "word": "hypothesis testing",
+              "phonetic": "/haɪˈpɑːθəsɪs ˈtestɪŋ/",
+              "meaning": "假设检验"
+            },
+            {
+              "word": "a/b testing",
+              "phonetic": "/eɪ biː ˈtestɪŋ/",
+              "meaning": "A/B测试"
+            },
+            {
+              "word": "p-value",
+              "phonetic": "/piː ˈvæljuː/",
+              "meaning": "P值"
+            },
+            {
+              "word": "confidence interval",
+              "phonetic": "/ˈkɑːnfɪdəns ˈɪntərvl/",
+              "meaning": "置信区间"
+            },
+            {
+              "word": "t-test",
+              "phonetic": "/tiː test/",
+              "meaning": "t检验"
+            },
+            {
+              "word": "chi-square test",
+              "phonetic": "/kaɪ skwer test/",
+              "meaning": "卡方检验"
+            },
+            {
+              "word": "anova",
+              "phonetic": "/əˈnoʊvə/",
+              "meaning": "方差分析"
+            },
+            {
+              "word": "correlation coefficient",
+              "phonetic": "/ˌkɔːrəˈleɪʃn ˌkoʊɪˈfɪʃnt/",
+              "meaning": "相关系数"
+            },
+            {
+              "word": "pearson correlation",
+              "phonetic": "/ˈpɪrsən ˌkɔːrəˈleɪʃn/",
+              "meaning": "皮尔逊相关系数"
+            },
+            {
+              "word": "spearman rank",
+              "phonetic": "/ˈspɪrmən ræŋk/",
+              "meaning": "斯皮尔曼等级"
+            }
+          ]
+        },
+        {
+          "name": "第十四组 - 在线学习与评估",
+          "words": [
+            {
+              "word": "online learning",
+              "phonetic": "/ˈɑːnlaɪn ˈlɜːrnɪŋ/",
+              "meaning": "在线学习"
+            },
+            {
+              "word": "active learning",
+              "phonetic": "/ˈæktɪv ˈlɜːrnɪŋ/",
+              "meaning": "主动学习"
+            },
+            {
+              "word": "curriculum learning",
+              "phonetic": "/kəˈrɪkjələm ˈlɜːrnɪŋ/",
+              "meaning": "课程学习"
+            },
+            {
+              "word": "continual learning",
+              "phonetic": "/kənˈtɪnjuəl ˈlɜːrnɪŋ/",
+              "meaning": "持续学习"
+            },
+            {
+              "word": "catastrophic forgetting",
+              "phonetic": "/ˌkætəˈstrɑːfɪk fərˈɡetɪŋ/",
+              "meaning": "灾难性遗忘"
+            },
+            {
+              "word": "experience replay",
+              "phonetic": "/ɪkˈspɪriəns ˈriːpleɪ/",
+              "meaning": "经验回放"
+            },
+            {
+              "word": "exploration vs exploitation",
+              "phonetic": "/ˌekspləˈreɪʃn vɜːrs ˌeksplɔɪˈteɪʃn/",
+              "meaning": "探索与利用"
+            },
+            {
+              "word": "multi-armed bandit",
+              "phonetic": "/ˈmʌlti ɑːrmd ˈbændɪt/",
+              "meaning": "多臂老虎机"
+            },
+            {
+              "word": "thompson sampling",
+              "phonetic": "/ˈtɑːmpsən ˈsæmplɪŋ/",
+              "meaning": "汤普森采样"
+            },
+            {
+              "word": "upper confidence bound",
+              "phonetic": "/ˈʌpər ˈkɑːnfɪdəns baʊnd/",
+              "meaning": "上置信界"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "第二部分：神经网络与深度学习",
+      "groups": [
+        {
+          "name": "第十五组 - 神经网络基础",
+          "words": [
+            {
+              "word": "neural network",
+              "phonetic": "/ˈnʊrəl ˈnetwɜːrk/",
+              "meaning": "神经网络"
+            },
+            {
+              "word": "neuron",
+              "phonetic": "/ˈnʊrɑːn/",
+              "meaning": "神经元"
+            },
+            {
+              "word": "layer",
+              "phonetic": "/ˈleɪər/",
+              "meaning": "层"
+            },
+            {
+              "word": "activation function",
+              "phonetic": "/ˌæktɪˈveɪʃn ˈfʌŋkʃn/",
+              "meaning": "激活函数"
+            },
+            {
+              "word": "weight",
+              "phonetic": "/weɪt/",
+              "meaning": "权重"
+            },
+            {
+              "word": "bias",
+              "phonetic": "/ˈbaɪəs/",
+              "meaning": "偏置"
+            },
+            {
+              "word": "input layer",
+              "phonetic": "/ˈɪnpʊt ˈleɪər/",
+              "meaning": "输入层"
+            },
+            {
+              "word": "hidden layer",
+              "phonetic": "/ˈhɪdn ˈleɪər/",
+              "meaning": "隐藏层"
+            },
+            {
+              "word": "output layer",
+              "phonetic": "/ˈaʊtpʊt ˈleɪər/",
+              "meaning": "输出层"
+            },
+            {
+              "word": "receptive field",
+              "phonetic": "/rɪˈseptɪv fiːld/",
+              "meaning": "感受野"
+            }
+          ]
+        },
+        {
+          "name": "第十六组 - 激活函数",
+          "words": [
+            {
+              "word": "relu",
+              "phonetic": "/riːluː/",
+              "meaning": "修正线性单元"
+            },
+            {
+              "word": "sigmoid",
+              "phonetic": "/ˈsɪɡmɔɪd/",
+              "meaning": "S型函数"
+            },
+            {
+              "word": "tanh",
+              "phonetic": "/tænʃ/",
+              "meaning": "双曲正切"
+            },
+            {
+              "word": "softmax",
+              "phonetic": "/ˈsoʊtmæks/",
+              "meaning": "柔性最大值"
+            },
+            {
+              "word": "leaky relu",
+              "phonetic": "/ˈliːki riːluː/",
+              "meaning": "带泄漏修正线性单元"
+            },
+            {
+              "word": "prelu",
+              "phonetic": "/piː reluː/",
+              "meaning": "参数化修正线性单元"
+            },
+            {
+              "word": "elu",
+              "phonetic": "/iːluː/",
+              "meaning": "指数线性单元"
+            },
+            {
+              "word": "selu",
+              "phonetic": "/seɪluː/",
+              "meaning": "缩放指数线性单元"
+            },
+            {
+              "word": "gelu",
+              "phonetic": "/dʒeluː/",
+              "meaning": "高斯误差线性单元"
+            },
+            {
+              "word": "swish",
+              "phonetic": "/swɪʃ/",
+              "meaning": "Swish激活函数"
+            }
+          ]
+        },
+        {
+          "name": "第十七组 - CNN与计算机视觉基础",
+          "words": [
+            {
+              "word": "cnn",
+              "phonetic": "/siː en en/",
+              "meaning": "卷积神经网络"
+            },
+            {
+              "word": "convolution",
+              "phonetic": "/ˌkɑːnvəˈluːʃn/",
+              "meaning": "卷积"
+            },
+            {
+              "word": "kernel",
+              "phonetic": "/ˈkɜːrnl/",
+              "meaning": "卷积核"
+            },
+            {
+              "word": "filter",
+              "phonetic": "/ˈfɪltər/",
+              "meaning": "滤波器"
+            },
+            {
+              "word": "stride",
+              "phonetic": "/straɪd/",
+              "meaning": "步幅"
+            },
+            {
+              "word": "padding",
+              "phonetic": "/ˈpædɪŋ/",
+              "meaning": "填充"
+            },
+            {
+              "word": "pooling",
+              "phonetic": "/ˈpuːlɪŋ/",
+              "meaning": "池化"
+            },
+            {
+              "word": "max pooling",
+              "phonetic": "/mæks ˈpuːlɪŋ/",
+              "meaning": "最大池化"
+            },
+            {
+              "word": "average pooling",
+              "phonetic": "/ˈævərɪdʒ ˈpuːlɪŋ/",
+              "meaning": "平均池化"
+            },
+            {
+              "word": "transposed convolution",
+              "phonetic": "/trænsˈpoʊzd ˌkɑːnvəˈluːʃn/",
+              "meaning": "转置卷积"
+            }
+          ]
+        },
+        {
+          "name": "第十八组 - 经典CNN架构",
+          "words": [
+            {
+              "word": "alexnet",
+              "phonetic": "/ˈælɪksnet/",
+              "meaning": "AlexNet网络"
+            },
+            {
+              "word": "vggnet",
+              "phonetic": "/viːdʒiː net/",
+              "meaning": "VGG网络"
+            },
+            {
+              "word": "resnet",
+              "phonetic": "/ˈreznet/",
+              "meaning": "残差网络"
+            },
+            {
+              "word": "inception",
+              "phonetic": "/ɪnˈsepʃn/",
+              "meaning": "Inception网络"
+            },
+            {
+              "word": "mobilenet",
+              "phonetic": "/ˈmoʊbɪl net/",
+              "meaning": "MobileNet网络"
+            },
+            {
+              "word": "densenet",
+              "phonetic": "/ˈdensnet/",
+              "meaning": "密集连接网络"
+            },
+            {
+              "word": "efficientnet",
+              "phonetic": "/ˈɪfɪʃnt net/",
+              "meaning": "高效网络"
+            },
+            {
+              "word": "unet",
+              "phonetic": "/juː net/",
+              "meaning": "U-Net网络"
+            },
+            {
+              "word": "yolo",
+              "phonetic": "/ˈjoʊloʊ/",
+              "meaning": "实时目标检测算法"
+            },
+            {
+              "word": "faster r-cnn",
+              "phonetic": "/ˈfɑːstər ɑːr siː en en/",
+              "meaning": "快速区域卷积神经网络"
+            }
+          ]
+        },
+        {
+          "name": "第十九组 - RNN与序列模型",
+          "words": [
+            {
+              "word": "rnn",
+              "phonetic": "/ɑːr en en/",
+              "meaning": "循环神经网络"
+            },
+            {
+              "word": "lstm",
+              "phonetic": "/el es tiː em/",
+              "meaning": "长短期记忆网络"
+            },
+            {
+              "word": "gru",
+              "phonetic": "/dʒiː ɑːr juː/",
+              "meaning": "门控循环单元"
+            },
+            {
+              "word": "sequence",
+              "phonetic": "/ˈsiːkwəns/",
+              "meaning": "序列"
+            },
+            {
+              "word": "time series",
+              "phonetic": "/taɪm ˈsɪriːz/",
+              "meaning": "时间序列"
+            },
+            {
+              "word": "vanishing gradient",
+              "phonetic": "/ˈvænɪʃɪŋ ˈɡreɪdiənt/",
+              "meaning": "梯度消失"
+            },
+            {
+              "word": "exploding gradient",
+              "phonetic": "/ɪkˈsploʊdɪŋ ˈɡreɪdiənt/",
+              "meaning": "梯度爆炸"
+            },
+            {
+              "word": "bidirectional rnn",
+              "phonetic": "/ˌbaɪdɪˈrekʃənl ɑːr en en/",
+              "meaning": "双向循环神经网络"
+            },
+            {
+              "word": "sequence-to-sequence",
+              "phonetic": "/ˈsiːkwəns tə ˈsiːkwəns/",
+              "meaning": "序列到序列"
+            },
+            {
+              "word": "attention",
+              "phonetic": "/əˈtenʃn/",
+              "meaning": "注意力机制"
+            }
+          ]
+        },
+        {
+          "name": "第二十组 - Transformer架构",
+          "words": [
+            {
+              "word": "transformer",
+              "phonetic": "/trænsˈfɔːrmər/",
+              "meaning": "Transformer模型"
+            },
+            {
+              "word": "self-attention",
+              "phonetic": "/self əˈtenʃn/",
+              "meaning": "自注意力"
+            },
+            {
+              "word": "multi-head attention",
+              "phonetic": "/ˈmʌlti hed əˈtenʃn/",
+              "meaning": "多头注意力"
+            },
+            {
+              "word": "positional encoding",
+              "phonetic": "/pəˈzɪʃənl ɪnˈkoʊdɪŋ/",
+              "meaning": "位置编码"
+            },
+            {
+              "word": "encoder",
+              "phonetic": "/ɪnˈkoʊdər/",
+              "meaning": "编码器"
+            },
+            {
+              "word": "decoder",
+              "phonetic": "/diːˈkoʊdər/",
+              "meaning": "解码器"
+            },
+            {
+              "word": "feed-forward network",
+              "phonetic": "/fiːd ˈfɔːrwərd ˈnetwɜːrk/",
+              "meaning": "前馈网络"
+            },
+            {
+              "word": "residual connection",
+              "phonetic": "/rɪˈzɪdʒuəl kəˈnekʃn/",
+              "meaning": "残差连接"
+            },
+            {
+              "word": "layer normalization",
+              "phonetic": "/ˈleɪər ˌnɔːrməlaɪˈzeɪʃn/",
+              "meaning": "层归一化"
+            },
+            {
+              "word": "masked attention",
+              "phonetic": "/mɑːskt əˈtenʃn/",
+              "meaning": "掩码注意力"
+            }
+          ]
+        },
+        {
+          "name": "第二十一组 - 生成模型",
+          "words": [
+            {
+              "word": "gan",
+              "phonetic": "/dʒiː eɪ en/",
+              "meaning": "生成对抗网络"
+            },
+            {
+              "word": "generator",
+              "phonetic": "/ˈdʒenəreɪtər/",
+              "meaning": "生成器"
+            },
+            {
+              "word": "discriminator",
+              "phonetic": "/dɪˈskrɪmɪneɪtər/",
+              "meaning": "判别器"
+            },
+            {
+              "word": "vae",
+              "phonetic": "/viː eɪ iː/",
+              "meaning": "变分自编码器"
+            },
+            {
+              "word": "autoencoder",
+              "phonetic": "/ˌɔːtoʊɪnˈkoʊdər/",
+              "meaning": "自编码器"
+            },
+            {
+              "word": "diffusion model",
+              "phonetic": "/dɪˈfjuːʒn ˈmɑːdl/",
+              "meaning": "扩散模型"
+            },
+            {
+              "word": "stable diffusion",
+              "phonetic": "/ˈsteɪbl dɪˈfjuːʒn/",
+              "meaning": "稳定扩散模型"
+            },
+            {
+              "word": "ddpm",
+              "phonetic": "/diː diː piː em/",
+              "meaning": "去噪扩散概率模型"
+            },
+            {
+              "word": "score-based model",
+              "phonetic": "/skɔːr beɪst ˈmɑːdl/",
+              "meaning": "基于分数的模型"
+            },
+            {
+              "word": "normalizing flow",
+              "phonetic": "/ˈnɔːrməlaɪzɪŋ floʊ/",
+              "meaning": "归一化流"
+            }
+          ]
+        },
+        {
+          "name": "第二十二组 - 深度生成模型进阶",
+          "words": [
+            {
+              "word": "biggan",
+              "phonetic": "/bɪɡ ɡæn/",
+              "meaning": "大尺度生成对抗网络"
+            },
+            {
+              "word": "stylegan",
+              "phonetic": "/staɪl ɡæn/",
+              "meaning": "风格生成对抗网络"
+            },
+            {
+              "word": "cyclegan",
+              "phonetic": "/ˈsaɪkl ɡæn/",
+              "meaning": "循环生成对抗网络"
+            },
+            {
+              "word": "pix2pix",
+              "phonetic": "/pɪks tuː pɪks/",
+              "meaning": "图像到图像转换模型"
+            },
+            {
+              "word": "latent space",
+              "phonetic": "/ˈleɪtənt speɪs/",
+              "meaning": "潜空间"
+            },
+            {
+              "word": "latent diffusion",
+              "phonetic": "/ˈleɪtənt dɪˈfjuːʒn/",
+              "meaning": "潜在扩散"
+            },
+            {
+              "word": "text-to-image",
+              "phonetic": "/tekst tə ˈɪmɪdʒ/",
+              "meaning": "文本到图像"
+            },
+            {
+              "word": "image-to-image",
+              "phonetic": "/ˈɪmɪdʒ tə ˈɪmɪdʒ/",
+              "meaning": "图像到图像"
+            },
+            {
+              "word": "super resolution",
+              "phonetic": "/ˈsuːpər ˌrezəˈluːʃn/",
+              "meaning": "超分辨率"
+            },
+            {
+              "word": "neural style transfer",
+              "phonetic": "/ˈnʊrəl staɪl ˈtrænsfər/",
+              "meaning": "神经风格迁移"
+            }
+          ]
+        },
+        {
+          "name": "第二十三组 - 图神经网络",
+          "words": [
+            {
+              "word": "gnn",
+              "phonetic": "/dʒiː en en/",
+              "meaning": "图神经网络"
+            },
+            {
+              "word": "graph convolution",
+              "phonetic": "/ɡræf ˌkɑːnvəˈluːʃn/",
+              "meaning": "图卷积"
+            },
+            {
+              "word": "graph attention network",
+              "phonetic": "/ɡræf əˈtenʃn ˈnetwɜːrk/",
+              "meaning": "图注意力网络"
+            },
+            {
+              "word": "message passing",
+              "phonetic": "/ˈmesɪdʒ ˈpæsɪŋ/",
+              "meaning": "消息传递"
+            },
+            {
+              "word": "node embedding",
+              "phonetic": "/noʊd ɪmˈbedɪŋ/",
+              "meaning": "节点嵌入"
+            },
+            {
+              "word": "edge prediction",
+              "phonetic": "/edʒ prɪˈdɪkʃn/",
+              "meaning": "边预测"
+            },
+            {
+              "word": "graph classification",
+              "phonetic": "/ɡræf ˌklæsɪfɪˈkeɪʃn/",
+              "meaning": "图分类"
+            },
+            {
+              "word": "knowledge graph",
+              "phonetic": "/ˈnɑːlɪdʒ ɡræf/",
+              "meaning": "知识图谱"
+            },
+            {
+              "word": "graph isomorphism",
+              "phonetic": "/ɡræf ˌaɪsoʊˈmɔːrfɪzəm/",
+              "meaning": "图同构"
+            },
+            {
+              "word": "spectral graph",
+              "phonetic": "/ˈspektrəl ɡræf/",
+              "meaning": "谱图"
+            }
+          ]
+        },
+        {
+          "name": "第二十四组 - 深度强化学习",
+          "words": [
+            {
+              "word": "dqn",
+              "phonetic": "/diː kjuː en/",
+              "meaning": "深度Q网络"
+            },
+            {
+              "word": "policy gradient",
+              "phonetic": "/ˈpɑːləsi ˈɡreɪdiənt/",
+              "meaning": "策略梯度"
+            },
+            {
+              "word": "actor-critic",
+              "phonetic": "/ˈæktər ˈkrɪtɪk/",
+              "meaning": "行动者评论家"
+            },
+            {
+              "word": "ppo",
+              "phonetic": "/piː piː oʊ/",
+              "meaning": "近端策略优化"
+            },
+            {
+              "word": "ddpg",
+              "phonetic": "/diː diː piː dʒiː/",
+              "meaning": "深度确定性策略梯度"
+            },
+            {
+              "word": "a3c",
+              "phonetic": "/eɪ θriː siː/",
+              "meaning": "异步优势行动者评论家"
+            },
+            {
+              "word": "sac",
+              "phonetic": "/es eɪ siː/",
+              "meaning": "柔性行动者评论家"
+            },
+            {
+              "word": "q-learning",
+              "phonetic": "/kjuː ˈlɜːrnɪŋ/",
+              "meaning": "Q学习"
+            },
+            {
+              "word": "deep q-network",
+              "phonetic": "/diːp kjuː ˈnetwɜːrk/",
+              "meaning": "深度Q网络"
+            },
+            {
+              "word": "reward function",
+              "phonetic": "/rɪˈwɔːrd ˈfʌŋkʃn/",
+              "meaning": "奖励函数"
+            }
+          ]
+        },
+        {
+          "name": "第二十五组 - 优化与训练技巧",
+          "words": [
+            {
+              "word": "batch normalization",
+              "phonetic": "/bætʃ ˌnɔːrməlaɪˈzeɪʃn/",
+              "meaning": "批归一化"
+            },
+            {
+              "word": "layer norm",
+              "phonetic": "/ˈleɪər nɔːrm/",
+              "meaning": "层归一化"
+            },
+            {
+              "word": "group normalization",
+              "phonetic": "/ɡruːp ˌnɔːrməlaɪˈzeɪʃn/",
+              "meaning": "组归一化"
+            },
+            {
+              "word": "weight initialization",
+              "phonetic": "/weɪt ˌɪnɪʃəlaɪˈzeɪʃn/",
+              "meaning": "权重初始化"
+            },
+            {
+              "word": "xavier initialization",
+              "phonetic": "/ˈzeɪviər ˌɪnɪʃəlaɪˈzeɪʃn/",
+              "meaning": "Xavier初始化"
+            },
+            {
+              "word": "he initialization",
+              "phonetic": "/hiː ˌɪnɪʃəlaɪˈzeɪʃn/",
+              "meaning": "He初始化"
+            },
+            {
+              "word": "learning rate scheduler",
+              "phonetic": "/ˈlɜːrnɪŋ reɪt ˈʃedʒuːlər/",
+              "meaning": "学习率调度器"
+            },
+            {
+              "word": "warmup",
+              "phonetic": "/ˈwɔːrmʌp/",
+              "meaning": "预热"
+            },
+            {
+              "word": "gradient clipping",
+              "phonetic": "/ˈɡreɪdiənt ˈklɪpɪŋ/",
+              "meaning": "梯度裁剪"
+            },
+            {
+              "word": "mixed precision",
+              "phonetic": "/mɪkst prɪˈsɪʒn/",
+              "meaning": "混合精度"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "第三部分：大语言模型与NLP",
+      "groups": [
+        {
+          "name": "第二十六组 - LLM基础概念",
+          "words": [
+            {
+              "word": "large language model",
+              "phonetic": "/lɑːrdʒ ˈlæŋɡwɪdʒ ˈmɑːdl/",
+              "meaning": "大语言模型"
+            },
+            {
+              "word": "llm",
+              "phonetic": "/el el em/",
+              "meaning": "大语言模型（缩写）"
+            },
+            {
+              "word": "foundation model",
+              "phonetic": "/faʊnˈdeɪʃn ˈmɑːdl/",
+              "meaning": "基础模型"
+            },
+            {
+              "word": "pre-training",
+              "phonetic": "/priːˈtreɪnɪŋ/",
+              "meaning": "预训练"
+            },
+            {
+              "word": "fine-tuning",
+              "phonetic": "/faɪnˈtuːnɪŋ/",
+              "meaning": "微调"
+            },
+            {
+              "word": "instruction tuning",
+              "phonetic": "/ɪnˈstrʌkʃn ˈtuːnɪŋ/",
+              "meaning": "指令微调"
+            },
+            {
+              "word": "rlhf",
+              "phonetic": "/ɑːr el eɪtʃ ef/",
+              "meaning": "人类反馈强化学习"
+            },
+            {
+              "word": "alignment",
+              "phonetic": "/əˈlaɪnmənt/",
+              "meaning": "对齐"
+            },
+            {
+              "word": "scaling law",
+              "phonetic": "/ˈskeɪlɪŋ lɔː/",
+              "meaning": "缩放定律"
+            },
+            {
+              "word": "emergent ability",
+              "phonetic": "/ɪˈmɜːrdʒənt əˈbɪləti/",
+              "meaning": "涌现能力"
+            }
+          ]
+        },
+        {
+          "name": "第二十七组 - 提示工程",
+          "words": [
+            {
+              "word": "prompt",
+              "phonetic": "/prɑːmpt/",
+              "meaning": "提示词"
+            },
+            {
+              "word": "prompt engineering",
+              "phonetic": "/prɑːmpt ˌendʒɪˈnɪrɪŋ/",
+              "meaning": "提示工程"
+            },
+            {
+              "word": "few-shot prompting",
+              "phonetic": "/fjuː ʃɑːt ˈprɑːmptɪŋ/",
+              "meaning": "少样本提示"
+            },
+            {
+              "word": "zero-shot prompting",
+              "phonetic": "/ˈzɪroʊ ʃɑːt ˈprɑːmptɪŋ/",
+              "meaning": "零样本提示"
+            },
+            {
+              "word": "chain-of-thought",
+              "phonetic": "/tʃeɪn əv θɔːt/",
+              "meaning": "思维链"
+            },
+            {
+              "word": "cot",
+              "phonetic": "/siː oʊ tiː/",
+              "meaning": "思维链（缩写）"
+            },
+            {
+              "word": "rag",
+              "phonetic": "/ræɡ/",
+              "meaning": "检索增强生成"
+            },
+            {
+              "word": "retrieval augmented generation",
+              "phonetic": "/rɪˈtriːvl ˌɔːɡmentɪd ˌdʒenəˈreɪʃn/",
+              "meaning": "检索增强生成"
+            },
+            {
+              "word": "system prompt",
+              "phonetic": "/ˈsɪstəm prɑːmpt/",
+              "meaning": "系统提示"
+            },
+            {
+              "word": "user prompt",
+              "phonetic": "/ˈjuːzər prɑːmpt/",
+              "meaning": "用户提示"
+            }
+          ]
+        },
+        {
+          "name": "第二十八组 - Token与分词",
+          "words": [
+            {
+              "word": "token",
+              "phonetic": "/ˈtoʊkən/",
+              "meaning": "令牌/词元"
+            },
+            {
+              "word": "tokenization",
+              "phonetic": "/ˌtoʊkənəˈzeɪʃn/",
+              "meaning": "分词"
+            },
+            {
+              "word": "bpe",
+              "phonetic": "/biː piː iː/",
+              "meaning": "字节对编码"
+            },
+            {
+              "word": "wordpiece",
+              "phonetic": "/ˈwɜːrdpiːs/",
+              "meaning": "词片"
+            },
+            {
+              "word": "sentencepiece",
+              "phonetic": "/ˈsentənspiːs/",
+              "meaning": "句子片段"
+            },
+            {
+              "word": "vocabulary size",
+              "phonetic": "/voʊˈkæbjəleri saɪz/",
+              "meaning": "词表大小"
+            },
+            {
+              "word": "unk token",
+              "phonetic": "/ʌŋk ˈtoʊkən/",
+              "meaning": "未知词元"
+            },
+            {
+              "word": "pad token",
+              "phonetic": "/pæd ˈtoʊkən/",
+              "meaning": "填充词元"
+            },
+            {
+              "word": "cls token",
+              "phonetic": "/siː el es ˈtoʊkən/",
+              "meaning": "分类词元"
+            },
+            {
+              "word": "sep token",
+              "phonetic": "/sep ˈtoʊkən/",
+              "meaning": "分隔词元"
+            }
+          ]
+        },
+        {
+          "name": "第二十九组 - 上下文与生成",
+          "words": [
+            {
+              "word": "context window",
+              "phonetic": "/ˈkɑːntekst ˈwɪndoʊ/",
+              "meaning": "上下文窗口"
+            },
+            {
+              "word": "context length",
+              "phonetic": "/ˈkɑːntekst leŋθ/",
+              "meaning": "上下文长度"
+            },
+            {
+              "word": "temperature",
+              "phonetic": "/ˈtemprətʃər/",
+              "meaning": "温度参数"
+            },
+            {
+              "word": "top-k sampling",
+              "phonetic": "/tɑːp keɪ ˈsæmplɪŋ/",
+              "meaning": "Top-K采样"
+            },
+            {
+              "word": "top-p sampling",
+              "phonetic": "/tɑːp piː ˈsæmplɪŋ/",
+              "meaning": "核采样"
+            },
+            {
+              "word": "beam search",
+              "phonetic": "/biːm sɜːrtʃ/",
+              "meaning": "束搜索"
+            },
+            {
+              "word": "greedy decoding",
+              "phonetic": "/ˈɡriːdi diːˈkoʊdɪŋ/",
+              "meaning": "贪心解码"
+            },
+            {
+              "word": "nucleus sampling",
+              "phonetic": "/ˈnuːkliəs ˈsæmplɪŋ/",
+              "meaning": "核采样"
+            },
+            {
+              "word": "repetition penalty",
+              "phonetic": "/ˌrepəˈtɪʃn ˈpenəlti/",
+              "meaning": "重复惩罚"
+            },
+            {
+              "word": "length penalty",
+              "phonetic": "/leŋθ ˈpenəlti/",
+              "meaning": "长度惩罚"
+            }
+          ]
+        },
+        {
+          "name": "第三十组 - 知名LLM模型",
+          "words": [
+            {
+              "word": "gpt",
+              "phonetic": "/dʒiː piː tiː/",
+              "meaning": "生成式预训练Transformer"
+            },
+            {
+              "word": "bert",
+              "phonetic": "/bɜːrt/",
+              "meaning": "双向编码器表示Transformer"
+            },
+            {
+              "word": "t5",
+              "phonetic": "/tiː faɪv/",
+              "meaning": "文本到文本迁移Transformer"
+            },
+            {
+              "word": "llama",
+              "phonetic": "/ˈlɑːmə/",
+              "meaning": "Meta开源大语言模型"
+            },
+            {
+              "word": "alpaca",
+              "phonetic": "/ælˈpækə/",
+              "meaning": "Alpaca模型"
+            },
+            {
+              "word": "vicuna",
+              "phonetic": "/vɪˈtʃuːnə/",
+              "meaning": "Vicuna模型"
+            },
+            {
+              "word": "falcon",
+              "phonetic": "/ˈfɔːlkən/",
+              "meaning": "Falcon模型"
+            },
+            {
+              "word": "mistral",
+              "phonetic": "/mɪˈstrɑːl/",
+              "meaning": "Mistral模型"
+            },
+            {
+              "word": "qwen",
+              "phonetic": "/kwen/",
+              "meaning": "通义千问模型"
+            },
+            {
+              "word": "chatglm",
+              "phonetic": "/tʃæt dʒiː el em/",
+              "meaning": "ChatGLM模型"
+            }
+          ]
+        },
+        {
+          "name": "第三十一组 - NLP基础任务",
+          "words": [
+            {
+              "word": "natural language processing",
+              "phonetic": "/ˈnætʃrəl ˈlæŋɡwɪdʒ ˈprɑːsesɪŋ/",
+              "meaning": "自然语言处理"
+            },
+            {
+              "word": "nlp",
+              "phonetic": "/en el piː/",
+              "meaning": "自然语言处理（缩写）"
+            },
+            {
+              "word": "text classification",
+              "phonetic": "/tekst ˌklæsɪfɪˈkeɪʃn/",
+              "meaning": "文本分类"
+            },
+            {
+              "word": "sentiment analysis",
+              "phonetic": "/ˈsentɪmənt əˈnæləsɪs/",
+              "meaning": "情感分析"
+            },
+            {
+              "word": "named entity recognition",
+              "phonetic": "/neɪmd ˈentəti ˌrekəɡˈnɪʃn/",
+              "meaning": "命名实体识别"
+            },
+            {
+              "word": "part-of-speech tagging",
+              "phonetic": "/pɑːrt əv spiːtʃ ˈtæɡɪŋ/",
+              "meaning": "词性标注"
+            },
+            {
+              "word": "dependency parsing",
+              "phonetic": "/dɪˈpendənsi ˈpɑːrsɪŋ/",
+              "meaning": "依存句法分析"
+            },
+            {
+              "word": "coreference resolution",
+              "phonetic": "/ˌkɔːrɪˈferəns ˌrezəˈluːʃn/",
+              "meaning": "共指消解"
+            },
+            {
+              "word": "word sense disambiguation",
+              "phonetic": "/wɜːrd sens ˌdɪsæmbɪˈɡjuːeɪʃn/",
+              "meaning": "词义消歧"
+            },
+            {
+              "word": "language modeling",
+              "phonetic": "/ˈlæŋɡwɪdʒ ˈmɑːdəlɪŋ/",
+              "meaning": "语言模型"
+            }
+          ]
+        },
+        {
+          "name": "第三十二组 - 文本处理技术",
+          "words": [
+            {
+              "word": "stemming",
+              "phonetic": "/ˈstemɪŋ/",
+              "meaning": "词干提取"
+            },
+            {
+              "word": "lemmatization",
+              "phonetic": "/ˌlemətaɪˈzeɪʃn/",
+              "meaning": "词形还原"
+            },
+            {
+              "word": "stop words",
+              "phonetic": "/stɑːp wɜːrdz/",
+              "meaning": "停用词"
+            },
+            {
+              "word": "n-gram",
+              "phonetic": "/en ɡræm/",
+              "meaning": "N元语法"
+            },
+            {
+              "word": "bag-of-words",
+              "phonetic": "/bæɡ əv wɜːrdz/",
+              "meaning": "词袋模型"
+            },
+            {
+              "word": "tf-idf",
+              "phonetic": "/tiː ef aɪ diː ef/",
+              "meaning": "词频逆文档频率"
+            },
+            {
+              "word": "word embedding",
+              "phonetic": "/wɜːrd ɪmˈbedɪŋ/",
+              "meaning": "词嵌入"
+            },
+            {
+              "word": "word2vec",
+              "phonetic": "/wɜːrd tuː vek/",
+              "meaning": "词向量模型"
+            },
+            {
+              "word": "glove",
+              "phonetic": "/ɡlʌv/",
+              "meaning": "全局向量"
+            },
+            {
+              "word": "fasttext",
+              "phonetic": "/fæst tekst/",
+              "meaning": "快速文本"
+            }
+          ]
+        },
+        {
+          "name": "第三十三组 - 高级NLP任务",
+          "words": [
+            {
+              "word": "machine translation",
+              "phonetic": "/məˈʃiːn trænsˈleɪʃn/",
+              "meaning": "机器翻译"
+            },
+            {
+              "word": "question answering",
+              "phonetic": "/ˈkwestʃən ˈɑːnsərɪŋ/",
+              "meaning": "问答系统"
+            },
+            {
+              "word": "text summarization",
+              "phonetic": "/tekst ˌsʌmərəˈzeɪʃn/",
+              "meaning": "文本摘要"
+            },
+            {
+              "word": "abstractive summarization",
+              "phonetic": "/æbˈstræktɪv ˌsʌmərəˈzeɪʃn/",
+              "meaning": "抽象摘要"
+            },
+            {
+              "word": "extractive summarization",
+              "phonetic": "/ɪkˈstræktɪv ˌsʌmərəˈzeɪʃn/",
+              "meaning": "抽取式摘要"
+            },
+            {
+              "word": "text generation",
+              "phonetic": "/tekst ˌdʒenəˈreɪʃn/",
+              "meaning": "文本生成"
+            },
+            {
+              "word": "paraphrasing",
+              "phonetic": "/ˌpærəˈfreɪzɪŋ/",
+              "meaning": "释义生成"
+            },
+            {
+              "word": "text simplification",
+              "phonetic": "/tekst ˌsɪmplɪfɪˈkeɪʃn/",
+              "meaning": "文本简化"
+            },
+            {
+              "word": "optical character recognition",
+              "phonetic": "/ˈɑːptɪkl ˈkærəktər ˌrekəɡˈnɪʃn/",
+              "meaning": "光学字符识别"
+            },
+            {
+              "word": "ocr",
+              "phonetic": "/oʊ siː ɑːr/",
+              "meaning": "光学字符识别（缩写）"
+            }
+          ]
+        },
+        {
+          "name": "第三十四组 - 对话与语音",
+          "words": [
+            {
+              "word": "chatbot",
+              "phonetic": "/ˈtʃætbɑːt/",
+              "meaning": "聊天机器人"
+            },
+            {
+              "word": "dialogue system",
+              "phonetic": "/ˈdaɪəlɑːɡ ˈsɪstəm/",
+              "meaning": "对话系统"
+            },
+            {
+              "word": "speech recognition",
+              "phonetic": "/spiːtʃ ˌrekəɡˈnɪʃn/",
+              "meaning": "语音识别"
+            },
+            {
+              "word": "automatic speech recognition",
+              "phonetic": "/ˌɔːtəˈmætɪk spiːtʃ ˌrekəɡˈnɪʃn/",
+              "meaning": "自动语音识别"
+            },
+            {
+              "word": "asr",
+              "phonetic": "/eɪ es ɑːr/",
+              "meaning": "自动语音识别（缩写）"
+            },
+            {
+              "word": "text-to-speech",
+              "phonetic": "/tekst tə spiːtʃ/",
+              "meaning": "文本转语音"
+            },
+            {
+              "word": "tts",
+              "phonetic": "/tiː tiː es/",
+              "meaning": "文本转语音（缩写）"
+            },
+            {
+              "word": "speaker recognition",
+              "phonetic": "/ˈspiːkər ˌrekəɡˈnɪʃn/",
+              "meaning": "说话人识别"
+            },
+            {
+              "word": "voice cloning",
+              "phonetic": "/vɔɪs ˈkloʊnɪŋ/",
+              "meaning": "语音克隆"
+            },
+            {
+              "word": "speech synthesis",
+              "phonetic": "/spiːtʃ ˈsɪnθəsɪs/",
+              "meaning": "语音合成"
+            }
+          ]
+        },
+        {
+          "name": "第三十五组 - 信息抽取与知识图谱",
+          "words": [
+            {
+              "word": "information extraction",
+              "phonetic": "/ˌɪnfərˈmeɪʃn ɪkˈstrækʃn/",
+              "meaning": "信息抽取"
+            },
+            {
+              "word": "relation extraction",
+              "phonetic": "/rɪˈleɪʃn ɪkˈstrækʃn/",
+              "meaning": "关系抽取"
+            },
+            {
+              "word": "event extraction",
+              "phonetic": "/ˈevənt ɪkˈstrækʃn/",
+              "meaning": "事件抽取"
+            },
+            {
+              "word": "knowledge graph",
+              "phonetic": "/ˈnɑːlɪdʒ ɡræf/",
+              "meaning": "知识图谱"
+            },
+            {
+              "word": "entity linking",
+              "phonetic": "/ˈentəti ˈlɪŋkɪŋ/",
+              "meaning": "实体链接"
+            },
+            {
+              "word": "slot filling",
+              "phonetic": "/slɑːt ˈfɪlɪŋ/",
+              "meaning": "槽位填充"
+            },
+            {
+              "word": "topic modeling",
+              "phonetic": "/ˈtɑːpɪk ˈmɑːdəlɪŋ/",
+              "meaning": "主题建模"
+            },
+            {
+              "word": "lda",
+              "phonetic": "/el diː eɪ/",
+              "meaning": "隐含狄利克雷分布"
+            },
+            {
+              "word": "named entity",
+              "phonetic": "/neɪmd ˈentəti/",
+              "meaning": "命名实体"
+            },
+            {
+              "word": "ontology",
+              "phonetic": "/ɑːnˈtɑːlədʒi/",
+              "meaning": "本体论"
+            }
+          ]
+        },
+        {
+          "name": "第三十六组 - 检索与推荐",
+          "words": [
+            {
+              "word": "information retrieval",
+              "phonetic": "/ˌɪnfərˈmeɪʃn rɪˈtriːvl/",
+              "meaning": "信息检索"
+            },
+            {
+              "word": "search engine",
+              "phonetic": "/sɜːrtʃ ˈendʒɪn/",
+              "meaning": "搜索引擎"
+            },
+            {
+              "word": "bm25",
+              "phonetic": "/biː em twenti-faɪv/",
+              "meaning": "最佳匹配25算法"
+            },
+            {
+              "word": "dense retrieval",
+              "phonetic": "/dens rɪˈtriːvl/",
+              "meaning": "稠密检索"
+            },
+            {
+              "word": "sparse retrieval",
+              "phonetic": "/spɑːrs rɪˈtriːvl/",
+              "meaning": "稀疏检索"
+            },
+            {
+              "word": "recommendation system",
+              "phonetic": "/ˌrekəmenˈdeɪʃn ˈsɪstəm/",
+              "meaning": "推荐系统"
+            },
+            {
+              "word": "collaborative filtering",
+              "phonetic": "/kəˈlæbərətɪv ˈfɪltərɪŋ/",
+              "meaning": "协同过滤"
+            },
+            {
+              "word": "content-based filtering",
+              "phonetic": "/ˈkɑːntent beɪst ˈfɪltərɪŋ/",
+              "meaning": "基于内容的过滤"
+            },
+            {
+              "word": "knowledge-based recommendation",
+              "phonetic": "/ˈnɑːlɪdʒ beɪst ˌrekəmenˈdeɪʃn/",
+              "meaning": "基于知识的推荐"
+            },
+            {
+              "word": "cold start",
+              "phonetic": "/koʊld stɑːrt/",
+              "meaning": "冷启动"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "第四部分：计算机视觉",
+      "groups": [
+        {
+          "name": "第三十七组 - CV基础任务",
+          "words": [
+            {
+              "word": "computer vision",
+              "phonetic": "/kəmˈpjuːtər ˈvɪʒn/",
+              "meaning": "计算机视觉"
+            },
+            {
+              "word": "cv",
+              "phonetic": "/siː viː/",
+              "meaning": "计算机视觉（缩写）"
+            },
+            {
+              "word": "image classification",
+              "phonetic": "/ˈɪmɪdʒ ˌklæsɪfɪˈkeɪʃn/",
+              "meaning": "图像分类"
+            },
+            {
+              "word": "object detection",
+              "phonetic": "/ˈɑːbdʒekt dɪˈtekʃn/",
+              "meaning": "目标检测"
+            },
+            {
+              "word": "image segmentation",
+              "phonetic": "/ˈɪmɪdʒ ˌseɡmenˈteɪʃn/",
+              "meaning": "图像分割"
+            },
+            {
+              "word": "semantic segmentation",
+              "phonetic": "/sɪˈmæntɪk ˌseɡmenˈteɪʃn/",
+              "meaning": "语义分割"
+            },
+            {
+              "word": "instance segmentation",
+              "phonetic": "/ˈɪnstəns ˌseɡmenˈteɪʃn/",
+              "meaning": "实例分割"
+            },
+            {
+              "word": "panoptic segmentation",
+              "phonetic": "/pænˈɑːptɪk ˌseɡmenˈteɪʃn/",
+              "meaning": "全景分割"
+            },
+            {
+              "word": "bounding box",
+              "phonetic": "/ˈbaʊndɪŋ bɑːks/",
+              "meaning": "边界框"
+            },
+            {
+              "word": "iou",
+              "phonetic": "/aɪ oʊ juː/",
+              "meaning": "交并比"
+            }
+          ]
+        },
+        {
+          "name": "第三十八组 - 人脸与人体",
+          "words": [
+            {
+              "word": "face recognition",
+              "phonetic": "/feɪs ˌrekəɡˈnɪʃn/",
+              "meaning": "人脸识别"
+            },
+            {
+              "word": "face detection",
+              "phonetic": "/feɪs dɪˈtekʃn/",
+              "meaning": "人脸检测"
+            },
+            {
+              "word": "facial landmark",
+              "phonetic": "/ˈfeɪʃl ˈlændmɑːrk/",
+              "meaning": "面部关键点"
+            },
+            {
+              "word": "emotion recognition",
+              "phonetic": "/ɪˈmoʊʃn ˌrekəɡˈnɪʃn/",
+              "meaning": "情绪识别"
+            },
+            {
+              "word": "pose estimation",
+              "phonetic": "/poʊz ˌestɪˈmeɪʃn/",
+              "meaning": "姿态估计"
+            },
+            {
+              "word": "human pose",
+              "phonetic": "/ˈhjuːmən poʊz/",
+              "meaning": "人体姿态"
+            },
+            {
+              "word": "skeleton",
+              "phonetic": "/ˈskelɪtn/",
+              "meaning": "骨架"
+            },
+            {
+              "word": "action recognition",
+              "phonetic": "/ˈækʃn ˌrekəɡˈnɪʃn/",
+              "meaning": "动作识别"
+            },
+            {
+              "word": "gaze estimation",
+              "phonetic": "/ɡeɪz ˌestɪˈmeɪʃn/",
+              "meaning": "视线估计"
+            },
+            {
+              "word": "age estimation",
+              "phonetic": "/eɪdʒ ˌestɪˈmeɪʃn/",
+              "meaning": "年龄估计"
+            }
+          ]
+        },
+        {
+          "name": "第三十九组 - 图像生成与编辑",
+          "words": [
+            {
+              "word": "image generation",
+              "phonetic": "/ˈɪmɪdʒ ˌdʒenəˈreɪʃn/",
+              "meaning": "图像生成"
+            },
+            {
+              "word": "image synthesis",
+              "phonetic": "/ˈɪmɪdʒ ˈsɪnθəsɪs/",
+              "meaning": "图像合成"
+            },
+            {
+              "word": "inpainting",
+              "phonetic": "/ɪnˈpeɪntɪŋ/",
+              "meaning": "图像修复"
+            },
+            {
+              "word": "outpainting",
+              "phonetic": "/aʊtˈpeɪntɪŋ/",
+              "meaning": "图像外绘"
+            },
+            {
+              "word": "image-to-image translation",
+              "phonetic": "/ˈɪmɪdʒ tə ˈɪmɪdʒ trænsˈleɪʃn/",
+              "meaning": "图像到图像翻译"
+            },
+            {
+              "word": "neural style transfer",
+              "phonetic": "/ˈnʊrəl staɪl ˈtrænsfər/",
+              "meaning": "神经风格迁移"
+            },
+            {
+              "word": "deepfake",
+              "phonetic": "/diːp feɪk/",
+              "meaning": "深度伪造"
+            },
+            {
+              "word": "super resolution",
+              "phonetic": "/ˈsuːpər ˌrezəˈluːʃn/",
+              "meaning": "超分辨率"
+            },
+            {
+              "word": "image denoising",
+              "phonetic": "/ˈɪmɪdʒ diːˈnɔɪzɪŋ/",
+              "meaning": "图像去噪"
+            },
+            {
+              "word": "image deblurring",
+              "phonetic": "/ˈɪmɪdʒ diːˈblɜːrɪŋ/",
+              "meaning": "图像去模糊"
+            }
+          ]
+        },
+        {
+          "name": "第四十组 - 视频分析",
+          "words": [
+            {
+              "word": "video analysis",
+              "phonetic": "/ˈvɪdioʊ əˈnæləsɪs/",
+              "meaning": "视频分析"
+            },
+            {
+              "word": "video classification",
+              "phonetic": "/ˈvɪdioʊ ˌklæsɪfɪˈkeɪʃn/",
+              "meaning": "视频分类"
+            },
+            {
+              "word": "action detection",
+              "phonetic": "/ˈækʃn dɪˈtekʃn/",
+              "meaning": "动作检测"
+            },
+            {
+              "word": "object tracking",
+              "phonetic": "/ˈɑːbdʒekt ˈtrækɪŋ/",
+              "meaning": "目标跟踪"
+            },
+            {
+              "word": "optical flow",
+              "phonetic": "/ˈɑːptɪkl floʊ/",
+              "meaning": "光流"
+            },
+            {
+              "word": "video segmentation",
+              "phonetic": "/ˈvɪdioʊ ˌseɡmenˈteɪʃn/",
+              "meaning": "视频分割"
+            },
+            {
+              "word": "temporal action localization",
+              "phonetic": "/ˈtempərəl ˈækʃn ˌloʊkəlaɪˈzeɪʃn/",
+              "meaning": "时序动作定位"
+            },
+            {
+              "word": "video captioning",
+              "phonetic": "/ˈvɪdioʊ ˈkæpʃənɪŋ/",
+              "meaning": "视频描述生成"
+            },
+            {
+              "word": "frame",
+              "phonetic": "/freɪm/",
+              "meaning": "帧"
+            },
+            {
+              "word": "fps",
+              "phonetic": "/ef piː es/",
+              "meaning": "每秒帧数"
+            }
+          ]
+        },
+        {
+          "name": "第四十一组 - 视觉基础模型",
+          "words": [
+            {
+              "word": "clip",
+              "phonetic": "/klɪp/",
+              "meaning": "对比语言图像预训练"
+            },
+            {
+              "word": "dino",
+              "phonetic": "/ˈdiːnoʊ/",
+              "meaning": "自蒸馏无标签学习"
+            },
+            {
+              "word": "sam",
+              "phonetic": "/sæm/",
+              "meaning": "分割一切模型"
+            },
+            {
+              "word": "vit",
+              "phonetic": "/viː aɪ tiː/",
+              "meaning": "视觉Transformer"
+            },
+            {
+              "word": "mae",
+              "phonetic": "/em eɪ iː/",
+              "meaning": "掩码自编码器"
+            },
+            {
+              "word": "simclr",
+              "phonetic": "/sɪm kəlɑːr/",
+              "meaning": "简单对比学习"
+            },
+            {
+              "word": "moco",
+              "phonetic": "/moʊkoʊ/",
+              "meaning": "动量对比学习"
+            },
+            {
+              "word": "detectron",
+              "phonetic": "/dɪˈtektroʊn/",
+              "meaning": "Detectron检测框架"
+            },
+            {
+              "word": "yolo",
+              "phonetic": "/ˈjoʊloʊ/",
+              "meaning": "实时目标检测"
+            },
+            {
+              "word": "rcnn",
+              "phonetic": "/ɑːr siː en en/",
+              "meaning": "区域卷积神经网络"
+            }
+          ]
+        },
+        {
+          "name": "第四十二组 - 三维视觉",
+          "words": [
+            {
+              "word": "3d reconstruction",
+              "phonetic": "/θriː diː ˌriːkənˈstrʌkʃn/",
+              "meaning": "三维重建"
+            },
+            {
+              "word": "point cloud",
+              "phonetic": "/pɔɪnt klaʊd/",
+              "meaning": "点云"
+            },
+            {
+              "word": "3d object detection",
+              "phonetic": "/θriː diː ˈɑːbdʒekt dɪˈtekʃn/",
+              "meaning": "三维目标检测"
+            },
+            {
+              "word": "depth estimation",
+              "phonetic": "/depθ ˌestɪˈmeɪʃn/",
+              "meaning": "深度估计"
+            },
+            {
+              "word": "stereo vision",
+              "phonetic": "/ˈsterioʊ ˈvɪʒn/",
+              "meaning": "立体视觉"
+            },
+            {
+              "word": "slam",
+              "phonetic": "/slæm/",
+              "meaning": "同步定位与建图"
+            },
+            {
+              "word": "structure from motion",
+              "phonetic": "/ˈstrʌktʃər frəm ˈmoʊʃn/",
+              "meaning": "运动恢复结构"
+            },
+            {
+              "word": "nerf",
+              "phonetic": "/nɜːrf/",
+              "meaning": "神经辐射场"
+            },
+            {
+              "word": "3d gaussian splitting",
+              "phonetic": "/θriː diː ˈɡaʊsiən ˈsplɪtɪŋ/",
+              "meaning": "三维高斯泼溅"
+            },
+            {
+              "word": "volume rendering",
+              "phonetic": "/ˈvɑːljuːm ˈrendərɪŋ/",
+              "meaning": "体渲染"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "第五部分：AI框架与工具",
+      "groups": [
+        {
+          "name": "第四十三组 - Python深度学习框架",
+          "words": [
+            {
+              "word": "tensorflow",
+              "phonetic": "/ˈtensərfloʊ/",
+              "meaning": "TensorFlow框架"
+            },
+            {
+              "word": "pytorch",
+              "phonetic": "/ˈpaɪtɔːrtʃ/",
+              "meaning": "PyTorch框架"
+            },
+            {
+              "word": "keras",
+              "phonetic": "/ˈkeɪrəs/",
+              "meaning": "Keras框架"
+            },
+            {
+              "word": "jax",
+              "phonetic": "/dʒæks/",
+              "meaning": "JAX框架"
+            },
+            {
+              "word": "theano",
+              "phonetic": "/θiˈɑːnoʊ/",
+              "meaning": "Theano框架"
+            },
+            {
+              "word": "caffe",
+              "phonetic": "/ˈkæfeɪ/",
+              "meaning": "Caffe框架"
+            },
+            {
+              "word": "mxnet",
+              "phonetic": "/em eks net/",
+              "meaning": "MXNet框架"
+            },
+            {
+              "word": "paddlepaddle",
+              "phonetic": "/ˈpædl ˈpædl/",
+              "meaning": "飞桨框架"
+            },
+            {
+              "word": "mindspore",
+              "phonetic": "/maɪnd spɔːr/",
+              "meaning": "MindSpore框架"
+            },
+            {
+              "word": "cntk",
+              "phonetic": "/siː en tiː keɪ/",
+              "meaning": "微软认知工具包"
+            }
+          ]
+        },
+        {
+          "name": "第四十四组 - Hugging Face生态",
+          "words": [
+            {
+              "word": "huggingface",
+              "phonetic": "/hʌɡɪŋfeɪs/",
+              "meaning": "Hugging Face平台"
+            },
+            {
+              "word": "transformers library",
+              "phonetic": "/trænsˈfɔːrmərz ˈlaɪbreri/",
+              "meaning": "Transformers库"
+            },
+            {
+              "word": "datasets library",
+              "phonetic": "/ˈdeɪtəsets ˈlaɪbreri/",
+              "meaning": "Datasets库"
+            },
+            {
+              "word": "tokenizers library",
+              "phonetic": "/ˈtoʊkənaɪzərz ˈlaɪbreri/",
+              "meaning": "Tokenizers库"
+            },
+            {
+              "word": "accelerate",
+              "phonetic": "/əkˈseləreɪt/",
+              "meaning": "Accelerate库"
+            },
+            {
+              "word": "peft",
+              "phonetic": "/peft/",
+              "meaning": "参数高效微调库"
+            },
+            {
+              "word": "bitsandbytes",
+              "phonetic": "/bɪts ənd ˈbʌmɪŋ/",
+              "meaning": "量化训练库"
+            },
+            {
+              "word": "trl",
+              "phonetic": "/tiː ɑːr el/",
+              "meaning": "Transformer强化学习库"
+            },
+            {
+              "word": "diffusers",
+              "phonetic": "/dɪˈfjuːzərz/",
+              "meaning": "扩散模型库"
+            },
+            {
+              "word": "optimum",
+              "phonetic": "/ˈɑːptɪməm/",
+              "meaning": "硬件优化库"
+            }
+          ]
+        },
+        {
+          "name": "第四十五组 - 模型部署工具",
+          "words": [
+            {
+              "word": "onnx",
+              "phonetic": "/oʊ en eks en/",
+              "meaning": "开放神经网络交换"
+            },
+            {
+              "word": "onnx runtime",
+              "phonetic": "/oʊ en eks en ˈrʌntaɪm/",
+              "meaning": "ONNX运行时"
+            },
+            {
+              "word": "tensorrt",
+              "phonetic": "/ˈtensər ɑːr tiː/",
+              "meaning": "TensorRT推理引擎"
+            },
+            {
+              "word": "openvino",
+              "phonetic": "/ˈoʊpən viːnoʊ/",
+              "meaning": "OpenVINO工具套件"
+            },
+            {
+              "word": "tflite",
+              "phonetic": "/tiː ef laɪt/",
+              "meaning": "TensorFlow Lite"
+            },
+            {
+              "word": "core ml",
+              "phonetic": "/kɔːr em el/",
+              "meaning": "Core ML"
+            },
+            {
+              "word": "torchscript",
+              "phonetic": "/tɔːrtʃ ˈskrɪpt/",
+              "meaning": "TorchScript"
+            },
+            {
+              "word": "triton inference server",
+              "phonetic": "/ˈtraɪtən ˈɪnfərəns ˈsɜːrvər/",
+              "meaning": "Triton推理服务器"
+            },
+            {
+              "word": "tensorflow serving",
+              "phonetic": "/ˈtensərfloʊ ˈsɜːrvɪŋ/",
+              "meaning": "TensorFlow Serving"
+            },
+            {
+              "word": "mlc-llm",
+              "phonetic": "/em el siː el em/",
+              "meaning": "机器学习编译LLM"
+            }
+          ]
+        },
+        {
+          "name": "第四十六组 - 大语言模型推理框架",
+          "words": [
+            {
+              "word": "llama.cpp",
+              "phonetic": "/lɑːmə siː plʌs plʌs/",
+              "meaning": "Llama C++推理框架"
+            },
+            {
+              "word": "ggml",
+              "phonetic": "/dʒiː dʒiː em el/",
+              "meaning": "通用张量库"
+            },
+            {
+              "word": "gguf",
+              "phonetic": "/dʒiː dʒiː juː ef/",
+              "meaning": "GGUF模型格式"
+            },
+            {
+              "word": "vllm",
+              "phonetic": "/viː el el em/",
+              "meaning": "高性能LLM推理引擎"
+            },
+            {
+              "word": "text-generation-inference",
+              "phonetic": "/tekst ˌdʒenəˈreɪʃn ˈɪnfərəns/",
+              "meaning": "文本生成推理"
+            },
+            {
+              "word": "deepseek",
+              "phonetic": "/diːp siːk/",
+              "meaning": "DeepSeek大模型"
+            },
+            {
+              "word": "qwen",
+              "phonetic": "/kwen/",
+              "meaning": "通义千问"
+            },
+            {
+              "word": "chatglm.cpp",
+              "phonetic": "/tʃæt dʒiː el em siː plʌs plʌs/",
+              "meaning": "ChatGLM C++推理"
+            },
+            {
+              "word": "awq",
+              "phonetic": "/eɪ dʌbəljuː kjuː/",
+              "meaning": "激活感知权重量化"
+            },
+            {
+              "word": "gptq",
+              "phonetic": "/dʒiː piː tiː kjuː/",
+              "meaning": "GPT量化"
+            }
+          ]
+        },
+        {
+          "name": "第四十七组 - 数据与标注工具",
+          "words": [
+            {
+              "word": "numpy",
+              "phonetic": "/ˈnʌmpi/",
+              "meaning": "NumPy数值计算库"
+            },
+            {
+              "word": "pandas",
+              "phonetic": "/ˈpændəz/",
+              "meaning": "Pandas数据分析库"
+            },
+            {
+              "word": "scipy",
+              "phonetic": "/saɪ ˈpaɪ/",
+              "meaning": "SciPy科学计算库"
+            },
+            {
+              "word": "matplotlib",
+              "phonetic": "/ˌmætləˈlɪb/",
+              "meaning": "Matplotlib绘图库"
+            },
+            {
+              "word": "seaborn",
+              "phonetic": "/ˈsiːbɔːrn/",
+              "meaning": "Seaborn可视化库"
+            },
+            {
+              "word": "scikit-learn",
+              "phonetic": "/ˈskaɪkɪt lɜːrn/",
+              "meaning": "Scikit-learn机器学习库"
+            },
+            {
+              "word": "opencv",
+              "phonetic": "/oʊ siː viː/",
+              "meaning": "OpenCV计算机视觉库"
+            },
+            {
+              "word": "pillow",
+              "phonetic": "/ˈpɪloʊ/",
+              "meaning": "Pillow图像处理库"
+            },
+            {
+              "word": "labelimg",
+              "phonetic": "/ˈleɪbl ɪm dʒiː/",
+              "meaning": "图像标注工具"
+            },
+            {
+              "word": "prodigy",
+              "phonetic": "/ˈprɑːdədʒi/",
+              "meaning": "主动学习标注工具"
+            }
+          ]
+        },
+        {
+          "name": "第四十八组 - MLOps工具链",
+          "words": [
+            {
+              "word": "mlops",
+              "phonetic": "/em el ɑːps/",
+              "meaning": "机器学习运维"
+            },
+            {
+              "word": "mlflow",
+              "phonetic": "/em el floʊ/",
+              "meaning": "MLflow实验管理"
+            },
+            {
+              "word": "kubeflow",
+              "phonetic": "/ˈkjuːbefloʊ/",
+              "meaning": "KubeFlow机器学习平台"
+            },
+            {
+              "word": "airflow",
+              "phonetic": "/ˈeɪrfloʊ/",
+              "meaning": "Airflow工作流调度"
+            },
+            {
+              "word": "dvc",
+              "phonetic": "/diː viː siː/",
+              "meaning": "数据版本控制"
+            },
+            {
+              "word": "weights-biases",
+              "phonetic": "/weɪts ˈwɑːndz/",
+              "meaning": "Weights & Biases实验追踪"
+            },
+            {
+              "word": "tensorboard",
+              "phonetic": "/ˈtensərbɔːrd/",
+              "meaning": "TensorBoard可视化"
+            },
+            {
+              "word": "prometheus",
+              "phonetic": "/prəˈmiːθiːəs/",
+              "meaning": "Prometheus监控系统"
+            },
+            {
+              "word": "grafana",
+              "phonetic": "/ɡrəˈfɑːnə/",
+              "meaning": "Grafana可视化"
+            },
+            {
+              "word": "docker",
+              "phonetic": "/ˈdɑːkər/",
+              "meaning": "Docker容器"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "第六部分：AI工程与部署",
+      "groups": [
+        {
+          "name": "第四十九组 - 模型推理优化",
+          "words": [
+            {
+              "word": "inference",
+              "phonetic": "/ˈɪnfərəns/",
+              "meaning": "推理"
+            },
+            {
+              "word": "model serving",
+              "phonetic": "/ˈmɑːdl ˈsɜːrvɪŋ/",
+              "meaning": "模型服务"
+            },
+            {
+              "word": "batch inference",
+              "phonetic": "/bætʃ ˈɪnfərəns/",
+              "meaning": "批量推理"
+            },
+            {
+              "word": "real-time inference",
+              "phonetic": "/ˈriːəl taɪm ˈɪnfərəns/",
+              "meaning": "实时推理"
+            },
+            {
+              "word": "latency",
+              "phonetic": "/ˈleɪtənsi/",
+              "meaning": "延迟"
+            },
+            {
+              "word": "throughput",
+              "phonetic": "/ˈθruːpʊt/",
+              "meaning": "吞吐量"
+            },
+            {
+              "word": "model quantization",
+              "phonetic": "/ˈmɑːdl ˌkwɑːntɪˈzeɪʃn/",
+              "meaning": "模型量化"
+            },
+            {
+              "word": "int8 quantization",
+              "phonetic": "/ɪnt eɪt ˌkwɑːntɪˈzeɪʃn/",
+              "meaning": "INT8量化"
+            },
+            {
+              "word": "fp16",
+              "phonetic": "/ef piː sɪkˈstiːn/",
+              "meaning": "半精度浮点"
+            },
+            {
+              "word": "pruning",
+              "phonetic": "/ˈpruːnɪŋ/",
+              "meaning": "剪枝"
+            }
+          ]
+        },
+        {
+          "name": "第五十组 - 模型压缩技术",
+          "words": [
+            {
+              "word": "model compression",
+              "phonetic": "/ˈmɑːdl kəmˈpreʃn/",
+              "meaning": "模型压缩"
+            },
+            {
+              "word": "knowledge distillation",
+              "phonetic": "/ˈnɑːlɪdʒ ˌdɪsˈtɪleɪʃn/",
+              "meaning": "知识蒸馏"
+            },
+            {
+              "word": "teacher-student model",
+              "phonetic": "/ˈtiːtʃər ˈstuːdənt ˈmɑːdl/",
+              "meaning": "师生模型"
+            },
+            {
+              "word": "low-rank factorization",
+              "phonetic": "/loʊ ræŋk ˌfæktəraɪˈzeɪʃn/",
+              "meaning": "低秩分解"
+            },
+            {
+              "word": "structured pruning",
+              "phonetic": "/ˈstrʌktʃərd ˈpruːnɪŋ/",
+              "meaning": "结构化剪枝"
+            },
+            {
+              "word": "unstructured pruning",
+              "phonetic": "/ʌnˈstrʌktʃərd ˈpruːnɪŋ/",
+              "meaning": "非结构化剪枝"
+            },
+            {
+              "word": "quantization-aware training",
+              "phonetic": "/ˌkwɑːntɪˈzeɪʃn əˈwer ˈtreɪnɪŋ/",
+              "meaning": "量化感知训练"
+            },
+            {
+              "word": "post-training quantization",
+              "phonetic": "/poʊst ˈtreɪnɪŋ ˌkwɑːntɪˈzeɪʃn/",
+              "meaning": "训练后量化"
+            },
+            {
+              "word": "sparsification",
+              "phonetic": "/spɑːrsɪfɪˈkeɪʃn/",
+              "meaning": "稀疏化"
+            },
+            {
+              "word": "neural architecture search",
+              "phonetic": "/ˈnʊrəl ˌɑːrkɪˈtektʃər sɜːrtʃ/",
+              "meaning": "神经架构搜索"
+            }
+          ]
+        },
+        {
+          "name": "第五十一组 - 边缘与移动端AI",
+          "words": [
+            {
+              "word": "edge computing",
+              "phonetic": "/edʒ kəmˈpjuːtɪŋ/",
+              "meaning": "边缘计算"
+            },
+            {
+              "word": "edge ai",
+              "phonetic": "/edʒ eɪ aɪ/",
+              "meaning": "边缘人工智能"
+            },
+            {
+              "word": "mobile ai",
+              "phonetic": "/ˈmoʊbl eɪ aɪ/",
+              "meaning": "移动端人工智能"
+            },
+            {
+              "word": "tinyml",
+              "phonetic": "/taɪni el el/",
+              "meaning": "微型机器学习"
+            },
+            {
+              "word": "iot",
+              "phonetic": "/aɪ oʊ tiː/",
+              "meaning": "物联网"
+            },
+            {
+              "word": "microcontroller",
+              "phonetic": "/ˈmaɪkroʊkənˈtroʊlər/",
+              "meaning": "微控制器"
+            },
+            {
+              "word": "embedded system",
+              "phonetic": "/ɪmˈbedɪd ˈsɪstəm/",
+              "meaning": "嵌入式系统"
+            },
+            {
+              "word": "npu",
+              "phonetic": "/en piː juː/",
+              "meaning": "神经网络处理器"
+            },
+            {
+              "word": "tpu",
+              "phonetic": "/tiː piː juː/",
+              "meaning": "张量处理单元"
+            },
+            {
+              "word": "edge device",
+              "phonetic": "/edʒ dɪˈvaɪs/",
+              "meaning": "边缘设备"
+            }
+          ]
+        },
+        {
+          "name": "第五十二组 - 云平台与API",
+          "words": [
+            {
+              "word": "aws sagemaker",
+              "phonetic": "/eɪ dʌbəljuː es ˈseɪdʒmeɪkər/",
+              "meaning": "AWS SageMaker平台"
+            },
+            {
+              "word": "google cloud ai",
+              "phonetic": "/ˈɡuːɡl klaʊd eɪ aɪ/",
+              "meaning": "谷歌云AI平台"
+            },
+            {
+              "word": "azure ai",
+              "phonetic": "/ˈæʒər eɪ aɪ/",
+              "meaning": "Azure AI平台"
+            },
+            {
+              "word": "openai api",
+              "phonetic": "/ˈoʊpən eɪ aɪ eɪ piː/",
+              "meaning": "OpenAI API"
+            },
+            {
+              "word": "anthropic api",
+              "phonetic": "/ˌænθrəˈpɑːk eɪ piː/",
+              "meaning": "Anthropic API"
+            },
+            {
+              "word": "stability ai api",
+              "phonetic": "/stəˈbɪləti eɪ aɪ eɪ piː/",
+              "meaning": "Stability AI API"
+            },
+            {
+              "word": "replicate",
+              "phonetic": "/ˈrepnɪˌkeɪt/",
+              "meaning": "Replicate模型托管平台"
+            },
+            {
+              "word": "hugging face inference api",
+              "phonetic": "/hʌɡɪŋ feɪs ˈɪnfərəns eɪ piː/",
+              "meaning": "Hugging Face推理API"
+            },
+            {
+              "word": "vertex ai",
+              "phonetic": "/ˈvɜːrteks eɪ aɪ/",
+              "meaning": "Vertex AI平台"
+            },
+            {
+              "word": "bedrock",
+              "phonetic": "/ˈbedrɑːk/",
+              "meaning": "Amazon Bedrock平台"
+            }
+          ]
+        },
+        {
+          "name": "第五十三组 - 数据存储与特征工程",
+          "words": [
+            {
+              "word": "feature store",
+              "phonetic": "/ˈfiːtʃər stɔːr/",
+              "meaning": "特征存储"
+            },
+            {
+              "word": "data pipeline",
+              "phonetic": "/ˈdeɪtə ˈpaɪplaɪn/",
+              "meaning": "数据管道"
+            },
+            {
+              "word": "etl",
+              "phonetic": "/iː tiː el/",
+              "meaning": "抽取转换加载"
+            },
+            {
+              "word": "data warehouse",
+              "phonetic": "/ˈdeɪtə ˈwerhaʊs/",
+              "meaning": "数据仓库"
+            },
+            {
+              "word": "data lake",
+              "phonetic": "/ˈdeɪtə leɪk/",
+              "meaning": "数据湖"
+            },
+            {
+              "word": "vector database",
+              "phonetic": "/ˈvektər ˈdeɪtəbeɪs/",
+              "meaning": "向量数据库"
+            },
+            {
+              "word": "milvus",
+              "phonetic": "/ˈmɪlvəs/",
+              "meaning": "Milvus向量数据库"
+            },
+            {
+              "word": "pinecone",
+              "phonetic": "/ˈpaɪnkoʊn/",
+              "meaning": "Pinecone向量数据库"
+            },
+            {
+              "word": "chroma",
+              "phonetic": "/ˈkroʊmə/",
+              "meaning": "Chroma向量数据库"
+            },
+            {
+              "word": "faiss",
+              "phonetic": "/feɪs/",
+              "meaning": "Faiss向量检索库"
+            }
+          ]
+        },
+        {
+          "name": "第五十四组 - 模型管理与监控",
+          "words": [
+            {
+              "word": "model registry",
+              "phonetic": "/ˈmɑːdl ˈredʒɪstri/",
+              "meaning": "模型注册表"
+            },
+            {
+              "word": "model versioning",
+              "phonetic": "/ˈmɑːdl ˈvɜːrʒənɪŋ/",
+              "meaning": "模型版本管理"
+            },
+            {
+              "word": "a/b testing",
+              "phonetic": "/eɪ biː ˈtestɪŋ/",
+              "meaning": "A/B测试"
+            },
+            {
+              "word": "canary deployment",
+              "phonetic": "/kəˈneri dɪˈplɔɪmənt/",
+              "meaning": "金丝雀部署"
+            },
+            {
+              "word": "blue-green deployment",
+              "phonetic": "/bluː ɡriːn dɪˈplɔɪmənt/",
+              "meaning": "蓝绿部署"
+            },
+            {
+              "word": "model monitoring",
+              "phonetic": "/ˈmɑːdl ˈmɑːnɪtərɪŋ/",
+              "meaning": "模型监控"
+            },
+            {
+              "word": "data drift",
+              "phonetic": "/ˈdeɪtə drɪft/",
+              "meaning": "数据漂移"
+            },
+            {
+              "word": "concept drift",
+              "phonetic": "/ˈkɑːnsept drɪft/",
+              "meaning": "概念漂移"
+            },
+            {
+              "word": "model degradation",
+              "phonetic": "/ˈmɑːdl ˌdeɡrəˈdeɪʃn/",
+              "meaning": "模型退化"
+            },
+            {
+              "word": "retraining",
+              "phonetic": "/ˌriːˈtreɪnɪŋ/",
+              "meaning": "重新训练"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "第七部分：AI应用场景",
+      "groups": [
+        {
+          "name": "第五十五组 - 自动驾驶",
+          "words": [
+            {
+              "word": "autonomous driving",
+              "phonetic": "/ɔːˈtɑːnəməs ˈdraɪvɪŋ/",
+              "meaning": "自动驾驶"
+            },
+            {
+              "word": "self-driving car",
+              "phonetic": "/self ˈdraɪvɪŋ kɑːr/",
+              "meaning": "自动驾驶汽车"
+            },
+            {
+              "word": "adas",
+              "phonetic": "/əˈdæs/",
+              "meaning": "高级驾驶辅助系统"
+            },
+            {
+              "word": "lane detection",
+              "phonetic": "/leɪn dɪˈtekʃn/",
+              "meaning": "车道检测"
+            },
+            {
+              "word": "obstacle detection",
+              "phonetic": "/ˈɑːbstəkl dɪˈtekʃn/",
+              "meaning": "障碍物检测"
+            },
+            {
+              "word": "traffic sign recognition",
+              "phonetic": "/ˈtræfɪk saɪn ˌrekəɡˈnɪʃn/",
+              "meaning": "交通标志识别"
+            },
+            {
+              "word": "path planning",
+              "phonetic": "/pæθ ˈplænɪŋ/",
+              "meaning": "路径规划"
+            },
+            {
+              "word": "simultaneous localization and mapping",
+              "phonetic": "/ˌsɪməlˈteɪniəs ˌloʊkəlaɪˈzeɪʃn ənd ˈmæpɪŋ/",
+              "meaning": "同步定位与建图"
+            },
+            {
+              "word": "slam",
+              "phonetic": "/slæm/",
+              "meaning": "同步定位与建图"
+            },
+            {
+              "word": "lidar",
+              "phonetic": "/ˈlaɪdɑːr/",
+              "meaning": "激光雷达"
+            }
+          ]
+        },
+        {
+          "name": "第五十六组 - 医疗AI",
+          "words": [
+            {
+              "word": "medical imaging",
+              "phonetic": "/ˈmedɪkl ˈɪmɪdʒɪŋ/",
+              "meaning": "医学影像"
+            },
+            {
+              "word": "radiology ai",
+              "phonetic": "/reɪdiˈɑːlədʒi eɪ aɪ/",
+              "meaning": "放射学人工智能"
+            },
+            {
+              "word": "drug discovery",
+              "phonetic": "/drʌɡ dɪˈskʌvəri/",
+              "meaning": "药物发现"
+            },
+            {
+              "word": "protein folding",
+              "phonetic": "/ˈproʊtiːn ˈfoʊldɪŋ/",
+              "meaning": "蛋白质折叠"
+            },
+            {
+              "word": "alpha fold",
+              "phonetic": "/ˈælfə foʊld/",
+              "meaning": "AlphaFold模型"
+            },
+            {
+              "word": "genomic analysis",
+              "phonetic": "/dʒɪˈnoʊmɪk əˈnæləsɪs/",
+              "meaning": "基因组分析"
+            },
+            {
+              "word": "clinical decision support",
+              "phonetic": "/ˈklɪnɪkl dɪˈsɪʒn səˈpɔːrt/",
+              "meaning": "临床决策支持"
+            },
+            {
+              "word": "medical diagnosis",
+              "phonetic": "/ˈmedɪkl ˌdaɪəɡˈnoʊsɪs/",
+              "meaning": "医学诊断"
+            },
+            {
+              "word": "biomarker",
+              "phonetic": "/ˈbaɪoʊmɑːrkər/",
+              "meaning": "生物标记物"
+            },
+            {
+              "word": "personalized medicine",
+              "phonetic": "/ˈpɜːrsənəlaɪzd ˈmedɪsn/",
+              "meaning": "个性化医疗"
+            }
+          ]
+        },
+        {
+          "name": "第五十七组 - 金融AI",
+          "words": [
+            {
+              "word": "algorithmic trading",
+              "phonetic": "/ˌælɡəˈrɪðmɪk ˈtreɪdɪŋ/",
+              "meaning": "算法交易"
+            },
+            {
+              "word": "high-frequency trading",
+              "phonetic": "/haɪ ˈfriːkwənsi ˈtreɪdɪŋ/",
+              "meaning": "高频交易"
+            },
+            {
+              "word": "credit scoring",
+              "phonetic": "/ˈkredɪt ˈskɔːrɪŋ/",
+              "meaning": "信用评分"
+            },
+            {
+              "word": "fraud detection",
+              "phonetic": "/frɔːd dɪˈtekʃn/",
+              "meaning": "欺诈检测"
+            },
+            {
+              "word": "risk assessment",
+              "phonetic": "/rɪsk əˈsesmənt/",
+              "meaning": "风险评估"
+            },
+            {
+              "word": "robo-advisor",
+              "phonetic": "/ˈroʊboʊ ədˈvaɪzər/",
+              "meaning": "机器人顾问"
+            },
+            {
+              "word": "insurtech",
+              "phonetic": "/ˈɪnʃʊrtek/",
+              "meaning": "保险科技"
+            },
+            {
+              "word": "regtech",
+              "phonetic": "/reg tek/",
+              "meaning": "监管科技"
+            },
+            {
+              "word": "blockchain ai",
+              "phonetic": "/ˈblɑːktʃeɪn eɪ aɪ/",
+              "meaning": "区块链人工智能"
+            },
+            {
+              "word": "stablecoin",
+              "phonetic": "/ˈsteɪblkɔɪn/",
+              "meaning": "稳定币"
+            }
+          ]
+        },
+        {
+          "name": "第五十八组 - 多模态AI",
+          "words": [
+            {
+              "word": "multimodal ai",
+              "phonetic": "/ˈmʌltimoʊdl eɪ aɪ/",
+              "meaning": "多模态人工智能"
+            },
+            {
+              "word": "vision-language model",
+              "phonetic": "/ˈvɪʒn ˈlæŋɡwɪdʒ ˈmɑːdl/",
+              "meaning": "视觉语言模型"
+            },
+            {
+              "word": "clip",
+              "phonetic": "/klɪp/",
+              "meaning": "对比语言图像预训练"
+            },
+            {
+              "word": "dall-e",
+              "phonetic": "/ˈdæli/",
+              "meaning": "DALL-E图像生成模型"
+            },
+            {
+              "word": "midjourney",
+              "phonetic": "/mɪdˈdʒɜːrni/",
+              "meaning": "Midjourney图像生成"
+            },
+            {
+              "word": "stable diffusion",
+              "phonetic": "/ˈsteɪbl dɪˈfjuːʒn/",
+              "meaning": "Stable Diffusion"
+            },
+            {
+              "word": "speech-to-text",
+              "phonetic": "/spiːtʃ tə tekst/",
+              "meaning": "语音转文本"
+            },
+            {
+              "word": "text-to-speech",
+              "phonetic": "/tekst tə spiːtʃ/",
+              "meaning": "文本转语音"
+            },
+            {
+              "word": "image captioning",
+              "phonetic": "/ˈɪmɪdʒ ˈkæpʃənɪŋ/",
+              "meaning": "图像描述生成"
+            },
+            {
+              "word": "visual question answering",
+              "phonetic": "/ˈvɪʒuəl ˈkwestʃən ˈɑːnsərɪŋ/",
+              "meaning": "视觉问答"
+            }
+          ]
+        },
+        {
+          "name": "第五十九组 - 强化学习应用",
+          "words": [
+            {
+              "word": "game playing ai",
+              "phonetic": "/ɡeɪm ˈpleɪɪŋ eɪ aɪ/",
+              "meaning": "游戏对战人工智能"
+            },
+            {
+              "word": "alpha go",
+              "phonetic": "/ˈælfə ɡoʊ/",
+              "meaning": "AlphaGo围棋AI"
+            },
+            {
+              "word": "alpha zero",
+              "phonetic": "/ˈælfə ˈzɪroʊ/",
+              "meaning": "AlphaZero通用棋类AI"
+            },
+            {
+              "word": "openai five",
+              "phonetic": "/ˈoʊpən eɪ aɪ faɪv/",
+              "meaning": "OpenAI Five DOTA2 AI"
+            },
+            {
+              "word": "starcraft ai",
+              "phonetic": "/ˈstɑːrkrɑːft eɪ aɪ/",
+              "meaning": "星际争霸人工智能"
+            },
+            {
+              "word": "game theory",
+              "phonetic": "/ɡeɪm ˈθɪəri/",
+              "meaning": "博弈论"
+            },
+            {
+              "word": "nash equilibrium",
+              "phonetic": "/næʃ ˌiːkwɪˈlɪbriəm/",
+              "meaning": "纳什均衡"
+            },
+            {
+              "word": "minimax",
+              "phonetic": "/ˈmɪnɪmæks/",
+              "meaning": "极小化极大"
+            },
+            {
+              "word": "monte carlo tree search",
+              "phonetic": "/ˈmɑːnti ˈkɑːrloʊ triː sɜːrtʃ/",
+              "meaning": "蒙特卡洛树搜索"
+            },
+            {
+              "word": "reward shaping",
+              "phonetic": "/rɪˈwɔːrd ˈʃeɪpɪŋ/",
+              "meaning": "奖励塑形"
+            }
+          ]
+        },
+        {
+          "name": "第六十组 - 机器人与具身智能",
+          "words": [
+            {
+              "word": "robotics",
+              "phonetic": "/roʊˈbɑːtɪks/",
+              "meaning": "机器人学"
+            },
+            {
+              "word": "embodied ai",
+              "phonetic": "/ɪmˈbɑːdid eɪ aɪ/",
+              "meaning": "具身人工智能"
+            },
+            {
+              "word": "manipulation",
+              "phonetic": "/məˌnɪpjuˈleɪʃn/",
+              "meaning": "操作"
+            },
+            {
+              "word": "navigation",
+              "phonetic": "/ˌnævɪˈɡeɪʃn/",
+              "meaning": "导航"
+            },
+            {
+              "word": "sim-to-real",
+              "phonetic": "/sɪm tə riːl/",
+              "meaning": "仿真到真实"
+            },
+            {
+              "word": "domain adaptation",
+              "phonetic": "/doʊˈmeɪn ˌædæpˈteɪʃn/",
+              "meaning": "域适应"
+            },
+            {
+              "word": "human-robot interaction",
+              "phonetic": "/ˈhjuːmən ˈroʊbɑːt ˌɪntərˈækʃn/",
+              "meaning": "人机交互"
+            },
+            {
+              "word": "autonomous navigation",
+              "phonetic": "/ɔːˈtɑːnəməs ˌnævɪˈɡeɪʃn/",
+              "meaning": "自主导航"
+            },
+            {
+              "word": "reinforcement learning from human feedback",
+              "phonetic": "/ˌriːɪnˈfɔːrsmənt ˈlɜːrnɪŋ frəm ˈhjuːmən ˈfiːdbæk/",
+              "meaning": "人类反馈强化学习"
+            },
+            {
+              "word": "rlhf",
+              "phonetic": "/ɑːr el eɪtʃ ef/",
+              "meaning": "人类反馈强化学习"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "第八部分：AI安全与伦理",
+      "groups": [
+        {
+          "name": "第六十一组 - AI安全",
+          "words": [
+            {
+              "word": "ai safety",
+              "phonetic": "/eɪ aɪ ˈseɪfti/",
+              "meaning": "人工智能安全"
+            },
+            {
+              "word": "adversarial attack",
+              "phonetic": "/ˌædvərˈseriəl əˈtæk/",
+              "meaning": "对抗攻击"
+            },
+            {
+              "word": "adversarial example",
+              "phonetic": "/ˌædvərˈseriəl ɪɡˈzæmpl/",
+              "meaning": "对抗样本"
+            },
+            {
+              "word": "fgsm",
+              "phonetic": "/ef dʒiː es em/",
+              "meaning": "快速梯度符号法"
+            },
+            {
+              "word": "pgd",
+              "phonetic": "/piː dʒiː diː/",
+              "meaning": "投影梯度下降"
+            },
+            {
+              "word": "model inversion",
+              "phonetic": "/ˈmɑːdl ɪnˈvɜːrʒn/",
+              "meaning": "模型反演"
+            },
+            {
+              "word": "membership inference",
+              "phonetic": "/ˈmembərʃɪp ˈɪnfərəns/",
+              "meaning": "成员推理"
+            },
+            {
+              "word": "data poisoning",
+              "phonetic": "/ˈdeɪtə ˈpɔɪzənɪŋ/",
+              "meaning": "数据投毒"
+            },
+            {
+              "word": "backdoor attack",
+              "phonetic": "/ˈbækdoːr əˈtæk/",
+              "meaning": "后门攻击"
+            },
+            {
+              "word": "robustness",
+              "phonetic": "/roʊˈbʌstnəs/",
+              "meaning": "鲁棒性"
+            }
+          ]
+        },
+        {
+          "name": "第六十二组 - AI伦理与偏见",
+          "words": [
+            {
+              "word": "ai ethics",
+              "phonetic": "/eɪ aɪ ˈeθɪks/",
+              "meaning": "人工智能伦理"
+            },
+            {
+              "word": "algorithmic bias",
+              "phonetic": "/ˌælɡəˈrɪðmɪk ˈbaɪəs/",
+              "meaning": "算法偏见"
+            },
+            {
+              "word": "fairness",
+              "phonetic": "/ˈfernəs/",
+              "meaning": "公平性"
+            },
+            {
+              "word": "transparency",
+              "phonetic": "/trænsˈpærənsi/",
+              "meaning": "透明度"
+            },
+            {
+              "word": "explainability",
+              "phonetic": "/ɪkˌspleɪnəˈbɪləti/",
+              "meaning": "可解释性"
+            },
+            {
+              "word": "interpretability",
+              "phonetic": "/ˌɪntərprətəˈbɪləti/",
+              "meaning": "可解释性"
+            },
+            {
+              "word": "black box",
+              "phonetic": "/blæk bɑːks/",
+              "meaning": "黑盒"
+            },
+            {
+              "word": "white box",
+              "phonetic": "/waɪt bɑːks/",
+              "meaning": "白盒"
+            },
+            {
+              "word": "ai alignment",
+              "phonetic": "/eɪ aɪ əˈlaɪnmənt/",
+              "meaning": "AI对齐"
+            },
+            {
+              "word": "constitutional ai",
+              "phonetic": "/ˌkɑːnstɪˈtuːʃənl eɪ aɪ/",
+              "meaning": "宪法人工智能"
+            }
+          ]
+        },
+        {
+          "name": "第六十三组 - 隐私与合规",
+          "words": [
+            {
+              "word": "privacy-preserving ai",
+              "phonetic": "/ˈprɪvəsi prɪˈzɜːrvɪŋ eɪ aɪ/",
+              "meaning": "隐私保护人工智能"
+            },
+            {
+              "word": "differential privacy",
+              "phonetic": "/ˌdɪfəˈrenʃl ˈprɪvəsi/",
+              "meaning": "差分隐私"
+            },
+            {
+              "word": "federated learning",
+              "phonetic": "/ˈfedəreɪtɪd ˈlɜːrnɪŋ/",
+              "meaning": "联邦学习"
+            },
+            {
+              "word": "homomorphic encryption",
+              "phonetic": "/ˌhoʊmoʊˈmɔːrfɪk ɪnˈkrɪpʃn/",
+              "meaning": "同态加密"
+            },
+            {
+              "word": "secure multi-party computation",
+              "phonetic": "/sɪˈkjʊr ˈmʌlti ˈpɑːrti ˌkɑːmpjuˈteɪʃn/",
+              "meaning": "安全多方计算"
+            },
+            {
+              "word": "gdpr",
+              "phonetic": "/dʒiː diː piː ɑːr/",
+              "meaning": "通用数据保护条例"
+            },
+            {
+              "word": "ai governance",
+              "phonetic": "/eɪ aɪ ˈɡʌvərnəns/",
+              "meaning": "人工智能治理"
+            },
+            {
+              "word": "responsible ai",
+              "phonetic": "/rɪˈspɑːnsəbl eɪ aɪ/",
+              "meaning": "负责任的人工智能"
+            },
+            {
+              "word": "ai act",
+              "phonetic": "/eɪ aɪ ækt/",
+              "meaning": "人工智能法案"
+            },
+            {
+              "word": "data protection",
+              "phonetic": "/ˈdeɪtə prəˈtekʃn/",
+              "meaning": "数据保护"
+            }
+          ]
+        },
+        {
+          "name": "第六十四组 - AI幻觉与可靠性",
+          "words": [
+            {
+              "word": "hallucination",
+              "phonetic": "/həˌluːsɪˈneɪʃn/",
+              "meaning": "幻觉"
+            },
+            {
+              "word": "fact checking",
+              "phonetic": "/fækt ˈtʃekɪŋ/",
+              "meaning": "事实核查"
+            },
+            {
+              "word": "grounding",
+              "phonetic": "/ˈɡraʊndɪŋ/",
+              "meaning": "接地/基础锚定"
+            },
+            {
+              "word": "source attribution",
+              "phonetic": "/sɔːrs ˌætrɪˈbjuːʃn/",
+              "meaning": "来源归属"
+            },
+            {
+              "word": "citation",
+              "phonetic": "/saɪˈteɪʃn/",
+              "meaning": "引用"
+            },
+            {
+              "word": "plagiarism detection",
+              "phonetic": "/ˈpleɪdʒərɪzəm dɪˈtekʃn/",
+              "meaning": "抄袭检测"
+            },
+            {
+              "word": "reliability",
+              "phonetic": "/rɪˌlaɪəˈbɪləti/",
+              "meaning": "可靠性"
+            },
+            {
+              "word": "truthfulness",
+              "phonetic": "/ˈtruːθflnəs/",
+              "meaning": "真实性"
+            },
+            {
+              "word": "toxicity",
+              "phonetic": "/tɑːkˈsɪsəti/",
+              "meaning": "毒性"
+            },
+            {
+              "word": "content moderation",
+              "phonetic": "/ˈkɑːntent ˌmɑːdəˈreɪʃn/",
+              "meaning": "内容审核"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "第九部分：前沿与新兴方向",
+      "groups": [
+        {
+          "name": "第六十五组 - 神经符号AI",
+          "words": [
+            {
+              "word": "neurosymbolic ai",
+              "phonetic": "/ˌnʊroʊˈsɪmbəlɪk eɪ aɪ/",
+              "meaning": "神经符号人工智能"
+            },
+            {
+              "word": "symbolic reasoning",
+              "phonetic": "/ˈsɪmbəlɪk ˈriːzənɪŋ/",
+              "meaning": "符号推理"
+            },
+            {
+              "word": "knowledge representation",
+              "phonetic": "/ˈnɑːlɪdʒ ˌreprɪzenˈteɪʃn/",
+              "meaning": "知识表示"
+            },
+            {
+              "word": "rule-based system",
+              "phonetic": "/ruːl beɪst ˈsɪstəm/",
+              "meaning": "基于规则的系统"
+            },
+            {
+              "word": "expert system",
+              "phonetic": "/ˈekspɜːrt ˈsɪstəm/",
+              "meaning": "专家系统"
+            },
+            {
+              "word": "ontology",
+              "phonetic": "/ɑːnˈtɑːlədʒi/",
+              "meaning": "本体论"
+            },
+            {
+              "word": "first-order logic",
+              "phonetic": "/fɜːrst ˈɔːrdər ˈlɑːdʒɪk/",
+              "meaning": "一阶逻辑"
+            },
+            {
+              "word": "probabilistic logic",
+              "phonetic": "/ˌprɑːbəˈbɪlɪstɪk ˈlɑːdʒɪk/",
+              "meaning": "概率逻辑"
+            },
+            {
+              "word": "causal inference",
+              "phonetic": "/ˈkɔːzl ˈɪnfərəns/",
+              "meaning": "因果推断"
+            },
+            {
+              "word": "causal discovery",
+              "phonetic": "/ˈkɔːzl dɪˈskʌvəri/",
+              "meaning": "因果发现"
+            }
+          ]
+        },
+        {
+          "name": "第六十六组 - 量子机器学习",
+          "words": [
+            {
+              "word": "quantum machine learning",
+              "phonetic": "/ˈkwɑːntəm məˈʃiːn ˈlɜːrnɪŋ/",
+              "meaning": "量子机器学习"
+            },
+            {
+              "word": "quantum computing",
+              "phonetic": "/ˈkwɑːntəm kəmˈpjuːtɪŋ/",
+              "meaning": "量子计算"
+            },
+            {
+              "word": "qubit",
+              "phonetic": "/kjuːbɪt/",
+              "meaning": "量子比特"
+            },
+            {
+              "word": "quantum neural network",
+              "phonetic": "/ˈkwɑːntəm ˈnʊrəl ˈnetwɜːrk/",
+              "meaning": "量子神经网络"
+            },
+            {
+              "word": "variational quantum circuit",
+              "phonetic": "/ˌveriˈeɪʃənl ˈkwɑːntəm ˈsɜːrkɪt/",
+              "meaning": "变分量子电路"
+            },
+            {
+              "word": "quantum kernel",
+              "phonetic": "/ˈkwɑːntəm ˈkɜːrnl/",
+              "meaning": "量子核"
+            },
+            {
+              "word": "superposition",
+              "phonetic": "/ˌsuːpərˌpəˈzɪʃn/",
+              "meaning": "叠加态"
+            },
+            {
+              "word": "entanglement",
+              "phonetic": "/ɪnˈtæŋɡlmənt/",
+              "meaning": "纠缠"
+            },
+            {
+              "word": "quantum advantage",
+              "phonetic": "/ˈkwɑːntəm ədˈvæntɪdʒ/",
+              "meaning": "量子优势"
+            },
+            {
+              "word": "n1s",
+              "phonetic": "/nɪs/",
+              "meaning": "含噪声中等规模量子"
+            }
+          ]
+        },
+        {
+          "name": "第六十七组 - 类脑计算与脉冲神经网络",
+          "words": [
+            {
+              "word": "neuromorphic computing",
+              "phonetic": "/ˌnʊroʊˈmɔːrfɪk kəmˈpjuːtɪŋ/",
+              "meaning": "类脑计算"
+            },
+            {
+              "word": "spiking neural network",
+              "phonetic": "/ˈspaɪkɪŋ ˈnʊrəl ˈnetwɜːrk/",
+              "meaning": "脉冲神经网络"
+            },
+            {
+              "word": "snn",
+              "phonetic": "/es en en/",
+              "meaning": "脉冲神经网络（缩写）"
+            },
+            {
+              "word": "event-driven computing",
+              "phonetic": "/ɪˈvent ˈdrɪvn kəmˈpjuːtɪŋ/",
+              "meaning": "事件驱动计算"
+            },
+            {
+              "word": "synaptic plasticity",
+              "phonetic": "/sɪˈnæptɪk plæˈstɪsəti/",
+              "meaning": "突触可塑性"
+            },
+            {
+              "word": "hebbian learning",
+              "phonetic": "/ˈhebiən ˈlɜːrnɪŋ/",
+              "meaning": "赫布学习"
+            },
+            {
+              "word": "spiking neuron",
+              "phonetic": "/ˈspaɪkɪŋ ˈnʊrɑːn/",
+              "meaning": "脉冲神经元"
+            },
+            {
+              "word": "rate coding",
+              "phonetic": "/reɪt ˈkoʊdɪŋ/",
+              "meaning": "速率编码"
+            },
+            {
+              "word": "temporal coding",
+              "phonetic": "/ˈtempərəl ˈkoʊdɪŋ/",
+              "meaning": "时序编码"
+            },
+            {
+              "word": "brain-inspired computing",
+              "phonetic": "/breɪn ɪnˈspaɪərd kəmˈpjuːtɪŋ/",
+              "meaning": "类脑计算"
+            }
+          ]
+        },
+        {
+          "name": "第六十八组 - AI for Science",
+          "words": [
+            {
+              "word": "ai for science",
+              "phonetic": "/eɪ aɪ fɔːr ˈsaɪəns/",
+              "meaning": "科学人工智能"
+            },
+            {
+              "word": "computational biology",
+              "phonetic": "/ˌkɑːmpjuˈteɪʃənl baɪˈɑːlədʒi/",
+              "meaning": "计算生物学"
+            },
+            {
+              "word": "bioinformatics",
+              "phonetic": "/ˌbaɪoʊˌɪnfərˈmætɪks/",
+              "meaning": "生物信息学"
+            },
+            {
+              "word": "cheminformatics",
+              "phonetic": "/ˌkemɪnˌfɔːrˈmætɪks/",
+              "meaning": "化学信息学"
+            },
+            {
+              "word": "materials discovery",
+              "phonetic": "/məˈtɪriəlz dɪˈskʌvəri/",
+              "meaning": "材料发现"
+            },
+            {
+              "word": "climate modeling",
+              "phonetic": "/ˈklaɪmət ˈmɑːdəlɪŋ/",
+              "meaning": "气候建模"
+            },
+            {
+              "word": "weather forecasting",
+              "phonetic": "/ˈweðər ˈfɔːrkæstɪŋ/",
+              "meaning": "天气预报"
+            },
+            {
+              "word": "protein structure prediction",
+              "phonetic": "/ˈproʊtiːn ˈstrʌktʃər prɪˈdɪkʃn/",
+              "meaning": "蛋白质结构预测"
+            },
+            {
+              "word": "drug-target interaction",
+              "phonetic": "/drʌɡ ˈtɑːrɡɪt ˌɪntərˈækʃn/",
+              "meaning": "药物靶点相互作用"
+            },
+            {
+              "word": "scientific simulation",
+              "phonetic": "/ˌsaɪənˈtɪfɪk ˌsɪmjuˈleɪʃn/",
+              "meaning": "科学仿真"
+            }
+          ]
+        },
+        {
+          "name": "第六十九组 - 自主智能体",
+          "words": [
+            {
+              "word": "ai agent",
+              "phonetic": "/eɪ aɪ ˈeɪdʒənt/",
+              "meaning": "人工智能体"
+            },
+            {
+              "word": "autonomous agent",
+              "phonetic": "/ɔːˈtɑːnəməs ˈeɪdʒənt/",
+              "meaning": "自主智能体"
+            },
+            {
+              "word": "multi-agent system",
+              "phonetic": "/ˈmʌlti ˈeɪdʒənt ˈsɪstəm/",
+              "meaning": "多智能体系统"
+            },
+            {
+              "word": "agentic workflow",
+              "phonetic": "/eɪˈdʒentɪk ˈwɜːrkfloʊ/",
+              "meaning": "智能体工作流"
+            },
+            {
+              "word": "tool use",
+              "phonetic": "/tuːl juːz/",
+              "meaning": "工具使用"
+            },
+            {
+              "word": "function calling",
+              "phonetic": "/ˈfʌŋkʃn ˈkɔːlɪŋ/",
+              "meaning": "函数调用"
+            },
+            {
+              "word": "reasoning",
+              "phonetic": "/ˈriːzənɪŋ/",
+              "meaning": "推理"
+            },
+            {
+              "word": "planning",
+              "phonetic": "/ˈplænɪŋ/",
+              "meaning": "规划"
+            },
+            {
+              "word": "memory",
+              "phonetic": "/ˈmeməri/",
+              "meaning": "记忆"
+            },
+            {
+              "word": "self-reflection",
+              "phonetic": "/self rɪˈflekʃn/",
+              "meaning": "自我反思"
+            }
+          ]
+        },
+        {
+          "name": "第七十组 - 提示攻击与安全",
+          "words": [
+            {
+              "word": "prompt injection",
+              "phonetic": "/prɑːmpt ɪnˈdʒekʃn/",
+              "meaning": "提示注入"
+            },
+            {
+              "word": "jailbreak",
+              "phonetic": "/ˈdʒeɪlbreɪk/",
+              "meaning": "越狱"
+            },
+            {
+              "word": "adversarial prompt",
+              "phonetic": "/ˌædvərˈseriəl prɑːmpt/",
+              "meaning": "对抗性提示"
+            },
+            {
+              "word": "llm security",
+              "phonetic": "/el el em sɪˈkjʊrəti/",
+              "meaning": "大语言模型安全"
+            },
+            {
+              "word": "data exfiltration",
+              "phonetic": "/ˈdeɪtə ˌekfɪlˈtreɪʃn/",
+              "meaning": "数据窃取"
+            },
+            {
+              "word": "prompt leaking",
+              "phonetic": "/prɑːmpt ˈliːkɪŋ/",
+              "meaning": "提示泄漏"
+            },
+            {
+              "word": "system prompt extraction",
+              "phonetic": "/ˈsɪstəm prɑːmpt ɪkˈstrækʃn/",
+              "meaning": "系统提示提取"
+            },
+            {
+              "word": "llm firewall",
+              "phonetic": "/el el em ˈfaɪərwɔːl/",
+              "meaning": "大语言模型防火墙"
+            },
+            {
+              "word": "safety filter",
+              "phonetic": "/ˈseɪfti ˈfɪltər/",
+              "meaning": "安全过滤器"
+            },
+            {
+              "word": "red teaming",
+              "phonetic": "/red ˈtiːmɪŋ/",
+              "meaning": "红队测试"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

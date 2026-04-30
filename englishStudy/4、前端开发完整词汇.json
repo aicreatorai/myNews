@@ -1,0 +1,4364 @@
+{
+  "title": "前端开发完整技术词汇大全",
+  "parts": [
+    {
+      "name": "第一部分：HTML基础",
+      "groups": [
+        {
+          "name": "第一组 - HTML核心概念",
+          "words": [
+            {
+              "word": "html",
+              "phonetic": "/eɪtʃ tiː em el/",
+              "meaning": "超文本标记语言"
+            },
+            {
+              "word": "tag",
+              "phonetic": "/tæɡ/",
+              "meaning": "标签"
+            },
+            {
+              "word": "element",
+              "phonetic": "/ˈelɪmənt/",
+              "meaning": "元素"
+            },
+            {
+              "word": "attribute",
+              "phonetic": "/əˈtrɪbjuːt/",
+              "meaning": "属性"
+            },
+            {
+              "word": "value",
+              "phonetic": "/ˈvæljuː/",
+              "meaning": "值"
+            }
+          ]
+        },
+        {
+          "name": "第二组 - 文档结构",
+          "words": [
+            {
+              "word": "doctype",
+              "phonetic": "/ˈdɒkjuːment taɪp/",
+              "meaning": "文档类型声明"
+            },
+            {
+              "word": "html",
+              "phonetic": "/eɪtʃ tiː em el/",
+              "meaning": "HTML根元素"
+            },
+            {
+              "word": "head",
+              "phonetic": "/hed/",
+              "meaning": "文档头部"
+            },
+            {
+              "word": "body",
+              "phonetic": "/ˈbɑːdi/",
+              "meaning": "文档主体"
+            },
+            {
+              "word": "meta",
+              "phonetic": "/ˈmetə/",
+              "meaning": "元数据"
+            }
+          ]
+        },
+        {
+          "name": "第三组 - 文本元素",
+          "words": [
+            {
+              "word": "heading",
+              "phonetic": "/ˈhedɪŋ/",
+              "meaning": "标题"
+            },
+            {
+              "word": "paragraph",
+              "phonetic": "/ˈpærəɡræf/",
+              "meaning": "段落"
+            },
+            {
+              "word": "span",
+              "phonetic": "/spæn/",
+              "meaning": "行内容器"
+            },
+            {
+              "word": "div",
+              "phonetic": "/dɪv/",
+              "meaning": "区块容器"
+            },
+            {
+              "word": "line break",
+              "phonetic": "/laɪn breɪk/",
+              "meaning": "换行"
+            }
+          ]
+        },
+        {
+          "name": "第四组 - 链接与图像",
+          "words": [
+            {
+              "word": "anchor",
+              "phonetic": "/ˈæŋkər/",
+              "meaning": "锚点/链接"
+            },
+            {
+              "word": "hyperlink",
+              "phonetic": "/ˈhaɪpərlɪŋk/",
+              "meaning": "超链接"
+            },
+            {
+              "word": "image",
+              "phonetic": "/ˈɪmɪdʒ/",
+              "meaning": "图像"
+            },
+            {
+              "word": "source",
+              "phonetic": "/sɔːrs/",
+              "meaning": "资源地址"
+            },
+            {
+              "word": "alt text",
+              "phonetic": "/ɔːlt tekst/",
+              "meaning": "替代文本"
+            }
+          ]
+        },
+        {
+          "name": "第五组 - 列表与表格",
+          "words": [
+            {
+              "word": "unordered list",
+              "phonetic": "/ʌnˈɔːrdərd lɪst/",
+              "meaning": "无序列表"
+            },
+            {
+              "word": "ordered list",
+              "phonetic": "/ˈɔːrdərd lɪst/",
+              "meaning": "有序列表"
+            },
+            {
+              "word": "list item",
+              "phonetic": "/lɪst ˈaɪtəm/",
+              "meaning": "列表项"
+            },
+            {
+              "word": "table",
+              "phonetic": "/ˈteɪbl/",
+              "meaning": "表格"
+            },
+            {
+              "word": "row",
+              "phonetic": "/roʊ/",
+              "meaning": "行"
+            },
+            {
+              "word": "cell",
+              "phonetic": "/sel/",
+              "meaning": "单元格"
+            },
+            {
+              "word": "header cell",
+              "phonetic": "/ˈhedər sel/",
+              "meaning": "表头单元格"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "第二部分：CSS基础",
+      "groups": [
+        {
+          "name": "第六组 - CSS核心概念",
+          "words": [
+            {
+              "word": "css",
+              "phonetic": "/siː es es/",
+              "meaning": "层叠样式表"
+            },
+            {
+              "word": "selector",
+              "phonetic": "/sɪˈlektər/",
+              "meaning": "选择器"
+            },
+            {
+              "word": "property",
+              "phonetic": "/ˈprɑːpərti/",
+              "meaning": "属性"
+            },
+            {
+              "word": "declaration",
+              "phonetic": "/dɪˌklærəˈreɪʃn/",
+              "meaning": "声明"
+            },
+            {
+              "word": "rule",
+              "phonetic": "/ruːl/",
+              "meaning": "规则"
+            },
+            {
+              "word": "cascade",
+              "phonetic": "/kæˈskeɪd/",
+              "meaning": "层叠"
+            }
+          ]
+        },
+        {
+          "name": "第七组 - 选择器类型",
+          "words": [
+            {
+              "word": "class selector",
+              "phonetic": "/klæs sɪˈlektər/",
+              "meaning": "类选择器"
+            },
+            {
+              "word": "id selector",
+              "phonetic": "/aɪ diː sɪˈlektər/",
+              "meaning": "ID选择器"
+            },
+            {
+              "word": "tag selector",
+              "phonetic": "/tæɡ sɪˈlektər/",
+              "meaning": "标签选择器"
+            },
+            {
+              "word": "universal selector",
+              "phonetic": "/ˌjuːnɪˈvɜːrsl sɪˈlektər/",
+              "meaning": "通配选择器"
+            },
+            {
+              "word": "attribute selector",
+              "phonetic": "/əˈtrɪbjuːt sɪˈlektər/",
+              "meaning": "属性选择器"
+            }
+          ]
+        },
+        {
+          "name": "第八组 - 颜色与背景",
+          "words": [
+            {
+              "word": "color",
+              "phonetic": "/ˈkʌlər/",
+              "meaning": "颜色"
+            },
+            {
+              "word": "background",
+              "phonetic": "/ˈbækɡraʊnd/",
+              "meaning": "背景"
+            },
+            {
+              "word": "background color",
+              "phonetic": "/ˈbækɡraʊnd ˈkʌlər/",
+              "meaning": "背景色"
+            },
+            {
+              "word": "background image",
+              "phonetic": "/ˈbækɡraʊnd ˈɪmɪdʒ/",
+              "meaning": "背景图"
+            },
+            {
+              "word": "opacity",
+              "phonetic": "/oʊˈpæsəti/",
+              "meaning": "不透明度"
+            },
+            {
+              "word": "rgba",
+              "phonetic": "/ɑːr dʒiː eɪ/",
+              "meaning": "红色绿蓝色加透明度"
+            }
+          ]
+        },
+        {
+          "name": "第九组 - 文本样式",
+          "words": [
+            {
+              "word": "font family",
+              "phonetic": "/fʌnt ˈfæməli/",
+              "meaning": "字体族"
+            },
+            {
+              "word": "font size",
+              "phonetic": "/fʌnt saɪz/",
+              "meaning": "字体大小"
+            },
+            {
+              "word": "font weight",
+              "phonetic": "/fʌnt weɪt/",
+              "meaning": "字体粗细"
+            },
+            {
+              "word": "font style",
+              "phonetic": "/fʌnt ˈstaɪl/",
+              "meaning": "字体样式"
+            },
+            {
+              "word": "text align",
+              "phonetic": "/tekst əˈlaɪn/",
+              "meaning": "文本对齐"
+            },
+            {
+              "word": "text decoration",
+              "phonetic": "/tekst ˌdekəˈreɪʃn/",
+              "meaning": "文本装饰"
+            }
+          ]
+        },
+        {
+          "name": "第十组 - 盒模型",
+          "words": [
+            {
+              "word": "box model",
+              "phonetic": "/bɒks ˈmɒdl/",
+              "meaning": "盒模型"
+            },
+            {
+              "word": "margin",
+              "phonetic": "/ˈmɑːrdʒɪn/",
+              "meaning": "外边距"
+            },
+            {
+              "word": "border",
+              "phonetic": "/ˈbɔːrdər/",
+              "meaning": "边框"
+            },
+            {
+              "word": "padding",
+              "phonetic": "/ˈpædɪŋ/",
+              "meaning": "内边距"
+            },
+            {
+              "word": "content",
+              "phonetic": "/ˈkɑːntent/",
+              "meaning": "内容"
+            },
+            {
+              "word": "width",
+              "phonetic": "/wɪdθ/",
+              "meaning": "宽度"
+            },
+            {
+              "word": "height",
+              "phonetic": "/haɪt/",
+              "meaning": "高度"
+            }
+          ]
+        },
+        {
+          "name": "第十一组 - 边框与圆角",
+          "words": [
+            {
+              "word": "border width",
+              "phonetic": "/ˈbɔːrdər wɪdθ/",
+              "meaning": "边框宽度"
+            },
+            {
+              "word": "border style",
+              "phonetic": "/ˈbɔːrdər ˈstaɪl/",
+              "meaning": "边框样式"
+            },
+            {
+              "word": "border color",
+              "phonetic": "/ˈbɔːrdər ˈkʌlər/",
+              "meaning": "边框颜色"
+            },
+            {
+              "word": "border radius",
+              "phonetic": "/ˈbɔːrdər ˈreɪdiəs/",
+              "meaning": "圆角"
+            },
+            {
+              "word": "box shadow",
+              "phonetic": "/bɒks ˈʃædoʊ/",
+              "meaning": "阴影"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "第三部分：CSS布局",
+      "groups": [
+        {
+          "name": "第十二组 - Display属性",
+          "words": [
+            {
+              "word": "display",
+              "phonetic": "/dɪˈspleɪ/",
+              "meaning": "显示属性"
+            },
+            {
+              "word": "block",
+              "phonetic": "/blɑːk/",
+              "meaning": "块级元素"
+            },
+            {
+              "word": "inline",
+              "phonetic": "/ˈɪnlaɪn/",
+              "meaning": "行内元素"
+            },
+            {
+              "word": "inline block",
+              "phonetic": "/ˈɪnlaɪn blɑːk/",
+              "meaning": "行内块"
+            },
+            {
+              "word": "none",
+              "phonetic": "/nʌn/",
+              "meaning": "无/隐藏"
+            }
+          ]
+        },
+        {
+          "name": "第十三组 - Flexbox布局",
+          "words": [
+            {
+              "word": "flexbox",
+              "phonetic": "/ˈfleksbɒks/",
+              "meaning": "弹性盒布局"
+            },
+            {
+              "word": "flex container",
+              "phonetic": "/fleks kənˈteɪnər/",
+              "meaning": "弹性容器"
+            },
+            {
+              "word": "flex item",
+              "phonetic": "/fleks ˈaɪtəm/",
+              "meaning": "弹性项目"
+            },
+            {
+              "word": "flex direction",
+              "phonetic": "/fleks dəˈrekʃn/",
+              "meaning": "弹性方向"
+            },
+            {
+              "word": "flex wrap",
+              "phonetic": "/fleks ræp/",
+              "meaning": "弹性换行"
+            },
+            {
+              "word": "justify content",
+              "phonetic": "/ˈdʒʌstɪfaɪ ˈkɑːntent/",
+              "meaning": "主轴对齐"
+            },
+            {
+              "word": "align items",
+              "phonetic": "/əˈlaɪn ˈaɪtəmz/",
+              "meaning": "交叉轴对齐"
+            },
+            {
+              "word": "gap",
+              "phonetic": "/ɡæp/",
+              "meaning": "间距"
+            }
+          ]
+        },
+        {
+          "name": "第十四组 - Grid布局",
+          "words": [
+            {
+              "word": "grid",
+              "phonetic": "/ɡrɪd/",
+              "meaning": "网格布局"
+            },
+            {
+              "word": "grid container",
+              "phonetic": "/ɡrɪd kənˈteɪnər/",
+              "meaning": "网格容器"
+            },
+            {
+              "word": "grid item",
+              "phonetic": "/ɡrɪd ˈaɪtəm/",
+              "meaning": "网格项目"
+            },
+            {
+              "word": "grid template",
+              "phonetic": "/ɡrɪd ˈtemplət/",
+              "meaning": "网格模板"
+            },
+            {
+              "word": "grid column",
+              "phonetic": "/ɡrɪd ˈkɒləm/",
+              "meaning": "网格列"
+            },
+            {
+              "word": "grid row",
+              "phonetic": "/ɡrɪd roʊ/",
+              "meaning": "网格行"
+            },
+            {
+              "word": "grid gap",
+              "phonetic": "/ɡrɪd ɡæp/",
+              "meaning": "网格间距"
+            },
+            {
+              "word": "fr unit",
+              "phonetic": "/ef ɑːr ˈjuːnɪt/",
+              "meaning": "分数单位"
+            }
+          ]
+        },
+        {
+          "name": "第十五组 - 定位",
+          "words": [
+            {
+              "word": "position",
+              "phonetic": "/pəˈzɪʃn/",
+              "meaning": "定位"
+            },
+            {
+              "word": "static",
+              "phonetic": "/ˈstætɪk/",
+              "meaning": "静态定位"
+            },
+            {
+              "word": "relative",
+              "phonetic": "/ˈrelətɪv/",
+              "meaning": "相对定位"
+            },
+            {
+              "word": "absolute",
+              "phonetic": "/ˈæbsəluːt/",
+              "meaning": "绝对定位"
+            },
+            {
+              "word": "fixed",
+              "phonetic": "/fɪkst/",
+              "meaning": "固定定位"
+            },
+            {
+              "word": "sticky",
+              "phonetic": "/ˈstɪki/",
+              "meaning": "粘性定位"
+            },
+            {
+              "word": "z index",
+              "phonetic": "/ziː ˈɪndeks/",
+              "meaning": "层级"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "第四部分：JavaScript基础",
+      "groups": [
+        {
+          "name": "第十六组 - 变量与数据类型",
+          "words": [
+            {
+              "word": "variable",
+              "phonetic": "/ˈveriəbl/",
+              "meaning": "变量"
+            },
+            {
+              "word": "let",
+              "phonetic": "/let/",
+              "meaning": "声明变量"
+            },
+            {
+              "word": "const",
+              "phonetic": "/kənst/",
+              "meaning": "声明常量"
+            },
+            {
+              "word": "string",
+              "phonetic": "/strɪŋ/",
+              "meaning": "字符串"
+            },
+            {
+              "word": "number",
+              "phonetic": "/ˈnʌmbər/",
+              "meaning": "数字"
+            },
+            {
+              "word": "boolean",
+              "phonetic": "/ˈbuːliən/",
+              "meaning": "布尔值"
+            },
+            {
+              "word": "null",
+              "phonetic": "/nʌl/",
+              "meaning": "空值"
+            },
+            {
+              "word": "undefined",
+              "phonetic": "/ˌʌndɪˈfaɪnd/",
+              "meaning": "未定义"
+            },
+            {
+              "word": "symbol",
+              "phonetic": "/ˈsɪmbəl/",
+              "meaning": "符号"
+            },
+            {
+              "word": "bigint",
+              "phonetic": "/ˈbɪɡ ɪnt/",
+              "meaning": "大整数"
+            }
+          ]
+        },
+        {
+          "name": "第十七组 - 运算符",
+          "words": [
+            {
+              "word": "operator",
+              "phonetic": "/ˈɑːpəreɪtər/",
+              "meaning": "运算符"
+            },
+            {
+              "word": "arithmetic operator",
+              "phonetic": "/əˈrɪθmətɪk ˈɑːpəreɪtər/",
+              "meaning": "算术运算符"
+            },
+            {
+              "word": "comparison operator",
+              "phonetic": "/kəmˈpærɪsn ˈɑːpəreɪtər/",
+              "meaning": "比较运算符"
+            },
+            {
+              "word": "logical operator",
+              "phonetic": "/ˈlɒdʒɪkl ˈɑːpəreɪtər/",
+              "meaning": "逻辑运算符"
+            },
+            {
+              "word": "assignment operator",
+              "phonetic": "/əˈsaɪnmənt ˈɑːpəreɪtər/",
+              "meaning": "赋值运算符"
+            },
+            {
+              "word": "ternary operator",
+              "phonetic": "/ˈtɜːrnəri ˈɑːpəreɪtər/",
+              "meaning": "三元运算符"
+            }
+          ]
+        },
+        {
+          "name": "第十八组 - 控制流",
+          "words": [
+            {
+              "word": "if statement",
+              "phonetic": "/ɪf ˈsteɪtmənt/",
+              "meaning": "if语句"
+            },
+            {
+              "word": "else",
+              "phonetic": "/els/",
+              "meaning": "否则"
+            },
+            {
+              "word": "else if",
+              "phonetic": "/els ɪf/",
+              "meaning": "否则如果"
+            },
+            {
+              "word": "switch",
+              "phonetic": "/swɪtʃ/",
+              "meaning": "switch语句"
+            },
+            {
+              "word": "case",
+              "phonetic": "/keɪs/",
+              "meaning": "分支"
+            },
+            {
+              "word": "break",
+              "phonetic": "/breɪk/",
+              "meaning": "跳出"
+            },
+            {
+              "word": "default",
+              "phonetic": "/dɪˈfɔːlt/",
+              "meaning": "默认"
+            }
+          ]
+        },
+        {
+          "name": "第十九组 - 循环",
+          "words": [
+            {
+              "word": "for loop",
+              "phonetic": "/fɔːr luːp/",
+              "meaning": "for循环"
+            },
+            {
+              "word": "while loop",
+              "phonetic": "/waɪl luːp/",
+              "meaning": "while循环"
+            },
+            {
+              "word": "do while",
+              "phonetic": "/duː waɪl/",
+              "meaning": "do...while循环"
+            },
+            {
+              "word": "for in",
+              "phonetic": "/fɔːr ɪn/",
+              "meaning": "for...in循环"
+            },
+            {
+              "word": "for of",
+              "phonetic": "/fɔːr əv/",
+              "meaning": "for...of循环"
+            },
+            {
+              "word": "continue",
+              "phonetic": "/kənˈtɪnjuː/",
+              "meaning": "继续下一次循环"
+            },
+            {
+              "word": "iterate",
+              "phonetic": "/ˈɪtəreɪt/",
+              "meaning": "迭代"
+            }
+          ]
+        },
+        {
+          "name": "第二十组 - 函数基础",
+          "words": [
+            {
+              "word": "function",
+              "phonetic": "/ˈfʌŋkʃn/",
+              "meaning": "函数"
+            },
+            {
+              "word": "parameter",
+              "phonetic": "/pəˈræmɪtər/",
+              "meaning": "参数"
+            },
+            {
+              "word": "argument",
+              "phonetic": "/ˈɑːrɡjumənt/",
+              "meaning": "实参"
+            },
+            {
+              "word": "return",
+              "phonetic": "/rɪˈtɜːrn/",
+              "meaning": "返回"
+            },
+            {
+              "word": "anonymous function",
+              "phonetic": "/əˈnɒnɪməs ˈfʌŋkʃn/",
+              "meaning": "匿名函数"
+            },
+            {
+              "word": "arrow function",
+              "phonetic": "/ˈæroʊ ˈfʌŋkʃn/",
+              "meaning": "箭头函数"
+            },
+            {
+              "word": "callback",
+              "phonetic": "/ˈkɔːlbæk/",
+              "meaning": "回调函数"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "第五部分：JavaScript进阶",
+      "groups": [
+        {
+          "name": "第二十一组 - 数组",
+          "words": [
+            {
+              "word": "array",
+              "phonetic": "/əˈreɪ/",
+              "meaning": "数组"
+            },
+            {
+              "word": "index",
+              "phonetic": "/ˈɪndeks/",
+              "meaning": "索引"
+            },
+            {
+              "word": "length",
+              "phonetic": "/leŋθ/",
+              "meaning": "长度"
+            },
+            {
+              "word": "push",
+              "phonetic": "/pʊʃ/",
+              "meaning": "添加到末尾"
+            },
+            {
+              "word": "pop",
+              "phonetic": "/pɑːp/",
+              "meaning": "移除末尾"
+            },
+            {
+              "word": "shift",
+              "phonetic": "/ʃɪft/",
+              "meaning": "移除开头"
+            },
+            {
+              "word": "unshift",
+              "phonetic": "/ˌʌnˈʃɪft/",
+              "meaning": "添加到开头"
+            },
+            {
+              "word": "slice",
+              "phonetic": "/slaɪs/",
+              "meaning": "切片"
+            },
+            {
+              "word": "splice",
+              "phonetic": "/splaɪs/",
+              "meaning": "拼接/删除"
+            }
+          ]
+        },
+        {
+          "name": "第二十二组 - 数组方法",
+          "words": [
+            {
+              "word": "map",
+              "phonetic": "/mæp/",
+              "meaning": "映射"
+            },
+            {
+              "word": "filter",
+              "phonetic": "/ˈfɪltər/",
+              "meaning": "过滤"
+            },
+            {
+              "word": "reduce",
+              "phonetic": "/rɪˈdjuːs/",
+              "meaning": "归约"
+            },
+            {
+              "word": "forEach",
+              "phonetic": "/fɔːr iːtʃ/",
+              "meaning": "遍历"
+            },
+            {
+              "word": "find",
+              "phonetic": "/faɪnd/",
+              "meaning": "查找"
+            },
+            {
+              "word": "findIndex",
+              "phonetic": "/faɪnd ˈɪndeks/",
+              "meaning": "查找索引"
+            },
+            {
+              "word": "some",
+              "phonetic": "/sʌm/",
+              "meaning": "是否存在"
+            },
+            {
+              "word": "every",
+              "phonetic": "/ˈevri/",
+              "meaning": "是否全部"
+            },
+            {
+              "word": "sort",
+              "phonetic": "/sɔːrt/",
+              "meaning": "排序"
+            },
+            {
+              "word": "reverse",
+              "phonetic": "/rɪˈvɜːrs/",
+              "meaning": "反转"
+            }
+          ]
+        },
+        {
+          "name": "第二十三组 - 对象",
+          "words": [
+            {
+              "word": "object",
+              "phonetic": "/ˈɑːbdʒekt/",
+              "meaning": "对象"
+            },
+            {
+              "word": "property",
+              "phonetic": "/ˈprɑːpərti/",
+              "meaning": "属性"
+            },
+            {
+              "word": "method",
+              "phonetic": "/ˈmeθəd/",
+              "meaning": "方法"
+            },
+            {
+              "word": "key",
+              "phonetic": "/kiː/",
+              "meaning": "键"
+            },
+            {
+              "word": "value",
+              "phonetic": "/ˈvæljuː/",
+              "meaning": "值"
+            },
+            {
+              "word": "bracket notation",
+              "phonetic": "/ˈbrækɪt noʊˈteɪʃn/",
+              "meaning": "方括号表示法"
+            },
+            {
+              "word": "dot notation",
+              "phonetic": "/dɒt noʊˈteɪʃn/",
+              "meaning": "点表示法"
+            },
+            {
+              "word": "destructuring",
+              "phonetic": "/diːˈstrʌktʃərɪŋ/",
+              "meaning": "解构赋值"
+            }
+          ]
+        },
+        {
+          "name": "第二十四组 - 字符串方法",
+          "words": [
+            {
+              "word": "charAt",
+              "phonetic": "/tʃɑːr æt/",
+              "meaning": "获取字符"
+            },
+            {
+              "word": "substring",
+              "phonetic": "/ˈsʌbstrɪŋ/",
+              "meaning": "子字符串"
+            },
+            {
+              "word": "split",
+              "phonetic": "/splɪt/",
+              "meaning": "分割"
+            },
+            {
+              "word": "join",
+              "phonetic": "/dʒɔɪn/",
+              "meaning": "连接"
+            },
+            {
+              "word": "toUpperCase",
+              "phonetic": "/tuː ˈʌpər keɪs/",
+              "meaning": "转大写"
+            },
+            {
+              "word": "toLowerCase",
+              "phonetic": "/tuː ˈloʊər keɪs/",
+              "meaning": "转小写"
+            },
+            {
+              "word": "trim",
+              "phonetic": "/trɪm/",
+              "meaning": "去除空格"
+            },
+            {
+              "word": "replace",
+              "phonetic": "/rɪˈpleɪs/",
+              "meaning": "替换"
+            },
+            {
+              "word": "includes",
+              "phonetic": "/ɪnˈkluːdz/",
+              "meaning": "包含"
+            },
+            {
+              "word": "startsWith",
+              "phonetic": "/stɑːrts wɪð/",
+              "meaning": "以...开头"
+            },
+            {
+              "word": "endsWith",
+              "phonetic": "/endz wɪð/",
+              "meaning": "以...结尾"
+            }
+          ]
+        },
+        {
+          "name": "第二十五组 - 异步编程",
+          "words": [
+            {
+              "word": "asynchronous",
+              "phonetic": "/eɪˈsɪŋkrənəs/",
+              "meaning": "异步的"
+            },
+            {
+              "word": "promise",
+              "phonetic": "/ˈprɑːmɪs/",
+              "meaning": "Promise对象"
+            },
+            {
+              "word": "async",
+              "phonetic": "/ˈeɪsɪŋk/",
+              "meaning": "异步函数"
+            },
+            {
+              "word": "await",
+              "phonetic": "/əˈweɪt/",
+              "meaning": "等待"
+            },
+            {
+              "word": "then",
+              "phonetic": "/ðen/",
+              "meaning": "然后"
+            },
+            {
+              "word": "catch",
+              "phonetic": "/kætʃ/",
+              "meaning": "捕获错误"
+            },
+            {
+              "word": "finally",
+              "phonetic": "/ˈfaɪnəli/",
+              "meaning": "最终"
+            },
+            {
+              "word": "resolve",
+              "phonetic": "/rɪˈzɒlv/",
+              "meaning": "解决"
+            },
+            {
+              "word": "reject",
+              "phonetic": "/rɪˈdʒekt/",
+              "meaning": "拒绝"
+            }
+          ]
+        },
+        {
+          "name": "第二十六组 - 类与原型",
+          "words": [
+            {
+              "word": "class",
+              "phonetic": "/klæs/",
+              "meaning": "类"
+            },
+            {
+              "word": "constructor",
+              "phonetic": "/kənˈstrʌktər/",
+              "meaning": "构造函数"
+            },
+            {
+              "word": "instance",
+              "phonetic": "/ˈɪnstəns/",
+              "meaning": "实例"
+            },
+            {
+              "word": "this",
+              "phonetic": "/ðɪs/",
+              "meaning": "当前对象"
+            },
+            {
+              "word": "new",
+              "phonetic": "/nuː/",
+              "meaning": "新建"
+            },
+            {
+              "word": "prototype",
+              "phonetic": "/ˈproʊtətaɪp/",
+              "meaning": "原型"
+            },
+            {
+              "word": "extends",
+              "phonetic": "/ɪkˈstendz/",
+              "meaning": "继承"
+            },
+            {
+              "word": "super",
+              "phonetic": "/ˈsuːpər/",
+              "meaning": "父类引用"
+            }
+          ]
+        },
+        {
+          "name": "第二十七组 - ES6+新特性",
+          "words": [
+            {
+              "word": "spread operator",
+              "phonetic": "/spred ˈɑːpəreɪtər/",
+              "meaning": "展开运算符"
+            },
+            {
+              "word": "rest parameter",
+              "phonetic": "/rest pəˈræmɪtər/",
+              "meaning": "剩余参数"
+            },
+            {
+              "word": "template literal",
+              "phonetic": "/ˈtemplət ˈlɪtərəl/",
+              "meaning": "模板字符串"
+            },
+            {
+              "word": "optional chaining",
+              "phonetic": "/ˈɑːpʃənl ˈtʃeɪnɪŋ/",
+              "meaning": "可选链"
+            },
+            {
+              "word": "nullish coalescing",
+              "phonetic": "/ˈnʌlɪʃ koʊəˈlesɪŋ/",
+              "meaning": "空值合并"
+            },
+            {
+              "word": "import",
+              "phonetic": "/ɪmˈpɔːrt/",
+              "meaning": "导入"
+            },
+            {
+              "word": "export",
+              "phonetic": "/ɪkˈspɔːrt/",
+              "meaning": "导出"
+            },
+            {
+              "word": "module",
+              "phonetic": "/ˈmɒdjuːl/",
+              "meaning": "模块"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "第六部分：DOM操作",
+      "groups": [
+        {
+          "name": "第二十八组 - DOM基础",
+          "words": [
+            {
+              "word": "dom",
+              "phonetic": "/diː oʊ em/",
+              "meaning": "文档对象模型"
+            },
+            {
+              "word": "document",
+              "phonetic": "/ˈdɒkjumənt/",
+              "meaning": "文档对象"
+            },
+            {
+              "word": "element",
+              "phonetic": "/ˈelɪmənt/",
+              "meaning": "元素节点"
+            },
+            {
+              "word": "node",
+              "phonetic": "/noʊd/",
+              "meaning": "节点"
+            },
+            {
+              "word": "text node",
+              "phonetic": "/tekst noʊd/",
+              "meaning": "文本节点"
+            },
+            {
+              "word": "comment",
+              "phonetic": "/ˈkɒment/",
+              "meaning": "注释节点"
+            }
+          ]
+        },
+        {
+          "name": "第二十九组 - 选择元素",
+          "words": [
+            {
+              "word": "querySelector",
+              "phonetic": "/ˈkwɪri sɪˈlektər/",
+              "meaning": "查询选择器"
+            },
+            {
+              "word": "querySelectorAll",
+              "phonetic": "/ˈkwɪri sɪˈlektər ɔːl/",
+              "meaning": "查询所有选择器"
+            },
+            {
+              "word": "getElementById",
+              "phonetic": "/ɡet ˈelɪmənt baɪ aɪ diː/",
+              "meaning": "通过ID获取元素"
+            },
+            {
+              "word": "getElementsByClassName",
+              "phonetic": "/ɡet ˈelɪmənts baɪ klæs neɪm/",
+              "meaning": "通过类名获取元素"
+            },
+            {
+              "word": "getElementsByTagName",
+              "phonetic": "/ɡet ˈelɪmənts baɪ tæɡ neɪm/",
+              "meaning": "通过标签名获取元素"
+            }
+          ]
+        },
+        {
+          "name": "第三十组 - 操作元素",
+          "words": [
+            {
+              "word": "createElement",
+              "phonetic": "/kreɪt ˈelɪmənt/",
+              "meaning": "创建元素"
+            },
+            {
+              "word": "appendChild",
+              "phonetic": "/əˈpend tʃaɪld/",
+              "meaning": "追加子元素"
+            },
+            {
+              "word": "removeChild",
+              "phonetic": "/rɪˈmuːv tʃaɪld/",
+              "meaning": "移除子元素"
+            },
+            {
+              "word": "replaceChild",
+              "phonetic": "/rɪˈpleɪs tʃaɪld/",
+              "meaning": "替换子元素"
+            },
+            {
+              "word": "insertBefore",
+              "phonetic": "/ɪnˈsɜːrt bɪˈfɔːr/",
+              "meaning": "插入到之前"
+            },
+            {
+              "word": "innerHTML",
+              "phonetic": "/ˈɪnər eɪtʃ em el/",
+              "meaning": "内部HTML"
+            },
+            {
+              "word": "textContent",
+              "phonetic": "/tekst ˈkɑːntent/",
+              "meaning": "文本内容"
+            },
+            {
+              "word": "innerText",
+              "phonetic": "/ˈɪnər tekst/",
+              "meaning": "内部文本"
+            }
+          ]
+        },
+        {
+          "name": "第三十一组 - 属性操作",
+          "words": [
+            {
+              "word": "getAttribute",
+              "phonetic": "/ɡet əˈtrɪbjuːt/",
+              "meaning": "获取属性"
+            },
+            {
+              "word": "setAttribute",
+              "phonetic": "/set əˈtrɪbjuːt/",
+              "meaning": "设置属性"
+            },
+            {
+              "word": "removeAttribute",
+              "phonetic": "/rɪˈmuːv əˈtrɪbjuːt/",
+              "meaning": "移除属性"
+            },
+            {
+              "word": "classList",
+              "phonetic": "/klæs lɪst/",
+              "meaning": "类名列表"
+            },
+            {
+              "word": "add",
+              "phonetic": "/æd/",
+              "meaning": "添加"
+            },
+            {
+              "word": "remove",
+              "phonetic": "/rɪˈmuːv/",
+              "meaning": "移除"
+            },
+            {
+              "word": "toggle",
+              "phonetic": "/ˈtɒɡl/",
+              "meaning": "切换"
+            },
+            {
+              "word": "contains",
+              "phonetic": "/kənˈteɪnz/",
+              "meaning": "包含"
+            }
+          ]
+        },
+        {
+          "name": "第三十二组 - 样式操作",
+          "words": [
+            {
+              "word": "style",
+              "phonetic": "/staɪl/",
+              "meaning": "样式对象"
+            },
+            {
+              "word": "getComputedStyle",
+              "phonetic": "/ɡet kəmˈpjuːtɪd staɪl/",
+              "meaning": "获取计算后样式"
+            },
+            {
+              "word": "className",
+              "phonetic": "/klæs neɪm/",
+              "meaning": "类名"
+            },
+            {
+              "word": "cssText",
+              "phonetic": "/siː es es tekst/",
+              "meaning": "CSS文本"
+            }
+          ]
+        },
+        {
+          "name": "第三十三组 - 事件处理",
+          "words": [
+            {
+              "word": "event",
+              "phonetic": "/ɪˈvent/",
+              "meaning": "事件"
+            },
+            {
+              "word": "addEventListener",
+              "phonetic": "/æd ɪˈvent ˈlɪsənər/",
+              "meaning": "添加事件监听器"
+            },
+            {
+              "word": "removeEventListener",
+              "phonetic": "/rɪˈmuːv ɪˈvent ˈlɪsənər/",
+              "meaning": "移除事件监听器"
+            },
+            {
+              "word": "target",
+              "phonetic": "/ˈtɑːrɡɪt/",
+              "meaning": "目标"
+            },
+            {
+              "word": "currentTarget",
+              "phonetic": "/ˈkʌrənt ˈtɑːrɡɪt/",
+              "meaning": "当前目标"
+            },
+            {
+              "word": "preventDefault",
+              "phonetic": "/prɪˈvent dɪˈfɔːlt/",
+              "meaning": "阻止默认行为"
+            },
+            {
+              "word": "stopPropagation",
+              "phonetic": "/stɒp ˌprɒpəˈɡeɪʃn/",
+              "meaning": "阻止冒泡"
+            }
+          ]
+        },
+        {
+          "name": "第三十四组 - 常见事件",
+          "words": [
+            {
+              "word": "click",
+              "phonetic": "/klɪk/",
+              "meaning": "点击"
+            },
+            {
+              "word": "dblclick",
+              "phonetic": "/dʌbəl klɪk/",
+              "meaning": "双击"
+            },
+            {
+              "word": "mouseover",
+              "phonetic": "/maʊs ˈoʊvər/",
+              "meaning": "鼠标移入"
+            },
+            {
+              "word": "mouseout",
+              "phonetic": "/maʊs aʊt/",
+              "meaning": "鼠标移出"
+            },
+            {
+              "word": "keydown",
+              "phonetic": "/kiː daʊn/",
+              "meaning": "键盘按下"
+            },
+            {
+              "word": "keyup",
+              "phonetic": "/kiː ʌp/",
+              "meaning": "键盘释放"
+            },
+            {
+              "word": "submit",
+              "phonetic": "/səbˈmɪt/",
+              "meaning": "表单提交"
+            },
+            {
+              "word": "change",
+              "phonetic": "/tʃeɪndʒ/",
+              "meaning": "值改变"
+            },
+            {
+              "word": "input",
+              "phonetic": "/ˈɪnpʊt/",
+              "meaning": "输入"
+            },
+            {
+              "word": "load",
+              "phonetic": "/loʊd/",
+              "meaning": "加载完成"
+            },
+            {
+              "word": "scroll",
+              "phonetic": "/skroʊl/",
+              "meaning": "滚动"
+            },
+            {
+              "word": "resize",
+              "phonetic": "/rɪˈsaɪz/",
+              "meaning": "调整大小"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "第七部分：浏览器API",
+      "groups": [
+        {
+          "name": "第三十五组 - BOM对象",
+          "words": [
+            {
+              "word": "window",
+              "phonetic": "/ˈwɪndoʊ/",
+              "meaning": "窗口对象"
+            },
+            {
+              "word": "navigator",
+              "phonetic": "/ˈnævɪɡeɪtər/",
+              "meaning": "导航对象"
+            },
+            {
+              "word": "location",
+              "phonetic": "/loʊˈkeɪʃn/",
+              "meaning": "位置对象"
+            },
+            {
+              "word": "history",
+              "phonetic": "/ˈhɪstəri/",
+              "meaning": "历史记录"
+            },
+            {
+              "word": "screen",
+              "phonetic": "/skriːn/",
+              "meaning": "屏幕对象"
+            }
+          ]
+        },
+        {
+          "name": "第三十六组 - 存储API",
+          "words": [
+            {
+              "word": "localStorage",
+              "phonetic": "/ˈloʊkl ˈstɔːrɪdʒ/",
+              "meaning": "本地存储"
+            },
+            {
+              "word": "sessionStorage",
+              "phonetic": "/ˈseʃn ˈstɔːrɪdʒ/",
+              "meaning": "会话存储"
+            },
+            {
+              "word": "setItem",
+              "phonetic": "/set ˈaɪtəm/",
+              "meaning": "设置项"
+            },
+            {
+              "word": "getItem",
+              "phonetic": "/ɡet ˈaɪtəm/",
+              "meaning": "获取项"
+            },
+            {
+              "word": "removeItem",
+              "phonetic": "/rɪˈmuːv ˈaɪtəm/",
+              "meaning": "移除项"
+            },
+            {
+              "word": "clear",
+              "phonetic": "/klɪr/",
+              "meaning": "清除"
+            },
+            {
+              "word": "cookie",
+              "phonetic": "/ˈkʊki/",
+              "meaning": "Cookie"
+            },
+            {
+              "word": "indexedDB",
+              "phonetic": "/ˈɪndekst diː biː/",
+              "meaning": "索引数据库"
+            }
+          ]
+        },
+        {
+          "name": "第三十七组 - 网络请求",
+          "words": [
+            {
+              "word": "fetch",
+              "phonetic": "/festʃ/",
+              "meaning": "获取数据"
+            },
+            {
+              "word": "xmlHttpRequest",
+              "phonetic": "/eks em el eɪtʃ tiː əˈkwest/",
+              "meaning": "XMLHttpRequest"
+            },
+            {
+              "word": "request",
+              "phonetic": "/rɪˈkwest/",
+              "meaning": "请求"
+            },
+            {
+              "word": "response",
+              "phonetic": "/rɪˈspɒns/",
+              "meaning": "响应"
+            },
+            {
+              "word": "json",
+              "phonetic": "/ˈdʒeɪsɒn/",
+              "meaning": "JSON数据格式"
+            },
+            {
+              "word": "parse",
+              "phonetic": "/pɑːrs/",
+              "meaning": "解析"
+            },
+            {
+              "word": "stringify",
+              "phonetic": "/ˈstrɪŋɡɪfaɪ/",
+              "meaning": "序列化"
+            }
+          ]
+        },
+        {
+          "name": "第三十八组 - 定时器",
+          "words": [
+            {
+              "word": "setTimeout",
+              "phonetic": "/set taɪm ʌt/",
+              "meaning": "设置超时"
+            },
+            {
+              "word": "clearTimeout",
+              "phonetic": "/klɪr taɪm ʌt/",
+              "meaning": "清除超时"
+            },
+            {
+              "word": "setInterval",
+              "phonetic": "/set ˈɪntərvəl/",
+              "meaning": "设置间隔"
+            },
+            {
+              "word": "clearInterval",
+              "phonetic": "/klɪr ˈɪntərvəl/",
+              "meaning": "清除间隔"
+            },
+            {
+              "word": "requestAnimationFrame",
+              "phonetic": "/rɪˈkwest əˈnɪmeɪʃn freɪm/",
+              "meaning": "请求动画帧"
+            }
+          ]
+        },
+        {
+          "name": "第三十九组 - 地理位置与媒体",
+          "words": [
+            {
+              "word": "geolocation",
+              "phonetic": "/ˌdʒiːoʊloʊˈkeɪʃn/",
+              "meaning": "地理位置"
+            },
+            {
+              "word": "getCurrentPosition",
+              "phonetic": "/ɡet ˈkʌrənt pəˈzɪʃn/",
+              "meaning": "获取当前位置"
+            },
+            {
+              "word": "watchPosition",
+              "phonetic": "/wɒtʃ pəˈzɪʃn/",
+              "meaning": "监听位置变化"
+            },
+            {
+              "word": "mediaDevices",
+              "phonetic": "/ˈmiːdiə dɪˈvaɪsɪz/",
+              "meaning": "媒体设备"
+            },
+            {
+              "word": "getUserMedia",
+              "phonetic": "/ɡet ˈjuːzər ˈmiːdiə/",
+              "meaning": "获取用户媒体"
+            },
+            {
+              "word": "audioContext",
+              "phonetic": "/ˈɔːdioʊ ˈkɒntekst/",
+              "meaning": "音频上下文"
+            }
+          ]
+        },
+        {
+          "name": "第四十组 - Canvas与WebGL",
+          "words": [
+            {
+              "word": "canvas",
+              "phonetic": "/ˈkænvəs/",
+              "meaning": "画布"
+            },
+            {
+              "word": "context",
+              "phonetic": "/ˈkɒntekst/",
+              "meaning": "绘图上下文"
+            },
+            {
+              "word": "fill",
+              "phonetic": "/fɪl/",
+              "meaning": "填充"
+            },
+            {
+              "word": "stroke",
+              "phonetic": "/stroʊk/",
+              "meaning": "描边"
+            },
+            {
+              "word": "beginPath",
+              "phonetic": "/bɪˈɡɪn pæθ/",
+              "meaning": "开始路径"
+            },
+            {
+              "word": "moveTo",
+              "phonetic": "/muːv tuː/",
+              "meaning": "移动到"
+            },
+            {
+              "word": "lineTo",
+              "phonetic": "/laɪn tuː/",
+              "meaning": "画线到"
+            },
+            {
+              "word": "arc",
+              "phonetic": "/ɑːrk/",
+              "meaning": "圆弧"
+            },
+            {
+              "word": "bezierCurveTo",
+              "phonetic": "/ˈbenziər kɜːrv tuː/",
+              "meaning": "贝塞尔曲线"
+            },
+            {
+              "word": "webgl",
+              "phonetic": "/web ɡiː el/",
+              "meaning": "WebGL图形库"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "第八部分：React",
+      "groups": [
+        {
+          "name": "第四十一组 - React基础",
+          "words": [
+            {
+              "word": "react",
+              "phonetic": "/riːˈækt/",
+              "meaning": "React框架"
+            },
+            {
+              "word": "jsx",
+              "phonetic": "/dʒeɪ eks es/",
+              "meaning": "JSX语法"
+            },
+            {
+              "word": "component",
+              "phonetic": "/kəmˈpoʊnənt/",
+              "meaning": "组件"
+            },
+            {
+              "word": "functional component",
+              "phonetic": "/ˈfʌŋkʃənl kəmˈpoʊnənt/",
+              "meaning": "函数组件"
+            },
+            {
+              "word": "class component",
+              "phonetic": "/klæs kəmˈpoʊnənt/",
+              "meaning": "类组件"
+            },
+            {
+              "word": "render",
+              "phonetic": "/ˈrendər/",
+              "meaning": "渲染"
+            },
+            {
+              "word": "return",
+              "phonetic": "/rɪˈtɜːrn/",
+              "meaning": "返回JSX"
+            }
+          ]
+        },
+        {
+          "name": "第四十二组 - Props与State",
+          "words": [
+            {
+              "word": "props",
+              "phonetic": "/prɒps/",
+              "meaning": "属性"
+            },
+            {
+              "word": "state",
+              "phonetic": "/steɪt/",
+              "meaning": "状态"
+            },
+            {
+              "word": "setState",
+              "phonetic": "/set steɪt/",
+              "meaning": "设置状态"
+            },
+            {
+              "word": "useState",
+              "phonetic": "/juːz steɪt/",
+              "meaning": "useState Hook"
+            },
+            {
+              "word": "defaultProps",
+              "phonetic": "/dɪˈfɔːlt prɒps/",
+              "meaning": "默认属性"
+            },
+            {
+              "word": "propTypes",
+              "phonetic": "/prɒp taɪps/",
+              "meaning": "属性类型检查"
+            }
+          ]
+        },
+        {
+          "name": "第四十三组 - Hooks",
+          "words": [
+            {
+              "word": "hook",
+              "phonetic": "/hʊk/",
+              "meaning": "Hook"
+            },
+            {
+              "word": "useEffect",
+              "phonetic": "/juːz ɪˈfekt/",
+              "meaning": "副作用Hook"
+            },
+            {
+              "word": "useContext",
+              "phonetic": "/juːz ˈkɒntekst/",
+              "meaning": "上下文Hook"
+            },
+            {
+              "word": "useReducer",
+              "phonetic": "/juːz rɪˈdjuːsər/",
+              "meaning": "Reducer Hook"
+            },
+            {
+              "word": "useCallback",
+              "phonetic": "/juːz ˈkɔːlbæk/",
+              "meaning": "回调Hook"
+            },
+            {
+              "word": "useMemo",
+              "phonetic": "/juːz ˈmiːmoʊ/",
+              "meaning": "记忆Hook"
+            },
+            {
+              "word": "useRef",
+              "phonetic": "/juːz ref/",
+              "meaning": "Ref Hook"
+            },
+            {
+              "word": "useLayoutEffect",
+              "phonetic": "/juːz ˈleɪaʊt ɪˈfekt/",
+              "meaning": "布局副作用Hook"
+            },
+            {
+              "word": "custom hook",
+              "phonetic": "/ˈkʌstəm hʊk/",
+              "meaning": "自定义Hook"
+            }
+          ]
+        },
+        {
+          "name": "第四十四组 - 条件渲染与列表",
+          "words": [
+            {
+              "word": "conditional rendering",
+              "phonetic": "/kənˈdɪʃənl ˈrendərɪŋ/",
+              "meaning": "条件渲染"
+            },
+            {
+              "word": "ternary",
+              "phonetic": "/ˈtɜːrnəri/",
+              "meaning": "三元表达式"
+            },
+            {
+              "word": "logical and",
+              "phonetic": "/ˈlɒdʒɪkl ænd/",
+              "meaning": "逻辑与"
+            },
+            {
+              "word": "list rendering",
+              "phonetic": "/lɪst ˈrendərɪŋ/",
+              "meaning": "列表渲染"
+            },
+            {
+              "word": "key prop",
+              "phonetic": "/kiː prɒp/",
+              "meaning": "键属性"
+            },
+            {
+              "word": "map",
+              "phonetic": "/mæp/",
+              "meaning": "映射方法"
+            },
+            {
+              "word": "fragment",
+              "phonetic": "/ˈfræɡmənt/",
+              "meaning": "片段"
+            }
+          ]
+        },
+        {
+          "name": "第四十五组 - 事件处理",
+          "words": [
+            {
+              "word": "event handler",
+              "phonetic": "/ɪˈvent ˈhændlər/",
+              "meaning": "事件处理器"
+            },
+            {
+              "word": "onClick",
+              "phonetic": "/ɒn klɪk/",
+              "meaning": "点击事件"
+            },
+            {
+              "word": "onChange",
+              "phonetic": "/ɒn tʃeɪndʒ/",
+              "meaning": "变更事件"
+            },
+            {
+              "word": "onSubmit",
+              "phonetic": "/ɒn səbˈmɪt/",
+              "meaning": "提交事件"
+            },
+            {
+              "word": "onKeyDown",
+              "phonetic": "/ɒn kiː daʊn/",
+              "meaning": "键盘按下事件"
+            },
+            {
+              "word": "synthetic event",
+              "phonetic": "/sɪnˈθetɪk ɪˈvent/",
+              "meaning": "合成事件"
+            },
+            {
+              "word": "bind",
+              "phonetic": "/baɪnd/",
+              "meaning": "绑定"
+            }
+          ]
+        },
+        {
+          "name": "第四十六组 - 生命周期",
+          "words": [
+            {
+              "word": "lifecycle",
+              "phonetic": "/ˈlaɪfsaɪkl/",
+              "meaning": "生命周期"
+            },
+            {
+              "word": "componentDidMount",
+              "phonetic": "/kəmˈpoʊnənt daɪd mɒnt/",
+              "meaning": "组件挂载后"
+            },
+            {
+              "word": "componentDidUpdate",
+              "phonetic": "/kəmˈpoʊnənt daɪd ʌpˈdeɪt/",
+              "meaning": "组件更新后"
+            },
+            {
+              "word": "componentWillUnmount",
+              "phonetic": "/kəmˈpoʊnənt wɪl ʌnˈmaʊnt/",
+              "meaning": "组件卸载前"
+            },
+            {
+              "word": "componentDidCatch",
+              "phonetic": "/kəmˈpoʊnənt daɪd kætʃ/",
+              "meaning": "错误捕获"
+            },
+            {
+              "word": "getDerivedStateFromProps",
+              "phonetic": "/ɡet dɪˈraɪvd steɪt frɒm prɒps/",
+              "meaning": "从Props派生状态"
+            },
+            {
+              "word": "shouldComponentUpdate",
+              "phonetic": "/ʃʊd kəmˈpoʊnənt ʌpˈdeɪt/",
+              "meaning": "是否更新组件"
+            }
+          ]
+        },
+        {
+          "name": "第四十七组 - Context与状态管理",
+          "words": [
+            {
+              "word": "context",
+              "phonetic": "/ˈkɒntekst/",
+              "meaning": "上下文"
+            },
+            {
+              "word": "createContext",
+              "phonetic": "/krɪˈeɪt ˈkɒntekst/",
+              "meaning": "创建上下文"
+            },
+            {
+              "word": "provider",
+              "phonetic": "/prəˈvaɪər/",
+              "meaning": "提供者"
+            },
+            {
+              "word": "consumer",
+              "phonetic": "/kənˈsjuːmər/",
+              "meaning": "消费者"
+            },
+            {
+              "word": "useContext",
+              "phonetic": "/juːz ˈkɒntekst/",
+              "meaning": "使用上下文"
+            },
+            {
+              "word": "redux",
+              "phonetic": "/ˈriːdʌks/",
+              "meaning": "Redux状态管理库"
+            },
+            {
+              "word": "store",
+              "phonetic": "/stɔːr/",
+              "meaning": "状态仓库"
+            },
+            {
+              "word": "dispatch",
+              "phonetic": "/dɪˈspætʃ/",
+              "meaning": "派发"
+            },
+            {
+              "word": "selector",
+              "phonetic": "/sɪˈlektər/",
+              "meaning": "选择器"
+            }
+          ]
+        },
+        {
+          "name": "第四十八组 - 路由",
+          "words": [
+            {
+              "word": "react router",
+              "phonetic": "/riːˈækt ˈruːtər/",
+              "meaning": "React路由"
+            },
+            {
+              "word": "route",
+              "phonetic": "/raʊt/",
+              "meaning": "路由"
+            },
+            {
+              "word": "router",
+              "phonetic": "/ˈruːtər/",
+              "meaning": "路由器"
+            },
+            {
+              "word": "link",
+              "phonetic": "/lɪŋk/",
+              "meaning": "链接"
+            },
+            {
+              "word": "navLink",
+              "phonetic": "/næv lɪŋk/",
+              "meaning": "导航链接"
+            },
+            {
+              "word": "navigate",
+              "phonetic": "/ˈnævɪɡeɪt/",
+              "meaning": "导航"
+            },
+            {
+              "word": "outlet",
+              "phonetic": "/ˈaʊtlet/",
+              "meaning": "路由出口"
+            },
+            {
+              "word": "params",
+              "phonetic": "/pærəmz/",
+              "meaning": "参数"
+            },
+            {
+              "word": "useParams",
+              "phonetic": "/juːz pærəmz/",
+              "meaning": "使用路由参数"
+            },
+            {
+              "word": "useNavigate",
+              "phonetic": "/juːz ˈnævɪɡeɪt/",
+              "meaning": "使用导航"
+            }
+          ]
+        },
+        {
+          "name": "第四十九组 - 组件进阶",
+          "words": [
+            {
+              "word": "higher order component",
+              "phonetic": "/ˈhaɪər ˈɔːrdər kəmˈpoʊnənt/",
+              "meaning": "高阶组件"
+            },
+            {
+              "word": "render prop",
+              "phonetic": "/ˈrendər prɒp/",
+              "meaning": "渲染属性"
+            },
+            {
+              "word": "forwardRef",
+              "phonetic": "/ˈfɔːrwərd ref/",
+              "meaning": "转发Ref"
+            },
+            {
+              "word": "memo",
+              "phonetic": "/ˈmiːmoʊ/",
+              "meaning": "记忆组件"
+            },
+            {
+              "word": "lazy",
+              "phonetic": "/ˈleɪzi/",
+              "meaning": "懒加载"
+            },
+            {
+              "word": "suspense",
+              "phonetic": "/səˈspens/",
+              "meaning": "悬停/加载中组件"
+            },
+            {
+              "word": "error boundary",
+              "phonetic": "/ˈerər ˈbaʊndəri/",
+              "meaning": "错误边界"
+            }
+          ]
+        },
+        {
+          "name": "第五十组 - 表单处理",
+          "words": [
+            {
+              "word": "controlled component",
+              "phonetic": "/kənˈtroʊld kəmˈpoʊnənt/",
+              "meaning": "受控组件"
+            },
+            {
+              "word": "uncontrolled component",
+              "phonetic": "/ʌnkənˈtroʊld kəmˈpoʊnənt/",
+              "meaning": "非受控组件"
+            },
+            {
+              "word": "form",
+              "phonetic": "/fɔːrm/",
+              "meaning": "表单"
+            },
+            {
+              "word": "input value",
+              "phonetic": "/ˈɪnpʊt ˈvæljuː/",
+              "meaning": "输入值"
+            },
+            {
+              "word": "onChange handler",
+              "phonetic": "/ɒn tʃeɪndʒ ˈhændlər/",
+              "meaning": "变更处理函数"
+            },
+            {
+              "word": "validation",
+              "phonetic": "/ˌvælɪˈdeɪʃn/",
+              "meaning": "验证"
+            },
+            {
+              "word": "error message",
+              "phonetic": "/ˈerər ˈmesɪdʒ/",
+              "meaning": "错误信息"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "第九部分：Vue.js",
+      "groups": [
+        {
+          "name": "第五十一组 - Vue基础",
+          "words": [
+            {
+              "word": "vue",
+              "phonetic": "/vjuː/",
+              "meaning": "Vue框架"
+            },
+            {
+              "word": "instance",
+              "phonetic": "/ˈɪnstəns/",
+              "meaning": "Vue实例"
+            },
+            {
+              "word": "template",
+              "phonetic": "/ˈtemplət/",
+              "meaning": "模板"
+            },
+            {
+              "word": "script",
+              "phonetic": "/skrɪpt/",
+              "meaning": "脚本"
+            },
+            {
+              "word": "style",
+              "phonetic": "/staɪl/",
+              "meaning": "样式"
+            },
+            {
+              "word": "options",
+              "phonetic": "/ˈɑːpʃənz/",
+              "meaning": "选项对象"
+            }
+          ]
+        },
+        {
+          "name": "第五十二组 - 响应式",
+          "words": [
+            {
+              "word": "reactive",
+              "phonetic": "/riːˈæktɪv/",
+              "meaning": "响应式的"
+            },
+            {
+              "word": "ref",
+              "phonetic": "/ref/",
+              "meaning": "响应式引用"
+            },
+            {
+              "word": "reactive",
+              "phonetic": "/riːˈæktɪv/",
+              "meaning": "深度响应式对象"
+            },
+            {
+              "word": "computed",
+              "phonetic": "/kəmˈpjuːtɪd/",
+              "meaning": "计算属性"
+            },
+            {
+              "word": "watch",
+              "phonetic": "/wɒtʃ/",
+              "meaning": "侦听器"
+            },
+            {
+              "word": "watchEffect",
+              "phonetic": "/wɒtʃ ɪˈfekt/",
+              "meaning": "立即执行的侦听器"
+            },
+            {
+              "word": "toRef",
+              "phonetic": "/tuː ref/",
+              "meaning": "转为Ref"
+            },
+            {
+              "word": "toRefs",
+              "phonetic": "/tuː refs/",
+              "meaning": "批量转为Ref"
+            }
+          ]
+        },
+        {
+          "name": "第五十三组 - 指令",
+          "words": [
+            {
+              "word": "directive",
+              "phonetic": "/dəˈrektɪv/",
+              "meaning": "指令"
+            },
+            {
+              "word": "v-bind",
+              "phonetic": "/viː baɪnd/",
+              "meaning": "属性绑定"
+            },
+            {
+              "word": "v-model",
+              "phonetic": "/viː ˈmɒdl/",
+              "meaning": "双向绑定"
+            },
+            {
+              "word": "v-if",
+              "phonetic": "/viː ɪf/",
+              "meaning": "条件渲染"
+            },
+            {
+              "word": "v-show",
+              "phonetic": "/viː ʃoʊ/",
+              "meaning": "显示隐藏"
+            },
+            {
+              "word": "v-for",
+              "phonetic": "/viː fɔːr/",
+              "meaning": "列表渲染"
+            },
+            {
+              "word": "v-on",
+              "phonetic": "/viː ɒn/",
+              "meaning": "事件监听"
+            },
+            {
+              "word": "v-once",
+              "phonetic": "/viː wʌns/",
+              "meaning": "只渲染一次"
+            },
+            {
+              "word": "v-text",
+              "phonetic": "/viː tekst/",
+              "meaning": "文本渲染"
+            },
+            {
+              "word": "v-html",
+              "phonetic": "/viː eɪtʃ em el/",
+              "meaning": "HTML渲染"
+            },
+            {
+              "word": "v-slot",
+              "phonetic": "/viː slɒt/",
+              "meaning": "插槽"
+            }
+          ]
+        },
+        {
+          "name": "第五十四组 - 组件",
+          "words": [
+            {
+              "word": "component",
+              "phonetic": "/kəmˈpoʊnənt/",
+              "meaning": "组件"
+            },
+            {
+              "word": "props",
+              "phonetic": "/prɒps/",
+              "meaning": "属性"
+            },
+            {
+              "word": "emit",
+              "phonetic": "/ˈiːmɪt/",
+              "meaning": "触发事件"
+            },
+            {
+              "word": "slot",
+              "phonetic": "/slɒt/",
+              "meaning": "插槽"
+            },
+            {
+              "word": "provide",
+              "phonetic": "/prəˈvaɪd/",
+              "meaning": "提供"
+            },
+            {
+              "word": "inject",
+              "phonetic": "/ɪnˈdʒekt/",
+              "meaning": "注入"
+            },
+            {
+              "word": "setup",
+              "phonetic": "/ˈsetʌp/",
+              "meaning": "设置函数"
+            },
+            {
+              "word": "composable",
+              "phonetic": "/kəmˈpəʊzəbl/",
+              "meaning": "组合式函数"
+            }
+          ]
+        },
+        {
+          "name": "第五十五组 - 生命周期",
+          "words": [
+            {
+              "word": "lifecycle hook",
+              "phonetic": "/ˈlaɪfsaɪkl hʊk/",
+              "meaning": "生命周期钩子"
+            },
+            {
+              "word": "beforeCreate",
+              "phonetic": "/bɪˈfɔːr krɪˈeɪt/",
+              "meaning": "创建前"
+            },
+            {
+              "word": "created",
+              "phonetic": "/krɪˈeɪtɪd/",
+              "meaning": "创建后"
+            },
+            {
+              "word": "beforeMount",
+              "phonetic": "/bɪˈfɔːr maʊnt/",
+              "meaning": "挂载前"
+            },
+            {
+              "word": "mounted",
+              "phonetic": "/ˈmaʊntɪd/",
+              "meaning": "挂载后"
+            },
+            {
+              "word": "beforeUpdate",
+              "phonetic": "/bɪˈfɔːr ʌpˈdeɪt/",
+              "meaning": "更新前"
+            },
+            {
+              "word": "updated",
+              "phonetic": "/ʌpˈdeɪtɪd/",
+              "meaning": "更新后"
+            },
+            {
+              "word": "beforeUnmount",
+              "phonetic": "/bɪˈfɔːr ʌnˈmaʊnt/",
+              "meaning": "卸载前"
+            },
+            {
+              "word": "unmounted",
+              "phonetic": "/ʌnˈmaʊntɪd/",
+              "meaning": "卸载后"
+            }
+          ]
+        },
+        {
+          "name": "第五十六组 - Vue Router",
+          "words": [
+            {
+              "word": "vue router",
+              "phonetic": "/vjuː ˈruːtər/",
+              "meaning": "Vue路由"
+            },
+            {
+              "word": "router view",
+              "phonetic": "/ˈruːtər vjuː/",
+              "meaning": "路由视图"
+            },
+            {
+              "word": "router link",
+              "phonetic": "/ˈruːtər lɪŋk/",
+              "meaning": "路由链接"
+            },
+            {
+              "word": "route",
+              "phonetic": "/raʊt/",
+              "meaning": "路由对象"
+            },
+            {
+              "word": "params",
+              "phonetic": "/pærəmz/",
+              "meaning": "参数"
+            },
+            {
+              "word": "query",
+              "phonetic": "/ˈkweri/",
+              "meaning": "查询参数"
+            },
+            {
+              "word": "history mode",
+              "phonetic": "/ˈhɪstəri moʊd/",
+              "meaning": "历史模式"
+            },
+            {
+              "word": "navigation guard",
+              "phonetic": "/ˌnævɪˈɡeɪʃn ɡɑːrd/",
+              "meaning": "导航守卫"
+            }
+          ]
+        },
+        {
+          "name": "第五十七组 - Pinia状态管理",
+          "words": [
+            {
+              "word": "pinia",
+              "phonetic": "/pɪˈniːə/",
+              "meaning": "Pinia状态管理库"
+            },
+            {
+              "word": "store",
+              "phonetic": "/stɔːr/",
+              "meaning": "状态仓库"
+            },
+            {
+              "word": "state",
+              "phonetic": "/steɪt/",
+              "meaning": "状态"
+            },
+            {
+              "word": "getters",
+              "phonetic": "/ˈɡetərz/",
+              "meaning": "计算属性"
+            },
+            {
+              "word": "actions",
+              "phonetic": "/ˈækʃənz/",
+              "meaning": "操作方法"
+            },
+            {
+              "word": "setup store",
+              "phonetic": "/ˈsetʌp stɔːr/",
+              "meaning": "组合式Store"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "第十部分：TypeScript",
+      "groups": [
+        {
+          "name": "第五十八组 - TypeScript基础",
+          "words": [
+            {
+              "word": "typescript",
+              "phonetic": "/ˈtaɪp skrɪpt/",
+              "meaning": "TypeScript语言"
+            },
+            {
+              "word": "type annotation",
+              "phonetic": "/taɪp ˌænəˈteɪʃn/",
+              "meaning": "类型注解"
+            },
+            {
+              "word": "type inference",
+              "phonetic": "/taɪp ˈɪnfərəns/",
+              "meaning": "类型推断"
+            },
+            {
+              "word": "type assertion",
+              "phonetic": "/taɪp əˈsɜːrʃn/",
+              "meaning": "类型断言"
+            },
+            {
+              "word": "type guard",
+              "phonetic": "/taɪp ɡɑːrd/",
+              "meaning": "类型守卫"
+            },
+            {
+              "word": "type alias",
+              "phonetic": "/taɪp ˈeɪliəs/",
+              "meaning": "类型别名"
+            }
+          ]
+        },
+        {
+          "name": "第五十九组 - 基础类型",
+          "words": [
+            {
+              "word": "string",
+              "phonetic": "/strɪŋ/",
+              "meaning": "字符串类型"
+            },
+            {
+              "word": "number",
+              "phonetic": "/ˈnʌmbər/",
+              "meaning": "数字类型"
+            },
+            {
+              "word": "boolean",
+              "phonetic": "/ˈbuːliən/",
+              "meaning": "布尔类型"
+            },
+            {
+              "word": "null",
+              "phonetic": "/nʌl/",
+              "meaning": "空类型"
+            },
+            {
+              "word": "undefined",
+              "phonetic": "/ˌʌndɪˈfaɪnd/",
+              "meaning": "未定义类型"
+            },
+            {
+              "word": "void",
+              "phonetic": "/vɔɪd/",
+              "meaning": "空类型"
+            },
+            {
+              "word": "never",
+              "phonetic": "/ˈnevər/",
+              "meaning": "从不返回类型"
+            },
+            {
+              "word": "any",
+              "phonetic": "/ˈeni/",
+              "meaning": "任意类型"
+            },
+            {
+              "word": "unknown",
+              "phonetic": "/ʌnˈnoʊn/",
+              "meaning": "未知类型"
+            }
+          ]
+        },
+        {
+          "name": "第六十组 - 接口与类型",
+          "words": [
+            {
+              "word": "interface",
+              "phonetic": "/ˈɪntərfeɪs/",
+              "meaning": "接口"
+            },
+            {
+              "word": "type",
+              "phonetic": "/taɪp/",
+              "meaning": "类型别名"
+            },
+            {
+              "word": "extends",
+              "phonetic": "/ɪkˈstendz/",
+              "meaning": "继承/扩展"
+            },
+            {
+              "word": "optional property",
+              "phonetic": "/ˈɑːpʃənl ˈprɒpərti/",
+              "meaning": "可选属性"
+            },
+            {
+              "word": "readonly property",
+              "phonetic": "/ˈriːdˈɒnli ˈprɒpərti/",
+              "meaning": "只读属性"
+            },
+            {
+              "word": "index signature",
+              "phonetic": "/ˈɪndeks ˈsɪɡnətʃər/",
+              "meaning": "索引签名"
+            },
+            {
+              "word": "function type",
+              "phonetic": "/ˈfʌŋkʃn taɪp/",
+              "meaning": "函数类型"
+            }
+          ]
+        },
+        {
+          "name": "第六十一组 - 泛型",
+          "words": [
+            {
+              "word": "generic",
+              "phonetic": "/dʒəˈnerɪk/",
+              "meaning": "泛型"
+            },
+            {
+              "word": "type parameter",
+              "phonetic": "/taɪp pəˈræmɪtər/",
+              "meaning": "类型参数"
+            },
+            {
+              "word": "generic constraint",
+              "phonetic": "/dʒəˈnerɪk kənˈstreɪnt/",
+              "meaning": "泛型约束"
+            },
+            {
+              "word": "keyof",
+              "phonetic": "/kiː ɒv/",
+              "meaning": "键of运算符"
+            },
+            {
+              "word": "T extends",
+              "phonetic": "/tiː ɪkˈstendz/",
+              "meaning": "T继承"
+            },
+            {
+              "word": "infer",
+              "phonetic": "/ɪnˈfɜːr/",
+              "meaning": "推断"
+            }
+          ]
+        },
+        {
+          "name": "第六十二组 - 高级类型",
+          "words": [
+            {
+              "word": "union type",
+              "phonetic": "/ˈjuːniən taɪp/",
+              "meaning": "联合类型"
+            },
+            {
+              "word": "intersection type",
+              "phonetic": "/ˌɪntərˈsekʃn taɪp/",
+              "meaning": "交叉类型"
+            },
+            {
+              "word": "literal type",
+              "phonetic": "/ˈlɪtərəl taɪp/",
+              "meaning": "字面量类型"
+            },
+            {
+              "word": "enum",
+              "phonetic": "/ˈiːnʌm/",
+              "meaning": "枚举"
+            },
+            {
+              "word": "tuple",
+              "phonetic": "/ˈtuːpl/",
+              "meaning": "元组"
+            },
+            {
+              "word": "array type",
+              "phonetic": "/əˈreɪ taɪp/",
+              "meaning": "数组类型"
+            },
+            {
+              "word": "mapped type",
+              "phonetic": "/ˈmæpt taɪp/",
+              "meaning": "映射类型"
+            },
+            {
+              "word": "conditional type",
+              "phonetic": "/kənˈdɪʃənl taɪp/",
+              "meaning": "条件类型"
+            }
+          ]
+        },
+        {
+          "name": "第六十三组 - 装饰器",
+          "words": [
+            {
+              "word": "decorator",
+              "phonetic": "/ˈdekəreɪtər/",
+              "meaning": "装饰器"
+            },
+            {
+              "word": "class decorator",
+              "phonetic": "/klæs ˈdekəreɪtər/",
+              "meaning": "类装饰器"
+            },
+            {
+              "word": "method decorator",
+              "phonetic": "/ˈmeθəd ˈdekəreɪtər/",
+              "meaning": "方法装饰器"
+            },
+            {
+              "word": "parameter decorator",
+              "phonetic": "/pəˈræmɪtər ˈdekəreɪtər/",
+              "meaning": "参数装饰器"
+            },
+            {
+              "word": "property decorator",
+              "phonetic": "/ˈprɒpərti ˈdekəreɪtər/",
+              "meaning": "属性装饰器"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "第十一部分：构建工具",
+      "groups": [
+        {
+          "name": "第六十四组 - 包管理",
+          "words": [
+            {
+              "word": "npm",
+              "phonetic": "/en piː em/",
+              "meaning": "Node包管理器"
+            },
+            {
+              "word": "yarn",
+              "phonetic": "/jɑːrn/",
+              "meaning": "Yarn包管理器"
+            },
+            {
+              "word": "pnpm",
+              "phonetic": "/piː en piː em/",
+              "meaning": "pnpm包管理器"
+            },
+            {
+              "word": "package.json",
+              "phonetic": "/ˈpækɪdʒ dʒeɪsɒn/",
+              "meaning": "包配置文件"
+            },
+            {
+              "word": "node_modules",
+              "phonetic": "/noʊd ˈmɒdjuːlz/",
+              "meaning": "依赖目录"
+            },
+            {
+              "word": "install",
+              "phonetic": "/ɪnˈstɔːl/",
+              "meaning": "安装"
+            },
+            {
+              "word": "uninstall",
+              "phonetic": "/ˌʌnɪnˈstɔːl/",
+              "meaning": "卸载"
+            },
+            {
+              "word": "update",
+              "phonetic": "/ʌpˈdeɪt/",
+              "meaning": "更新"
+            }
+          ]
+        },
+        {
+          "name": "第六十五组 - Webpack",
+          "words": [
+            {
+              "word": "webpack",
+              "phonetic": "/webpæk/",
+              "meaning": "Webpack打包工具"
+            },
+            {
+              "word": "entry",
+              "phonetic": "/ˈentri/",
+              "meaning": "入口"
+            },
+            {
+              "word": "output",
+              "phonetic": "/ˈaʊtpʊt/",
+              "meaning": "输出"
+            },
+            {
+              "word": "loader",
+              "phonetic": "/ˈloʊdər/",
+              "meaning": "加载器"
+            },
+            {
+              "word": "plugin",
+              "phonetic": "/ˈplæɡɪn/",
+              "meaning": "插件"
+            },
+            {
+              "word": "chunk",
+              "phonetic": "/tʃʌŋk/",
+              "meaning": "代码块"
+            },
+            {
+              "word": "bundle",
+              "phonetic": "/ˈbʌndl/",
+              "meaning": "打包文件"
+            },
+            {
+              "word": "hot module replacement",
+              "phonetic": "/hɒt ˈmɒdjuːl rɪˈpleɪsmənt/",
+              "meaning": "热模块替换"
+            }
+          ]
+        },
+        {
+          "name": "第六十六组 - Vite",
+          "words": [
+            {
+              "word": "vite",
+              "phonetic": "/viːt/",
+              "meaning": "Vite构建工具"
+            },
+            {
+              "word": "dev server",
+              "phonetic": "/dev ˈsɜːrvər/",
+              "meaning": "开发服务器"
+            },
+            {
+              "word": "build",
+              "phonetic": "/bɪld/",
+              "meaning": "构建"
+            },
+            {
+              "word": "preview",
+              "phonetic": "/ˈpriːvjuː/",
+              "meaning": "预览"
+            },
+            {
+              "word": "fast refresh",
+              "phonetic": "/fɑːst ˈriːfrɛʃ/",
+              "meaning": "快速刷新"
+            },
+            {
+              "word": "esbuild",
+              "phonetic": "/iː es bɪld/",
+              "meaning": "ESBuild打包器"
+            }
+          ]
+        },
+        {
+          "name": "第六十七组 - Babel与转译",
+          "words": [
+            {
+              "word": "babel",
+              "phonetic": "/ˈbeɪbl/",
+              "meaning": "Babel转译器"
+            },
+            {
+              "word": "transpile",
+              "phonetic": "/trænzˈpaɪl/",
+              "meaning": "转译"
+            },
+            {
+              "word": "preset",
+              "phonetic": "/ˈpriːset/",
+              "meaning": "预设"
+            },
+            {
+              "word": "plugin",
+              "phonetic": "/ˈplæɡɪn/",
+              "meaning": "插件"
+            },
+            {
+              "word": "polyfill",
+              "phonetic": "/ˈpɒlifɪl/",
+              "meaning": "填充补丁"
+            },
+            {
+              "word": "core-js",
+              "phonetic": "/kɔːr dʒeɪs/",
+              "meaning": "JavaScript标准库"
+            }
+          ]
+        },
+        {
+          "name": "第六十八组 - 代码规范",
+          "words": [
+            {
+              "word": "eslint",
+              "phonetic": "/es lɪnt/",
+              "meaning": "ESLint代码检查"
+            },
+            {
+              "word": "prettier",
+              "phonetic": "/ˈprittier/",
+              "meaning": "Prettier代码格式化"
+            },
+            {
+              "word": "husky",
+              "phonetic": "/ˈhʌski/",
+              "meaning": "Git钩子工具"
+            },
+            {
+              "word": "lint staged",
+              "phonetic": "/lɪnt steɪtʒd/",
+              "meaning": "暂存区检查"
+            },
+            {
+              "word": "commitlint",
+              "phonetic": "/kəˈmɪtlɪnt/",
+              "meaning": "提交信息检查"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "第十二部分：CSS框架与预处理",
+      "groups": [
+        {
+          "name": "第六十九组 - Tailwind CSS",
+          "words": [
+            {
+              "word": "tailwind css",
+              "phonetic": "/ˈteɪlwɪnd siː es es/",
+              "meaning": "Tailwind CSS框架"
+            },
+            {
+              "word": "utility class",
+              "phonetic": "/juːˈtɪləti klæs/",
+              "meaning": "工具类"
+            },
+            {
+              "word": "responsive design",
+              "phonetic": "/rɪˈspɒnsɪv dɪˈzaɪn/",
+              "meaning": "响应式设计"
+            },
+            {
+              "word": "dark mode",
+              "phonetic": "/dɑːrk moʊd/",
+              "meaning": "深色模式"
+            },
+            {
+              "word": "purge css",
+              "phonetic": "/pɜːrdʒ siː es es/",
+              "meaning": "清除无用CSS"
+            },
+            {
+              "word": "JIT",
+              "phonetic": "/dʒɪt/",
+              "meaning": "即时编译"
+            }
+          ]
+        },
+        {
+          "name": "第七十组 - Sass/SCSS",
+          "words": [
+            {
+              "word": "sass",
+              "phonetic": "/sæs/",
+              "meaning": "Sass预处理"
+            },
+            {
+              "word": "scss",
+              "phonetic": "/es siː es es/",
+              "meaning": "SCSS语法"
+            },
+            {
+              "word": "variable",
+              "phonetic": "/ˈveriəbl/",
+              "meaning": "变量"
+            },
+            {
+              "word": "nesting",
+              "phonetic": "/ˈnestɪŋ/",
+              "meaning": "嵌套"
+            },
+            {
+              "word": "mixin",
+              "phonetic": "/ˈmɪksɪn/",
+              "meaning": "混入"
+            },
+            {
+              "word": "function",
+              "phonetic": "/ˈfʌŋkʃn/",
+              "meaning": "函数"
+            },
+            {
+              "word": "extend",
+              "phonetic": "/ɪkˈstend/",
+              "meaning": "继承"
+            },
+            {
+              "word": "partial",
+              "phonetic": "/ˈpɑːrʃl/",
+              "meaning": "部分文件"
+            },
+            {
+              "word": "import",
+              "phonetic": "/ɪmˈpɔːrt/",
+              "meaning": "导入"
+            }
+          ]
+        },
+        {
+          "name": "第七十一组 - 其他CSS框架",
+          "words": [
+            {
+              "word": "bootstrap",
+              "phonetic": "/ˈbuːtstræp/",
+              "meaning": "Bootstrap框架"
+            },
+            {
+              "word": "material ui",
+              "phonetic": "/məˈtɪriəl juː aɪ/",
+              "meaning": "Material UI组件库"
+            },
+            {
+              "word": "ant design",
+              "phonetic": "/ænt dɪˈzaɪn/",
+              "meaning": "Ant Design组件库"
+            },
+            {
+              "word": "chakra ui",
+              "phonetic": "/ˈtʃɑːkrə juː aɪ/",
+              "meaning": "Chakra UI组件库"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "第十三部分：Node.js后端基础",
+      "groups": [
+        {
+          "name": "第七十二组 - Node.js核心",
+          "words": [
+            {
+              "word": "node",
+              "phonetic": "/noʊd/",
+              "meaning": "Node.js运行环境"
+            },
+            {
+              "word": "runtime",
+              "phonetic": "/ˈrʌntaɪm/",
+              "meaning": "运行时"
+            },
+            {
+              "word": "module",
+              "phonetic": "/ˈmɒdjuːl/",
+              "meaning": "模块"
+            },
+            {
+              "word": "require",
+              "phonetic": "/rɪˈkwaɪər/",
+              "meaning": "导入模块"
+            },
+            {
+              "word": "export",
+              "phonetic": "/ɪkˈspɔːrt/",
+              "meaning": "导出"
+            },
+            {
+              "word": "global",
+              "phonetic": "/ˈɡloʊbl/",
+              "meaning": "全局对象"
+            },
+            {
+              "word": "process",
+              "phonetic": "/ˈprɑːses/",
+              "meaning": "进程对象"
+            },
+            {
+              "word": "Buffer",
+              "phonetic": "/ˈbʌfər/",
+              "meaning": "缓冲区"
+            }
+          ]
+        },
+        {
+          "name": "第七十三组 - 文件系统",
+          "words": [
+            {
+              "word": "fs",
+              "phonetic": "/ef es/",
+              "meaning": "文件系统模块"
+            },
+            {
+              "word": "readFile",
+              "phonetic": "/riːd faɪl/",
+              "meaning": "读取文件"
+            },
+            {
+              "word": "writeFile",
+              "phonetic": "/raɪt faɪl/",
+              "meaning": "写入文件"
+            },
+            {
+              "word": "mkdir",
+              "phonetic": "/ˈmeɪk dɪˈrektəri/",
+              "meaning": "创建目录"
+            },
+            {
+              "word": "readdir",
+              "phonetic": "/riːd dɪˈrektəri/",
+              "meaning": "读取目录"
+            },
+            {
+              "word": "exists",
+              "phonetic": "/ɪɡˈzɪsts/",
+              "meaning": "检查存在"
+            },
+            {
+              "word": "unlink",
+              "phonetic": "/ʌnˈlɪŋk/",
+              "meaning": "删除文件"
+            },
+            {
+              "word": "stat",
+              "phonetic": "/stæt/",
+              "meaning": "文件状态"
+            }
+          ]
+        },
+        {
+          "name": "第七十四组 - HTTP服务器",
+          "words": [
+            {
+              "word": "http",
+              "phonetic": "/eɪtʃ tiː piː/",
+              "meaning": "HTTP模块"
+            },
+            {
+              "word": "createServer",
+              "phonetic": "/krɪˈeɪt ˈsɜːrvər/",
+              "meaning": "创建服务器"
+            },
+            {
+              "word": "request",
+              "phonetic": "/rɪˈkwest/",
+              "meaning": "请求对象"
+            },
+            {
+              "word": "response",
+              "phonetic": "/rɪˈspɒns/",
+              "meaning": "响应对象"
+            },
+            {
+              "word": "listen",
+              "phonetic": "/ˈlɪsn/",
+              "meaning": "监听端口"
+            },
+            {
+              "word": "statusCode",
+              "phonetic": "/ˈsteɪtəs koʊd/",
+              "meaning": "状态码"
+            },
+            {
+              "word": "setHeader",
+              "phonetic": "/set ˈhedər/",
+              "meaning": "设置响应头"
+            },
+            {
+              "word": "end",
+              "phonetic": "/end/",
+              "meaning": "结束响应"
+            }
+          ]
+        },
+        {
+          "name": "第七十五组 - Express框架",
+          "words": [
+            {
+              "word": "express",
+              "phonetic": "/ɪkˈspres/",
+              "meaning": "Express框架"
+            },
+            {
+              "word": "app",
+              "phonetic": "/æp/",
+              "meaning": "Express应用"
+            },
+            {
+              "word": "middleware",
+              "phonetic": "/ˈmɪdlwer/",
+              "meaning": "中间件"
+            },
+            {
+              "word": "route",
+              "phonetic": "/raʊt/",
+              "meaning": "路由"
+            },
+            {
+              "word": "request handler",
+              "phonetic": "/rɪˈkwest ˈhændlər/",
+              "meaning": "请求处理器"
+            },
+            {
+              "word": "static files",
+              "phonetic": "/ˈstætɪk faɪlz/",
+              "meaning": "静态文件"
+            },
+            {
+              "word": "json parser",
+              "phonetic": "/dʒeɪsɒn ˈpɑːrsər/",
+              "meaning": "JSON解析器"
+            },
+            {
+              "word": "next",
+              "phonetic": "/nekst/",
+              "meaning": "下一个处理器"
+            }
+          ]
+        },
+        {
+          "name": "第七十六组 - RESTful API",
+          "words": [
+            {
+              "word": "restful",
+              "phonetic": "/ˈrestfʊl/",
+              "meaning": "REST风格"
+            },
+            {
+              "word": "endpoint",
+              "phonetic": "/ˈendpoint/",
+              "meaning": "端点"
+            },
+            {
+              "word": "resource",
+              "phonetic": "/ˈriːsɔːrs/",
+              "meaning": "资源"
+            },
+            {
+              "word": "path parameter",
+              "phonetic": "/pæθ pəˈræmɪtər/",
+              "meaning": "路径参数"
+            },
+            {
+              "word": "query parameter",
+              "phonetic": "/ˈkweri pəˈræmɪtər/",
+              "meaning": "查询参数"
+            },
+            {
+              "word": "request body",
+              "phonetic": "/rɪˈkwest ˈbɒdi/",
+              "meaning": "请求体"
+            },
+            {
+              "word": "status code",
+              "phonetic": "/ˈsteɪtəs koʊd/",
+              "meaning": "状态码"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "第十四部分：Git与协作",
+      "groups": [
+        {
+          "name": "第七十七组 - Git基础",
+          "words": [
+            {
+              "word": "git",
+              "phonetic": "/ɡɪt/",
+              "meaning": "Git版本控制"
+            },
+            {
+              "word": "repository",
+              "phonetic": "/rɪˈpɑːzətɔːri/",
+              "meaning": "仓库"
+            },
+            {
+              "word": "commit",
+              "phonetic": "/kəˈmɪt/",
+              "meaning": "提交"
+            },
+            {
+              "word": "branch",
+              "phonetic": "/bræntʃ/",
+              "meaning": "分支"
+            },
+            {
+              "word": "checkout",
+              "phonetic": "/ˈtʃekaʊt/",
+              "meaning": "检出"
+            },
+            {
+              "word": "clone",
+              "phonetic": "/kloʊn/",
+              "meaning": "克隆"
+            },
+            {
+              "word": "push",
+              "phonetic": "/pʊʃ/",
+              "meaning": "推送"
+            },
+            {
+              "word": "pull",
+              "phonetic": "/pʊl/",
+              "meaning": "拉取"
+            }
+          ]
+        },
+        {
+          "name": "第七十八组 - Git进阶",
+          "words": [
+            {
+              "word": "merge",
+              "phonetic": "/mɜːrdʒ/",
+              "meaning": "合并"
+            },
+            {
+              "word": "rebase",
+              "phonetic": "/riːˈbeɪs/",
+              "meaning": "变基"
+            },
+            {
+              "word": "stash",
+              "phonetic": "/stæʃ/",
+              "meaning": "暂存"
+            },
+            {
+              "word": "reset",
+              "phonetic": "/rɪˈset/",
+              "meaning": "重置"
+            },
+            {
+              "word": "revert",
+              "phonetic": "/rɪˈvɜːrt/",
+              "meaning": "撤销"
+            },
+            {
+              "word": "cherry pick",
+              "phonetic": "/ˈtʃeri pɪk/",
+              "meaning": "拣选提交"
+            },
+            {
+              "word": "conflict",
+              "phonetic": "/ˈkɒnflɪkt/",
+              "meaning": "冲突"
+            },
+            {
+              "word": "diff",
+              "phonetic": "/dɪf/",
+              "meaning": "差异"
+            }
+          ]
+        },
+        {
+          "name": "第七十九组 - GitHub",
+          "words": [
+            {
+              "word": "github",
+              "phonetic": "/ɡɪt hʌb/",
+              "meaning": "GitHub平台"
+            },
+            {
+              "word": "pull request",
+              "phonetic": "/pʊl rɪˈkwest/",
+              "meaning": "拉取请求"
+            },
+            {
+              "word": "code review",
+              "phonetic": "/koʊd rɪˈvjuː/",
+              "meaning": "代码审查"
+            },
+            {
+              "word": "fork",
+              "phonetic": "/fɔːrk/",
+              "meaning": "分叉"
+            },
+            {
+              "word": "issue",
+              "phonetic": "/ˈɪʃuː/",
+              "meaning": "问题"
+            },
+            {
+              "word": "milestone",
+              "phonetic": "/ˈmaɪlstoʊn/",
+              "meaning": "里程碑"
+            },
+            {
+              "word": "readme",
+              "phonetic": "/ˈredmi/",
+              "meaning": "说明文档"
+            },
+            {
+              "word": "license",
+              "phonetic": "/ˈlaɪsəns/",
+              "meaning": "许可证"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "第十五部分：测试",
+      "groups": [
+        {
+          "name": "第八十组 - 测试基础",
+          "words": [
+            {
+              "word": "unit test",
+              "phonetic": "/ˈjuːnɪt test/",
+              "meaning": "单元测试"
+            },
+            {
+              "word": "integration test",
+              "phonetic": "/ˌɪntɪˈɡreɪʃn test/",
+              "meaning": "集成测试"
+            },
+            {
+              "word": "end to end test",
+              "phonetic": "/end tuː end test/",
+              "meaning": "端到端测试"
+            },
+            {
+              "word": "test suite",
+              "phonetic": "/test swiːt/",
+              "meaning": "测试套件"
+            },
+            {
+              "word": "test case",
+              "phonetic": "/test keɪs/",
+              "meaning": "测试用例"
+            },
+            {
+              "word": "assertion",
+              "phonetic": "/əˈserʃn/",
+              "meaning": "断言"
+            },
+            {
+              "word": "mock",
+              "phonetic": "/mɑːk/",
+              "meaning": "模拟对象"
+            }
+          ]
+        },
+        {
+          "name": "第八十一组 - Jest",
+          "words": [
+            {
+              "word": "jest",
+              "phonetic": "/dʒest/",
+              "meaning": "Jest测试框架"
+            },
+            {
+              "word": "describe",
+              "phonetic": "/dɪˈskraɪb/",
+              "meaning": "描述测试块"
+            },
+            {
+              "word": "it",
+              "phonetic": "/ɪt/",
+              "meaning": "测试用例"
+            },
+            {
+              "word": "test",
+              "phonetic": "/test/",
+              "meaning": "测试函数"
+            },
+            {
+              "word": "expect",
+              "phonetic": "/ɪkˈspekt/",
+              "meaning": "期望"
+            },
+            {
+              "word": "toBe",
+              "phonetic": "/tuː biː/",
+              "meaning": "断言相等"
+            },
+            {
+              "word": "toEqual",
+              "phonetic": "/tuː ˈiːkwəl/",
+              "meaning": "断言深度相等"
+            },
+            {
+              "word": "toThrow",
+              "phonetic": "/tuː θroʊ/",
+              "meaning": "断言抛出错误"
+            },
+            {
+              "word": "beforeEach",
+              "phonetic": "/bɪˈfɔːr iːtʃ/",
+              "meaning": "每个测试前"
+            },
+            {
+              "word": "afterEach",
+              "phonetic": "/ˈɑːftər iːtʃ/",
+              "meaning": "每个测试后"
+            }
+          ]
+        },
+        {
+          "name": "第八十二组 - React Testing",
+          "words": [
+            {
+              "word": "react testing library",
+              "phonetic": "/riːˈækt ˈtestɪŋ ˈlaɪbreri/",
+              "meaning": "React测试库"
+            },
+            {
+              "word": "render",
+              "phonetic": "/ˈrendər/",
+              "meaning": "渲染"
+            },
+            {
+              "word": "screen",
+              "phonetic": "/skriːn/",
+              "meaning": "屏幕对象"
+            },
+            {
+              "word": "getByText",
+              "phonetic": "/ɡet baɪ tekst/",
+              "meaning": "按文本获取"
+            },
+            {
+              "word": "getByRole",
+              "phonetic": "/ɡet baɪ rɔːl/",
+              "meaning": "按角色获取"
+            },
+            {
+              "word": "getByLabelText",
+              "phonetic": "/ɡet baɪ ˈleɪbl tekst/",
+              "meaning": "按标签文本获取"
+            },
+            {
+              "word": "fireEvent",
+              "phonetic": "/ˈfaɪər ɪˈvent/",
+              "meaning": "触发事件"
+            },
+            {
+              "word": "userEvent",
+              "phonetic": "/ˈjuːzər ɪˈvent/",
+              "meaning": "用户事件"
+            },
+            {
+              "word": "waitFor",
+              "phonetic": "/weɪt fɔːr/",
+              "meaning": "等待"
+            },
+            {
+              "word": "act",
+              "phonetic": "/ækt/",
+              "meaning": "行为包装"
+            }
+          ]
+        },
+        {
+          "name": "第八十三组 - Cypress",
+          "words": [
+            {
+              "word": "cypress",
+              "phonetic": "/ˈsaɪprəs/",
+              "meaning": "Cypress测试框架"
+            },
+            {
+              "word": "describe",
+              "phonetic": "/dɪˈskraɪb/",
+              "meaning": "描述块"
+            },
+            {
+              "word": "it",
+              "phonetic": "/ɪt/",
+              "meaning": "测试用例"
+            },
+            {
+              "word": "cy",
+              "phonetic": "/siː waɪ/",
+              "meaning": "Cypress命令"
+            },
+            {
+              "word": "visit",
+              "phonetic": "/ˈvɪzɪt/",
+              "meaning": "访问页面"
+            },
+            {
+              "word": "get",
+              "phonetic": "/ɡet/",
+              "meaning": "获取元素"
+            },
+            {
+              "word": "click",
+              "phonetic": "/klɪk/",
+              "meaning": "点击"
+            },
+            {
+              "word": "type",
+              "phonetic": "/taɪp/",
+              "meaning": "输入"
+            },
+            {
+              "word": "contains",
+              "phonetic": "/kənˈteɪnz/",
+              "meaning": "包含文本"
+            },
+            {
+              "word": "should",
+              "phonetic": "/ʃʊd/",
+              "meaning": "断言"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "第十六部分：性能优化",
+      "groups": [
+        {
+          "name": "第八十四组 - 前端性能",
+          "words": [
+            {
+              "word": "performance",
+              "phonetic": "/pərˈfɔːrməns/",
+              "meaning": "性能"
+            },
+            {
+              "word": "optimization",
+              "phonetic": "/ˌɑːptɪmɪˈzeɪʃn/",
+              "meaning": "优化"
+            },
+            {
+              "word": "lazy loading",
+              "phonetic": "/ˈleɪzi ˈloʊdɪŋ/",
+              "meaning": "懒加载"
+            },
+            {
+              "word": "code splitting",
+              "phonetic": "/koʊd ˈsplɪtɪŋ/",
+              "meaning": "代码分割"
+            },
+            {
+              "word": "tree shaking",
+              "phonetic": "/triː ˈʃeɪkɪŋ/",
+              "meaning": "摇树优化"
+            },
+            {
+              "word": "minification",
+              "phonetic": "/ˌmɪnɪfɪˈkeɪʃn/",
+              "meaning": "压缩"
+            },
+            {
+              "word": "bundling",
+              "phonetic": "/ˈbʌndlɪŋ/",
+              "meaning": "打包"
+            }
+          ]
+        },
+        {
+          "name": "第八十五组 - 网络优化",
+          "words": [
+            {
+              "word": "cdn",
+              "phonetic": "/siː diː en/",
+              "meaning": "内容分发网络"
+            },
+            {
+              "word": "caching",
+              "phonetic": "/ˈkæʃɪŋ/",
+              "meaning": "缓存"
+            },
+            {
+              "word": "compression",
+              "phonetic": "/kəmˈpreʃn/",
+              "meaning": "压缩"
+            },
+            {
+              "word": "gzip",
+              "phonetic": "/ˈdʒiːzɪp/",
+              "meaning": "Gzip压缩"
+            },
+            {
+              "word": "http2",
+              "phonetic": "/eɪtʃ tiː piː tuː/",
+              "meaning": "HTTP/2协议"
+            },
+            {
+              "word": "preload",
+              "phonetic": "/ˈpriːloʊd/",
+              "meaning": "预加载"
+            },
+            {
+              "word": "prefetch",
+              "phonetic": "/ˈpriːfetʃ/",
+              "meaning": "预取"
+            }
+          ]
+        },
+        {
+          "name": "第八十六组 - 渲染优化",
+          "words": [
+            {
+              "word": "critical rendering path",
+              "phonetic": "/ˈkrɪtɪkl ˈrendərɪŋ pæθ/",
+              "meaning": "关键渲染路径"
+            },
+            {
+              "word": "first contentful paint",
+              "phonetic": "/fɜːrst ˈkɒntentfʊl peɪnt/",
+              "meaning": "首次内容绘制"
+            },
+            {
+              "word": "largest contentful paint",
+              "phonetic": "/ˈlɑːrɡɪst ˈkɒntentfʊl peɪnt/",
+              "meaning": "最大内容绘制"
+            },
+            {
+              "word": "time to interactive",
+              "phonetic": "/taɪm tuː ˌɪntərˈæktɪv/",
+              "meaning": "可交互时间"
+            },
+            {
+              "word": "cumulative layout shift",
+              "phonetic": "/ˌkjuːmjʊˈleɪtɪv ˈleɪaʊt ʃɪft/",
+              "meaning": "累积布局偏移"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "第十七部分：Web安全",
+      "groups": [
+        {
+          "name": "第八十七组 - 安全基础",
+          "words": [
+            {
+              "word": "security",
+              "phonetic": "/sɪˈkjʊrəti/",
+              "meaning": "安全性"
+            },
+            {
+              "word": "xss",
+              "phonetic": "/eks es es/",
+              "meaning": "跨站脚本攻击"
+            },
+            {
+              "word": "csrf",
+              "phonetic": "/siː es ar ef/",
+              "meaning": "跨站请求伪造"
+            },
+            {
+              "word": "sqli",
+              "phonetic": "/es kjuː el aɪ/",
+              "meaning": "SQL注入"
+            },
+            {
+              "word": "https",
+              "phonetic": "/eɪtʃ tiː tiː es piː/",
+              "meaning": "安全超文本传输协议"
+            },
+            {
+              "word": "cors",
+              "phonetic": "/siː oːr es/",
+              "meaning": "跨域资源共享"
+            },
+            {
+              "word": "csrf token",
+              "phonetic": "/siː ar es ef ˈtoʊkən/",
+              "meaning": "CSRF令牌"
+            }
+          ]
+        },
+        {
+          "name": "第八十八组 - 认证与授权",
+          "words": [
+            {
+              "word": "authentication",
+              "phonetic": "/ɔːˌθentɪˈkeɪʃn/",
+              "meaning": "身份认证"
+            },
+            {
+              "word": "authorization",
+              "phonetic": "/ˌɔːθərəˈzeɪʃn/",
+              "meaning": "授权"
+            },
+            {
+              "word": "jwt",
+              "phonetic": "/dʒeɪ weɪ tiː/",
+              "meaning": "JSON Web令牌"
+            },
+            {
+              "word": "oauth",
+              "phonetic": "/oʊɔːθ/",
+              "meaning": "开放授权"
+            },
+            {
+              "word": "session",
+              "phonetic": "/ˈseʃn/",
+              "meaning": "会话"
+            },
+            {
+              "word": "cookie",
+              "phonetic": "/ˈkʊki/",
+              "meaning": "Cookie"
+            },
+            {
+              "word": "token",
+              "phonetic": "/ˈtoʊkən/",
+              "meaning": "令牌"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "第十八部分：响应式设计",
+      "groups": [
+        {
+          "name": "第八十九组 - 响应式基础",
+          "words": [
+            {
+              "word": "responsive design",
+              "phonetic": "/rɪˈspɒnsɪv dɪˈzaɪn/",
+              "meaning": "响应式设计"
+            },
+            {
+              "word": "mobile first",
+              "phonetic": "/ˈmoʊbəl fɜːrst/",
+              "meaning": "移动优先"
+            },
+            {
+              "word": "breakpoint",
+              "phonetic": "/ˈbreɪkpɔɪnt/",
+              "meaning": "断点"
+            },
+            {
+              "word": "viewport",
+              "phonetic": "/ˈvjuːpɔːrt/",
+              "meaning": "视口"
+            },
+            {
+              "word": "media query",
+              "phonetic": "/ˈmiːdiə ˈkweri/",
+              "meaning": "媒体查询"
+            },
+            {
+              "word": "fluid layout",
+              "phonetic": "/ˈfluːɪd ˈleɪaʊt/",
+              "meaning": "流式布局"
+            }
+          ]
+        },
+        {
+          "name": "第九十组 - 视口与单位",
+          "words": [
+            {
+              "word": "viewport meta",
+              "phonetic": "/ˈvjuːpɔːrt ˈmetə/",
+              "meaning": "视口元标签"
+            },
+            {
+              "word": "device width",
+              "phonetic": "/dɪˈvaɪs wɪdθ/",
+              "meaning": "设备宽度"
+            },
+            {
+              "word": "pixel ratio",
+              "phonetic": "/ˈpɪksl ˈreɪʃioʊ/",
+              "meaning": "像素比"
+            },
+            {
+              "word": "rem",
+              "phonetic": "/rem/",
+              "meaning": "根元素字体大小单位"
+            },
+            {
+              "word": "em",
+              "phonetic": "/em/",
+              "meaning": "相对字体大小单位"
+            },
+            {
+              "word": "vw",
+              "phonetic": "/viː dʌbəljuː/",
+              "meaning": "视口宽度单位"
+            },
+            {
+              "word": "vh",
+              "phonetic": "/viː eɪtʃ/",
+              "meaning": "视口高度单位"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "第十九部分：动画与过渡",
+      "groups": [
+        {
+          "name": "第九十一组 - CSS动画",
+          "words": [
+            {
+              "word": "transition",
+              "phonetic": "/trænˈzɪʃn/",
+              "meaning": "过渡"
+            },
+            {
+              "word": "animation",
+              "phonetic": "/ˌænɪˈmeɪʃn/",
+              "meaning": "动画"
+            },
+            {
+              "word": "keyframes",
+              "phonetic": "/ˈkiːfreɪmz/",
+              "meaning": "关键帧"
+            },
+            {
+              "word": "duration",
+              "phonetic": "/djuːˈreɪʃn/",
+              "meaning": "持续时间"
+            },
+            {
+              "word": "timing function",
+              "phonetic": "/ˈtaɪmɪŋ ˈfʌŋkʃn/",
+              "meaning": "时间函数"
+            },
+            {
+              "word": "ease",
+              "phonetic": "/iːz/",
+              "meaning": "缓动"
+            },
+            {
+              "word": "delay",
+              "phonetic": "/dɪˈleɪ/",
+              "meaning": "延迟"
+            },
+            {
+              "word": "iteration count",
+              "phonetic": "/ˌɪtəˈreɪʃn kaʊnt/",
+              "meaning": "重复次数"
+            }
+          ]
+        },
+        {
+          "name": "第九十二组 - JavaScript动画",
+          "words": [
+            {
+              "word": "requestAnimationFrame",
+              "phonetic": "/rɪˈkwest əˈnɪmeɪʃn freɪm/",
+              "meaning": "请求动画帧"
+            },
+            {
+              "word": "cancelAnimationFrame",
+              "phonetic": "/kænˈsel əˈnɪmeɪʃn freɪm/",
+              "meaning": "取消动画帧"
+            },
+            {
+              "word": "tween",
+              "phonetic": "/twiːn/",
+              "meaning": "补间动画"
+            },
+            {
+              "word": "easing function",
+              "phonetic": "/ˈiːzɪŋ ˈfʌŋkʃn/",
+              "meaning": "缓动函数"
+            },
+            {
+              "word": "interpolate",
+              "phonetic": "/ɪnˈtɜːrpəleɪt/",
+              "meaning": "插值"
+            }
+          ]
+        },
+        {
+          "name": "第九十三组 - CSS动画属性",
+          "words": [
+            {
+              "word": "transform",
+              "phonetic": "/trænsˈfɔːrm/",
+              "meaning": "变换"
+            },
+            {
+              "word": "translate",
+              "phonetic": "/trænsˈleɪt/",
+              "meaning": "平移"
+            },
+            {
+              "word": "rotate",
+              "phonetic": "/roʊˈteɪt/",
+              "meaning": "旋转"
+            },
+            {
+              "word": "scale",
+              "phonetic": "/skeɪl/",
+              "meaning": "缩放"
+            },
+            {
+              "word": "skew",
+              "phonetic": "/skjuː/",
+              "meaning": "倾斜"
+            },
+            {
+              "word": "opacity",
+              "phonetic": "/oʊˈpæsəti/",
+              "meaning": "透明度"
+            },
+            {
+              "word": "filter",
+              "phonetic": "/ˈfɪltər/",
+              "meaning": "滤镜"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "第二十部分：Web APIs进阶",
+      "groups": [
+        {
+          "name": "第九十四组 - Web Workers",
+          "words": [
+            {
+              "word": "web worker",
+              "phonetic": "/web ˈwɜːrkər/",
+              "meaning": "Web Worker"
+            },
+            {
+              "word": "postMessage",
+              "phonetic": "/poʊst ˈmesɪdʒ/",
+              "meaning": "发送消息"
+            },
+            {
+              "word": "onmessage",
+              "phonetic": "/ɒn ˈmesɪdʒ/",
+              "meaning": "接收消息"
+            },
+            {
+              "word": "terminate",
+              "phonetic": "/ˈtɜːrmɪneɪt/",
+              "meaning": "终止"
+            },
+            {
+              "word": "dedicated worker",
+              "phonetic": "/dɪˈdɪkeɪtɪd ˈwɜːrkər/",
+              "meaning": "专用Worker"
+            },
+            {
+              "word": "shared worker",
+              "phonetic": "/ʃerd ˈwɜːrkər/",
+              "meaning": "共享Worker"
+            }
+          ]
+        },
+        {
+          "name": "第九十五组 - Service Worker",
+          "words": [
+            {
+              "word": "service worker",
+              "phonetic": "/ˈsɜːrvɪs ˈwɜːrkər/",
+              "meaning": "Service Worker"
+            },
+            {
+              "word": "register",
+              "phonetic": "/ˈredʒɪstər/",
+              "meaning": "注册"
+            },
+            {
+              "word": "install",
+              "phonetic": "/ɪnˈstɔːl/",
+              "meaning": "安装"
+            },
+            {
+              "word": "activate",
+              "phonetic": "/ˈæktɪveɪt/",
+              "meaning": "激活"
+            },
+            {
+              "word": "fetch event",
+              "phonetic": "/festʃ ɪˈvent/",
+              "meaning": "请求事件"
+            },
+            {
+              "word": "cache",
+              "phonetic": "/kæʃ/",
+              "meaning": "缓存"
+            },
+            {
+              "word": "skip waiting",
+              "phonetic": "/skɪp ˈweɪtɪŋ/",
+              "meaning": "跳过等待"
+            },
+            {
+              "word": "clients claim",
+              "phonetic": "/ˈklaɪənts kleɪm/",
+              "meaning": "客户端声明"
+            }
+          ]
+        },
+        {
+          "name": "第九十六组 - WebSocket",
+          "words": [
+            {
+              "word": "websocket",
+              "phonetic": "/web ˈsɒket/",
+              "meaning": "WebSocket"
+            },
+            {
+              "word": "connect",
+              "phonetic": "/kəˈnekt/",
+              "meaning": "连接"
+            },
+            {
+              "word": "send",
+              "phonetic": "/send/",
+              "meaning": "发送"
+            },
+            {
+              "word": "receive",
+              "phonetic": "/rɪˈsiːv/",
+              "meaning": "接收"
+            },
+            {
+              "word": "close",
+              "phonetic": "/kloʊz/",
+              "meaning": "关闭"
+            },
+            {
+              "word": "onopen",
+              "phonetic": "/ɒn ˈoʊpən/",
+              "meaning": "连接打开"
+            },
+            {
+              "word": "onmessage",
+              "phonetic": "/ɒn ˈmesɪdʒ/",
+              "meaning": "收到消息"
+            },
+            {
+              "word": "onclose",
+              "phonetic": "/ɒn kloʊz/",
+              "meaning": "连接关闭"
+            },
+            {
+              "word": "onerror",
+              "phonetic": "/ɒn ˈerər/",
+              "meaning": "错误处理"
+            }
+          ]
+        },
+        {
+          "name": "第九十七组 - Intersection Observer",
+          "words": [
+            {
+              "word": "intersection observer",
+              "phonetic": "/ˌɪntərˈsekʃn əbˈzɜːrvər/",
+              "meaning": "交叉观察器"
+            },
+            {
+              "word": "observe",
+              "phonetic": "/əbˈzɜːrv/",
+              "meaning": "观察"
+            },
+            {
+              "word": "unobserve",
+              "phonetic": "/ˌʌnəbˈzɜːrv/",
+              "meaning": "停止观察"
+            },
+            {
+              "word": "threshold",
+              "phonetic": "/ˈθreʃhoʊld/",
+              "meaning": "阈值"
+            },
+            {
+              "word": "root margin",
+              "phonetic": "/ruːt ˈmɑːrdʒɪn/",
+              "meaning": "根边距"
+            },
+            {
+              "word": "isIntersecting",
+              "phonetic": "/ɪz ˌɪntərˈsektɪŋ/",
+              "meaning": "是否交叉"
+            }
+          ]
+        },
+        {
+          "name": "第九十八组 - 其他API",
+          "words": [
+            {
+              "word": "mutation observer",
+              "phonetic": "/mjuːˈteɪʃn əbˈzɜːrvər/",
+              "meaning": "变动观察器"
+            },
+            {
+              "word": "resize observer",
+              "phonetic": "/rɪˈsaɪz əbˈzɜːrvər/",
+              "meaning": "调整大小观察器"
+            },
+            {
+              "word": "fullscreen",
+              "phonetic": "/fʊlˈskriːn/",
+              "meaning": "全屏"
+            },
+            {
+              "word": "notification",
+              "phonetic": "/ˌnoʊtɪfɪˈkeɪʃn/",
+              "meaning": "通知"
+            },
+            {
+              "word": "payment request",
+              "phonetic": "/ˈpeɪmənt rɪˈkwest/",
+              "meaning": "支付请求"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "第二十一部分：PWA与移动开发",
+      "groups": [
+        {
+          "name": "第九十九组 - PWA基础",
+          "words": [
+            {
+              "word": "pwa",
+              "phonetic": "/piː dʌbəljuː eɪ/",
+              "meaning": "渐进式Web应用"
+            },
+            {
+              "word": "manifest",
+              "phonetic": "/ˈmænɪfest/",
+              "meaning": "Web应用清单"
+            },
+            {
+              "word": "installable",
+              "phonetic": "/ɪnˈstɔːləbl/",
+              "meaning": "可安装"
+            },
+            {
+              "word": "add to homescreen",
+              "phonetic": "/æd tuː hoʊm skriːn/",
+              "meaning": "添加到主屏幕"
+            },
+            {
+              "word": "splash screen",
+              "phonetic": "/splæʃ skriːn/",
+              "meaning": "启动画面"
+            }
+          ]
+        },
+        {
+          "name": "第一〇〇组 - 离线功能",
+          "words": [
+            {
+              "word": "offline",
+              "phonetic": "/ˈɔːflaɪn/",
+              "meaning": "离线"
+            },
+            {
+              "word": "online",
+              "phonetic": "/ˈɒnlaɪn/",
+              "meaning": "在线"
+            },
+            {
+              "word": "app shell",
+              "phonetic": "/æp ʃel/",
+              "meaning": "应用外壳"
+            },
+            {
+              "word": "cache first",
+              "phonetic": "/kæʃ fɜːrst/",
+              "meaning": "缓存优先"
+            },
+            {
+              "word": "network first",
+              "phonetic": "/ˈnetwɜːrk fɜːrst/",
+              "meaning": "网络优先"
+            },
+            {
+              "word": "stale while revalidate",
+              "phonetic": "/steɪl waɪl ˌrevəlˈdeɪt/",
+              "meaning": "过期重新验证"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "第二十二部分：其他常用词汇",
+      "groups": [
+        {
+          "name": "第一〇一组 - 开发工具",
+          "words": [
+            {
+              "word": "ide",
+              "phonetic": "/aɪ diː iː/",
+              "meaning": "集成开发环境"
+            },
+            {
+              "word": "vscode",
+              "phonetic": "/viː es koʊd/",
+              "meaning": "VS Code编辑器"
+            },
+            {
+              "word": "chrome devtools",
+              "phonetic": "/kroʊm dev taʊlz/",
+              "meaning": "Chrome开发者工具"
+            },
+            {
+              "word": "inspect",
+              "phonetic": "/ɪnˈspekt/",
+              "meaning": "检查"
+            },
+            {
+              "word": "console",
+              "phonetic": "/ˈkɒnsoʊl/",
+              "meaning": "控制台"
+            },
+            {
+              "word": "network tab",
+              "phonetic": "/ˈnetwɜːrk tæb/",
+              "meaning": "网络标签页"
+            },
+            {
+              "word": "sources tab",
+              "phonetic": "/ˈsɔːrsɪz tæb/",
+              "meaning": "源码标签页"
+            }
+          ]
+        },
+        {
+          "name": "第一〇二组 - 调试技巧",
+          "words": [
+            {
+              "word": "debug",
+              "phonetic": "/diːˈbʌɡ/",
+              "meaning": "调试"
+            },
+            {
+              "word": "breakpoint",
+              "phonetic": "/ˈbreɪkpɔɪnt/",
+              "meaning": "断点"
+            },
+            {
+              "word": "watch",
+              "phonetic": "/wɒtʃ/",
+              "meaning": "监视"
+            },
+            {
+              "word": "step over",
+              "phonetic": "/step ˈoʊvər/",
+              "meaning": "跳过"
+            },
+            {
+              "word": "step into",
+              "phonetic": "/step ˈɪntuː/",
+              "meaning": "步入"
+            },
+            {
+              "word": "step out",
+              "phonetic": "/step aʊt/",
+              "meaning": "步出"
+            },
+            {
+              "word": "console log",
+              "phonetic": "/ˈkɒnsoʊl lɔːɡ/",
+              "meaning": "控制台日志"
+            }
+          ]
+        },
+        {
+          "name": "第一〇三组 - 通用术语",
+          "words": [
+            {
+              "word": "framework",
+              "phonetic": "/ˈfreɪmwɜːrk/",
+              "meaning": "框架"
+            },
+            {
+              "word": "library",
+              "phonetic": "/ˈlaɪbrəri/",
+              "meaning": "库"
+            },
+            {
+              "word": "api",
+              "phonetic": "/eɪ piː aɪ/",
+              "meaning": "应用程序接口"
+            },
+            {
+              "word": "sdk",
+              "phonetic": "/es diː keɪ/",
+              "meaning": "软件开发工具包"
+            },
+            {
+              "word": "ide",
+              "phonetic": "/aɪ diː iː/",
+              "meaning": "集成开发环境"
+            },
+            {
+              "word": "cli",
+              "phonetic": "/siː el aɪ/",
+              "meaning": "命令行界面"
+            },
+            {
+              "word": "ui",
+              "phonetic": "/juː aɪ/",
+              "meaning": "用户界面"
+            },
+            {
+              "word": "ux",
+              "phonetic": "/juː eks/",
+              "meaning": "用户体验"
+            }
+          ]
+        },
+        {
+          "name": "第一〇四组 - 代码质量",
+          "words": [
+            {
+              "word": "refactor",
+              "phonetic": "/riːˈfæktər/",
+              "meaning": "重构"
+            },
+            {
+              "word": "lint",
+              "phonetic": "/lɪnt/",
+              "meaning": "代码检查"
+            },
+            {
+              "word": "format",
+              "phonetic": "/ˈfɔːrmæt/",
+              "meaning": "格式化"
+            },
+            {
+              "word": "dry",
+              "phonetic": "/diː waɪ ɑːr/",
+              "meaning": "不要重复自己"
+            },
+            {
+              "word": "kiss",
+              "phonetic": "/kɪs/",
+              "meaning": "保持简单"
+            },
+            {
+              "word": "solid",
+              "phonetic": "/ˈsɒlɪd/",
+              "meaning": "面向对象设计原则"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "词汇统计",
+      "groups": []
+    }
+  ]
+}

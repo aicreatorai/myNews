@@ -9,7 +9,7 @@
 
 'use strict';
 
-const CACHE_VERSION  = 'v20260430-181556';
+const CACHE_VERSION  = 'v20260501-015952';
 const STATIC_CACHE   = 'news-static-' + CACHE_VERSION;
 const NEWS_CACHE     = 'news-content-' + CACHE_VERSION;
 const CDN_CACHE      = 'news-cdn-' + CACHE_VERSION;
@@ -68,6 +68,9 @@ self.addEventListener('fetch', event => {
 
   // 非 GET 请求不缓存
   if (event.request.method !== 'GET') return;
+
+  // 跳过非 HTTP(S) 请求（如 chrome-extension://）
+  if (!url.protocol.startsWith('http')) return;
 
   // CDN 资源（marked.js 等）→ Cache First
   if (url.hostname !== self.location.hostname) {

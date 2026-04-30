@@ -1,0 +1,3422 @@
+{
+  "title": "软件开发完整词汇大全",
+  "parts": [
+    {
+      "name": "第一部分：编程基础",
+      "groups": [
+        {
+          "name": "第一组 - 变量与数据类型",
+          "words": [
+            {
+              "word": "variable",
+              "phonetic": "/ˈveəriəbl/",
+              "meaning": "变量"
+            },
+            {
+              "word": "constant",
+              "phonetic": "/ˈkɒnstənt/",
+              "meaning": "常量"
+            },
+            {
+              "word": "integer",
+              "phonetic": "/ˈɪntɪdʒə(r)/",
+              "meaning": "整数类型"
+            },
+            {
+              "word": "floating",
+              "phonetic": "/ˈfləʊtɪŋ/",
+              "meaning": "浮点数"
+            },
+            {
+              "word": "double",
+              "phonetic": "/ˈdʌbl/",
+              "meaning": "双精度浮点数"
+            },
+            {
+              "word": "boolean",
+              "phonetic": "/ˈbuːliən/",
+              "meaning": "布尔类型"
+            },
+            {
+              "word": "character",
+              "phonetic": "/ˈkærəktə(r)/",
+              "meaning": "字符类型"
+            },
+            {
+              "word": "string",
+              "phonetic": "/strɪŋ/",
+              "meaning": "字符串"
+            },
+            {
+              "word": "array",
+              "phonetic": "/əˈreɪ/",
+              "meaning": "数组"
+            },
+            {
+              "word": "object",
+              "phonetic": "/ˈɒbdʒɪkt/",
+              "meaning": "对象"
+            }
+          ]
+        },
+        {
+          "name": "第二组 - 运算符与表达式",
+          "words": [
+            {
+              "word": "operator",
+              "phonetic": "/ˈɒpəreɪtə(r)/",
+              "meaning": "运算符"
+            },
+            {
+              "word": "operand",
+              "phonetic": "/ˈɒpərænd/",
+              "meaning": "操作数"
+            },
+            {
+              "word": "assignment",
+              "phonetic": "/əˈsaɪnmənt/",
+              "meaning": "赋值"
+            },
+            {
+              "word": "arithmetic",
+              "phonetic": "/ˌærɪθˈmetɪk/",
+              "meaning": "算术运算"
+            },
+            {
+              "word": "comparison",
+              "phonetic": "/kəmˈpærɪsn/",
+              "meaning": "比较运算"
+            },
+            {
+              "word": "logical",
+              "phonetic": "/ˈlɒdʒɪkl/",
+              "meaning": "逻辑运算"
+            },
+            {
+              "word": "bitwise",
+              "phonetic": "/ˈbɪtwaɪz/",
+              "meaning": "位运算"
+            },
+            {
+              "word": "increment",
+              "phonetic": "/ˈɪŋkrɪmənt/",
+              "meaning": "递增"
+            },
+            {
+              "word": "decrement",
+              "phonetic": "/dɪˈskriːmənt/",
+              "meaning": "递减"
+            },
+            {
+              "word": "ternary",
+              "phonetic": "/ˈtɜːnəri/",
+              "meaning": "三元运算"
+            }
+          ]
+        },
+        {
+          "name": "第三组 - 控制流程",
+          "words": [
+            {
+              "word": "conditional",
+              "phonetic": "/kənˈdɪʃənl/",
+              "meaning": "条件语句"
+            },
+            {
+              "word": "if",
+              "phonetic": "/ɪf/",
+              "meaning": "如果"
+            },
+            {
+              "word": "else",
+              "phonetic": "/els/",
+              "meaning": "否则"
+            },
+            {
+              "word": "switch",
+              "phonetic": "/swɪtʃ/",
+              "meaning": "开关语句"
+            },
+            {
+              "word": "case",
+              "phonetic": "/keɪs/",
+              "meaning": "分支"
+            },
+            {
+              "word": "default",
+              "phonetic": "/dɪˈfɔːlt/",
+              "meaning": "默认分支"
+            },
+            {
+              "word": "break",
+              "phonetic": "/breɪk/",
+              "meaning": "中断"
+            },
+            {
+              "word": "continue",
+              "phonetic": "/kənˈtɪnjuː/",
+              "meaning": "继续"
+            },
+            {
+              "word": "loop",
+              "phonetic": "/luːp/",
+              "meaning": "循环"
+            },
+            {
+              "word": "iteration",
+              "phonetic": "/ˌɪtəˈreɪʃn/",
+              "meaning": "迭代"
+            }
+          ]
+        },
+        {
+          "name": "第四组 - 循环结构",
+          "words": [
+            {
+              "word": "while",
+              "phonetic": "/waɪl/",
+              "meaning": "当...时循环"
+            },
+            {
+              "word": "for",
+              "phonetic": "/fɔː(r)/",
+              "meaning": "For循环"
+            },
+            {
+              "word": "foreach",
+              "phonetic": "/fɔːrɪtʃ/",
+              "meaning": "增强for循环"
+            },
+            {
+              "word": "do",
+              "phonetic": "/duː/",
+              "meaning": "执行"
+            },
+            {
+              "word": "cycle",
+              "phonetic": "/ˈsaɪkl/",
+              "meaning": "周期"
+            }
+          ]
+        },
+        {
+          "name": "第五组 - 函数基础",
+          "words": [
+            {
+              "word": "function",
+              "phonetic": "/ˈfʌŋkʃn/",
+              "meaning": "函数"
+            },
+            {
+              "word": "method",
+              "phonetic": "/ˈmeθəd/",
+              "meaning": "方法"
+            },
+            {
+              "word": "procedure",
+              "phonetic": "/prəˈsiːdʒə(r)/",
+              "meaning": "过程"
+            },
+            {
+              "word": "callback",
+              "phonetic": "/ˈkɔːlbæk/",
+              "meaning": "回调函数"
+            },
+            {
+              "word": "closure",
+              "phonetic": "/ˈkləʊʒə(r)/",
+              "meaning": "闭包"
+            }
+          ]
+        },
+        {
+          "name": "第六组 - 函数进阶",
+          "words": [
+            {
+              "word": "anonymous",
+              "phonetic": "/əˈnɒnɪməs/",
+              "meaning": "匿名函数"
+            },
+            {
+              "word": "lambda",
+              "phonetic": "/ˈlæmdə/",
+              "meaning": "Lambda表达式"
+            },
+            {
+              "word": "higher-order",
+              "phonetic": "/ˈhaɪə ˈɔːdə/",
+              "meaning": "高阶函数"
+            },
+            {
+              "word": "recursion",
+              "phonetic": "/rɪˈkɜːʃn/",
+              "meaning": "递归"
+            },
+            {
+              "word": "scope",
+              "phonetic": "/skəʊp/",
+              "meaning": "作用域"
+            }
+          ]
+        },
+        {
+          "name": "第七组 - 参数与返回值",
+          "words": [
+            {
+              "word": "parameter",
+              "phonetic": "/pəˈræmɪtə(r)/",
+              "meaning": "参数"
+            },
+            {
+              "word": "argument",
+              "phonetic": "/ˈɑːɡjumənt/",
+              "meaning": "实参"
+            },
+            {
+              "word": "return",
+              "phonetic": "/rɪˈtɜːn/",
+              "meaning": "返回"
+            },
+            {
+              "word": "invoke",
+              "phonetic": "/ɪnˈvəʊk/",
+              "meaning": "调用"
+            },
+            {
+              "word": "call",
+              "phonetic": "/kɔːl/",
+              "meaning": "调用"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "第二部分：面向对象编程",
+      "groups": [
+        {
+          "name": "第八组 - 核心概念",
+          "words": [
+            {
+              "word": "object",
+              "phonetic": "/ˈɒbdʒɪkt/",
+              "meaning": "对象"
+            },
+            {
+              "word": "class",
+              "phonetic": "/klɑːs/",
+              "meaning": "类"
+            },
+            {
+              "word": "instance",
+              "phonetic": "/ˈɪnstəns/",
+              "meaning": "实例"
+            },
+            {
+              "word": "attribute",
+              "phonetic": "/əˈtrɪbjuːt/",
+              "meaning": "属性"
+            },
+            {
+              "word": "behavior",
+              "phonetic": "/bɪˈheɪvjər/",
+              "meaning": "行为"
+            },
+            {
+              "word": "encapsulation",
+              "phonetic": "/ɪnˌkæpsjuˈleɪʃn/",
+              "meaning": "封装"
+            },
+            {
+              "word": "inheritance",
+              "phonetic": "/ɪnˈherɪtəns/",
+              "meaning": "继承"
+            },
+            {
+              "word": "polymorphism",
+              "phonetic": "/ˌpɒlɪˈmɔːfɪzəm/",
+              "meaning": "多态"
+            },
+            {
+              "word": "abstraction",
+              "phonetic": "/æbˈstrækʃn/",
+              "meaning": "抽象"
+            },
+            {
+              "word": "interface",
+              "phonetic": "/ˈɪntəfeɪs/",
+              "meaning": "接口"
+            }
+          ]
+        },
+        {
+          "name": "第九组 - 访问控制",
+          "words": [
+            {
+              "word": "public",
+              "phonetic": "/ˈpʌblɪk/",
+              "meaning": "公共的"
+            },
+            {
+              "word": "private",
+              "phonetic": "/ˈpraɪvət/",
+              "meaning": "私有的"
+            },
+            {
+              "word": "protected",
+              "phonetic": "/prəˈtektɪd/",
+              "meaning": "受保护的"
+            },
+            {
+              "word": "internal",
+              "phonetic": "/ɪnˈtɜːnl/",
+              "meaning": "内部的"
+            },
+            {
+              "word": "static",
+              "phonetic": "/ˈstætɪk/",
+              "meaning": "静态的"
+            },
+            {
+              "word": "final",
+              "phonetic": "/ˈfaɪnl/",
+              "meaning": "最终的"
+            },
+            {
+              "word": "readonly",
+              "phonetic": "/ˈriːdˌɒnli/",
+              "meaning": "只读的"
+            },
+            {
+              "word": "abstract",
+              "phonetic": "/ˈæbstrækt/",
+              "meaning": "抽象的"
+            },
+            {
+              "word": "override",
+              "phonetic": "/ˌəʊvəˈraɪd/",
+              "meaning": "重写"
+            },
+            {
+              "word": "overload",
+              "phonetic": "/ˌəʊvəˈləʊd/",
+              "meaning": "重载"
+            }
+          ]
+        },
+        {
+          "name": "第十组 - 设计模式",
+          "words": [
+            {
+              "word": "singleton",
+              "phonetic": "/ˈsɪŋɡltən/",
+              "meaning": "单例模式"
+            },
+            {
+              "word": "factory",
+              "phonetic": "/ˈfæktri/",
+              "meaning": "工厂模式"
+            },
+            {
+              "word": "observer",
+              "phonetic": "/əbˈzɜːvə(r)/",
+              "meaning": "观察者模式"
+            },
+            {
+              "word": "decorator",
+              "phonetic": "/ˈdekəreɪtə(r)/",
+              "meaning": "装饰器模式"
+            },
+            {
+              "word": "adapter",
+              "phonetic": "/əˈdæptə(r)/",
+              "meaning": "适配器模式"
+            },
+            {
+              "word": "strategy",
+              "phonetic": "/ˈstrætədʒi/",
+              "meaning": "策略模式"
+            },
+            {
+              "word": "command",
+              "phonetic": "/kəˈmɑːnd/",
+              "meaning": "命令模式"
+            },
+            {
+              "word": "builder",
+              "phonetic": "/ˈbɪldə(r)/",
+              "meaning": "建造者模式"
+            },
+            {
+              "word": "prototype",
+              "phonetic": "/ˈprəʊtətaɪp/",
+              "meaning": "原型模式"
+            },
+            {
+              "word": "facade",
+              "phonetic": "/fəˈsɑːd/",
+              "meaning": "门面模式"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "第三部分：数据结构",
+      "groups": [
+        {
+          "name": "第十一组 - 线性结构",
+          "words": [
+            {
+              "word": "array",
+              "phonetic": "/əˈreɪ/",
+              "meaning": "数组"
+            },
+            {
+              "word": "linked list",
+              "phonetic": "/lɪŋkt lɪst/",
+              "meaning": "链表"
+            },
+            {
+              "word": "stack",
+              "phonetic": "/stæk/",
+              "meaning": "栈"
+            },
+            {
+              "word": "queue",
+              "phonetic": "/kjuː/",
+              "meaning": "队列"
+            },
+            {
+              "word": "deque",
+              "phonetic": "/dek/",
+              "meaning": "双端队列"
+            },
+            {
+              "word": "vector",
+              "phonetic": "/ˈvektə(r)/",
+              "meaning": "向量"
+            },
+            {
+              "word": "list",
+              "phonetic": "/lɪst/",
+              "meaning": "列表"
+            },
+            {
+              "word": "heap",
+              "phonetic": "/hiːp/",
+              "meaning": "堆"
+            },
+            {
+              "word": "priority queue",
+              "phonetic": "/praɪˈɒrəti kjuː/",
+              "meaning": "优先队列"
+            },
+            {
+              "word": "circular buffer",
+              "phonetic": "/ˈsɜːkjələ ˈbʌfə(r)/",
+              "meaning": "环形缓冲区"
+            }
+          ]
+        },
+        {
+          "name": "第十二组 - 非线性结构",
+          "words": [
+            {
+              "word": "tree",
+              "phonetic": "/triː/",
+              "meaning": "树"
+            },
+            {
+              "word": "binary tree",
+              "phonetic": "/ˈbaɪnəri triː/",
+              "meaning": "二叉树"
+            },
+            {
+              "word": "binary search tree",
+              "phonetic": "/baɪnəri sɜːtʃ triː/",
+              "meaning": "二叉搜索树"
+            },
+            {
+              "word": "balanced tree",
+              "phonetic": "/ˈbælənst triː/",
+              "meaning": "平衡树"
+            },
+            {
+              "word": "graph",
+              "phonetic": "/ɡrɑːf/",
+              "meaning": "图"
+            },
+            {
+              "word": "directed graph",
+              "phonetic": "/dəˈrektɪd ɡrɑːf/",
+              "meaning": "有向图"
+            },
+            {
+              "word": "undirected graph",
+              "phonetic": "/ʌndəˈrektɪd ɡrɑːf/",
+              "meaning": "无向图"
+            },
+            {
+              "word": "DAG",
+              "phonetic": "/dæɡ/",
+              "meaning": "有向无环图"
+            },
+            {
+              "word": "hash table",
+              "phonetic": "/hæʃ ˈteɪbl/",
+              "meaning": "哈希表"
+            },
+            {
+              "word": "heap",
+              "phonetic": "/hiːp/",
+              "meaning": "堆"
+            }
+          ]
+        },
+        {
+          "name": "第十三组 - 树结构进阶",
+          "words": [
+            {
+              "word": "AVL tree",
+              "phonetic": "/eɪ viː el triː/",
+              "meaning": "AVL树"
+            },
+            {
+              "word": "red-black tree",
+              "phonetic": "/red blæk triː/",
+              "meaning": "红黑树"
+            },
+            {
+              "word": "B-tree",
+              "phonetic": "/biː triː/",
+              "meaning": "B树"
+            },
+            {
+              "word": "B+ tree",
+              "phonetic": "/biː plʌs triː/",
+              "meaning": "B+树"
+            },
+            {
+              "word": "trie",
+              "phonetic": "/traɪ/",
+              "meaning": "前缀树"
+            },
+            {
+              "word": "segment tree",
+              "phonetic": "/ˈseɡmənt triː/",
+              "meaning": "线段树"
+            },
+            {
+              "word": "interval tree",
+              "phonetic": "/ˈɪntəvəl triː/",
+              "meaning": "区间树"
+            },
+            {
+              "word": "skip list",
+              "phonetic": "/skɪp lɪst/",
+              "meaning": "跳表"
+            },
+            {
+              "word": "Fibonacci heap",
+              "phonetic": "/fɪbəˈnɑːtʃi hiːp/",
+              "meaning": "斐波那契堆"
+            },
+            {
+              "word": "R-tree",
+              "phonetic": "/ɑː triː/",
+              "meaning": "R树"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "第四部分：算法",
+      "groups": [
+        {
+          "name": "第十四组 - 排序算法",
+          "words": [
+            {
+              "word": "bubble sort",
+              "phonetic": "/ˈbʌbl sɔːt/",
+              "meaning": "冒泡排序"
+            },
+            {
+              "word": "selection sort",
+              "phonetic": "/sɪˈlekʃn sɔːt/",
+              "meaning": "选择排序"
+            },
+            {
+              "word": "insertion sort",
+              "phonetic": "/ɪnˈsekʃn sɔːt/",
+              "meaning": "插入排序"
+            },
+            {
+              "word": "merge sort",
+              "phonetic": "/mɜːdʒ sɔːt/",
+              "meaning": "归并排序"
+            },
+            {
+              "word": "quick sort",
+              "phonetic": "/kwɪk sɔːt/",
+              "meaning": "快速排序"
+            },
+            {
+              "word": "heap sort",
+              "phonetic": "/hiːp sɔːt/",
+              "meaning": "堆排序"
+            },
+            {
+              "word": "shell sort",
+              "phonetic": "/ʃel sɔːt/",
+              "meaning": "希尔排序"
+            },
+            {
+              "word": "counting sort",
+              "phonetic": "/ˈkaʊntɪŋ sɔːt/",
+              "meaning": "计数排序"
+            },
+            {
+              "word": "radix sort",
+              "phonetic": "/ˈrædɪks sɔːt/",
+              "meaning": "基数排序"
+            },
+            {
+              "word": "bucket sort",
+              "phonetic": "/ˈbʌkɪt sɔːt/",
+              "meaning": "桶排序"
+            }
+          ]
+        },
+        {
+          "name": "第十五组 - 搜索算法",
+          "words": [
+            {
+              "word": "linear search",
+              "phonetic": "/ˈlɪniə(r) sɜːtʃ/",
+              "meaning": "线性搜索"
+            },
+            {
+              "word": "binary search",
+              "phonetic": "/ˈbaɪnəri sɜːtʃ/",
+              "meaning": "二分搜索"
+            },
+            {
+              "word": "depth-first search",
+              "phonetic": "/depθ fɜːst sɜːtʃ/",
+              "meaning": "深度优先搜索"
+            },
+            {
+              "word": "breadth-first search",
+              "phonetic": "/bredθ fɜːst sɜːtʃ/",
+              "meaning": "广度优先搜索"
+            },
+            {
+              "word": "interpolation search",
+              "phonetic": "/ˌɪntəpəˈleɪʃn sɜːtʃ/",
+              "meaning": "插值搜索"
+            },
+            {
+              "word": "exponential search",
+              "phonetic": "/ˌekspəˈnenʃl sɜːtʃ/",
+              "meaning": "指数搜索"
+            },
+            {
+              "word": "jump search",
+              "phonetic": "/dʒʌmp sɜːtʃ/",
+              "meaning": "跳跃搜索"
+            },
+            {
+              "word": "ternary search",
+              "phonetic": "/ˈtɜːnəri sɜːtʃ/",
+              "meaning": "三分搜索"
+            },
+            {
+              "word": "hash search",
+              "phonetic": "/hæʃ sɜːtʃ/",
+              "meaning": "哈希查找"
+            },
+            {
+              "word": "tree search",
+              "phonetic": "/triː sɜːtʃ/",
+              "meaning": "树搜索"
+            }
+          ]
+        },
+        {
+          "name": "第十六组 - 图算法",
+          "words": [
+            {
+              "word": "Dijkstra",
+              "phonetic": "/ˈdaɪkstrə/",
+              "meaning": "Dijkstra算法"
+            },
+            {
+              "word": "Bellman-Ford",
+              "phonetic": "/ˈbelmən fɔːd/",
+              "meaning": "Bellman-Ford算法"
+            },
+            {
+              "word": "Floyd-Warshall",
+              "phonetic": "/flɔɪd ˈwɔːʃɔːl/",
+              "meaning": "Floyd算法"
+            },
+            {
+              "word": "A* algorithm",
+              "phonetic": "/eɪ stɑː ˈælɡərɪðəm/",
+              "meaning": "A*算法"
+            },
+            {
+              "word": "Kruskal",
+              "phonetic": "/krʌskl/",
+              "meaning": "Kruskal算法"
+            },
+            {
+              "word": "Prim",
+              "phonetic": "/prɪm/",
+              "meaning": "Prim算法"
+            },
+            {
+              "word": "topological sort",
+              "phonetic": "/ˌtɒpəˈlɒdʒɪkl sɔːt/",
+              "meaning": "拓扑排序"
+            },
+            {
+              "word": "strongly connected components",
+              "phonetic": "/strɒŋli kəˈnektɪd kəmˈpəʊnənts/",
+              "meaning": "强连通分量"
+            },
+            {
+              "word": "bipartite",
+              "phonetic": "/baɪˈpɑːtaɪt/",
+              "meaning": "二分图"
+            },
+            {
+              "word": "Eulerian path",
+              "phonetic": "/ˈɔɪləriən pɑːθ/",
+              "meaning": "欧拉路径"
+            }
+          ]
+        },
+        {
+          "name": "第十七组 - 动态规划",
+          "words": [
+            {
+              "word": "dynamic programming",
+              "phonetic": "/daɪˈnæmɪk ˈprəʊɡræmɪŋ/",
+              "meaning": "动态规划"
+            },
+            {
+              "word": "memoization",
+              "phonetic": "/ˌmeməʊaɪˈzeɪʃn/",
+              "meaning": "记忆化"
+            },
+            {
+              "word": "optimal substructure",
+              "phonetic": "/ˈɒptɪməl sʌbˈstrʌktʃə(r)/",
+              "meaning": "最优子结构"
+            },
+            {
+              "word": "overlapping subproblems",
+              "phonetic": "/ˌəʊvəˈlæpɪŋ sʌbˈprɒbləmz/",
+              "meaning": "重叠子问题"
+            },
+            {
+              "word": "state",
+              "phonetic": "/steɪt/",
+              "meaning": "状态"
+            },
+            {
+              "word": "transition",
+              "phonetic": "/trænˈzɪʃn/",
+              "meaning": "状态转移"
+            },
+            {
+              "word": "base case",
+              "phonetic": "/beɪs keɪs/",
+              "meaning": "基准情况"
+            },
+            {
+              "word": "tabulation",
+              "phonetic": "/ˌtæbjuˈleɪʃn/",
+              "meaning": "制表法"
+            },
+            {
+              "word": "LCS",
+              "phonetic": "/el siː es/",
+              "meaning": "最长公共子序列"
+            },
+            {
+              "word": "LIS",
+              "phonetic": "/el aɪ es/",
+              "meaning": "最长递增子序列"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "第五部分：数据库",
+      "groups": [
+        {
+          "name": "第十八组 - 关系型数据库基础",
+          "words": [
+            {
+              "word": "database",
+              "phonetic": "/ˈdeɪtəbeɪs/",
+              "meaning": "数据库"
+            },
+            {
+              "word": "table",
+              "phonetic": "/ˈteɪbl/",
+              "meaning": "表"
+            },
+            {
+              "word": "row",
+              "phonetic": "/rəʊ/",
+              "meaning": "行"
+            },
+            {
+              "word": "column",
+              "phonetic": "/ˈkɒləm/",
+              "meaning": "列"
+            },
+            {
+              "word": "field",
+              "phonetic": "/fiːld/",
+              "meaning": "字段"
+            },
+            {
+              "word": "primary key",
+              "phonetic": "/ˈpraɪməri kiː/",
+              "meaning": "主键"
+            },
+            {
+              "word": "foreign key",
+              "phonetic": "/ˈfɒrən kiː/",
+              "meaning": "外键"
+            },
+            {
+              "word": "index",
+              "phonetic": "/ˈɪndeks/",
+              "meaning": "索引"
+            },
+            {
+              "word": "view",
+              "phonetic": "/vjuː/",
+              "meaning": "视图"
+            },
+            {
+              "word": "stored procedure",
+              "phonetic": "/stɔːd prəˈsiːdʒə(r)/",
+              "meaning": "存储过程"
+            }
+          ]
+        },
+        {
+          "name": "第十九组 - SQL查询",
+          "words": [
+            {
+              "word": "select",
+              "phonetic": "/sɪˈlekt/",
+              "meaning": "查询"
+            },
+            {
+              "word": "from",
+              "phonetic": "/frɒm/",
+              "meaning": "从"
+            },
+            {
+              "word": "where",
+              "phonetic": "/weə(r)/",
+              "meaning": "条件"
+            },
+            {
+              "word": "join",
+              "phonetic": "/dʒɔɪn/",
+              "meaning": "连接"
+            },
+            {
+              "word": "inner join",
+              "phonetic": "/ˈɪnə(r) dʒɔɪn/",
+              "meaning": "内连接"
+            },
+            {
+              "word": "left join",
+              "phonetic": "/left dʒɔɪn/",
+              "meaning": "左连接"
+            },
+            {
+              "word": "right join",
+              "phonetic": "/raɪt dʒɔɪn/",
+              "meaning": "右连接"
+            },
+            {
+              "word": "full outer join",
+              "phonetic": "/fʊl ˈaʊtə(r) dʒɔɪn/",
+              "meaning": "全外连接"
+            },
+            {
+              "word": "group by",
+              "phonetic": "/ɡruːp baɪ/",
+              "meaning": "分组"
+            },
+            {
+              "word": "having",
+              "phonetic": "/ˈhævɪŋ/",
+              "meaning": "分组条件"
+            },
+            {
+              "word": "order by",
+              "phonetic": "/ˈɔːdə(r) baɪ/",
+              "meaning": "排序"
+            },
+            {
+              "word": "limit",
+              "phonetic": "/ˈlɪmɪt/",
+              "meaning": "限制"
+            },
+            {
+              "word": "distinct",
+              "phonetic": "/dɪˈstɪŋkt/",
+              "meaning": "去重"
+            },
+            {
+              "word": "union",
+              "phonetic": "/ˈjuːniən/",
+              "meaning": "合并"
+            },
+            {
+              "word": "intersect",
+              "phonetic": "/ˈɪntəsekt/",
+              "meaning": "交集"
+            }
+          ]
+        },
+        {
+          "name": "第二十组 - 数据库进阶",
+          "words": [
+            {
+              "word": "trigger",
+              "phonetic": "/ˈtrɪɡə(r)/",
+              "meaning": "触发器"
+            },
+            {
+              "word": "transaction",
+              "phonetic": "/trænˈzækʃn/",
+              "meaning": "事务"
+            },
+            {
+              "word": "commit",
+              "phonetic": "/kəˈmɪt/",
+              "meaning": "提交"
+            },
+            {
+              "word": "rollback",
+              "phonetic": "/ˈrəʊlbæk/",
+              "meaning": "回滚"
+            },
+            {
+              "word": "constraint",
+              "phonetic": "/kənˈstreɪnt/",
+              "meaning": "约束"
+            },
+            {
+              "word": "normalization",
+              "phonetic": "/ˌnɔːməlaɪˈzeɪʃn/",
+              "meaning": "规范化"
+            },
+            {
+              "word": "denormalization",
+              "phonetic": "/diːˌnɔːməlaɪˈzeɪʃn/",
+              "meaning": "反规范化"
+            },
+            {
+              "word": "query optimization",
+              "phonetic": "/ˈkwɪəri ˌɒptɪmaɪˈzeɪʃn/",
+              "meaning": "查询优化"
+            },
+            {
+              "word": "execution plan",
+              "phonetic": "/ˌeksekˈjuːʃn plæn/",
+              "meaning": "执行计划"
+            },
+            {
+              "word": "deadlock",
+              "phonetic": "/ˈdedlɒk/",
+              "meaning": "死锁"
+            }
+          ]
+        },
+        {
+          "name": "第二十一组 - NoSQL数据库",
+          "words": [
+            {
+              "word": "document",
+              "phonetic": "/ˈdɒkjumənt/",
+              "meaning": "文档"
+            },
+            {
+              "word": "collection",
+              "phonetic": "/kəˈlekʃn/",
+              "meaning": "集合"
+            },
+            {
+              "word": "shard",
+              "phonetic": "/ʃɑːd/",
+              "meaning": "分片"
+            },
+            {
+              "word": "replica set",
+              "phonetic": "/ˈreplɪkə set/",
+              "meaning": "副本集"
+            },
+            {
+              "word": "eventually consistent",
+              "phonetic": "/ɪˈventʃuəli kənˈsɪstənt/",
+              "meaning": "最终一致性"
+            },
+            {
+              "word": "CAP theorem",
+              "phonetic": "/kæp ˈθɪərəm/",
+              "meaning": "CAP定理"
+            },
+            {
+              "word": "BASE",
+              "phonetic": "/beɪs/",
+              "meaning": "BASE特性"
+            },
+            {
+              "word": "ACID",
+              "phonetic": "/ˈæsɪd/",
+              "meaning": "ACID特性"
+            },
+            {
+              "word": "partition",
+              "phonetic": "/pɑːˈtɪʃn/",
+              "meaning": "分区"
+            },
+            {
+              "word": "replication",
+              "phonetic": "/ˌreplɪˈkeɪʃn/",
+              "meaning": "复制"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "第六部分：网络与Web",
+      "groups": [
+        {
+          "name": "第二十二组 - 网络协议",
+          "words": [
+            {
+              "word": "protocol",
+              "phonetic": "/ˈprəʊtəkɒl/",
+              "meaning": "协议"
+            },
+            {
+              "word": "TCP",
+              "phonetic": "/tiː siː piː/",
+              "meaning": "传输控制协议"
+            },
+            {
+              "word": "UDP",
+              "phonetic": "/juː diː piː/",
+              "meaning": "用户数据报协议"
+            },
+            {
+              "word": "IP",
+              "phonetic": "/aɪ piː/",
+              "meaning": "互联网协议"
+            },
+            {
+              "word": "HTTP",
+              "phonetic": "/eɪtʃ tiː piː/",
+              "meaning": "超文本传输协议"
+            },
+            {
+              "word": "HTTPS",
+              "phonetic": "/eɪtʃ tiː piː es/",
+              "meaning": "安全超文本传输协议"
+            },
+            {
+              "word": "DNS",
+              "phonetic": "/diː en es/",
+              "meaning": "域名系统"
+            },
+            {
+              "word": "FTP",
+              "phonetic": "/ef tiː piː/",
+              "meaning": "文件传输协议"
+            },
+            {
+              "word": "SMTP",
+              "phonetic": "/es em tiː piː/",
+              "meaning": "简单邮件传输协议"
+            },
+            {
+              "word": "SSH",
+              "phonetic": "/es es eɪtʃ/",
+              "meaning": "安全外壳协议"
+            }
+          ]
+        },
+        {
+          "name": "第二十三组 - 网络分层",
+          "words": [
+            {
+              "word": "application layer",
+              "phonetic": "/əˈplɪkeɪʃn ˈleɪə(r)/",
+              "meaning": "应用层"
+            },
+            {
+              "word": "presentation layer",
+              "phonetic": "/ˌprezənˈteɪʃn ˈleɪə(r)/",
+              "meaning": "表示层"
+            },
+            {
+              "word": "session layer",
+              "phonetic": "/ˈseʃn ˈleɪə(r)/",
+              "meaning": "会话层"
+            },
+            {
+              "word": "transport layer",
+              "phonetic": "/trænsˈpɔːt ˈleɪə(r)/",
+              "meaning": "传输层"
+            },
+            {
+              "word": "network layer",
+              "phonetic": "/ˈnetwɜːk ˈleɪə(r)/",
+              "meaning": "网络层"
+            },
+            {
+              "word": "data link layer",
+              "phonetic": "/ˈdeɪtə lɪŋk ˈleɪə(r)/",
+              "meaning": "数据链路层"
+            },
+            {
+              "word": "physical layer",
+              "phonetic": "/ˈfɪzɪkl ˈleɪə(r)/",
+              "meaning": "物理层"
+            },
+            {
+              "word": "OSI model",
+              "phonetic": "/ˈəʊ es aɪ ˈmɒdl/",
+              "meaning": "OSI模型"
+            },
+            {
+              "word": "TCP-IP model",
+              "phonetic": "/tiː siː piː aɪ piː ˈmɒdl/",
+              "meaning": "TCP/IP模型"
+            },
+            {
+              "word": "encapsulation",
+              "phonetic": "/ɪnˌkæpsjuˈleɪʃn/",
+              "meaning": "封装"
+            }
+          ]
+        },
+        {
+          "name": "第二十四组 - Web开发",
+          "words": [
+            {
+              "word": "frontend",
+              "phonetic": "/ˈfrʌntend/",
+              "meaning": "前端"
+            },
+            {
+              "word": "backend",
+              "phonetic": "/ˈbækend/",
+              "meaning": "后端"
+            },
+            {
+              "word": "full stack",
+              "phonetic": "/fʊl stæk/",
+              "meaning": "全栈"
+            },
+            {
+              "word": "REST",
+              "phonetic": "/rest/",
+              "meaning": "REST风格"
+            },
+            {
+              "word": "RESTful",
+              "phonetic": "/ˈrestfʊl/",
+              "meaning": "RESTful API"
+            },
+            {
+              "word": "GraphQL",
+              "phonetic": "/ɡrɑːf kjuː el/",
+              "meaning": "GraphQL查询语言"
+            },
+            {
+              "word": "JSON",
+              "phonetic": "/ˈdʒeɪsɒn/",
+              "meaning": "JSON数据格式"
+            },
+            {
+              "word": "XML",
+              "phonetic": "/eks em el/",
+              "meaning": "XML标记语言"
+            },
+            {
+              "word": "request",
+              "phonetic": "/rɪˈkwest/",
+              "meaning": "请求"
+            },
+            {
+              "word": "response",
+              "phonetic": "/rɪˈspɒns/",
+              "meaning": "响应"
+            }
+          ]
+        },
+        {
+          "name": "第二十五组 - API设计",
+          "words": [
+            {
+              "word": "endpoint",
+              "phonetic": "/ˈendpoint/",
+              "meaning": "端点"
+            },
+            {
+              "word": "resource",
+              "phonetic": "/ˈriːsɔːs/",
+              "meaning": "资源"
+            },
+            {
+              "word": "CRUD",
+              "phonetic": "/krʌd/",
+              "meaning": "增删改查"
+            },
+            {
+              "word": "create",
+              "phonetic": "/kriːˈeɪt/",
+              "meaning": "创建"
+            },
+            {
+              "word": "read",
+              "phonetic": "/riːd/",
+              "meaning": "读取"
+            },
+            {
+              "word": "update",
+              "phonetic": "/ʌpˈdeɪt/",
+              "meaning": "更新"
+            },
+            {
+              "word": "delete",
+              "phonetic": "/dɪˈliːt/",
+              "meaning": "删除"
+            },
+            {
+              "word": "pagination",
+              "phonetic": "/ˌpædʒɪˈneɪʃn/",
+              "meaning": "分页"
+            },
+            {
+              "word": "rate limiting",
+              "phonetic": "/reɪt ˈlɪmɪtɪŋ/",
+              "meaning": "限流"
+            },
+            {
+              "word": "authentication",
+              "phonetic": "/ɔːˌθentɪˈkeɪʃn/",
+              "meaning": "认证"
+            },
+            {
+              "word": "authorization",
+              "phonetic": "/ˌɔːθəraɪˈzeɪʃn/",
+              "meaning": "授权"
+            },
+            {
+              "word": "OAuth",
+              "phonetic": "/ˈəʊɔːθ/",
+              "meaning": "OAuth协议"
+            },
+            {
+              "word": "JWT",
+              "phonetic": "/dʒeɪ ˈdʌbəljuː tiː/",
+              "meaning": "JSON Web令牌"
+            },
+            {
+              "word": "API key",
+              "phonetic": "/eɪ piː aɪ kiː/",
+              "meaning": "API密钥"
+            },
+            {
+              "word": "webhook",
+              "phonetic": "/ˈwebhʊk/",
+              "meaning": "Webhook回调"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "第七部分：安全",
+      "groups": [
+        {
+          "name": "第二十六组 - 加密与安全",
+          "words": [
+            {
+              "word": "encryption",
+              "phonetic": "/ɪnˈkrɪpʃn/",
+              "meaning": "加密"
+            },
+            {
+              "word": "decryption",
+              "phonetic": "/diːkrɪpʃn/",
+              "meaning": "解密"
+            },
+            {
+              "word": "symmetric",
+              "phonetic": "/sɪˈmetrɪk/",
+              "meaning": "对称加密"
+            },
+            {
+              "word": "asymmetric",
+              "phonetic": "/ˌeɪsɪˈmetrɪk/",
+              "meaning": "非对称加密"
+            },
+            {
+              "word": "hashing",
+              "phonetic": "/ˈhæʃɪŋ/",
+              "meaning": "哈希"
+            },
+            {
+              "word": "SHA",
+              "phonetic": "/ʃɑː/",
+              "meaning": "安全哈希算法"
+            },
+            {
+              "word": "MD5",
+              "phonetic": "/em diː faɪv/",
+              "meaning": "MD5消息摘要"
+            },
+            {
+              "word": "RSA",
+              "phonetic": "/ɑː es eɪ/",
+              "meaning": "RSA加密算法"
+            },
+            {
+              "word": "AES",
+              "phonetic": "/eɪ iː es/",
+              "meaning": "高级加密标准"
+            },
+            {
+              "word": "DES",
+              "phonetic": "/diː iː es/",
+              "meaning": "数据加密标准"
+            },
+            {
+              "word": "SSL",
+              "phonetic": "/es es el/",
+              "meaning": "安全套接层"
+            },
+            {
+              "word": "TLS",
+              "phonetic": "/tiː el es/",
+              "meaning": "传输层安全"
+            },
+            {
+              "word": "certificate",
+              "phonetic": "/səˈtɪfɪkət/",
+              "meaning": "证书"
+            },
+            {
+              "word": "public key",
+              "phonetic": "/ˈpʌblɪk kiː/",
+              "meaning": "公钥"
+            },
+            {
+              "word": "private key",
+              "phonetic": "/ˈpraɪvət kiː/",
+              "meaning": "私钥"
+            }
+          ]
+        },
+        {
+          "name": "第二十七组 - Web安全",
+          "words": [
+            {
+              "word": "XSS",
+              "phonetic": "/eks es es/",
+              "meaning": "跨站脚本攻击"
+            },
+            {
+              "word": "CSRF",
+              "phonetic": "/siː es ɑː ef/",
+              "meaning": "跨站请求伪造"
+            },
+            {
+              "word": "SQL injection",
+              "phonetic": "/es kjuː el ɪnˈdʒekʃn/",
+              "meaning": "SQL注入"
+            },
+            {
+              "word": "CSRF token",
+              "phonetic": "/siː es ɑː ef ˈtəʊkən/",
+              "meaning": "CSRF令牌"
+            },
+            {
+              "word": "sanitization",
+              "phonetic": "/ˌsænɪtaɪˈzeɪʃn/",
+              "meaning": "消毒处理"
+            },
+            {
+              "word": "input validation",
+              "phonetic": "/ˈɪnpʌt ˌvælɪˈdeɪʃn/",
+              "meaning": "输入验证"
+            },
+            {
+              "word": "CORS",
+              "phonetic": "/kɔːs/",
+              "meaning": "跨域资源共享"
+            },
+            {
+              "word": "CSP",
+              "phonetic": "/siː es piː/",
+              "meaning": "内容安全策略"
+            },
+            {
+              "word": "secure coding",
+              "phonetic": "/sɪˈkjʊə(r) ˈkəʊdɪŋ/",
+              "meaning": "安全编码"
+            }
+          ]
+        },
+        {
+          "name": "第二十八组 - 身份与访问",
+          "words": [
+            {
+              "word": "authentication",
+              "phonetic": "/ɔːˌθentɪˈkeɪʃn/",
+              "meaning": "身份认证"
+            },
+            {
+              "word": "authorization",
+              "phonetic": "/ˌɔːθəraɪˈzeɪʃn/",
+              "meaning": "授权"
+            },
+            {
+              "word": "SSO",
+              "phonetic": "/es es əʊ/",
+              "meaning": "单点登录"
+            },
+            {
+              "word": "MFA",
+              "phonetic": "/em ef eɪ/",
+              "meaning": "多因素认证"
+            },
+            {
+              "word": "2FA",
+              "phonetic": "/tuː ef eɪ/",
+              "meaning": "双因素认证"
+            },
+            {
+              "word": "password",
+              "phonetic": "/ˈpɑːswɜːd/",
+              "meaning": "密码"
+            },
+            {
+              "word": "salt",
+              "phonetic": "/sɔːlt/",
+              "meaning": "盐值"
+            },
+            {
+              "word": "pepper",
+              "phonetic": "/ˈpepə(r)/",
+              "meaning": "胡椒值"
+            },
+            {
+              "word": "bcrypt",
+              "phonetic": "/biː krɪpt/",
+              "meaning": "bcrypt加密"
+            },
+            {
+              "word": "PBKDF2",
+              "phonetic": "/piː biː keɪ diː ef tuː/",
+              "meaning": "PBKDF2算法"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "第八部分：版本控制",
+      "groups": [
+        {
+          "name": "第二十九组 - Git基础",
+          "words": [
+            {
+              "word": "repository",
+              "phonetic": "/rɪˈpɒzətəri/",
+              "meaning": "仓库"
+            },
+            {
+              "word": "commit",
+              "phonetic": "/kəˈmɪt/",
+              "meaning": "提交"
+            },
+            {
+              "word": "branch",
+              "phonetic": "/brɑːntʃ/",
+              "meaning": "分支"
+            },
+            {
+              "word": "merge",
+              "phonetic": "/mɜːdʒ/",
+              "meaning": "合并"
+            },
+            {
+              "word": "checkout",
+              "phonetic": "/ˈtʃekaʊt/",
+              "meaning": "检出"
+            },
+            {
+              "word": "clone",
+              "phonetic": "/kləʊn/",
+              "meaning": "克隆"
+            },
+            {
+              "word": "pull",
+              "phonetic": "/pʊl/",
+              "meaning": "拉取"
+            },
+            {
+              "word": "push",
+              "phonetic": "/pʊʃ/",
+              "meaning": "推送"
+            },
+            {
+              "word": "fetch",
+              "phonetic": "/fetʃ/",
+              "meaning": "获取"
+            },
+            {
+              "word": "reset",
+              "phonetic": "/rɪˈset/",
+              "meaning": "重置"
+            }
+          ]
+        },
+        {
+          "name": "第三十组 - Git进阶",
+          "words": [
+            {
+              "word": "rebase",
+              "phonetic": "/riːˈbeɪs/",
+              "meaning": "变基"
+            },
+            {
+              "word": "cherry-pick",
+              "phonetic": "/ˈtʃeripɪk/",
+              "meaning": "摘取提交"
+            },
+            {
+              "word": "stash",
+              "phonetic": "/stæʃ/",
+              "meaning": "暂存"
+            },
+            {
+              "word": "tag",
+              "phonetic": "/tæɡ/",
+              "meaning": "标签"
+            },
+            {
+              "word": "bisect",
+              "phonetic": "/baɪˈsekt/",
+              "meaning": "二分查找"
+            },
+            {
+              "word": "log",
+              "phonetic": "/lɒɡ/",
+              "meaning": "日志"
+            },
+            {
+              "word": "diff",
+              "phonetic": "/dɪf/",
+              "meaning": "差异"
+            },
+            {
+              "word": "blame",
+              "phonetic": "/bleɪm/",
+              "meaning": "追溯"
+            },
+            {
+              "word": "rerere",
+              "phonetic": "/ˈrerere/",
+              "meaning": "重用记录"
+            },
+            {
+              "word": "hooks",
+              "phonetic": "/hʊks/",
+              "meaning": "钩子"
+            }
+          ]
+        },
+        {
+          "name": "第三十一组 - 工作流",
+          "words": [
+            {
+              "word": "main",
+              "phonetic": "/meɪn/",
+              "meaning": "主分支"
+            },
+            {
+              "word": "master",
+              "phonetic": "/ˈmɑːstə(r)/",
+              "meaning": "主分支"
+            },
+            {
+              "word": "develop",
+              "phonetic": "/dɪˈveləp/",
+              "meaning": "开发分支"
+            },
+            {
+              "word": "feature",
+              "phonetic": "/ˈfiːtʃə(r)/",
+              "meaning": "功能分支"
+            },
+            {
+              "word": "hotfix",
+              "phonetic": "/hɒtfɪks/",
+              "meaning": "热修复分支"
+            },
+            {
+              "word": "release",
+              "phonetic": "/rɪˈliːs/",
+              "meaning": "发布分支"
+            },
+            {
+              "word": "pull request",
+              "phonetic": "/pʊl rɪˈkwest/",
+              "meaning": "拉取请求"
+            },
+            {
+              "word": "code review",
+              "phonetic": "/kəʊd rɪˈvjuː/",
+              "meaning": "代码审查"
+            },
+            {
+              "word": "merge conflict",
+              "phonetic": "/mɜːdʒ ˈkɒnflɪkt/",
+              "meaning": "合并冲突"
+            },
+            {
+              "word": "code owner",
+              "phonetic": "/kəʊd ˈəʊnə(r)/",
+              "meaning": "代码所有者"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "第九部分：测试",
+      "groups": [
+        {
+          "name": "第三十二组 - 测试类型",
+          "words": [
+            {
+              "word": "unit testing",
+              "phonetic": "/ˈjuːnɪt ˈtestɪŋ/",
+              "meaning": "单元测试"
+            },
+            {
+              "word": "integration testing",
+              "phonetic": "/ɪnˈteɡreɪʃn ˈtestɪŋ/",
+              "meaning": "集成测试"
+            },
+            {
+              "word": "system testing",
+              "phonetic": "/ˈsɪstəm ˈtestɪŋ/",
+              "meaning": "系统测试"
+            },
+            {
+              "word": "acceptance testing",
+              "phonetic": "/əkˈseptəns ˈtestɪŋ/",
+              "meaning": "验收测试"
+            },
+            {
+              "word": "functional testing",
+              "phonetic": "/ˈfʌŋkʃənl ˈtestɪŋ/",
+              "meaning": "功能测试"
+            },
+            {
+              "word": "non-functional testing",
+              "phonetic": "/nɒn ˈfʌŋkʃənl ˈtestɪŋ/",
+              "meaning": "非功能测试"
+            },
+            {
+              "word": "performance testing",
+              "phonetic": "/pəˈfɔːməns ˈtestɪŋ/",
+              "meaning": "性能测试"
+            },
+            {
+              "word": "load testing",
+              "phonetic": "/ləʊd ˈtestɪŋ/",
+              "meaning": "负载测试"
+            },
+            {
+              "word": "stress testing",
+              "phonetic": "/stres ˈtestɪŋ/",
+              "meaning": "压力测试"
+            },
+            {
+              "word": "security testing",
+              "phonetic": "/sɪˈkjʊə(r)ti ˈtestɪŋ/",
+              "meaning": "安全测试"
+            }
+          ]
+        },
+        {
+          "name": "第三十三组 - 测试框架",
+          "words": [
+            {
+              "word": "test case",
+              "phonetic": "/test keɪs/",
+              "meaning": "测试用例"
+            },
+            {
+              "word": "test suite",
+              "phonetic": "/test swiːt/",
+              "meaning": "测试套件"
+            },
+            {
+              "word": "assertion",
+              "phonetic": "/əˈsɜːʃn/",
+              "meaning": "断言"
+            },
+            {
+              "word": "expectation",
+              "phonetic": "/ˌekspekˈteɪʃn/",
+              "meaning": "期望"
+            },
+            {
+              "word": "matcher",
+              "phonetic": "/ˈmætʃə(r)/",
+              "meaning": "匹配器"
+            },
+            {
+              "word": "mock",
+              "phonetic": "/mɒk/",
+              "meaning": "模拟对象"
+            },
+            {
+              "word": "stub",
+              "phonetic": "/stʌb/",
+              "meaning": "桩"
+            },
+            {
+              "word": "spy",
+              "phonetic": "/spaɪ/",
+              "meaning": "监视器"
+            },
+            {
+              "word": "fake",
+              "phonetic": "/feɪk/",
+              "meaning": "假对象"
+            },
+            {
+              "word": "double",
+              "phonetic": "/ˈdʌbl/",
+              "meaning": "测试替身"
+            }
+          ]
+        },
+        {
+          "name": "第三十四组 - 测试进阶",
+          "words": [
+            {
+              "word": "test-driven development",
+              "phonetic": "/test drɪvn dɪˈveləpmənt/",
+              "meaning": "测试驱动开发"
+            },
+            {
+              "word": "behavior-driven development",
+              "phonetic": "/bɪˈheɪvjə drɪvn dɪˈveləpmənt/",
+              "meaning": "行为驱动开发"
+            },
+            {
+              "word": "test automation",
+              "phonetic": "/test ˌɔːtəˈmeɪʃn/",
+              "meaning": "自动化测试"
+            },
+            {
+              "word": "CI",
+              "phonetic": "/siː aɪ/",
+              "meaning": "持续集成"
+            },
+            {
+              "word": "CD",
+              "phonetic": "/siː diː/",
+              "meaning": "持续交付"
+            },
+            {
+              "word": "coverage",
+              "phonetic": "/ˈkʌvərɪdʒ/",
+              "meaning": "覆盖率"
+            },
+            {
+              "word": "regression",
+              "phonetic": "/rɪˈɡreʃn/",
+              "meaning": "回归"
+            },
+            {
+              "word": "smoke test",
+              "phonetic": "/sməʊk test/",
+              "meaning": "冒烟测试"
+            },
+            {
+              "word": "sanity check",
+              "phonetic": "/ˈsænəti tʃek/",
+              "meaning": "健全性检查"
+            },
+            {
+              "word": "boundary test",
+              "phonetic": "/ˈbaʊndəri test/",
+              "meaning": "边界测试"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "第十部分：DevOps与云计算",
+      "groups": [
+        {
+          "name": "第三十五组 - 容器与虚拟化",
+          "words": [
+            {
+              "word": "container",
+              "phonetic": "/kənˈteɪnə(r)/",
+              "meaning": "容器"
+            },
+            {
+              "word": "image",
+              "phonetic": "/ˈɪmɪdʒ/",
+              "meaning": "镜像"
+            },
+            {
+              "word": "Dockerfile",
+              "phonetic": "/ˈdɒkəfaɪl/",
+              "meaning": "容器构建文件"
+            },
+            {
+              "word": "volume",
+              "phonetic": "/ˈvɒljuː/",
+              "meaning": "卷"
+            },
+            {
+              "word": "network",
+              "phonetic": "/ˈnetwɜːk/",
+              "meaning": "网络"
+            },
+            {
+              "word": "Kubernetes",
+              "phonetic": "/kjuːbərˈnetiːz/",
+              "meaning": "容器编排系统"
+            },
+            {
+              "word": "pod",
+              "phonetic": "/pɒd/",
+              "meaning": "Pod容器组"
+            },
+            {
+              "word": "deployment",
+              "phonetic": "/dɪˈplɔɪmənt/",
+              "meaning": "部署"
+            },
+            {
+              "word": "service",
+              "phonetic": "/ˈsɜːvɪs/",
+              "meaning": "服务"
+            },
+            {
+              "word": "ingress",
+              "phonetic": "/ˈɪnɡres/",
+              "meaning": "入口"
+            },
+            {
+              "word": "namespace",
+              "phonetic": "/ˈneɪmspeɪs/",
+              "meaning": "命名空间"
+            },
+            {
+              "word": "label",
+              "phonetic": "/ˈleɪbl/",
+              "meaning": "标签"
+            },
+            {
+              "word": "selector",
+              "phonetic": "/sɪˈlektə(r)/",
+              "meaning": "选择器"
+            },
+            {
+              "word": "replica set",
+              "phonetic": "/ˈreplɪkə set/",
+              "meaning": "副本集"
+            },
+            {
+              "word": "configmap",
+              "phonetic": "/kənˈfɪɡmæp/",
+              "meaning": "配置映射"
+            }
+          ]
+        },
+        {
+          "name": "第三十六组 - CI/CD",
+          "words": [
+            {
+              "word": "pipeline",
+              "phonetic": "/ˈpaɪplaɪn/",
+              "meaning": "流水线"
+            },
+            {
+              "word": "stage",
+              "phonetic": "/steɪdʒ/",
+              "meaning": "阶段"
+            },
+            {
+              "word": "job",
+              "phonetic": "/dʒɒb/",
+              "meaning": "作业"
+            },
+            {
+              "word": "artifact",
+              "phonetic": "/ˈɑːtɪfækt/",
+              "meaning": "构建产物"
+            },
+            {
+              "word": "runner",
+              "phonetic": "/ˈrʌnə(r)/",
+              "meaning": "运行器"
+            },
+            {
+              "word": "build",
+              "phonetic": "/bɪld/",
+              "meaning": "构建"
+            },
+            {
+              "word": "test",
+              "phonetic": "/test/",
+              "meaning": "测试"
+            },
+            {
+              "word": "deploy",
+              "phonetic": "/dɪˈplɔɪ/",
+              "meaning": "部署"
+            },
+            {
+              "word": "rollback",
+              "phonetic": "/ˈrəʊlbæk/",
+              "meaning": "回滚"
+            },
+            {
+              "word": "canary",
+              "phonetic": "/kəˈneəri/",
+              "meaning": "金丝雀发布"
+            }
+          ]
+        },
+        {
+          "name": "第三十七组 - 云计算",
+          "words": [
+            {
+              "word": "IaaS",
+              "phonetic": "/aɪæs/",
+              "meaning": "基础设施即服务"
+            },
+            {
+              "word": "PaaS",
+              "phonetic": "/pæs/",
+              "meaning": "平台即服务"
+            },
+            {
+              "word": "SaaS",
+              "phonetic": "/sæs/",
+              "meaning": "软件即服务"
+            },
+            {
+              "word": "serverless",
+              "phonetic": "/ˈsɜːvələs/",
+              "meaning": "无服务器"
+            },
+            {
+              "word": "edge computing",
+              "phonetic": "/edʒ kəmˈpjuːtɪŋ/",
+              "meaning": "边缘计算"
+            },
+            {
+              "word": "region",
+              "phonetic": "/ˈriːdʒən/",
+              "meaning": "区域"
+            },
+            {
+              "word": "availability zone",
+              "phonetic": "/əˌveɪləˈbɪləti zəʊn/",
+              "meaning": "可用区"
+            },
+            {
+              "word": "CDN",
+              "phonetic": "/siː diː en/",
+              "meaning": "内容分发网络"
+            },
+            {
+              "word": "load balancer",
+              "phonetic": "/ləʊd ˈbælənsə(r)/",
+              "meaning": "负载均衡器"
+            },
+            {
+              "word": "auto scaling",
+              "phonetic": "/ˈɔːtəʊ ˈskeɪlɪŋ/",
+              "meaning": "自动伸缩"
+            }
+          ]
+        },
+        {
+          "name": "第三十八组 - 监控与日志",
+          "words": [
+            {
+              "word": "monitoring",
+              "phonetic": "/ˈmɒnɪtərɪŋ/",
+              "meaning": "监控"
+            },
+            {
+              "word": "alerting",
+              "phonetic": "/əˈlɜːtɪŋ/",
+              "meaning": "告警"
+            },
+            {
+              "word": "logging",
+              "phonetic": "/ˈlɒɡɪŋ/",
+              "meaning": "日志记录"
+            },
+            {
+              "word": "metrics",
+              "phonetic": "/ˈmeɪtrɪks/",
+              "meaning": "指标"
+            },
+            {
+              "word": "tracing",
+              "phonetic": "/ˈtreɪsɪŋ/",
+              "meaning": "追踪"
+            },
+            {
+              "word": "dashboard",
+              "phonetic": "/ˈdæʃbɔːd/",
+              "meaning": "仪表盘"
+            },
+            {
+              "word": "uptime",
+              "phonetic": "/ˈʌptaɪm/",
+              "meaning": "运行时间"
+            },
+            {
+              "word": "latency",
+              "phonetic": "/ˈleɪtənsi/",
+              "meaning": "延迟"
+            },
+            {
+              "word": "throughput",
+              "phonetic": "/ˈθruːpjʊt/",
+              "meaning": "吞吐量"
+            },
+            {
+              "word": "availability",
+              "phonetic": "/əˌveɪləˈbɪləti/",
+              "meaning": "可用性"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "第十一部分：架构与设计",
+      "groups": [
+        {
+          "name": "第三十九组 - 架构模式",
+          "words": [
+            {
+              "word": "monolith",
+              "phonetic": "/ˈmɒnəlɪθ/",
+              "meaning": "单体应用"
+            },
+            {
+              "word": "microservices",
+              "phonetic": "/ˌmaɪkrəʊˈsɜːvɪsɪz/",
+              "meaning": "微服务"
+            },
+            {
+              "word": "serverless",
+              "phonetic": "/ˈsɜːvələs/",
+              "meaning": "无服务器架构"
+            },
+            {
+              "word": "event-driven",
+              "phonetic": "/ɪˈvent drɪvn/",
+              "meaning": "事件驱动"
+            },
+            {
+              "word": "CQRS",
+              "phonetic": "/siː kjuː ɑː es/",
+              "meaning": "命令查询职责分离"
+            },
+            {
+              "word": "event sourcing",
+              "phonetic": "/ɪˈvent ˈsɔːsɪŋ/",
+              "meaning": "事件溯源"
+            },
+            {
+              "word": "saga pattern",
+              "phonetic": "/ˈsɑːɡə ˈpætən/",
+              "meaning": "Saga模式"
+            },
+            {
+              "word": "circuit breaker",
+              "phonetic": "/ˈsɜːkɪt ˈbreɪkə(r)/",
+              "meaning": "断路器"
+            },
+            {
+              "word": "bulkhead",
+              "phonetic": "/ˈbʌlkhed/",
+              "meaning": "隔板模式"
+            },
+            {
+              "word": "sidecar",
+              "phonetic": "/ˈsaɪdɑː(r)/",
+              "meaning": "边车模式"
+            }
+          ]
+        },
+        {
+          "name": "第四十组 - 系统设计",
+          "words": [
+            {
+              "word": "scalability",
+              "phonetic": "/ˌskeɪləˈbɪləti/",
+              "meaning": "可扩展性"
+            },
+            {
+              "word": "availability",
+              "phonetic": "/əˌveɪləˈbɪləti/",
+              "meaning": "可用性"
+            },
+            {
+              "word": "reliability",
+              "phonetic": "/rɪˌlaɪəˈbɪləti/",
+              "meaning": "可靠性"
+            },
+            {
+              "word": "consistency",
+              "phonetic": "/kənˈsɪstənsi/",
+              "meaning": "一致性"
+            },
+            {
+              "word": "partition tolerance",
+              "phonetic": "/pɑːˈtɪʃn ˈtɒlərəns/",
+              "meaning": "分区容错性"
+            },
+            {
+              "word": "horizontal scaling",
+              "phonetic": "/ˌhɒrɪˈzɒntl ˈskeɪlɪŋ/",
+              "meaning": "水平扩展"
+            },
+            {
+              "word": "vertical scaling",
+              "phonetic": "/ˈvɜːtɪkl ˈskeɪlɪŋ/",
+              "meaning": "垂直扩展"
+            },
+            {
+              "word": "sharding",
+              "phonetic": "/ˈʃɑːdɪŋ/",
+              "meaning": "分片"
+            },
+            {
+              "word": "replication",
+              "phonetic": "/ˌreplɪˈkeɪʃn/",
+              "meaning": "复制"
+            },
+            {
+              "word": "caching",
+              "phonetic": "/ˈkæʃɪŋ/",
+              "meaning": "缓存"
+            }
+          ]
+        },
+        {
+          "name": "第四十一组 - API设计进阶",
+          "words": [
+            {
+              "word": "versioning",
+              "phonetic": "/ˈvɜːʃənɪŋ/",
+              "meaning": "版本控制"
+            },
+            {
+              "word": "rate limit",
+              "phonetic": "/reɪt lɪmɪt/",
+              "meaning": "速率限制"
+            },
+            {
+              "word": "throttle",
+              "phonetic": "/ˈθrɒdl/",
+              "meaning": "节流"
+            },
+            {
+              "word": "retry",
+              "phonetic": "/rɪˈtraɪ/",
+              "meaning": "重试"
+            },
+            {
+              "word": "circuit break",
+              "phonetic": "/ˈsɜːkɪt breɪk/",
+              "meaning": "熔断"
+            },
+            {
+              "word": "timeout",
+              "phonetic": "/ˈtaɪmaʊt/",
+              "meaning": "超时"
+            },
+            {
+              "word": "graceful degradation",
+              "phonetic": "/ˈɡreɪsfəl ˌdeɡrəˈdeɪʃn/",
+              "meaning": "优雅降级"
+            },
+            {
+              "word": "backward compatible",
+              "phonetic": "/ˌbækwəd kəmˈpætəbl/",
+              "meaning": "向后兼容"
+            },
+            {
+              "word": "API gateway",
+              "phonetic": "/eɪ piː aɪ ˈɡeɪtweɪ/",
+              "meaning": "API网关"
+            },
+            {
+              "word": "facade",
+              "phonetic": "/fəˈsɑːd/",
+              "meaning": "门面模式"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "第十二部分：软件开发生命周期",
+      "groups": [
+        {
+          "name": "第四十二组 - 开发流程",
+          "words": [
+            {
+              "word": "requirements",
+              "phonetic": "/rɪˈkwaɪəmənts/",
+              "meaning": "需求"
+            },
+            {
+              "word": "analysis",
+              "phonetic": "/əˈnæləsɪs/",
+              "meaning": "分析"
+            },
+            {
+              "word": "design",
+              "phonetic": "/dɪˈzaɪn/",
+              "meaning": "设计"
+            },
+            {
+              "word": "implementation",
+              "phonetic": "/ˌɪmplɪmenˈteɪʃn/",
+              "meaning": "实现"
+            },
+            {
+              "word": "testing",
+              "phonetic": "/ˈtestɪŋ/",
+              "meaning": "测试"
+            },
+            {
+              "word": "deployment",
+              "phonetic": "/dɪˈplɔɪmənt/",
+              "meaning": "部署"
+            },
+            {
+              "word": "maintenance",
+              "phonetic": "/ˈmeɪntənəns/",
+              "meaning": "维护"
+            },
+            {
+              "word": "iteration",
+              "phonetic": "/ˌɪtəˈreɪʃn/",
+              "meaning": "迭代"
+            },
+            {
+              "word": "sprint",
+              "phonetic": "/sprɪnt/",
+              "meaning": "冲刺"
+            },
+            {
+              "word": "milestone",
+              "phonetic": "/ˈmaɪlstəʊn/",
+              "meaning": "里程碑"
+            }
+          ]
+        },
+        {
+          "name": "第四十三组 - 项目管理",
+          "words": [
+            {
+              "word": "agile",
+              "phonetic": "/ˈædʒaɪl/",
+              "meaning": "敏捷"
+            },
+            {
+              "word": "scrum",
+              "phonetic": "/skrʌm/",
+              "meaning": "Scrum框架"
+            },
+            {
+              "word": "kanban",
+              "phonetic": "/kɑːnˈbɑːn/",
+              "meaning": "看板"
+            },
+            {
+              "word": "backlog",
+              "phonetic": "/ˈbæklɒɡ/",
+              "meaning": "待办列表"
+            },
+            {
+              "word": "user story",
+              "phonetic": "/ˈjuːzə(r) ˈstɔːri/",
+              "meaning": "用户故事"
+            },
+            {
+              "word": "epic",
+              "phonetic": "/ˈepɪk/",
+              "meaning": "史诗"
+            },
+            {
+              "word": "story point",
+              "phonetic": "/ˈstɔːri pɔɪnt/",
+              "meaning": "故事点"
+            },
+            {
+              "word": "velocity",
+              "phonetic": "/vəˈlɒsəti/",
+              "meaning": "速度"
+            },
+            {
+              "word": "burndown chart",
+              "phonetic": "/ˈbɜːndaʊn tʃɑːt/",
+              "meaning": "燃尽图"
+            },
+            {
+              "word": "retrospective",
+              "phonetic": "/ˌretrəˈspektɪv/",
+              "meaning": "回顾会议"
+            }
+          ]
+        },
+        {
+          "name": "第四十四组 - 代码质量",
+          "words": [
+            {
+              "word": "lint",
+              "phonetic": "/lɪnt/",
+              "meaning": "代码检查"
+            },
+            {
+              "word": "static analysis",
+              "phonetic": "/ˈstætɪk əˈnæləsɪs/",
+              "meaning": "静态分析"
+            },
+            {
+              "word": "code review",
+              "phonetic": "/kəʊd rɪˈvjuː/",
+              "meaning": "代码审查"
+            },
+            {
+              "word": "refactoring",
+              "phonetic": "/riːˈfæktərɪŋ/",
+              "meaning": "重构"
+            },
+            {
+              "word": "technical debt",
+              "phonetic": "/ˈteknɪkl det/",
+              "meaning": "技术债务"
+            },
+            {
+              "word": "code smell",
+              "phonetic": "/kəʊd smel/",
+              "meaning": "代码异味"
+            },
+            {
+              "word": "naming convention",
+              "phonetic": "/ˈneɪmɪŋ kənˈvenʃn/",
+              "meaning": "命名规范"
+            },
+            {
+              "word": "style guide",
+              "phonetic": "/staɪl ɡaɪd/",
+              "meaning": "样式指南"
+            },
+            {
+              "word": "best practice",
+              "phonetic": "/best ˈpræktɪs/",
+              "meaning": "最佳实践"
+            },
+            {
+              "word": "SOLID principles",
+              "phonetic": "/ˈsɒlɪd ˈprɪnsɪpəlz/",
+              "meaning": "SOLID原则"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "第十三部分：编程语言概念",
+      "groups": [
+        {
+          "name": "第四十五组 - 编译与解释",
+          "words": [
+            {
+              "word": "compiler",
+              "phonetic": "/kəmˈpaɪlə(r)/",
+              "meaning": "编译器"
+            },
+            {
+              "word": "interpreter",
+              "phonetic": "/ɪnˈtɜːprətə(r)/",
+              "meaning": "解释器"
+            },
+            {
+              "word": "linker",
+              "phonetic": "/ˈlɪŋkə(r)/",
+              "meaning": "链接器"
+            },
+            {
+              "word": "loader",
+              "phonetic": "/ˈləʊdə(r)/",
+              "meaning": "加载器"
+            },
+            {
+              "word": "assembler",
+              "phonetic": "/əˈsemblə(r)/",
+              "meaning": "汇编器"
+            },
+            {
+              "word": "bytecode",
+              "phonetic": "/ˈbaɪtkəʊd/",
+              "meaning": "字节码"
+            },
+            {
+              "word": "machine code",
+              "phonetic": "/məˈʃiːn kəʊd/",
+              "meaning": "机器码"
+            },
+            {
+              "word": "source code",
+              "phonetic": "/sɔːs kəʊd/",
+              "meaning": "源代码"
+            },
+            {
+              "word": "binary",
+              "phonetic": "/ˈbaɪnəri/",
+              "meaning": "二进制"
+            },
+            {
+              "word": "intermediate representation",
+              "phonetic": "/ˌɪntəˈmiːdiət ˌreprɪzenˈteɪʃn/",
+              "meaning": "中间表示"
+            }
+          ]
+        },
+        {
+          "name": "第四十六组 - 内存管理",
+          "words": [
+            {
+              "word": "heap",
+              "phonetic": "/hiːp/",
+              "meaning": "堆内存"
+            },
+            {
+              "word": "stack",
+              "phonetic": "/stæk/",
+              "meaning": "栈内存"
+            },
+            {
+              "word": "garbage collection",
+              "phonetic": "/ˈɡɑːbɪdʒ kəˈlekʃn/",
+              "meaning": "垃圾回收"
+            },
+            {
+              "word": "memory leak",
+              "phonetic": "/ˈmeməri liːk/",
+              "meaning": "内存泄漏"
+            },
+            {
+              "word": "allocation",
+              "phonetic": "/ˌæləˈkeɪʃn/",
+              "meaning": "分配"
+            },
+            {
+              "word": "deallocation",
+              "phonetic": "/diːˌæləˈkeɪʃn/",
+              "meaning": "释放"
+            },
+            {
+              "word": "pointer",
+              "phonetic": "/ˈpɔɪntə(r)/",
+              "meaning": "指针"
+            },
+            {
+              "word": "reference count",
+              "phonetic": "/ˈrefrəns kaʊnt/",
+              "meaning": "引用计数"
+            },
+            {
+              "word": "mark and sweep",
+              "phonetic": "/mɑːk ænd swiːp/",
+              "meaning": "标记清除"
+            },
+            {
+              "word": "generational collection",
+              "phonetic": "/ˌdʒenəˈreɪʃənl kəˈlekʃn/",
+              "meaning": "分代回收"
+            }
+          ]
+        },
+        {
+          "name": "第四十七组 - 并发与并行",
+          "words": [
+            {
+              "word": "thread",
+              "phonetic": "/θred/",
+              "meaning": "线程"
+            },
+            {
+              "word": "process",
+              "phonetic": "/ˈprəʊses/",
+              "meaning": "进程"
+            },
+            {
+              "word": "coroutine",
+              "phonetic": "/kəʊrəʊtiːn/",
+              "meaning": "协程"
+            },
+            {
+              "word": "goroutine",
+              "phonetic": "/ɡəˈrəʊtiːn/",
+              "meaning": "Go程"
+            },
+            {
+              "word": "fiber",
+              "phonetic": "/ˈfaɪbə(r)/",
+              "meaning": "纤程"
+            },
+            {
+              "word": "mutex",
+              "phonetic": "/ˈmjuːteks/",
+              "meaning": "互斥锁"
+            },
+            {
+              "word": "semaphore",
+              "phonetic": "/ˈseməfɔː/",
+              "meaning": "信号量"
+            },
+            {
+              "word": "deadlock",
+              "phonetic": "/ˈdedlɒk/",
+              "meaning": "死锁"
+            },
+            {
+              "word": "race condition",
+              "phonetic": "/reɪs kənˈdɪʃn/",
+              "meaning": "竞态条件"
+            },
+            {
+              "word": "synchronization",
+              "phonetic": "/ˌsɪŋkrənaɪˈzeɪʃn/",
+              "meaning": "同步"
+            },
+            {
+              "word": "lock",
+              "phonetic": "/lɒk/",
+              "meaning": "锁"
+            },
+            {
+              "word": "unlock",
+              "phonetic": "/ʌnˈlɒk/",
+              "meaning": "解锁"
+            },
+            {
+              "word": "await",
+              "phonetic": "/əˈweɪt/",
+              "meaning": "等待"
+            },
+            {
+              "word": "async",
+              "phonetic": "/ˈeɪsɪŋk/",
+              "meaning": "异步"
+            },
+            {
+              "word": "parallel",
+              "phonetic": "/ˈpærəlel/",
+              "meaning": "并行"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "第十四部分：工具与环境",
+      "groups": [
+        {
+          "name": "第四十八组 - 开发工具",
+          "words": [
+            {
+              "word": "IDE",
+              "phonetic": "/aɪ diː iː/",
+              "meaning": "集成开发环境"
+            },
+            {
+              "word": "debugger",
+              "phonetic": "/diːˈbʌɡə(r)/",
+              "meaning": "调试器"
+            },
+            {
+              "word": "profiler",
+              "phonetic": "/ˈprəʊfaɪlə(r)/",
+              "meaning": "性能分析器"
+            },
+            {
+              "word": "terminal",
+              "phonetic": "/ˈtɜːmɪnl/",
+              "meaning": "终端"
+            },
+            {
+              "word": "shell",
+              "phonetic": "/ʃel/",
+              "meaning": "Shell"
+            },
+            {
+              "word": "package manager",
+              "phonetic": "/ˈpækɪdʒ ˈmænɪdʒə(r)/",
+              "meaning": "包管理器"
+            },
+            {
+              "word": "dependency",
+              "phonetic": "/dɪˈpendənsi/",
+              "meaning": "依赖"
+            },
+            {
+              "word": "build tool",
+              "phonetic": "/bɪld tuːl/",
+              "meaning": "构建工具"
+            },
+            {
+              "word": "task runner",
+              "phonetic": "/tɑːsk ˈrʌnə(r)/",
+              "meaning": "任务运行器"
+            },
+            {
+              "word": "linter",
+              "phonetic": "/ˈlɪntə(r)/",
+              "meaning": "代码检查工具"
+            },
+            {
+              "word": "formatter",
+              "phonetic": "/ˈfɔːmætə(r)/",
+              "meaning": "格式化工具"
+            },
+            {
+              "word": "version",
+              "phonetic": "/ˈvɜːʃn/",
+              "meaning": "版本"
+            },
+            {
+              "word": "release",
+              "phonetic": "/rɪˈliːs/",
+              "meaning": "发布"
+            },
+            {
+              "word": "environment",
+              "phonetic": "/ɪnˈvaɪərənmənt/",
+              "meaning": "环境"
+            },
+            {
+              "word": "configuration",
+              "phonetic": "/kənˌfɪɡjʊˈreɪʃn/",
+              "meaning": "配置"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "第十五部分：UI/UX与数据格式",
+      "groups": [
+        {
+          "name": "第四十九组 - UI/UX",
+          "words": [
+            {
+              "word": "UI",
+              "phonetic": "/juː aɪ/",
+              "meaning": "用户界面"
+            },
+            {
+              "word": "UX",
+              "phonetic": "/juː eks/",
+              "meaning": "用户体验"
+            },
+            {
+              "word": "wireframe",
+              "phonetic": "/ˈwaɪəfreɪm/",
+              "meaning": "线框图"
+            },
+            {
+              "word": "prototype",
+              "phonetic": "/ˈprəʊtətaɪp/",
+              "meaning": "原型"
+            },
+            {
+              "word": "mockup",
+              "phonetic": "/ˈmɒkʌp/",
+              "meaning": "模拟图"
+            },
+            {
+              "word": "responsive",
+              "phonetic": "/rɪˈspɒnsɪv/",
+              "meaning": "响应式"
+            },
+            {
+              "word": "adaptive",
+              "phonetic": "/əˈdæptɪv/",
+              "meaning": "自适应"
+            },
+            {
+              "word": "accessibility",
+              "phonetic": "/əkˌsesəˈbɪləti/",
+              "meaning": "可访问性"
+            },
+            {
+              "word": "internationalization",
+              "phonetic": "/ˌɪntənæʃənəlaɪˈzeɪʃn/",
+              "meaning": "国际化"
+            },
+            {
+              "word": "localization",
+              "phonetic": "/ˌləʊkəlaɪˈzeɪʃn/",
+              "meaning": "本地化"
+            }
+          ]
+        },
+        {
+          "name": "第五十组 - 数据格式与序列化",
+          "words": [
+            {
+              "word": "JSON",
+              "phonetic": "/ˈdʒeɪsɒn/",
+              "meaning": "JSON格式"
+            },
+            {
+              "word": "XML",
+              "phonetic": "/eks em el/",
+              "meaning": "XML格式"
+            },
+            {
+              "word": "YAML",
+              "phonetic": "/ˈjæməl/",
+              "meaning": "YAML格式"
+            },
+            {
+              "word": "TOML",
+              "phonetic": "/ˈtɒməl/",
+              "meaning": "TOML格式"
+            },
+            {
+              "word": "CSV",
+              "phonetic": "/siː es viː/",
+              "meaning": "CSV格式"
+            },
+            {
+              "word": "binary format",
+              "phonetic": "/ˈbaɪnəri ˈfɔːmæt/",
+              "meaning": "二进制格式"
+            },
+            {
+              "word": "protocol buffer",
+              "phonetic": "/ˈprəʊtəkɒl ˈbʌfər/",
+              "meaning": "Protocol Buffers"
+            },
+            {
+              "word": "serialization",
+              "phonetic": "/ˌsɪəriəlaɪˈzeɪʃn/",
+              "meaning": "序列化"
+            },
+            {
+              "word": "deserialization",
+              "phonetic": "/diːˌsɪəriəlaɪˈzeɪʃn/",
+              "meaning": "反序列化"
+            },
+            {
+              "word": "marshalling",
+              "phonetic": "/ˈmɑːʃəlɪŋ/",
+              "meaning": "编组"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "第十六部分：日志与调试",
+      "groups": [
+        {
+          "name": "第五十一组 - 日志与调试",
+          "words": [
+            {
+              "word": "log",
+              "phonetic": "/lɒɡ/",
+              "meaning": "日志"
+            },
+            {
+              "word": "debug",
+              "phonetic": "/diːbʌɡ/",
+              "meaning": "调试"
+            },
+            {
+              "word": "trace",
+              "phonetic": "/treɪs/",
+              "meaning": "追踪"
+            },
+            {
+              "word": "error",
+              "phonetic": "/ˈerə/",
+              "meaning": "错误"
+            },
+            {
+              "word": "exception",
+              "phonetic": "/ɪkˈsepʃn/",
+              "meaning": "异常"
+            },
+            {
+              "word": "warning",
+              "phonetic": "/ˈwɔːnɪŋ/",
+              "meaning": "警告"
+            },
+            {
+              "word": "info",
+              "phonetic": "/ˈɪnfə/",
+              "meaning": "信息"
+            },
+            {
+              "word": "verbose",
+              "phonetic": "/vɜːˈbəʊs/",
+              "meaning": "详细输出"
+            },
+            {
+              "word": "stack trace",
+              "phonetic": "/stæk treɪs/",
+              "meaning": "堆栈跟踪"
+            },
+            {
+              "word": "breakpoint",
+              "phonetic": "/ˈbreɪkpɔɪnt/",
+              "meaning": "断点"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "第十七部分：性能与数据处理",
+      "groups": [
+        {
+          "name": "第五十二组 - 缓存与性能",
+          "words": [
+            {
+              "word": "cache",
+              "phonetic": "/kæʃ/",
+              "meaning": "缓存"
+            },
+            {
+              "word": "cache hit",
+              "phonetic": "/kæʃ hɪt/",
+              "meaning": "缓存命中"
+            },
+            {
+              "word": "cache miss",
+              "phonetic": "/kæʃ mɪs/",
+              "meaning": "缓存未命中"
+            },
+            {
+              "word": "invalidation",
+              "phonetic": "/ɪnˌvælɪˈdeɪʃn/",
+              "meaning": "失效"
+            },
+            {
+              "word": "eviction",
+              "phonetic": "/ɪˈvɪkʃn/",
+              "meaning": "驱逐"
+            },
+            {
+              "word": "optimization",
+              "phonetic": "/ˌɒptɪmaɪˈzeɪʃn/",
+              "meaning": "优化"
+            },
+            {
+              "word": "performance",
+              "phonetic": "/pəˈfɔːməns/",
+              "meaning": "性能"
+            },
+            {
+              "word": "benchmark",
+              "phonetic": "/ˈbentʃmɑːk/",
+              "meaning": "基准测试"
+            },
+            {
+              "word": "profiling",
+              "phonetic": "/ˈprəʊfaɪlɪŋ/",
+              "meaning": "性能分析"
+            },
+            {
+              "word": "bottleneck",
+              "phonetic": "/ˈbɒtlsneɪk/",
+              "meaning": "瓶颈"
+            }
+          ]
+        },
+        {
+          "name": "第五十三组 - 数据处理",
+          "words": [
+            {
+              "word": "ETL",
+              "phonetic": "/iː tiː el/",
+              "meaning": "数据抽取转换加载"
+            },
+            {
+              "word": "batch processing",
+              "phonetic": "/bætʃ ˈprəʊsesɪŋ/",
+              "meaning": "批处理"
+            },
+            {
+              "word": "stream processing",
+              "phonetic": "/striːm ˈprəʊsesɪŋ/",
+              "meaning": "流处理"
+            },
+            {
+              "word": "real-time",
+              "phonetic": "/ˈriːəl taɪm/",
+              "meaning": "实时"
+            },
+            {
+              "word": "near real-time",
+              "phonetic": "/nɪə ˈriːəl taɪm/",
+              "meaning": "近实时"
+            },
+            {
+              "word": "data pipeline",
+              "phonetic": "/ˈdeɪtə ˈpaɪplaɪn/",
+              "meaning": "数据管道"
+            },
+            {
+              "word": "data warehouse",
+              "phonetic": "/ˈdeɪtə ˈweəhaʊs/",
+              "meaning": "数据仓库"
+            },
+            {
+              "word": "data lake",
+              "phonetic": "/ˈdeɪtə leɪk/",
+              "meaning": "数据湖"
+            },
+            {
+              "word": "data mart",
+              "phonetic": "/ˈdeɪtə mɑːt/",
+              "meaning": "数据集市"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "第十八部分：AI与区块链",
+      "groups": [
+        {
+          "name": "第五十四组 - AI基础概念",
+          "words": [
+            {
+              "word": "artificial intelligence",
+              "phonetic": "/ˌɑːtɪfɪʃl ɪnˈtelɪdʒəns/",
+              "meaning": "人工智能"
+            },
+            {
+              "word": "machine learning",
+              "phonetic": "/məˈʃiːn ˈlɜːnɪŋ/",
+              "meaning": "机器学习"
+            },
+            {
+              "word": "deep learning",
+              "phonetic": "/diːp ˈlɜːnɪŋ/",
+              "meaning": "深度学习"
+            },
+            {
+              "word": "neural network",
+              "phonetic": "/ˈnjʊərəl ˈnetwɜːk/",
+              "meaning": "神经网络"
+            }
+          ]
+        },
+        {
+          "name": "第五十五组 - 机器学习流程",
+          "words": [
+            {
+              "word": "training",
+              "phonetic": "/ˈtreɪnɪŋ/",
+              "meaning": "训练"
+            },
+            {
+              "word": "inference",
+              "phonetic": "/ˈɪnfərəns/",
+              "meaning": "推理"
+            },
+            {
+              "word": "model",
+              "phonetic": "/ˈmɒdl/",
+              "meaning": "模型"
+            },
+            {
+              "word": "dataset",
+              "phonetic": "/ˈdeɪtəset/",
+              "meaning": "数据集"
+            },
+            {
+              "word": "feature",
+              "phonetic": "/ˈfiːtʃə(r)/",
+              "meaning": "特征"
+            },
+            {
+              "word": "label",
+              "phonetic": "/ˈleɪbl/",
+              "meaning": "标签"
+            }
+          ]
+        },
+        {
+          "name": "第五十六组 - 机器学习问题",
+          "words": [
+            {
+              "word": "overfitting",
+              "phonetic": "/ˌəʊvəˈfɪtɪŋ/",
+              "meaning": "过拟合"
+            },
+            {
+              "word": "underfitting",
+              "phonetic": "/ˌʌndəˈfɪtɪŋ/",
+              "meaning": "欠拟合"
+            },
+            {
+              "word": "classification",
+              "phonetic": "/ˌklæsɪfɪˈkeɪʃn/",
+              "meaning": "分类"
+            },
+            {
+              "word": "regression",
+              "phonetic": "/rɪˈɡreʃn/",
+              "meaning": "回归"
+            },
+            {
+              "word": "clustering",
+              "phonetic": "/ˈklʌstərɪŋ/",
+              "meaning": "聚类"
+            }
+          ]
+        },
+        {
+          "name": "第五十七组 - 学习范式",
+          "words": [
+            {
+              "word": "reinforcement learning",
+              "phonetic": "/ˌriːɪnˈfɔːsmənt ˈlɜːnɪŋ/",
+              "meaning": "强化学习"
+            },
+            {
+              "word": "supervised learning",
+              "phonetic": "/ˈsuːpəvaɪzd ˈlɜːnɪŋ/",
+              "meaning": "监督学习"
+            },
+            {
+              "word": "unsupervised learning",
+              "phonetic": "/ʌnˈsuːpəvaɪzd ˈlɜːnɪŋ/",
+              "meaning": "无监督学习"
+            }
+          ]
+        },
+        {
+          "name": "第五十八组 - AI应用领域",
+          "words": [
+            {
+              "word": "NLP",
+              "phonetic": "/en el piː/",
+              "meaning": "自然语言处理"
+            },
+            {
+              "word": "CV",
+              "phonetic": "/siː viː/",
+              "meaning": "计算机视觉"
+            }
+          ]
+        },
+        {
+          "name": "第五十九组 - 区块链与加密货币",
+          "words": [
+            {
+              "word": "blockchain",
+              "phonetic": "/ˈblɒktʃeɪn/",
+              "meaning": "区块链"
+            },
+            {
+              "word": "distributed ledger",
+              "phonetic": "/dɪˈstrɪbjʊtɪd ˈledʒə(r)/",
+              "meaning": "分布式账本"
+            },
+            {
+              "word": "smart contract",
+              "phonetic": "/smɑːt ˈkɒntrækt/",
+              "meaning": "智能合约"
+            },
+            {
+              "word": "consensus",
+              "phonetic": "/kənˈsensəs/",
+              "meaning": "共识机制"
+            },
+            {
+              "word": "proof of work",
+              "phonetic": "/pruːf əv wɜːk/",
+              "meaning": "工作量证明"
+            },
+            {
+              "word": "proof of stake",
+              "phonetic": "/pruːf əv steɪk/",
+              "meaning": "权益证明"
+            },
+            {
+              "word": "token",
+              "phonetic": "/ˈtəʊkən/",
+              "meaning": "代币"
+            },
+            {
+              "word": "wallet",
+              "phonetic": "/ˈwɒlɪt/",
+              "meaning": "钱包"
+            },
+            {
+              "word": "mining",
+              "phonetic": "/ˈmaɪnɪŋ/",
+              "meaning": "挖矿"
+            },
+            {
+              "word": "hash",
+              "phonetic": "/hæʃ/",
+              "meaning": "哈希值"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "第十九部分：网络基础设施",
+      "groups": [
+        {
+          "name": "第五十六组 - 网络安全基础设施",
+          "words": [
+            {
+              "word": "firewall",
+              "phonetic": "/ˈfaɪəwɔːl/",
+              "meaning": "防火墙"
+            },
+            {
+              "word": "VPN",
+              "phonetic": "/viː piː en/",
+              "meaning": "虚拟专用网络"
+            },
+            {
+              "word": "proxy",
+              "phonetic": "/ˈprɒksi/",
+              "meaning": "代理"
+            },
+            {
+              "word": "reverse proxy",
+              "phonetic": "/rɪˈvɜːs ˈprɒksi/",
+              "meaning": "反向代理"
+            },
+            {
+              "word": "WAF",
+              "phonetic": "/wæf/",
+              "meaning": "Web应用防火墙"
+            },
+            {
+              "word": "IDS",
+              "phonetic": "/aɪ diː es/",
+              "meaning": "入侵检测系统"
+            },
+            {
+              "word": "IPS",
+              "phonetic": "/aɪ piː es/",
+              "meaning": "入侵防御系统"
+            },
+            {
+              "word": "SIEM",
+              "phonetic": "/siːm/",
+              "meaning": "安全信息事件管理"
+            },
+            {
+              "word": "penetration testing",
+              "phonetic": "/ˌpenɪˈtreɪʃn ˈtestɪŋ/",
+              "meaning": "渗透测试"
+            },
+            {
+              "word": "vulnerability",
+              "phonetic": "/ˌvʌlnərəˈbɪləti/",
+              "meaning": "漏洞"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "第二十部分：许可与行业术语",
+      "groups": [
+        {
+          "name": "第五十七组 - 软件许可",
+          "words": [
+            {
+              "word": "open source",
+              "phonetic": "/ˈəʊpən sɔːs/",
+              "meaning": "开源"
+            },
+            {
+              "word": "proprietary",
+              "phonetic": "/prəˈpraɪətəri/",
+              "meaning": "专有"
+            },
+            {
+              "word": "license",
+              "phonetic": "/ˈlaɪsns/",
+              "meaning": "许可证"
+            },
+            {
+              "word": "GPL",
+              "phonetic": "/dʒiː piː el/",
+              "meaning": "通用公共许可证"
+            },
+            {
+              "word": "MIT license",
+              "phonetic": "/em aɪ tiː ˈlaɪsns/",
+              "meaning": "MIT许可证"
+            },
+            {
+              "word": "Apache license",
+              "phonetic": "/əˈpætʃi ˈlaɪsns/",
+              "meaning": "Apache许可证"
+            },
+            {
+              "word": "BSD license",
+              "phonetic": "/biː es diː ˈlaɪsns/",
+              "meaning": "BSD许可证"
+            },
+            {
+              "word": "copyright",
+              "phonetic": "/ˈkɒpirɑːt/",
+              "meaning": "版权"
+            },
+            {
+              "word": "trademark",
+              "phonetic": "/ˈtreɪdmɑːk/",
+              "meaning": "商标"
+            },
+            {
+              "word": "patent",
+              "phonetic": "/ˈpætnt/",
+              "meaning": "专利"
+            }
+          ]
+        },
+        {
+          "name": "第五十八组 - 行业术语",
+          "words": [
+            {
+              "word": "MVP",
+              "phonetic": "/em viː piː/",
+              "meaning": "最小可行产品"
+            },
+            {
+              "word": "POC",
+              "phonetic": "/piː əʊ siː/",
+              "meaning": "概念验证"
+            },
+            {
+              "word": "tech stack",
+              "phonetic": "/tek stæk/",
+              "meaning": "技术栈"
+            },
+            {
+              "word": "legacy system",
+              "phonetic": "/ˈleɡəsi ˈsɪstəm/",
+              "meaning": "遗留系统"
+            },
+            {
+              "word": "technical specification",
+              "phonetic": "/ˈteknɪkl ˌspesɪfɪˈkeɪʃn/",
+              "meaning": "技术规格"
+            },
+            {
+              "word": "specification",
+              "phonetic": "/ˌspesɪfɪˈkeɪʃn/",
+              "meaning": "规格说明"
+            },
+            {
+              "word": "requirements analysis",
+              "phonetic": "/rɪˈkwaɪəmənts əˈnæləsɪs/",
+              "meaning": "需求分析"
+            },
+            {
+              "word": "proof of concept",
+              "phonetic": "/pruːf əv ˈkɒnsept/",
+              "meaning": "概念验证"
+            },
+            {
+              "word": "end of life",
+              "phonetic": "/end əv laɪf/",
+              "meaning": "生命周期终止"
+            },
+            {
+              "word": "deprecation",
+              "phonetic": "/ˌdeprɪˈkeɪʃn/",
+              "meaning": "弃用"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "附录：常用缩写",
+      "groups": [
+        {
+          "name": "第五十九组 - 核心缩写",
+          "words": []
+        },
+        {
+          "name": "第六十组 - 设计原则缩写",
+          "words": []
+        }
+      ]
+    },
+    {
+      "name": "词汇统计",
+      "groups": []
+    }
+  ]
+}

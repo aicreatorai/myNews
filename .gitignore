@@ -58,4 +58,8 @@ Thumbs.db
 .env
 .edgeone/*
 .tef_dist/*
+
+# englishStudy 本地临时文件（不提交）
+englishStudy/.codebuddy/
+englishStudy/.vocab_*.json
   
