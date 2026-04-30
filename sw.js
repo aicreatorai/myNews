@@ -9,7 +9,7 @@
 
 'use strict';
 
-const CACHE_VERSION  = 'v20260430-155050';
+const CACHE_VERSION  = 'v20260430-155245';
 const STATIC_CACHE   = 'news-static-' + CACHE_VERSION;
 const NEWS_CACHE     = 'news-content-' + CACHE_VERSION;
 const CDN_CACHE      = 'news-cdn-' + CACHE_VERSION;
@@ -18,12 +18,13 @@ const CDN_CACHE      = 'news-cdn-' + CACHE_VERSION;
 const MAX_CACHE_DAYS = 20;
 
 // 核心静态资源（安装时预缓存）
+// 注意：使用相对路径，适配 GitHub Pages 子目录部署（/myNews/）
 const STATIC_ASSETS = [
-  '/',
-  '/index.html',
-  '/css/main.css',
-  '/js/app.js',
-  '/news-index.json',
+  './',
+  './index.html',
+  './css/main.css',
+  './js/app.js',
+  './news-index.json',
 ];
 
 /* ============================================================
@@ -216,7 +217,7 @@ async function offlineFallback(request) {
 
   // HTML 请求：先尝试从缓存返回 index.html（SPA 通吃），再给降级提示页
   if (request.headers.get('accept')?.includes('text/html')) {
-    const cachedIndex = await caches.match('/index.html') || await caches.match('/');
+    const cachedIndex = await caches.match('./index.html') || await caches.match('./');
     if (cachedIndex) return cachedIndex;
     return new Response(
       `<!DOCTYPE html><html lang="zh-CN"><head>
