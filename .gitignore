@@ -49,7 +49,7 @@ Thumbs.db
 /tmp/
 
 # 本地测试产生的文件
-news/2026*/
+# news/2026*/  注释掉：news 目录需要提交到 GitHub Pages
 
 # WorkBuddy 本地配置（不提交）
 .workbuddy/
