@@ -1108,10 +1108,18 @@ async function init() {
   // 绑定主题切换
   DOM.btnTheme.addEventListener('click', toggleTheme);
 
-  // 绑定英语学习入口
+  // 绑定英语学习入口（使用 location.assign 提高移动端兼容性）
   if (DOM.btnEnglish) {
-    DOM.btnEnglish.addEventListener('click', () => {
-      window.location.href = 'englishStudy/index.html';
+    DOM.btnEnglish.addEventListener('click', (e) => {
+      e.preventDefault();
+      window.location.assign('englishStudy/index.html');
+    });
+  }
+
+  // SW 更新检测：发现新版本后自动刷新页面
+  if ('serviceWorker' in navigator && navigator.serviceWorker.controller) {
+    navigator.serviceWorker.addEventListener('controllerchange', () => {
+      window.location.reload();
     });
   }
 
