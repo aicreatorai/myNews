@@ -153,20 +153,62 @@ async function loadIndex() {
    ============================================================ */
 
 function schedulePrecache() {
-  if (!('serviceWorker' in navigator) || !state.index) return;
-  navigator.serviceWorker.ready.then(reg => {
-    if (!reg.active) return;
-    // 收集最近 20 天的新闻文件路径
-    const allDays = [];
-    for (const m of state.index.months) {
-      for (const d of m.days) {
-        allDays.push(d.file);
-      }
+  if (!('serviceWorker' in navigator) || !state.index) {
+    console.log('[App] 预缓存跳过：无 SW 支持或 index 未加载');
+    return;
+  }
+
+  let retryCount = 0;
+  const maxRetries = 5;
+
+  function doPrecache() {
+    const ready = navigator.serviceWorker.ready;
+    if (!ready || typeof ready.then !== 'function') {
+      console.warn('[App] navigator.serviceWorker.ready 不可用');
+      return;
     }
-    const recent20 = allDays.slice(0, 20);
-    reg.active.postMessage({ type: 'PRECACHE_NEWS', files: recent20 });
-    console.log('[App] 已通知 SW 预缓存最近', recent20.length, '天新闻');
-  });
+
+    ready.then(reg => {
+      if (!reg || !reg.active) {
+        if (retryCount < maxRetries) {
+          retryCount++;
+          const delay = Math.min(1000 * retryCount, 5000);
+          console.log(`[App] SW 尚未激活，${delay}ms 后第 ${retryCount} 次重试...`);
+          setTimeout(doPrecache, delay);
+          return;
+        }
+        console.warn('[App] SW 激活重试次数用尽，跳过预缓存');
+        return;
+      }
+
+      // 收集最近 20 天的新闻文件路径（index 已倒序，取前 20 条即可）
+      const allDays = [];
+      for (const m of state.index.months) {
+        for (const d of m.days) {
+          allDays.push(d.file);
+        }
+      }
+      const recent20 = allDays.slice(0, 20);
+
+      if (recent20.length === 0) {
+        console.log('[App] 没有可预缓存的新闻文件');
+        return;
+      }
+
+      console.log('[App] 向 SW 发送预缓存指令，共', recent20.length, '个文件');
+      reg.active.postMessage({ type: 'PRECACHE_NEWS', files: recent20 });
+    }).catch(err => {
+      if (retryCount < maxRetries) {
+        retryCount++;
+        const delay = Math.min(2000 * retryCount, 8000);
+        console.warn(`[App] SW ready 异常，${delay}ms 后重试:`, err.message || err);
+        setTimeout(doPrecache, delay);
+      }
+    });
+  }
+
+  // 延迟 500ms 启动，给 SW 注册留出时间
+  setTimeout(doPrecache, 500);
 }
 
 /* ============================================================

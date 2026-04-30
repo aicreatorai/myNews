@@ -9,7 +9,7 @@
 
 'use strict';
 
-const CACHE_VERSION  = 'v20260430-152654';
+const CACHE_VERSION  = 'v20260430-154408';
 const STATIC_CACHE   = 'news-static-' + CACHE_VERSION;
 const NEWS_CACHE     = 'news-content-' + CACHE_VERSION;
 const CDN_CACHE      = 'news-cdn-' + CACHE_VERSION;
@@ -261,6 +261,7 @@ self.addEventListener('message', event => {
   // 主线程发来"预缓存最近N天新闻"指令
   if (event.data && event.data.type === 'PRECACHE_NEWS') {
     const files = event.data.files || [];
+    console.log('[SW] ▶ 收到预缓存指令，文件数:', files.length, files);
     precacheNewsFiles(files);
   }
   // 主线程发来"强制刷新缓存"指令
@@ -280,34 +281,50 @@ async function precacheNewsFiles(files) {
   if (!files.length) return;
   const cache = await caches.open(NEWS_CACHE);
 
+  // 将相对路径转为绝对 URL（SW 中 fetch 相对路径可能解析错误）
+  const toAbs = (f) => {
+    if (f.startsWith('http')) return f;
+    // self.location.href = https://aicreatorai.github.io/myNews/sw.js
+    return new URL(f, self.location.href).toString();
+  };
+  const absFiles = files.map(toAbs);
+
   // 过滤已有缓存的文件，只下载缺失的
   const missing = [];
-  for (const file of files) {
+  for (const file of absFiles) {
     const existing = await cache.match(file);
     if (!existing) missing.push(file);
   }
   if (!missing.length) {
-    console.log('[SW] 所有新闻文件已缓存，无需更新');
+    console.log('[SW] ✅ 所有新闻文件已在缓存中，无需下载。文件列表:', absFiles.slice(0, 5).join(', ') + (absFiles.length > 5 ? ' ...' : ''));
     return;
   }
 
+  console.log('[SW] ▶ 开始预缓存，需下载', missing.length, '个文件:', missing.slice(0, 8).join(', ') + (missing.length > 8 ? ' ...' : ''));
+
   let count = 0;
+  let failCount = 0;
   for (let i = 0; i < missing.length; i += PRECACHE_BATCH) {
     const batch = missing.slice(i, i + PRECACHE_BATCH);
-    await Promise.all(batch.map(async file => {
+    await Promise.all(batch.map(async (file) => {
       try {
         const resp = await fetch(file);
         if (resp.ok) {
-          await cache.put(file, resp);
+          await cache.put(file, resp.clone());
           count++;
+          console.log('[SW] ✅ 预缓存成功 (' + count + '/' + missing.length + '):', file.split('/').slice(-2).join('/'));
+        } else {
+          failCount++;
+          console.warn('[SW] ⚠️ 预缓存失败（HTTP ' + resp.status + '):', file);
         }
-      } catch (_) {
-        // 网络不可用时静默跳过
+      } catch (e) {
+        failCount++;
+        console.warn('[SW] ⚠️ 预缓存失败:', file.split('/').slice(-2).join('/'), e.message || e);
       }
     }));
   }
+  console.log(`[SW] ✅ 预缓存完成：成功 ${count}/${missing.length} 个文件` + (failCount > 0 ? `，失败 ${failCount} 个` : ''));
   if (count > 0) {
-    console.log(`[SW] 预缓存了 ${count} 个新闻文件`);
     pruneOldNewsCache().catch(() => {});
   }
 }
