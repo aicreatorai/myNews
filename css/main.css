@@ -1091,6 +1091,30 @@ img {
     margin-left: auto;
   }
 
+  /* 侧边栏底部 - 英语学习入口 */
+  .sidebar-footer {
+    padding: 12px 16px;
+    border-top: 1px solid var(--border);
+    margin-top: auto;
+  }
+  .sidebar-link {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 8px 12px;
+    border-radius: var(--radius);
+    color: var(--text);
+    font-size: .875rem;
+    font-weight: 500;
+    transition: background .15s;
+  }
+  .sidebar-link:hover {
+    background: var(--bg-tag);
+  }
+  .sidebar-link span:first-child {
+    font-size: 1.1rem;
+  }
+
   /* 主内容区右移 */
   .app-main {
     margin-left: 260px;

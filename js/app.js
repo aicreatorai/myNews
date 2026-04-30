@@ -94,6 +94,8 @@ const DOM = {
   sidebarSearch:   $('sidebarSearchInput'),
   // theme
   btnTheme:        $('btnTheme'),
+  // english study
+  btnEnglish:      $('btnEnglish'),
 };
 
 /* ============================================================
@@ -1105,6 +1107,13 @@ async function init() {
 
   // 绑定主题切换
   DOM.btnTheme.addEventListener('click', toggleTheme);
+
+  // 绑定英语学习入口
+  if (DOM.btnEnglish) {
+    DOM.btnEnglish.addEventListener('click', () => {
+      window.location.href = 'englishStudy/index.html';
+    });
+  }
 
   // 绑定底部导航
   DOM.navArchive.addEventListener('click', openDrawer);
