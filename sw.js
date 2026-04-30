@@ -9,7 +9,7 @@
 
 'use strict';
 
-const CACHE_VERSION  = 'v20260430-180706';
+const CACHE_VERSION  = 'v20260430-181556';
 const STATIC_CACHE   = 'news-static-' + CACHE_VERSION;
 const NEWS_CACHE     = 'news-content-' + CACHE_VERSION;
 const CDN_CACHE      = 'news-cdn-' + CACHE_VERSION;
@@ -98,7 +98,18 @@ self.addEventListener('fetch', event => {
     return;
   }
 
-  // manifest.json → Stale-While-Revalidate
+  // englishStudy/ 下所有请求 → Network First（词汇 JSON 不缓存，保证实时性）
+  if (path.startsWith('/englishStudy/')) {
+    event.respondWith(networkFirstWithCache(event.request, NEWS_CACHE));
+    return;
+  }
+
+  // manifest.json（根目录）→ Stale-While-Revalidate
+  if (path.endsWith('manifest.json')) {
+    event.respondWith(staleWhileRevalidate(event.request, STATIC_CACHE));
+    return;
+  }
+  // 其他 .json → Stale-While-Revalidate 兜底
   if (path.endsWith('.json')) {
     event.respondWith(staleWhileRevalidate(event.request, STATIC_CACHE));
     return;
