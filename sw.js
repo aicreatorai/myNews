@@ -9,7 +9,7 @@
 
 'use strict';
 
-const CACHE_VERSION  = 'v20260510-122324';
+const CACHE_VERSION  = 'v20260510-234744';
 const STATIC_CACHE   = 'news-static-' + CACHE_VERSION;
 const NEWS_CACHE     = 'news-content-' + CACHE_VERSION;
 const CDN_CACHE      = 'news-cdn-' + CACHE_VERSION;
