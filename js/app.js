@@ -1178,6 +1178,9 @@ async function init() {
   // Tab 鼠标拖拽横滑（桌面端）
   initTabDrag();
 
+  // 移动端滚动自动隐藏头部
+  initScrollHideHeader();
+
   // 加载最新一天的新闻
   const latestDay = getLatestDay();
   if (latestDay) {
@@ -1314,6 +1317,46 @@ function getLatestDay() {
   const firstMonth = state.index.months[0];
   if (!firstMonth.days.length) return null;
   return firstMonth.days[0];
+}
+
+/* ============================================================
+   移动端滚动自动隐藏/显示头部
+   ============================================================ */
+
+function initScrollHideHeader() {
+  let lastScrollY = 0;
+  let ticking = false;
+  const HIDE_THRESHOLD = 10; // 滚动超过此值才开始隐藏
+
+  function onScroll() {
+    if (ticking) return;
+    ticking = true;
+
+    requestAnimationFrame(() => {
+      const scrollY = window.scrollY;
+      const docHeight = document.documentElement.scrollHeight;
+      const winHeight = window.innerHeight;
+      const isAtBottom = winHeight + scrollY >= docHeight - 5;
+
+      // 顶部或底部 → 始终显示
+      if (scrollY <= 0 || isAtBottom) {
+        document.body.classList.remove('hide-topbar');
+      }
+      // 向下滑动（scrollY 增大）→ 隐藏
+      else if (scrollY > lastScrollY && scrollY > HIDE_THRESHOLD) {
+        document.body.classList.add('hide-topbar');
+      }
+      // 向上滑动（scrollY 减小）→ 显示
+      else if (scrollY < lastScrollY) {
+        document.body.classList.remove('hide-topbar');
+      }
+
+      lastScrollY = scrollY;
+      ticking = false;
+    });
+  }
+
+  window.addEventListener('scroll', onScroll, { passive: true });
 }
 
 /* ============================================================

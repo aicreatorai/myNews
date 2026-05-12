@@ -101,7 +101,7 @@ body {
   padding-bottom: calc(56px + env(safe-area-inset-bottom));
   /* 顶部 header + date-strip 预留空间 */
   padding-top: calc(56px + 48px);
-  transition: background-color .25s ease, color .25s ease;
+  transition: background-color .25s ease, color .25s ease, padding-top .3s ease;
 }
 
 button, input {
@@ -161,6 +161,7 @@ img {
   border-bottom: 1px solid var(--border);
   box-shadow: var(--shadow-sm);
   z-index: 100;
+  transition: top .3s ease, background-color .25s ease, border-color .25s ease, box-shadow .25s ease;
 }
 
 .header-inner {
@@ -216,6 +217,7 @@ img {
   border-bottom: 1px solid var(--border);
   z-index: 99;
   overflow: hidden;
+  transition: top .3s ease, background-color .25s ease, border-color .25s ease;
 }
 
 .date-strip {
@@ -351,6 +353,7 @@ img {
   margin: 0 -12px;
   padding: 0 12px;
   border-bottom: 1px solid var(--border);
+  transition: top .3s ease, transform .3s ease, background-color .25s ease;
 }
 
 .category-tabs {
@@ -975,6 +978,20 @@ img {
 .badge-13 { background: #EF4444; }  /* 国内热点 */
 .badge-14 { background: #64748B; }  /* 国际 */
 .badge-15 { background: #10B981; }  /* 财经 */
+
+
+/* ============================================================
+   移动端滚动自动隐藏头部（< 900px）
+   ============================================================ */
+@media (max-width: 899px) {
+  body.hide-topbar { padding-top: 0; }
+  body.hide-topbar .app-header { top: -56px; }
+  body.hide-topbar .date-strip-wrap { top: -104px; }
+  body.hide-topbar .category-tabs-wrap {
+    top: 0;
+    transform: translateY(-100%);
+  }
+}
 
 
 /* ============================================================
