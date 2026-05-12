@@ -353,7 +353,7 @@ img {
   margin: 0 -12px;
   padding: 0 12px;
   border-bottom: 1px solid var(--border);
-  transition: top .3s ease, transform .3s ease, background-color .25s ease;
+  transition: top .3s ease, transform .3s ease, opacity .3s ease, background-color .25s ease;
 }
 
 .category-tabs {
@@ -988,7 +988,8 @@ img {
   body.hide-topbar .app-header { top: -56px; }
   body.hide-topbar .date-strip-wrap { top: -104px; }
   body.hide-topbar .category-tabs-wrap {
-    top: 0;
+    opacity: 0;
+    pointer-events: none;
     transform: translateY(-100%);
   }
 }

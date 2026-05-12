@@ -1326,28 +1326,23 @@ function getLatestDay() {
 function initScrollHideHeader() {
   let lastScrollY = 0;
   let ticking = false;
-  const HIDE_THRESHOLD = 10; // 滚动超过此值才开始隐藏
+  const HIDE_THRESHOLD = 10;
 
   function onScroll() {
     if (ticking) return;
     ticking = true;
 
-    requestAnimationFrame(() => {
-      const scrollY = window.scrollY;
-      const docHeight = document.documentElement.scrollHeight;
-      const winHeight = window.innerHeight;
-      const isAtBottom = winHeight + scrollY >= docHeight - 5;
+    requestAnimationFrame(function() {
+      var scrollY = window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop || 0;
+      var docHeight = document.documentElement.scrollHeight;
+      var winHeight = window.innerHeight;
+      var isAtBottom = (winHeight + scrollY) >= (docHeight - 5);
 
-      // 顶部或底部 → 始终显示
       if (scrollY <= 0 || isAtBottom) {
         document.body.classList.remove('hide-topbar');
-      }
-      // 向下滑动（scrollY 增大）→ 隐藏
-      else if (scrollY > lastScrollY && scrollY > HIDE_THRESHOLD) {
+      } else if (scrollY > lastScrollY && scrollY > HIDE_THRESHOLD) {
         document.body.classList.add('hide-topbar');
-      }
-      // 向上滑动（scrollY 减小）→ 显示
-      else if (scrollY < lastScrollY) {
+      } else if (scrollY < lastScrollY) {
         document.body.classList.remove('hide-topbar');
       }
 
@@ -1357,6 +1352,7 @@ function initScrollHideHeader() {
   }
 
   window.addEventListener('scroll', onScroll, { passive: true });
+  window.addEventListener('touchmove', onScroll, { passive: true });
 }
 
 /* ============================================================
