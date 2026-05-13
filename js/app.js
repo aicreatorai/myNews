@@ -9,7 +9,7 @@
 /* ============================================================
    0. 🔄 部署版本检测（解决 Safari/iOS 不更新 SW 缓存的问题）
    ============================================================ */
-const APP_VERSION = 'v20260513-191228';
+const APP_VERSION = 'v20260513-191841';
 
 // 检测版本变更 → 清除旧缓存并强制刷新
 (function checkVersion() {
@@ -285,6 +285,15 @@ function renderFullMd(fullMd, sections, entry) {
   return result;
 }
 
+/** 预处理 Markdown：让 📌 标签独立成行，解决不换行的问题 */
+function preprocessMd(md) {
+  // 在 📌 前插入换行，使其独立成段
+  md = md.replace(/([^📌\n]) 📌/g, '$1\n\n📌');
+  // 处理连续粗体标签（如 **核心内容：**(280字) ⟹ 换行分段）
+  md = md.replace(/(…|[。；;!?）\)])\s*\*\*/g, '$1\n\n**');
+  return md;
+}
+
 /** 将 ### 新闻条目包裹为卡片 */
 function wrapItemsInCards(md, catKey) {
   const lines = md.split('\n');
@@ -303,15 +312,15 @@ function wrapItemsInCards(md, catKey) {
 
   if (parts.length <= 1) {
     // 没有 ### 项，直接渲染整个段
-    return marked.parse(md);
+    return marked.parse(preprocessMd(md));
   }
 
   // 第一部分（### 之前的内容）直接渲染
-  let html = parts[0] ? marked.parse(parts[0]) : '';
+  let html = parts[0] ? marked.parse(preprocessMd(parts[0])) : '';
 
   // 剩余每个 ### 项包裹为卡片
   for (let i = 1; i < parts.length; i++) {
-    const itemHtml = marked.parse(parts[i]);
+    const itemHtml = marked.parse(preprocessMd(parts[i]));
     html += `<div class="md-card" data-cat-key="${catKey}">${itemHtml}</div>`;
   }
 
