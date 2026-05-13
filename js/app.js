@@ -245,7 +245,13 @@ function renderFullMd(fullMd, sections, entry) {
     allHtml += sectionHtml;
 
     if (cat) {
-      result.categories.push({ catKey, catEmoji, catName, count: countItems(sec.md) });
+      const count = countItems(sec.md);
+      result.categories.push({ catKey, catEmoji, catName, count });
+      // 从首条新闻取关键词作为 glance（多文件无表格时备用）
+      if (count > 0) {
+        const firstTitle = extractFirstTitle(sec.md);
+        if (firstTitle) result.glance.push({ catKey, emoji: catEmoji, keyword: firstTitle });
+      }
     }
   }
 
@@ -259,23 +265,37 @@ function renderFullMd(fullMd, sections, entry) {
     }
   }
 
-  // 提取 glance：要点速览表格
-  let inGlance = false;
-  for (const line of fullMd.split('\n')) {
-    const s = line.trim();
-    if (s.includes('要点速览') && s.includes('📊')) { inGlance = true; continue; }
-    if (inGlance) {
-      if (s.startsWith('|') && !s.startsWith('|---')) {
-        const cells = s.split('|').map(c=>c.trim()).filter(Boolean);
-        if (cells.length >= 2 && !cells[0].includes('分类')) {
-          const mc = matchCat(cells[0]);
-          if (mc) result.glance.push({ catKey: mc.key, keyword: cells[1] });
-        }
-      } else if (s.startsWith('##') || s.startsWith('---')) inGlance = false;
+  // 额外尝试：从完整文件中提取 glance 表格（单文件/合并文件格式）
+  if (fullMd.includes('📊') && fullMd.includes('要点速览')) {
+    let inGlance = false;
+    for (const line of fullMd.split('\n')) {
+      const s = line.trim();
+      if (s.includes('要点速览') && s.includes('📊')) { inGlance = true; continue; }
+      if (inGlance) {
+        if (s.startsWith('|') && !s.startsWith('|---')) {
+          const cells = s.split('|').map(c=>c.trim()).filter(Boolean);
+          if (cells.length >= 2 && !cells[0].includes('分类')) {
+            const mc = matchCat(cells[0]);
+            if (mc) {
+              // 替换或追加
+              const idx = result.glance.findIndex(g => g.catKey === mc.key);
+              if (idx >= 0) result.glance[idx].keyword = cells[1];
+              else result.glance.push({ catKey: mc.key, emoji: mc.emoji, keyword: cells[1] });
+            }
+          }
+        } else if (s.startsWith('##') || s.startsWith('---')) inGlance = false;
+      }
     }
   }
 
   return result;
+}
+
+/** 从 section md 中提取第一条新闻的标题 */
+function extractFirstTitle(md) {
+  const m = md.match(/^###\s+\d*\.?\s*\[?([^\]]+)\]?/m);
+  if (m) return m[1].replace(/\*\*/g, '').trim().substring(0, 30);
+  return '';
 }
 
 /** 将 ### 新闻条目包裹为卡片 */
