@@ -221,43 +221,33 @@ function matchCat(text) {
 
 /**
  * 将 markdown 渲染为 HTML 并分类
- * 返回: { html, categories, headline, glance }
+ * 返回: { html, categories, headline }
  */
 function renderFullMd(fullMd, sections, entry) {
-  const result = { html: '', categories: [], headline: '', glance: [] };
+  const result = { html: '', categories: [], headline: '' };
 
-  // 如果没有预分解的 sections，从全文提取
   if (!sections) sections = splitSections(fullMd);
 
-  // 渲染每个章节
   let allHtml = '';
 
   for (const sec of sections) {
-    // 多文件格式：sec.cat 已匹配；单文件格式：从 sec.header 匹配
     const cat = sec.cat || matchCat(sec.header);
     const catKey = cat ? cat.key : '';
     const catEmoji = cat ? cat.emoji : '';
     const catName = cat ? cat.name : '';
 
-    // 将 ### 新闻条目包裹为卡片
     const cardHtml = wrapItemsInCards(sec.md, catKey);
     const sectionHtml = `<div class="md-section" data-cat-key="${catKey}">${cardHtml}</div>`;
     allHtml += sectionHtml;
 
     if (cat) {
-      const count = countItems(sec.md);
-      result.categories.push({ catKey, catEmoji, catName, count });
-      // 从首条新闻取关键词作为 glance（多文件无表格时备用）
-      if (count > 0) {
-        const firstTitle = extractFirstTitle(sec.md);
-        if (firstTitle) result.glance.push({ catKey, emoji: catEmoji, keyword: firstTitle });
-      }
+      result.categories.push({ catKey, catEmoji, catName, count: countItems(sec.md) });
     }
   }
 
   result.html = allHtml;
 
-  // 提取 headline：找 🔥 今日头条 行
+  // 提取 headline
   for (const line of fullMd.split('\n')) {
     if (line.includes('🔥') && line.includes('今日头条') && line.includes('：')) {
       result.headline = line.replace(/\*\*/g,'').replace(/^.*?[：:]/,'').trim().substring(0,120);
@@ -265,37 +255,7 @@ function renderFullMd(fullMd, sections, entry) {
     }
   }
 
-  // 额外尝试：从完整文件中提取 glance 表格（单文件/合并文件格式）
-  if (fullMd.includes('📊') && fullMd.includes('要点速览')) {
-    let inGlance = false;
-    for (const line of fullMd.split('\n')) {
-      const s = line.trim();
-      if (s.includes('要点速览') && s.includes('📊')) { inGlance = true; continue; }
-      if (inGlance) {
-        if (s.startsWith('|') && !s.startsWith('|---')) {
-          const cells = s.split('|').map(c=>c.trim()).filter(Boolean);
-          if (cells.length >= 2 && !cells[0].includes('分类')) {
-            const mc = matchCat(cells[0]);
-            if (mc) {
-              // 替换或追加
-              const idx = result.glance.findIndex(g => g.catKey === mc.key);
-              if (idx >= 0) result.glance[idx].keyword = cells[1];
-              else result.glance.push({ catKey: mc.key, emoji: mc.emoji, keyword: cells[1] });
-            }
-          }
-        } else if (s.startsWith('##') || s.startsWith('---')) inGlance = false;
-      }
-    }
-  }
-
   return result;
-}
-
-/** 从 section md 中提取第一条新闻的标题 */
-function extractFirstTitle(md) {
-  const m = md.match(/^###\s+\d*\.?\s*\[?([^\]]+)\]?/m);
-  if (m) return m[1].replace(/\*\*/g, '').trim().substring(0, 30);
-  return '';
 }
 
 /** 将 ### 新闻条目包裹为卡片 */
@@ -430,24 +390,6 @@ function filterCat(key) {
   });
 }
 
-// 要点速览
-function renderGlance(parsed) {
-  if (!parsed?.glance?.length) { DOM.glanceSection.style.display = 'none'; return; }
-  DOM.glanceSection.style.display = '';
-  DOM.glanceGrid.innerHTML = '';
-  parsed.glance.forEach(g => {
-    const ci = CATEGORIES.findIndex(c => c.key === g.catKey);
-    if (ci < 0) return;
-    const card = document.createElement('div');
-    card.className = 'glance-card'; card.dataset.catKey = g.catKey;
-    card.innerHTML = `<div class="glance-emoji">${CATEGORIES[ci].emoji}</div>
-      <div class="glance-category">${CATEGORIES[ci].name}</div>
-      <div class="glance-keyword">${esc(g.keyword)}</div>`;
-    card.addEventListener('click', () => filterCat(g.catKey));
-    DOM.glanceGrid.appendChild(card);
-  });
-}
-
 // 渲染新闻主体
 function renderNews(parsed, entry) {
   DOM.newsList.innerHTML = '';
@@ -488,7 +430,6 @@ async function selectDate(entry) {
   DOM.newsList.innerHTML = '';
   DOM.skeleton.style.display = '';
   DOM.newsList.appendChild(DOM.skeleton);
-  DOM.glanceSection.style.display = 'none';
   DOM.todayHeadline.style.display = 'none';
 
   const parsed = await loadNews(entry);
@@ -501,7 +442,6 @@ async function selectDate(entry) {
   }
 
   renderTabs(parsed);
-  renderGlance(parsed);
   renderNews(parsed, entry);
 
   if (parsed.headline) {

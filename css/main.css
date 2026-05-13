@@ -12,7 +12,7 @@
   --bg-drawer:     #FFFFFF;
   --bg-input:      #F0F2F5;
   --bg-sidebar:    #FFFFFF;
-  --bg-glance:     #FFFFFF;
+  /* (removed --bg-glance) */
   --bg-highlight:  #FFF5F8;
   --bg-tag:        #F3F4F6;
 
@@ -49,7 +49,7 @@
   --bg-drawer:     #1C2128;
   --bg-input:      #21262D;
   --bg-sidebar:    #161B22;
-  --bg-glance:     #1C2128;
+  /* (removed --bg-glance) */
   --bg-highlight:  #1F1320;
   --bg-tag:        #21262D;
 
@@ -293,58 +293,7 @@ img {
 }
 
 
-/* ---------- 7. GLANCE SECTION ---------- */
-.glance-section {
-  margin-bottom: 12px;
-}
-
-.section-title {
-  font-size: .8125rem;
-  font-weight: 700;
-  color: var(--text-secondary);
-  text-transform: uppercase;
-  letter-spacing: .05em;
-  margin-bottom: 8px;
-  padding: 0 2px;
-}
-
-.glance-grid {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 8px;
-}
-
-.glance-card {
-  background: var(--bg-glance);
-  border: 1px solid var(--border);
-  border-radius: 10px;
-  padding: 10px 12px;
-  cursor: pointer;
-  transition: transform .15s, box-shadow .15s;
-  box-shadow: var(--shadow-sm);
-}
-.glance-card:active { transform: scale(.97); }
-
-.glance-emoji { font-size: 1.1rem; }
-.glance-category {
-  font-size: .75rem;
-  font-weight: 600;
-  color: var(--text-secondary);
-  margin: 4px 0 2px;
-}
-.glance-keyword {
-  font-size: .8125rem;
-  color: var(--text-primary);
-  font-weight: 500;
-  line-height: 1.4;
-  display: -webkit-box;
-  -webkit-line-clamp: 2;
-  -webkit-box-orient: vertical;
-  overflow: hidden;
-}
-
-
-/* ---------- 8. CATEGORY TABS ---------- */
+/* ---------- 7. CATEGORY TABS ---------- */
 .category-tabs-wrap {
   position: sticky;
   top: calc(56px + 48px);
@@ -1145,11 +1094,6 @@ img {
     top: 56px;
   }
 
-  /* glance grid 4列 */
-  .glance-grid {
-    grid-template-columns: repeat(4, 1fr);
-  }
-
   /* 搜索面板桌面版：从右侧半宽滑入 */
   .search-panel {
     left: auto;
@@ -1159,11 +1103,6 @@ img {
     transform: translateX(100%);
   }
   .search-panel.open { transform: translateX(0); }
-}
-
-/* ===== 平板 (768-899px) ===== */
-@media (min-width: 768px) and (max-width: 899px) {
-  .glance-grid { grid-template-columns: repeat(3, 1fr); }
 }
 
 /* ===== 小屏手机 (≤ 380px) ===== */
