@@ -113,10 +113,17 @@ async function loadNews(entry) {
 
   let fullMd, sections;
 
-  // 情况A：多文件目录
+  // 情况A：多文件目录 → 为每个板块加上 ## 标题并保留 cat 信息
   if (entry.dir) {
-    sections = await loadMultiFileMd(entry.dir);
-    fullMd = sections.map(s => s.md).join('\n\n');
+    const raw = await loadMultiFileMd(entry.dir);
+    if (raw) {
+      sections = raw.map(s => ({
+        header: `## ${s.cat.emoji} ${s.cat.name}`,
+        md: `## ${s.cat.emoji} ${s.cat.name}\n\n${s.md}`,
+        cat: s.cat,
+      }));
+      fullMd = sections.map(s => s.md).join('\n\n');
+    }
   }
   // 情况B：单文件
   else if (entry.file) {
@@ -226,7 +233,8 @@ function renderFullMd(fullMd, sections, entry) {
   let allHtml = '';
 
   for (const sec of sections) {
-    const cat = matchCat(sec.header);
+    // 多文件格式：sec.cat 已匹配；单文件格式：从 sec.header 匹配
+    const cat = sec.cat || matchCat(sec.header);
     const catKey = cat ? cat.key : '';
     const catEmoji = cat ? cat.emoji : '';
     const catName = cat ? cat.name : '';
