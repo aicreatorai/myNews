@@ -29,7 +29,7 @@
 export CLOUDFLARE_API_TOKEN="你的token粘贴到这里"
 
 # 2. 进入项目目录
-cd /Users/ysrtc/Desktop/myNews
+cd "$(dirname "$0")/.."
 
 # 3. 一键部署（wrangler 已安装好）
 npx wrangler pages deploy . --project-name=my-news
@@ -46,7 +46,7 @@ npx wrangler pages deploy . --project-name=my-news
 每次新闻更新后，执行：
 ```bash
 export CLOUDFLARE_API_TOKEN="你的token"
-cd /Users/ysrtc/Desktop/myNews
+cd "$(dirname "$0")/.."
 npx wrangler pages deploy . --project-name=my-news
 ```
 
@@ -57,7 +57,7 @@ npx wrangler pages deploy . --project-name=my-news
 npm install -g netlify-cli
 
 # 2. 部署（会打开浏览器登录）
-cd /Users/ysrtc/Desktop/myNews
+cd "$(dirname "$0")/.."
 npx netlify deploy --prod --dir=.
 
 # 3. 按提示操作，完成后会给出 xxx.netlify.app 的地址
@@ -70,7 +70,7 @@ npx netlify deploy --prod --dir=.
 npm install -g surge
 
 # 2. 部署（第一次会让你输入邮箱和密码）
-cd /Users/ysrtc/Desktop/myNews
+cd "$(dirname "$0")/.."
 surge . my-news.surge.sh
 ```
 

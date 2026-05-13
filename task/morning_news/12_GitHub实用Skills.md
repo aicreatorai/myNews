@@ -16,7 +16,7 @@
 | `{DATE-2}` | YYYY-MM-DD | 2026-05-11 |
 | `{YYYYMM}` | YYYYMM | 202605 |
 | `{YYYYMMDD}` | YYYYMMDD | 20260513 |
-| **输出路径** | `{workspace}/news/{YYYYMM}/{YYYYMMDD}/12_GitHub实用Skills.md` | `/Users/ysrtc/Desktop/myNews/news/202605/20260513/12_GitHub实用Skills.md` |
+| **输出路径** | `{workspace}/news/{YYYYMM}/{YYYYMMDD}/12_GitHub实用Skills.md` |
 | **搜索时段** | `{DATE-1} 07:00 ~ {DATE} 07:00` | 2026-05-12 07:00 ~ 2026-05-13 07:00 |
 
 ---
