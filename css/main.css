@@ -1269,3 +1269,85 @@ img {
 
 /* 隐藏旧卡片相关样式 */
 .news-card:not([style]) { display: none; }
+
+/* ============================================================
+   今日要点速览 — 摘要卡片
+   ============================================================ */
+.md-section.summary-section {
+  background: var(--bg-card);
+  border: 1px solid var(--accent-light);
+  border-radius: 16px;
+  box-shadow: var(--shadow-sm);
+  padding: 18px 20px;
+  margin-bottom: 16px;
+  border-left: 4px solid var(--accent);
+}
+
+.md-section.summary-section h2 {
+  all: revert;
+  font-size: 1rem !important;
+  font-weight: 700;
+  color: var(--accent);
+  margin: 0 0 10px !important;
+  padding: 0 0 8px !important;
+  border-bottom: 1px solid var(--border-light);
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.md-section.summary-section ol {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  counter-reset: summary-counter;
+}
+
+.md-section.summary-section ol li {
+  counter-increment: summary-counter;
+  position: relative;
+  padding: 8px 0 8px 32px;
+  font-size: .875rem;
+  line-height: 1.55;
+  color: var(--text-primary);
+}
+.md-section.summary-section ol li + li {
+  border-top: 1px solid var(--border-light);
+}
+
+.md-section.summary-section ol li::before {
+  content: counter(summary-counter);
+  position: absolute;
+  left: 2px;
+  top: 9px;
+  width: 22px;
+  height: 22px;
+  background: var(--accent);
+  color: #fff;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: .72rem;
+  font-weight: 700;
+  line-height: 1;
+}
+
+.md-section.summary-section ol li strong {
+  color: var(--text-primary);
+  font-weight: 700;
+}
+
+/* 要点速览后面的分隔线隐藏（它隔开了摘要和第一个卡片，不需要） */
+.md-section.summary-section > hr:first-of-type {
+  display: none;
+}
+
+/* 冗余的 h1（# 今日头条——2026年5月13日，已在 date-page-header 显示）隐藏 */
+.md-render h1 {
+  display: none;
+}
+/* 同时隐藏紧随 h1 的 hr */
+.md-render h1 + hr {
+  display: none;
+}

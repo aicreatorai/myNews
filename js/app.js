@@ -236,8 +236,9 @@ function renderFullMd(fullMd, sections, entry) {
     const catEmoji = cat ? cat.emoji : '';
     const catName = cat ? cat.name : '';
 
+    const isSummary = sec.header.includes('要点速览');
     const cardHtml = wrapItemsInCards(sec.md, catKey);
-    const sectionHtml = `<div class="md-section" data-cat-key="${catKey}">${cardHtml}</div>`;
+    const sectionHtml = `<div class="md-section${isSummary ? ' summary-section' : ''}" data-cat-key="${catKey}">${cardHtml}</div>`;
     allHtml += sectionHtml;
 
     if (cat) {
