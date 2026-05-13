@@ -1,15 +1,15 @@
 /* ============================================================
    早间新闻 — Service Worker
    策略：
-   1. 核心静态资源（HTML/CSS/JS）→ Cache First，有更新时后台更新
-   2. news-index.json → Network First，离线降级用缓存
-   3. 最近 20 天的新闻 .md 文件 → Network First，离线降级用缓存
-   4. marked.js CDN → Cache First（一次缓存长期使用）
+   1. 所有静态资源 → Cache First 或 Stale While Revalidate
+   2. news-index.json → Cache First（后台网络更新），近实时+秒开
+   3. 新闻 .md 文件 → Cache First（生成后永不改变）
+   4. marked.js CDN → Cache First
    ============================================================ */
 
 'use strict';
 
-const CACHE_VERSION  = 'v20260513-191228';
+const CACHE_VERSION  = 'v20260513-191841';
 const STATIC_CACHE   = 'news-static-' + CACHE_VERSION;
 const NEWS_CACHE     = 'news-content-' + CACHE_VERSION;
 const CDN_CACHE      = 'news-cdn-' + CACHE_VERSION;
@@ -18,7 +18,7 @@ const CDN_CACHE      = 'news-cdn-' + CACHE_VERSION;
 const MAX_CACHE_DAYS = 20;
 
 // 核心静态资源（安装时预缓存）
-// 注意：news-index.json 不预缓存也不拦截，始终走网络确保实时性
+// news-index.json 由 Stale While Revalidate 策略缓存在 NEWS_CACHE 中
 const STATIC_ASSETS = [
   './',
   './index.html',
@@ -82,9 +82,15 @@ self.addEventListener('fetch', event => {
     return; // 不拦截，直接走网络
   }
 
-  // 新闻 .md 文件 → Network First（内容不变，缓存有效）
+  // news-index.json → Stale While Revalidate（先返回缓存，后台更新索引）
+  if (path.endsWith('news-index.json')) {
+    event.respondWith(staleWhileRevalidate(event.request, NEWS_CACHE));
+    return;
+  }
+
+  // 新闻 .md 文件 → Cache First（生成后永不改变，无需每次都请求）
   if (path.includes('/news/') && path.endsWith('.md')) {
-    event.respondWith(networkFirstWithCache(event.request, NEWS_CACHE));
+    event.respondWith(newsCacheFirst(event.request));
     return;
   }
 
@@ -94,9 +100,9 @@ self.addEventListener('fetch', event => {
     return;
   }
 
-  // englishStudy/ 下所有请求 → Network First（词汇 JSON 不缓存，保证实时性）
+  // englishStudy/ 下所有请求 → Stale While Revalidate
   if (path.startsWith('/englishStudy/')) {
-    event.respondWith(networkFirstWithCache(event.request, NEWS_CACHE));
+    event.respondWith(staleWhileRevalidate(event.request, NEWS_CACHE));
     return;
   }
 
@@ -111,8 +117,8 @@ self.addEventListener('fetch', event => {
     return;
   }
 
-  // 其他请求：Network First 兜底
-  event.respondWith(networkFirstWithCache(event.request, STATIC_CACHE));
+  // 其他请求：Stale While Revalidate 兜底
+  event.respondWith(staleWhileRevalidate(event.request, STATIC_CACHE));
 });
 
 /* ============================================================
@@ -120,35 +126,7 @@ self.addEventListener('fetch', event => {
    ============================================================ */
 
 /**
- * Network First：先尝试网络，失败则用缓存
- * 网络成功时同时写入缓存
- */
-async function networkFirstWithCache(request, cacheName) {
-  const cleanReq = stripQueryString(request);
-  try {
-    const networkResp = await fetch(request);
-    if (networkResp.ok) {
-      const cache = await caches.open(cacheName);
-      cache.put(cleanReq, networkResp.clone());
-      // 缓存 .md 文件后，异步清理超过 MAX_CACHE_DAYS 天的旧缓存
-      if (request.url.includes('/news/') && request.url.endsWith('.md')) {
-        pruneOldNewsCache().catch(() => {});
-      }
-    }
-    return networkResp;
-  } catch (_) {
-    // 先查带查询参数的原始 URL，再查去掉参数的干净 URL
-    const cached = await caches.match(cleanReq) || await caches.match(request);
-    if (cached) return cached;
-    // 降级：尝试从任意缓存匹配（ignoreSearch = 忽略 ?t= 参数）
-    const anyMatch = await caches.match(cleanReq, { ignoreSearch: true });
-    if (anyMatch) return anyMatch;
-    return offlineFallback(request);
-  }
-}
-
-/**
- * Cache First：先查缓存，没有再请求网络
+ * CDN 资源 → Cache First（一次缓存长期使用）
  */
 async function cdnCacheFirst(request) {
   const cached = await caches.match(request);
@@ -166,7 +144,30 @@ async function cdnCacheFirst(request) {
 }
 
 /**
+ * 新闻 .md 文件 → Cache First
+ * 新闻文件生成后永不改变，直接读缓存即可
+ * 缓存写入由首次访问或预缓存完成
+ */
+async function newsCacheFirst(request) {
+  const cleanReq = stripQueryString(request);
+  const cached = await caches.match(cleanReq) || await caches.match(request, { ignoreSearch: true });
+  if (cached) return cached;
+  try {
+    const networkResp = await fetch(request);
+    if (networkResp.ok) {
+      const cache = await caches.open(NEWS_CACHE);
+      cache.put(cleanReq, networkResp.clone());
+      pruneOldNewsCache().catch(() => {});
+    }
+    return networkResp;
+  } catch (_) {
+    return offlineFallback(request);
+  }
+}
+
+/**
  * Stale-While-Revalidate：立即返回缓存，后台静默更新
+ * 用于 news-index.json 等需要近实时但允许毫秒级旧数据的场景
  */
 async function staleWhileRevalidate(request, cacheName) {
   const cleanReq = stripQueryString(request);
