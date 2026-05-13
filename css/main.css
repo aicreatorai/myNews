@@ -1171,3 +1171,162 @@ img {
   .card-title { font-size: .9375rem; }
   .logo-text  { font-size: 1rem; }
 }
+
+/* ============================================================
+   v3.0: 纯 Markdown 渲染样式（兼容任意格式）
+   ============================================================ */
+
+/* 整体渲染容器 */
+.md-render { padding: 0; }
+
+/* 每个 ## 章节 */
+.md-section {
+  margin-bottom: 8px;
+  scroll-margin-top: 160px;
+}
+
+/* ## 标题（章节标题）已在全局 h2 样式中，这里补充间距 */
+.md-section h2 {
+  font-size: 1.15rem;
+  font-weight: 800;
+  color: var(--text-primary);
+  margin: 24px 0 12px;
+  padding: 8px 0 6px;
+  border-bottom: 2px solid var(--accent);
+  position: relative;
+}
+.md-section h2:first-child { margin-top: 0; }
+
+/* ### 标题（新闻条目标题）→ 卡片头部 */
+.md-card {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  box-shadow: var(--shadow-sm);
+  margin-bottom: 12px;
+  overflow: hidden;
+  transition: box-shadow .2s;
+}
+.md-card:hover { box-shadow: var(--shadow-md); }
+
+/* 卡片内联边距 */
+.md-card > :first-child {
+  margin-top: 14px;
+}
+.md-card > :last-child {
+  margin-bottom: 14px;
+}
+
+.md-card h3 {
+  font-size: 1rem;
+  font-weight: 700;
+  color: var(--text-primary);
+  line-height: 1.45;
+  margin: 0 14px 8px;
+  padding-top: 14px;
+}
+
+/* 卡片内的段落 */
+.md-card p {
+  font-size: .9rem;
+  color: var(--text-secondary);
+  line-height: 1.7;
+  margin: 0 14px 8px;
+}
+
+/* 📌 要点行 */
+.md-card p:is(
+  [style*="📌"],
+  [data-pin="true"]
+) { /* 用属性选择不如用文本前缀，但 marked 没有类，用内容检测 */
+}
+
+/* 🔗 来源 */
+.md-card p:last-of-type:has(strong:only-child) {
+  /* 适配 */;
+}
+
+/* 卡片内的粗体小标题 */
+.md-card strong {
+  color: var(--text-primary);
+  font-weight: 600;
+}
+
+/* 卡片内的块引用 */
+.md-card blockquote {
+  border-left: 3px solid var(--accent);
+  padding: 6px 12px;
+  margin: 8px 14px;
+  background: var(--accent-light);
+  border-radius: 0 6px 6px 0;
+  color: var(--text-secondary);
+  font-style: italic;
+}
+
+/* 卡片内的列表 */
+.md-card ul, .md-card ol {
+  padding-left: 1.4em;
+  margin: 0 14px 8px;
+  color: var(--text-secondary);
+}
+.md-card li { margin-bottom: 4px; }
+
+/* 卡片内的分割线 */
+.md-card hr {
+  border: none;
+  border-top: 1px solid var(--border-light);
+  margin: 0 14px 10px;
+}
+
+/* 卡片内的代码 */
+.md-card code {
+  background: var(--bg-tag);
+  padding: 1px 5px;
+  border-radius: 4px;
+  font-size: .85em;
+}
+
+/* 要点速览表格 */
+.md-section table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: .85rem;
+  margin: 8px 0;
+}
+.md-section th, .md-section td {
+  border: 1px solid var(--border);
+  padding: 6px 10px;
+  text-align: left;
+}
+.md-section th {
+  background: var(--bg-tag);
+  font-weight: 600;
+}
+
+/* 卡片折叠展开 */
+.md-card.collapsible { cursor: pointer; }
+.md-card .card-toggle-btn {
+  display: block;
+  text-align: center;
+  padding: 8px;
+  font-size: .8125rem;
+  color: var(--accent);
+  font-weight: 600;
+  border-top: 1px solid var(--border-light);
+  cursor: pointer;
+  user-select: none;
+}
+.md-card .card-toggle-btn:hover { background: var(--bg-tag); }
+
+/* 桌面端卡片样式微调 */
+@media (min-width: 900px) {
+  .md-section h2 {
+    font-size: 1.2rem;
+    margin: 28px 0 14px;
+  }
+  .md-card h3 { font-size: 1.05rem; }
+  .md-card p { font-size: .9375rem; }
+}
+
+/* 隐藏旧卡片相关样式 */
+.news-card:not([style]) { display: none; }

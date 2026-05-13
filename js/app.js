@@ -1,14 +1,14 @@
 /* ============================================================
-   早间新闻 — app.js (v2.0)
-   核心逻辑：双格式兼容（单文件 / 多文件目录 / 合并文件）
+   早间新闻 — app.js (v3.0 纯Markdown渲染版)
+   核心逻辑：直接加载 .md 文件，用 marked.js 渲染
+   不再解析字段，格式随便变都显示完整
    ============================================================ */
 
 'use strict';
 
 /* ============================================================
-   1. 常量 & 配置
+   1. 🔧 CATEGORIES 配置（用于导航和搜索过滤）
    ============================================================ */
-
 const CATEGORIES = [
   { key:'今日头条',   emoji:'🔥', name:'今日头条',     desc:'当日最重要、影响最广泛的头版资讯' },
   { key:'科技热点',   emoji:'🤖', name:'科技热点',     desc:'互联网、消费科技与行业动态最新进展' },
@@ -29,606 +29,431 @@ const CATEGORIES = [
   { key:'财经市场',   emoji:'📈', name:'财经市场',     desc:'A股、港股、美股及宏观经济数据动态' },
 ];
 
-// 板块文件的通用命名映射 (用于多文件格式)
-const CN_NUM = ['','一','二','三','四','五','六','七','八','九','十','十一','十二','十三','十四','十五','十六','十七'];
-
 /* ============================================================
-   2. 全局状态
+   2. 📦 全局状态
    ============================================================ */
-
 const state = {
-  index:       null,
-  currentDate: null,
+  index: null,         // news-index.json
+  currentDate: null,   // '20260513'
   currentType: 'morning',
-  currentCat:  'all',
-  cache:       {},      // { key: parsedData }
-  allNews:     [],      // 全量搜索索引
-  isLoading:   false,
-  isOffline:   false,
+  currentCat: 'all',
+  cache: {},           // { key: htmlString }
+  allNews: [],         // 全文搜索索引
+  isLoading: false,
+  isOffline: false,
 };
 
 /* ============================================================
-   3. DOM 引用
+   3. 🏠 DOM 快捷引用
    ============================================================ */
-
 const $ = id => document.getElementById(id);
 const DOM = {
-  header:        $('appHeader'),        dateStrip:     $('dateStrip'),
-  main:          $('appMain'),          newsList:      $('newsList'),
-  skeleton:      $('skeletonWrap'),     categoryTabs:  $('categoryTabs'),
-  glanceSection: $('glanceSection'),    glanceGrid:    $('glanceGrid'),
-  todayHeadline: $('todayHeadline'),    headlineText:  $('headlineText'),
-  navArchive:    $('navArchive'),       navToday:      $('navToday'),
-  navSearch:     $('navSearch'),        drawerOverlay: $('drawerOverlay'),
-  archiveDrawer: $('archiveDrawer'),    drawerContent: $('drawerContent'),
-  btnCloseDrawer:$('btnCloseDrawer'),   searchPanel:   $('searchPanel'),
-  searchInput:   $('searchInput'),      searchResults: $('searchResults'),
-  btnSearchBack: $('btnSearchBack'),    sidebarContent:$('sidebarContent'),
-  sidebarSearch: $('sidebarSearchInput'), btnTheme:    $('btnTheme'),
-  btnEnglish:    $('btnEnglish'),
+  header:$('appHeader'), dateStrip:$('dateStrip'), main:$('appMain'),
+  newsList:$('newsList'), skeleton:$('skeletonWrap'), categoryTabs:$('categoryTabs'),
+  todayHeadline:$('todayHeadline'), headlineText:$('headlineText'),
+  navArchive:$('navArchive'), navToday:$('navToday'), navSearch:$('navSearch'),
+  drawerOverlay:$('drawerOverlay'), archiveDrawer:$('archiveDrawer'),
+  drawerContent:$('drawerContent'), btnCloseDrawer:$('btnCloseDrawer'),
+  searchPanel:$('searchPanel'), searchInput:$('searchInput'),
+  searchResults:$('searchResults'), btnSearchBack:$('btnSearchBack'),
+  sidebarContent:$('sidebarContent'), sidebarSearch:$('sidebarSearchInput'),
+  btnTheme:$('btnTheme'), btnEnglish:$('btnEnglish'),
 };
 
 /* ============================================================
-   4. 主题切换
+   4. 🌗 主题
    ============================================================ */
-
 function initTheme() {
-  const saved = localStorage.getItem('news-theme');
-  const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
-  applyTheme(saved || (prefersDark ? 'dark' : 'light'), false);
+  const s = localStorage.getItem('news-theme');
+  const d = window.matchMedia('(prefers-color-scheme: dark)').matches;
+  apply(s || (d ? 'dark' : 'light'), false);
 }
-
-function applyTheme(theme, save) {
-  document.documentElement.setAttribute('data-theme', theme);
+function apply(t, save) {
+  document.documentElement.setAttribute('data-theme', t);
   const icon = DOM.btnTheme?.querySelector('.theme-icon');
-  if (icon) icon.textContent = theme === 'dark' ? '☀️' : '🌙';
+  if (icon) icon.textContent = t === 'dark' ? '☀️' : '🌙';
   const meta = document.getElementById('meta-theme-color');
-  if (meta) meta.setAttribute('content', theme === 'dark' ? '#161b22' : '#ffffff');
-  if (save !== false) localStorage.setItem('news-theme', theme);
+  if (meta) meta.setAttribute('content', t === 'dark' ? '#161b22' : '#ffffff');
+  if (save !== false) localStorage.setItem('news-theme', t);
 }
+function toggleTheme() { apply(document.documentElement.getAttribute('data-theme') === 'dark' ? 'light' : 'dark'); }
 
-function toggleTheme() {
-  const cur = document.documentElement.getAttribute('data-theme');
-  applyTheme(cur === 'dark' ? 'light' : 'dark');
+/* ============================================================
+   5. 📡 离线
+   ============================================================ */
+function initOffline() {
+  const b = document.getElementById('offlineBanner');
+  const fn = () => { state.isOffline = !navigator.onLine; if(b) b.style.display = state.isOffline ? 'flex' : 'none'; };
+  window.addEventListener('online', fn); window.addEventListener('offline', fn); fn();
 }
 
 /* ============================================================
-   5. 离线监测
+   6. 📥 加载索引
    ============================================================ */
-
-function initOfflineDetection() {
-  const banner = document.getElementById('offlineBanner');
-  function update() {
-    state.isOffline = !navigator.onLine;
-    if (banner) banner.style.display = state.isOffline ? 'flex' : 'none';
-  }
-  window.addEventListener('online', update);
-  window.addEventListener('offline', update);
-  update();
-}
-
-/* ============================================================
-   6. 加载 news-index.json
-   ============================================================ */
-
 async function loadIndex() {
   try {
-    const resp = await fetch('news-index.json?t=' + Date.now());
-    if (!resp.ok) throw new Error('HTTP ' + resp.status);
-    state.index = await resp.json();
-    if (state.index.offline) { showError('当前离线且无缓存，请联网后再试'); return false; }
+    const r = await fetch('news-index.json?t='+Date.now());
+    if (!r.ok) throw Error('HTTP '+r.status);
+    state.index = await r.json();
     return true;
-  } catch (e) {
-    console.error('加载索引失败', e);
-    showError('无法加载新闻索引');
-    return false;
-  }
+  } catch(e) { showError('无法加载新闻索引'); return false; }
 }
 
 /* ============================================================
-   7. 双格式数据加载器
+   7. 📄 核心：加载 markdown 并渲染
    ============================================================ */
 
 /**
- * 加载指定日期的新闻 — 自动识别格式
- * 兼容三种情况：
- *   A. entry.file 指向单个 .md 文件（旧格式或合并文件）
- *   B. entry.dir 指向目录，内有 01_名称.md ~ 17_名称.md
- *   C. 自动回退：file 404 时尝试目录
+ * 加载指定日期的新闻 — 直接渲染 Markdown
+ * 兼容三种情况：单文件、多文件目录、自动回退
  */
-async function loadNewsForDate(entry) {
+async function loadNews(entry) {
   const key = entry.date + '_' + entry.type;
   if (state.cache[key]) return state.cache[key];
 
-  let parsed;
-  // 情况 B：明确指定了 dir
+  let fullMd, sections;
+
+  // 情况A：多文件目录
   if (entry.dir) {
-    parsed = await loadFromDir(entry.dir, entry);
+    sections = await loadMultiFileMd(entry.dir);
+    fullMd = sections.map(s => s.md).join('\n\n');
   }
-  // 情况 A：尝试单文件
+  // 情况B：单文件
   else if (entry.file) {
-    parsed = await loadSingleFile(entry.file, entry);
-    // 情况 C：单文件不存在，自动回退到目录
-    if (!parsed) {
-      const fallbackDir = guessDirFromFile(entry.file);
-      if (fallbackDir) parsed = await loadFromDir(fallbackDir, entry);
+    fullMd = await fetchMd(entry.file);
+    // 单文件自动分解为 sections
+    sections = splitSections(fullMd);
+  }
+
+  // 情况C：单文件失败时自动回退到目录
+  if (!fullMd && entry.file) {
+    const dir = guessDir(entry.file);
+    if (dir) {
+      sections = await loadMultiFileMd(dir);
+      if (sections) fullMd = sections.map(s => s.md).join('\n\n');
     }
   }
 
-  if (parsed) state.cache[key] = parsed;
-  return parsed;
+  if (!fullMd) return null;
+
+  // 渲染为 HTML
+  const result = renderFullMd(fullMd, sections, entry);
+  state.cache[key] = result;
+  return result;
 }
 
-/** 从 file 路径推测 dir 路径 (news/YYYYMM/YYYYMMDD_早间.md → news/YYYYMM/YYYYMMDD/) */
-function guessDirFromFile(filepath) {
-  const m = filepath.match(/^(.*?)(\d{8})_/);
-  return m ? m[1] + m[2] + '/' : null;
-}
-
-/** 加载单文件 (.md) */
-async function loadSingleFile(filepath, entry) {
+/** 获取单个 .md 文件内容 */
+async function fetchMd(path) {
   try {
-    const resp = await fetch(filepath + '?t=' + Date.now());
-    if (!resp.ok) return null;
-    const raw = await resp.text();
-    return parseMarkdown(raw, entry);
+    const r = await fetch(path + '?t=' + Date.now());
+    return r.ok ? await r.text() : null;
   } catch { return null; }
 }
 
-/** 从目录加载多文件（自动发现 01_名称.md ~ 17_名称.md） */
-async function loadFromDir(dirpath, entry) {
-  const allSections = [];
-  const results = await Promise.allSettled(
+/** 从单文件路径推测 dir 路径 */
+function guessDir(p) {
+  const m = p.match(/^(.*?)(\d{8})_/);
+  return m ? m[1] + m[2] + '/' : null;
+}
+
+/** 从目录加载多文件，合并为一个 markdown 字符串列表 */
+async function loadMultiFileMd(dir) {
+  const results = [];
+  const fetched = await Promise.allSettled(
     CATEGORIES.map(async (cat, idx) => {
-      const num = String(idx + 1).padStart(2, '0');
-      // 尝试多种可能的文件名
-      const candidates = [`${num}_${cat.name}.md`, `${num}_${cat.key}.md`];
-      for (const fname of candidates) {
-        const url = dirpath + encodeURIComponent(fname);
+      const num = String(idx+1).padStart(2,'0');
+      for (const name of [`${num}_${cat.name}.md`,`${num}_${cat.key}.md`]) {
         try {
-          const resp = await fetch(url + '?t=' + Date.now());
-          if (!resp.ok) continue;
-          const text = await resp.text();
-          return { cat, idx, content: text };
+          const r = await fetch(dir + encodeURIComponent(name) + '?t='+Date.now());
+          if (!r.ok) continue;
+          const md = await r.text();
+          return { cat, md, idx };
         } catch { continue; }
       }
       return null;
     })
   );
-
-  // 收集头条摘要
-  let headline = '';
-
-  for (const result of results) {
-    if (result.status !== 'fulfilled' || !result.value) continue;
-    const { cat, idx, content } = result.value;
-    const items = parseSectionItems(content, cat);
-
-    // 从第一个新闻中提取头条
-    if (idx === 0 && items.length > 0) {
-      headline = items[0].title;
-    }
-
-    // 从文件头部提取 glance 关键词
-    const kw = extractKeyword(content);
-
-    allSections.push({
-      catKey:  cat.key,
-      catEmoji: cat.emoji,
-      catName: cat.name,
-      items,
-      glance:  kw,
-    });
+  for (const r of fetched) {
+    if (r.status === 'fulfilled' && r.value) results.push(r.value);
   }
-
-  // 按顺序排列
-  allSections.sort((a, b) => CATEGORIES.findIndex(c => c.key === a.catKey)
-                              - CATEGORIES.findIndex(c => c.key === b.catKey));
-
-  return { headline, categories: allSections };
+  if (!results.length) return null;
+  results.sort((a,b) => a.idx - b.idx);
+  return results;
 }
 
-/** 从单文件 markdown 解析出结构化数据 */
-function parseMarkdown(raw, entry) {
-  const lines = raw.split('\n');
-  const result = { headline: '', glance: [], categories: [] };
-  let currentCat = null, currentItemLines = [], inGlance = false;
+/**
+ * 从 markdown 中提取 ## 章节
+ */
+function splitSections(md) {
+  if (!md) return [];
+  const lines = md.split('\n');
+  const sections = [];
+  let cur = [], curHeader = '';
 
-  let i = 0;
-  while (i < lines.length) {
-    const line = lines[i];
+  for (const line of lines) {
+    if (line.startsWith('## ')) {
+      if (cur.length) sections.push({ header: curHeader, md: cur.join('\n') });
+      cur = [line];
+      curHeader = line;
+    } else {
+      cur.push(line);
+    }
+  }
+  if (cur.length) sections.push({ header: curHeader, md: cur.join('\n') });
+  return sections;
+}
 
-    // 要点速览表格
-    if (line.includes('要点速览') && line.includes('📊')) { inGlance = true; i++; continue; }
+/** 匹配分类 */
+function matchCat(text) {
+  // 先用全名
+  for (const c of CATEGORIES) if (text.includes(c.name)) return c;
+  for (const c of CATEGORIES) if (text.includes(c.key)) return c;
+  for (const c of CATEGORIES) if (text.includes(c.emoji)) return c;
+  return null;
+}
+
+/**
+ * 将 markdown 渲染为 HTML 并分类
+ * 返回: { html, categories, headline, glance }
+ */
+function renderFullMd(fullMd, sections, entry) {
+  const result = { html: '', categories: [], headline: '', glance: [] };
+
+  // 如果没有预分解的 sections，从全文提取
+  if (!sections) sections = splitSections(fullMd);
+
+  // 渲染每个章节
+  let allHtml = '';
+
+  for (const sec of sections) {
+    const cat = matchCat(sec.header);
+    const catKey = cat ? cat.key : '';
+    const catEmoji = cat ? cat.emoji : '';
+    const catName = cat ? cat.name : '';
+
+    // 将 ### 新闻条目包裹为卡片
+    const cardHtml = wrapItemsInCards(sec.md, catKey);
+    const sectionHtml = `<div class="md-section" data-cat-key="${catKey}">${cardHtml}</div>`;
+    allHtml += sectionHtml;
+
+    if (cat) {
+      result.categories.push({ catKey, catEmoji, catName, count: countItems(sec.md) });
+    }
+  }
+
+  result.html = allHtml;
+
+  // 提取 headline：找 🔥 今日头条 行
+  for (const line of fullMd.split('\n')) {
+    if (line.includes('🔥') && line.includes('今日头条') && line.includes('：')) {
+      result.headline = line.replace(/\*\*/g,'').replace(/^.*?[：:]/,'').trim().substring(0,120);
+      break;
+    }
+  }
+
+  // 提取 glance：要点速览表格
+  let inGlance = false;
+  for (const line of fullMd.split('\n')) {
+    const s = line.trim();
+    if (s.includes('要点速览') && s.includes('📊')) { inGlance = true; continue; }
     if (inGlance) {
-      const s = line.trim();
       if (s.startsWith('|') && !s.startsWith('|---')) {
-        const cells = s.split('|').map(c => c.trim()).filter(Boolean);
-        if (cells.length >= 2 && !cells[0].includes('分类') && !cells[0].includes('---')) {
-          const mc = CATEGORIES.find(c => cells[0].includes(c.key) || cells[0].includes(c.name) || cells[0].includes(c.emoji));
+        const cells = s.split('|').map(c=>c.trim()).filter(Boolean);
+        if (cells.length >= 2 && !cells[0].includes('分类')) {
+          const mc = matchCat(cells[0]);
           if (mc) result.glance.push({ catKey: mc.key, keyword: cells[1] });
         }
-      } else if (line.startsWith('##') || line.startsWith('---')) { inGlance = false; }
-      else if (!s.startsWith('|')) { inGlance = false; }
-      i++; continue;
+      } else if (s.startsWith('##') || s.startsWith('---')) inGlance = false;
     }
-
-    // 二级标题 → 新分类开始
-    if (line.startsWith('## ')) {
-      flushItem();
-      const mc = matchCategory(line);
-      if (mc) {
-        currentCat = { catKey: mc.key, catEmoji: mc.emoji, catName: mc.name, items: [] };
-        result.categories.push(currentCat);
-      } else {
-        currentCat = null;
-      }
-      i++; continue;
-    }
-
-    // 三级标题 → 新闻条目
-    if (line.startsWith('### ')) {
-      if (currentCat) {
-        if (currentItemLines.length) pushItem(currentCat, currentItemLines);
-        currentItemLines = [line];
-      }
-      i++; continue;
-    }
-
-    if (currentCat) currentItemLines.push(line);
-    i++;
-  }
-  flushItem();
-
-  function flushItem() {
-    if (currentCat && currentItemLines.length) {
-      pushItem(currentCat, currentItemLines);
-      currentItemLines = [];
-    }
-  }
-
-  // 提取 headline
-  for (const line of lines) {
-    if (line.includes('🔥') && line.includes('今日头条') && line.includes('：')) {
-      const cleaned = line.replace(/\*\*/g, '').replace(/^.*?[：:]/, '').trim();
-      if (cleaned.length > 10) { result.headline = cleaned.substring(0, 120); break; }
-    }
-  }
-  if (!result.headline && result.categories.length && result.categories[0].items.length) {
-    result.headline = result.categories[0].items[0].title;
   }
 
   return result;
 }
 
-/** 从多文件板块的 markdown 中提取新闻条目 */
-function parseSectionItems(raw, cat) {
-  const lines = raw.split('\n');
-  const items = [];
-  let currentLines = [];
+/** 将 ### 新闻条目包裹为卡片 */
+function wrapItemsInCards(md, catKey) {
+  const lines = md.split('\n');
+  const parts = [];
+  let cur = [];
 
   for (const line of lines) {
     if (line.startsWith('### ')) {
-      if (currentLines.length) { pushItem({ items }, currentLines); }
-      currentLines = [line];
-    } else if (currentLines.length) {
-      currentLines.push(line);
+      if (cur.length) parts.push(cur.join('\n'));
+      cur = [line];
+    } else {
+      cur.push(line);
     }
   }
-  if (currentLines.length) pushItem({ items }, currentLines);
-  return items;
+  if (cur.length) parts.push(cur.join('\n'));
+
+  if (parts.length <= 1) {
+    // 没有 ### 项，直接渲染整个段
+    return marked.parse(md);
+  }
+
+  // 第一部分（### 之前的内容）直接渲染
+  let html = parts[0] ? marked.parse(parts[0]) : '';
+
+  // 剩余每个 ### 项包裹为卡片
+  for (let i = 1; i < parts.length; i++) {
+    const itemHtml = marked.parse(parts[i]);
+    html += `<div class="md-card" data-cat-key="${catKey}">${itemHtml}</div>`;
+  }
+
+  return html;
 }
 
-/** 从板块文件头部提取关键词 */
-function extractKeyword(raw) {
-  for (const line of raw.split('\n')) {
-    const m = line.match(/^\d+\.\s*\*\*(.+?)\*\*\s*[—\-–]/);
-    if (m) return m[1];
-  }
-  return '';
-}
-
-/** 匹配分类标题行 */
-function matchCategory(line) {
-  for (const cat of CATEGORIES) {
-    if (line.includes(cat.name)) return cat;
-  }
-  for (const cat of CATEGORIES) {
-    if (line.includes(cat.key)) return cat;
-  }
-  for (const cat of CATEGORIES) {
-    if (line.includes(cat.emoji)) return cat;
-  }
-  return null;
-}
-
-/** 将新闻条目推入分类 */
-function pushItem(catObj, lines) {
-  if (!catObj || lines.length === 0) return;
-  const titleLine = lines[0]
-    .replace(/^###\s*/, '').replace(/^\d+\.\s*/, '')
-    .replace(/[【】\[\]]/g, '').replace(/\*\*/g, '').trim();
-  if (titleLine.length < 4) return;
-
-  const rawMd = lines.join('\n');
-  let summary = '', source = '';
-
-  for (const l of lines) {
-    if (!summary && l.includes('📌') && !l.startsWith('#')) {
-      const cleaned = l.replace(/^[>\s*]*📌\s*/, '').replace(/^\*\*[^*]+\*\*[：:]\s*/, '').replace(/\*\*/g, '').trim();
-      if (cleaned.length > 10) summary = cleaned.substring(0, 130) + (cleaned.length > 130 ? '...' : '');
-    }
-    if (!source && l.includes('🔗')) {
-      source = l.replace(/^[>\s*]*🔗\s*/, '').replace(/\*\*/g, '').replace(/信息来源[：:]/i, '').trim().substring(0, 80);
-    }
-  }
-
-  // 从老格式找摘要
-  if (!summary) {
-    for (const l of lines.slice(1)) {
-      if (l.includes('🔥') && (l.includes('核心事件') || l.includes('深度报道'))) {
-        const nxt = lines[lines.indexOf(l) + 1];
-        if (nxt) {
-          const cleaned = nxt.replace(/^[>\s*]*/, '').replace(/\*\*/g, '').trim();
-          if (cleaned.length > 20) { summary = cleaned.substring(0, 130) + (cleaned.length > 130 ? '...' : ''); break; }
-        }
-      }
-    }
-  }
-  if (!summary) {
-    for (const l of lines.slice(1)) {
-      const cleaned = l.replace(/^[#>*\-|📌🔥📅⚖️🌐🚀🤖🔗▌>]\s*/, '').replace(/\*\*/g, '').trim();
-      if (cleaned.length > 20 && !cleaned.startsWith('|') && !cleaned.startsWith('（')) {
-        summary = cleaned.substring(0, 130) + (cleaned.length > 130 ? '...' : '');
-        break;
-      }
-    }
-  }
-
-  catObj.items.push({ title: titleLine, summary: summary || '点击查看详情', source, rawMd });
+/** 统计 ### 条目数 */
+function countItems(md) {
+  return (md.match(/^### /gm) || []).length;
 }
 
 /* ============================================================
-   8. SW 预缓存调度
+   8. 🖼️ 渲染 UI
    ============================================================ */
 
-function schedulePrecache() {
-  if (!('serviceWorker' in navigator) || !state.index) return;
-  let retry = 0;
-  function run() {
-    navigator.serviceWorker.ready.then(reg => {
-      if (!reg || !reg.active) {
-        if (retry++ < 5) { setTimeout(run, 1000 * retry); return; }
-        return;
-      }
-      const paths = [];
-      for (const m of state.index.months) {
-        for (const d of m.days) {
-          if (d.file) paths.push(d.file);
-          else if (d.dir) {
-            // 预缓存目录下所有板块文件
-            CATEGORIES.forEach((_, idx) => {
-              const n = String(idx + 1).padStart(2, '0');
-              paths.push(d.dir + encodeURIComponent(`${n}_${d.label}.md`));
-            });
-          }
-        }
-      }
-      reg.active.postMessage({ type: 'PRECACHE_NEWS', files: paths.slice(0, 20) });
-    });
-  }
-  setTimeout(run, 500);
-}
-
-/* ============================================================
-   9. 渲染函数（与之前保持一致，UI 不变）
-   ============================================================ */
-
-// 渲染日期切换条
+// 日期条
 function renderDateStrip() {
   if (!state.index) return;
   DOM.dateStrip.innerHTML = '';
-  const allDays = [];
+  const days = [];
   for (const m of state.index.months) {
     for (const d of m.days) {
-      if (!allDays.find(x => x.date === d.date && x.type === d.type)) allDays.push(d);
+      if (!days.find(x => x.date===d.date && x.type===d.type)) days.push(d);
     }
   }
-  const recent = allDays.slice(0, 14).reverse();
-  recent.forEach(day => {
-    const btn = document.createElement('button');
-    btn.className = 'date-btn' + (day.type === 'weekly' ? ' has-weekly' : '');
-    if (day.date === state.currentDate && day.type === state.currentType) btn.classList.add('active');
-    btn.textContent = formatShortDate(day.date);
-    btn.dataset.date = day.date; btn.dataset.type = day.type;
-    btn.addEventListener('click', () => selectDate(day));
-    DOM.dateStrip.appendChild(btn);
+  days.slice(0,14).reverse().forEach(d => {
+    const b = document.createElement('button');
+    b.className = 'date-btn' + (d.type==='weekly'?' has-weekly':'');
+    if (d.date===state.currentDate && d.type===state.currentType) b.classList.add('active');
+    b.textContent = parseInt(d.date.substring(4,6))+'/'+parseInt(d.date.substring(6,8));
+    b.dataset.date = d.date; b.dataset.type = d.type;
+    b.addEventListener('click', () => selectDate(d));
+    DOM.dateStrip.appendChild(b);
   });
   setTimeout(() => {
     const a = DOM.dateStrip.querySelector('.date-btn.active');
-    if (a) a.scrollIntoView({ inline: 'center', behavior: 'smooth' });
+    if (a) a.scrollIntoView({inline:'center',behavior:'smooth'});
   }, 100);
 }
 
-function formatShortDate(d) { return `${parseInt(d.substring(4,6))}/${parseInt(d.substring(6,8))}`; }
-
-// 归档树（侧边栏 & 抽屉共用）
-function buildArchiveTree(container, cls, onSelect) {
+// 侧边栏 & 抽屉
+function buildArchive(container, cls, onSelect) {
   if (!state.index) return;
   container.innerHTML = '';
   state.index.months.forEach((month, mi) => {
     const el = document.createElement('div');
-    el.className = cls + '-month' + (mi === 0 ? ' open' : '');
+    el.className = cls + '-month' + (mi===0?' open':'');
     const hdr = document.createElement('div');
     hdr.className = cls + '-month-header';
     hdr.innerHTML = `<span class="${cls}-month-title">${month.label}</span><span class="${cls}-month-arrow">▼</span>`;
     hdr.addEventListener('click', () => el.classList.toggle('open'));
-    const daysEl = document.createElement('div');
-    daysEl.className = cls + '-days';
-    month.days.forEach(day => {
+    const days = document.createElement('div');
+    days.className = cls + '-days';
+    month.days.forEach(d => {
       const item = document.createElement('div');
       item.className = cls + '-day-item';
-      if (day.date === state.currentDate && day.type === state.currentType) item.classList.add('active');
-      item.innerHTML = `<span>${day.label}</span><span class="${cls}-day-type">${day.typeCN || day.type}</span>`;
-      item.addEventListener('click', () => onSelect(day));
-      daysEl.appendChild(item);
+      if (d.date===state.currentDate && d.type===state.currentType) item.classList.add('active');
+      item.innerHTML = `<span>${d.label}</span><span class="${cls}-day-type">${d.typeCN||d.type}</span>`;
+      item.addEventListener('click', () => onSelect(d));
+      days.appendChild(item);
     });
-    el.appendChild(hdr); el.appendChild(daysEl); container.appendChild(el);
+    el.appendChild(hdr); el.appendChild(days); container.appendChild(el);
   });
 }
-
-function renderSidebar() { buildArchiveTree(DOM.sidebarContent, 'sidebar', day => selectDate(day)); }
-function renderDrawer() { buildArchiveTree(DOM.drawerContent, 'drawer', day => { selectDate(day); closeDrawer(); }); }
+function renderSidebar() { buildArchive(DOM.sidebarContent,'sidebar', d => selectDate(d)); }
+function renderDrawer() { buildArchive(DOM.drawerContent,'drawer', d => { selectDate(d); closeDrawer(); }); }
 
 // 分类 Tab
-function renderCategoryTabs(parsed) {
+function renderTabs(parsed) {
   DOM.categoryTabs.innerHTML = '';
-  const allTab = document.createElement('button');
-  allTab.className = 'cat-tab' + (state.currentCat === 'all' ? ' active' : '');
-  allTab.dataset.cat = 'all';
-  allTab.innerHTML = '<span class="tab-emoji">📰</span>全部';
-  allTab.addEventListener('click', () => selectCategory('all'));
-  DOM.categoryTabs.appendChild(allTab);
+  const add = (key, emoji, label, active) => {
+    const b = document.createElement('button');
+    b.className = 'cat-tab' + (key===state.currentCat?' active':'');
+    b.dataset.cat = key;
+    b.innerHTML = `<span class="tab-emoji">${emoji}</span>${label}`;
+    b.addEventListener('click', () => filterCat(key));
+    DOM.categoryTabs.appendChild(b);
+  };
+  add('all', '📰', '全部', state.currentCat==='all');
 
-  const cats = parsed ? parsed.categories : [];
-  (cats.length ? cats : CATEGORIES).forEach((cat, idx) => {
-    if (cats.length && cat.items.length === 0) return;
-    const tab = document.createElement('button');
-    tab.className = 'cat-tab' + (state.currentCat === cat.catKey ? ' active' : '');
-    tab.dataset.cat = cat.catKey;
-    tab.innerHTML = `<span class="tab-emoji">${cat.catEmoji || CATEGORIES[idx]?.emoji || ''}</span>${(cat.catName || cat.name || '').substring(0,6)}`;
-    tab.addEventListener('click', () => selectCategory(cat.catKey));
-    DOM.categoryTabs.appendChild(tab);
+  const cats = parsed?.categories || [];
+  const used = {};
+  cats.forEach(c => { used[c.catKey] = true; });
+
+  // 有内容才显示 Tab
+  CATEGORIES.forEach(c => {
+    if (!used[c.key] && cats.length) return;
+    add(c.key, c.emoji, c.name.substring(0,6), state.currentCat===c.key);
   });
 }
 
-function selectCategory(key) {
+// 过滤分类
+function filterCat(key) {
   state.currentCat = key;
-  DOM.categoryTabs.querySelectorAll('.cat-tab').forEach(t => t.classList.toggle('active', t.dataset.cat === key));
-  if (key !== 'all') window.scrollTo({ top: 0, behavior: 'smooth' });
-  DOM.newsList.querySelectorAll('.news-card, .cat-banner').forEach(el => {
-    el.style.display = (key === 'all' || el.dataset.catKey === key) ? '' : 'none';
+  DOM.categoryTabs.querySelectorAll('.cat-tab').forEach(t => t.classList.toggle('active', t.dataset.cat===key));
+  if (key !== 'all') window.scrollTo({top:0,behavior:'smooth'});
+  // 显示/隐藏章节
+  document.querySelectorAll('.md-section').forEach(el => {
+    el.style.display = (key==='all' || el.dataset.catKey===key) ? '' : 'none';
   });
-  setTimeout(() => { if (state._attachSpyObserver) state._attachSpyObserver(); }, 150);
+  document.querySelectorAll('.md-card').forEach(el => {
+    el.style.display = (key==='all' || el.dataset.catKey===key) ? '' : 'none';
+  });
 }
 
 // 要点速览
 function renderGlance(parsed) {
-  if (!parsed || !parsed.glance?.length) { DOM.glanceSection.style.display = 'none'; return; }
+  if (!parsed?.glance?.length) { DOM.glanceSection.style.display = 'none'; return; }
   DOM.glanceSection.style.display = '';
   DOM.glanceGrid.innerHTML = '';
-  // 从多文件格式构建 glance
-  const glance = parsed.glance.length ? parsed.glance : parsed.categories.filter(c => c.items.length).map(c => ({
-    catKey: c.catKey, emoji: c.catEmoji, keyword: c.items[0]?.title?.substring(0, 30) || ''
-  }));
-  glance.forEach(g => {
+  parsed.glance.forEach(g => {
     const ci = CATEGORIES.findIndex(c => c.key === g.catKey);
     if (ci < 0) return;
     const card = document.createElement('div');
     card.className = 'glance-card'; card.dataset.catKey = g.catKey;
-    card.innerHTML = `<div class="glance-emoji">${g.emoji || CATEGORIES[ci].emoji}</div>
+    card.innerHTML = `<div class="glance-emoji">${CATEGORIES[ci].emoji}</div>
       <div class="glance-category">${CATEGORIES[ci].name}</div>
-      <div class="glance-keyword">${esc(g.keyword || '')}</div>`;
-    card.addEventListener('click', () => selectCategory(g.catKey));
+      <div class="glance-keyword">${esc(g.keyword)}</div>`;
+    card.addEventListener('click', () => filterCat(g.catKey));
     DOM.glanceGrid.appendChild(card);
   });
 }
 
-// 新闻卡片列表
-function renderNewsList(parsed, entry) {
+// 渲染新闻主体
+function renderNews(parsed, entry) {
   DOM.newsList.innerHTML = '';
-  if (!parsed || !parsed.categories?.length) {
-    DOM.newsList.innerHTML = `<div class="empty-state"><div class="empty-state-icon">📭</div><div class="empty-state-text">该日期暂无新闻内容</div></div>`;
+  if (!parsed || !parsed.html) {
+    DOM.newsList.innerHTML = `<div class="empty-state"><div class="empty-state-icon">📭</div><div class="empty-state-text">暂无内容</div></div>`;
     return;
   }
-  const d = parseDateStr(entry.date);
-  const header = document.createElement('div');
-  header.className = 'date-page-header';
-  header.innerHTML = `<div class="date-page-title">${d.year}年${d.month}月${d.day}日 ${d.weekday}</div>
-    <div class="date-page-meta">${entry.typeCN || '早间'}新闻简报</div>`;
-  DOM.newsList.appendChild(header);
+  const d = parseDate(entry.date);
+  const hdr = document.createElement('div');
+  hdr.className = 'date-page-header';
+  hdr.innerHTML = `<div class="date-page-title">${d.year}年${d.month}月${d.day}日 ${d.weekday}</div>
+    <div class="date-page-meta">${entry.typeCN||'早间'}新闻简报</div>`;
+  DOM.newsList.appendChild(hdr);
 
-  parsed.categories.forEach((cat, ci) => {
-    if (!cat.items?.length) return;
-    const badge = 'badge-' + Math.min(ci, 15);
-    DOM.newsList.appendChild(buildCatBanner(cat, ci));
-    cat.items.forEach(item => {
-      DOM.newsList.appendChild(buildNewsCard(item, cat, badge, entry));
-    });
-  });
+  // 直接插入渲染好的 Markdown HTML
+  const wrapper = document.createElement('div');
+  wrapper.className = 'md-render';
+  wrapper.innerHTML = parsed.html;
+  DOM.newsList.appendChild(wrapper);
 
-  selectCategory(state.currentCat);
-  setTimeout(() => { if (state._attachSpyObserver) state._attachSpyObserver(); }, 100);
-}
-
-function buildCatBanner(cat, idx) {
-  const banner = document.createElement('div');
-  banner.className = 'cat-banner'; banner.dataset.catKey = cat.catKey;
-  const meta = CATEGORIES.find(c => c.key === cat.catKey) || {};
-  banner.innerHTML = `<div class="cat-banner-left"><span class="cat-banner-emoji">${cat.catEmoji}</span>
-    <div class="cat-banner-info"><span class="cat-banner-name">${cat.catName}</span>
-    <span class="cat-banner-desc">${meta.desc || ''}</span></div></div>
-    <span class="cat-banner-count">${cat.items.length} 条</span>`;
-  return banner;
-}
-
-function buildNewsCard(item, cat, badge, entry) {
-  const card = document.createElement('div');
-  card.className = 'news-card'; card.dataset.catKey = cat.catKey;
-  const d = parseDateStr(entry.date);
-  card.innerHTML = `<div class="news-card-header">
-    <div class="card-meta"><span class="card-category-badge ${badge}">${cat.catEmoji} ${cat.catName}</span>
-    <span class="card-date">${d.month}/${d.day}</span></div>
-    <div class="card-title">${esc(item.title)}</div>
-    <div class="card-summary">${esc(item.summary)}</div>
-    <div class="card-footer"><span class="card-source">${esc(item.source)}</span>
-    <span class="card-toggle">展开 <span class="toggle-arrow">▼</span></span></div></div>
-    <div class="news-card-body"><div class="news-card-body-inner">
-    <div class="md-content" data-raw="${encodeURIComponent(item.rawMd)}"></div></div></div>`;
-
-  card.querySelector('.news-card-header').addEventListener('click', () => {
-    const expanded = card.classList.toggle('expanded');
-    const mdEl = card.querySelector('.md-content');
-    if (expanded && !mdEl.dataset.rendered) {
-      let raw = decodeURIComponent(mdEl.dataset.raw);
-      // 预处理：各类小标题行前后加空行
-      raw = raw.replace(/(^|\n)(\*\*[^\n*]{1,40}\*\*[^\n]{0,30})(\n)(?!\n)/g, '$1$2\n\n');
-      raw = raw.replace(/(^|\n)(📌[^\n]+)/g, '\n\n$2');
-      raw = raw.replace(/(^|\n)([🔮📊⚠️💡🎯][^\n]+)/gu, '\n\n$2');
-      raw = raw.replace(/(^|\n)(▌[^\n]+)/g, '\n\n$2');
-      mdEl.innerHTML = marked.parse(raw);
-      // 后处理样式
-      mdEl.querySelectorAll('p').forEach(p => {
-        const html = p.innerHTML.trim(), text = p.textContent.trim();
-        const afterStrong = html.replace(/^<strong>[^]*?<\/strong>/, '').trim();
-        if (html.startsWith('<strong>') && /^[\s（）()\d\-–—至字以内]*$/.test(afterStrong)) {
-          p.classList.add('section-label'); return;
-        }
-        if (text.startsWith('📌')) { p.classList.add('pin-item'); return; }
-        if (text.startsWith('▌')) { p.classList.add('pin-item'); return; }
-        if (/^[🔮📊⚠️💡🎯]/u.test(text)) p.classList.add('analysis-item');
-      });
-      mdEl.dataset.rendered = '1';
-    }
-    card.querySelector('.card-toggle').innerHTML = expanded
-      ? '收起 <span class="toggle-arrow" style="transform:rotate(180deg)">▼</span>'
-      : '展开 <span class="toggle-arrow">▼</span>';
-  });
-  return card;
+  filterCat(state.currentCat);
 }
 
 /* ============================================================
-   10. 选择日期（核心流程）
+   9. 🎯 选择日期
    ============================================================ */
-
-async function selectDate(dayEntry) {
+async function selectDate(entry) {
   if (state.isLoading) return;
   state.isLoading = true;
-  state.currentDate = dayEntry.date;
-  state.currentType = dayEntry.type;
+  state.currentDate = entry.date;
+  state.currentType = entry.type;
 
   DOM.dateStrip.querySelectorAll('.date-btn').forEach(b => {
-    b.classList.toggle('active', b.dataset.date === dayEntry.date && b.dataset.type === dayEntry.type);
+    b.classList.toggle('active', b.dataset.date===entry.date && b.dataset.type===entry.type);
   });
   state.currentCat = 'all';
 
@@ -638,164 +463,109 @@ async function selectDate(dayEntry) {
   DOM.glanceSection.style.display = 'none';
   DOM.todayHeadline.style.display = 'none';
 
-  const parsed = await loadNewsForDate(dayEntry);
+  const parsed = await loadNews(entry);
   DOM.skeleton.remove();
   state.isLoading = false;
 
   if (!parsed) {
-    DOM.newsList.innerHTML = `<div class="empty-state"><div class="empty-state-icon">⚠️</div><div class="empty-state-text">新闻加载失败</div></div>`;
+    DOM.newsList.innerHTML = `<div class="empty-state"><div class="empty-state-icon">⚠️</div><div class="empty-state-text">加载失败</div></div>`;
     return;
   }
 
-  renderCategoryTabs(parsed);
+  renderTabs(parsed);
   renderGlance(parsed);
-  renderNewsList(parsed, dayEntry);
+  renderNews(parsed, entry);
 
   if (parsed.headline) {
     DOM.headlineText.textContent = parsed.headline;
     DOM.todayHeadline.style.display = 'flex';
   }
-  refreshArchiveActive();
-  window.scrollTo({ top: 0, behavior: 'smooth' });
+  refreshArchive();
+  window.scrollTo({top:0,behavior:'smooth'});
 }
 
 /* ============================================================
-   11. 归档 & 搜索
+   10. 🔍 搜索
    ============================================================ */
+function openSearch() { DOM.searchPanel.classList.add('open'); document.body.style.overflow='hidden'; setTimeout(()=>DOM.searchInput.focus(),300); setNav('search'); }
+function closeSearch() { DOM.searchPanel.classList.remove('open'); document.body.style.overflow=''; setNav('today'); DOM.searchInput.value=''; DOM.searchResults.innerHTML='<div class="search-placeholder">输入关键词开始搜索</div>'; }
 
-function openDrawer() { renderDrawer(); DOM.drawerOverlay.classList.add('open'); DOM.archiveDrawer.classList.add('open'); document.body.style.overflow = 'hidden'; setNavActive('archive'); }
-function closeDrawer() { DOM.drawerOverlay.classList.remove('open'); DOM.archiveDrawer.classList.remove('open'); document.body.style.overflow = ''; setNavActive('today'); }
+let st = null;
+function handleSearch(q) { clearTimeout(st); if(!q.trim()){ DOM.searchResults.innerHTML='<div class="search-placeholder">输入关键词开始搜索</div>'; return; } st=setTimeout(()=>doSearch(q.trim()),300); }
 
-function openSearch() { DOM.searchPanel.classList.add('open'); document.body.style.overflow = 'hidden'; setTimeout(() => DOM.searchInput.focus(), 300); setNavActive('search'); }
-function closeSearch() { DOM.searchPanel.classList.remove('open'); document.body.style.overflow = ''; setNavActive('today'); DOM.searchInput.value = ''; DOM.searchResults.innerHTML = '<div class="search-placeholder">输入关键词开始搜索</div>'; }
-
-let searchTimer = null;
-function handleSearch(q) { clearTimeout(searchTimer); if (!q.trim()) { DOM.searchResults.innerHTML = '<div class="search-placeholder">输入关键词开始搜索</div>'; return; } searchTimer = setTimeout(() => doSearch(q.trim()), 300); }
-
-async function doSearch(query) {
+async function doSearch(q) {
   DOM.searchResults.innerHTML = '<div class="loading-text">搜索中...</div>';
-  await buildSearchIndex();
-  const kw = query.toLowerCase();
-  const results = [];
-  for (const item of state.allNews) {
-    if (item.title.toLowerCase().includes(kw) || item.summary.toLowerCase().includes(kw)) results.push(item);
-  }
-  if (!results.length) { DOM.searchResults.innerHTML = `<div class="search-no-result">没有找到"${esc(query)}"相关新闻</div>`; return; }
+  if (!state.allNews.length) await buildSearchIdx();
+  const kw = q.toLowerCase();
+  const res = state.allNews.filter(i => i.text.toLowerCase().includes(kw));
+  if (!res.length) { DOM.searchResults.innerHTML=`<div class="search-no-result">没有找到"${esc(q)}"相关新闻</div>`; return; }
   DOM.searchResults.innerHTML = '';
-  results.slice(0, 50).forEach(item => {
+  res.slice(0,50).forEach(i => {
     const el = document.createElement('div');
     el.className = 'search-result-item';
-    el.innerHTML = `<div class="search-result-meta"><span class="card-category-badge badge-${item.catIdx}" style="font-size:.7rem;padding:2px 7px">${item.catEmoji} ${item.catName}</span>
-      <span class="search-result-date">${item.date}</span></div>
-      <div class="search-result-title">${highlight(esc(item.title), esc(query))}</div>
-      <div class="search-result-summary">${highlight(esc(item.summary), esc(query))}</div>`;
-    el.addEventListener('click', async () => { closeSearch(); const de = findDayEntry(item.date); if (de) await selectDate(de); });
+    el.innerHTML = `<div class="search-result-title">${highlight(esc(i.text.substring(0,80)),esc(q))}</div>`;
+    el.addEventListener('click', async () => { closeSearch(); const de = findDay(i.date); if(de) await selectDate(de); });
     DOM.searchResults.appendChild(el);
   });
 }
 
-async function buildSearchIndex() {
-  if (state.allNews.length) return;
+async function buildSearchIdx() {
   if (!state.index) return;
-  for (const month of state.index.months) {
-    for (const day of month.days) {
-      const key = day.date + '_' + day.type;
+  for (const m of state.index.months) {
+    for (const d of m.days) {
+      const key = d.date+'_'+d.type;
       let parsed = state.cache[key];
-      if (!parsed) parsed = await loadNewsForDate(day);
-      if (!parsed) continue;
-      parsed.categories?.forEach((cat, ci) => {
-        cat.items?.forEach(item => {
-          state.allNews.push({ date: day.date, title: item.title, summary: item.summary,
-            catKey: cat.catKey, catEmoji: cat.catEmoji, catName: cat.catName, catIdx: Math.min(ci, 15) });
-        });
-      });
+      if (!parsed) parsed = await loadNews(d);
+      if (!parsed || !parsed.html) continue;
+      // 提取纯文本
+      const tmp = document.createElement('div');
+      tmp.innerHTML = parsed.html;
+      state.allNews.push({ date: d.date, text: tmp.textContent || '' });
     }
   }
 }
-
-function findDayEntry(d) { for (const m of state.index?.months || []) { for (const day of m.days) { if (day.date === d) return day; } } return null; }
-function highlight(text, kw) { if (!kw) return text; const re = new RegExp(kw.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'), 'gi'); return text.replace(re, m => `<span class="search-highlight">${m}</span>`); }
+function findDay(d) { for(const m of state.index?.months||[]){for(const day of m.days){if(day.date===d) return day;}}return null; }
 
 /* ============================================================
-   12. 辅助函数
+   11. 🧰 工具函数
    ============================================================ */
-
-function parseDateStr(d) {
-  const y = d.substring(0,4), m = parseInt(d.substring(4,6)), day = parseInt(d.substring(6,8));
-  const dt = new Date(parseInt(y), m - 1, day);
-  return { year: y, month: m, day, weekday: ['周日','周一','周二','周三','周四','周五','周六'][dt.getDay()] };
+function parseDate(d) {
+  const y=d.substring(0,4),m=parseInt(d.substring(4,6)),day=parseInt(d.substring(6,8));
+  const dt=new Date(parseInt(y),m-1,day);
+  return {year:y,month:m,day,weekday:['周日','周一','周二','周三','周四','周五','周六'][dt.getDay()]};
 }
 function esc(s) { return s ? String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;') : ''; }
-function showError(msg) { DOM.newsList.innerHTML = `<div class="empty-state"><div class="empty-state-icon">😢</div><div class="empty-state-text">${esc(msg)}</div></div>`; }
-function setNavActive(tab) { [DOM.navArchive, DOM.navToday, DOM.navSearch].forEach(el => el.classList.remove('active')); if (tab === 'archive') DOM.navArchive.classList.add('active'); else if (tab === 'search') DOM.navSearch.classList.add('active'); else DOM.navToday.classList.add('active'); }
-function refreshArchiveActive() { renderSidebar(); renderDrawer(); }
+function highlight(t,k) { if(!k||!t) return t||''; return t.replace(new RegExp(k.replace(/[.*+?^${}()|[\]\\]/g,'\\$&'),'gi'), m=>`<span class="search-highlight">${m}</span>`); }
+function showError(m) { DOM.newsList.innerHTML=`<div class="empty-state"><div class="empty-state-icon">😢</div><div class="empty-state-text">${esc(m)}</div></div>`; }
+function setNav(t) { [DOM.navArchive,DOM.navToday,DOM.navSearch].forEach(e=>e.classList.remove('active')); if(t==='archive') DOM.navArchive.classList.add('active'); else if(t==='search') DOM.navSearch.classList.add('active'); else DOM.navToday.classList.add('active'); }
+function refreshArchive() { renderSidebar(); renderDrawer(); }
+function openDrawer() { renderDrawer(); DOM.drawerOverlay.classList.add('open'); DOM.archiveDrawer.classList.add('open'); document.body.style.overflow='hidden'; setNav('archive'); }
+function closeDrawer() { DOM.drawerOverlay.classList.remove('open'); DOM.archiveDrawer.classList.remove('open'); document.body.style.overflow=''; setNav('today'); }
+function getLatest() { return state.index?.months?.[0]?.days?.[0] || null; }
 
-/* ============================================================
-   13. 滚动联动 & Tab 拖拽 & 头部隐藏
-   ============================================================ */
-
-function initScrollSpy() {
-  let spyObserver = null, lastActiveCat = 'all';
-  function attach() {
-    if (spyObserver) spyObserver.disconnect();
-    if (state.currentCat !== 'all') return;
-    const cards = Array.from(DOM.newsList.querySelectorAll('.news-card[data-cat-key]')).filter(c => c.style.display !== 'none');
-    if (!cards.length) return;
-    spyObserver = new IntersectionObserver(entries => {
-      const visible = entries.filter(e => e.isIntersecting).sort((a,b) => a.boundingClientRect.top - b.boundingClientRect.top);
-      if (visible.length) {
-        const k = visible[0].target.dataset.catKey;
-        if (k && k !== lastActiveCat) { lastActiveCat = k; highlightTab(k); }
+// SW 预缓存
+function schedulePrecache() {
+  if (!('serviceWorker' in navigator) || !state.index) return;
+  let retry=0;
+  function run() {
+    navigator.serviceWorker.ready.then(reg => {
+      if(!reg||!reg.active){ if(retry++<5){setTimeout(run,1000*retry);return;} return; }
+      const paths = [];
+      for(const m of state.index.months) for(const d of m.days) {
+        if(d.file) paths.push(d.file);
+        else if(d.dir) CATEGORIES.forEach((_,i)=>paths.push(d.dir+String(i+1).padStart(2,'0')+'_'+CATEGORIES[i].name+'.md'));
       }
-    }, { rootMargin: '-160px 0px -40% 0px', threshold: 0 });
-    cards.forEach(c => spyObserver.observe(c));
-  }
-  state._attachSpyObserver = attach;
-}
-
-function highlightTab(k) {
-  DOM.categoryTabs.querySelectorAll('.cat-tab').forEach(t => t.classList.toggle('active', t.dataset.cat === k));
-  const a = DOM.categoryTabs.querySelector(`.cat-tab[data-cat="${CSS.escape(k)}"]`);
-  if (a) a.scrollIntoView({ inline: 'center', behavior: 'smooth', block: 'nearest' });
-}
-
-function getLatestDay() {
-  if (!state.index?.months?.length) return null;
-  return state.index.months[0]?.days?.[0] || null;
-}
-
-function makeDraggable(el) {
-  let down = false, sx = 0, sl = 0, moved = false;
-  el.addEventListener('mousedown', e => { down = true; moved = false; sx = e.pageX - el.offsetLeft; sl = el.scrollLeft; el.style.cursor = 'grabbing'; el.style.userSelect = 'none'; });
-  el.addEventListener('mouseleave', () => { down = false; el.style.cursor = ''; el.style.userSelect = ''; });
-  el.addEventListener('mouseup', () => { down = false; el.style.cursor = ''; el.style.userSelect = ''; });
-  el.addEventListener('mousemove', e => { if (!down) return; e.preventDefault(); const x = e.pageX - el.offsetLeft; if (Math.abs(x - sx) > 3) moved = true; el.scrollLeft = sl - (x - sx); });
-  el.addEventListener('click', e => { if (moved) { e.stopPropagation(); moved = false; } }, true);
-}
-function initTabDrag() { makeDraggable(DOM.categoryTabs); makeDraggable(DOM.dateStrip); }
-
-function initScrollHideHeader() {
-  let lastY = 0, ticking = false;
-  window.addEventListener('scroll', () => {
-    if (ticking) return; ticking = true;
-    requestAnimationFrame(() => {
-      const y = window.pageYOffset || document.documentElement.scrollTop || 0;
-      const atBottom = (window.innerHeight + y) >= (document.documentElement.scrollHeight - 5);
-      if (y <= 0 || atBottom) document.body.classList.remove('hide-topbar');
-      else if (y > lastY && y > 10) document.body.classList.add('hide-topbar');
-      else if (y < lastY) document.body.classList.remove('hide-topbar');
-      lastY = y; ticking = false;
+      reg.active.postMessage({type:'PRECACHE_NEWS',files:paths.slice(0,20)});
     });
-  }, { passive: true });
+  }
+  setTimeout(run,500);
 }
 
 /* ============================================================
-   14. 主初始化
+   12. 🚀 启动
    ============================================================ */
-
 async function init() {
-  initTheme();
-  initOfflineDetection();
+  initTheme(); initOffline();
   DOM.btnTheme?.addEventListener('click', toggleTheme);
   DOM.btnEnglish?.addEventListener('click', e => { e.preventDefault(); window.location.assign('englishStudy/index.html'); });
 
@@ -804,39 +574,83 @@ async function init() {
   }
 
   DOM.navArchive?.addEventListener('click', openDrawer);
-  DOM.navToday?.addEventListener('click', () => { closeDrawer(); closeSearch(); setNavActive('today'); });
+  DOM.navToday?.addEventListener('click', () => { closeDrawer(); closeSearch(); setNav('today'); });
   DOM.navSearch?.addEventListener('click', openSearch);
   DOM.btnCloseDrawer?.addEventListener('click', closeDrawer);
   DOM.drawerOverlay?.addEventListener('click', closeDrawer);
 
-  let ty = 0;
-  DOM.archiveDrawer?.addEventListener('touchstart', e => { ty = e.touches[0].clientY; }, { passive: true });
-  DOM.archiveDrawer?.addEventListener('touchend', e => { if (e.changedTouches[0].clientY - ty > 80) closeDrawer(); }, { passive: true });
+  let ty=0;
+  DOM.archiveDrawer?.addEventListener('touchstart', e=>{ty=e.touches[0].clientY;}, {passive:true});
+  DOM.archiveDrawer?.addEventListener('touchend', e=>{if(e.changedTouches[0].clientY-ty>80) closeDrawer();}, {passive:true});
 
   DOM.btnSearchBack?.addEventListener('click', closeSearch);
   DOM.searchInput?.addEventListener('input', e => handleSearch(e.target.value));
-  DOM.searchInput?.addEventListener('keydown', e => { if (e.key === 'Escape') closeSearch(); });
-  initSidebarSearch();
+  DOM.searchInput?.addEventListener('keydown', e => { if(e.key==='Escape') closeSearch(); });
 
   const ok = await loadIndex();
   if (!ok) return;
   schedulePrecache();
   renderDateStrip();
   renderSidebar();
-  renderCategoryTabs(null);
-  initScrollSpy();
+  renderTabs(null);
+  initSpy();
   initTabDrag();
-  initScrollHideHeader();
+  initHideHeader();
 
-  const latest = getLatestDay();
+  const latest = getLatest();
   if (latest) await selectDate(latest);
   else showError('暂无新闻数据');
 }
 
-function initSidebarSearch() {
-  if (!DOM.sidebarSearch) return;
-  let t = null;
-  DOM.sidebarSearch.addEventListener('input', e => { clearTimeout(t); t = setTimeout(() => doSearch(e.target.value), 300); });
+// 拖拽
+function makeDrag(el) {
+  let d=false,sx=0,sl=0,mv=false;
+  el.addEventListener('mousedown',e=>{d=true;mv=false;sx=e.pageX-el.offsetLeft;sl=el.scrollLeft;el.style.cursor='grabbing';el.style.userSelect='none';});
+  el.addEventListener('mouseleave',()=>{d=false;el.style.cursor='';el.style.userSelect='';});
+  el.addEventListener('mouseup',()=>{d=false;el.style.cursor='';el.style.userSelect='';});
+  el.addEventListener('mousemove',e=>{if(!d)return;e.preventDefault();const x=e.pageX-el.offsetLeft;if(Math.abs(x-sx)>3)mv=true;el.scrollLeft=sl-(x-sx);});
+  el.addEventListener('click',e=>{if(mv){e.stopPropagation();mv=false;}},true);
+}
+function initTabDrag() { makeDrag(DOM.categoryTabs); makeDrag(DOM.dateStrip); }
+
+// 滚动联动
+function initSpy() {
+  let ob=null, last='all';
+  function attach() {
+    if(ob) ob.disconnect();
+    if(state.currentCat!=='all') return;
+    const cards = Array.from(document.querySelectorAll('.md-section[data-cat-key]')).filter(e=>e.style.display!=='none');
+    if(!cards.length) return;
+    ob = new IntersectionObserver(entries=>{
+      const v = entries.filter(e=>e.isIntersecting).sort((a,b)=>a.boundingClientRect.top - b.boundingClientRect.top);
+      if(v.length) {
+        const k = v[0].target.dataset.catKey;
+        if(k&&k!==last){last=k;
+          DOM.categoryTabs.querySelectorAll('.cat-tab').forEach(t=>t.classList.toggle('active',t.dataset.cat===k));
+          const a=DOM.categoryTabs.querySelector(`.cat-tab[data-cat="${CSS.escape(k)}"]`);
+          if(a) a.scrollIntoView({inline:'center',behavior:'smooth',block:'nearest'});
+        }
+      }
+    },{rootMargin:'-160px 0px -40% 0px',threshold:0});
+    cards.forEach(c=>ob.observe(c));
+  }
+  state._attachSpyObserver = attach;
+}
+
+// 头部隐藏
+function initHideHeader() {
+  let ly=0, tk=false;
+  window.addEventListener('scroll',()=>{
+    if(tk) return; tk=true;
+    requestAnimationFrame(()=>{
+      const y=window.pageYOffset||document.documentElement.scrollTop||0;
+      const ab=(window.innerHeight+y)>=(document.documentElement.scrollHeight-5);
+      if(y<=0||ab) document.body.classList.remove('hide-topbar');
+      else if(y>ly&&y>10) document.body.classList.add('hide-topbar');
+      else if(y<ly) document.body.classList.remove('hide-topbar');
+      ly=y; tk=false;
+    });
+  },{passive:true});
 }
 
 document.addEventListener('DOMContentLoaded', init);
