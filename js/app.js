@@ -9,7 +9,7 @@
 /* ============================================================
    0. 🔄 部署版本检测（解决 Safari/iOS 不更新 SW 缓存的问题）
    ============================================================ */
-const APP_VERSION = 'v20260513-191841';
+const APP_VERSION = 'v20260513-214625';
 
 // 检测版本变更 → 清除旧缓存并强制刷新
 (function checkVersion() {
@@ -285,12 +285,13 @@ function renderFullMd(fullMd, sections, entry) {
   return result;
 }
 
-/** 预处理 Markdown：让 📌 标签独立成行，解决不换行的问题 */
+/** 预处理 Markdown：让 inline 表情符号/粗体标签独立成段 */
 function preprocessMd(md) {
-  // 在 📌 前插入换行，使其独立成段
-  md = md.replace(/([^📌\n]) 📌/g, '$1\n\n📌');
-  // 处理连续粗体标签（如 **核心内容：**(280字) ⟹ 换行分段）
-  md = md.replace(/(…|[。；;!?）\)])\s*\*\*/g, '$1\n\n**');
+  // 1. 所有 inline 表情符号（前面有非空格字符、且不是 markdown ** 标记）
+  //    → 前面插入段落换行。覆盖 📌🔥🤖🧠💡⭐📱🏠🌍📈⚠️等新闻标签
+  md = md.replace(/(?<=\S)(?<!\*)\s*(\p{Extended_Pictographic})/gu, '\n\n$1');
+  // 2. 句尾标点后连续粗体标签独立成段
+  md = md.replace(/([。；!?）\)])\s*\*\*/g, '$1\n\n**');
   return md;
 }
 
