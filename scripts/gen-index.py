@@ -11,9 +11,10 @@ import json
 import re
 from datetime import datetime, date
 
-NEWS_DIR = os.path.join(os.path.dirname(os.path.dirname(__file__)), "news")
-OUTPUT   = os.path.join(os.path.dirname(os.path.dirname(__file__)), "news-index.json")
-SW_FILE  = os.path.join(os.path.dirname(os.path.dirname(__file__)), "sw.js")
+NEWS_DIR   = os.path.join(os.path.dirname(os.path.dirname(__file__)), "news")
+OUTPUT     = os.path.join(os.path.dirname(os.path.dirname(__file__)), "news-index.json")
+SW_FILE    = os.path.join(os.path.dirname(os.path.dirname(__file__)), "sw.js")
+APP_FILE   = os.path.join(os.path.dirname(os.path.dirname(__file__)), "js", "app.js")
 
 WEEKDAYS = ["周一", "周二", "周三", "周四", "周五", "周六", "周日"]
 
@@ -96,6 +97,22 @@ def bump_sw_version():
         with open(SW_FILE, "w", encoding="utf-8") as f:
             f.write(updated)
         print(f"   SW 缓存版本已更新：{new_ver}")
+    return new_ver
+
+def bump_app_version(version):
+    """同步更新 app.js 中的 APP_VERSION，确保版本检测生效"""
+    if not os.path.exists(APP_FILE):
+        return
+    with open(APP_FILE, "r", encoding="utf-8") as f:
+        content = f.read()
+    updated = re.sub(
+        r"(const APP_VERSION\s*=\s*')[^']*(')",
+        lambda m: m.group(1) + version + m.group(2),
+        content
+    )
+    if updated != content:
+        with open(APP_FILE, "w", encoding="utf-8") as f:
+            f.write(updated)
 
 def main():
     index = build_index()
@@ -104,7 +121,8 @@ def main():
     total = sum(len(m["days"]) for m in index["months"])
     print(f"✅ news-index.json 已生成：{len(index['months'])} 个月份，共 {total} 期新闻")
     print(f"   输出路径：{OUTPUT}")
-    bump_sw_version()
+    ver = bump_sw_version()
+    bump_app_version(ver)
 
 if __name__ == "__main__":
     main()

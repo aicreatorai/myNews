@@ -9,7 +9,7 @@
 
 'use strict';
 
-const CACHE_VERSION  = 'v20260513-190913';
+const CACHE_VERSION  = 'v20260513-191228';
 const STATIC_CACHE   = 'news-static-' + CACHE_VERSION;
 const NEWS_CACHE     = 'news-content-' + CACHE_VERSION;
 const CDN_CACHE      = 'news-cdn-' + CACHE_VERSION;
@@ -18,13 +18,12 @@ const CDN_CACHE      = 'news-cdn-' + CACHE_VERSION;
 const MAX_CACHE_DAYS = 20;
 
 // 核心静态资源（安装时预缓存）
-// 注意：使用相对路径，适配 GitHub Pages 子目录部署（/myNews/）
+// 注意：news-index.json 不预缓存也不拦截，始终走网络确保实时性
 const STATIC_ASSETS = [
   './',
   './index.html',
   './css/main.css',
   './js/app.js',
-  './news-index.json',
 ];
 
 /* ============================================================
@@ -81,12 +80,6 @@ self.addEventListener('fetch', event => {
   // sw.js 自身 → 始终走网络，确保 SW 可以正常更新
   if (path.endsWith('/sw.js')) {
     return; // 不拦截，直接走网络
-  }
-
-  // news-index.json → Network First（实时性要求高）
-  if (path.endsWith('news-index.json')) {
-    event.respondWith(networkFirstWithCache(event.request, STATIC_CACHE));
-    return;
   }
 
   // 新闻 .md 文件 → Network First（内容不变，缓存有效）

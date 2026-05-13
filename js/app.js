@@ -7,6 +7,28 @@
 'use strict';
 
 /* ============================================================
+   0. 🔄 部署版本检测（解决 Safari/iOS 不更新 SW 缓存的问题）
+   ============================================================ */
+const APP_VERSION = 'v20260513-191216';
+
+// 检测版本变更 → 清除旧缓存并强制刷新
+(function checkVersion() {
+  const prev = localStorage.getItem('news-app-version');
+  if (prev && prev !== APP_VERSION) {
+    // 版本变了：清除所有 SW 缓存
+    if ('caches' in window) {
+      caches.keys().then(keys => Promise.all(keys.map(k => caches.delete(k))));
+    }
+    if ('serviceWorker' in navigator) {
+      navigator.serviceWorker.getRegistrations().then(regs => {
+        regs.forEach(r => r.unregister());
+      });
+    }
+  }
+  localStorage.setItem('news-app-version', APP_VERSION);
+})();
+
+/* ============================================================
    1. 🔧 CATEGORIES 配置（用于导航和搜索过滤）
    ============================================================ */
 const CATEGORIES = [
@@ -541,10 +563,6 @@ async function init() {
   initTheme(); initOffline();
   DOM.btnTheme?.addEventListener('click', toggleTheme);
   DOM.btnEnglish?.addEventListener('click', e => { e.preventDefault(); window.location.assign('englishStudy/index.html'); });
-
-  if ('serviceWorker' in navigator && navigator.serviceWorker.controller) {
-    navigator.serviceWorker.addEventListener('controllerchange', () => window.location.reload());
-  }
 
   DOM.navArchive?.addEventListener('click', openDrawer);
   DOM.navToday?.addEventListener('click', () => { closeDrawer(); closeSearch(); setNav('today'); });

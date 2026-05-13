@@ -152,30 +152,7 @@
 <!-- 注册 Service Worker（含自动更新） -->
 <script>
 if ('serviceWorker' in navigator) {
-  window.addEventListener('load', () => {
-    navigator.serviceWorker.register('./sw.js')
-      .then(reg => {
-        console.log('[SW] 注册成功，scope:', reg.scope);
-        // 主动检查更新
-        reg.update();
-        // 监听新版本安装
-        reg.addEventListener('updatefound', () => {
-          const newWorker = reg.installing;
-          newWorker.addEventListener('statechange', () => {
-            if (newWorker.state === 'installed' && navigator.serviceWorker.controller) {
-              console.log('[SW] 新版本已安装，即将刷新页面');
-              window.location.reload();
-            }
-          });
-        });
-      })
-      .catch(err => console.warn('[SW] 注册失败:', err));
-
-    // 监听新 SW 激活（跨标签更新）
-    navigator.serviceWorker.addEventListener('controllerchange', () => {
-      window.location.reload();
-    });
-  });
+  navigator.serviceWorker.register('./sw.js');
 }
 </script>
 </body>
