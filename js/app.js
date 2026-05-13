@@ -231,14 +231,18 @@ function renderFullMd(fullMd, sections, entry) {
   let allHtml = '';
 
   for (const sec of sections) {
+    // 跳过"今日要点速览"等摘要/统计章节
+    if (sec.header.includes('要点速览') || sec.header.includes('本期统计')
+     || sec.header.includes('执行日志') || sec.header.includes('本期概览')
+     || sec.header.includes('搜索执行')) continue;
+
     const cat = sec.cat || matchCat(sec.header);
     const catKey = cat ? cat.key : '';
     const catEmoji = cat ? cat.emoji : '';
     const catName = cat ? cat.name : '';
 
-    const isSummary = sec.header.includes('要点速览');
     const cardHtml = wrapItemsInCards(sec.md, catKey);
-    const sectionHtml = `<div class="md-section${isSummary ? ' summary-section' : ''}" data-cat-key="${catKey}">${cardHtml}</div>`;
+    const sectionHtml = `<div class="md-section" data-cat-key="${catKey}">${cardHtml}</div>`;
     allHtml += sectionHtml;
 
     if (cat) {
