@@ -143,7 +143,8 @@ def main(datestr):
         "label": f"{dt.month:02d}-{dt.day:02d} {weekday}",
         "type": "morning",
         "typeCN": "早间",
-        "file": f"news/{ym}/{datestr}_早间.md"
+        "file": f"news/{ym}/{datestr}_早间.md",
+        "dir": f"news/{ym}/{datestr}/"
     }
 
     found = False
