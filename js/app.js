@@ -428,9 +428,9 @@ async function selectDate(entry) {
   state.currentCat = 'all';
 
   DOM.newsList.innerHTML = '';
-  DOM.skeleton.style.display = '';
-  DOM.newsList.appendChild(DOM.skeleton);
-  DOM.todayHeadline.style.display = 'none';
+  if (DOM.skeleton) DOM.skeleton.style.display = '';
+  if (DOM.skeleton) DOM.newsList.appendChild(DOM.skeleton);
+  if (DOM.todayHeadline) DOM.todayHeadline.style.display = 'none';
 
   const parsed = await loadNews(entry);
   DOM.skeleton.remove();
@@ -444,8 +444,8 @@ async function selectDate(entry) {
   renderTabs(parsed);
   renderNews(parsed, entry);
 
-  if (parsed.headline) {
-    DOM.headlineText.textContent = parsed.headline;
+  if (parsed.headline && DOM.todayHeadline) {
+    if (DOM.headlineText) DOM.headlineText.textContent = parsed.headline;
     DOM.todayHeadline.style.display = 'flex';
   }
   refreshArchive();
