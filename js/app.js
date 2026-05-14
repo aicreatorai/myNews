@@ -628,21 +628,9 @@
     //  主题切换
     // ==========================================
     function initTheme() {
-        const saved = localStorage.getItem('theme');
-        if (saved === 'dark') {
-            document.documentElement.setAttribute('data-theme', 'dark');
-            themeToggle.textContent = '☀️';
-        } else if (saved === 'light') {
-            document.documentElement.removeAttribute('data-theme');
-            themeToggle.textContent = '🌙';
-        } else {
-            // 未保存时跟随系统
-            const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
-            if (prefersDark) {
-                document.documentElement.setAttribute('data-theme', 'dark');
-                themeToggle.textContent = '☀️';
-            }
-        }
+        // 主题已在 HTML head 中同步初始化，此处只同步按钮图标
+        const isDark = document.documentElement.getAttribute('data-theme') === 'dark';
+        themeToggle.textContent = isDark ? '☀️' : '🌙';
     }
 
     function toggleTheme() {
