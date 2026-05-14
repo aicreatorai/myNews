@@ -1,0 +1,128 @@
+#!/usr/bin/env python3
+"""扫描 news/ 目录，生成 news-index.json 供前端使用。"""
+
+import json
+import os
+import re
+from datetime import datetime
+
+NEWS_DIR = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "news")
+OUTPUT = os.path.join(os.path.dirname(NEWS_DIR), "news-index.json")
+
+CATEGORIES = {
+    "01": {"name": "今日头条",     "icon": "🔥"},
+    "02": {"name": "科技热点",     "icon": "🤖"},
+    "03": {"name": "AI与前沿科技", "icon": "🧠"},
+    "04": {"name": "软件开发",     "icon": "💻"},
+    "05": {"name": "开发语言",     "icon": "🔤"},
+    "06": {"name": "华为开发生态", "icon": "🔶"},
+    "07": {"name": "iOS开发生态",  "icon": "🍎"},
+    "08": {"name": "Android开发生态", "icon": "🤖"},
+    "09": {"name": "跨平台开发生态","icon": "🌐"},
+    "10": {"name": "移动端生态",   "icon": "📱"},
+    "11": {"name": "AI开发生态",   "icon": "🛠️"},
+    "12": {"name": "GitHub实用Skills", "icon": "⭐"},
+    "13": {"name": "AI知识点",     "icon": "🧩"},
+    "14": {"name": "产品发布",     "icon": "🚀"},
+    "15": {"name": "国内热点",     "icon": "🇨🇳"},
+    "16": {"name": "国际大事件",   "icon": "🌍"},
+    "17": {"name": "财经市场",     "icon": "💹"},
+}
+
+def parse_date_from_filename(filename):
+    """从文件名解析日期，返回 YYYY-MM-DD 或 None"""
+    m = re.match(r'(\d{4})(\d{2})(\d{2})', filename)
+    if m:
+        return f"{m.group(1)}-{m.group(2)}-{m.group(3)}"
+    return None
+
+def scan():
+    index = {"dates": [], "months": []}
+    months_set = set()
+
+    if not os.path.isdir(NEWS_DIR):
+        print(f"错误：找不到目录 {NEWS_DIR}")
+        return
+
+    for month_dir in sorted(os.listdir(NEWS_DIR)):
+        month_path = os.path.join(NEWS_DIR, month_dir)
+        if not os.path.isdir(month_path) or month_dir.startswith('.'):
+            continue
+
+        month_data = {"month": month_dir, "dates": []}
+
+        for entry in sorted(os.listdir(month_path)):
+            entry_path = os.path.join(month_path, entry)
+
+            # 子目录格式：20260513/
+            if os.path.isdir(entry_path):
+                date_str = parse_date_from_filename(entry)
+                if not date_str:
+                    continue
+
+                files = sorted(os.listdir(entry_path))
+                categories = []
+                for f in files:
+                    m = re.match(r'(\d{2})_(.+)\.md$', f)
+                    if m:
+                        cat_id = m.group(1)
+                        cat_info = CATEGORIES.get(cat_id, {"name": m.group(2), "icon": "📄"})
+                        categories.append({
+                            "id": cat_id,
+                            "file": f,
+                            "name": cat_info["name"],
+                            "icon": cat_info["icon"]
+                        })
+
+                day_entry = {
+                    "date": date_str,
+                    "format": "subdir",
+                    "has_multi": True,
+                    "categories": categories,
+                    "path": f"{month_dir}/{entry}"
+                }
+                month_data["dates"].append(day_entry)
+                months_set.add(month_dir)
+
+            # flat 文件格式：20260501_早间.md
+            elif entry.endswith('.md') and not entry.startswith('.'):
+                date_str = parse_date_from_filename(entry)
+                if not date_str:
+                    continue
+
+                is_weekly = '周报' in entry
+                day_entry = {
+                    "date": date_str,
+                    "format": "flat",
+                    "has_multi": False,
+                    "title": entry,
+                    "type": "周报" if is_weekly else "早间",
+                    "path": f"{month_dir}/{entry}"
+                }
+                month_data["dates"].append(day_entry)
+                months_set.add(month_dir)
+
+        if month_data["dates"]:
+            index["months"].append(month_data)
+            index["dates"].extend(month_data["dates"])
+
+    # 按日期降序排列
+    index["dates"].sort(key=lambda x: x["date"], reverse=True)
+    for m in index["months"]:
+        m["dates"].sort(key=lambda x: x["date"], reverse=True)
+
+    index["categories"] = [
+        {"id": k, "name": v["name"], "icon": v["icon"]}
+        for k, v in sorted(CATEGORIES.items())
+    ]
+
+    with open(OUTPUT, 'w', encoding='utf-8') as f:
+        json.dump(index, f, ensure_ascii=False, indent=2)
+
+    print(f"✅ 索引已生成：{OUTPUT}")
+    print(f"   - {len(index['dates'])} 天")
+    print(f"   - {len(index['months'])} 个月份")
+    print(f"   - {len(index['categories'])} 个分类")
+
+if __name__ == "__main__":
+    scan()

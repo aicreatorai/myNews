@@ -1,713 +1,574 @@
-/* ============================================================
-   早间新闻 — app.js (v5.0 现代界面版)
-   核心逻辑：直接加载 .md 文件，用 marked.js 渲染
-   ============================================================ */
+/* ============================================
+   早间新闻浏览器 - 主脚本
+   ============================================ */
 
-'use strict';
+(function () {
+    'use strict';
 
-/* ============================================================
-   0. 🔄 部署版本检测
-   ============================================================ */
-const APP_VERSION = 'v20260514-002';
+    // --- State ---
+    let indexData = null;
+    let currentDate = null;
+    let currentCategory = null;
 
-// 检测版本变更 → 清除旧缓存并强制刷新
-(function checkVersion() {
-  const prev = localStorage.getItem('news-app-version');
-  if (prev && prev !== APP_VERSION) {
-    // 版本变了：清除所有 SW 缓存
-    if ('caches' in window) {
-      caches.keys().then(keys => Promise.all(keys.map(k => caches.delete(k))));
-    }
-    if ('serviceWorker' in navigator) {
-      navigator.serviceWorker.getRegistrations().then(regs => {
-        regs.forEach(r => r.unregister());
-      });
-    }
-  }
-  localStorage.setItem('news-app-version', APP_VERSION);
-})();
+    // --- DOM refs ---
+    const $ = (s) => document.querySelector(s);
+    const $$ = (s) => document.querySelectorAll(s);
 
-/* ============================================================
-   1. 🔧 CATEGORIES 配置（用于导航和搜索过滤）
-   ============================================================ */
-const CATEGORIES = [
-  { key:'今日头条',   emoji:'🔥', name:'今日头条',     desc:'当日最重要、影响最广泛的头版资讯' },
-  { key:'科技热点',   emoji:'🤖', name:'科技热点',     desc:'互联网、消费科技与行业动态最新进展' },
-  { key:'AI与前沿科技',emoji:'🧠', name:'AI与前沿科技', desc:'大模型、AI产品与前沿技术突破' },
-  { key:'软件开发',   emoji:'💻', name:'软件开发',     desc:'架构设计、工程实践与开发效率工具' },
-  { key:'开发语言',   emoji:'🔤', name:'开发语言',     desc:'编程语言新版本、特性更新与社区动向' },
-  { key:'华为开发生态',emoji:'🔶', name:'华为开发生态', desc:'鸿蒙系统、DevEco Studio 与华为开发者资讯' },
-  { key:'iOS开发生态', emoji:'🍎', name:'iOS开发生态',  desc:'Swift、Xcode 及苹果平台开发者动态' },
-  { key:'Android开发生态',emoji:'🤖', name:'Android开发生态', desc:'Android SDK、Jetpack 与谷歌开发者资讯' },
-  { key:'跨平台开发生态',emoji:'🌐', name:'跨平台开发生态', desc:'Flutter、RN、Electron 等多端框架动态' },
-  { key:'移动端生态', emoji:'📲', name:'移动端生态',   desc:'移动应用市场、用户趋势与平台政策' },
-  { key:'AI开发生态', emoji:'🧩', name:'AI开发生态',   desc:'AI框架、开发工具链与智能应用落地资讯' },
-  { key:'GitHub实用Skills',emoji:'⭐', name:'GitHub实用Skills', desc:'精选优质开源项目与实用工具库' },
-  { key:'AI知识点',   emoji:'💡', name:'AI知识点',       desc:'当前最火热的AI核心概念、原理与实践技巧' },
-  { key:'产品发布',   emoji:'📱', name:'产品发布',     desc:'新品发布、版本更新与产品动态' },
-  { key:'国内热点',   emoji:'🏠', name:'国内热点',     desc:'国内科技、经济与社会热点事件' },
-  { key:'国际大事件', emoji:'🌍', name:'国际大事件',   desc:'全球政经格局、科技竞争与重大事件' },
-  { key:'财经市场',   emoji:'📈', name:'财经市场',     desc:'A股、港股、美股及宏观经济数据动态' },
-];
+    const sidebar = $('#sidebar');
+    const menuToggle = $('#menuToggle');
+    const sidebarClose = $('#sidebarClose');
+    const overlay = $('#overlay');
+    const dateList = $('#dateList');
+    const dateSearch = $('#dateSearch');
+    const welcome = $('#welcome');
+    const dateView = $('#dateView');
+    const dateTitle = $('#dateTitle');
+    const prevDay = $('#prevDay');
+    const nextDay = $('#nextDay');
+    const categoryTabs = $('#categoryTabs');
+    const newsContent = $('#newsContent');
+    const loading = $('#loading');
+    const todayBadge = $('#todayBadge');
+    const welcomeStats = $('#welcomeStats');
+    const themeToggle = $('#themeToggle');
 
-/* ============================================================
-   2. 📦 全局状态
-   ============================================================ */
-const state = {
-  index: null,         // news-index.json
-  currentDate: null,   // '20260513'
-  currentType: 'morning',
-  currentCat: 'all',
-  cache: {},           // { key: htmlString }
-  allNews: [],         // 全文搜索索引
-  isLoading: false,
-  isOffline: false,
-};
-
-/* ============================================================
-   3. 🏠 DOM 快捷引用
-   ============================================================ */
-const $ = id => document.getElementById(id);
-const DOM = {
-  header:$('appHeader'), dateStrip:$('dateStrip'), main:$('appMain'),
-  newsList:$('newsList'), skeleton:$('skeletonWrap'), categoryTabs:$('categoryTabs'),
-  todayHeadline:$('todayHeadline'), headlineText:$('headlineText'),
-  navArchive:$('navArchive'), navToday:$('navToday'), navSearch:$('navSearch'),
-  drawerOverlay:$('drawerOverlay'), archiveDrawer:$('archiveDrawer'),
-  drawerContent:$('drawerContent'), btnCloseDrawer:$('btnCloseDrawer'),
-  searchPanel:$('searchPanel'), searchInput:$('searchInput'),
-  searchResults:$('searchResults'), btnSearchBack:$('btnSearchBack'),
-  sidebarContent:$('sidebarContent'), sidebarSearch:$('sidebarSearchInput'),
-  btnTheme:$('btnTheme'), btnEnglish:$('btnEnglish'),
-};
-
-/* ============================================================
-   4. 🌗 主题
-   ============================================================ */
-function initTheme() {
-  const s = localStorage.getItem('news-theme');
-  const d = window.matchMedia('(prefers-color-scheme: dark)').matches;
-  apply(s || (d ? 'dark' : 'light'), false);
-}
-function apply(t, save) {
-  document.documentElement.setAttribute('data-theme', t);
-  const icon = DOM.btnTheme?.querySelector('.theme-icon');
-  if (icon) icon.textContent = t === 'dark' ? '☀️' : '🌙';
-  const meta = document.getElementById('meta-theme-color');
-  if (meta) meta.setAttribute('content', t === 'dark' ? '#161b22' : '#ffffff');
-  if (save !== false) localStorage.setItem('news-theme', t);
-}
-function toggleTheme() { apply(document.documentElement.getAttribute('data-theme') === 'dark' ? 'light' : 'dark'); }
-
-/* ============================================================
-   5. 📡 离线
-   ============================================================ */
-function initOffline() {
-  const b = document.getElementById('offlineBanner');
-  const fn = () => { state.isOffline = !navigator.onLine; if(b) b.style.display = state.isOffline ? 'flex' : 'none'; };
-  window.addEventListener('online', fn); window.addEventListener('offline', fn); fn();
-}
-
-/* ============================================================
-   6. 📥 加载索引
-   ============================================================ */
-async function loadIndex() {
-  try {
-    const r = await fetch('news-index.json?t='+Date.now());
-    if (!r.ok) throw Error('HTTP '+r.status);
-    state.index = await r.json();
-    return true;
-  } catch(e) { showError('无法加载新闻索引'); return false; }
-}
-
-/* ============================================================
-   7. 📄 核心：加载 markdown 并渲染
-   ============================================================ */
-
-/**
- * 加载指定日期的新闻 — 直接渲染 Markdown
- * 兼容三种情况：单文件、多文件目录、自动回退
- */
-async function loadNews(entry) {
-  const key = entry.date + '_' + entry.type;
-  if (state.cache[key]) return state.cache[key];
-
-  let fullMd, sections;
-
-  // 情况A：多文件目录 → 为每个板块加上 ## 标题并保留 cat 信息
-  if (entry.dir) {
-    const raw = await loadMultiFileMd(entry.dir);
-    if (raw) {
-      sections = raw.map(s => ({
-        header: `## ${s.cat.emoji} ${s.cat.name}`,
-        md: `## ${s.cat.emoji} ${s.cat.name}\n\n${s.md}`,
-        cat: s.cat,
-      }));
-      fullMd = sections.map(s => s.md).join('\n\n');
-    }
-  }
-  // 情况B：单文件
-  else if (entry.file) {
-    fullMd = await fetchMd(entry.file);
-    // 单文件自动分解为 sections
-    sections = splitSections(fullMd);
-  }
-
-  // 情况C：单文件失败时自动回退到目录
-  if (!fullMd && entry.file) {
-    const dir = guessDir(entry.file);
-    if (dir) {
-      sections = await loadMultiFileMd(dir);
-      if (sections) fullMd = sections.map(s => s.md).join('\n\n');
-    }
-  }
-
-  if (!fullMd) return null;
-
-  // 渲染为 HTML
-  const result = renderFullMd(fullMd, sections, entry);
-  state.cache[key] = result;
-  return result;
-}
-
-/** 获取单个 .md 文件内容 */
-async function fetchMd(path) {
-  try {
-    const r = await fetch(path + '?t=' + Date.now());
-    return r.ok ? await r.text() : null;
-  } catch { return null; }
-}
-
-/** 从单文件路径推测 dir 路径 */
-function guessDir(p) {
-  const m = p.match(/^(.*?)(\d{8})_/);
-  return m ? m[1] + m[2] + '/' : null;
-}
-
-/** 从目录加载多文件，合并为一个 markdown 字符串列表 */
-async function loadMultiFileMd(dir) {
-  const results = [];
-  const fetched = await Promise.allSettled(
-    CATEGORIES.map(async (cat, idx) => {
-      const num = String(idx+1).padStart(2,'0');
-      for (const name of [`${num}_${cat.name}.md`,`${num}_${cat.key}.md`]) {
+    // ==========================================
+    //  初始化
+    // ==========================================
+    document.addEventListener('DOMContentLoaded', async () => {
         try {
-          const r = await fetch(dir + encodeURIComponent(name) + '?t='+Date.now());
-          if (!r.ok) continue;
-          const md = await r.text();
-          return { cat, md, idx };
-        } catch { continue; }
-      }
-      return null;
-    })
-  );
-  for (const r of fetched) {
-    if (r.status === 'fulfilled' && r.value) results.push(r.value);
-  }
-  if (!results.length) return null;
-  results.sort((a,b) => a.idx - b.idx);
-  return results;
-}
-
-/**
- * 从 markdown 中提取 ## 章节
- */
-function splitSections(md) {
-  if (!md) return [];
-  const lines = md.split('\n');
-  const sections = [];
-  let cur = [], curHeader = '';
-
-  for (const line of lines) {
-    if (line.startsWith('## ')) {
-      if (cur.length) sections.push({ header: curHeader, md: cur.join('\n') });
-      cur = [line];
-      curHeader = line;
-    } else {
-      cur.push(line);
-    }
-  }
-  if (cur.length) sections.push({ header: curHeader, md: cur.join('\n') });
-  return sections;
-}
-
-/** 匹配分类 */
-function matchCat(text) {
-  // 先用全名
-  for (const c of CATEGORIES) if (text.includes(c.name)) return c;
-  for (const c of CATEGORIES) if (text.includes(c.key)) return c;
-  for (const c of CATEGORIES) if (text.includes(c.emoji)) return c;
-  return null;
-}
-
-/**
- * 将 markdown 渲染为 HTML 并分类
- * 返回: { html, categories, headline }
- */
-function renderFullMd(fullMd, sections, entry) {
-  const result = { html: '', categories: [], headline: '' };
-
-  if (!sections) sections = splitSections(fullMd);
-
-  let allHtml = '';
-
-  for (const sec of sections) {
-    // 跳过"今日要点速览"等摘要/统计章节
-    if (sec.header.includes('要点速览') || sec.header.includes('本期统计')
-     || sec.header.includes('执行日志') || sec.header.includes('本期概览')
-     || sec.header.includes('搜索执行')) continue;
-
-    const cat = sec.cat || matchCat(sec.header);
-    const catKey = cat ? cat.key : '';
-    const catEmoji = cat ? cat.emoji : '';
-    const catName = cat ? cat.name : '';
-
-    const cardHtml = wrapItemsInCards(sec.md, catKey);
-    const sectionHtml = `<div class="md-section" data-cat-key="${catKey}">${cardHtml}</div>`;
-    allHtml += sectionHtml;
-
-    if (cat) {
-      result.categories.push({ catKey, catEmoji, catName, count: countItems(sec.md) });
-    }
-  }
-
-  result.html = allHtml;
-
-  // 提取 headline
-  for (const line of fullMd.split('\n')) {
-    if (line.includes('🔥') && line.includes('今日头条') && line.includes('：')) {
-      result.headline = line.replace(/\*\*/g,'').replace(/^.*?[：:]/,'').trim().substring(0,120);
-      break;
-    }
-  }
-
-  return result;
-}
-
-/** 预处理 Markdown：让 inline 表情符号/粗体标签独立成段 */
-function preprocessMd(md) {
-  // 1. 所有 inline 表情符号（前面有非空格字符、且不是 markdown ** 标记）
-  //    → 前面插入段落换行。覆盖 📌🔥🤖🧠💡⭐📱🏠🌍📈⚠️等新闻标签
-  md = md.replace(/(?<=\S)(?<!\*)\s*(\p{Extended_Pictographic})/gu, '\n\n$1');
-  // 2. 句尾标点后连续粗体标签独立成段
-  md = md.replace(/([。；!?）\)])\s*\*\*/g, '$1\n\n**');
-  return md;
-}
-
-/** 将 ### 新闻条目包裹为卡片 */
-function wrapItemsInCards(md, catKey) {
-  if (!md || !md.trim()) return '';
-  
-  const lines = md.split('\n');
-  const parts = [];
-  let cur = [];
-
-  for (const line of lines) {
-    if (line.startsWith('### ')) {
-      if (cur.length) parts.push(cur.join('\n'));
-      cur = [line];
-    } else {
-      cur.push(line);
-    }
-  }
-  if (cur.length) parts.push(cur.join('\n'));
-
-  if (parts.length <= 1) {
-    // 没有 ### 项，直接渲染整个段
-    const parsed = marked.parse(preprocessMd(md));
-    return parsed && parsed.trim() ? parsed : '';
-  }
-
-  // 第一部分（### 之前的内容）直接渲染
-  let html = parts[0] ? marked.parse(preprocessMd(parts[0])) || '' : '';
-
-  // 剩余每个 ### 项包裹为卡片
-  let cardIndex = 0;
-  for (let i = 1; i < parts.length; i++) {
-    const itemMd = parts[i].trim();
-    if (!itemMd) continue;
-    
-    // 提取标题（### 后面部分）
-    const titleMatch = itemMd.match(/^###\s+(.+?)(?:\n|$)/);
-    if (!titleMatch) continue;
-    
-    const restMd = itemMd.substring(titleMatch[0].length);
-    
-    // 在 markdown 中按第一个 \n---\n 分割：导语 vs 补充内容
-    const hrMatch = restMd.match(/\n---\n/);
-    let cardBodyHtml = '';
-
-    if (hrMatch) {
-      const leadMd = restMd.substring(0, hrMatch.index);
-      const extraMd = restMd.substring(hrMatch.index + hrMatch[0].length);
-
-      cardBodyHtml = marked.parse(preprocessMd(leadMd)) || '';
-      if (extraMd.trim()) {
-        cardBodyHtml += `<div class="card-extra" style="display:none">${marked.parse(preprocessMd(extraMd)) || ''}</div>`;
-        cardBodyHtml += `<div class="card-toggle-btn">展开全文 ▼</div>`;
-      }
-    } else {
-      cardBodyHtml = marked.parse(preprocessMd(restMd)) || '';
-    }
-
-    // 只有有内容才创建卡片
-    if (!cardBodyHtml.trim() && !titleMatch[1].trim()) continue;
-    
-    // 为标题添加序号
-    cardIndex++;
-    const titleHtml = `<h3><span class="num-badge">${cardIndex}</span>${titleMatch[1]}</h3>`;
-    
-    html += `<div class="md-card" data-cat-key="${catKey}">${titleHtml}${cardBodyHtml}</div>`;
-  }
-
-  return html;
-}
-
-/** 统计 ### 条目数 */
-function countItems(md) {
-  return (md.match(/^### /gm) || []).length;
-}
-
-/* ============================================================
-   8. 🖼️ 渲染 UI
-   ============================================================ */
-
-// 日期条
-function renderDateStrip() {
-  if (!state.index) return;
-  DOM.dateStrip.innerHTML = '';
-  const days = [];
-  for (const m of state.index.months) {
-    for (const d of m.days) {
-      if (!days.find(x => x.date===d.date && x.type===d.type)) days.push(d);
-    }
-  }
-  days.slice(0,14).reverse().forEach(d => {
-    const b = document.createElement('button');
-    b.className = 'date-btn' + (d.type==='weekly'?' has-weekly':'');
-    if (d.date===state.currentDate && d.type===state.currentType) b.classList.add('active');
-    b.textContent = parseInt(d.date.substring(4,6))+'/'+parseInt(d.date.substring(6,8));
-    b.dataset.date = d.date; b.dataset.type = d.type;
-    b.addEventListener('click', () => selectDate(d));
-    DOM.dateStrip.appendChild(b);
-  });
-  setTimeout(() => {
-    const a = DOM.dateStrip.querySelector('.date-btn.active');
-    if (a) a.scrollIntoView({inline:'center',behavior:'smooth'});
-  }, 100);
-}
-
-// 侧边栏 & 抽屉
-function buildArchive(container, cls, onSelect) {
-  if (!state.index) return;
-  container.innerHTML = '';
-  state.index.months.forEach((month, mi) => {
-    const el = document.createElement('div');
-    el.className = cls + '-month' + (mi===0?' open':'');
-    const hdr = document.createElement('div');
-    hdr.className = cls + '-month-header';
-    hdr.innerHTML = `<span class="${cls}-month-title">${month.label}</span><span class="${cls}-month-arrow">▼</span>`;
-    hdr.addEventListener('click', () => el.classList.toggle('open'));
-    const days = document.createElement('div');
-    days.className = cls + '-days';
-    month.days.forEach(d => {
-      const item = document.createElement('div');
-      item.className = cls + '-day-item';
-      if (d.date===state.currentDate && d.type===state.currentType) item.classList.add('active');
-      item.innerHTML = `<span>${d.label}</span><span class="${cls}-day-type">${d.typeCN||d.type}</span>`;
-      item.addEventListener('click', () => onSelect(d));
-      days.appendChild(item);
-    });
-    el.appendChild(hdr); el.appendChild(days); container.appendChild(el);
-  });
-}
-function renderSidebar() { buildArchive(DOM.sidebarContent,'sidebar', d => selectDate(d)); }
-function renderDrawer() { buildArchive(DOM.drawerContent,'drawer', d => { selectDate(d); closeDrawer(); }); }
-
-// 分类 Tab
-function renderTabs(parsed) {
-  DOM.categoryTabs.innerHTML = '';
-  const add = (key, emoji, label, active) => {
-    const b = document.createElement('button');
-    b.className = 'cat-tab' + (key===state.currentCat?' active':'');
-    b.dataset.cat = key;
-    b.innerHTML = `<span class="tab-emoji">${emoji}</span>${label}`;
-    b.addEventListener('click', () => filterCat(key));
-    DOM.categoryTabs.appendChild(b);
-  };
-  add('all', '📰', '全部', state.currentCat==='all');
-
-  const cats = parsed?.categories || [];
-  const used = {};
-  cats.forEach(c => { used[c.catKey] = true; });
-
-  // 有内容才显示 Tab
-  CATEGORIES.forEach(c => {
-    if (!used[c.key] && cats.length) return;
-    add(c.key, c.emoji, c.name.substring(0,6), state.currentCat===c.key);
-  });
-}
-
-// 过滤分类
-function filterCat(key) {
-  state.currentCat = key;
-  DOM.categoryTabs.querySelectorAll('.cat-tab').forEach(t => t.classList.toggle('active', t.dataset.cat===key));
-  if (key !== 'all') window.scrollTo({top:0,behavior:'smooth'});
-  // 显示/隐藏章节
-  document.querySelectorAll('.md-section').forEach(el => {
-    el.style.display = (key==='all' || el.dataset.catKey===key) ? '' : 'none';
-  });
-  document.querySelectorAll('.md-card').forEach(el => {
-    el.style.display = (key==='all' || el.dataset.catKey===key) ? '' : 'none';
-  });
-}
-
-/** 为新闻卡片添加折叠/展开功能 */
-function initCardToggles() {
-  document.querySelectorAll('.md-card .card-toggle-btn').forEach(btn => {
-    if (btn.dataset.toggleReady) return;
-    btn.dataset.toggleReady = 'true';
-
-    btn.addEventListener('click', function(e) {
-      e.stopPropagation();
-      const extra = this.previousElementSibling;
-      if (!extra || !extra.classList.contains('card-extra')) return;
-
-      const isExpanded = this.textContent.includes('收起');
-      extra.style.display = isExpanded ? 'none' : 'block';
-      this.textContent = isExpanded ? '展开全文 ▼' : '收起内容 ▲';
-    });
-  });
-}
-
-// 渲染新闻主体
-function renderNews(parsed, entry) {
-  DOM.newsList.innerHTML = '';
-  if (!parsed || !parsed.html || !parsed.html.trim()) {
-    DOM.newsList.innerHTML = `<div class="empty-state"><div class="empty-state-icon">📭</div><div class="empty-state-text">暂无内容</div></div>`;
-    return;
-  }
-  
-  const d = parseDate(entry.date);
-  const hdr = document.createElement('div');
-  hdr.className = 'date-page-header';
-  hdr.innerHTML = `<div class="date-page-title">${d.year}年${d.month}月${d.day}日 ${d.weekday}</div>
-    <div class="date-page-meta">${entry.typeCN||'早间'}新闻简报</div>`;
-  DOM.newsList.appendChild(hdr);
-
-  // 插入渲染好的 Markdown HTML
-  const wrapper = document.createElement('div');
-  wrapper.className = 'md-render';
-  wrapper.innerHTML = parsed.html;
-  DOM.newsList.appendChild(wrapper);
-
-  // 过滤并初始化
-  filterCat(state.currentCat);
-  initCardToggles();
-}
-
-/* ============================================================
-   9. 🎯 选择日期
-   ============================================================ */
-async function selectDate(entry) {
-  if (state.isLoading) return;
-  state.isLoading = true;
-  state.currentDate = entry.date;
-  state.currentType = entry.type;
-
-  DOM.dateStrip.querySelectorAll('.date-btn').forEach(b => {
-    b.classList.toggle('active', b.dataset.date===entry.date && b.dataset.type===entry.type);
-  });
-  state.currentCat = 'all';
-
-  DOM.newsList.innerHTML = '';
-  if (DOM.skeleton) DOM.skeleton.style.display = '';
-  if (DOM.skeleton) DOM.newsList.appendChild(DOM.skeleton);
-  if (DOM.todayHeadline) DOM.todayHeadline.style.display = 'none';
-
-  const parsed = await loadNews(entry);
-  DOM.skeleton.remove();
-  state.isLoading = false;
-
-  if (!parsed) {
-    DOM.newsList.innerHTML = `<div class="empty-state"><div class="empty-state-icon">⚠️</div><div class="empty-state-text">加载失败</div></div>`;
-    return;
-  }
-
-  renderTabs(parsed);
-  renderNews(parsed, entry);
-
-  if (parsed.headline && DOM.todayHeadline) {
-    if (DOM.headlineText) DOM.headlineText.textContent = parsed.headline;
-    DOM.todayHeadline.style.display = 'flex';
-  }
-  refreshArchive();
-  window.scrollTo({top:0,behavior:'smooth'});
-}
-
-/* ============================================================
-   10. 🔍 搜索
-   ============================================================ */
-function openSearch() { DOM.searchPanel.classList.add('open'); document.body.style.overflow='hidden'; setTimeout(()=>DOM.searchInput.focus(),300); setNav('search'); }
-function closeSearch() { DOM.searchPanel.classList.remove('open'); document.body.style.overflow=''; setNav('today'); DOM.searchInput.value=''; DOM.searchResults.innerHTML='<div class="search-placeholder">输入关键词开始搜索</div>'; }
-
-let st = null;
-function handleSearch(q) { clearTimeout(st); if(!q.trim()){ DOM.searchResults.innerHTML='<div class="search-placeholder">输入关键词开始搜索</div>'; return; } st=setTimeout(()=>doSearch(q.trim()),300); }
-
-async function doSearch(q) {
-  DOM.searchResults.innerHTML = '<div class="loading-text">搜索中...</div>';
-  if (!state.allNews.length) await buildSearchIdx();
-  const kw = q.toLowerCase();
-  const res = state.allNews.filter(i => i.text.toLowerCase().includes(kw));
-  if (!res.length) { DOM.searchResults.innerHTML=`<div class="search-no-result">没有找到"${esc(q)}"相关新闻</div>`; return; }
-  DOM.searchResults.innerHTML = '';
-  res.slice(0,50).forEach(i => {
-    const el = document.createElement('div');
-    el.className = 'search-result-item';
-    el.innerHTML = `<div class="search-result-title">${highlight(esc(i.text.substring(0,80)),esc(q))}</div>`;
-    el.addEventListener('click', async () => { closeSearch(); const de = findDay(i.date); if(de) await selectDate(de); });
-    DOM.searchResults.appendChild(el);
-  });
-}
-
-async function buildSearchIdx() {
-  if (!state.index) return;
-  for (const m of state.index.months) {
-    for (const d of m.days) {
-      const key = d.date+'_'+d.type;
-      let parsed = state.cache[key];
-      if (!parsed) parsed = await loadNews(d);
-      if (!parsed || !parsed.html) continue;
-      // 提取纯文本
-      const tmp = document.createElement('div');
-      tmp.innerHTML = parsed.html;
-      state.allNews.push({ date: d.date, text: tmp.textContent || '' });
-    }
-  }
-}
-function findDay(d) { for(const m of state.index?.months||[]){for(const day of m.days){if(day.date===d) return day;}}return null; }
-
-/* ============================================================
-   11. 🧰 工具函数
-   ============================================================ */
-function parseDate(d) {
-  const y=d.substring(0,4),m=parseInt(d.substring(4,6)),day=parseInt(d.substring(6,8));
-  const dt=new Date(parseInt(y),m-1,day);
-  return {year:y,month:m,day,weekday:['周日','周一','周二','周三','周四','周五','周六'][dt.getDay()]};
-}
-function esc(s) { return s ? String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;') : ''; }
-function highlight(t,k) { if(!k||!t) return t||''; return t.replace(new RegExp(k.replace(/[.*+?^${}()|[\]\\]/g,'\\$&'),'gi'), m=>`<span class="search-highlight">${m}</span>`); }
-function showError(m) { DOM.newsList.innerHTML=`<div class="empty-state"><div class="empty-state-icon">😢</div><div class="empty-state-text">${esc(m)}</div></div>`; }
-function setNav(t) { [DOM.navArchive,DOM.navToday,DOM.navSearch].forEach(e=>e.classList.remove('active')); if(t==='archive') DOM.navArchive.classList.add('active'); else if(t==='search') DOM.navSearch.classList.add('active'); else DOM.navToday.classList.add('active'); }
-function refreshArchive() { renderSidebar(); renderDrawer(); }
-function openDrawer() { renderDrawer(); DOM.drawerOverlay.classList.add('open'); DOM.archiveDrawer.classList.add('open'); document.body.style.overflow='hidden'; setNav('archive'); }
-function closeDrawer() { DOM.drawerOverlay.classList.remove('open'); DOM.archiveDrawer.classList.remove('open'); document.body.style.overflow=''; setNav('today'); }
-function getLatest() { return state.index?.months?.[0]?.days?.[0] || null; }
-
-// SW 预缓存
-function schedulePrecache() {
-  if (!('serviceWorker' in navigator) || !state.index) return;
-  let retry=0;
-  function run() {
-    navigator.serviceWorker.ready.then(reg => {
-      if(!reg||!reg.active){ if(retry++<5){setTimeout(run,1000*retry);return;} return; }
-      const paths = [];
-      for(const m of state.index.months) for(const d of m.days) {
-        if(d.file) paths.push(d.file);
-        else if(d.dir) CATEGORIES.forEach((_,i)=>paths.push(d.dir+String(i+1).padStart(2,'0')+'_'+CATEGORIES[i].name+'.md'));
-      }
-      reg.active.postMessage({type:'PRECACHE_NEWS',files:paths.slice(0,20)});
-    });
-  }
-  setTimeout(run,500);
-}
-
-/* ============================================================
-   12. 🚀 启动
-   ============================================================ */
-async function init() {
-  initTheme(); initOffline();
-  DOM.btnTheme?.addEventListener('click', toggleTheme);
-  DOM.btnEnglish?.addEventListener('click', e => { e.preventDefault(); window.location.assign('englishStudy/index.html'); });
-
-  DOM.navArchive?.addEventListener('click', openDrawer);
-  DOM.navToday?.addEventListener('click', () => { closeDrawer(); closeSearch(); setNav('today'); });
-  DOM.navSearch?.addEventListener('click', openSearch);
-  DOM.btnCloseDrawer?.addEventListener('click', closeDrawer);
-  DOM.drawerOverlay?.addEventListener('click', closeDrawer);
-
-  let ty=0;
-  DOM.archiveDrawer?.addEventListener('touchstart', e=>{ty=e.touches[0].clientY;}, {passive:true});
-  DOM.archiveDrawer?.addEventListener('touchend', e=>{if(e.changedTouches[0].clientY-ty>80) closeDrawer();}, {passive:true});
-
-  DOM.btnSearchBack?.addEventListener('click', closeSearch);
-  DOM.searchInput?.addEventListener('input', e => handleSearch(e.target.value));
-  DOM.searchInput?.addEventListener('keydown', e => { if(e.key==='Escape') closeSearch(); });
-
-  const ok = await loadIndex();
-  if (!ok) return;
-  schedulePrecache();
-  renderDateStrip();
-  renderSidebar();
-  renderTabs(null);
-  initSpy();
-  initTabDrag();
-  initHideHeader();
-
-  const latest = getLatest();
-  if (latest) await selectDate(latest);
-  else showError('暂无新闻数据');
-}
-
-// 拖拽
-function makeDrag(el) {
-  let d=false,sx=0,sl=0,mv=false;
-  el.addEventListener('mousedown',e=>{d=true;mv=false;sx=e.pageX-el.offsetLeft;sl=el.scrollLeft;el.style.cursor='grabbing';el.style.userSelect='none';});
-  el.addEventListener('mouseleave',()=>{d=false;el.style.cursor='';el.style.userSelect='';});
-  el.addEventListener('mouseup',()=>{d=false;el.style.cursor='';el.style.userSelect='';});
-  el.addEventListener('mousemove',e=>{if(!d)return;e.preventDefault();const x=e.pageX-el.offsetLeft;if(Math.abs(x-sx)>3)mv=true;el.scrollLeft=sl-(x-sx);});
-  el.addEventListener('click',e=>{if(mv){e.stopPropagation();mv=false;}},true);
-}
-function initTabDrag() { makeDrag(DOM.categoryTabs); makeDrag(DOM.dateStrip); }
-
-// 滚动联动
-function initSpy() {
-  let ob=null, last='all';
-  function attach() {
-    if(ob) ob.disconnect();
-    if(state.currentCat!=='all') return;
-    const cards = Array.from(document.querySelectorAll('.md-section[data-cat-key]')).filter(e=>e.style.display!=='none');
-    if(!cards.length) return;
-    ob = new IntersectionObserver(entries=>{
-      const v = entries.filter(e=>e.isIntersecting).sort((a,b)=>a.boundingClientRect.top - b.boundingClientRect.top);
-      if(v.length) {
-        const k = v[0].target.dataset.catKey;
-        if(k&&k!==last){last=k;
-          DOM.categoryTabs.querySelectorAll('.cat-tab').forEach(t=>t.classList.toggle('active',t.dataset.cat===k));
-          const a=DOM.categoryTabs.querySelector(`.cat-tab[data-cat="${CSS.escape(k)}"]`);
-          if(a) a.scrollIntoView({inline:'center',behavior:'smooth',block:'nearest'});
+            const resp = await fetch('news-index.json');
+            if (!resp.ok) throw new Error('HTTP ' + resp.status);
+            indexData = await resp.json();
+        } catch (e) {
+            newsContent.innerHTML = `
+                <div class="error-msg">
+                    <h3>⚠️ 数据加载失败</h3>
+                    <p>无法加载 news-index.json，请确认文件存在且服务已启动。</p>
+                    <p style="font-size:0.82rem;color:#999;margin-top:8px;">${e.message}</p>
+                </div>`;
+            return;
         }
-      }
-    },{rootMargin:'-160px 0px -40% 0px',threshold:0});
-    cards.forEach(c=>ob.observe(c));
-  }
-  state._attachSpyObserver = attach;
-}
 
-// 头部隐藏
-function initHideHeader() {
-  let ly=0, tk=false;
-  window.addEventListener('scroll',()=>{
-    if(tk) return; tk=true;
-    requestAnimationFrame(()=>{
-      const y=window.pageYOffset||document.documentElement.scrollTop||0;
-      const ab=(window.innerHeight+y)>=(document.documentElement.scrollHeight-5);
-      if(y<=0||ab) document.body.classList.remove('hide-topbar');
-      else if(y>ly&&y>10) document.body.classList.add('hide-topbar');
-      else if(y<ly) document.body.classList.remove('hide-topbar');
-      ly=y; tk=false;
+        renderDateList();
+        renderWelcomeStats();
+
+        // 默认选中最新日期
+        if (indexData.dates.length > 0) {
+            selectDate(indexData.dates[0].date);
+        }
+
+        // 今日 badge
+        const today = new Date();
+        const todayStr = today.toISOString().slice(0, 10);
+        const found = indexData.dates.find(d => d.date === todayStr);
+        todayBadge.textContent = found ? '📌 今日有更新' : '';
+
+        // 初始化主题
+        initTheme();
+
+        setupEventListeners();
     });
-  },{passive:true});
-}
 
-document.addEventListener('DOMContentLoaded', init);
+    // ==========================================
+    //  渲染日期列表
+    // ==========================================
+    function renderDateList(filter) {
+        if (!indexData || !indexData.months) return;
+
+        let html = '';
+        // 月份倒序（最新的在上面）
+        for (let i = indexData.months.length - 1; i >= 0; i--) {
+            const month = indexData.months[i];
+            let dates = month.dates;
+            if (filter) {
+                dates = dates.filter(d => d.date.includes(filter));
+            }
+            if (dates.length === 0) continue;
+
+            const monthLabel = month.month.slice(0, 4) + '年' + month.month.slice(4) + '月';
+            // 最新月份默认展开，其余折叠
+            const isFirst = (i === indexData.months.length - 1);
+            html += `<div class="month-group ${isFirst ? '' : 'collapsed'}">
+                <div class="month-label" role="button" tabindex="0">${isFirst ? '▼' : '▶'} ${monthLabel}</div>
+                <div class="month-dates">`;
+
+            for (const day of dates) {
+                const active = currentDate === day.date ? 'active' : '';
+                const typeStr = day.has_multi ? '📂' : (day.type === '周报' ? '📊' : '📄');
+                const countStr = day.has_multi
+                    ? `<span class="date-count">${day.categories.length}篇</span>`
+                    : `<span class="date-count">${day.type || '早间'}</span>`;
+
+                html += `<div class="date-item ${active}" data-date="${day.date}">
+                    <span class="date-text">${typeStr} ${day.date}</span>
+                    ${countStr}
+                </div>`;
+            }
+            html += '</div>'; // month-dates
+            html += '</div>'; // month-group
+        }
+        dateList.innerHTML = html || '<div style="padding:20px;text-align:center;color:#666;">无匹配日期</div>';
+    }
+
+    // ==========================================
+    //  渲染欢迎页统计
+    // ==========================================
+    function renderWelcomeStats() {
+        if (!indexData) return;
+        const totalDays = indexData.dates.length;
+        const subdirCount = indexData.dates.filter(d => d.has_multi).length;
+        const flatCount = totalDays - subdirCount;
+        welcomeStats.innerHTML = `
+            <div class="stat">
+                <span class="stat-num">${totalDays}</span>
+                <span class="stat-label">总天数</span>
+            </div>
+            <div class="stat">
+                <span class="stat-num">${subdirCount}</span>
+                <span class="stat-label">多板块格式</span>
+            </div>
+            <div class="stat">
+                <span class="stat-num">${flatCount}</span>
+                <span class="stat-label">单文件格式</span>
+            </div>
+        `;
+    }
+
+    // ==========================================
+    //  选择日期
+    // ==========================================
+    async function selectDate(dateStr) {
+        const day = indexData.dates.find(d => d.date === dateStr);
+        if (!day) return;
+
+        currentDate = dateStr;
+        currentCategory = null;
+
+        // 更新侧边栏高亮
+        $$('.date-item').forEach(el => el.classList.remove('active'));
+        const activeEl = document.querySelector(`.date-item[data-date="${dateStr}"]`);
+        if (activeEl) activeEl.classList.add('active');
+
+        // 切换视图
+        welcome.style.display = 'none';
+        dateView.style.display = 'block';
+
+        dateTitle.textContent = `${dateStr} 早间新闻`;
+
+        // 更新前后按钮状态
+        const idx = indexData.dates.findIndex(d => d.date === dateStr);
+        prevDay.disabled = idx >= indexData.dates.length - 1;
+        nextDay.disabled = idx <= 0;
+
+        prevDay.dataset.target = indexData.dates[idx + 1]?.date || '';
+        nextDay.dataset.target = indexData.dates[idx - 1]?.date || '';
+
+        if (day.has_multi) {
+            // 子目录格式：加载所有板块为卡片
+            categoryTabs.style.display = 'none';
+            await loadAllCategories(dateStr, day.categories, day.path);
+        } else {
+            // flat 格式
+            categoryTabs.style.display = 'none';
+            await loadNews(dateStr, null, day.path);
+        }
+
+        // 移动端关闭侧边栏
+        closeSidebar();
+    }
+
+    // ==========================================
+    //  渲染分类标签
+    // ==========================================
+    function renderCategoryTabs(categories) {
+        let html = '';
+        for (const cat of categories) {
+            const active = currentCategory === cat.id ? 'active' : '';
+            html += `<button class="category-tab ${active}" data-cat-id="${cat.id}" data-file="${cat.file}">
+                ${cat.icon} <span class="cat-name">${cat.name}</span>
+            </button>`;
+        }
+        categoryTabs.innerHTML = html;
+    }
+
+    function setActiveCategory(catId) {
+        $$('.category-tab').forEach(el => el.classList.remove('active'));
+        const tab = document.querySelector(`.category-tab[data-cat-id="${catId}"]`);
+        if (tab) tab.classList.add('active');
+    }
+
+    // ==========================================
+    //  加载新闻内容
+    // ==========================================
+    async function loadNews(dateStr, file, path) {
+        loading.style.display = 'flex';
+        newsContent.innerHTML = '';
+
+        try {
+            let url;
+            if (file) {
+                // 子目录格式：news/202605/20260514/01_今日头条.md
+                url = `news/${path}/${file}`;
+            } else {
+                // flat 格式：news/202605/20260501_早间.md
+                url = `news/${path}`;
+            }
+
+            const resp = await fetch(url);
+            if (!resp.ok) throw new Error(`HTTP ${resp.status}: ${url}`);
+            const markdown = await resp.text();
+
+            const html = renderMarkdown(markdown);
+            loading.style.display = 'none';
+            // flat 文件也包裹为卡片
+            newsContent.innerHTML = `
+                <div class="news-card">
+                    <div class="card-header">
+                        <span class="card-title">📄 ${path.split('/').pop()}</span>
+                        <button class="card-toggle" aria-label="收起/展开" title="收起/展开">−</button>
+                    </div>
+                    <div class="card-body"></div>
+                </div>`;
+            const cardBody = newsContent.querySelector('.card-body');
+            cardBody.innerHTML = html;
+            addNewsToggle(cardBody);
+            newsContent.scrollTop = 0;
+
+        } catch (e) {
+            loading.style.display = 'none';
+            newsContent.innerHTML = `
+                <div class="error-msg">
+                    <h3>⚠️ 加载失败</h3>
+                    <p>无法加载新闻内容。</p>
+                    <p style="font-size:0.82rem;color:#999;margin-top:8px;">${e.message}</p>
+                </div>`;
+        }
+    }
+
+    // ==========================================
+    //  加载所有分类为卡片
+    // ==========================================
+    async function loadAllCategories(dateStr, categories, basePath) {
+        newsContent.innerHTML = '';
+
+        for (const cat of categories) {
+            const cardId = `card-${cat.id}`;
+            const cardHtml = `
+                <div class="news-card" id="${cardId}">
+                    <div class="card-header">
+                        <span class="card-title">${cat.icon} ${cat.name}</span>
+                        <button class="card-toggle" aria-label="收起/展开" title="收起/展开">−</button>
+                    </div>
+                    <div class="card-body">
+                        <div class="loading" style="display:flex;">
+                            <div class="spinner"></div>
+                            <p>加载中...</p>
+                        </div>
+                    </div>
+                </div>`;
+            newsContent.insertAdjacentHTML('beforeend', cardHtml);
+
+            // 异步加载内容
+            loadCardContent(cat, basePath, cardId);
+        }
+    }
+
+    async function loadCardContent(cat, basePath, cardId) {
+        try {
+            const url = `news/${basePath}/${cat.file}`;
+            const resp = await fetch(url);
+            if (!resp.ok) throw new Error(`HTTP ${resp.status}`);
+            const markdown = await resp.text();
+            const html = renderMarkdown(markdown);
+
+            const card = document.getElementById(cardId);
+            if (card) {
+                const body = card.querySelector('.card-body');
+                body.innerHTML = html;
+                // 给每条新闻添加折叠
+                addNewsToggle(body);
+            }
+        } catch (e) {
+            const card = document.getElementById(cardId);
+            if (card) {
+                const body = card.querySelector('.card-body');
+                body.innerHTML = `<div class="error-msg"><p>⚠️ ${cat.name} 加载失败</p></div>`;
+            }
+        }
+    }
+
+    // ==========================================
+    //  给每条新闻添加折叠按钮
+    // ==========================================
+    function addNewsToggle(container) {
+        const h3s = container.querySelectorAll('h3');
+        if (h3s.length === 0) return;
+
+        h3s.forEach((h3, idx) => {
+            // 创建包裹层
+            const wrap = document.createElement('div');
+            wrap.className = 'news-item-wrap';
+
+            // 创建 header（标题行 + 按钮）
+            const header = document.createElement('div');
+            header.className = 'news-item-hdr';
+
+            // 折叠按钮
+            const btn = document.createElement('span');
+            btn.className = 'news-item-btn';
+            btn.textContent = '−';
+            btn.setAttribute('role', 'button');
+            btn.setAttribute('tabindex', '0');
+            header.appendChild(btn);
+
+            // 创建 body
+            const itemBody = document.createElement('div');
+            itemBody.className = 'news-item-bd';
+
+            // 在 h3 之前插入 wrap，然后把 header + h3 + 后续兄弟移到 wrap
+            h3.parentNode.insertBefore(wrap, h3);
+            wrap.appendChild(header);
+
+            // 先找到 h3 的下一个兄弟（在原始DOM中），再移动 h3
+            let sib = h3.nextSibling;
+            header.appendChild(h3);  // 把 h3 移进 header（此时 sib 仍是原始的下一个兄弟）
+
+            // 将 h3 之后、下一个 h3 之前的所有兄弟移到 itemBody
+            while (sib) {
+                const next = sib.nextSibling;
+                if (sib.nodeType === 1 && sib.tagName === 'H3') break;
+                itemBody.appendChild(sib);
+                sib = next;
+            }
+            wrap.appendChild(itemBody);
+
+            // 默认折叠
+            itemBody.style.display = 'none';
+            btn.textContent = '+';
+            wrap.classList.add('collapsed');
+
+            // 点击切换
+            const toggle = () => {
+                const collapsed = itemBody.style.display === 'none';
+                itemBody.style.display = collapsed ? 'block' : 'none';
+                btn.textContent = collapsed ? '−' : '+';
+                wrap.classList.toggle('collapsed', !collapsed);
+            };
+            header.addEventListener('click', (e) => {
+                if (e.target.closest('.news-item-btn')) return;
+                toggle();
+            });
+            btn.addEventListener('click', (e) => {
+                e.stopPropagation();
+                toggle();
+            });
+        });
+    }
+
+    // ==========================================
+    //  简易 Markdown → HTML 渲染器
+    // ==========================================
+    function renderMarkdown(md) {
+        let html = md;
+
+        // 转义 HTML 标签（避免冲突）
+        html = html.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+
+        // 代码块 (```)
+        html = html.replace(/```(\w*)\n([\s\S]*?)```/g, (_, lang, code) => {
+            return `<pre><code>${code.trim()}</code></pre>`;
+        });
+
+        // 行内代码 (`code`)
+        html = html.replace(/`([^`]+)`/g, '<code>$1</code>');
+
+        // 水平分割线
+        html = html.replace(/^---+\s*$/gm, '<hr>');
+
+        // 引用块 (> ...)
+        html = html.replace(/^&gt;\s*(.*)$/gm, (_, content) => {
+            return `<blockquote><p>${content}</p></blockquote>`;
+        });
+
+        // 加粗 (**text**)
+        html = html.replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>');
+
+        // 斜体 (*text* 或 _text_)
+        html = html.replace(/\*(.+?)\*/g, '<em>$1</em>');
+        html = html.replace(/_(.+?)_/g, '<em>$1</em>');
+
+        // 标题 (### 或 ## 或 #)
+        html = html.replace(/^#####\s+(.*)$/gm, '<h5>$1</h5>');
+        html = html.replace(/^####\s+(.*)$/gm, '<h4>$1</h4>');
+        html = html.replace(/^###\s+(.*)$/gm, '<h3>$1</h3>');
+        html = html.replace(/^##\s+(.*)$/gm, '<h2>$1</h2>');
+        html = html.replace(/^#\s+(.*)$/gm, '<h1>$1</h1>');
+
+        // 无序列表 (- item 或 * item)
+        html = html.replace(/^[\-\*]\s+(.*)$/gm, '<li>$1</li>');
+        html = html.replace(/(<li>.*<\/li>(\s*<li>.*<\/li>)*)/g, '<ul>$1</ul>');
+
+        // 有序列表 (1. item)
+        html = html.replace(/^\d+\.\s+(.*)$/gm, '<li>$1</li>');
+
+        // 表格 (简单处理)
+        html = html.replace(/\|(.+)\|/g, (match) => {
+            if (match.includes('---')) return '';
+            const cells = match.split('|').filter(c => c.trim());
+            return '<tr><td>' + cells.join('</td><td>') + '</td></tr>';
+        });
+
+        // 段落 (双换行)
+        html = html.replace(/\n\n/g, '</p><p>');
+        html = '<p>' + html + '</p>';
+
+        // 清理嵌套标签
+        html = html.replace(/<p>\s*<(ul|ol|li|h[1-5]|hr|pre|blockquote|table|tr)/g, '<$1');
+        html = html.replace(/<\/(ul|ol|li|h[1-5]|hr|pre|blockquote|table|tr)>\s*<\/p>/g, '</$1>');
+        html = html.replace(/<p>\s*<\/p>/g, '');
+        html = html.replace(/<li><\/li>/g, '');
+
+        // 空段落清理
+        html = html.replace(/<p>\s*<br\s*\/?>\s*<\/p>/g, '');
+        html = html.replace(/<p><\/p>/g, '');
+
+        return html;
+    }
+
+    // ==========================================
+    //  侧边栏控制
+    // ==========================================
+    function openSidebar() {
+        sidebar.classList.add('open');
+        overlay.classList.add('show');
+    }
+
+    function closeSidebar() {
+        sidebar.classList.remove('open');
+        overlay.classList.remove('show');
+    }
+
+    // ==========================================
+    //  主题切换
+    // ==========================================
+    function initTheme() {
+        const saved = localStorage.getItem('theme');
+        if (saved === 'dark') {
+            document.documentElement.setAttribute('data-theme', 'dark');
+            themeToggle.textContent = '☀️';
+        } else if (saved === 'light') {
+            document.documentElement.removeAttribute('data-theme');
+            themeToggle.textContent = '🌙';
+        } else {
+            // 未保存时跟随系统
+            const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+            if (prefersDark) {
+                document.documentElement.setAttribute('data-theme', 'dark');
+                themeToggle.textContent = '☀️';
+            }
+        }
+    }
+
+    function toggleTheme() {
+        const isDark = document.documentElement.getAttribute('data-theme') === 'dark';
+        if (isDark) {
+            document.documentElement.removeAttribute('data-theme');
+            localStorage.setItem('theme', 'light');
+            themeToggle.textContent = '🌙';
+        } else {
+            document.documentElement.setAttribute('data-theme', 'dark');
+            localStorage.setItem('theme', 'dark');
+            themeToggle.textContent = '☀️';
+        }
+    }
+
+    // ==========================================
+    //  事件绑定
+    // ==========================================
+    function setupEventListeners() {
+        // 主题切换
+        themeToggle.addEventListener('click', toggleTheme);
+
+        // 菜单切换
+        menuToggle.addEventListener('click', openSidebar);
+        sidebarClose.addEventListener('click', closeSidebar);
+        overlay.addEventListener('click', closeSidebar);
+
+        // 月份折叠/展开（委托）
+        dateList.addEventListener('click', (e) => {
+            const label = e.target.closest('.month-label');
+            if (label) {
+                const group = label.closest('.month-group');
+                const wasCollapsed = group.classList.toggle('collapsed');
+                // 仅替换第一个字符（箭头），保留月份文字
+                const txt = label.textContent;
+                label.textContent = (wasCollapsed ? '▶' : '▼') + txt.substring(1);
+                return;
+            }
+            const item = e.target.closest('.date-item');
+            if (item && item.dataset.date) {
+                selectDate(item.dataset.date);
+            }
+        });
+
+        // 日期搜索过滤
+        dateSearch.addEventListener('input', (e) => {
+            renderDateList(e.target.value.trim());
+        });
+
+        // 卡片收起/展开（委托）
+        newsContent.addEventListener('click', (e) => {
+            const header = e.target.closest('.card-header');
+            if (!header) return;
+            // 点击卡片头部的任意位置切换，按钮区域也是卡片头部的一部分
+            const card = header.closest('.news-card');
+            if (!card) return;
+            const body = card.querySelector('.card-body');
+            const btn = card.querySelector('.card-toggle');
+            const isCollapsed = body.style.display === 'none';
+            body.style.display = isCollapsed ? 'block' : 'none';
+            btn.textContent = isCollapsed ? '−' : '+';
+            card.classList.toggle('collapsed', !isCollapsed);
+        });
+
+        // 分类标签点击（委托）
+        categoryTabs.addEventListener('click', async (e) => {
+            const tab = e.target.closest('.category-tab');
+            if (!tab || !currentDate) return;
+
+            const catId = tab.dataset.catId;
+            const file = tab.dataset.file;
+            if (!file) return;
+
+            const day = indexData.dates.find(d => d.date === currentDate);
+            if (!day) return;
+
+            currentCategory = catId;
+            setActiveCategory(catId);
+            await loadNews(currentDate, file, day.path);
+        });
+
+        // 前一天/后一天
+        prevDay.addEventListener('click', () => {
+            if (prevDay.dataset.target) selectDate(prevDay.dataset.target);
+        });
+        nextDay.addEventListener('click', () => {
+            if (nextDay.dataset.target) selectDate(nextDay.dataset.target);
+        });
+
+        // 键盘快捷键
+        document.addEventListener('keydown', (e) => {
+            if (e.key === 'Escape') closeSidebar();
+        });
+
+        // 窗口 resize：大屏自动关闭遮罩
+        window.addEventListener('resize', () => {
+            if (window.innerWidth >= 768) {
+                sidebar.classList.remove('open');
+                overlay.classList.remove('show');
+            }
+        });
+    }
+
+})();

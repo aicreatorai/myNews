@@ -1,213 +1,991 @@
 {
-  "updated": "2026-05-14T08:45:16",
+  "dates": [
+    {
+      "date": "2026-05-14",
+      "format": "subdir",
+      "has_multi": true,
+      "categories": [
+        {
+          "id": "01",
+          "file": "01_今日头条.md",
+          "name": "今日头条",
+          "icon": "🔥"
+        },
+        {
+          "id": "02",
+          "file": "02_科技热点.md",
+          "name": "科技热点",
+          "icon": "🤖"
+        },
+        {
+          "id": "03",
+          "file": "03_AI与前沿科技.md",
+          "name": "AI与前沿科技",
+          "icon": "🧠"
+        },
+        {
+          "id": "04",
+          "file": "04_软件开发.md",
+          "name": "软件开发",
+          "icon": "💻"
+        },
+        {
+          "id": "05",
+          "file": "05_开发语言.md",
+          "name": "开发语言",
+          "icon": "🔤"
+        },
+        {
+          "id": "06",
+          "file": "06_华为开发生态.md",
+          "name": "华为开发生态",
+          "icon": "🔶"
+        },
+        {
+          "id": "07",
+          "file": "07_iOS开发生态.md",
+          "name": "iOS开发生态",
+          "icon": "🍎"
+        },
+        {
+          "id": "08",
+          "file": "08_Android开发生态.md",
+          "name": "Android开发生态",
+          "icon": "🤖"
+        },
+        {
+          "id": "09",
+          "file": "09_跨平台开发生态.md",
+          "name": "跨平台开发生态",
+          "icon": "🌐"
+        },
+        {
+          "id": "10",
+          "file": "10_移动端生态.md",
+          "name": "移动端生态",
+          "icon": "📱"
+        },
+        {
+          "id": "11",
+          "file": "11_AI开发生态.md",
+          "name": "AI开发生态",
+          "icon": "🛠️"
+        },
+        {
+          "id": "12",
+          "file": "12_GitHub实用Skills.md",
+          "name": "GitHub实用Skills",
+          "icon": "⭐"
+        },
+        {
+          "id": "13",
+          "file": "13_AI知识点.md",
+          "name": "AI知识点",
+          "icon": "🧩"
+        },
+        {
+          "id": "14",
+          "file": "14_产品发布.md",
+          "name": "产品发布",
+          "icon": "🚀"
+        },
+        {
+          "id": "15",
+          "file": "15_国内热点.md",
+          "name": "国内热点",
+          "icon": "🇨🇳"
+        },
+        {
+          "id": "16",
+          "file": "16_国际大事件.md",
+          "name": "国际大事件",
+          "icon": "🌍"
+        },
+        {
+          "id": "17",
+          "file": "17_财经市场.md",
+          "name": "财经市场",
+          "icon": "💹"
+        }
+      ],
+      "path": "202605/20260514"
+    },
+    {
+      "date": "2026-05-13",
+      "format": "subdir",
+      "has_multi": true,
+      "categories": [
+        {
+          "id": "01",
+          "file": "01_今日头条.md",
+          "name": "今日头条",
+          "icon": "🔥"
+        },
+        {
+          "id": "02",
+          "file": "02_科技热点.md",
+          "name": "科技热点",
+          "icon": "🤖"
+        },
+        {
+          "id": "03",
+          "file": "03_AI与前沿科技.md",
+          "name": "AI与前沿科技",
+          "icon": "🧠"
+        },
+        {
+          "id": "04",
+          "file": "04_软件开发.md",
+          "name": "软件开发",
+          "icon": "💻"
+        },
+        {
+          "id": "05",
+          "file": "05_开发语言.md",
+          "name": "开发语言",
+          "icon": "🔤"
+        },
+        {
+          "id": "06",
+          "file": "06_华为开发生态.md",
+          "name": "华为开发生态",
+          "icon": "🔶"
+        },
+        {
+          "id": "07",
+          "file": "07_iOS开发生态.md",
+          "name": "iOS开发生态",
+          "icon": "🍎"
+        },
+        {
+          "id": "08",
+          "file": "08_Android开发生态.md",
+          "name": "Android开发生态",
+          "icon": "🤖"
+        },
+        {
+          "id": "09",
+          "file": "09_跨平台开发生态.md",
+          "name": "跨平台开发生态",
+          "icon": "🌐"
+        },
+        {
+          "id": "10",
+          "file": "10_移动端生态.md",
+          "name": "移动端生态",
+          "icon": "📱"
+        },
+        {
+          "id": "11",
+          "file": "11_AI开发生态.md",
+          "name": "AI开发生态",
+          "icon": "🛠️"
+        },
+        {
+          "id": "12",
+          "file": "12_GitHub实用Skills.md",
+          "name": "GitHub实用Skills",
+          "icon": "⭐"
+        },
+        {
+          "id": "13",
+          "file": "13_AI知识点.md",
+          "name": "AI知识点",
+          "icon": "🧩"
+        },
+        {
+          "id": "14",
+          "file": "14_产品发布.md",
+          "name": "产品发布",
+          "icon": "🚀"
+        },
+        {
+          "id": "15",
+          "file": "15_国内热点.md",
+          "name": "国内热点",
+          "icon": "🇨🇳"
+        },
+        {
+          "id": "16",
+          "file": "16_国际大事件.md",
+          "name": "国际大事件",
+          "icon": "🌍"
+        },
+        {
+          "id": "17",
+          "file": "17_财经市场.md",
+          "name": "财经市场",
+          "icon": "💹"
+        }
+      ],
+      "path": "202605/20260513"
+    },
+    {
+      "date": "2026-05-13",
+      "format": "flat",
+      "has_multi": false,
+      "title": "20260513_早间.md",
+      "type": "早间",
+      "path": "202605/20260513_早间.md"
+    },
+    {
+      "date": "2026-05-12",
+      "format": "flat",
+      "has_multi": false,
+      "title": "20260512_早间.md",
+      "type": "早间",
+      "path": "202605/20260512_早间.md"
+    },
+    {
+      "date": "2026-05-11",
+      "format": "flat",
+      "has_multi": false,
+      "title": "20260511_周报.md",
+      "type": "周报",
+      "path": "202605/20260511_周报.md"
+    },
+    {
+      "date": "2026-05-11",
+      "format": "flat",
+      "has_multi": false,
+      "title": "20260511_早间.md",
+      "type": "早间",
+      "path": "202605/20260511_早间.md"
+    },
+    {
+      "date": "2026-05-09",
+      "format": "flat",
+      "has_multi": false,
+      "title": "20260509_早间.md",
+      "type": "早间",
+      "path": "202605/20260509_早间.md"
+    },
+    {
+      "date": "2026-05-08",
+      "format": "flat",
+      "has_multi": false,
+      "title": "20260508_早间.md",
+      "type": "早间",
+      "path": "202605/20260508_早间.md"
+    },
+    {
+      "date": "2026-05-07",
+      "format": "flat",
+      "has_multi": false,
+      "title": "20260507_早间.md",
+      "type": "早间",
+      "path": "202605/20260507_早间.md"
+    },
+    {
+      "date": "2026-05-06",
+      "format": "flat",
+      "has_multi": false,
+      "title": "20260506_早间.md",
+      "type": "早间",
+      "path": "202605/20260506_早间.md"
+    },
+    {
+      "date": "2026-05-05",
+      "format": "flat",
+      "has_multi": false,
+      "title": "20260505_早间.md",
+      "type": "早间",
+      "path": "202605/20260505_早间.md"
+    },
+    {
+      "date": "2026-05-04",
+      "format": "flat",
+      "has_multi": false,
+      "title": "20260504_早间.md",
+      "type": "早间",
+      "path": "202605/20260504_早间.md"
+    },
+    {
+      "date": "2026-05-03",
+      "format": "flat",
+      "has_multi": false,
+      "title": "20260503_周报.md",
+      "type": "周报",
+      "path": "202605/20260503_周报.md"
+    },
+    {
+      "date": "2026-05-03",
+      "format": "flat",
+      "has_multi": false,
+      "title": "20260503_早间.md",
+      "type": "早间",
+      "path": "202605/20260503_早间.md"
+    },
+    {
+      "date": "2026-05-02",
+      "format": "flat",
+      "has_multi": false,
+      "title": "20260502_早间.md",
+      "type": "早间",
+      "path": "202605/20260502_早间.md"
+    },
+    {
+      "date": "2026-05-01",
+      "format": "flat",
+      "has_multi": false,
+      "title": "20260501_早间.md",
+      "type": "早间",
+      "path": "202605/20260501_早间.md"
+    },
+    {
+      "date": "2026-04-30",
+      "format": "flat",
+      "has_multi": false,
+      "title": "20260430_早间.md",
+      "type": "早间",
+      "path": "202604/20260430_早间.md"
+    },
+    {
+      "date": "2026-04-29",
+      "format": "flat",
+      "has_multi": false,
+      "title": "20260429_早间.md",
+      "type": "早间",
+      "path": "202604/20260429_早间.md"
+    },
+    {
+      "date": "2026-04-28",
+      "format": "flat",
+      "has_multi": false,
+      "title": "20260428_早间.md",
+      "type": "早间",
+      "path": "202604/20260428_早间.md"
+    },
+    {
+      "date": "2026-04-27",
+      "format": "flat",
+      "has_multi": false,
+      "title": "20260427_早间.md",
+      "type": "早间",
+      "path": "202604/20260427_早间.md"
+    },
+    {
+      "date": "2026-04-26",
+      "format": "flat",
+      "has_multi": false,
+      "title": "20260426_周报.md",
+      "type": "周报",
+      "path": "202604/20260426_周报.md"
+    },
+    {
+      "date": "2026-04-26",
+      "format": "flat",
+      "has_multi": false,
+      "title": "20260426_早间.md",
+      "type": "早间",
+      "path": "202604/20260426_早间.md"
+    },
+    {
+      "date": "2026-04-25",
+      "format": "flat",
+      "has_multi": false,
+      "title": "20260425_早间.md",
+      "type": "早间",
+      "path": "202604/20260425_早间.md"
+    },
+    {
+      "date": "2026-04-24",
+      "format": "flat",
+      "has_multi": false,
+      "title": "20260424_早间.md",
+      "type": "早间",
+      "path": "202604/20260424_早间.md"
+    },
+    {
+      "date": "2026-04-23",
+      "format": "flat",
+      "has_multi": false,
+      "title": "20260423_早间.md",
+      "type": "早间",
+      "path": "202604/20260423_早间.md"
+    },
+    {
+      "date": "2026-04-22",
+      "format": "flat",
+      "has_multi": false,
+      "title": "20260422_早间.md",
+      "type": "早间",
+      "path": "202604/20260422_早间.md"
+    },
+    {
+      "date": "2026-04-21",
+      "format": "flat",
+      "has_multi": false,
+      "title": "20260421_早间.md",
+      "type": "早间",
+      "path": "202604/20260421_早间.md"
+    },
+    {
+      "date": "2026-04-20",
+      "format": "flat",
+      "has_multi": false,
+      "title": "20260420_早间.md",
+      "type": "早间",
+      "path": "202604/20260420_早间.md"
+    },
+    {
+      "date": "2026-04-19",
+      "format": "flat",
+      "has_multi": false,
+      "title": "20260419_早间.md",
+      "type": "早间",
+      "path": "202604/20260419_早间.md"
+    },
+    {
+      "date": "2026-04-18",
+      "format": "flat",
+      "has_multi": false,
+      "title": "20260418_早间.md",
+      "type": "早间",
+      "path": "202604/20260418_早间.md"
+    }
+  ],
   "months": [
     {
-      "id": "202605",
-      "label": "2026年05月",
-      "days": [
+      "month": "202604",
+      "dates": [
         {
-          "date": "20260513",
-          "label": "05-13 周三",
-          "type": "morning",
-          "typeCN": "早间",
-          "file": "news/202605/20260513_早间.md"
+          "date": "2026-04-30",
+          "format": "flat",
+          "has_multi": false,
+          "title": "20260430_早间.md",
+          "type": "早间",
+          "path": "202604/20260430_早间.md"
         },
         {
-          "date": "20260512",
-          "label": "05-12 周二",
-          "type": "morning",
-          "typeCN": "早间",
-          "file": "news/202605/20260512_早间.md"
+          "date": "2026-04-29",
+          "format": "flat",
+          "has_multi": false,
+          "title": "20260429_早间.md",
+          "type": "早间",
+          "path": "202604/20260429_早间.md"
         },
         {
-          "date": "20260511",
-          "label": "05-11 周一",
-          "type": "morning",
-          "typeCN": "早间",
-          "file": "news/202605/20260511_早间.md"
+          "date": "2026-04-28",
+          "format": "flat",
+          "has_multi": false,
+          "title": "20260428_早间.md",
+          "type": "早间",
+          "path": "202604/20260428_早间.md"
         },
         {
-          "date": "20260511",
-          "label": "05-11 周一",
-          "type": "weekly",
-          "typeCN": "周报",
-          "file": "news/202605/20260511_周报.md"
+          "date": "2026-04-27",
+          "format": "flat",
+          "has_multi": false,
+          "title": "20260427_早间.md",
+          "type": "早间",
+          "path": "202604/20260427_早间.md"
         },
         {
-          "date": "20260509",
-          "label": "05-09 周六",
-          "type": "morning",
-          "typeCN": "早间",
-          "file": "news/202605/20260509_早间.md"
+          "date": "2026-04-26",
+          "format": "flat",
+          "has_multi": false,
+          "title": "20260426_周报.md",
+          "type": "周报",
+          "path": "202604/20260426_周报.md"
         },
         {
-          "date": "20260508",
-          "label": "05-08 周五",
-          "type": "morning",
-          "typeCN": "早间",
-          "file": "news/202605/20260508_早间.md"
+          "date": "2026-04-26",
+          "format": "flat",
+          "has_multi": false,
+          "title": "20260426_早间.md",
+          "type": "早间",
+          "path": "202604/20260426_早间.md"
         },
         {
-          "date": "20260507",
-          "label": "05-07 周四",
-          "type": "morning",
-          "typeCN": "早间",
-          "file": "news/202605/20260507_早间.md"
+          "date": "2026-04-25",
+          "format": "flat",
+          "has_multi": false,
+          "title": "20260425_早间.md",
+          "type": "早间",
+          "path": "202604/20260425_早间.md"
         },
         {
-          "date": "20260506",
-          "label": "05-06 周三",
-          "type": "morning",
-          "typeCN": "早间",
-          "file": "news/202605/20260506_早间.md"
+          "date": "2026-04-24",
+          "format": "flat",
+          "has_multi": false,
+          "title": "20260424_早间.md",
+          "type": "早间",
+          "path": "202604/20260424_早间.md"
         },
         {
-          "date": "20260505",
-          "label": "05-05 周二",
-          "type": "morning",
-          "typeCN": "早间",
-          "file": "news/202605/20260505_早间.md"
+          "date": "2026-04-23",
+          "format": "flat",
+          "has_multi": false,
+          "title": "20260423_早间.md",
+          "type": "早间",
+          "path": "202604/20260423_早间.md"
         },
         {
-          "date": "20260504",
-          "label": "05-04 周一",
-          "type": "morning",
-          "typeCN": "早间",
-          "file": "news/202605/20260504_早间.md"
+          "date": "2026-04-22",
+          "format": "flat",
+          "has_multi": false,
+          "title": "20260422_早间.md",
+          "type": "早间",
+          "path": "202604/20260422_早间.md"
         },
         {
-          "date": "20260503",
-          "label": "05-03 周日",
-          "type": "morning",
-          "typeCN": "早间",
-          "file": "news/202605/20260503_早间.md"
+          "date": "2026-04-21",
+          "format": "flat",
+          "has_multi": false,
+          "title": "20260421_早间.md",
+          "type": "早间",
+          "path": "202604/20260421_早间.md"
         },
         {
-          "date": "20260503",
-          "label": "05-03 周日",
-          "type": "weekly",
-          "typeCN": "周报",
-          "file": "news/202605/20260503_周报.md"
+          "date": "2026-04-20",
+          "format": "flat",
+          "has_multi": false,
+          "title": "20260420_早间.md",
+          "type": "早间",
+          "path": "202604/20260420_早间.md"
         },
         {
-          "date": "20260502",
-          "label": "05-02 周六",
-          "type": "morning",
-          "typeCN": "早间",
-          "file": "news/202605/20260502_早间.md"
+          "date": "2026-04-19",
+          "format": "flat",
+          "has_multi": false,
+          "title": "20260419_早间.md",
+          "type": "早间",
+          "path": "202604/20260419_早间.md"
         },
         {
-          "date": "20260501",
-          "label": "05-01 周五",
-          "type": "morning",
-          "typeCN": "早间",
-          "file": "news/202605/20260501_早间.md"
+          "date": "2026-04-18",
+          "format": "flat",
+          "has_multi": false,
+          "title": "20260418_早间.md",
+          "type": "早间",
+          "path": "202604/20260418_早间.md"
         }
       ]
     },
     {
-      "id": "202604",
-      "label": "2026年04月",
-      "days": [
+      "month": "202605",
+      "dates": [
         {
-          "date": "20260430",
-          "label": "04-30 周四",
-          "type": "morning",
-          "typeCN": "早间",
-          "file": "news/202604/20260430_早间.md"
+          "date": "2026-05-14",
+          "format": "subdir",
+          "has_multi": true,
+          "categories": [
+            {
+              "id": "01",
+              "file": "01_今日头条.md",
+              "name": "今日头条",
+              "icon": "🔥"
+            },
+            {
+              "id": "02",
+              "file": "02_科技热点.md",
+              "name": "科技热点",
+              "icon": "🤖"
+            },
+            {
+              "id": "03",
+              "file": "03_AI与前沿科技.md",
+              "name": "AI与前沿科技",
+              "icon": "🧠"
+            },
+            {
+              "id": "04",
+              "file": "04_软件开发.md",
+              "name": "软件开发",
+              "icon": "💻"
+            },
+            {
+              "id": "05",
+              "file": "05_开发语言.md",
+              "name": "开发语言",
+              "icon": "🔤"
+            },
+            {
+              "id": "06",
+              "file": "06_华为开发生态.md",
+              "name": "华为开发生态",
+              "icon": "🔶"
+            },
+            {
+              "id": "07",
+              "file": "07_iOS开发生态.md",
+              "name": "iOS开发生态",
+              "icon": "🍎"
+            },
+            {
+              "id": "08",
+              "file": "08_Android开发生态.md",
+              "name": "Android开发生态",
+              "icon": "🤖"
+            },
+            {
+              "id": "09",
+              "file": "09_跨平台开发生态.md",
+              "name": "跨平台开发生态",
+              "icon": "🌐"
+            },
+            {
+              "id": "10",
+              "file": "10_移动端生态.md",
+              "name": "移动端生态",
+              "icon": "📱"
+            },
+            {
+              "id": "11",
+              "file": "11_AI开发生态.md",
+              "name": "AI开发生态",
+              "icon": "🛠️"
+            },
+            {
+              "id": "12",
+              "file": "12_GitHub实用Skills.md",
+              "name": "GitHub实用Skills",
+              "icon": "⭐"
+            },
+            {
+              "id": "13",
+              "file": "13_AI知识点.md",
+              "name": "AI知识点",
+              "icon": "🧩"
+            },
+            {
+              "id": "14",
+              "file": "14_产品发布.md",
+              "name": "产品发布",
+              "icon": "🚀"
+            },
+            {
+              "id": "15",
+              "file": "15_国内热点.md",
+              "name": "国内热点",
+              "icon": "🇨🇳"
+            },
+            {
+              "id": "16",
+              "file": "16_国际大事件.md",
+              "name": "国际大事件",
+              "icon": "🌍"
+            },
+            {
+              "id": "17",
+              "file": "17_财经市场.md",
+              "name": "财经市场",
+              "icon": "💹"
+            }
+          ],
+          "path": "202605/20260514"
         },
         {
-          "date": "20260429",
-          "label": "04-29 周三",
-          "type": "morning",
-          "typeCN": "早间",
-          "file": "news/202604/20260429_早间.md"
+          "date": "2026-05-13",
+          "format": "subdir",
+          "has_multi": true,
+          "categories": [
+            {
+              "id": "01",
+              "file": "01_今日头条.md",
+              "name": "今日头条",
+              "icon": "🔥"
+            },
+            {
+              "id": "02",
+              "file": "02_科技热点.md",
+              "name": "科技热点",
+              "icon": "🤖"
+            },
+            {
+              "id": "03",
+              "file": "03_AI与前沿科技.md",
+              "name": "AI与前沿科技",
+              "icon": "🧠"
+            },
+            {
+              "id": "04",
+              "file": "04_软件开发.md",
+              "name": "软件开发",
+              "icon": "💻"
+            },
+            {
+              "id": "05",
+              "file": "05_开发语言.md",
+              "name": "开发语言",
+              "icon": "🔤"
+            },
+            {
+              "id": "06",
+              "file": "06_华为开发生态.md",
+              "name": "华为开发生态",
+              "icon": "🔶"
+            },
+            {
+              "id": "07",
+              "file": "07_iOS开发生态.md",
+              "name": "iOS开发生态",
+              "icon": "🍎"
+            },
+            {
+              "id": "08",
+              "file": "08_Android开发生态.md",
+              "name": "Android开发生态",
+              "icon": "🤖"
+            },
+            {
+              "id": "09",
+              "file": "09_跨平台开发生态.md",
+              "name": "跨平台开发生态",
+              "icon": "🌐"
+            },
+            {
+              "id": "10",
+              "file": "10_移动端生态.md",
+              "name": "移动端生态",
+              "icon": "📱"
+            },
+            {
+              "id": "11",
+              "file": "11_AI开发生态.md",
+              "name": "AI开发生态",
+              "icon": "🛠️"
+            },
+            {
+              "id": "12",
+              "file": "12_GitHub实用Skills.md",
+              "name": "GitHub实用Skills",
+              "icon": "⭐"
+            },
+            {
+              "id": "13",
+              "file": "13_AI知识点.md",
+              "name": "AI知识点",
+              "icon": "🧩"
+            },
+            {
+              "id": "14",
+              "file": "14_产品发布.md",
+              "name": "产品发布",
+              "icon": "🚀"
+            },
+            {
+              "id": "15",
+              "file": "15_国内热点.md",
+              "name": "国内热点",
+              "icon": "🇨🇳"
+            },
+            {
+              "id": "16",
+              "file": "16_国际大事件.md",
+              "name": "国际大事件",
+              "icon": "🌍"
+            },
+            {
+              "id": "17",
+              "file": "17_财经市场.md",
+              "name": "财经市场",
+              "icon": "💹"
+            }
+          ],
+          "path": "202605/20260513"
         },
         {
-          "date": "20260428",
-          "label": "04-28 周二",
-          "type": "morning",
-          "typeCN": "早间",
-          "file": "news/202604/20260428_早间.md"
+          "date": "2026-05-13",
+          "format": "flat",
+          "has_multi": false,
+          "title": "20260513_早间.md",
+          "type": "早间",
+          "path": "202605/20260513_早间.md"
         },
         {
-          "date": "20260427",
-          "label": "04-27 周一",
-          "type": "morning",
-          "typeCN": "早间",
-          "file": "news/202604/20260427_早间.md"
+          "date": "2026-05-12",
+          "format": "flat",
+          "has_multi": false,
+          "title": "20260512_早间.md",
+          "type": "早间",
+          "path": "202605/20260512_早间.md"
         },
         {
-          "date": "20260426",
-          "label": "04-26 周日",
-          "type": "morning",
-          "typeCN": "早间",
-          "file": "news/202604/20260426_早间.md"
+          "date": "2026-05-11",
+          "format": "flat",
+          "has_multi": false,
+          "title": "20260511_周报.md",
+          "type": "周报",
+          "path": "202605/20260511_周报.md"
         },
         {
-          "date": "20260426",
-          "label": "04-26 周日",
-          "type": "weekly",
-          "typeCN": "周报",
-          "file": "news/202604/20260426_周报.md"
+          "date": "2026-05-11",
+          "format": "flat",
+          "has_multi": false,
+          "title": "20260511_早间.md",
+          "type": "早间",
+          "path": "202605/20260511_早间.md"
         },
         {
-          "date": "20260425",
-          "label": "04-25 周六",
-          "type": "morning",
-          "typeCN": "早间",
-          "file": "news/202604/20260425_早间.md"
+          "date": "2026-05-09",
+          "format": "flat",
+          "has_multi": false,
+          "title": "20260509_早间.md",
+          "type": "早间",
+          "path": "202605/20260509_早间.md"
         },
         {
-          "date": "20260424",
-          "label": "04-24 周五",
-          "type": "morning",
-          "typeCN": "早间",
-          "file": "news/202604/20260424_早间.md"
+          "date": "2026-05-08",
+          "format": "flat",
+          "has_multi": false,
+          "title": "20260508_早间.md",
+          "type": "早间",
+          "path": "202605/20260508_早间.md"
         },
         {
-          "date": "20260423",
-          "label": "04-23 周四",
-          "type": "morning",
-          "typeCN": "早间",
-          "file": "news/202604/20260423_早间.md"
+          "date": "2026-05-07",
+          "format": "flat",
+          "has_multi": false,
+          "title": "20260507_早间.md",
+          "type": "早间",
+          "path": "202605/20260507_早间.md"
         },
         {
-          "date": "20260422",
-          "label": "04-22 周三",
-          "type": "morning",
-          "typeCN": "早间",
-          "file": "news/202604/20260422_早间.md"
+          "date": "2026-05-06",
+          "format": "flat",
+          "has_multi": false,
+          "title": "20260506_早间.md",
+          "type": "早间",
+          "path": "202605/20260506_早间.md"
         },
         {
-          "date": "20260421",
-          "label": "04-21 周二",
-          "type": "morning",
-          "typeCN": "早间",
-          "file": "news/202604/20260421_早间.md"
+          "date": "2026-05-05",
+          "format": "flat",
+          "has_multi": false,
+          "title": "20260505_早间.md",
+          "type": "早间",
+          "path": "202605/20260505_早间.md"
         },
         {
-          "date": "20260420",
-          "label": "04-20 周一",
-          "type": "morning",
-          "typeCN": "早间",
-          "file": "news/202604/20260420_早间.md"
+          "date": "2026-05-04",
+          "format": "flat",
+          "has_multi": false,
+          "title": "20260504_早间.md",
+          "type": "早间",
+          "path": "202605/20260504_早间.md"
         },
         {
-          "date": "20260419",
-          "label": "04-19 周日",
-          "type": "morning",
-          "typeCN": "早间",
-          "file": "news/202604/20260419_早间.md"
+          "date": "2026-05-03",
+          "format": "flat",
+          "has_multi": false,
+          "title": "20260503_周报.md",
+          "type": "周报",
+          "path": "202605/20260503_周报.md"
         },
         {
-          "date": "20260418",
-          "label": "04-18 周六",
-          "type": "morning",
-          "typeCN": "早间",
-          "file": "news/202604/20260418_早间.md"
+          "date": "2026-05-03",
+          "format": "flat",
+          "has_multi": false,
+          "title": "20260503_早间.md",
+          "type": "早间",
+          "path": "202605/20260503_早间.md"
+        },
+        {
+          "date": "2026-05-02",
+          "format": "flat",
+          "has_multi": false,
+          "title": "20260502_早间.md",
+          "type": "早间",
+          "path": "202605/20260502_早间.md"
+        },
+        {
+          "date": "2026-05-01",
+          "format": "flat",
+          "has_multi": false,
+          "title": "20260501_早间.md",
+          "type": "早间",
+          "path": "202605/20260501_早间.md"
         }
       ]
+    }
+  ],
+  "categories": [
+    {
+      "id": "01",
+      "name": "今日头条",
+      "icon": "🔥"
+    },
+    {
+      "id": "02",
+      "name": "科技热点",
+      "icon": "🤖"
+    },
+    {
+      "id": "03",
+      "name": "AI与前沿科技",
+      "icon": "🧠"
+    },
+    {
+      "id": "04",
+      "name": "软件开发",
+      "icon": "💻"
+    },
+    {
+      "id": "05",
+      "name": "开发语言",
+      "icon": "🔤"
+    },
+    {
+      "id": "06",
+      "name": "华为开发生态",
+      "icon": "🔶"
+    },
+    {
+      "id": "07",
+      "name": "iOS开发生态",
+      "icon": "🍎"
+    },
+    {
+      "id": "08",
+      "name": "Android开发生态",
+      "icon": "🤖"
+    },
+    {
+      "id": "09",
+      "name": "跨平台开发生态",
+      "icon": "🌐"
+    },
+    {
+      "id": "10",
+      "name": "移动端生态",
+      "icon": "📱"
+    },
+    {
+      "id": "11",
+      "name": "AI开发生态",
+      "icon": "🛠️"
+    },
+    {
+      "id": "12",
+      "name": "GitHub实用Skills",
+      "icon": "⭐"
+    },
+    {
+      "id": "13",
+      "name": "AI知识点",
+      "icon": "🧩"
+    },
+    {
+      "id": "14",
+      "name": "产品发布",
+      "icon": "🚀"
+    },
+    {
+      "id": "15",
+      "name": "国内热点",
+      "icon": "🇨🇳"
+    },
+    {
+      "id": "16",
+      "name": "国际大事件",
+      "icon": "🌍"
+    },
+    {
+      "id": "17",
+      "name": "财经市场",
+      "icon": "💹"
     }
   ]
 }
