@@ -23,6 +23,8 @@
     const dateSearch = $('#dateSearch');
     const mobileDateTrack = $('#mobileDateTrack');
     const mobileCategoryTrack = $('#mobileCategoryTrack');
+    const mobileCategoryToggle = $('#mobileCategoryToggle');
+    const mobileCategoryStrip = $('#mobileCategoryStrip');
     const welcome = $('#welcome');
     const dateView = $('#dateView');
     const dateTitle = $('#dateTitle');
@@ -66,6 +68,11 @@
                         '分类数:', indexData.dates[0]?.categories?.length);
         renderDateList();
         renderMobileStrip();
+        // 恢复分类条收起状态
+        if (localStorage.getItem('mobileCatCollapsed') === '1') {
+            mobileCategoryStrip.classList.add('collapsed');
+            mobileCategoryToggle.textContent = '展开';
+        }
         renderWelcomeStats();
         if (indexData.dates.length > 0) {
             try {
@@ -674,6 +681,14 @@
             if (card) {
                 card.scrollIntoView({ behavior: 'smooth', block: 'start' });
             }
+        });
+
+        // 移动端分类条展开收起
+        mobileCategoryToggle.addEventListener('click', () => {
+            const isCollapsed = mobileCategoryStrip.classList.toggle('collapsed');
+            mobileCategoryToggle.textContent = isCollapsed ? '展开' : '收起';
+            // 保存状态到 localStorage
+            localStorage.setItem('mobileCatCollapsed', isCollapsed ? '1' : '0');
         });
 
         // 刷新按钮
