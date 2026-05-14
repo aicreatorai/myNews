@@ -297,7 +297,40 @@
         loading.style.display = 'flex';
         newsContent.innerHTML = '';
 
+        const cacheKey = `${dateStr}|${path}`;
+
         try {
+            // 检查缓存
+            let cachedHtml = null;
+            if (contentCache.has(cacheKey)) {
+                cachedHtml = contentCache.get(cacheKey);
+            } else {
+                const lsCached = cacheGet('flat_' + cacheKey);
+                if (lsCached) {
+                    contentCache.set(cacheKey, lsCached);
+                    cachedHtml = lsCached;
+                }
+            }
+
+            if (cachedHtml) {
+                // 使用缓存
+                loading.style.display = 'none';
+                newsContent.innerHTML = `
+                    <div class="news-card">
+                        <div class="card-header">
+                            <span class="card-title">📄 ${path.split('/').pop()}</span>
+                            <button class="card-toggle" aria-label="收起/展开" title="收起/展开">−</button>
+                        </div>
+                        <div class="card-body"></div>
+                    </div>`;
+                const cardBody = newsContent.querySelector('.card-body');
+                cardBody.innerHTML = cachedHtml;
+                addNewsToggle(cardBody);
+                newsContent.scrollTop = 0;
+                return;
+            }
+
+            // 无缓存，从网络加载
             let url;
             if (file) {
                 // 子目录格式：news/202605/20260514/01_今日头条.md
@@ -312,6 +345,11 @@
             const markdown = await resp.text();
 
             const html = renderMarkdown(markdown);
+
+            // 缓存（内存 + localStorage，24小时）
+            contentCache.set(cacheKey, html);
+            cacheSet('flat_' + cacheKey, html, 86400000);
+
             loading.style.display = 'none';
             // flat 文件也包裹为卡片
             newsContent.innerHTML = `
@@ -467,10 +505,9 @@
             const markdown = await resp.text();
             const html = renderMarkdown(markdown);
 
-            // 缓存（内存 + localStorage，首卡存24h）
+            // 缓存（内存 + localStorage，所有卡片都缓存24小时）
             contentCache.set(cacheKey, html);
-            const isFirstCard = cardId === 'card-01';
-            if (isFirstCard) cacheSet('card_' + cacheKey, html, 86400000);
+            cacheSet('card_' + cacheKey, html, 86400000);
             body.innerHTML = html;
             addNewsToggle(body);
             card.dataset.loading = '0';
