@@ -1081,9 +1081,9 @@ body {
     .mobile-date-chip,
     .mobile-category-chip {
         flex-shrink: 0;
-        padding: 4px 12px;
+        padding: 6px 14px;
         border-radius: 16px;
-        font-size: 0.78rem;
+        font-size: 0.9rem;
         background: rgba(255,255,255,0.08);
         color: #bbb;
         cursor: pointer;
@@ -1155,7 +1155,7 @@ body {
     }
 
     .card-title {
-        font-size: 0.88rem;
+        font-size: 1rem;
     }
 
     .card-toggle {
@@ -1179,7 +1179,7 @@ body {
     }
 
     .news-item-hdr h3 {
-        font-size: 0.88rem !important;
+        font-size: 1rem !important;
         line-height: 1.4;
     }
 
@@ -1193,46 +1193,46 @@ body {
         padding: 8px 10px;
     }
 
-    /* --- 内容字号适中 --- */
+    /* --- 内容字号更大 --- */
     .card-body h1 {
-        font-size: 1.25rem;
+        font-size: 1.4rem;
     }
 
     .card-body h2 {
-        font-size: 1.05rem;
+        font-size: 1.2rem;
         margin: 12px 0 6px !important;
     }
 
     .card-body h3 {
-        font-size: 0.95rem !important;
+        font-size: 1.1rem !important;
         margin: 10px 0 5px !important;
     }
 
     .card-body p {
-        font-size: 0.9rem;
-        line-height: 1.65;
+        font-size: 1rem;
+        line-height: 1.7;
     }
 
     .card-body blockquote {
         padding: 6px 10px;
         margin: 6px 0 !important;
-        font-size: 0.85rem;
+        font-size: 0.95rem;
     }
 
     .card-body code {
-        font-size: 0.85rem;
+        font-size: 0.92rem;
     }
 
     .card-body pre {
         padding: 8px;
-        font-size: 0.82rem;
+        font-size: 0.9rem;
     }
 
     .card-body table {
         display: block;
         overflow-x: auto;
         white-space: nowrap;
-        font-size: 0.85rem;
+        font-size: 0.92rem;
     }
 
     .card-body th,
@@ -1247,7 +1247,7 @@ body {
     .card-body ul,
     .card-body ol {
         padding-left: 14px;
-        font-size: 0.88rem;
+        font-size: 0.95rem;
     }
 
     /* --- 欢迎页 --- */
