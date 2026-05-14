@@ -282,29 +282,41 @@
             const cardId = `card-${cat.id}`;
             const isFirst = (i === 0);
             const cardHtml = `
-                <div class="news-card" id="${cardId}" data-loaded="${isFirst ? '0' : '0'}" data-catfile="${cat.file}" data-basepath="${basePath}" data-catid="${cat.id}" data-caticon="${cat.icon}" data-catname="${cat.name}">
+                <div class="news-card" id="${cardId}" data-loaded="0" data-catfile="${cat.file}" data-basepath="${basePath}" data-catid="${cat.id}" data-caticon="${cat.icon}" data-catname="${cat.name}">
                     <div class="card-header">
                         <span class="card-title">${cat.icon} ${cat.name}</span>
                         <button class="card-toggle" aria-label="收起/展开" title="收起/展开">−</button>
                     </div>
                     <div class="card-body">
-                        ${isFirst ? '<div class="loading" style="display:flex;"><div class="spinner"></div><p>加载中...</p></div>' : '<div class="lazy-placeholder">点击展开加载</div>'}
+                        ${isFirst ? '<div class="loading" style="display:flex;"><div class="spinner"></div><p>加载中...</p></div>' : '<div class="lazy-placeholder"><div class="spinner" style="width:18px;height:18px;margin:0 auto 6px;"></div><p>等待加载</p></div>'}
                     </div>
                 </div>`;
             newsContent.insertAdjacentHTML('beforeend', cardHtml);
+        }
 
-            // 仅第一个卡片自动加载
-            if (isFirst) {
-                lazyLoadCard(cardId, dateStr);
+        // 先加载第一个卡片
+        await lazyLoadCard('card-01', dateStr);
+
+        // 第一个加载完后，自动加载其余所有卡片
+        for (let i = 1; i < categories.length; i++) {
+            const cat = categories[i];
+            const cardId = `card-${cat.id}`;
+            // 改为显示加载中
+            const card = document.getElementById(cardId);
+            if (card) {
+                const body = card.querySelector('.card-body');
+                body.innerHTML = '<div class="loading" style="display:flex;padding:10px 0;"><div class="spinner"></div><p>加载中...</p></div>';
             }
+            // 异步加载，不阻塞后续
+            lazyLoadCard(cardId, dateStr);
         }
     }
 
     async function lazyLoadCard(cardId, dateStr) {
         const card = document.getElementById(cardId);
         if (!card) return;
-        const loaded = card.dataset.loaded;
-        if (loaded === '1') return;
+        if (card.dataset.loaded === '1' || card.dataset.loading === '1') return;
+        card.dataset.loading = '1';
 
         const catFile = card.dataset.catfile;
         const basePath = card.dataset.basepath;
@@ -317,6 +329,7 @@
             const body = card.querySelector('.card-body');
             body.innerHTML = contentCache.get(cacheKey);
             addNewsToggle(body);
+            card.dataset.loading = '0';
             card.dataset.loaded = '1';
             return;
         }
@@ -328,6 +341,7 @@
             const body = card.querySelector('.card-body');
             body.innerHTML = lsCached;
             addNewsToggle(body);
+            card.dataset.loading = '0';
             card.dataset.loaded = '1';
             return;
         }
@@ -348,6 +362,7 @@
             if (isFirstCard) cacheSet('card_' + cacheKey, html, 86400000);
             body.innerHTML = html;
             addNewsToggle(body);
+            card.dataset.loading = '0';
             card.dataset.loaded = '1';
         } catch (e) {
             body.innerHTML = `<div class="error-msg"><p>⚠️ ${catName} 加载失败</p></div>`;
