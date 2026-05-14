@@ -230,6 +230,26 @@ body {
 /* 移动端日期条（桌面隐藏） */
 .mobile-date-strip {
     display: none;
+    background: var(--color-sidebar);
+}
+
+[data-theme="dark"] .mobile-date-strip {
+    background: var(--color-sidebar);
+    border-bottom-color: rgba(255,255,255,0.08);
+}
+
+[data-theme="dark"] .app-container {
+    background: var(--color-bg);
+}
+
+[data-theme="dark"] .mobile-date-chip {
+    color: #aaa;
+    background: rgba(255,255,255,0.1);
+}
+
+[data-theme="dark"] .mobile-date-chip.active {
+    background: var(--color-primary);
+    color: #fff;
 }
 
 /* 月份分组 */
