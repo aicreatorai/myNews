@@ -1,15 +1,14 @@
 /* ============================================================
-   早间新闻 — app.js (v3.0 纯Markdown渲染版)
+   早间新闻 — app.js (v5.0 现代界面版)
    核心逻辑：直接加载 .md 文件，用 marked.js 渲染
-   不再解析字段，格式随便变都显示完整
    ============================================================ */
 
 'use strict';
 
 /* ============================================================
-   0. 🔄 部署版本检测（解决 Safari/iOS 不更新 SW 缓存的问题）
+   0. 🔄 部署版本检测
    ============================================================ */
-const APP_VERSION = 'v20260513-214954';
+const APP_VERSION = 'v20260514-002';
 
 // 检测版本变更 → 清除旧缓存并强制刷新
 (function checkVersion() {
@@ -297,6 +296,8 @@ function preprocessMd(md) {
 
 /** 将 ### 新闻条目包裹为卡片 */
 function wrapItemsInCards(md, catKey) {
+  if (!md || !md.trim()) return '';
+  
   const lines = md.split('\n');
   const parts = [];
   let cur = [];
@@ -313,16 +314,50 @@ function wrapItemsInCards(md, catKey) {
 
   if (parts.length <= 1) {
     // 没有 ### 项，直接渲染整个段
-    return marked.parse(preprocessMd(md));
+    const parsed = marked.parse(preprocessMd(md));
+    return parsed && parsed.trim() ? parsed : '';
   }
 
   // 第一部分（### 之前的内容）直接渲染
-  let html = parts[0] ? marked.parse(preprocessMd(parts[0])) : '';
+  let html = parts[0] ? marked.parse(preprocessMd(parts[0])) || '' : '';
 
   // 剩余每个 ### 项包裹为卡片
+  let cardIndex = 0;
   for (let i = 1; i < parts.length; i++) {
-    const itemHtml = marked.parse(preprocessMd(parts[i]));
-    html += `<div class="md-card" data-cat-key="${catKey}">${itemHtml}</div>`;
+    const itemMd = parts[i].trim();
+    if (!itemMd) continue;
+    
+    // 提取标题（### 后面部分）
+    const titleMatch = itemMd.match(/^###\s+(.+?)(?:\n|$)/);
+    if (!titleMatch) continue;
+    
+    const restMd = itemMd.substring(titleMatch[0].length);
+    
+    // 在 markdown 中按第一个 \n---\n 分割：导语 vs 补充内容
+    const hrMatch = restMd.match(/\n---\n/);
+    let cardBodyHtml = '';
+
+    if (hrMatch) {
+      const leadMd = restMd.substring(0, hrMatch.index);
+      const extraMd = restMd.substring(hrMatch.index + hrMatch[0].length);
+
+      cardBodyHtml = marked.parse(preprocessMd(leadMd)) || '';
+      if (extraMd.trim()) {
+        cardBodyHtml += `<div class="card-extra" style="display:none">${marked.parse(preprocessMd(extraMd)) || ''}</div>`;
+        cardBodyHtml += `<div class="card-toggle-btn">展开全文 ▼</div>`;
+      }
+    } else {
+      cardBodyHtml = marked.parse(preprocessMd(restMd)) || '';
+    }
+
+    // 只有有内容才创建卡片
+    if (!cardBodyHtml.trim() && !titleMatch[1].trim()) continue;
+    
+    // 为标题添加序号
+    cardIndex++;
+    const titleHtml = `<h3><span class="num-badge">${cardIndex}</span>${titleMatch[1]}</h3>`;
+    
+    html += `<div class="md-card" data-cat-key="${catKey}">${titleHtml}${cardBodyHtml}</div>`;
   }
 
   return html;
@@ -427,13 +462,32 @@ function filterCat(key) {
   });
 }
 
+/** 为新闻卡片添加折叠/展开功能 */
+function initCardToggles() {
+  document.querySelectorAll('.md-card .card-toggle-btn').forEach(btn => {
+    if (btn.dataset.toggleReady) return;
+    btn.dataset.toggleReady = 'true';
+
+    btn.addEventListener('click', function(e) {
+      e.stopPropagation();
+      const extra = this.previousElementSibling;
+      if (!extra || !extra.classList.contains('card-extra')) return;
+
+      const isExpanded = this.textContent.includes('收起');
+      extra.style.display = isExpanded ? 'none' : 'block';
+      this.textContent = isExpanded ? '展开全文 ▼' : '收起内容 ▲';
+    });
+  });
+}
+
 // 渲染新闻主体
 function renderNews(parsed, entry) {
   DOM.newsList.innerHTML = '';
-  if (!parsed || !parsed.html) {
+  if (!parsed || !parsed.html || !parsed.html.trim()) {
     DOM.newsList.innerHTML = `<div class="empty-state"><div class="empty-state-icon">📭</div><div class="empty-state-text">暂无内容</div></div>`;
     return;
   }
+  
   const d = parseDate(entry.date);
   const hdr = document.createElement('div');
   hdr.className = 'date-page-header';
@@ -441,13 +495,15 @@ function renderNews(parsed, entry) {
     <div class="date-page-meta">${entry.typeCN||'早间'}新闻简报</div>`;
   DOM.newsList.appendChild(hdr);
 
-  // 直接插入渲染好的 Markdown HTML
+  // 插入渲染好的 Markdown HTML
   const wrapper = document.createElement('div');
   wrapper.className = 'md-render';
   wrapper.innerHTML = parsed.html;
   DOM.newsList.appendChild(wrapper);
 
+  // 过滤并初始化
   filterCat(state.currentCat);
+  initCardToggles();
 }
 
 /* ============================================================

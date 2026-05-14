@@ -2,16 +2,18 @@
 <html lang="zh-CN" data-theme="light">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
-  <meta name="theme-color" content="#ffffff" id="meta-theme-color" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, viewport-fit=cover" />
+  <meta name="theme-color" content="#f8fafc" id="meta-theme-color" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
   <meta name="apple-mobile-web-app-status-bar-style" content="default" />
   <meta name="apple-mobile-web-app-title" content="早间新闻" />
-  <!-- iOS 添加到主屏幕图标（内联 SVG data URI，离线也有效） -->
-  <link rel="apple-touch-icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 180 180'%3E%3Crect width='180' height='180' rx='38' fill='%23E8326A'/%3E%3Ctext x='90' y='130' font-size='100' text-anchor='middle'%3E%F0%9F%93%B0%3C/text%3E%3C/svg%3E" />
-  <title>📰 早间新闻</title>
-  <link rel="stylesheet" href="css/main.css" />
-  <!-- PWA manifest（可选，方便添加到主屏幕） -->
+  <meta name="description" content="每日上午为你精选科技、互联网、开发相关的热点资讯" />
+  
+  <!-- iOS 添加到主屏幕图标 -->
+  <link rel="apple-touch-icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 180 180'%3E%3Cdefs%3E%3ClinearGradient id='g' x1='0%25' y1='0%25' x2='100%25' y2='100%25'%3E%3Cstop offset='0%25' stop-color='%23e11d48'/%3E%3Cstop offset='100%25' stop-color='%23fb7185'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='180' height='180' rx='38' fill='url(%23g)'/%3E%3Ctext x='90' y='130' font-size='100' text-anchor='middle'%3E%F0%9F%93%B0%3C/text%3E%3C/svg%3E" />
+  
+  <title>早间新闻 | 每日资讯精选</title>
+  <link rel="stylesheet" href="css/main.css?v=20260514" />
   <link rel="manifest" href="manifest.json" />
 </head>
 <body>
@@ -19,7 +21,7 @@
 <!-- ===== 离线提示条 ===== -->
 <div class="offline-banner" id="offlineBanner" style="display:none">
   <span class="offline-icon">📡</span>
-  <span class="offline-text">当前离线，显示已缓存内容</span>
+  <span>当前离线，显示已缓存内容</span>
 </div>
 
 <!-- ===== HEADER ===== -->
@@ -50,9 +52,9 @@
 <!-- ===== MAIN CONTENT ===== -->
 <main class="app-main" id="appMain">
 
-  <!-- 今日头条一句话 -->
+  <!-- 今日头条 -->
   <div class="today-headline" id="todayHeadline" style="display:none">
-    <span class="headline-badge">🔥 今日头条</span>
+    <span class="headline-badge">🔥 头条</span>
     <span class="headline-text" id="headlineText"></span>
   </div>
 
@@ -63,15 +65,14 @@
     </div>
   </div>
 
-  <!-- 新闻卡片列表 -->
+  <!-- 新闻内容 -->
   <div class="news-list" id="newsList">
-    <!-- 骨架屏占位 -->
+    <!-- 骨架屏 -->
     <div class="skeleton-wrap" id="skeletonWrap">
       <div class="skeleton-card"></div>
       <div class="skeleton-card"></div>
       <div class="skeleton-card"></div>
     </div>
-    <!-- 新闻内容由 JS 动态生成 -->
   </div>
 
 </main>
@@ -134,9 +135,8 @@
                placeholder="搜索关键词..." autocomplete="off" />
       </div>
     </div>
-    <!-- 英语学习入口 -->
     <div class="sidebar-footer">
-      <a href="englishStudy/index.html" class="sidebar-link" style="text-decoration:none;">
+      <a href="englishStudy/index.html" class="sidebar-link">
         <span>📚</span>
         <span>英语学习</span>
       </a>
@@ -144,15 +144,23 @@
   </div>
 </aside>
 
-<!-- 桌面端遮罩，点击关闭 -->
+<!-- 桌面端遮罩 -->
 <div class="sidebar-overlay" id="sidebarOverlay"></div>
 
+<!-- Scripts -->
 <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+<script>
+  // 等待 marked.js 加载完成
+  if (typeof marked === 'undefined') {
+    document.write('<script src="https://unpkg.com/marked/marked.min.js"><\/script>');
+  }
+</script>
 <script src="js/app.js"></script>
-<!-- 注册 Service Worker（含自动更新） -->
 <script>
 if ('serviceWorker' in navigator) {
-  navigator.serviceWorker.register('./sw.js');
+  navigator.serviceWorker.register('./sw.js').catch(err => {
+    console.log('SW 注册失败:', err);
+  });
 }
 </script>
 </body>
