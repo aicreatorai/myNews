@@ -79,13 +79,27 @@ body {
     left: 0;
     right: 0;
     height: var(--topbar-height);
-    background: var(--color-sidebar);
-    color: #fff;
+    background: #fff;
+    color: var(--color-text);
+    border-bottom: 1px solid var(--color-border);
     display: flex;
     align-items: center;
     padding: 0 20px;
     z-index: 1000;
     gap: 16px;
+}
+
+[data-theme="dark"] .topbar {
+    background: var(--color-sidebar);
+    color: #fff;
+    border-bottom: none;
+}
+
+.logo {
+    font-size: 1.15rem;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    color: inherit;
 }
 
 .menu-toggle {
@@ -104,9 +118,13 @@ body {
 .menu-toggle span {
     display: block;
     height: 2.5px;
-    background: #fff;
+    background: var(--color-text);
     border-radius: 2px;
     transition: var(--transition);
+}
+
+[data-theme="dark"] .menu-toggle span {
+    background: #fff;
 }
 
 .logo {
@@ -132,8 +150,8 @@ body {
 
 /* 主题切换按钮 */
 .theme-toggle {
-    background: rgba(255,255,255,0.1);
-    border: 1px solid rgba(255,255,255,0.15);
+    background: rgba(0,0,0,0.05);
+    border: 1px solid var(--color-border);
     border-radius: 50%;
     width: 34px;
     height: 34px;
@@ -147,6 +165,15 @@ body {
 }
 
 .theme-toggle:hover {
+    background: rgba(0,0,0,0.1);
+}
+
+[data-theme="dark"] .theme-toggle {
+    background: rgba(255,255,255,0.1);
+    border-color: rgba(255,255,255,0.15);
+}
+
+[data-theme="dark"] .theme-toggle:hover {
     background: rgba(255,255,255,0.2);
 }
 
@@ -160,8 +187,9 @@ body {
 /* --- Sidebar --- */
 .sidebar {
     width: var(--sidebar-width);
-    background: var(--color-sidebar);
-    color: #ccc;
+    background: var(--color-surface);
+    color: var(--color-text-secondary);
+    border-right: 1px solid var(--color-border);
     flex-shrink: 0;
     display: flex;
     flex-direction: column;
@@ -173,18 +201,31 @@ body {
     z-index: 500;
 }
 
+[data-theme="dark"] .sidebar {
+    background: var(--color-sidebar);
+    color: #ccc;
+    border-right: none;
+}
+
 .sidebar-header {
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 16px 18px 12px;
-    border-bottom: 1px solid rgba(255,255,255,0.06);
+    border-bottom: 1px solid var(--color-border);
 }
 
 .sidebar-header h2 {
     font-size: 0.95rem;
-    color: #fff;
     font-weight: 600;
+}
+
+[data-theme="dark"] .sidebar-header {
+    border-bottom-color: rgba(255,255,255,0.06);
+}
+
+[data-theme="dark"] .sidebar-header h2 {
+    color: #fff;
 }
 
 .sidebar-close {
@@ -204,20 +245,33 @@ body {
     width: 100%;
     padding: 8px 12px;
     border-radius: 8px;
-    border: 1px solid rgba(255,255,255,0.1);
-    background: rgba(255,255,255,0.06);
-    color: #ddd;
+    border: 1px solid var(--color-border);
+    background: var(--color-bg);
+    color: var(--color-text);
     font-size: 0.85rem;
     outline: none;
     transition: var(--transition);
 }
 
 .sidebar-search input::placeholder {
-    color: #777;
+    color: var(--color-text-secondary);
 }
 
 .sidebar-search input:focus {
     border-color: var(--color-primary);
+}
+
+[data-theme="dark"] .sidebar-search input {
+    border: 1px solid rgba(255,255,255,0.1);
+    background: rgba(255,255,255,0.06);
+    color: #ddd;
+}
+
+[data-theme="dark"] .sidebar-search input::placeholder {
+    color: #777;
+}
+
+[data-theme="dark"] .sidebar-search input:focus {
     background: rgba(255,255,255,0.1);
 }
 
@@ -329,10 +383,20 @@ body {
 }
 
 .date-item:hover {
+    background: rgba(0,0,0,0.03);
+}
+
+[data-theme="dark"] .date-item:hover {
     background: var(--color-sidebar-hover);
 }
 
 .date-item.active {
+    background: var(--color-primary);
+    border-left-color: var(--color-primary);
+    color: #fff;
+}
+
+[data-theme="dark"] .date-item.active {
     background: var(--color-sidebar-active);
     border-left-color: var(--color-primary);
     color: #fff;
@@ -344,16 +408,25 @@ body {
 
 .date-item .date-type {
     font-size: 0.72rem;
-    background: rgba(255,255,255,0.08);
+    background: rgba(0,0,0,0.06);
     padding: 1px 7px;
     border-radius: 10px;
+    color: var(--color-text-secondary);
+}
+
+[data-theme="dark"] .date-item .date-type {
+    background: rgba(255,255,255,0.08);
     color: #999;
 }
 
 .date-item .date-count {
     margin-left: auto;
     font-size: 0.75rem;
-    color: #777;
+    color: var(--color-text-secondary);
+}
+
+[data-theme="dark"] .date-item .date-count {
+    color: #888;
 }
 
 /* --- Main Content --- */
