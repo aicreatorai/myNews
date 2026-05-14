@@ -65,5 +65,4 @@ Thumbs.db
 # englishStudy 本地临时文件（不提交）
 englishStudy/.codebuddy/
 englishStudy/.vocab_*.json
-  test-results/
-test-results/
+englishStudy/test-results/
