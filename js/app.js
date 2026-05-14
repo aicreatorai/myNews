@@ -65,7 +65,7 @@
         }
 
         try {
-            const resp = await fetch('news-index.json');
+            const resp = await fetch('news-index.json?v=m2');
             if (!resp.ok) throw new Error('HTTP ' + resp.status);
             const fresh = await resp.json();
             indexData = fresh;
