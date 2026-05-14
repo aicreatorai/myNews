@@ -32,6 +32,7 @@ CATEGORIES = {
     "20": {"name": "AI+教育落地与灵感", "icon": "📚"},
     "21": {"name": "个人提升",     "icon": "🌱"},
     "22": {"name": "AI产品经理",   "icon": "📋"},
+    "23": {"name": "一人公司",     "icon": "👤"},
 }
 
 def parse_date_from_filename(filename):
