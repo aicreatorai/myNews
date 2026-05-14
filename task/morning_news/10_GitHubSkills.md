@@ -17,7 +17,7 @@
 
 | 项目 | 内容 |
 |------|------|
-| **输出文件** | `news/{YYYYMM}/{YYYYMMDD}/12_GitHub实用Skills.md` |
+| **输出文件** | `news/{YYYYMM}/{YYYYMMDD}/10_GitHubSkills.md` |
 | **新闻条数** | 3-6 条（优先 5 条） |
 | **搜索时段** | `{DATE-1} 07:00 ~ {DATE} 07:00`（24小时） |
 
