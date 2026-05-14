@@ -689,6 +689,53 @@
                 overlay.classList.remove('show');
             }
         });
+
+        // ==========================================
+        //  移动端滚动隐藏/显示导航条
+        // ==========================================
+        let lastScrollY = 0;
+        let scrollTicking = false;
+
+        function handleMobileScroll() {
+            if (window.innerWidth >= 768) return;
+
+            const topbar = document.querySelector('.topbar');
+            const dateStrip = document.querySelector('.mobile-date-strip');
+            const appContainer = document.querySelector('.app-container');
+            if (!topbar || !dateStrip || !appContainer) return;
+
+            const currentY = window.scrollY;
+            const delta = currentY - lastScrollY;
+            const isAtTop = currentY <= 5;
+            const isAtBottom = currentY + window.innerHeight >= document.body.scrollHeight - 10;
+
+            // 向下滚动（delta > 0）且超过容错阈值 → 隐藏
+            // 容错：只有连续向下超过 20px 才触发隐藏
+            if (delta > 20 && !isAtTop && !isAtBottom) {
+                const topH = topbar.offsetHeight;
+                topbar.style.transform = 'translateY(-100%)';
+                dateStrip.style.transform = `translateY(calc(-100% - ${topH}px))`;
+                appContainer.style.marginTop = '0';
+            }
+            // 向上滚动、或停留在顶部/底部 → 显示
+            else if (delta < -10 || isAtTop || isAtBottom) {
+                topbar.style.transform = '';
+                dateStrip.style.transform = '';
+                appContainer.style.marginTop = '';
+            }
+
+            lastScrollY = currentY;
+        }
+
+        window.addEventListener('scroll', () => {
+            if (!scrollTicking) {
+                window.requestAnimationFrame(() => {
+                    handleMobileScroll();
+                    scrollTicking = false;
+                });
+                scrollTicking = true;
+            }
+        }, { passive: true });
     }
 
 })();

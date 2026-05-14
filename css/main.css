@@ -87,6 +87,7 @@ body {
     padding: 0 20px;
     z-index: 1000;
     gap: 16px;
+    transition: transform 0.3s ease;
 }
 
 [data-theme="dark"] .topbar {
@@ -182,6 +183,7 @@ body {
     display: flex;
     margin-top: var(--topbar-height);
     min-height: calc(100vh - var(--topbar-height));
+    transition: margin-top 0.3s ease;
 }
 
 /* --- Sidebar --- */
@@ -287,6 +289,7 @@ body {
     background: var(--color-surface);
     border-bottom: 1px solid var(--color-border);
     box-shadow: 0 1px 3px rgba(0,0,0,0.04);
+    transition: transform 0.3s ease;
 }
 
 [data-theme="dark"] .mobile-date-strip {
