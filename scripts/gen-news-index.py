@@ -27,6 +27,11 @@ CATEGORIES = {
     "15": {"name": "国内热点",     "icon": "🇨🇳"},
     "16": {"name": "国际大事件",   "icon": "🌍"},
     "17": {"name": "财经市场",     "icon": "💹"},
+    "18": {"name": "AI工具使用",   "icon": "✨"},
+    "19": {"name": "商业思维与AI变现", "icon": "💰"},
+    "20": {"name": "AI+教育落地与灵感", "icon": "📚"},
+    "21": {"name": "个人提升",     "icon": "🌱"},
+    "22": {"name": "AI产品经理",   "icon": "📋"},
 }
 
 def parse_date_from_filename(filename):

@@ -6,9 +6,12 @@
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
     <title>早间新闻</title>
-    <link rel="stylesheet" href="css/main.css?v=m2">
-    <link rel="preload" href="news-index.json?v=m2" as="fetch" crossorigin="anonymous">
-    <link rel="prefetch" href="news-index.json?v=m2">
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Expires" content="0">
+    <link rel="stylesheet" href="css/main.css?v=m10">
+    <link rel="preload" href="news-index.json?v=m10" as="fetch" crossorigin="anonymous">
+    <link rel="prefetch" href="news-index.json?v=m10">
 </head>
 <body>
     <!-- 顶部导航 -->
@@ -18,6 +21,7 @@
         </button>
         <h1 class="logo">📰 早间新闻</h1>
         <div class="topbar-right">
+            <button class="refresh-btn" id="refreshBtn" aria-label="刷新" title="刷新数据">🔄</button>
             <button class="theme-toggle" id="themeToggle" aria-label="切换主题" title="切换白天/夜间模式">🌙</button>
             <span class="today-badge" id="todayBadge"></span>
         </div>
@@ -26,6 +30,11 @@
     <!-- 移动端日期条 -->
     <div class="mobile-date-strip" id="mobileDateStrip">
         <div class="mobile-date-track" id="mobileDateTrack"></div>
+    </div>
+
+    <!-- 移动端分类条 -->
+    <div class="mobile-category-strip" id="mobileCategoryStrip">
+        <div class="mobile-category-track" id="mobileCategoryTrack"></div>
     </div>
 
     <div class="app-container">
@@ -88,6 +97,6 @@
     <!-- 移动端遮罩 -->
     <div class="overlay" id="overlay"></div>
 
-    <script src="js/app.js"></script>
+    <script src="js/app.js?v=m10"></script>
 </body>
 </html>

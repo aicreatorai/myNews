@@ -149,6 +149,31 @@ body {
     color: #ccc;
 }
 
+/* 刷新按钮 */
+.refresh-btn {
+    background: rgba(0,0,0,0.05);
+    border: 1px solid var(--color-border);
+    border-radius: 50%;
+    width: 34px;
+    height: 34px;
+    font-size: 1.05rem;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: var(--transition);
+    line-height: 1;
+    color: var(--color-text-secondary);
+}
+.refresh-btn:active {
+    transform: rotate(180deg);
+}
+[data-theme="dark"] .refresh-btn {
+    background: rgba(255,255,255,0.1);
+    border-color: rgba(255,255,255,0.15);
+    color: #bbb;
+}
+
 /* 主题切换按钮 */
 .theme-toggle {
     background: rgba(0,0,0,0.05);
@@ -276,7 +301,8 @@ body {
 }
 
 /* 移动端日期条（桌面隐藏） */
-.mobile-date-strip {
+.mobile-date-strip,
+.mobile-category-strip {
     display: none;
     background: var(--color-surface);
     border-bottom: 1px solid var(--color-border);
@@ -284,7 +310,8 @@ body {
     transition: transform 0.3s ease;
 }
 
-[data-theme="dark"] .mobile-date-strip {
+[data-theme="dark"] .mobile-date-strip,
+[data-theme="dark"] .mobile-category-strip {
     background: var(--color-sidebar);
     border-bottom-color: rgba(255,255,255,0.06);
     box-shadow: none;
@@ -292,6 +319,51 @@ body {
 
 [data-theme="dark"] .app-container {
     background: var(--color-bg);
+}
+
+/* 移动端分类条元素（桌面隐藏） */
+.mobile-category-track {
+    display: flex;
+    gap: 6px;
+    padding: 8px 14px;
+    overflow-x: auto;
+    scrollbar-width: none;
+    white-space: nowrap;
+    height: 44px;
+}
+
+.mobile-category-track::-webkit-scrollbar {
+    display: none;
+}
+
+.mobile-category-chip {
+    flex-shrink: 0;
+    padding: 4px 12px;
+    border-radius: 16px;
+    font-size: 0.78rem;
+    background: rgba(0,0,0,0.05);
+    color: var(--color-text-secondary);
+    cursor: pointer;
+    transition: var(--transition);
+    border: none;
+    white-space: nowrap;
+    line-height: 1.6;
+}
+
+.mobile-category-chip.active {
+    background: var(--color-primary);
+    color: #fff;
+    font-weight: 600;
+}
+
+[data-theme="dark"] .mobile-category-chip {
+    background: rgba(255,255,255,0.08);
+    color: #bbb;
+}
+
+[data-theme="dark"] .mobile-category-chip.active {
+    background: var(--color-primary);
+    color: #fff;
 }
 
 .mobile-date-chip {
@@ -533,9 +605,27 @@ body {
 /* --- Category Tabs --- */
 .category-tabs {
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     gap: 6px;
-    margin-bottom: 20px;
+    margin-bottom: 16px;
+    overflow-x: auto;
+    overflow-y: hidden;
+    white-space: nowrap;
+    scrollbar-width: none;
+    padding: 6px 0 10px;
+    -webkit-overflow-scrolling: touch;
+    position: sticky;
+    top: var(--topbar-height);
+    z-index: 50;
+    background: var(--color-bg);
+    cursor: grab;
+    user-select: none;
+}
+.category-tabs::-webkit-scrollbar {
+    display: none;
+}
+.category-tabs.grabbing {
+    cursor: grabbing;
 }
 
 .category-tab {
@@ -944,11 +1034,11 @@ body {
         display: none;
     }
 
-    /* --- 移动端日期条（替代侧边栏）--- */
-    .mobile-date-strip {
+    /* --- 移动端日期条 + 分类条（替代侧边栏）--- */
+    .mobile-date-strip,
+    .mobile-category-strip {
         display: block !important;
         position: fixed;
-        top: var(--topbar-height);
         left: 0;
         right: 0;
         height: 44px;
@@ -957,7 +1047,17 @@ body {
         -webkit-overflow-scrolling: touch;
     }
 
-    .mobile-date-track {
+    .mobile-date-strip {
+        top: var(--topbar-height);
+    }
+
+    .mobile-category-strip {
+        top: calc(var(--topbar-height) + 44px);
+        z-index: 399;
+    }
+
+    .mobile-date-track,
+    .mobile-category-track {
         display: flex;
         gap: 6px;
         padding: 8px 14px;
@@ -968,11 +1068,18 @@ body {
         height: 44px;
     }
 
-    .mobile-date-track::-webkit-scrollbar {
+    .mobile-date-track::-webkit-scrollbar,
+    .mobile-category-track::-webkit-scrollbar {
         display: none;
     }
 
-    .mobile-date-chip {
+    /* 移动端隐藏桌面分类标签（由移动端分类条替代）*/
+    .category-tabs {
+        display: none !important;
+    }
+
+    .mobile-date-chip,
+    .mobile-category-chip {
         flex-shrink: 0;
         padding: 4px 12px;
         border-radius: 16px;
@@ -986,7 +1093,8 @@ body {
         line-height: 1.6;
     }
 
-    .mobile-date-chip.active {
+    .mobile-date-chip.active,
+    .mobile-category-chip.active {
         background: var(--color-primary);
         color: #fff;
         font-weight: 600;
@@ -1008,7 +1116,7 @@ body {
     }
 
     .app-container {
-        margin-top: calc(var(--topbar-height) + 44px);
+        margin-top: calc(var(--topbar-height) + 44px + 44px);
     }
 
     /* --- 主内容全屏宽度 --- */
@@ -1194,6 +1302,14 @@ body {
         background: var(--color-primary);
         color: #fff;
         border-color: var(--color-primary);
+    }
+    .refresh-btn:hover {
+        background: rgba(0,0,0,0.1);
+        color: var(--color-primary);
+    }
+    [data-theme="dark"] .refresh-btn:hover {
+        background: rgba(255,255,255,0.2);
+        color: var(--color-primary-light);
     }
     .theme-toggle:hover {
         background: rgba(0,0,0,0.1);

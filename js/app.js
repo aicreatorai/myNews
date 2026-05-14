@@ -22,6 +22,7 @@
     const dateList = $('#dateList');
     const dateSearch = $('#dateSearch');
     const mobileDateTrack = $('#mobileDateTrack');
+    const mobileCategoryTrack = $('#mobileCategoryTrack');
     const welcome = $('#welcome');
     const dateView = $('#dateView');
     const dateTitle = $('#dateTitle');
@@ -33,6 +34,7 @@
     const todayBadge = $('#todayBadge');
     const welcomeStats = $('#welcomeStats');
     const themeToggle = $('#themeToggle');
+    const refreshBtn = $('#refreshBtn');
 
     // ==========================================
     //  缓存工具
@@ -54,29 +56,26 @@
     //  初始化
     // ==========================================
     document.addEventListener('DOMContentLoaded', async () => {
-        // 尝试从缓存加载索引
-        const cached = cacheGet('idx');
-        if (cached) {
-            indexData = cached;
-            renderDateList();
-            renderMobileStrip();
-            renderWelcomeStats();
-            if (indexData.dates.length > 0) selectDate(indexData.dates[0].date);
-        }
-
         try {
-            const resp = await fetch('news-index.json?v=m2');
+            const resp = await fetch('news-index.json?v=' + Date.now());
             if (!resp.ok) throw new Error('HTTP ' + resp.status);
-            const fresh = await resp.json();
-            indexData = fresh;
-            // 缓存1小时
-            cacheSet('idx', fresh, 3600000);
+            indexData = await resp.json();
+            console.log('[早间新闻] 索引加载成功, 日期数:', indexData.dates.length, 
+                        '首个日期:', indexData.dates[0]?.date, 
+                        'has_multi:', indexData.dates[0]?.has_multi,
+                        '分类数:', indexData.dates[0]?.categories?.length);
         renderDateList();
         renderMobileStrip();
         renderWelcomeStats();
-        if (!cached && indexData.dates.length > 0) selectDate(indexData.dates[0].date);
+        if (indexData.dates.length > 0) {
+            try {
+                await selectDate(indexData.dates[0].date);
+                console.log('[早间新闻] 卡片数:', document.querySelectorAll('.news-card').length);
+            } catch(e) {
+                console.error('[早间新闻] selectDate 出错:', e);
+            }
+        }
         } catch (e) {
-            if (cached) return; // 缓存数据已在上面渲染
             newsContent.innerHTML = `
                 <div class="error-msg">
                     <h3>⚠️ 数据加载失败</h3>
@@ -156,8 +155,23 @@
         mobileDateTrack.innerHTML = html;
     }
 
+    function renderMobileCategories(categories) {
+        if (!mobileCategoryTrack) return;
+        if (!categories || categories.length === 0) {
+            mobileCategoryTrack.innerHTML = '';
+            return;
+        }
+        let html = '';
+        for (const cat of categories) {
+            const active = currentCategory === cat.id ? 'active' : '';
+            html += `<button class="mobile-category-chip ${active}" data-cat-id="${cat.id}" data-file="${cat.file}">
+                ${cat.icon} ${cat.name}
+            </button>`;
+        }
+        mobileCategoryTrack.innerHTML = html;
+    }
+
     function updateMobileStrip(dateStr) {
-        if (!mobileDateTrack) return;
         const chips = mobileDateTrack.querySelectorAll('.mobile-date-chip');
         chips.forEach(ch => {
             ch.classList.toggle('active', ch.dataset.date === dateStr);
@@ -165,6 +179,14 @@
                 // 滚动到可见位置
                 ch.scrollIntoView({ behavior: 'smooth', inline: 'center', block: 'nearest' });
             }
+        });
+    }
+
+    function updateMobileCategoryStrip(catId) {
+        if (!mobileCategoryTrack) return;
+        const chips = mobileCategoryTrack.querySelectorAll('.mobile-category-chip');
+        chips.forEach(ch => {
+            ch.classList.toggle('active', ch.dataset.catId === catId);
         });
     }
 
@@ -223,11 +245,14 @@
 
         if (day.has_multi) {
             // 子目录格式：加载所有板块为卡片
-            categoryTabs.style.display = 'none';
+            categoryTabs.style.display = '';
+            renderCategoryTabs(day.categories);
+            renderMobileCategories(day.categories);
             await loadAllCategories(dateStr, day.categories, day.path);
         } else {
             // flat 格式
             categoryTabs.style.display = 'none';
+            renderMobileCategories(null);
             await loadNews(dateStr, null, day.path);
         }
 
@@ -345,6 +370,50 @@
             // 异步加载，不阻塞后续
             lazyLoadCard(cardId, dateStr);
         }
+
+        // 设置滚动联动观察器
+        setupCategoryScrollSpy();
+    }
+
+    let scrollSpyObserver = null;
+    function setupCategoryScrollSpy() {
+        // 断开旧观察器
+        if (scrollSpyObserver) scrollSpyObserver.disconnect();
+
+        const cards = document.querySelectorAll('.news-card');
+        if (cards.length === 0) return;
+
+        scrollSpyObserver = new IntersectionObserver((entries) => {
+            let bestEntry = null;
+            let bestRatio = 0;
+            for (const entry of entries) {
+                if (entry.isIntersecting && entry.intersectionRatio > bestRatio) {
+                    bestRatio = entry.intersectionRatio;
+                    bestEntry = entry;
+                }
+            }
+            if (!bestEntry) return;
+
+            const catId = bestEntry.target.dataset.catid;
+            if (!catId || catId === currentCategory) return;
+
+            currentCategory = catId;
+            // 更新桌面分类标签
+            setActiveCategory(catId);
+            // 更新移动端分类条
+            updateMobileCategoryStrip(catId);
+            // 滚动分类标签让当前标签可见
+            const activeTab = document.querySelector(`.category-tab[data-cat-id="${catId}"]`);
+            if (activeTab) {
+                activeTab.scrollIntoView({ behavior: 'smooth', inline: 'center', block: 'nearest' });
+            }
+        }, {
+            root: null,
+            rootMargin: '-80px 0px -40% 0px',
+            threshold: [0, 0.1, 0.2, 0.3, 0.4, 0.5]
+        });
+
+        cards.forEach(card => scrollSpyObserver.observe(card));
     }
 
     async function lazyLoadCard(cardId, dateStr) {
@@ -604,6 +673,31 @@
             }
         });
 
+        // 移动端分类芯片点击
+        mobileCategoryTrack.addEventListener('click', (e) => {
+            const chip = e.target.closest('.mobile-category-chip');
+            if (!chip || !currentDate) return;
+            const catId = chip.dataset.catId;
+            if (!catId) return;
+            // 高亮选中的分类
+            updateMobileCategoryStrip(catId);
+            // 滚动到对应的分类卡片
+            const card = document.getElementById(`card-${catId}`);
+            if (card) {
+                card.scrollIntoView({ behavior: 'smooth', block: 'start' });
+            }
+        });
+
+        // 刷新按钮
+        refreshBtn.addEventListener('click', () => {
+            // 清空所有 localStorage 数据
+            localStorage.clear();
+            // 清空内存缓存
+            contentCache.clear();
+            // 强制从服务器重新加载（加时间戳避免缓存）
+            window.location.href = window.location.pathname + '?t=' + Date.now();
+        });
+
         // 菜单切换
         menuToggle.addEventListener('click', openSidebar);
         sidebarClose.addEventListener('click', closeSidebar);
@@ -664,10 +758,56 @@
             const day = indexData.dates.find(d => d.date === currentDate);
             if (!day) return;
 
-            currentCategory = catId;
-            setActiveCategory(catId);
-            await loadNews(currentDate, file, day.path);
+            if (day.has_multi) {
+                // 多分类格式：滚动到对应卡片
+                currentCategory = catId;
+                setActiveCategory(catId);
+                updateMobileCategoryStrip(catId);
+                const card = document.getElementById(`card-${catId}`);
+                if (card) {
+                    card.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                }
+            } else {
+                // flat 格式：加载对应文件
+                currentCategory = catId;
+                setActiveCategory(catId);
+                await loadNews(currentDate, file, day.path);
+            }
         });
+
+        // 分类标签鼠标拖拽滚动（含防误触）
+        (function enableDragScroll(el) {
+            if (!el) return;
+            let isDown = false, startX, scrollLeft, dragged = false;
+            el.addEventListener('mousedown', (e) => {
+                isDown = true;
+                dragged = false;
+                el.classList.add('grabbing');
+                startX = e.pageX - el.offsetLeft;
+                scrollLeft = el.scrollLeft;
+            });
+            el.addEventListener('mouseleave', () => {
+                isDown = false;
+                el.classList.remove('grabbing');
+            });
+            el.addEventListener('mouseup', () => {
+                isDown = false;
+                el.classList.remove('grabbing');
+                if (dragged) {
+                    // 阻止 click 事件冒泡，避免拖拽后误触
+                    const prevent = (ev) => { ev.stopPropagation(); ev.preventDefault(); };
+                    el.addEventListener('click', prevent, { once: true, capture: true });
+                }
+            });
+            el.addEventListener('mousemove', (e) => {
+                if (!isDown) return;
+                e.preventDefault();
+                const x = e.pageX - el.offsetLeft;
+                const walk = (x - startX) * 1.5;
+                if (Math.abs(walk) > 5) dragged = true;
+                el.scrollLeft = scrollLeft - walk;
+            });
+        })(categoryTabs);
 
         // 前一天/后一天
         prevDay.addEventListener('click', () => {
@@ -702,16 +842,19 @@
         function setNav(hide) {
             const topbar = document.querySelector('.topbar');
             const ds = document.querySelector('.mobile-date-strip');
+            const cs = document.querySelector('.mobile-category-strip');
             const ac = document.querySelector('.app-container');
-            if (!topbar || !ds || !ac) return;
+            if (!topbar || !ds || !cs || !ac) return;
             if (hide) {
                 const h = topbar.offsetHeight;
                 topbar.style.transform = 'translateY(-100%)';
                 ds.style.transform = `translateY(calc(-100% - ${h}px))`;
+                cs.style.transform = `translateY(calc(-200% - ${h}px))`;
                 ac.style.marginTop = '0';
             } else {
                 topbar.style.transform = '';
                 ds.style.transform = '';
+                cs.style.transform = '';
                 ac.style.marginTop = '';
             }
             navHidden = hide;
