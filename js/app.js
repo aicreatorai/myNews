@@ -35,9 +35,6 @@
     const welcomeStats = $('#welcomeStats');
     const themeToggle = $('#themeToggle');
     const refreshBtn = $('#refreshBtn');
-    const mobileActionBar = $('#mobileActionBar');
-    const collapseAllBtn = $('#collapseAllBtn');
-    const expandAllBtn = $('#expandAllBtn');
 
     // ==========================================
     //  缓存工具
@@ -261,9 +258,6 @@
 
         // 更新移动端日期条高亮
         updateMobileStrip(dateStr);
-
-        // 移动端显示收起/展开工具栏
-        mobileActionBar.classList.add('visible');
 
         // 移动端关闭侧边栏
         closeSidebar();
@@ -585,38 +579,6 @@
     }
 
     // ==========================================
-    //  收起全部新闻
-    // ==========================================
-    function collapseAll() {
-        const items = $$('.news-item-wrap');
-        items.forEach(wrap => {
-            if (!wrap.classList.contains('collapsed')) {
-                const body = wrap.querySelector('.news-item-bd');
-                const btn = wrap.querySelector('.news-item-btn');
-                if (body) body.style.display = 'none';
-                if (btn) btn.textContent = '+';
-                wrap.classList.add('collapsed');
-            }
-        });
-    }
-
-    // ==========================================
-    //  展开全部新闻
-    // ==========================================
-    function expandAll() {
-        const items = $$('.news-item-wrap');
-        items.forEach(wrap => {
-            if (wrap.classList.contains('collapsed')) {
-                const body = wrap.querySelector('.news-item-bd');
-                const btn = wrap.querySelector('.news-item-btn');
-                if (body) body.style.display = 'block';
-                if (btn) btn.textContent = '−';
-                wrap.classList.remove('collapsed');
-            }
-        });
-    }
-
-    // ==========================================
     //  简易 Markdown → HTML 渲染器
     // ==========================================
     function renderMarkdown(md) {
@@ -750,10 +712,6 @@
                 card.scrollIntoView({ behavior: 'smooth', block: 'start' });
             }
         });
-
-        // 移动端收起全部/展开全部按钮
-        collapseAllBtn.addEventListener('click', collapseAll);
-        expandAllBtn.addEventListener('click', expandAll);
 
         // 刷新按钮
         refreshBtn.addEventListener('click', () => {
