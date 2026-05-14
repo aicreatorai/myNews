@@ -227,6 +227,11 @@ body {
     padding: 8px 0;
 }
 
+/* 移动端日期条（桌面隐藏） */
+.mobile-date-strip {
+    display: none;
+}
+
 /* 月份分组 */
 .month-group {
     margin-bottom: 4px;
@@ -847,20 +852,23 @@ body {
    Responsive
    ============================================ */
 
-/* Mobile (< 768px) */
+/* ============================================
+   Mobile 专用布局 (< 768px)
+   完全独立的移动版设计
+   ============================================ */
 @media (max-width: 767px) {
     :root {
         --topbar-height: 48px;
     }
 
+    /* --- 顶栏精简 --- */
     .menu-toggle {
-        display: flex;
-        width: 24px;
-        height: 24px;
+        display: none !important;
     }
 
     .logo {
         font-size: 1rem;
+        margin-left: 12px;
     }
 
     .topbar-right {
@@ -874,87 +882,131 @@ body {
     }
 
     .today-badge {
-        font-size: 0.7rem;
-        padding: 2px 8px;
+        display: none;
     }
 
-    .sidebar {
+    /* --- 移动端日期条（替代侧边栏）--- */
+    .mobile-date-strip {
+        display: block !important;
         position: fixed;
         top: var(--topbar-height);
         left: 0;
-        bottom: 0;
-        transform: translateX(-100%);
-        width: 280px;
-        z-index: 700;
-        transition: transform 0.3s ease;
+        right: 0;
+        height: 44px;
+        background: var(--color-sidebar);
+        z-index: 400;
+        overflow: hidden;
+        border-bottom: 1px solid rgba(255,255,255,0.06);
+        -webkit-overflow-scrolling: touch;
     }
 
-    .sidebar.open {
-        transform: translateX(0);
+    .mobile-date-track {
+        display: flex;
+        gap: 6px;
+        padding: 8px 14px;
+        overflow-x: auto;
+        scrollbar-width: none;
+        -webkit-overflow-scrolling: touch;
+        white-space: nowrap;
+        height: 44px;
     }
 
-    .sidebar-close {
-        display: block;
+    .mobile-date-track::-webkit-scrollbar {
+        display: none;
     }
 
-    .sidebar-header h2 {
-        font-size: 0.85rem;
+    .mobile-date-chip {
+        flex-shrink: 0;
+        padding: 4px 12px;
+        border-radius: 16px;
+        font-size: 0.78rem;
+        background: rgba(255,255,255,0.08);
+        color: #bbb;
+        cursor: pointer;
+        transition: var(--transition);
+        border: none;
+        white-space: nowrap;
+        line-height: 1.6;
     }
 
-    .date-item {
-        padding: 6px 14px;
-        font-size: 0.82rem;
+    .mobile-date-chip.active {
+        background: var(--color-primary);
+        color: #fff;
+        font-weight: 600;
     }
 
-    /* 主内容区：减少边距，充分利用屏幕宽度 */
+    .mobile-date-chip .chip-type {
+        font-size: 0.65rem;
+        opacity: 0.7;
+        margin-left: 3px;
+    }
+
+    /* --- 隐藏桌面侧边栏 --- */
+    .sidebar {
+        display: none !important;
+    }
+
+    .overlay {
+        display: none !important;
+    }
+
+    .app-container {
+        margin-top: calc(var(--topbar-height) + 44px);
+    }
+
+    /* --- 主内容全屏宽度 --- */
     .main-content {
-        padding: 8px 6px;
+        padding: 8px 0;
+        max-width: 100%;
     }
 
-    /* 日期标题区域 */
+    /* --- 日期标题 --- */
     .date-header {
-        margin-bottom: 8px;
-        padding-bottom: 8px;
-        padding-left: 4px;
-        padding-right: 4px;
+        padding: 0 14px 8px;
+        margin-bottom: 6px;
     }
 
     .date-header h2 {
-        font-size: 1.05rem;
+        font-size: 1rem;
     }
 
     .date-nav button {
-        width: 32px;
-        height: 32px;
-        font-size: 1rem;
+        width: 36px;
+        height: 36px;
+        font-size: 1.1rem;
     }
 
-    /* 卡片：尽量贴边 */
+    /* --- 卡片全宽无圆角 --- */
     .news-content {
-        gap: 8px;
+        gap: 6px;
+    }
+
+    .news-card {
+        border-radius: 0;
     }
 
     .card-header {
-        padding: 10px 12px;
+        padding: 10px 14px;
     }
 
     .card-title {
-        font-size: 0.9rem;
+        font-size: 0.88rem;
     }
 
     .card-toggle {
-        width: 26px;
-        height: 26px;
-        font-size: 1rem;
+        width: 28px;
+        height: 28px;
+        font-size: 1.05rem;
     }
 
     .card-body {
-        padding: 10px 12px;
+        padding: 10px 14px;
     }
 
-    /* 新闻条目折叠 */
+    /* --- 新闻条目 --- */
     .news-item-wrap {
         margin-bottom: 8px;
+        border-radius: 6px;
     }
 
     .news-item-hdr {
@@ -962,7 +1014,7 @@ body {
     }
 
     .news-item-hdr h3 {
-        font-size: 0.9rem !important;
+        font-size: 0.88rem !important;
         line-height: 1.4;
     }
 
@@ -976,86 +1028,85 @@ body {
         padding: 8px 10px;
     }
 
-    /* 内容排版：增大字号，行距舒适 */
+    /* --- 内容字号适中 --- */
     .card-body h1 {
-        font-size: 1.3rem;
+        font-size: 1.25rem;
     }
 
     .card-body h2 {
-        font-size: 1.1rem;
-        margin: 14px 0 8px !important;
-    }
-
-    .card-body h3 {
-        font-size: 1rem !important;
+        font-size: 1.05rem;
         margin: 12px 0 6px !important;
     }
 
+    .card-body h3 {
+        font-size: 0.95rem !important;
+        margin: 10px 0 5px !important;
+    }
+
     .card-body p {
-        font-size: 0.95rem;
-        line-height: 1.7;
+        font-size: 0.9rem;
+        line-height: 1.65;
     }
 
     .card-body blockquote {
         padding: 6px 10px;
-        margin: 8px 0 !important;
-        font-size: 0.9rem;
-    }
-
-    .card-body code {
-        font-size: 0.88rem;
-    }
-
-    .card-body pre {
-        padding: 10px;
+        margin: 6px 0 !important;
         font-size: 0.85rem;
     }
 
-    /* 表格滚动 */
+    .card-body code {
+        font-size: 0.85rem;
+    }
+
+    .card-body pre {
+        padding: 8px;
+        font-size: 0.82rem;
+    }
+
     .card-body table {
         display: block;
         overflow-x: auto;
         white-space: nowrap;
-        font-size: 0.88rem;
+        font-size: 0.85rem;
     }
 
     .card-body th,
     .card-body td {
-        padding: 6px 8px;
+        padding: 5px 7px;
     }
 
     .card-body hr {
-        margin: 12px 0 !important;
+        margin: 10px 0 !important;
     }
 
     .card-body ul,
     .card-body ol {
-        padding-left: 16px;
-        font-size: 0.92rem;
+        padding-left: 14px;
+        font-size: 0.88rem;
     }
 
-    /* 欢迎页 */
+    /* --- 欢迎页 --- */
     .welcome-card {
-        padding: 28px 16px;
-        margin: 0;
-        border-radius: 8px;
+        padding: 24px 14px;
+        margin: 0 14px;
+        border-radius: 10px;
     }
 
     .welcome-icon {
-        font-size: 2rem;
+        font-size: 1.8rem;
     }
 
     .welcome-card h2 {
-        font-size: 1.2rem;
+        font-size: 1.15rem;
     }
 
     .welcome-stats .stat-num {
-        font-size: 1.3rem;
+        font-size: 1.2rem;
     }
 
     .lazy-placeholder {
-        padding: 16px 0;
-        font-size: 0.85rem;
+        padding: 14px 0;
+        font-size: 0.82rem;
     }
 }
 

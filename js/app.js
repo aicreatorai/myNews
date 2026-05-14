@@ -21,6 +21,7 @@
     const overlay = $('#overlay');
     const dateList = $('#dateList');
     const dateSearch = $('#dateSearch');
+    const mobileDateTrack = $('#mobileDateTrack');
     const welcome = $('#welcome');
     const dateView = $('#dateView');
     const dateTitle = $('#dateTitle');
@@ -58,6 +59,7 @@
         if (cached) {
             indexData = cached;
             renderDateList();
+            renderMobileStrip();
             renderWelcomeStats();
             if (indexData.dates.length > 0) selectDate(indexData.dates[0].date);
         }
@@ -69,9 +71,10 @@
             indexData = fresh;
             // 缓存1小时
             cacheSet('idx', fresh, 3600000);
-            renderDateList();
-            renderWelcomeStats();
-            if (!cached && indexData.dates.length > 0) selectDate(indexData.dates[0].date);
+        renderDateList();
+        renderMobileStrip();
+        renderWelcomeStats();
+        if (!cached && indexData.dates.length > 0) selectDate(indexData.dates[0].date);
         } catch (e) {
             if (cached) return; // 缓存数据已在上面渲染
             newsContent.innerHTML = `
@@ -137,6 +140,35 @@
     }
 
     // ==========================================
+    //  渲染移动端日期条
+    // ==========================================
+    function renderMobileStrip() {
+        if (!indexData || !mobileDateTrack) return;
+        let html = '';
+        // 最多显示30个最近的日期
+        const maxChips = Math.min(30, indexData.dates.length);
+        for (let i = 0; i < maxChips; i++) {
+            const day = indexData.dates[i];
+            const active = currentDate === day.date ? 'active' : '';
+            const label = day.date.slice(5); // MM-DD
+            html += `<button class="mobile-date-chip ${active}" data-date="${day.date}">${label}</button>`;
+        }
+        mobileDateTrack.innerHTML = html;
+    }
+
+    function updateMobileStrip(dateStr) {
+        if (!mobileDateTrack) return;
+        const chips = mobileDateTrack.querySelectorAll('.mobile-date-chip');
+        chips.forEach(ch => {
+            ch.classList.toggle('active', ch.dataset.date === dateStr);
+            if (ch.dataset.date === dateStr) {
+                // 滚动到可见位置
+                ch.scrollIntoView({ behavior: 'smooth', inline: 'center', block: 'nearest' });
+            }
+        });
+    }
+
+    // ==========================================
     //  渲染欢迎页统计
     // ==========================================
     function renderWelcomeStats() {
@@ -198,6 +230,9 @@
             categoryTabs.style.display = 'none';
             await loadNews(dateStr, null, day.path);
         }
+
+        // 更新移动端日期条高亮
+        updateMobileStrip(dateStr);
 
         // 移动端关闭侧边栏
         closeSidebar();
@@ -560,6 +595,14 @@
     function setupEventListeners() {
         // 主题切换
         themeToggle.addEventListener('click', toggleTheme);
+
+        // 移动端日期芯片点击
+        mobileDateTrack.addEventListener('click', (e) => {
+            const chip = e.target.closest('.mobile-date-chip');
+            if (chip && chip.dataset.date) {
+                selectDate(chip.dataset.date);
+            }
+        });
 
         // 菜单切换
         menuToggle.addEventListener('click', openSidebar);
