@@ -849,8 +849,33 @@ body {
 
 /* Mobile (< 768px) */
 @media (max-width: 767px) {
+    :root {
+        --topbar-height: 48px;
+    }
+
     .menu-toggle {
         display: flex;
+        width: 24px;
+        height: 24px;
+    }
+
+    .logo {
+        font-size: 1rem;
+    }
+
+    .topbar-right {
+        gap: 6px;
+    }
+
+    .theme-toggle {
+        width: 30px;
+        height: 30px;
+        font-size: 0.95rem;
+    }
+
+    .today-badge {
+        font-size: 0.7rem;
+        padding: 2px 8px;
     }
 
     .sidebar {
@@ -861,6 +886,7 @@ body {
         transform: translateX(-100%);
         width: 280px;
         z-index: 700;
+        transition: transform 0.3s ease;
     }
 
     .sidebar.open {
@@ -871,29 +897,161 @@ body {
         display: block;
     }
 
+    .sidebar-header h2 {
+        font-size: 0.85rem;
+    }
+
+    .date-item {
+        padding: 6px 14px;
+        font-size: 0.82rem;
+    }
+
     .main-content {
-        padding: 16px;
+        padding: 12px;
     }
 
-    .news-content {
-        padding: 16px 18px;
-    }
-
-    .category-tabs {
-        gap: 4px;
-    }
-
-    .category-tab {
-        font-size: 0.78rem;
-        padding: 4px 10px;
+    /* 日期标题区域 */
+    .date-header {
+        margin-bottom: 12px;
+        padding-bottom: 10px;
     }
 
     .date-header h2 {
-        font-size: 1.1rem;
+        font-size: 1rem;
     }
 
+    .date-nav button {
+        width: 32px;
+        height: 32px;
+        font-size: 1rem;
+    }
+
+    /* 卡片 */
+    .news-content {
+        gap: 10px;
+    }
+
+    .card-header {
+        padding: 10px 12px;
+    }
+
+    .card-title {
+        font-size: 0.85rem;
+    }
+
+    .card-toggle {
+        width: 24px;
+        height: 24px;
+        font-size: 0.95rem;
+    }
+
+    .card-body {
+        padding: 12px 14px;
+    }
+
+    /* 新闻条目折叠 */
+    .news-item-wrap {
+        margin-bottom: 10px;
+    }
+
+    .news-item-hdr {
+        padding: 8px 10px;
+    }
+
+    .news-item-hdr h3 {
+        font-size: 0.85rem !important;
+        line-height: 1.4;
+    }
+
+    .news-item-btn {
+        width: 20px;
+        height: 20px;
+        font-size: 0.85rem;
+    }
+
+    .news-item-bd {
+        padding: 10px 12px;
+    }
+
+    /* 内容排版 */
+    .card-body h1 {
+        font-size: 1.2rem;
+    }
+
+    .card-body h2 {
+        font-size: 1rem;
+        margin: 14px 0 8px !important;
+    }
+
+    .card-body h3 {
+        font-size: 0.92rem !important;
+        margin: 12px 0 6px !important;
+    }
+
+    .card-body p {
+        font-size: 0.88rem;
+        line-height: 1.65;
+    }
+
+    .card-body blockquote {
+        padding: 6px 10px;
+        margin: 8px 0 !important;
+        font-size: 0.85rem;
+    }
+
+    .card-body code {
+        font-size: 0.8rem;
+    }
+
+    .card-body pre {
+        padding: 10px;
+        font-size: 0.78rem;
+    }
+
+    /* 表格滚动 */
+    .card-body table {
+        display: block;
+        overflow-x: auto;
+        white-space: nowrap;
+        font-size: 0.82rem;
+    }
+
+    .card-body th,
+    .card-body td {
+        padding: 6px 8px;
+    }
+
+    .card-body hr {
+        margin: 12px 0 !important;
+    }
+
+    .card-body ul,
+    .card-body ol {
+        padding-left: 16px;
+        font-size: 0.88rem;
+    }
+
+    /* 欢迎页 */
     .welcome-card {
-        padding: 32px 20px;
+        padding: 28px 16px;
+        margin: 0 4px;
+    }
+
+    .welcome-icon {
+        font-size: 2rem;
+    }
+
+    .welcome-card h2 {
+        font-size: 1.15rem;
+    }
+
+    .welcome-stats .stat-num {
+        font-size: 1.2rem;
+    }
+
+    .lazy-placeholder {
+        padding: 16px 0;
+        font-size: 0.8rem;
     }
 }
 
