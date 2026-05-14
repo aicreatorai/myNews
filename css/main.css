@@ -864,7 +864,7 @@ body {
     }
 
     .topbar-right {
-        gap: 6px;
+        gap: 4px;
     }
 
     .theme-toggle {
@@ -906,18 +906,21 @@ body {
         font-size: 0.82rem;
     }
 
+    /* 主内容区：减少边距，充分利用屏幕宽度 */
     .main-content {
-        padding: 12px;
+        padding: 8px 6px;
     }
 
     /* 日期标题区域 */
     .date-header {
-        margin-bottom: 12px;
-        padding-bottom: 10px;
+        margin-bottom: 8px;
+        padding-bottom: 8px;
+        padding-left: 4px;
+        padding-right: 4px;
     }
 
     .date-header h2 {
-        font-size: 1rem;
+        font-size: 1.05rem;
     }
 
     .date-nav button {
@@ -926,9 +929,9 @@ body {
         font-size: 1rem;
     }
 
-    /* 卡片 */
+    /* 卡片：尽量贴边 */
     .news-content {
-        gap: 10px;
+        gap: 8px;
     }
 
     .card-header {
@@ -936,22 +939,22 @@ body {
     }
 
     .card-title {
-        font-size: 0.85rem;
+        font-size: 0.9rem;
     }
 
     .card-toggle {
-        width: 24px;
-        height: 24px;
-        font-size: 0.95rem;
+        width: 26px;
+        height: 26px;
+        font-size: 1rem;
     }
 
     .card-body {
-        padding: 12px 14px;
+        padding: 10px 12px;
     }
 
     /* 新闻条目折叠 */
     .news-item-wrap {
-        margin-bottom: 10px;
+        margin-bottom: 8px;
     }
 
     .news-item-hdr {
@@ -959,53 +962,53 @@ body {
     }
 
     .news-item-hdr h3 {
-        font-size: 0.85rem !important;
+        font-size: 0.9rem !important;
         line-height: 1.4;
     }
 
     .news-item-btn {
-        width: 20px;
-        height: 20px;
-        font-size: 0.85rem;
+        width: 22px;
+        height: 22px;
+        font-size: 0.9rem;
     }
 
     .news-item-bd {
-        padding: 10px 12px;
+        padding: 8px 10px;
     }
 
-    /* 内容排版 */
+    /* 内容排版：增大字号，行距舒适 */
     .card-body h1 {
-        font-size: 1.2rem;
+        font-size: 1.3rem;
     }
 
     .card-body h2 {
-        font-size: 1rem;
+        font-size: 1.1rem;
         margin: 14px 0 8px !important;
     }
 
     .card-body h3 {
-        font-size: 0.92rem !important;
+        font-size: 1rem !important;
         margin: 12px 0 6px !important;
     }
 
     .card-body p {
-        font-size: 0.88rem;
-        line-height: 1.65;
+        font-size: 0.95rem;
+        line-height: 1.7;
     }
 
     .card-body blockquote {
         padding: 6px 10px;
         margin: 8px 0 !important;
-        font-size: 0.85rem;
+        font-size: 0.9rem;
     }
 
     .card-body code {
-        font-size: 0.8rem;
+        font-size: 0.88rem;
     }
 
     .card-body pre {
         padding: 10px;
-        font-size: 0.78rem;
+        font-size: 0.85rem;
     }
 
     /* 表格滚动 */
@@ -1013,7 +1016,7 @@ body {
         display: block;
         overflow-x: auto;
         white-space: nowrap;
-        font-size: 0.82rem;
+        font-size: 0.88rem;
     }
 
     .card-body th,
@@ -1028,13 +1031,14 @@ body {
     .card-body ul,
     .card-body ol {
         padding-left: 16px;
-        font-size: 0.88rem;
+        font-size: 0.92rem;
     }
 
     /* 欢迎页 */
     .welcome-card {
         padding: 28px 16px;
-        margin: 0 4px;
+        margin: 0;
+        border-radius: 8px;
     }
 
     .welcome-icon {
@@ -1042,16 +1046,16 @@ body {
     }
 
     .welcome-card h2 {
-        font-size: 1.15rem;
+        font-size: 1.2rem;
     }
 
     .welcome-stats .stat-num {
-        font-size: 1.2rem;
+        font-size: 1.3rem;
     }
 
     .lazy-placeholder {
         padding: 16px 0;
-        font-size: 0.8rem;
+        font-size: 0.85rem;
     }
 }
 
