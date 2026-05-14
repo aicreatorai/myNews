@@ -51,6 +51,9 @@ Thumbs.db
 # 本地测试产生的文件
 # news/2026*/  注释掉：news 目录需要提交到 GitHub Pages
 
+# CodeBuddy 本地配置（不提交）
+.codebuddy/
+
 # WorkBuddy 本地配置（不提交）
 .workbuddy/
 
@@ -63,3 +66,4 @@ Thumbs.db
 englishStudy/.codebuddy/
 englishStudy/.vocab_*.json
   test-results/
+test-results/
