@@ -34,14 +34,46 @@
     const themeToggle = $('#themeToggle');
 
     // ==========================================
+    //  缓存工具
+    // ==========================================
+    function cacheGet(key) {
+        try {
+            const raw = localStorage.getItem(key);
+            if (!raw) return null;
+            const { data, expiry } = JSON.parse(raw);
+            if (Date.now() > expiry) { localStorage.removeItem(key); return null; }
+            return data;
+        } catch { return null; }
+    }
+    function cacheSet(key, data, ttl) {
+        localStorage.setItem(key, JSON.stringify({ data, expiry: Date.now() + ttl }));
+    }
+
+    // ==========================================
     //  初始化
     // ==========================================
     document.addEventListener('DOMContentLoaded', async () => {
+        // 尝试从缓存加载索引
+        const cached = cacheGet('idx');
+        if (cached) {
+            indexData = cached;
+            renderDateList();
+            renderWelcomeStats();
+            if (indexData.dates.length > 0) selectDate(indexData.dates[0].date);
+        }
+
         try {
             const resp = await fetch('news-index.json');
             if (!resp.ok) throw new Error('HTTP ' + resp.status);
-            indexData = await resp.json();
+            const fresh = await resp.json();
+            indexData = fresh;
+            // 缓存1小时
+            cacheSet('idx', fresh, 3600000);
+            renderDateList();
+            renderWelcomeStats();
+            if (!cached && indexData.dates.length > 0) selectDate(indexData.dates[0].date);
         } catch (e) {
+            if (cached) return; // 缓存数据已在上面渲染
             newsContent.innerHTML = `
                 <div class="error-msg">
                     <h3>⚠️ 数据加载失败</h3>
@@ -49,14 +81,6 @@
                     <p style="font-size:0.82rem;color:#999;margin-top:8px;">${e.message}</p>
                 </div>`;
             return;
-        }
-
-        renderDateList();
-        renderWelcomeStats();
-
-        // 默认选中最新日期
-        if (indexData.dates.length > 0) {
-            selectDate(indexData.dates[0].date);
         }
 
         // 今日 badge
@@ -288,10 +312,21 @@
         const catName = card.dataset.catname;
         const cacheKey = `${dateStr}|${catFile}`;
 
-        // 命中缓存
+        // 命中内存缓存
         if (contentCache.has(cacheKey)) {
             const body = card.querySelector('.card-body');
             body.innerHTML = contentCache.get(cacheKey);
+            addNewsToggle(body);
+            card.dataset.loaded = '1';
+            return;
+        }
+        // 命中 localStorage 缓存（首卡）
+        const lsKey = 'card_' + cacheKey;
+        const lsCached = cacheGet(lsKey);
+        if (lsCached) {
+            contentCache.set(cacheKey, lsCached);
+            const body = card.querySelector('.card-body');
+            body.innerHTML = lsCached;
             addNewsToggle(body);
             card.dataset.loaded = '1';
             return;
@@ -307,8 +342,10 @@
             const markdown = await resp.text();
             const html = renderMarkdown(markdown);
 
-            // 缓存
+            // 缓存（内存 + localStorage，首卡存24h）
             contentCache.set(cacheKey, html);
+            const isFirstCard = cardId === 'card-01';
+            if (isFirstCard) cacheSet('card_' + cacheKey, html, 86400000);
             body.innerHTML = html;
             addNewsToggle(body);
             card.dataset.loaded = '1';
