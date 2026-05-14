@@ -230,21 +230,34 @@ body {
 /* 移动端日期条（桌面隐藏） */
 .mobile-date-strip {
     display: none;
-    background: var(--color-sidebar);
+    background: var(--color-surface);
+    border-bottom: 1px solid var(--color-border);
+    box-shadow: 0 1px 3px rgba(0,0,0,0.04);
 }
 
 [data-theme="dark"] .mobile-date-strip {
     background: var(--color-sidebar);
-    border-bottom-color: rgba(255,255,255,0.08);
+    border-bottom-color: rgba(255,255,255,0.06);
+    box-shadow: none;
 }
 
 [data-theme="dark"] .app-container {
     background: var(--color-bg);
 }
 
+.mobile-date-chip {
+    background: rgba(0,0,0,0.05);
+    color: var(--color-text-secondary);
+}
+
+.mobile-date-chip.active {
+    background: var(--color-primary);
+    color: #fff;
+}
+
 [data-theme="dark"] .mobile-date-chip {
-    color: #aaa;
     background: rgba(255,255,255,0.1);
+    color: #bbb;
 }
 
 [data-theme="dark"] .mobile-date-chip.active {
@@ -913,10 +926,8 @@ body {
         left: 0;
         right: 0;
         height: 44px;
-        background: var(--color-sidebar);
         z-index: 400;
         overflow: hidden;
-        border-bottom: 1px solid rgba(255,255,255,0.06);
         -webkit-overflow-scrolling: touch;
     }
 
