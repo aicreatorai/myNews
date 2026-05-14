@@ -581,6 +581,13 @@ body {
     transition: display 0.2s allow-discrete;
 }
 
+.lazy-placeholder {
+    text-align: center;
+    padding: 24px 0;
+    color: var(--color-text-secondary);
+    font-size: 0.85rem;
+}
+
 .card-body h1 {
     font-size: 1.5rem;
     font-weight: 700;

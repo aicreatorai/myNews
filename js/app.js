@@ -9,6 +9,7 @@
     let indexData = null;
     let currentDate = null;
     let currentCategory = null;
+    const contentCache = new Map();  // "date|file" → html
 
     // --- DOM refs ---
     const $ = (s) => document.querySelector(s);
@@ -252,49 +253,67 @@
     async function loadAllCategories(dateStr, categories, basePath) {
         newsContent.innerHTML = '';
 
-        for (const cat of categories) {
+        for (let i = 0; i < categories.length; i++) {
+            const cat = categories[i];
             const cardId = `card-${cat.id}`;
+            const isFirst = (i === 0);
             const cardHtml = `
-                <div class="news-card" id="${cardId}">
+                <div class="news-card" id="${cardId}" data-loaded="${isFirst ? '0' : '0'}" data-catfile="${cat.file}" data-basepath="${basePath}" data-catid="${cat.id}" data-caticon="${cat.icon}" data-catname="${cat.name}">
                     <div class="card-header">
                         <span class="card-title">${cat.icon} ${cat.name}</span>
                         <button class="card-toggle" aria-label="收起/展开" title="收起/展开">−</button>
                     </div>
                     <div class="card-body">
-                        <div class="loading" style="display:flex;">
-                            <div class="spinner"></div>
-                            <p>加载中...</p>
-                        </div>
+                        ${isFirst ? '<div class="loading" style="display:flex;"><div class="spinner"></div><p>加载中...</p></div>' : '<div class="lazy-placeholder">点击展开加载</div>'}
                     </div>
                 </div>`;
             newsContent.insertAdjacentHTML('beforeend', cardHtml);
 
-            // 异步加载内容
-            loadCardContent(cat, basePath, cardId);
+            // 仅第一个卡片自动加载
+            if (isFirst) {
+                lazyLoadCard(cardId, dateStr);
+            }
         }
     }
 
-    async function loadCardContent(cat, basePath, cardId) {
+    async function lazyLoadCard(cardId, dateStr) {
+        const card = document.getElementById(cardId);
+        if (!card) return;
+        const loaded = card.dataset.loaded;
+        if (loaded === '1') return;
+
+        const catFile = card.dataset.catfile;
+        const basePath = card.dataset.basepath;
+        const catId = card.dataset.catid;
+        const catName = card.dataset.catname;
+        const cacheKey = `${dateStr}|${catFile}`;
+
+        // 命中缓存
+        if (contentCache.has(cacheKey)) {
+            const body = card.querySelector('.card-body');
+            body.innerHTML = contentCache.get(cacheKey);
+            addNewsToggle(body);
+            card.dataset.loaded = '1';
+            return;
+        }
+
+        const body = card.querySelector('.card-body');
+        body.innerHTML = '<div class="loading" style="display:flex;"><div class="spinner"></div><p>加载中...</p></div>';
+
         try {
-            const url = `news/${basePath}/${cat.file}`;
+            const url = `news/${basePath}/${catFile}`;
             const resp = await fetch(url);
             if (!resp.ok) throw new Error(`HTTP ${resp.status}`);
             const markdown = await resp.text();
             const html = renderMarkdown(markdown);
 
-            const card = document.getElementById(cardId);
-            if (card) {
-                const body = card.querySelector('.card-body');
-                body.innerHTML = html;
-                // 给每条新闻添加折叠
-                addNewsToggle(body);
-            }
+            // 缓存
+            contentCache.set(cacheKey, html);
+            body.innerHTML = html;
+            addNewsToggle(body);
+            card.dataset.loaded = '1';
         } catch (e) {
-            const card = document.getElementById(cardId);
-            if (card) {
-                const body = card.querySelector('.card-body');
-                body.innerHTML = `<div class="error-msg"><p>⚠️ ${cat.name} 加载失败</p></div>`;
-            }
+            body.innerHTML = `<div class="error-msg"><p>⚠️ ${catName} 加载失败</p></div>`;
         }
     }
 
@@ -521,9 +540,15 @@
         newsContent.addEventListener('click', (e) => {
             const header = e.target.closest('.card-header');
             if (!header) return;
-            // 点击卡片头部的任意位置切换，按钮区域也是卡片头部的一部分
             const card = header.closest('.news-card');
             if (!card) return;
+
+            // 首次展开时懒加载
+            const loaded = card.dataset.loaded;
+            if (loaded === '0' && currentDate) {
+                lazyLoadCard(card.id, currentDate);
+            }
+
             const body = card.querySelector('.card-body');
             const btn = card.querySelector('.card-toggle');
             const isCollapsed = body.style.display === 'none';
