@@ -1056,6 +1056,44 @@ body {
         z-index: 399;
     }
 
+    /* 移动端收起/展开工具栏 */
+    .mobile-action-bar {
+        display: none;
+        position: fixed;
+        left: 0;
+        right: 0;
+        top: calc(var(--topbar-height) + 44px + 44px);
+        z-index: 398;
+        background: var(--color-bg);
+        border-bottom: 1px solid var(--color-border);
+        padding: 6px 14px;
+        gap: 8px;
+        justify-content: center;
+    }
+
+    .mobile-action-bar.visible {
+        display: flex;
+    }
+
+    .mobile-action-btn {
+        flex: 1;
+        max-width: 160px;
+        padding: 6px 12px;
+        border-radius: 8px;
+        border: 1px solid var(--color-border);
+        background: var(--color-surface);
+        color: var(--color-text);
+        font-size: 0.82rem;
+        cursor: pointer;
+        transition: var(--transition);
+    }
+
+    .mobile-action-btn:active {
+        background: var(--color-primary);
+        color: #fff;
+        border-color: var(--color-primary);
+    }
+
     .mobile-date-track,
     .mobile-category-track {
         display: flex;
@@ -1116,7 +1154,7 @@ body {
     }
 
     .app-container {
-        margin-top: calc(var(--topbar-height) + 44px + 44px);
+        margin-top: calc(var(--topbar-height) + 44px + 44px + 44px);
     }
 
     /* --- 主内容全屏宽度 --- */
