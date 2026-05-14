@@ -709,16 +709,16 @@
             const isAtTop = currentY <= 5;
             const isAtBottom = currentY + window.innerHeight >= document.body.scrollHeight - 10;
 
-            // 向下滚动（delta > 0）且超过容错阈值 → 隐藏
-            // 容错：只有连续向下超过 20px 才触发隐藏
+            // 向下滚动超过阈值 → 隐藏
             if (delta > 20 && !isAtTop && !isAtBottom) {
                 const topH = topbar.offsetHeight;
                 topbar.style.transform = 'translateY(-100%)';
                 dateStrip.style.transform = `translateY(calc(-100% - ${topH}px))`;
                 appContainer.style.marginTop = '0';
             }
-            // 向上滚动、或停留在顶部/底部 → 显示
-            else if (delta < -10 || isAtTop || isAtBottom) {
+            // 向上滚动较大幅度、或停留在顶部/底部 → 显示
+            // 设置 30px 容错：避免手指小幅下滑误触显示
+            else if (delta < -30 || isAtTop || isAtBottom) {
                 topbar.style.transform = '';
                 dateStrip.style.transform = '';
                 appContainer.style.marginTop = '';
