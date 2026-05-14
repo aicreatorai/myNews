@@ -1081,7 +1081,7 @@ body {
     .mobile-date-chip,
     .mobile-category-chip {
         flex-shrink: 0;
-        padding: 6px 14px;
+        padding: 4px 12px;
         border-radius: 16px;
         font-size: 0.9rem;
         background: rgba(255,255,255,0.08);
