@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>早间新闻</title>
     <link rel="stylesheet" href="css/main.css">
+    <link rel="preload" href="news-index.json" as="fetch" crossorigin="anonymous">
+    <link rel="prefetch" href="news-index.json">
 </head>
 <body>
     <!-- 顶部导航 -->
@@ -38,11 +40,16 @@
         <main class="main-content" id="mainContent">
             <!-- 首页欢迎 -->
             <section class="welcome" id="welcome">
-                <div class="welcome-card">
+                <div class="welcome-card" id="welcomeCard">
                     <div class="welcome-icon">📰</div>
                     <h2>早间新闻浏览器</h2>
                     <p>从左侧选择日期浏览每日早间新闻</p>
-                    <div class="welcome-stats" id="welcomeStats"></div>
+                    <div class="welcome-stats" id="welcomeStats">
+                        <div class="loading" style="display:flex;padding:10px 0;">
+                            <div class="spinner"></div>
+                            <p style="margin-left:8px;">加载索引中...</p>
+                        </div>
+                    </div>
                 </div>
             </section>
 
