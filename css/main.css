@@ -366,49 +366,6 @@ body {
     color: #fff;
 }
 
-/* 移动端分类条头部 */
-.mobile-category-header {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 8px 14px 4px;
-    border-bottom: 1px solid var(--color-border);
-}
-
-.mobile-category-title {
-    font-size: 0.82rem;
-    color: var(--color-text-secondary);
-    font-weight: 500;
-}
-
-.mobile-category-toggle {
-    background: none;
-    border: none;
-    font-size: 0.82rem;
-    color: var(--color-primary);
-    cursor: pointer;
-    padding: 2px 8px;
-    border-radius: 4px;
-    transition: var(--transition);
-}
-
-.mobile-category-toggle:active {
-    background: rgba(0,0,0,0.05);
-}
-
-[data-theme="dark"] .mobile-category-toggle:active {
-    background: rgba(255,255,255,0.1);
-}
-
-/* 分类条收起状态 */
-.mobile-category-strip.collapsed .mobile-category-track {
-    display: none;
-}
-
-.mobile-category-strip.collapsed {
-    height: auto;
-}
-
 .mobile-date-chip {
     background: rgba(0,0,0,0.05);
     color: var(--color-text-secondary);
