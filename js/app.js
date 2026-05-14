@@ -691,49 +691,75 @@
         });
 
         // ==========================================
-        //  移动端滚动隐藏/显示导航条
+        //  移动端滚动隐藏/显示导航条（状态机）
         // ==========================================
-        let lastScrollY = 0;
-        let scrollTicking = false;
+        let lastScrollY_m = 0;
+        let scrollTicking_m = false;
+        let navHidden = false;
+        let dirDist = 0;      // 当前方向累计滚动距离
+        let scrollDir_m = 0;  // 1=下滚(隐藏), -1=上滚(显示)
+
+        function setNav(hide) {
+            const topbar = document.querySelector('.topbar');
+            const ds = document.querySelector('.mobile-date-strip');
+            const ac = document.querySelector('.app-container');
+            if (!topbar || !ds || !ac) return;
+            if (hide) {
+                const h = topbar.offsetHeight;
+                topbar.style.transform = 'translateY(-100%)';
+                ds.style.transform = `translateY(calc(-100% - ${h}px))`;
+                ac.style.marginTop = '0';
+            } else {
+                topbar.style.transform = '';
+                ds.style.transform = '';
+                ac.style.marginTop = '';
+            }
+            navHidden = hide;
+        }
 
         function handleMobileScroll() {
             if (window.innerWidth >= 768) return;
 
-            const topbar = document.querySelector('.topbar');
-            const dateStrip = document.querySelector('.mobile-date-strip');
-            const appContainer = document.querySelector('.app-container');
-            if (!topbar || !dateStrip || !appContainer) return;
+            const cy = window.scrollY;
+            const delta = cy - lastScrollY_m;
+            const atTop = cy <= 15;
+            const atBot = cy + window.innerHeight >= document.body.scrollHeight - 15;
 
-            const currentY = window.scrollY;
-            const delta = currentY - lastScrollY;
-            const isAtTop = currentY <= 5;
-            const isAtBottom = currentY + window.innerHeight >= document.body.scrollHeight - 10;
-
-            // 向下滚动超过阈值 → 隐藏
-            if (delta > 20 && !isAtTop && !isAtBottom) {
-                const topH = topbar.offsetHeight;
-                topbar.style.transform = 'translateY(-100%)';
-                dateStrip.style.transform = `translateY(calc(-100% - ${topH}px))`;
-                appContainer.style.marginTop = '0';
+            // 顶部/底部 → 强制显示
+            if (atTop || atBot) {
+                if (navHidden) setNav(false);
+                lastScrollY_m = cy; scrollDir_m = 0; dirDist = 0;
+                return;
             }
-            // 向上滚动较大幅度、或停留在顶部/底部 → 显示
-            // 设置 30px 容错：避免手指小幅下滑误触显示
-            else if (delta < -30 || isAtTop || isAtBottom) {
-                topbar.style.transform = '';
-                dateStrip.style.transform = '';
-                appContainer.style.marginTop = '';
+            if (navHidden && delta > 0) {
+                // 已隐藏且继续下滑 → 清零上行累计，防止手指抖动积累方向
+                lastScrollY_m = cy; scrollDir_m = 0; dirDist = 0;
+                return;
             }
 
-            lastScrollY = currentY;
+            if (delta > 0) {
+                // 正在下滑（用户上滑屏幕 → 朝隐藏方向）
+                if (scrollDir_m === 1) dirDist += delta;
+                else { scrollDir_m = 1; dirDist = delta; }
+                if (dirDist > 15 && !navHidden) setNav(true);
+            } else if (delta < 0) {
+                // 正在上滑（用户下滑屏幕 → 朝显示方向）
+                if (scrollDir_m === -1) dirDist += Math.abs(delta);
+                else { scrollDir_m = -1; dirDist = Math.abs(delta); }
+                // 需要较大幅度上滑才显示，避免抬起手指时的微小抖动触发
+                if (dirDist > 50 && navHidden) setNav(false);
+            }
+
+            lastScrollY_m = cy;
         }
 
         window.addEventListener('scroll', () => {
-            if (!scrollTicking) {
+            if (!scrollTicking_m) {
                 window.requestAnimationFrame(() => {
                     handleMobileScroll();
-                    scrollTicking = false;
+                    scrollTicking_m = false;
                 });
-                scrollTicking = true;
+                scrollTicking_m = true;
             }
         }, { passive: true });
     }
