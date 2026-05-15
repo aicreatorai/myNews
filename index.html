@@ -16,6 +16,14 @@
                 document.documentElement.setAttribute('data-theme', 'dark');
             }
         })();
+        // ★ 子路径适配：自动检测部署路径（GitHub Pages子目录等）
+        (function() {
+            var path = window.location.pathname;
+            var base = path.substring(0, path.lastIndexOf('/') + 1);
+            var baseTag = document.createElement('base');
+            baseTag.href = base;
+            document.head.appendChild(baseTag);
+        })();
     </script>
     <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
     <meta http-equiv="Pragma" content="no-cache">

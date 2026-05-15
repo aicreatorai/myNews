@@ -194,8 +194,8 @@ def git_commit_push(date_params):
     date_str = date_params["DATE"]
     cmds = [
         f"git add news/ news-index.json task/knowledge-index*.json",
-        f'git commit -m "{date_str} 早间新闻（15板块）"',
-        "git push gitee main",
+        f'git commit -m "{date_str} 早间新闻（12板块）"',
+        "git push origin main",
     ]
     for cmd in cmds:
         result = subprocess.run(cmd, cwd=BASE_DIR, shell=True, capture_output=True, text=True)
@@ -209,7 +209,7 @@ def git_commit_push(date_params):
         if "create mode" in out or "changed" in out or "main -> main" in out:
             print(f"  ✅ {out.split(chr(10))[0]}")
 
-    print(f"\n  ✅ 已推送至 Gitee: {date_str} 早间新闻（15板块）")
+    print(f"\n  ✅ 已推送至 Gitee & GitHub: {date_str} 早间新闻（12板块）")
     return True
 
 # ─── 后置步骤（组合） ──────────────────────────────────────
