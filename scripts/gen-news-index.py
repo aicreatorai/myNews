@@ -111,6 +111,21 @@ def scan():
             index["months"].append(month_data)
             index["dates"].extend(month_data["dates"])
 
+    # 日期去重：同一天既有subdir又有flat时，优先保留subdir
+    seen_dates = set()
+    deduped_dates = []
+    for d in index["dates"]:
+        if d["date"] not in seen_dates:
+            seen_dates.add(d["date"])
+            deduped_dates.append(d)
+        else:
+            # 已存在该日期，subdir 优先级高于 flat
+            for i, existing in enumerate(deduped_dates):
+                if existing["date"] == d["date"] and existing["format"] == "flat" and d["format"] == "subdir":
+                    deduped_dates[i] = d
+                    break
+    index["dates"] = deduped_dates
+
     # 按日期降序排列
     index["dates"].sort(key=lambda x: x["date"], reverse=True)
     for m in index["months"]:

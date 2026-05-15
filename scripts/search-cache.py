@@ -5,33 +5,45 @@
 
 用法：
   python3 search-cache.py search <关键词> <搜索结果>   # 缓存搜索结果
-  python3 search-cache.py get <关键词>                 # 查询缓存
+  python3 search-cache.py get <关键词>                 # 查询缓存（结果输出到stdout）
   python3 search-cache.py has <关键词>                  # 检查是否存在
   python3 search-cache.py list                          # 列出所有缓存
   python3 search-cache.py stats                         # 统计信息
   python3 search-cache.py clean <天>                    # 清理 N 天前的缓存
+
+退出码：
+  get/has: 0=存在, 1=不存在
+  search: 0=成功
 """
 
-import json, sys, os, time
+import json, sys, os, time, fcntl
 from datetime import datetime, timedelta
 
 CACHE_DIR = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "task")
 CACHE_FILE = os.path.join(CACHE_DIR, "search-cache.json")
 
 def _load():
+    """线程安全读取"""
+    os.makedirs(CACHE_DIR, exist_ok=True)
     if not os.path.exists(CACHE_FILE):
         return {}
     with open(CACHE_FILE, 'r', encoding='utf-8') as f:
-        return json.load(f)
+        fcntl.flock(f.fileno(), fcntl.LOCK_SH)
+        data = json.load(f)
+        fcntl.flock(f.fileno(), fcntl.LOCK_UN)
+        return data
 
 def _save(data):
+    """线程安全写入"""
+    os.makedirs(CACHE_DIR, exist_ok=True)
     with open(CACHE_FILE, 'w', encoding='utf-8') as f:
+        fcntl.flock(f.fileno(), fcntl.LOCK_EX)
         json.dump(data, f, ensure_ascii=False, indent=2)
+        fcntl.flock(f.fileno(), fcntl.LOCK_UN)
 
 def _normalize_key(keyword):
     """归一化关键词，去除多余空格和日期后缀 -> 统一缓存命中"""
     kw = keyword.strip().lower()
-    # 移除日期范围后缀 "{DATE-1}至{DATE}" 类
     for pattern in [
         r'\s*\{date[^}]*\}\s*至\s*\{date[^}]*\}',
         r'\s*\{date[^}]*\}',
@@ -57,24 +69,22 @@ def search(keyword, result):
     print(f"✅ 已缓存: [{key}]")
 
 def get(keyword):
-    """获取缓存结果"""
+    """获取缓存结果。结果写入stdout，可通过 $(cmd) 捕获。退出码0=命中,1=未命中"""
     data = _load()
     key = _normalize_key(keyword)
     entry = data.get(key)
     if entry:
-        print(f"🟢 缓存命中: [{key}] (缓存于 {entry['cached_at']})")
-        return entry["result"]
-    print(f"🔴 缓存未命中: [{key}]")
-    return None
+        # 结果内容输出到stdout，供 shell 捕获
+        print(entry["result"])
+        return 0
+    # 未命中时退出码为1
+    return 1
 
 def has(keyword):
-    """检查缓存是否存在"""
+    """检查缓存是否存在。退出码0=存在,1=不存在"""
     data = _load()
     key = _normalize_key(keyword)
-    exists = key in data
-    status = "🟢 缓存存在" if exists else "🔴 缓存未命中"
-    print(f"{status}: [{key}]")
-    return exists
+    return 0 if key in data else 1
 
 def list_all():
     """列出所有缓存条目"""
@@ -113,7 +123,7 @@ def clean(days=7):
 
 if __name__ == "__main__":
     if len(sys.argv) < 2:
-        print(__doc__)
+        print(__doc__.strip())
         sys.exit(1)
 
     cmd = sys.argv[1]
@@ -128,13 +138,15 @@ if __name__ == "__main__":
         if len(sys.argv) < 3:
             print("用法: python3 search-cache.py get <关键词>")
             sys.exit(1)
-        get(sys.argv[2])
+        rc = get(sys.argv[2])
+        sys.exit(rc)
 
     elif cmd == "has":
         if len(sys.argv) < 3:
             print("用法: python3 search-cache.py has <关键词>")
             sys.exit(1)
-        has(sys.argv[2])
+        rc = has(sys.argv[2])
+        sys.exit(rc)
 
     elif cmd == "list":
         list_all()
@@ -147,4 +159,4 @@ if __name__ == "__main__":
         clean(days)
 
     else:
-        print(__doc__)
+        print(__doc__.strip())

@@ -8,8 +8,11 @@
   python3 manage-knowledge.py list <模块编号>                 # 列出某模块所有记录
 """
 
-import json, sys, os, re
+import json, sys, os, re, fcntl
 from difflib import SequenceMatcher
+
+# 知识类模块白名单（仅这些模块需要知识索引）
+KNOWLEDGE_MODULES = {"07", "08", "09", "10", "12", "13", "14", "15"}
 
 BASE_DIR = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "task")
 
@@ -17,27 +20,46 @@ def _module_path(module_id):
     """每个模块独立文件，避免单文件膨胀"""
     return os.path.join(BASE_DIR, f"knowledge-index-{module_id}.json")
 
+def _valid_module(module_id):
+    """验证是否为知识类模块，非知识类模块拒绝操作"""
+    if module_id not in KNOWLEDGE_MODULES:
+        print(f"⚠️ 模块 {module_id} 不是知识类模块，无需知识索引。", file=sys.stderr)
+        return False
+    return True
+
+def _read_json(path):
+    """线程安全的JSON读取"""
+    with open(path, 'r', encoding='utf-8') as f:
+        fcntl.flock(f.fileno(), fcntl.LOCK_SH)
+        data = json.load(f)
+        fcntl.flock(f.fileno(), fcntl.LOCK_UN)
+        return data
+
+def _write_json(path, data):
+    """线程安全的JSON写入"""
+    with open(path, 'w', encoding='utf-8') as f:
+        fcntl.flock(f.fileno(), fcntl.LOCK_EX)
+        json.dump(data, f, ensure_ascii=False, indent=2)
+        fcntl.flock(f.fileno(), fcntl.LOCK_UN)
+
 def load(module_id=None):
     """加载数据。module_id指定则只加载该模块，否则加载全部（用于list --all）"""
     if module_id:
         path = _module_path(module_id)
         if not os.path.exists(path):
             return []
-        with open(path, 'r', encoding='utf-8') as f:
-            return json.load(f)
+        return _read_json(path)
 
     # 合并所有模块（仅 list --all 时使用）
     all_data = []
     for fname in os.listdir(BASE_DIR):
         if fname.startswith("knowledge-index-") and fname.endswith(".json"):
-            with open(os.path.join(BASE_DIR, fname), 'r', encoding='utf-8') as f:
-                all_data.extend(json.load(f))
+            all_data.extend(_read_json(os.path.join(BASE_DIR, fname)))
     return all_data
 
 def save(data, module_id):
     path = _module_path(module_id)
-    with open(path, 'w', encoding='utf-8') as f:
-        json.dump(data, f, ensure_ascii=False, indent=2)
+    _write_json(path, data)
 
 LEVEL_MAP = {
     "L1": "概念层 - 是什么、解决什么问题、与什么不同",
@@ -160,6 +182,7 @@ if __name__ == "__main__":
     mod = sys.argv[2]
 
     if cmd == "check":
+        if not _valid_module(mod): sys.exit(0)
         topic = sys.argv[3] if len(sys.argv) > 3 else ""
         covered, records, next_lvl = check(mod, topic)
         if next_lvl is None:
@@ -179,6 +202,7 @@ if __name__ == "__main__":
             print(f"💡 {msg}")
 
     elif cmd == "add":
+        if not _valid_module(mod): sys.exit(0)
         entry = json.loads(sys.argv[3]) if len(sys.argv) > 3 else {}
         add_entry(mod, **entry)
 
