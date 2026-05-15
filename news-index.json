@@ -112,86 +112,86 @@
         {
           "id": "02",
           "file": "02_科技热点.md",
-          "name": "国内热点",
-          "icon": "🇨🇳"
+          "name": "科技热点",
+          "icon": "📄"
         },
         {
           "id": "03",
           "file": "03_AI与前沿科技.md",
-          "name": "国际视野",
-          "icon": "🌍"
+          "name": "AI与前沿科技",
+          "icon": "📄"
         },
         {
           "id": "04",
           "file": "04_软件开发.md",
-          "name": "财经市场",
-          "icon": "💹"
+          "name": "软件开发",
+          "icon": "📄"
         },
         {
           "id": "05",
           "file": "05_开发语言.md",
-          "name": "科技前沿",
-          "icon": "🧠"
-        },
-        {
-          "id": "06",
-          "file": "06_华为开发生态.md",
-          "name": "科技动态",
-          "icon": "🤖"
-        },
-        {
-          "id": "07",
-          "file": "07_iOS开发生态.md",
-          "name": "AI知识点",
-          "icon": "🧩"
-        },
-        {
-          "id": "08",
-          "file": "08_Android开发生态.md",
-          "name": "AI工具使用",
-          "icon": "✨"
-        },
-        {
-          "id": "09",
-          "file": "09_跨平台开发生态.md",
           "name": "开发语言",
           "icon": "🔤"
         },
         {
+          "id": "06",
+          "file": "06_华为开发生态.md",
+          "name": "华为开发生态",
+          "icon": "📄"
+        },
+        {
+          "id": "07",
+          "file": "07_iOS开发生态.md",
+          "name": "iOS开发生态",
+          "icon": "📄"
+        },
+        {
+          "id": "08",
+          "file": "08_Android开发生态.md",
+          "name": "Android开发生态",
+          "icon": "📄"
+        },
+        {
+          "id": "09",
+          "file": "09_跨平台开发生态.md",
+          "name": "跨平台开发生态",
+          "icon": "📄"
+        },
+        {
           "id": "10",
           "file": "10_移动端生态.md",
-          "name": "GitHubSkills",
-          "icon": "⭐"
+          "name": "移动端生态",
+          "icon": "📄"
         },
         {
           "id": "11",
           "file": "11_AI开发生态.md",
-          "name": "移动开发",
-          "icon": "📱"
+          "name": "AI开发生态",
+          "icon": "📄"
         },
         {
           "id": "12",
           "file": "12_GitHub实用Skills.md",
-          "name": "AI创业",
-          "icon": "💰"
+          "name": "GitHub实用Skills",
+          "icon": "📄"
         },
         {
           "id": "13",
           "file": "13_AI知识点.md",
-          "name": "AI教育",
-          "icon": "📚"
+          "name": "AI知识点",
+          "icon": "🧩"
         },
         {
           "id": "14",
           "file": "14_产品发布.md",
-          "name": "个人成长",
-          "icon": "🌱"
+          "name": "产品发布",
+          "icon": "📄"
         },
         {
           "id": "15",
           "file": "15_国内热点.md",
-          "name": "AI产品经理",
-          "icon": "📋"
+          "name": "国内热点",
+          "icon": "🇨🇳"
         },
         {
           "id": "16",
@@ -203,13 +203,13 @@
           "id": "17",
           "file": "17_财经市场.md",
           "name": "财经市场",
-          "icon": "📄"
+          "icon": "💹"
         },
         {
           "id": "18",
           "file": "18_AI工具使用.md",
           "name": "AI工具使用",
-          "icon": "📄"
+          "icon": "✨"
         },
         {
           "id": "19",
@@ -233,7 +233,7 @@
           "id": "22",
           "file": "22_AI产品经理.md",
           "name": "AI产品经理",
-          "icon": "📄"
+          "icon": "📋"
         },
         {
           "id": "23",
@@ -258,86 +258,86 @@
         {
           "id": "02",
           "file": "02_科技热点.md",
-          "name": "国内热点",
-          "icon": "🇨🇳"
+          "name": "科技热点",
+          "icon": "📄"
         },
         {
           "id": "03",
           "file": "03_AI与前沿科技.md",
-          "name": "国际视野",
-          "icon": "🌍"
+          "name": "AI与前沿科技",
+          "icon": "📄"
         },
         {
           "id": "04",
           "file": "04_软件开发.md",
-          "name": "财经市场",
-          "icon": "💹"
+          "name": "软件开发",
+          "icon": "📄"
         },
         {
           "id": "05",
           "file": "05_开发语言.md",
-          "name": "科技前沿",
-          "icon": "🧠"
-        },
-        {
-          "id": "06",
-          "file": "06_华为开发生态.md",
-          "name": "科技动态",
-          "icon": "🤖"
-        },
-        {
-          "id": "07",
-          "file": "07_iOS开发生态.md",
-          "name": "AI知识点",
-          "icon": "🧩"
-        },
-        {
-          "id": "08",
-          "file": "08_Android开发生态.md",
-          "name": "AI工具使用",
-          "icon": "✨"
-        },
-        {
-          "id": "09",
-          "file": "09_跨平台开发生态.md",
           "name": "开发语言",
           "icon": "🔤"
         },
         {
+          "id": "06",
+          "file": "06_华为开发生态.md",
+          "name": "华为开发生态",
+          "icon": "📄"
+        },
+        {
+          "id": "07",
+          "file": "07_iOS开发生态.md",
+          "name": "iOS开发生态",
+          "icon": "📄"
+        },
+        {
+          "id": "08",
+          "file": "08_Android开发生态.md",
+          "name": "Android开发生态",
+          "icon": "📄"
+        },
+        {
+          "id": "09",
+          "file": "09_跨平台开发生态.md",
+          "name": "跨平台开发生态",
+          "icon": "📄"
+        },
+        {
           "id": "10",
           "file": "10_移动端生态.md",
-          "name": "GitHubSkills",
-          "icon": "⭐"
+          "name": "移动端生态",
+          "icon": "📄"
         },
         {
           "id": "11",
           "file": "11_AI开发生态.md",
-          "name": "移动开发",
-          "icon": "📱"
+          "name": "AI开发生态",
+          "icon": "📄"
         },
         {
           "id": "12",
           "file": "12_GitHub实用Skills.md",
-          "name": "AI创业",
-          "icon": "💰"
+          "name": "GitHub实用Skills",
+          "icon": "📄"
         },
         {
           "id": "13",
           "file": "13_AI知识点.md",
-          "name": "AI教育",
-          "icon": "📚"
+          "name": "AI知识点",
+          "icon": "🧩"
         },
         {
           "id": "14",
           "file": "14_产品发布.md",
-          "name": "个人成长",
-          "icon": "🌱"
+          "name": "产品发布",
+          "icon": "📄"
         },
         {
           "id": "15",
           "file": "15_国内热点.md",
-          "name": "AI产品经理",
-          "icon": "📋"
+          "name": "国内热点",
+          "icon": "🇨🇳"
         },
         {
           "id": "16",
@@ -349,7 +349,7 @@
           "id": "17",
           "file": "17_财经市场.md",
           "name": "财经市场",
-          "icon": "📄"
+          "icon": "💹"
         }
       ],
       "path": "202605/20260513"
@@ -812,86 +812,86 @@
             {
               "id": "02",
               "file": "02_科技热点.md",
-              "name": "国内热点",
-              "icon": "🇨🇳"
+              "name": "科技热点",
+              "icon": "📄"
             },
             {
               "id": "03",
               "file": "03_AI与前沿科技.md",
-              "name": "国际视野",
-              "icon": "🌍"
+              "name": "AI与前沿科技",
+              "icon": "📄"
             },
             {
               "id": "04",
               "file": "04_软件开发.md",
-              "name": "财经市场",
-              "icon": "💹"
+              "name": "软件开发",
+              "icon": "📄"
             },
             {
               "id": "05",
               "file": "05_开发语言.md",
-              "name": "科技前沿",
-              "icon": "🧠"
-            },
-            {
-              "id": "06",
-              "file": "06_华为开发生态.md",
-              "name": "科技动态",
-              "icon": "🤖"
-            },
-            {
-              "id": "07",
-              "file": "07_iOS开发生态.md",
-              "name": "AI知识点",
-              "icon": "🧩"
-            },
-            {
-              "id": "08",
-              "file": "08_Android开发生态.md",
-              "name": "AI工具使用",
-              "icon": "✨"
-            },
-            {
-              "id": "09",
-              "file": "09_跨平台开发生态.md",
               "name": "开发语言",
               "icon": "🔤"
             },
             {
+              "id": "06",
+              "file": "06_华为开发生态.md",
+              "name": "华为开发生态",
+              "icon": "📄"
+            },
+            {
+              "id": "07",
+              "file": "07_iOS开发生态.md",
+              "name": "iOS开发生态",
+              "icon": "📄"
+            },
+            {
+              "id": "08",
+              "file": "08_Android开发生态.md",
+              "name": "Android开发生态",
+              "icon": "📄"
+            },
+            {
+              "id": "09",
+              "file": "09_跨平台开发生态.md",
+              "name": "跨平台开发生态",
+              "icon": "📄"
+            },
+            {
               "id": "10",
               "file": "10_移动端生态.md",
-              "name": "GitHubSkills",
-              "icon": "⭐"
+              "name": "移动端生态",
+              "icon": "📄"
             },
             {
               "id": "11",
               "file": "11_AI开发生态.md",
-              "name": "移动开发",
-              "icon": "📱"
+              "name": "AI开发生态",
+              "icon": "📄"
             },
             {
               "id": "12",
               "file": "12_GitHub实用Skills.md",
-              "name": "AI创业",
-              "icon": "💰"
+              "name": "GitHub实用Skills",
+              "icon": "📄"
             },
             {
               "id": "13",
               "file": "13_AI知识点.md",
-              "name": "AI教育",
-              "icon": "📚"
+              "name": "AI知识点",
+              "icon": "🧩"
             },
             {
               "id": "14",
               "file": "14_产品发布.md",
-              "name": "个人成长",
-              "icon": "🌱"
+              "name": "产品发布",
+              "icon": "📄"
             },
             {
               "id": "15",
               "file": "15_国内热点.md",
-              "name": "AI产品经理",
-              "icon": "📋"
+              "name": "国内热点",
+              "icon": "🇨🇳"
             },
             {
               "id": "16",
@@ -903,13 +903,13 @@
               "id": "17",
               "file": "17_财经市场.md",
               "name": "财经市场",
-              "icon": "📄"
+              "icon": "💹"
             },
             {
               "id": "18",
               "file": "18_AI工具使用.md",
               "name": "AI工具使用",
-              "icon": "📄"
+              "icon": "✨"
             },
             {
               "id": "19",
@@ -933,7 +933,7 @@
               "id": "22",
               "file": "22_AI产品经理.md",
               "name": "AI产品经理",
-              "icon": "📄"
+              "icon": "📋"
             },
             {
               "id": "23",
@@ -958,86 +958,86 @@
             {
               "id": "02",
               "file": "02_科技热点.md",
-              "name": "国内热点",
-              "icon": "🇨🇳"
+              "name": "科技热点",
+              "icon": "📄"
             },
             {
               "id": "03",
               "file": "03_AI与前沿科技.md",
-              "name": "国际视野",
-              "icon": "🌍"
+              "name": "AI与前沿科技",
+              "icon": "📄"
             },
             {
               "id": "04",
               "file": "04_软件开发.md",
-              "name": "财经市场",
-              "icon": "💹"
+              "name": "软件开发",
+              "icon": "📄"
             },
             {
               "id": "05",
               "file": "05_开发语言.md",
-              "name": "科技前沿",
-              "icon": "🧠"
-            },
-            {
-              "id": "06",
-              "file": "06_华为开发生态.md",
-              "name": "科技动态",
-              "icon": "🤖"
-            },
-            {
-              "id": "07",
-              "file": "07_iOS开发生态.md",
-              "name": "AI知识点",
-              "icon": "🧩"
-            },
-            {
-              "id": "08",
-              "file": "08_Android开发生态.md",
-              "name": "AI工具使用",
-              "icon": "✨"
-            },
-            {
-              "id": "09",
-              "file": "09_跨平台开发生态.md",
               "name": "开发语言",
               "icon": "🔤"
             },
             {
+              "id": "06",
+              "file": "06_华为开发生态.md",
+              "name": "华为开发生态",
+              "icon": "📄"
+            },
+            {
+              "id": "07",
+              "file": "07_iOS开发生态.md",
+              "name": "iOS开发生态",
+              "icon": "📄"
+            },
+            {
+              "id": "08",
+              "file": "08_Android开发生态.md",
+              "name": "Android开发生态",
+              "icon": "📄"
+            },
+            {
+              "id": "09",
+              "file": "09_跨平台开发生态.md",
+              "name": "跨平台开发生态",
+              "icon": "📄"
+            },
+            {
               "id": "10",
               "file": "10_移动端生态.md",
-              "name": "GitHubSkills",
-              "icon": "⭐"
+              "name": "移动端生态",
+              "icon": "📄"
             },
             {
               "id": "11",
               "file": "11_AI开发生态.md",
-              "name": "移动开发",
-              "icon": "📱"
+              "name": "AI开发生态",
+              "icon": "📄"
             },
             {
               "id": "12",
               "file": "12_GitHub实用Skills.md",
-              "name": "AI创业",
-              "icon": "💰"
+              "name": "GitHub实用Skills",
+              "icon": "📄"
             },
             {
               "id": "13",
               "file": "13_AI知识点.md",
-              "name": "AI教育",
-              "icon": "📚"
+              "name": "AI知识点",
+              "icon": "🧩"
             },
             {
               "id": "14",
               "file": "14_产品发布.md",
-              "name": "个人成长",
-              "icon": "🌱"
+              "name": "产品发布",
+              "icon": "📄"
             },
             {
               "id": "15",
               "file": "15_国内热点.md",
-              "name": "AI产品经理",
-              "icon": "📋"
+              "name": "国内热点",
+              "icon": "🇨🇳"
             },
             {
               "id": "16",
@@ -1049,7 +1049,7 @@
               "id": "17",
               "file": "17_财经市场.md",
               "name": "财经市场",
-              "icon": "📄"
+              "icon": "💹"
             }
           ],
           "path": "202605/20260513"

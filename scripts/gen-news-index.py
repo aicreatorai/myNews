@@ -64,12 +64,19 @@ def scan():
                     m = re.match(r'(\d{2})_(.+)\.md$', f)
                     if m:
                         cat_id = m.group(1)
-                        cat_info = CATEGORIES.get(cat_id, {"name": m.group(2), "icon": "📄"})
+                        file_name = m.group(2)
+                        # 始终从文件名提取分类名（向后兼容旧版23板块）
+                        # 图标通过匹配分类名获取
+                        icon = "📄"
+                        for v in CATEGORIES.values():
+                            if v["name"] == file_name:
+                                icon = v["icon"]
+                                break
                         categories.append({
                             "id": cat_id,
                             "file": f,
-                            "name": cat_info["name"],
-                            "icon": cat_info["icon"]
+                            "name": file_name,
+                            "icon": icon
                         })
 
                 day_entry = {
