@@ -1,0 +1,52 @@
+[
+  {
+    "module": "10",
+    "date": "2026-05-15",
+    "topic": "Hermes Agent",
+    "title": "自进化的开源AI智能体，123K Star登顶4月热榜",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "开源AI Agent框架介绍与上手实战",
+    "keywords_snippet": "Hermes Agent Nous Research 自进化 AI Agent"
+  },
+  {
+    "module": "10",
+    "date": "2026-05-15",
+    "topic": "MarkItDown",
+    "title": "微软118K Star开源神器，15+格式一键转Markdown",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "文档转换工具介绍、原理与对比",
+    "keywords_snippet": "MarkItDown 微软 文档转Markdown LLM RAG"
+  },
+  {
+    "module": "10",
+    "date": "2026-05-15",
+    "topic": "Archon",
+    "title": "首个开源AI编程工作流引擎，让AI编码变确定性流水线",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "开源AI编程工作流引擎介绍与对比",
+    "keywords_snippet": "Archon AI编程 工作流引擎 YAML 确定性"
+  },
+  {
+    "module": "10",
+    "date": "2026-05-15",
+    "topic": "RTK",
+    "title": "Rust Token Killer，37K Star的CLI代理省80% Token开支",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "CLI代理工具介绍、原理与实测数据",
+    "keywords_snippet": "RTK Rust Token Killer CLI代理 Token节省 Claude Code"
+  },
+  {
+    "module": "10",
+    "date": "2026-05-15",
+    "topic": "oh-my-codex",
+    "title": "OmX开源框架，把OpenAI Codex变成多Agent编程工作流",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "开源Codex增强框架介绍与实战",
+    "keywords_snippet": "oh-my-codex OmX OpenAI Codex 多Agent 工作流"
+  }
+]

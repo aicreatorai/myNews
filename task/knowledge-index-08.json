@@ -1,0 +1,32 @@
+[
+  {
+    "module": "08",
+    "date": "2026-05-15",
+    "topic": "Claude Code",
+    "title": "Claude Code 六步工作流：从新手到高手的实战指南",
+    "level": "L3",
+    "depth": "实践层",
+    "angle": "工作流方法与命令实操",
+    "keywords_snippet": "Claude Code, Plan Mode, /init, /memory, Auto-Accept, 六步工作流"
+  },
+  {
+    "module": "08",
+    "date": "2026-05-15",
+    "topic": "Perplexity AI",
+    "title": "Perplexity AI 深度使用指南：把搜索变成研究",
+    "level": "L3",
+    "depth": "实践层",
+    "angle": "搜索技巧与研究工作流",
+    "keywords_snippet": "Perplexity, Spaces, Focus模式, Pages, AI搜索, 信息收集"
+  },
+  {
+    "module": "08",
+    "date": "2026-05-15",
+    "topic": "Coze 扣子",
+    "title": "Coze 扣子 2.5 实战教程：零代码搭建 AI 智能体",
+    "level": "L3",
+    "depth": "实践层",
+    "angle": "零代码搭建与云电脑云手机实操",
+    "keywords_snippet": "Coze, 扣子2.5, 云电脑, 云手机, 工作流, AI Agent, 智能体搭建"
+  }
+]

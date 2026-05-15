@@ -1,0 +1,52 @@
+[
+  {
+    "module": "09",
+    "date": "2026-05-15",
+    "topic": "Java 26 新特性",
+    "title": "Java 26正式发布：10项JEP聚焦AI加速与性能革新",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "语言版本发布与新特性解析",
+    "keywords_snippet": "JDK 26, JEP, G1 GC, HTTP/3, 结构化并发, 基本类型模式匹配"
+  },
+  {
+    "module": "09",
+    "date": "2026-05-15",
+    "topic": "TypeScript 新版本",
+    "title": "TypeScript 6.0发布：JS编译器最终章，Go重写7.0性能提升10倍",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "语言版本发布与Go重写编译器",
+    "keywords_snippet": "TypeScript 6.0, 7.0, Go重写, strict默认开启, tsgo"
+  },
+  {
+    "module": "09",
+    "date": "2026-05-15",
+    "topic": "Go 语言新版本",
+    "title": "Go 1.26深度解析：Green Tea GC转正、泛型自引用与SIMD加速",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "语言版本发布与GC/泛型/SIMD性能提升",
+    "keywords_snippet": "Go 1.26, Green Tea GC, 泛型自引用, new(expr), SIMD"
+  },
+  {
+    "module": "09",
+    "date": "2026-05-15",
+    "topic": "Rust 异步 ORM",
+    "title": "Rust异步生态里程碑：Tokio团队发布Toasty异步ORM",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "Rust语言生态演进与Toasty框架发布",
+    "keywords_snippet": "Rust, Toasty, Tokio, 异步ORM, crates.io"
+  },
+  {
+    "module": "09",
+    "date": "2026-05-15",
+    "topic": "TIOBE 编程语言排行",
+    "title": "TIOBE 2026年5月排行榜：Python稳居19.98%，R重回第八",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "编程语言生态趋势与TIOBE排行分析",
+    "keywords_snippet": "TIOBE, Python, C, Java, C++, R, 统计编程整合"
+  }
+]

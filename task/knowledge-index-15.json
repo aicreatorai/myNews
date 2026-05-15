@@ -1,0 +1,42 @@
+[
+  {
+    "module": "15",
+    "date": "2026-05-15",
+    "topic": "分层订阅运营",
+    "title": "豆包3.45亿月活分层订阅运营策略",
+    "level": "L3",
+    "depth": "实践层",
+    "angle": "AI产品从免费到付费的分层运营方法",
+    "keywords_snippet": "分层订阅 免费增值 用户分层 豆包"
+  },
+  {
+    "module": "15",
+    "date": "2026-05-15",
+    "topic": "Agent增长飞轮",
+    "title": "AI Native产品Agent增长飞轮方法论",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "多Agent协同驱动AI产品获客与留存",
+    "keywords_snippet": "Agent 增长飞轮 用户增长 AI Native"
+  },
+  {
+    "module": "15",
+    "date": "2026-05-15",
+    "topic": "GEO获客运营",
+    "title": "GEO生成式引擎优化：AI产品获客新战场",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "AI搜索生态中的产品运营获客方法论",
+    "keywords_snippet": "GEO 生成式引擎优化 AI产品 获客"
+  },
+  {
+    "module": "15",
+    "date": "2026-05-15",
+    "topic": "7日留存运营",
+    "title": "AI产品7日留存率运营方法论",
+    "level": "L3",
+    "depth": "实践层",
+    "angle": "基于行业Q1数据的AI产品留存运营策略",
+    "keywords_snippet": "7日留存 用户留存 Aha时刻 数据复盘"
+  }
+]

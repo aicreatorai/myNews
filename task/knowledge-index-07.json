@@ -1,0 +1,52 @@
+[
+  {
+    "module": "07",
+    "date": "2026-05-15",
+    "topic": "vLLM-Omni全模态推理框架",
+    "title": "vLLM-Omni：全模态推理框架开辟多模态部署新范式",
+    "level": "L1",
+    "depth": "概念层 - 是什么、解决了什么问题、架构设计与流水线抽象",
+    "angle": "多模态AI工程化基础设施，全模态推理框架的技术架构与选型",
+    "keywords_snippet": "vLLM-Omni,全模态推理,多模态部署,异构流水线,PagedAttention"
+  },
+  {
+    "module": "07",
+    "date": "2026-05-15",
+    "topic": "GPT-Image 2自回归图像生成",
+    "title": "GPT-Image 2自回归架构：AI图像生成从画图到写作的范式革命",
+    "level": "L1",
+    "depth": "概念层 - 自回归vs扩散、架构三支柱、递归验证机制",
+    "angle": "图像生成架构范式的转变，从扩散到自回归的技术原理",
+    "keywords_snippet": "GPT-Image 2,自回归,图像生成,扩散模型,MoE架构,ROV"
+  },
+  {
+    "module": "07",
+    "date": "2026-05-15",
+    "topic": "大模型推理优化关键技术",
+    "title": "大模型推理优化关键技术：从Prefill/Decode到PagedAttention",
+    "level": "L1",
+    "depth": "概念层 - Prefill/Decode拆分、KV Cache、PagedAttention原理",
+    "angle": "AI工程化核心，推理优化的全链路技术拆解",
+    "keywords_snippet": "Prefill,Decode,PagedAttention,KV Cache,Continuous Batching,推理优化"
+  },
+  {
+    "module": "07",
+    "date": "2026-05-15",
+    "topic": "Diffusion统一视觉任务",
+    "title": "Diffusion模型统一视觉任务：CVPR/ICLR 2026揭示的范式转型",
+    "level": "L1",
+    "depth": "概念层 - Diffusion统一框架、离散扩散、视觉先验",
+    "angle": "视觉AI从多模型到统一Diffusion基础架构的趋势",
+    "keywords_snippet": "Diffusion,统一视觉,语义分割,目标检测,Muddit,离散扩散"
+  },
+  {
+    "module": "07",
+    "date": "2026-05-15",
+    "topic": "VLM推理框架选型",
+    "title": "多模态VLM推理框架选型指南：vLLM vs TensorRT-LLM vs llama.cpp vs Ollama",
+    "level": "L1",
+    "depth": "概念层 - 四大框架架构对比、多模态支持、选型决策模型",
+    "angle": "AI工程化框架选型，从性能多模态支持硬件兼容多维度对比",
+    "keywords_snippet": "vLLM,TensorRT-LLM,llama.cpp,Ollama,推理框架,选型,多模态"
+  }
+]
