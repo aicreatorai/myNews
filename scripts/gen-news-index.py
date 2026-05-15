@@ -122,13 +122,16 @@ def scan():
     print(f"   - {len(index['months'])} 个月份")
     print(f"   - {len(index['categories'])} 个分类")
 
-    # 知识索引统计
-    ki_path = os.path.join(os.path.dirname(NEWS_DIR), "task", "knowledge-index.json")
-    if os.path.exists(ki_path):
-        with open(ki_path, 'r', encoding='utf-8') as f:
-            ki = json.load(f)
-        modules = set(e["module"] for e in ki)
-        print(f"   - 知识索引: {len(ki)} 条记录, {len(modules)} 个模块")
+    # 知识索引统计（按模块拆分）
+    ki_dir = os.path.join(os.path.dirname(NEWS_DIR), "task")
+    total_records = 0
+    module_count = 0
+    for fname in os.listdir(ki_dir):
+        if fname.startswith("knowledge-index-") and fname.endswith(".json"):
+            module_count += 1
+            with open(os.path.join(ki_dir, fname), 'r', encoding='utf-8') as f:
+                total_records += len(json.load(f))
+    print(f"   - 知识索引: {total_records} 条记录, {module_count} 个模块")
 
 if __name__ == "__main__":
     scan()

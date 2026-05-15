@@ -11,7 +11,33 @@
 import json, sys, os, re
 from difflib import SequenceMatcher
 
-INDEX_PATH = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "task", "knowledge-index.json")
+BASE_DIR = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "task")
+
+def _module_path(module_id):
+    """每个模块独立文件，避免单文件膨胀"""
+    return os.path.join(BASE_DIR, f"knowledge-index-{module_id}.json")
+
+def load(module_id=None):
+    """加载数据。module_id指定则只加载该模块，否则加载全部（用于list --all）"""
+    if module_id:
+        path = _module_path(module_id)
+        if not os.path.exists(path):
+            return []
+        with open(path, 'r', encoding='utf-8') as f:
+            return json.load(f)
+
+    # 合并所有模块（仅 list --all 时使用）
+    all_data = []
+    for fname in os.listdir(BASE_DIR):
+        if fname.startswith("knowledge-index-") and fname.endswith(".json"):
+            with open(os.path.join(BASE_DIR, fname), 'r', encoding='utf-8') as f:
+                all_data.extend(json.load(f))
+    return all_data
+
+def save(data, module_id):
+    path = _module_path(module_id)
+    with open(path, 'w', encoding='utf-8') as f:
+        json.dump(data, f, ensure_ascii=False, indent=2)
 
 LEVEL_MAP = {
     "L1": "概念层 - 是什么、解决什么问题、与什么不同",
@@ -19,16 +45,6 @@ LEVEL_MAP = {
     "L3": "实践层 - 生产级方案、踩坑经验、数据对比",
     "L4": "前沿层 - 最新演进、与传统方案的融合",
 }
-
-def load():
-    if not os.path.exists(INDEX_PATH):
-        return []
-    with open(INDEX_PATH, 'r', encoding='utf-8') as f:
-        return json.load(f)
-
-def save(data):
-    with open(INDEX_PATH, 'w', encoding='utf-8') as f:
-        json.dump(data, f, ensure_ascii=False, indent=2)
 
 def topic_similarity(topic_a, topic_b):
     """计算两个主题的相似度（0-1）"""
@@ -38,19 +54,13 @@ def check(module_id, query_topic, threshold=0.6):
     """
     检查某主题是否已被覆盖。
     返回: (is_covered, existing_records, suggested_level)
-    - is_covered: True 表示已覆盖同一层级，不可再写
-    - existing_records: 匹配的历史记录列表
-    - suggested_level: 建议的下一层级（None=不可写）
     """
-    data = load()
+    data = load(module_id)  # 只加载本模块数据
     matched = []
 
-    # 精确匹配逻辑：将query_topic拆分为关键词，匹配topic或keywords_snippet
     query_keywords = set(re.findall(r'[\w\u4e00-\u9fff]+', query_topic.lower()))
 
     for entry in data:
-        if entry["module"] != module_id:
-            continue
 
         # 1. 检查 topic 字段的相似度
         sim = topic_similarity(entry["topic"].lower(), query_topic.lower())
@@ -115,7 +125,7 @@ def suggest_level(module_id, query_topic):
 
 def add_entry(module_id, topic, title, level, depth, angle, keywords_snippet):
     """添加新条目到索引"""
-    data = load()
+    data = load(module_id)  # 只加载本模块
     from datetime import date
     entry = {
         "module": module_id,
@@ -128,13 +138,12 @@ def add_entry(module_id, topic, title, level, depth, angle, keywords_snippet):
         "keywords_snippet": keywords_snippet,
     }
     data.append(entry)
-    save(data)
+    save(data, module_id)
     print(f"✅ 已记录: [{module_id}] {topic} ({level} {depth})")
 
 def list_module(module_id):
     """列出某模块的所有记录"""
-    data = load()
-    entries = [e for e in data if e["module"] == module_id]
+    entries = load(module_id)  # 只加载本模块
     if not entries:
         print(f"📭 [{module_id}] 暂无记录")
         return
