@@ -1,0 +1,202 @@
+[
+  {
+    "module": "07",
+    "date": "2026-05-14",
+    "topic": "MoE架构原理",
+    "title": "MoE混合专家模型架构深度拆解：从门控网络到负载均衡",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "架构拆解与实现",
+    "keywords_snippet": "MoE 混合专家 大模型 架构"
+  },
+  {
+    "module": "07",
+    "date": "2026-05-14",
+    "topic": "KV-Cache推理优化",
+    "title": "KV-Cache原理与优化：大模型推理加速的核心技术",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "原理与实现机制",
+    "keywords_snippet": "KV-Cache 显存 优化 推理加速"
+  },
+  {
+    "module": "07",
+    "date": "2026-05-14",
+    "topic": "模型量化技术",
+    "title": "模型量化原理：INT4/INT8/FP8量化技术全景",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "技术全景介绍",
+    "keywords_snippet": "模型量化 INT4 INT8 FP8"
+  },
+  {
+    "module": "08",
+    "date": "2026-05-14",
+    "topic": "Cursor IDE",
+    "title": "Cursor实战：用Agent模式重构iOS项目的完整工作流",
+    "level": "L3",
+    "depth": "实践层",
+    "angle": "iOS开发实战",
+    "keywords_snippet": "Cursor AI编程 iOS 实战 工作流"
+  },
+  {
+    "module": "08",
+    "date": "2026-05-14",
+    "topic": "Bolt.new",
+    "title": "Bolt.new + Cursor：48小时从想法到MVP的AI开发范式",
+    "level": "L3",
+    "depth": "实践层",
+    "angle": "MVP快速开发",
+    "keywords_snippet": "Bolt.new MVP 一人公司 快速开发"
+  },
+  {
+    "module": "08",
+    "date": "2026-05-14",
+    "topic": "Claude Code",
+    "title": "Claude Code Agent View：多Agent并行调度台使用指南",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "功能拆解与配置",
+    "keywords_snippet": "Claude Code Agent 并行 调度"
+  },
+  {
+    "module": "12",
+    "date": "2026-05-14",
+    "topic": "一人公司SaaS模式",
+    "title": "7日MVP框架：一人开发者如何用AI工具7天上线产品",
+    "level": "L3",
+    "depth": "实践层",
+    "angle": "MVP开发流程",
+    "keywords_snippet": "一人公司 MVP Cursor 快速上线"
+  },
+  {
+    "module": "12",
+    "date": "2026-05-14",
+    "topic": "AI客服自动化商业模型",
+    "title": "一人公司AI客服自动化：月成本$30服务1000用户",
+    "level": "L3",
+    "depth": "实践层",
+    "angle": "成本效益分析",
+    "keywords_snippet": "AI客服 自动化 一人公司 Coze Dify"
+  },
+  {
+    "module": "13",
+    "date": "2026-05-14",
+    "topic": "AI英语口语教学",
+    "title": "AI英语口语陪练：用ChatGPT语音模式实现24小时外教",
+    "level": "L3",
+    "depth": "实践层",
+    "angle": "语言学习场景",
+    "keywords_snippet": "AI教育 英语 口语 ChatGPT 语音"
+  },
+  {
+    "module": "13",
+    "date": "2026-05-14",
+    "topic": "AI数学个性化教学",
+    "title": "AI数学辅导：用大模型实现个性化错题分析与练习生成",
+    "level": "L3",
+    "depth": "实践层",
+    "angle": "学科教学场景",
+    "keywords_snippet": "AI教育 数学 个性化 错题分析"
+  },
+  {
+    "module": "14",
+    "date": "2026-05-14",
+    "topic": "间隔重复法",
+    "title": "间隔重复法：用Anki把遗忘曲线变成记忆加速器",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "记忆机制与工具应用",
+    "keywords_snippet": "间隔重复 遗忘曲线 Anki 记忆"
+  },
+  {
+    "module": "14",
+    "date": "2026-05-14",
+    "topic": "番茄工作法",
+    "title": "番茄工作法进阶：从25分钟到心流状态的完整工作流",
+    "level": "L3",
+    "depth": "实践层",
+    "angle": "效率提升实战",
+    "keywords_snippet": "番茄工作法 心流 效率 时间管理"
+  },
+  {
+    "module": "15",
+    "date": "2026-05-14",
+    "topic": "数据飞轮",
+    "title": "数据飞轮效应：ChatGPT如何用用户反馈驱动模型迭代",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "产品策略分析",
+    "keywords_snippet": "数据飞轮 ChatGPT 用户反馈 迭代"
+  },
+  {
+    "module": "15",
+    "date": "2026-05-14",
+    "topic": "AI产品PRD方法",
+    "title": "AI产品PRD怎么写：从需求定义到模型评估的完整框架",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "方法论入门",
+    "keywords_snippet": "AI PRD 产品需求 文档 方法"
+  },
+  {
+    "module": "09",
+    "date": "2026-05-14",
+    "topic": "Python3.14新特性",
+    "title": "Python 3.14新特性速览：GIL可选移除与性能提升",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "版本发布解读",
+    "keywords_snippet": "Python 3.14 GIL 新特性"
+  },
+  {
+    "module": "09",
+    "date": "2026-05-14",
+    "topic": "Rust异步生态",
+    "title": "Rust异步生态成熟度分析：从Tokio到async-std",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "生态对比分析",
+    "keywords_snippet": "Rust 异步 Tokio async"
+  },
+  {
+    "module": "10",
+    "date": "2026-05-14",
+    "topic": "vLLM推理引擎",
+    "title": "vLLM新版本发布：PagedAttention v2与推理吞吐翻倍",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "版本更新与性能",
+    "keywords_snippet": "vLLM PagedAttention 推理 开源"
+  },
+  {
+    "module": "10",
+    "date": "2026-05-14",
+    "topic": "LangGraph框架",
+    "title": "LangGraph：用图结构构建复杂AI Agent工作流",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "框架入门介绍",
+    "keywords_snippet": "LangGraph Agent 图 工作流 开源"
+  },
+  {
+    "module": "11",
+    "date": "2026-05-14",
+    "topic": "iOS26.5新API",
+    "title": "iOS 26.5新API解析：RCS加密与StoreKit承诺订阅",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "版本发布解读",
+    "keywords_snippet": "iOS 26.5 RCS StoreKit API"
+  },
+  {
+    "module": "11",
+    "date": "2026-05-14",
+    "topic": "Swift6.3并发模型",
+    "title": "Swift 6.3并发模型正式默认启用：Actor与结构化并发实战",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "迁移与实战",
+    "keywords_snippet": "Swift 6.3 Actor 并发 迁移"
+  }
+]
