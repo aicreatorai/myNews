@@ -46,13 +46,10 @@ def get_date_params(date_str):
 
 AGENTS_CONFIG = {
     "batch1_news": {
-        "label": "第一批 - 新闻类（综合新闻5个）",
+        "label": "第一批 - 新闻类（01_04合并版 + 06科技动态，共2个）",
         "agents": [
-            {"id": "01", "name": "今日头条",     "file": "01_今日头条.md",     "max_turns": 80,  "weight": "重量级"},
-            {"id": "02", "name": "国内热点",     "file": "02_国内热点.md",     "max_turns": 80,  "weight": "中量级"},
-            {"id": "03", "name": "国际视野",     "file": "03_国际视野.md",     "max_turns": 80,  "weight": "中量级"},
-            {"id": "04", "name": "财经市场",     "file": "04_财经市场.md",     "max_turns": 80,  "weight": "中量级"},
-            {"id": "06", "name": "科技动态",     "file": "06_科技动态.md",     "max_turns": 120, "weight": "重量级"},
+            {"id": "01_04", "name": "综合新闻",     "file": "01_04_综合新闻.md",   "max_turns": 160, "weight": "特重量级"},
+            {"id": "06",     "name": "科技动态",     "file": "06_科技动态.md",     "max_turns": 120, "weight": "重量级"},
         ]
     },
     "batch2_tech": {
@@ -120,7 +117,12 @@ def generate_batch_prompts(date_params):
         print()
 
         for agent in batch["agents"]:
-            output_path = f"news/{date_params['YYYYMM']}/{date_params['YYYYMMDD']}/{agent['id']}_{agent['file'][3:]}"
+            # 合并版输出文件名特殊处理：01_04综合新闻输出为 01_今日头条.md
+            if agent['id'] == '01_04':
+                output_filename = "01_今日头条.md"
+            else:
+                output_filename = f"{agent['id']}_{agent['file'][3:]}"
+            output_path = f"news/{date_params['YYYYMM']}/{date_params['YYYYMMDD']}/{output_filename}"
             print(f"  Agent {agent['id']} [{agent['weight']}] {agent['name']}")
             print(f"    文件: task/morning_news/{agent['file']}")
             print(f"    输出: {output_path}")
@@ -136,7 +138,7 @@ def verify_files(date_params):
     step("验证文件完整性")
     out_dir = os.path.join(NEWS_DIR, date_params["YYYYMM"], date_params["YYYYMMDD"])
 
-    expected = 15
+    expected = 12
     actual = 0
     missing = []
 
