@@ -1,6 +1,13 @@
 {
   "dates": [
     {
+      "date": "2026-05-16",
+      "format": "subdir",
+      "has_multi": true,
+      "categories": [],
+      "path": "202605/20260516"
+    },
+    {
       "date": "2026-05-15",
       "format": "subdir",
       "has_multi": true,
@@ -10,24 +17,6 @@
           "file": "01_今日头条.md",
           "name": "今日头条",
           "icon": "🔥"
-        },
-        {
-          "id": "02",
-          "file": "02_国内热点.md",
-          "name": "国内热点",
-          "icon": "🇨🇳"
-        },
-        {
-          "id": "03",
-          "file": "03_国际视野.md",
-          "name": "国际视野",
-          "icon": "🌍"
-        },
-        {
-          "id": "04",
-          "file": "04_财经市场.md",
-          "name": "财经市场",
-          "icon": "💹"
         },
         {
           "id": "05",
@@ -701,6 +690,13 @@
       "month": "202605",
       "dates": [
         {
+          "date": "2026-05-16",
+          "format": "subdir",
+          "has_multi": true,
+          "categories": [],
+          "path": "202605/20260516"
+        },
+        {
           "date": "2026-05-15",
           "format": "subdir",
           "has_multi": true,
@@ -710,24 +706,6 @@
               "file": "01_今日头条.md",
               "name": "今日头条",
               "icon": "🔥"
-            },
-            {
-              "id": "02",
-              "file": "02_国内热点.md",
-              "name": "国内热点",
-              "icon": "🇨🇳"
-            },
-            {
-              "id": "03",
-              "file": "03_国际视野.md",
-              "name": "国际视野",
-              "icon": "🌍"
-            },
-            {
-              "id": "04",
-              "file": "04_财经市场.md",
-              "name": "财经市场",
-              "icon": "💹"
             },
             {
               "id": "05",

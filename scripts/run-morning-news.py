@@ -13,7 +13,7 @@
   1. 创建输出目录
   2. 清理过期搜索缓存（保留7天）
   3. 生成 Agent 分批启动提示（供AI使用）
-  4. 验证15个文件完整性
+  4. 验证12个文件完整性
   5. 再生 news-index.json
   6. Git add/commit/push
 """
@@ -283,7 +283,7 @@ def main():
 
     # 如果在自动模式，提示用户执行Agent任务
     if use_auto:
-        print(f"\n  💡 请将以上3批Agent配置依次交给AI执行。")
+        print(f"\n  💡 请将以上2批Agent配置依次交给AI执行。")
         print(f"  全部完成后，运行:")
         print(f"  python3 scripts/run-morning-news.py --only-post --date {date_str}")
 
