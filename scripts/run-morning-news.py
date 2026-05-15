@@ -46,9 +46,9 @@ def get_date_params(date_str):
 
 AGENTS_CONFIG = {
     "batch1_news": {
-        "label": "第一批 - 新闻类（01_04合并版 + 06科技动态，共2个）",
+        "label": "第一批 - 新闻类（01_新闻早报 + 06科技动态，共2个）",
         "agents": [
-            {"id": "01_04", "name": "综合新闻",     "file": "01_04_综合新闻.md",   "max_turns": 160, "weight": "特重量级"},
+            {"id": "01", "name": "新闻早报",     "file": "01_新闻早报.md",   "max_turns": 160, "weight": "特重量级"},
             {"id": "06",     "name": "科技动态",     "file": "06_科技动态.md",     "max_turns": 120, "weight": "重量级"},
         ]
     },
@@ -117,8 +117,8 @@ def generate_batch_prompts(date_params):
         print()
 
         for agent in batch["agents"]:
-            # 合并版输出文件名特殊处理：01_04综合新闻输出为 01_今日头条.md
-            if agent['id'] == '01_04':
+            # 新闻早报输出为 01_今日头条.md（文件名不变，兼容旧前端）
+            if agent['id'] == '01' and agent['name'] == '新闻早报':
                 output_filename = "01_今日头条.md"
             else:
                 output_filename = f"{agent['id']}_{agent['file'][3:]}"
@@ -129,7 +129,7 @@ def generate_batch_prompts(date_params):
             print(f"    max_turns: {agent['max_turns']}")
             print()
 
-    print(f"  💡 提示完成。共 3 批, 15 个 Agent。")
+    print(f"  💡 提示完成。共 3 批, 12 个 Agent。")
     print(f"  请将以上配置单复制给AI ，按批次逐步执行。")
 
 # ─── 步骤4: 验证文件完整性 ──────────────────────────────────
