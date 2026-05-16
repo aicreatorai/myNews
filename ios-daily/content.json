@@ -1,0 +1,62 @@
+{
+  "date": "2026-05-16",
+  "headline": "Apple Developer App 更新 Liquid Glass 设计，WWDC 2026 将于 6 月 8 日开幕",
+  "articles": [
+    {
+      "title": "🍎 Apple Developer App 更新 11.0：全新 Liquid Glass 设计亮相",
+      "url": "https://developer.apple.com/news/?id=qtzr82f0",
+      "source": "Apple Developer",
+      "tags": ["Apple", "Developer App", "Liquid Glass"],
+      "summary": "Apple 于 5 月 11 日发布了 Developer App 11.0 更新，引入了全新的 Liquid Glass 视觉风格，为即将到来的 WWDC 2026 做准备。新版还增加了新的过滤功能、更新了 WWDC 贴纸，并改进了证书注册流程。"
+    },
+    {
+      "title": "📅 WWDC 2026 定档 6 月 8 日：iOS 27、macOS 27 与 AI 升级前瞻",
+      "url": "https://www.techrepublic.com/article/news-apple-wwdc-2026-ios-27-siri-ai-preview/",
+      "source": "TechRepublic",
+      "tags": ["WWDC", "iOS 27", "macOS 27", "AI"],
+      "summary": "WWDC 2026 预计将于 6 月 8 日开幕，本次大会可能展示 iOS 27、macOS 27 的设计改进、Siri 大改版以及更广泛的 AI 模型选择。Mark Gurman 等分析师称这可能是一次外表低调但影响深远的大会。"
+    },
+    {
+      "title": "🔧 Swift 6 并发模型实战：@Observable 宏与严格并发检查",
+      "url": "https://softaims.com/blog/swift-ios-development-guide-2026",
+      "source": "SoftAims",
+      "tags": ["Swift 6", "Concurrency", "SwiftUI", "指南"],
+      "summary": "Swift 6 的严格并发模型和 SwiftUI 的 @Observable 宏已经改变了生产级 iOS 应用的构建方式。从架构到 App Store 部署，2026 年的 iOS 开发流程已全面适配 Swift 6 的并发安全要求。"
+    },
+    {
+      "title": "🎨 SwiftUI 2026 已成默认选择：Liquid Glass + 分层渲染",
+      "url": "https://devradar-dev.github.io/open-research/frameworks/swiftui/",
+      "source": "DevRadar",
+      "tags": ["SwiftUI", "Liquid Glass", "UI设计"],
+      "summary": "SwiftUI 在 2026 年已成为 Apple 平台开发的默认选择。Liquid Glass 设计系统、基于层的渲染性能优化以及与 Swift Concurrency 的深度集成，使其已覆盖 95% 生产用例。"
+    },
+    {
+      "title": "🚀 iOS 开发 2026-2030 趋势：AI 集成 + Liquid Glass UI + Swift 6.2",
+      "url": "https://medium.com/@bhumibhuva18/the-future-of-ios-development-what-apple-isnt-telling-you-2026-2030-a9d9b8f4152d",
+      "source": "Medium",
+      "tags": ["iOS", "趋势", "AI", "Swift 6.2"],
+      "summary": "从 2026 到 2030 年，iOS 开发将迎来 Liquid Glass UI、Apple Intelligence、Swift 6.2、设备端 AI 处理等重大变革。开发者需要提前布局的技能包括 AI/ML 集成、空间计算和隐私优先架构。"
+    },
+    {
+      "title": "📘 Apple 发布 2026 年 5 月开发者新闻：新 SDK 与工具更新",
+      "url": "https://developer.apple.com/news/releases/",
+      "source": "Apple Developer",
+      "tags": ["Apple", "SDK", "Xcode", "更新"],
+      "summary": "Apple 开发者新闻页面 5 月更新了各平台最新操作系统版本信息，以及 App Store Connect、TestFlight 和其他开发者工具的最新变更。iOS 18、macOS 15、visionOS 2 等平台的 SDK 持续完善中。"
+    },
+    {
+      "title": "💡 Swift 开发技巧：使用 async/await 优化网络层架构",
+      "url": "https://softaims.com/blog/swift-ios-development-guide-2026",
+      "source": "SoftAims",
+      "tags": ["Swift", "async/await", "网络", "最佳实践"],
+      "summary": "在 Swift 6 中，正确使用 async/await 进行网络请求管理是保证线程安全的关键。推荐使用结构化并发（task groups、async let）来管理多个并行请求，配合 Actor 模型保护共享状态。"
+    },
+    {
+      "title": "📱 visionOS 2 生态持续扩展：空间计算应用开发正当时",
+      "url": "https://developer.apple.com/news/releases/",
+      "source": "Apple Developer",
+      "tags": ["visionOS", "Vision Pro", "空间计算"],
+      "summary": "随着 visionOS 2 的持续迭代，Apple Vision Pro 的应用生态正在快速扩展。越来越多的开发者开始使用 SwiftUI 和 RealityKit 构建沉浸式空间计算体验，ARKit 3D 内容创作工具链日趋成熟。"
+    }
+  ]
+}

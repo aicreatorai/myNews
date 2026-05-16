@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>iOS 开发者日报 - Swift / SwiftUI / 苹果生态</title>
+  <meta name="description" content="每日 iOS 开发技术资讯、Swift 实战教程、苹果生态动态">
+  <meta name="keywords" content="iOS, Swift, SwiftUI, 苹果, 开发, 教程, 资讯">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🍎</text></svg>">
+  <style>
+    :root { --bg: #f5f5f7; --card: #fff; --text: #1d1d1f; --muted: #86868b; --accent: #007aff; }
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: -apple-system, BlinkMacSystemFont, 'SF Pro', sans-serif; background: var(--bg); color: var(--text); line-height: 1.6; }
+    .container { max-width: 800px; margin: 0 auto; padding: 20px; }
+    header { text-align: center; padding: 40px 0 20px; }
+    header h1 { font-size: 2em; font-weight: 700; }
+    header p { color: var(--muted); font-size: 1.1em; margin-top: 8px; }
+    .meta { text-align: center; color: var(--muted); font-size: 0.9em; margin-bottom: 30px; }
+    .article { background: var(--card); border-radius: 16px; padding: 24px; margin-bottom: 20px; box-shadow: 0 1px 3px rgba(0,0,0,0.08); }
+    .article h2 { font-size: 1.3em; margin-bottom: 12px; }
+    .article h2 a { color: var(--text); text-decoration: none; }
+    .article h2 a:hover { color: var(--accent); }
+    .article .source { font-size: 0.85em; color: var(--muted); margin-bottom: 10px; }
+    .article .summary { color: #515154; }
+    .article .summary p { margin-bottom: 8px; }
+    .tag { display: inline-block; background: #e8f0fe; color: var(--accent); font-size: 0.8em; padding: 2px 8px; border-radius: 12px; margin-right: 6px; }
+    footer { text-align: center; padding: 40px 0; color: var(--muted); font-size: 0.85em; }
+    @media (prefers-color-scheme: dark) {
+      :root { --bg: #1c1c1e; --card: #2c2c2e; --text: #f5f5f7; --muted: #98989d; --accent: #0a84ff; }
+      .tag { background: #1e2a3a; }
+      .article .summary { color: #aeaeb2; }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>🍎 iOS 开发者日报</h1>
+      <p>Swift / SwiftUI / 苹果生态 · 每日更新</p>
+    </header>
+    <div class="meta">
+      <span id="date">加载中...</span> · 
+      <span>共 <span id="count">0</span> 篇</span>
+    </div>
+    <div id="articles"></div>
+    <footer>
+      <p>由 🐉 大龙 自动生成 · <a href="https://github.com/aricreatorai">GitHub</a></p>
+    </footer>
+  </div>
+  <script>
+    fetch('content.json').then(r=>r.json()).then(data => {
+      document.getElementById('date').textContent = data.date;
+      document.getElementById('count').textContent = data.articles.length;
+      const html = data.articles.map(a => `
+        <div class="article">
+          <h2><a href="${a.url}" target="_blank" rel="noopener">${a.title}</a></h2>
+          <div class="source">📰 ${a.source} ${a.tags ? '· ' + a.tags.map(t => `<span class="tag">${t}</span>`).join('') : ''}</div>
+          <div class="summary">${a.summary.replace(/\n/g, '<br>')}</div>
+        </div>
+      `).join('');
+      document.getElementById('articles').innerHTML = html;
+    });
+  </script>
+</body>
+</html>
