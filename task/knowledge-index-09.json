@@ -1,72 +1,79 @@
-[
-  {
-    "module": "09",
-    "date": "2026-05-16",
-    "topic": "Swift 6.3 发布",
-    "title": "Swift 6.3发布：首次官方支持Android开发",
-    "level": "L1",
-    "depth": "概念层",
-    "angle": "Swift语言跨平台突破与Android支持",
-    "keywords_snippet": "Swift 6.3, Android NDK, @c属性, 模块选择器, 跨平台"
-  },
-  {
-    "module": "09",
-    "date": "2026-05-16",
-    "topic": "Python 3.14 新特性",
-    "title": "Python 3.14正式发布：自由线程与JIT编译器双重突破",
-    "level": "L1",
-    "depth": "概念层",
-    "angle": "Python性能革命与自由线程模式",
-    "keywords_snippet": "Python 3.14, 子解释器, 自由线程, JIT, GIL可选移除"
-  },
-  {
-    "module": "09",
-    "date": "2026-05-16",
-    "topic": "Java 26 新特性",
-    "title": "Java 26正式发布：Switch模式匹配正式化与虚拟线程优化",
-    "level": "L1",
-    "depth": "概念层",
-    "angle": "Java现代化进程与JEP 455特性",
-    "keywords_snippet": "Java 26, JEP 455, Switch模式匹配, 虚拟线程, GraalVM"
-  },
-  {
-    "module": "09",
-    "date": "2026-05-16",
-    "topic": "TypeScript 7.0 Beta",
-    "title": "TypeScript 7.0 Beta发布：Go重写实现10倍编译加速",
-    "level": "L1",
-    "depth": "概念层",
-    "angle": "TypeScript编译器架构变革",
-    "keywords_snippet": "TypeScript 7.0, Go重写, 编译性能, tsgo, 并行处理"
-  },
-  {
-    "module": "09",
-    "date": "2026-05-16",
-    "topic": "Go 1.24 新特性",
-    "title": "Go 1.26新特性解析：泛型类型别名与弱指针标准库",
-    "level": "L1",
-    "depth": "概念层",
-    "angle": "Go泛型完善与内存管理增强",
-    "keywords_snippet": "Go 1.24, 泛型类型别名, weak包, 终结器优化"
-  },
-  {
-    "module": "09",
-    "date": "2026-05-16",
-    "topic": "TIOBE 编程语言排行",
-    "title": "TIOBE 2026年5月排行榜：Python份额回落，统计语言整合加速",
-    "level": "L1",
-    "depth": "概念层",
-    "angle": "编程语言生态趋势分析",
-    "keywords_snippet": "TIOBE, Python, C, Java, C++, 市场份额, 统计语言整合"
-  },
-  {
-    "module": "09",
-    "date": "2026-05-16",
-    "topic": "PHP 8.4 新特性",
-    "title": "PHP 8.4新特性解析：属性钩子与AI辅助开发全面升级",
-    "level": "L1",
-    "depth": "概念层",
-    "angle": "PHP现代化与AI开发工具集成",
-    "keywords_snippet": "PHP 8.4, 属性钩子, array_find, AI辅助, PhpStorm"
+{
+  "module": "09_开发语言",
+  "last_updated": "2026-05-16",
+  "entries": [
+    {
+      "id": 1,
+      "title": "Swift 6.3发布：首次官方支持Android开发",
+      "level": "L1",
+      "depth": "概念层",
+      "angle": "Swift跨平台战略与Android支持",
+      "keywords": ["Swift 6.3", "Android支持", "跨平台开发", "C互操作"],
+      "date": "2026-05-16"
+    },
+    {
+      "id": 2,
+      "title": "Python 3.14正式发布：自由线程与JIT编译器双重突破",
+      "level": "L2",
+      "depth": "技术层",
+      "angle": "Python子解释器与性能优化",
+      "keywords": ["Python 3.14", "自由线程", "子解释器", "JIT"],
+      "date": "2026-05-16"
+    },
+    {
+      "id": 3,
+      "title": "Java 26正式发布：Switch模式匹配正式化与虚拟线程优化",
+      "level": "L1",
+      "depth": "概念层",
+      "angle": "Java现代化进程",
+      "keywords": ["Java 26", "Switch模式匹配", "虚拟线程", "GraalVM"],
+      "date": "2026-05-16"
+    },
+    {
+      "id": 4,
+      "title": "TypeScript 7.0 Beta发布：Go重写实现10倍编译加速",
+      "level": "L2",
+      "depth": "技术层",
+      "angle": "TypeScript编译器架构变革",
+      "keywords": ["TypeScript 7.0", "Go重写", "编译加速", "类型系统"],
+      "date": "2026-05-16"
+    },
+    {
+      "id": 5,
+      "title": "Go 1.26正式发布：泛型限制放宽与运行时性能优化",
+      "level": "L1",
+      "depth": "概念层",
+      "angle": "Go泛型演进",
+      "keywords": ["Go 1.26", "泛型", "运行时优化", "工具链"],
+      "date": "2026-05-16"
+    },
+    {
+      "id": 6,
+      "title": "TIOBE 2026年5月排行榜：Python份额回落，统计语言整合加速",
+      "level": "L1",
+      "depth": "概念层",
+      "angle": "编程语言市场趋势",
+      "keywords": ["TIOBE", "编程语言排名", "Python", "市场趋势"],
+      "date": "2026-05-16"
+    },
+    {
+      "id": 7,
+      "title": "PHP 8.4新特性解析：属性钩子与AI辅助开发全面升级",
+      "level": "L1",
+      "depth": "概念层",
+      "angle": "PHP现代化与AI集成",
+      "keywords": ["PHP 8.4", "属性钩子", "短闭包", "AI辅助开发"],
+      "date": "2026-05-16"
+    }
+  ],
+  "statistics": {
+    "total_entries": 7,
+    "by_level": {
+      "L1": 5,
+      "L2": 2,
+      "L3": 0,
+      "L4": 0
+    },
+    "languages_covered": ["Swift", "Python", "Java", "TypeScript", "Go", "PHP"]
   }
-]
+}
