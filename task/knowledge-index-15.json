@@ -38,5 +38,145 @@
     "depth": "实践层",
     "angle": "基于行业Q1数据的AI产品留存运营策略",
     "keywords_snippet": "7日留存 用户留存 Aha时刻 数据复盘"
+  },
+  {
+    "module": "15",
+    "date": "2026-05-17",
+    "topic": "Agent工作流编排",
+    "title": "Agent工作流编排：从聊天框到任务执行系统的产品设计范式转移",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "Agent工作流编排的产品设计方法论与Anthropic Managed Agents案例分析",
+    "keywords_snippet": "Agent 工作流 编排 任务执行 产品设计"
+  },
+  {
+    "module": "15",
+    "date": "2026-05-17",
+    "topic": "AI PM五维能力模型",
+    "title": "AI PM五维能力模型：从会用AI到主导落地的进阶路线图",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "AI产品经理商业落地力、AI产品设计力等五维能力评估与提升",
+    "keywords_snippet": "五维能力 商业落地力 AI产品设计力 Prompt工程 数据思维"
+  },
+  {
+    "module": "15",
+    "date": "2026-05-17",
+    "topic": "MCP协议生态战略",
+    "title": "MCP协议生态战略：AI产品如何通过被调用获得新增长飞轮",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "MCP协议下AI产品被动获客与Agent生态分发策略",
+    "keywords_snippet": "MCP 协议 生态 Agent调用 被动获客 Notion"
+  },
+  {
+    "module": "15",
+    "date": "2026-05-17",
+    "topic": "AI产品商业化定价",
+    "title": "AI产品商业化拐点：从烧钱到赚钱的定价策略设计方法论",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "AI产品免费增值+算力点混合定价策略与美图案例",
+    "keywords_snippet": "商业化 定价 免费增值 算力点 美图 订阅 Token成本"
+  },
+  {
+    "module": "15",
+    "date": "2026-05-17",
+    "topic": "AI原生产品设计",
+    "title": "AI原生产品设计：如何为不确定性系统设计确定性体验",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "置信度展示+可解释性+人工兜底的AI产品设计方法论",
+    "keywords_snippet": "AI原生 置信度 可解释性 人工兜底 不确定性 确定性体验"
+  },
+  {
+    "module": "15",
+    "date": "2026-05-17",
+    "topic": "AI产品出海变现",
+    "title": "AI产品出海变现：美图如何靠免费增值+算力点拿下全球1790万付费用户",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "AI产品出海免费增值+算力点+高ARPU地区优先的变现方法论",
+    "keywords_snippet": "出海 变现 美图 免费增值 算力点 高ARPU 付费订阅"
+  },
+  {
+    "module": "15",
+    "date": "2026-05-17",
+    "topic": "AI产品留存运营",
+    "title": "AI产品从破圈到留存：3-7-30留存运营方法论",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "AI产品新奇效应消退与结果质量波动下的留存运营策略",
+    "keywords_snippet": "留存 破圈 3-7-30 价值锚点 场景扩展 新奇效应"
+  },
+  {
+    "module": "15",
+    "date": "2026-05-18",
+    "topic": "AI PM三层能力模型",
+    "title": "AI PM三层能力模型：场景洞察、成本把控与评估体系",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "从技术驱动到问题驱动的AI PM三层能力模型方法论",
+    "keywords_snippet": "三层能力模型 场景洞察力 成本把控力 评估体系 豆包 需求验证三问法"
+  },
+  {
+    "module": "15",
+    "date": "2026-05-18",
+    "topic": "需求验证三问法",
+    "title": "需求验证三问法：AI产品立项的第一道关卡",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "AI产品需求验证三问法：判断该不该做AI的核心方法",
+    "keywords_snippet": "需求验证三问法 场景洞察 成本把控 AI介入边界 Kimi"
+  },
+  {
+    "module": "15",
+    "date": "2026-05-18",
+    "topic": "MoSCoW+RICE需求优先级",
+    "title": "MoSCoW+RICE：AI产品需求优先级的量化排序方法",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "MoSCoW定性分类与RICE定量排序的AI产品需求优先级框架",
+    "keywords_snippet": "MoSCoW RICE 需求优先级 量化打分 通义千问"
+  },
+  {
+    "module": "15",
+    "date": "2026-05-18",
+    "topic": "AI产品用户体验地图",
+    "title": "AI产品用户体验地图：五阶段设计从认知到忠诚的AI介入点",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "用户旅程地图五阶段+AI介入点设计的AI产品体验设计方法",
+    "keywords_snippet": "用户体验地图 用户旅程 五阶段 AI介入点 豆包 Onboarding"
+  },
+  {
+    "module": "15",
+    "date": "2026-05-18",
+    "topic": "AI驱动A/B测试",
+    "title": "AI驱动A/B测试：从玄学到科学的AI产品迭代方法",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "AI赋能数据分析、流程自动化和个性化体验的A/B测试方法",
+    "keywords_snippet": "AI驱动 A/B测试 数据驱动 贝叶斯推断 置信区间 云测"
+  },
+  {
+    "module": "15",
+    "date": "2026-05-18",
+    "topic": "AI产品MVP快速验证",
+    "title": "AI产品MVP快速验证：用最小成本在30天内验证核心假设",
+    "level": "L3",
+    "depth": "实践层",
+    "angle": "MVP=核心功能×最小样本×快速反馈的AI产品快速验证方法",
+    "keywords_snippet": "MVP 快速验证 核心假设 ICE模型 人工兜底AI Dropbox"
+  },
+  {
+    "module": "15",
+    "date": "2026-05-18",
+    "topic": "AI产品PRD特殊写法",
+    "title": "AI产品PRD特殊写法：从功能描述到效果定义的文档转型",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "AI产品PRD特殊写法：效果指标、数据质量、Bad Case处理、监控方案",
+    "keywords_snippet": "PRD AI产品 效果指标 数据漂移 Bad Case 模型监控 豆包"
   }
 ]

@@ -38,5 +38,145 @@
     "depth": "概念层",
     "angle": "分学科AI辅导实操步骤与工具组合方案",
     "keywords_snippet": "数学 AI辅导 英语口语 科学实验 写作批改 多模态学习 生成效应"
+  },
+  {
+    "module": "13",
+    "date": "2026-05-17",
+    "topic": "AI教育政策框架",
+    "title": "三部门联合发文：AI教育进入标准化元年",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "政策解读与教育系统变革",
+    "keywords_snippet": "AI+教育行动计划 标准化 元年"
+  },
+  {
+    "module": "13",
+    "date": "2026-05-17",
+    "topic": "全球AI教育趋势",
+    "title": "全球数字教育大会召开，四国率先进入AI+教育新阶段",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "全球发展指数与规模化应用",
+    "keywords_snippet": "GDEI2026 规模化 中国智慧教育平台"
+  },
+  {
+    "module": "13",
+    "date": "2026-05-17",
+    "topic": "AI赋能教师成长",
+    "title": "AI赋能教师成长：数据驱动的循证型反思模式",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "教学行为分析系统",
+    "keywords_snippet": "数据采集 智能诊断 精准改进 闭环模式"
+  },
+  {
+    "module": "13",
+    "date": "2026-05-17",
+    "topic": "AI学科教学创新",
+    "title": "八大学科AI创新教学：多模态学习应用",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "多模态学习与情境学习",
+    "keywords_snippet": "AI绘画 3D建模 多模态学习 情境学习"
+  },
+  {
+    "module": "13",
+    "date": "2026-05-17",
+    "topic": "在线教育AI整合",
+    "title": "Coursera与Udemy合并：AI驱动个性化学习",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "平台合并与AI推荐系统",
+    "keywords_snippet": "Coursera Udemy合并 个性化学习 推荐系统"
+  },
+  {
+    "module": "13",
+    "date": "2026-05-17",
+    "topic": "AI智能题库批改",
+    "title": "智能题库与AI批改：从题海战术到精准练习",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "知识图谱诊断与生成效应",
+    "keywords_snippet": "知识图谱 诊断 推荐 精准练习 生成效应"
+  },
+  {
+    "module": "13",
+    "date": "2026-05-17",
+    "topic": "AI自习室",
+    "title": "AI自习室兴起：第三空间学习解决方案",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "社会促进效应与承诺机制",
+    "keywords_snippet": "AI自习室 督学 专注 社会促进效应 承诺机制"
+  },
+  {
+    "module": "13",
+    "date": "2026-05-18",
+    "topic": "五部门人工智能+教育行动计划",
+    "title": "五部门联合印发行动计划：四大任务绘就教育强国路线图",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "政策框架解读与认知科学分析",
+    "keywords_snippet": "五部门 行动计划 2030年 全学段 人才培养 智能学伴 教师培训 认知负荷理论"
+  },
+  {
+    "module": "13",
+    "date": "2026-05-18",
+    "topic": "2026世界数字教育大会",
+    "title": "2026世界数字教育大会在杭州落幕：八项成果揭示全球AI教育新走向",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "中国AI教育方案国际化与情境学习理论",
+    "keywords_snippet": "GDEI2026 杭州 八项成果 讯飞AI VR训练 情境学习理论"
+  },
+  {
+    "module": "13",
+    "date": "2026-05-18",
+    "topic": "教师AI素养纳入国考",
+    "title": "教师AI素养纳入国考体系：36学时培训背后的认知科学逻辑",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "教师AI素养制度设计与ZPD理论",
+    "keywords_snippet": "教师资格考试 36学时 ZPD理论 能力边界模型 表现性评估"
+  },
+  {
+    "module": "13",
+    "date": "2026-05-18",
+    "topic": "国家智慧教育平台2.0",
+    "title": "国家智慧教育平台2.0智能化升级：AI如何打破教育资源最后一公里",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "平台升级促进教育公平与认知负荷理论",
+    "keywords_snippet": "国家智慧教育平台 2.0 农村普惠 认知负荷理论"
+  },
+  {
+    "module": "13",
+    "date": "2026-05-18",
+    "topic": "深圳福田AI学伴",
+    "title": "深圳福田AI学伴实验：从大班授课到每个人都有一个AI教师",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "大规模个性化学习与生成效应间隔效应",
+    "keywords_snippet": "深圳福田 AI学伴 生成效应 间隔效应 认知诊断理论 Mastery Learning 多模态"
+  },
+  {
+    "module": "13",
+    "date": "2026-05-18",
+    "topic": "职业教育AI转型",
+    "title": "职业教育AI转型升级：行动计划重塑技能型社会人才培养逻辑",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "职业教育AI转型与经验学习理论",
+    "keywords_snippet": "职业教育 AI转型 行动计划 产教融合 Kolb经验学习圈 工作场所学习"
+  },
+  {
+    "module": "13",
+    "date": "2026-05-18",
+    "topic": "AI教育国际合作",
+    "title": "从引入外国方案到中国方案走出去：AI教育国际合作的范式转移",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "AI教育国际合作与适应性专业化理论",
+    "keywords_snippet": "AI教育 国际合作 哈萨克斯坦 全球南方 适应性专业化理论 同伴学习"
   }
 ]
