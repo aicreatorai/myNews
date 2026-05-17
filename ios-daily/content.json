@@ -1,41 +1,41 @@
 {
-  "date": "2026-05-17",
-  "headline": "Xcode 26.5 发布！iOS 26.5 RC 修复 60+ 安全漏洞",
+  "date": "2026-05-18",
+  "headline": "iOS 26.5 月度订阅上线！iPhone 18 Pro 传闻 + iOS 27 Siri 大改",
   "articles": [
     {
-      "title": "🔧 Xcode 26.5 正式发布：Agent 加持的编码助手来了",
-      "url": "https://www.mactech.com/2026/05/13/apple-releases-version-26-5-of-xcode-its-free-developer-tool/",
-      "source": "MacTech",
-      "tags": ["Xcode", "Apple", "新版本"],
-      "summary": "Apple 于 5 月 13 日发布 Xcode 26.5，支持 Swift 6.3.2。新增功能：编码助手支持消息队列、Agent 可主动提问以获得更准确的结果，大幅提升 AI 辅助开发体验。"
+      "title": "💰 App Store 推出「12个月承诺月度订阅」：订阅者月付更便宜",
+      "url": "https://developer.apple.com/news/?id=agq42lxe",
+      "source": "Apple Developer",
+      "tags": ["App Store", "订阅", "变现"],
+      "summary": "Apple 宣布推出按月付费+12个月承诺的自动续期订阅新模式，为订阅者提供更实惠的价格选项。用户可随时取消，完成承诺期后不再续费。iOS 26.5 正式版全球上线（除美国/新加坡）。开发者现在就可以在 App Store Connect 中配置并在 Xcode 中测试。"
     },
     {
-      "title": "🛡️ iOS 26.5 RC：修复 60+ 安全漏洞，WebKit 两处高危",
-      "url": "https://www.forbes.com/sites/kateoflahertyuk/2026/05/13/ios-265-update-now-warning-issued-to-all-iphone-users/",
-      "source": "Forbes",
-      "tags": ["iOS", "安全", "更新"],
-      "summary": "iOS 26.5 RC 修复了 60+ 个安全漏洞，其中 WebKit 两项 CVE 尤为严重——处理恶意网页内容可能绕过安全策略。Forbes 建议所有用户尽快更新。"
+      "title": "📱 iPhone 18 Pro 传闻：11 个等待的理由，距发布仅4个月",
+      "url": "https://www.macrumors.com/2026/05/16/top-stories-iphone-18-pro-rumors/",
+      "source": "MacRumors",
+      "tags": ["iPhone", "硬件", "传闻"],
+      "summary": "MacRumors 汇总 iPhone 18 Pro 系列传闻：距发布仅4个月，虽非革命性变化但有多项增强功能。WWDC 不到一个月，业界目光转向秋季硬件更新季。"
     },
     {
-      "title": "📱 iOS 26.4.1 稳定版 + Xcode 26.4.1：当前生产环境标配",
-      "url": "https://github.com/nordeim/iOS-Development/blob/main/kimi-2026.md",
-      "source": "GitHub",
-      "tags": ["iOS", "Swift", "Xcode"],
-      "summary": "截至 2026 年 5 月中旬，iOS 26.4.1 为稳定版（iOS 26.5 处于 RC 阶段）。自 4 月 28 日起，App Store 强制要求使用 Xcode 26+ 提交，当前稳定 IDE 为 Xcode 26.4.1（内置 Swift 6.3.1）。"
+      "title": "🤖 iOS 27 传闻：Siri 全面重新设计，真正智能助手来了？",
+      "url": "https://www.macrumors.com/2026/05/12/ios-27-siri-redesign/",
+      "source": "MacRumors",
+      "tags": ["iOS", "Siri", "AI"],
+      "summary": "iOS 27 将迎来 Siri 的重大重新设计。结合 Apple Intelligence 的发展趋势，Siri 有望在 iOS 27 中实现质的飞跃，成为真正智能的个人助理。"
     },
     {
-      "title": "🔮 iOS 开发 2026-2030 趋势：Liquid Glass UI + Apple Intelligence + Swift 6.2",
-      "url": "https://medium.com/@bhumibhuva18/the-future-of-ios-development-what-apple-isnt-telling-you-2026-2030-a9d9b8f4152d",
-      "source": "Medium",
-      "tags": ["iOS", "趋势", "SwiftUI", "AI"],
-      "summary": "从 2026 到 2030，iOS 开发核心技术栈将围绕 Liquid Glass UI、Apple Intelligence 设备端推理、Swift 6.2 并发模型展开。开发者必须提前掌握 AI/ML 集成、空间计算和隐私优先架构。"
+      "title": "📸 iOS 27 可自定义相机 App？新系统新功能预览",
+      "url": "https://www.macrumors.com/2026/05/12/ios-27-customizable-camera-app/",
+      "source": "MacRumors",
+      "tags": ["iOS", "相机", "新功能"],
+      "summary": "iOS 27 可能带来可自定义的相机 App，让用户按需调整相机界面和功能布局。这将是自 iOS 7 以来相机 App 最大的一次交互革新。"
     },
     {
-      "title": "🎨 SwiftUI 2026 年已成为苹果平台默认开发方式",
-      "url": "https://medium.com/@bhumibhuva18/the-future-of-ios-development-what-apple-isnt-telling-you-2026-2030-a9d9b8f4152d",
-      "source": "Medium",
-      "tags": ["SwiftUI", "UI设计", "最佳实践"],
-      "summary": "SwiftUI 在 2026 年正式替代 UIKit 成为 Apple 全平台开发的首选框架。Liquid Glass 设计语言与声明式 UI 范式的结合，使得 95% 的生产用例可纯 SwiftUI 实现。跨平台一致性大幅提升。"
+      "title": "🌍 App Store Connect 新增 11 种印度语言，出海印度正当时",
+      "url": "https://developer.apple.com/news/?id=97t4mt64",
+      "source": "Apple Developer",
+      "tags": ["App Store", "国际化", "增长"],
+      "summary": "App Store Connect 新增孟加拉语、古吉拉特语等 11 种印度语言支持，总计支持 50 种语言。开发者可为 App 名称、描述、截图提供本地化元数据，深耕印度市场。"
     }
   ]
 }
