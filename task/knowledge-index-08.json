@@ -28,5 +28,145 @@
     "depth": "实践层",
     "angle": "零代码搭建与云电脑云手机实操",
     "keywords_snippet": "Coze, 扣子2.5, 云电脑, 云手机, 工作流, AI Agent, 智能体搭建"
+  },
+  {
+    "module": "08",
+    "date": "2026-05-17",
+    "topic": "ChatGPT提示词技巧",
+    "title": "ChatGPT高级提示词技巧：3步拆解复杂任务提升输出质量",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "提示词技巧和实战案例",
+    "keywords_snippet": "ChatGPT 提示词 会议准备 文档撰写 分步执行"
+  },
+  {
+    "module": "08",
+    "date": "2026-05-17",
+    "topic": "Cursor AI编程",
+    "title": "Cursor AI编程实战：从零到一30分钟完成企业管理系统",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "Cursor IDE使用技巧和编程工作流",
+    "keywords_snippet": "Cursor Agent模式 Copilot 代码补全 项目实战"
+  },
+  {
+    "module": "08",
+    "date": "2026-05-17",
+    "topic": "AI视频生成工具",
+    "title": "AI视频生成零基础实战：3步搞定专业级短视频创作",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "AI视频工具使用教程和选型对比",
+    "keywords_snippet": "AI视频 文字转视频 图文转视频 剪映 影忆"
+  },
+  {
+    "module": "08",
+    "date": "2026-05-17",
+    "topic": "Suno AI音乐制作",
+    "title": "Suno AI音乐制作：5分钟创作专属原创歌曲",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "Suno使用教程和音乐创作工作流",
+    "keywords_snippet": "Suno AI音乐 ChatGPT生成歌词 歌曲创作 音乐风格"
+  },
+  {
+    "module": "08",
+    "date": "2026-05-17",
+    "topic": "WPS AI办公",
+    "title": "WPS AI实战：3大招让办公效率提升10倍",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "WPS AI使用技巧和PPT/表格制作",
+    "keywords_snippet": "WPS AI 灵犀 AI PPT 表格处理 双屏协同"
+  },
+  {
+    "module": "08",
+    "date": "2026-05-17",
+    "topic": "AI会议纪要工具",
+    "title": "AI会议纪要工具横评：哪款让打工人真正告别加班",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "会议纪要工具横评和选型对比",
+    "keywords_snippet": "AI会议 录音转写 智能纪要 听脑AI 随身鹿"
+  },
+  {
+    "module": "08",
+    "date": "2026-05-17",
+    "topic": "国产AI工具推荐",
+    "title": "2026国产AI工具推荐榜：豆包、千问、即梦谁更强",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "国产AI工具推荐和使用场景对比",
+    "keywords_snippet": "国产AI 豆包 千问 即梦 秘塔 Kimi"
+  },
+  {
+    "module": "08",
+    "date": "2026-05-18",
+    "topic": "Claude Code进阶技巧",
+    "title": "Claude Code七招进阶：钩子系统让开发效率翻倍",
+    "level": "L3",
+    "depth": "实践层",
+    "angle": "钩子系统模块化规则并行终端",
+    "keywords_snippet": "Claude Code hook PreToolUse 模块化规则 CLAUDE.md 并行终端 Plan Mode"
+  },
+  {
+    "module": "08",
+    "date": "2026-05-18",
+    "topic": "Cursor高级Prompt",
+    "title": "Cursor高级Prompt公式：五步让AI生成代码一次到位",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "Golden Prompt公式 @符号上下文注入 .cursorrules",
+    "keywords_snippet": "Cursor Golden Prompt Cmd+K Cmd+I @符号 .cursorrules 迭代优化"
+  },
+  {
+    "module": "08",
+    "date": "2026-05-18",
+    "topic": "AI工作流自动化",
+    "title": "n8n vs Coze：选对工作流自动化工具少走三年弯路",
+    "level": "L3",
+    "depth": "实践层",
+    "angle": "n8n Coze Dify工作流自动化选型对比",
+    "keywords_snippet": "n8n Coze Dify 工作流自动化 节点 自托管 零代码"
+  },
+  {
+    "module": "08",
+    "date": "2026-05-18",
+    "topic": "ChatGPT会议管理",
+    "title": "ChatGPT深度会议流：从议程生成到任务闭环全流程实战",
+    "level": "L3",
+    "depth": "实践层",
+    "angle": "会议议程生成纪要提炼待办管理",
+    "keywords_snippet": "ChatGPT 会议议程 录音转文字 纪要提炼 待办事项 思维导图"
+  },
+  {
+    "module": "08",
+    "date": "2026-05-18",
+    "topic": "国产AI横评",
+    "title": "国产AI横评实战：豆包/千问/Kimi/DeepSeek谁是你的职场搭子",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "国产AI六强横评14项任务选型指南",
+    "keywords_snippet": "Kimi 豆包 DeepSeek 通义千问 腾讯元宝 文心 国产AI对比"
+  },
+  {
+    "module": "08",
+    "date": "2026-05-18",
+    "topic": "AI视频制作",
+    "title": "AI视频制作零门槛：即梦可灵Runway三大场景选型指南",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "AI视频生成工具选型可灵即梦Runway实操",
+    "keywords_snippet": "AI视频 可灵 即梦 Runway 剪映 文字转视频 图生视频"
+  },
+  {
+    "module": "08",
+    "date": "2026-05-18",
+    "topic": "Suno AI音乐创作",
+    "title": "Suno AI音乐创作实战：五步从零生成专属原创歌曲",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "Suno AI音乐制作歌词创作曲风控制",
+    "keywords_snippet": "Suno AI音乐 歌词创作 曲风控制 Custom Mode 古风 原创歌曲"
   }
 ]

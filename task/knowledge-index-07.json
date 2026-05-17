@@ -48,5 +48,145 @@
     "depth": "概念层 - 四大框架架构对比、多模态支持、选型决策模型",
     "angle": "AI工程化框架选型，从性能多模态支持硬件兼容多维度对比",
     "keywords_snippet": "vLLM,TensorRT-LLM,llama.cpp,Ollama,推理框架,选型,多模态"
+  },
+  {
+    "module": "07",
+    "date": "2026-05-17",
+    "topic": "GPT-5.5全量推送与5.6曝光",
+    "title": "GPT-5.5全量推送与5.6曝光：OpenAI加速迭代的竞争策略",
+    "level": "L1",
+    "depth": "概念层 - 是什么、解决了什么问题、与什么不同",
+    "angle": "OpenAI战略转变与GPT-5.5核心技术突破",
+    "keywords_snippet": "GPT-5.5,幻觉率,推理速度,RFT,推测解码"
+  },
+  {
+    "module": "07",
+    "date": "2026-05-17",
+    "topic": "国产大模型强势崛起",
+    "title": "国产大模型强势崛起：Kimi K2.6登顶与DeepSeek估值暴涨",
+    "level": "L1",
+    "depth": "概念层 - 是什么、解决了什么问题、与什么不同",
+    "angle": "国产模型技术突破与资本热潮",
+    "keywords_snippet": "Kimi K2.6,DeepSeek,国产大模型,估值,基准测试"
+  },
+  {
+    "module": "07",
+    "date": "2026-05-17",
+    "topic": "Claude Code与AI编程工具竞争",
+    "title": "Claude Code vs Codex：AI编程工具的开发者争夺战",
+    "level": "L1",
+    "depth": "概念层 - 是什么、解决了什么问题、与什么不同",
+    "angle": "AI编程工具技术对比与开发者生态",
+    "keywords_snippet": "Claude Code,Codex,AI编程,开发者工具,多Agent"
+  },
+  {
+    "module": "07",
+    "date": "2026-05-17",
+    "topic": "AI Agent技术成熟",
+    "title": "AI Agent技术成熟：从单Agent到多Agent协作的范式跃迁",
+    "level": "L1",
+    "depth": "概念层 - 是什么、解决了什么问题、与什么不同",
+    "angle": "多Agent系统设计原理与最佳实践",
+    "keywords_snippet": "AI Agent,多Agent,协作框架,记忆诅咒,CrewAI"
+  },
+  {
+    "module": "07",
+    "date": "2026-05-17",
+    "topic": "AI终端国标发布",
+    "title": "AI终端国标发布：人工智能从参数竞赛到体验分级",
+    "level": "L1",
+    "depth": "概念层 - 是什么、解决了什么问题、与什么不同",
+    "angle": "AI终端分级标准与行业规范",
+    "keywords_snippet": "AI终端,智能化分级,L1-L4,国标,体验"
+  },
+  {
+    "module": "07",
+    "date": "2026-05-17",
+    "topic": "Anthropic估值首超OpenAI",
+    "title": "Anthropic估值首超OpenAI：AI竞争格局的深层变革信号",
+    "level": "L1",
+    "depth": "概念层 - 是什么、解决了什么问题、与什么不同",
+    "angle": "AI公司商业模式与竞争策略",
+    "keywords_snippet": "Anthropic,OpenAI,估值,Constitutional AI,企业采用率"
+  },
+  {
+    "module": "07",
+    "date": "2026-05-17",
+    "topic": "多模态技术持续突破",
+    "title": "多模态技术持续突破：端侧部署与图像生成的并线进化",
+    "level": "L1",
+    "depth": "概念层 - 是什么、解决了什么问题、与什么不同",
+    "angle": "端侧多模态与图像生成技术进展",
+    "keywords_snippet": "MiniCPM-V,端侧部署,GPT-Image 2,文字渲染,量化"
+  },
+  {
+    "module": "07",
+    "date": "2026-05-18",
+    "topic": "MCP协议",
+    "title": "MCP协议：AI工具调用的USB-C标准",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "MCP协议技术原理、架构组件、工具调用标准化",
+    "keywords_snippet": "MCP,Model Context Protocol,USB-C,JSON-RPC,Anthropic,Stainless"
+  },
+  {
+    "module": "07",
+    "date": "2026-05-18",
+    "topic": "Function Calling",
+    "title": "Function Calling：让大模型开口说话的桥梁技术",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "Function Calling技术原理、工作流程、模型决策与执行分离",
+    "keywords_snippet": "Function Calling,工具调用,JSON Schema,模型决策,应用执行"
+  },
+  {
+    "module": "07",
+    "date": "2026-05-18",
+    "topic": "MCP vs Function Calling",
+    "title": "MCP vs Function Calling：技术选型实战指南",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "MCP与Function Calling对比、技术选型决策框架",
+    "keywords_snippet": "MCP,Function Calling,技术选型,协议,适配复杂度"
+  },
+  {
+    "module": "07",
+    "date": "2026-05-18",
+    "topic": "多Agent系统架构",
+    "title": "多Agent系统架构：从单兵作战到团队协作的范式跃迁",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "多Agent系统架构设计、协作模式、通信机制",
+    "keywords_snippet": "Multi-Agent,多Agent,协作架构,监督者,网络模式,CrewAI,LangGraph"
+  },
+  {
+    "module": "07",
+    "date": "2026-05-18",
+    "topic": "LangGraph框架",
+    "title": "LangGraph实战：用图思维构建生产级多Agent系统",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "LangGraph状态图架构、节点边设计、生产级开发",
+    "keywords_snippet": "LangGraph,StateGraph,节点,边,状态管理,Human-in-the-loop"
+  },
+  {
+    "module": "07",
+    "date": "2026-05-18",
+    "topic": "CrewAI框架",
+    "title": "CrewAI实战：角色化协作让AI像人类团队一样分工",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "CrewAI角色导向、Agent任务协作、快速原型开发",
+    "keywords_snippet": "CrewAI,Agent,Task,Crew,Process,角色分工"
+  },
+  {
+    "module": "07",
+    "date": "2026-05-18",
+    "topic": "Function Calling工程实践",
+    "title": "Function Calling生产环境避坑指南",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "Function Calling工程实践、错误处理、性能优化",
+    "keywords_snippet": "Function Calling,生产环境,错误处理,重试策略,黄金标准"
   }
 ]

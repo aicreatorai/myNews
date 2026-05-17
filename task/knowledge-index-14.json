@@ -1,6 +1,76 @@
 [
   {
     "module": "14",
+    "date": "2026-05-18",
+    "topic": "检索练习",
+    "title": "检索练习：用测试效应把遗忘曲线变成记忆加速器",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "主动回忆vs被动阅读，认知科学原理与实践工具",
+    "keywords_snippet": "检索练习 Retrieval Practice 测试效应 提取练习 必要难度 Anki"
+  },
+  {
+    "module": "14",
+    "date": "2026-05-18",
+    "topic": "深度工作",
+    "title": "深度工作：在碎片化时代构建专注力的完整系统",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "Cal Newport专注力方法论，心流状态与注意力残留",
+    "keywords_snippet": "深度工作 Deep Work 心流 注意力残留 专注力 时间阻塞"
+  },
+  {
+    "module": "14",
+    "date": "2026-05-18",
+    "topic": "元学习",
+    "title": "元学习：构建学习地图的系统方法论",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "学习如何学习，认知地图与瓶颈识别",
+    "keywords_snippet": "元学习 Meta-Learning 学习地图 瓶颈识别 学习效率"
+  },
+  {
+    "module": "14",
+    "date": "2026-05-18",
+    "topic": "Zettelkasten卡片盒",
+    "title": "Zettelkasten卡片盒：卢曼的原子化知识管理系统",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "原子化笔记与双向链接，卢曼笔记系统",
+    "keywords_snippet": "Zettelkasten 卡片盒 卢曼 原子化笔记 双向链接 Obsidian"
+  },
+  {
+    "module": "14",
+    "date": "2026-05-18",
+    "topic": "PARA系统",
+    "title": "PARA系统：构建第二大脑的实战方法论",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "Tiago Forte第二大脑方法，项目与资源管理",
+    "keywords_snippet": "PARA Projects Areas Resources Archives 第二大脑 Tiago Forte Building a Second Brain"
+  },
+  {
+    "module": "14",
+    "date": "2026-05-18",
+    "topic": "渐进式阅读",
+    "title": "渐进式阅读：从信息输入到知识内化的完整闭环",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "预测-验证循环，主动阅读与知识提炼",
+    "keywords_snippet": "渐进式阅读 预测 阅读理解 知识内化 主动回忆"
+  },
+  {
+    "module": "14",
+    "date": "2026-05-18",
+    "topic": "学习迁移",
+    "title": "学习迁移：跨越场景的知识应用策略",
+    "level": "L3",
+    "depth": "实践层",
+    "angle": "近迁移与远迁移，知识复利效应",
+    "keywords_snippet": "学习迁移 Learning Transfer 近迁移 远迁移 抽象化 类比思维"
+  },
+  {
+    "module": "14",
     "date": "2026-05-15",
     "topic": "习惯叠加法",
     "title": "习惯叠加法：用已有行为做触发器科学搭建新习惯",
@@ -48,5 +118,75 @@
     "depth": "概念层",
     "angle": "驳斥21天习惯神话介绍真实科学周期",
     "keywords_snippet": "66天 21天神话 习惯形成周期 Lally Phillippa"
+  },
+  {
+    "module": "14",
+    "date": "2026-05-17",
+    "topic": "间隔重复法",
+    "title": "间隔重复法：用遗忘曲线做记忆的智能闹钟",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "艾宾浩斯遗忘曲线与科学复习策略",
+    "keywords_snippet": "间隔重复 艾宾浩斯 遗忘曲线 Anki 主动回忆"
+  },
+  {
+    "module": "14",
+    "date": "2026-05-17",
+    "topic": "费曼学习法",
+    "title": "费曼学习法：把知识翻译给外行人才能真正学会",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "以教代学、生成效应与元认知",
+    "keywords_snippet": "费曼学习法 以教代学 Feynman Technique 主动输出"
+  },
+  {
+    "module": "14",
+    "date": "2026-05-17",
+    "topic": "刻意练习",
+    "title": "刻意练习：走出舒适区的科学成长法",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "艾里克森、心流理论与心理表征",
+    "keywords_snippet": "刻意练习 Deliberate Practice 舒适区 心流 艾里克森"
+  },
+  {
+    "module": "14",
+    "date": "2026-05-17",
+    "topic": "个人知识体系",
+    "title": "构建个人知识体系：从碎片信息到系统智慧",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "组块理论、双重编码与知识迁移",
+    "keywords_snippet": "知识体系 个人知识系统 组块理论 知识管理 PKM"
+  },
+  {
+    "module": "14",
+    "date": "2026-05-17",
+    "topic": "AI学习工具",
+    "title": "AI学习工具红宝书：2026年效率提升神器推荐",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "AI工具全景图与学习工作流整合",
+    "keywords_snippet": "AI工具 ChatGPT Claude NotebookLM Gemini 学习效率"
+  },
+  {
+    "module": "14",
+    "date": "2026-05-17",
+    "topic": "在线学习平台",
+    "title": "在线学习平台全景图：找到最适合你的学习入口",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "MOOC平台对比与学习策略",
+    "keywords_snippet": "在线教育 MOOC 中国大学MOOC 网易云课堂 学习平台"
+  },
+  {
+    "module": "14",
+    "date": "2026-05-17",
+    "topic": "播客学习法",
+    "title": "播客学习法：用耳朵构建终身学习的第三空间",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "播客生态、Podwise与知识闭环",
+    "keywords_snippet": "播客学习 小宇宙 Podwise AI播客 碎片时间"
   }
 ]

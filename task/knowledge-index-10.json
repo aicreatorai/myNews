@@ -48,5 +48,145 @@
     "depth": "概念层",
     "angle": "开源Codex增强框架介绍与实战",
     "keywords_snippet": "oh-my-codex OmX OpenAI Codex 多Agent 工作流"
+  },
+  {
+    "module": "10",
+    "date": "2026-05-17",
+    "topic": "Superpowers",
+    "title": "78K Star的AI编程工程纪律框架，让AI不再自由发挥",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "AI编码工作流框架、TDD流程、工程师纪律",
+    "keywords_snippet": "Superpowers AI编程 工作流 TDD 工程纪律 Claude Code"
+  },
+  {
+    "module": "10",
+    "date": "2026-05-17",
+    "topic": "LobeHub",
+    "title": "76K Star的多Agent协作平台，一句话组建AI梦之队",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "多Agent协作平台、Agent Groups、MCP协议",
+    "keywords_snippet": "LobeHub 多Agent协作 Agent Groups MCP 技能库"
+  },
+  {
+    "module": "10",
+    "date": "2026-05-17",
+    "topic": "Claude-Mem",
+    "title": "58K Star的持久记忆系统，让Claude Code永不丢失上下文",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "AI记忆系统、上下文管理、语义检索",
+    "keywords_snippet": "Claude-Mem 记忆系统 上下文 AI编码 持久化"
+  },
+  {
+    "module": "10",
+    "date": "2026-05-17",
+    "topic": "TradingAgents",
+    "title": "69K Star的多Agent金融框架，用AI团队开交易公司",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "多Agent金融分析框架、量化交易、AI协作",
+    "keywords_snippet": "TradingAgents 多Agent 金融交易 量化投资 AI团队"
+  },
+  {
+    "module": "10",
+    "date": "2026-05-17",
+    "topic": "Agent Skills",
+    "title": "34K Star的生产级工程技能库，给AI装上高级工程师大脑",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "AI编码工程规范、生产级技能、质量门禁",
+    "keywords_snippet": "Agent Skills 工程技能 AI编码 质量门禁 Addy Osmani"
+  },
+  {
+    "module": "10",
+    "date": "2026-05-17",
+    "topic": "Pathway",
+    "title": "55K Star的Python实时ETL框架，用Rust引擎吊打Spark",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "实时数据处理、LLM管道、RAG",
+    "keywords_snippet": "Pathway 实时ETL 流处理 Rust引擎 LLM RAG"
+  },
+  {
+    "module": "10",
+    "date": "2026-05-17",
+    "topic": "DuckDB",
+    "title": "嵌入式分析数据库，数据分析领域的SQLite获60K+ Star",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "嵌入式OLAP数据库、列式存储、向量化执行",
+    "keywords_snippet": "DuckDB 嵌入式数据库 列式存储 OLAP 向量化"
+  },
+  {
+    "module": "10",
+    "date": "2026-05-18",
+    "topic": "DeerFlow",
+    "title": "57K Star的字节跳动超级Agent框架，登顶GitHub Trending榜首",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "超级Agent运行基础设施、LangGraph编排、Docker沙箱执行",
+    "keywords_snippet": "DeerFlow 字节跳动 Super Agent Harness LangGraph Docker沙箱"
+  },
+  {
+    "module": "10",
+    "date": "2026-05-18",
+    "topic": "Continue",
+    "title": "21K Star的开源AI编程助手，VS Code/JetBrains秒变智能IDE",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "开源AI编程插件、多模型支持、本地部署隐私保护",
+    "keywords_snippet": "Continue 开源AI编程 VSCode JetBrains Ollama 本地部署"
+  },
+  {
+    "module": "10",
+    "date": "2026-05-18",
+    "topic": "RAGFlow",
+    "title": "20K+ Star的深度文档理解引擎，PDF/PPT/表格问答成为现实",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "深度文档理解RAG引擎、DeepDoc解析、混合检索",
+    "keywords_snippet": "RAGFlow 深度文档理解 DeepDoc OCR 混合检索 知识库"
+  },
+  {
+    "module": "10",
+    "date": "2026-05-18",
+    "topic": "Polars",
+    "title": "80K Star的Rust高性能数据分析库，重新定义Python数据处理",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "Rust编写的高性能数据分析、Apache Arrow、延迟执行",
+    "keywords_snippet": "Polars Rust 高性能数据分析 Python Apache Arrow 延迟执行"
+  },
+  {
+    "module": "10",
+    "date": "2026-05-18",
+    "topic": "kro",
+    "title": "谷歌/亚马逊/微软联合发布Kubernetes资源管理标准化工具",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "Kube Resource Orchestrator、云厂商联合、内部开发者平台",
+    "keywords_snippet": "kro Kubernetes 资源管理 谷歌 亚马逊 微软 IDP"
+  },
+  {
+    "module": "10",
+    "date": "2026-05-18",
+    "topic": "MiroFish",
+    "title": "29K Star的群体智能预测引擎，用AI沙盘推演未来",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "多智能体群体智能、数字沙盘、趋势预测",
+    "keywords_snippet": "MiroFish 群体智能 多智能体 数字沙盘 预测 系统"
+  },
+  {
+    "module": "10",
+    "date": "2026-05-18",
+    "topic": "Kubernetes 1.36",
+    "title": "Haru版本70项增强，AI工作负载支持进入成熟期",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "Kubernetes 1.36 Haru版本、AI工作负载、安全加固",
+    "keywords_snippet": "Kubernetes 1.36 Haru GPU调度 AI工作负载 安全加固"
   }
 ]

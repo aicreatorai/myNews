@@ -1,6 +1,6 @@
 {
   "module": "09_开发语言",
-  "last_updated": "2026-05-16",
+  "last_updated": "2026-05-18",
   "entries": [
     {
       "id": 1,
@@ -64,16 +64,79 @@
       "angle": "PHP现代化与AI集成",
       "keywords": ["PHP 8.4", "属性钩子", "短闭包", "AI辅助开发"],
       "date": "2026-05-16"
+    },
+    {
+      "id": 8,
+      "title": "TypeScript 7.0 Beta发布：Go重写实现10倍编译加速",
+      "level": "L2",
+      "depth": "技术层",
+      "angle": "TypeScript编译器架构变革",
+      "keywords": ["TypeScript 7.0", "Go重写", "编译加速", "Beta发布"],
+      "date": "2026-05-18"
+    },
+    {
+      "id": 9,
+      "title": "Bun创始人宣布六天内用Rust重写96万行代码",
+      "level": "L2",
+      "depth": "技术层",
+      "angle": "JavaScript运行时生态变革",
+      "keywords": ["Bun", "Rust重写", "Zig", "JavaScript运行时"],
+      "date": "2026-05-18"
+    },
+    {
+      "id": 10,
+      "title": "Rust 1.95.0正式发布：cfg_select!宏开启编译时元编程新时代",
+      "level": "L2",
+      "depth": "技术层",
+      "angle": "Rust编译时元编程",
+      "keywords": ["Rust 1.95.0", "cfg_select", "宏", "match守卫"],
+      "date": "2026-05-18"
+    },
+    {
+      "id": 11,
+      "title": "Python 3.14.5正式发布：自由线程与JIT编译器双重突破",
+      "level": "L2",
+      "depth": "技术层",
+      "angle": "Python自由线程与维护更新",
+      "keywords": ["Python 3.14.5", "自由线程", "GIL", "正式发布"],
+      "date": "2026-05-18"
+    },
+    {
+      "id": 12,
+      "title": "TIOBE 2026年5月榜：Python份额回落5.37%，统计语言整合加速",
+      "level": "L1",
+      "depth": "概念层",
+      "angle": "编程语言市场趋势分析",
+      "keywords": ["TIOBE", "Python份额", "R语言", "统计语言整合"],
+      "date": "2026-05-18"
+    },
+    {
+      "id": 13,
+      "title": "Kotlin 2.3.0发布：编译器优化与Java互操作深化",
+      "level": "L1",
+      "depth": "概念层",
+      "angle": "Kotlin编译器现代化",
+      "keywords": ["Kotlin 2.3.0", "编译器优化", "Java互操作", "IntelliJ IDEA"],
+      "date": "2026-05-18"
+    },
+    {
+      "id": 14,
+      "title": "Go生态动态：Kubernetes升级Go 1.25，工具链持续完善",
+      "level": "L1",
+      "depth": "概念层",
+      "angle": "Go云原生生态",
+      "keywords": ["Go 1.26", "Kubernetes", "GoLand", "云原生"],
+      "date": "2026-05-18"
     }
   ],
   "statistics": {
-    "total_entries": 7,
+    "total_entries": 14,
     "by_level": {
-      "L1": 5,
-      "L2": 2,
+      "L1": 9,
+      "L2": 5,
       "L3": 0,
       "L4": 0
     },
-    "languages_covered": ["Swift", "Python", "Java", "TypeScript", "Go", "PHP"]
+    "languages_covered": ["Swift", "Python", "Java", "TypeScript", "Go", "PHP", "Bun", "Rust", "Kotlin"]
   }
 }
