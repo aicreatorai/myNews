@@ -1,41 +1,41 @@
 {
-  "date": "2026-05-18",
-  "headline": "iOS 26.5 月度订阅上线！iPhone 18 Pro 传闻 + iOS 27 Siri 大改",
+  "date": "2026-05-19",
+  "headline": "WWDC26 官宣！ADA 入围名单 + iOS 27 Shortcuts AI 大改造",
   "articles": [
     {
-      "title": "💰 App Store 推出「12个月承诺月度订阅」：订阅者月付更便宜",
-      "url": "https://developer.apple.com/news/?id=agq42lxe",
+      "title": "🎉 WWDC26 官宣：Apple 发布「Coming bright up」预告页",
+      "url": "https://developer.apple.com/news/?id=7lcnqgxp",
       "source": "Apple Developer",
-      "tags": ["App Store", "订阅", "变现"],
-      "summary": "Apple 宣布推出按月付费+12个月承诺的自动续期订阅新模式，为订阅者提供更实惠的价格选项。用户可随时取消，完成承诺期后不再续费。iOS 26.5 正式版全球上线（除美国/新加坡）。开发者现在就可以在 App Store Connect 中配置并在 Xcode 中测试。"
+      "tags": ["WWDC", "Apple", "开发者"],
+      "summary": "Apple 5月18日正式发布 WWDC26 预告页面！一场融合技术、创意与社区的线上盛会即将到来，全部免费。准备好迎接新一周的科技狂欢吧——iOS 27、macOS 27 等新系统即将揭晓。"
     },
     {
-      "title": "📱 iPhone 18 Pro 传闻：11 个等待的理由，距发布仅4个月",
-      "url": "https://www.macrumors.com/2026/05/16/top-stories-iphone-18-pro-rumors/",
-      "source": "MacRumors",
-      "tags": ["iPhone", "硬件", "传闻"],
-      "summary": "MacRumors 汇总 iPhone 18 Pro 系列传闻：距发布仅4个月，虽非革命性变化但有多项增强功能。WWDC 不到一个月，业界目光转向秋季硬件更新季。"
-    },
-    {
-      "title": "🤖 iOS 27 传闻：Siri 全面重新设计，真正智能助手来了？",
-      "url": "https://www.macrumors.com/2026/05/12/ios-27-siri-redesign/",
-      "source": "MacRumors",
-      "tags": ["iOS", "Siri", "AI"],
-      "summary": "iOS 27 将迎来 Siri 的重大重新设计。结合 Apple Intelligence 的发展趋势，Siri 有望在 iOS 27 中实现质的飞跃，成为真正智能的个人助理。"
-    },
-    {
-      "title": "📸 iOS 27 可自定义相机 App？新系统新功能预览",
-      "url": "https://www.macrumors.com/2026/05/12/ios-27-customizable-camera-app/",
-      "source": "MacRumors",
-      "tags": ["iOS", "相机", "新功能"],
-      "summary": "iOS 27 可能带来可自定义的相机 App，让用户按需调整相机界面和功能布局。这将是自 iOS 7 以来相机 App 最大的一次交互革新。"
-    },
-    {
-      "title": "🌍 App Store Connect 新增 11 种印度语言，出海印度正当时",
-      "url": "https://developer.apple.com/news/?id=97t4mt64",
+      "title": "🏆 2026 Apple Design Award 入围名单公布",
+      "url": "https://developer.apple.com/news/?id=8t3j66i7",
       "source": "Apple Developer",
-      "tags": ["App Store", "国际化", "增长"],
-      "summary": "App Store Connect 新增孟加拉语、古吉拉特语等 11 种印度语言支持，总计支持 50 种语言。开发者可为 App 名称、描述、截图提供本地化元数据，深耕印度市场。"
+      "tags": ["ADA", "设计", "App"],
+      "summary": "Apple 5月18日公布 2026 年 Apple Design Award 入围名单，表彰 App 和游戏设计中的创新、巧思与技术成就。这是一年一度向全球 Apple 开发者社区致敬的时刻。去看看今年有哪些优秀作品入围！"
+    },
+    {
+      "title": "🤖 iOS 27：Shortcuts 终于要变成它本该有的样子",
+      "url": "https://9to5mac.com/2026/05/18/with-ios-27-shortcuts-is-about-to-become-what-it-was-always-meant-to-be/",
+      "source": "9to5Mac",
+      "tags": ["iOS 27", "Shortcuts", "AI", "自动化"],
+      "summary": "Shortcuts 一直是高级用户的强大自动化工具，但在 iOS 27 中它可能终于成为一个普通人也能轻松上手的工具。结合 AI 能力，用户将能用自然语言创建快捷指令、生成壁纸等——Shortcuts 的真正潜力即将释放。"
+    },
+    {
+      "title": "📱 iPhone 18 Pro 发布日期预测：秋季如约而至",
+      "url": "https://9to5mac.com/2026/05/18/iphone-18-release-date-when-apples-new-model-is-coming/",
+      "source": "9to5Mac",
+      "tags": ["iPhone", "硬件", "发布"],
+      "summary": "Apple 新款旗舰 iPhone 18 Pro 及系列机型预计将于今年秋季发布，遵循 Apple 多年来的惯例。文章详细预测了发布会时间、上市日期及产品线配置。WWDC 不到一个月，秋季硬件季也快到了。"
+    },
+    {
+      "title": "🌍 iOS 26.5 为巴西新增第三方应用市场设置选项",
+      "url": "https://9to5mac.com/2026/05/18/ios-26-5-adds-new-setting-for-alternative-app-marketplaces-in-brazil/",
+      "source": "9to5Mac",
+      "tags": ["iOS 26.5", "App Store", "侧载", "监管"],
+      "summary": "Apple 在 iOS 26.5 中为巴西用户新增了替代应用市场的偏好设置选项。继欧盟 DMA 之后，巴西成为又一个要求 Apple 开放第三方应用商店的市场。这对 iOS 开发者意味着分发渠道的多样化。"
     }
   ]
 }
