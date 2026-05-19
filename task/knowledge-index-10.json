@@ -181,6 +181,79 @@
   },
   {
     "module": "10",
+<<<<<<< HEAD
+=======
+    "date": "2026-05-19",
+    "topic": "UI-TARS-desktop",
+    "title": "字节跳动32.7K Star开源多模态AI Agent，一句话控制你的电脑",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "多模态GUI控制、自然语言桌面自动化、Qwen3-4B本地推理",
+    "keywords_snippet": "UI-TARS-desktop 字节跳动 多模态AI Agent GUI自动化 Qwen3-4B vLLM"
+  },
+  {
+    "module": "10",
+    "date": "2026-05-19",
+    "topic": "mattpocock/skills",
+    "title": "TypeScript教父开源55K+ Star技能库，把Claude Code变成真工程师",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "TypeScript专项AI技能、真实工程师工作流、SKILL.md格式",
+    "keywords_snippet": "mattpocock skills TypeScript Claude Code 技能库 Matt Pocock"
+  },
+  {
+    "module": "10",
+    "date": "2026-05-19",
+    "topic": "OpenHuman",
+    "title": "Tiny Humans AI开源隐私优先桌面助手，记忆树让AI真正懂你",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "隐私优先桌面AI、118+第三方应用集成、记忆树系统、Tauri桌面框架",
+    "keywords_snippet": "OpenHuman tinyhumansai 隐私桌面AI 记忆树 Tauri Rust OAuth"
+  },
+  {
+    "module": "10",
+    "date": "2026-05-19",
+    "topic": "Goose",
+    "title": "Block开源27.5K Star可扩展AI代理，让任何LLM成为工程执行引擎",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "AI任务执行代理、LLM无关架构、Docker隔离、插件化工具",
+    "keywords_snippet": "Goose block AI代理 LLM无关 Docker 工作流自动化 Apache 2.0"
+  },
+  {
+    "module": "10",
+    "date": "2026-05-19",
+    "topic": "agentmemory",
+    "title": "AI编程助手跨会话记忆系统，4.8K Star让Claude Code永不失忆",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "AI编程记忆系统、BM25+向量混合检索、知识图谱、SQLite本地存储",
+    "keywords_snippet": "agentmemory AI记忆系统 BM25向量检索 知识图谱 SQLite Claude Code Cursor"
+  },
+  {
+    "module": "10",
+    "date": "2026-05-19",
+    "topic": "LangGraph",
+    "title": "30.7K Star状态图驱动多Agent框架，用图结构重塑AI工作流编排",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "状态图工作流、循环与条件分支、多Agent编排、Pydantic V2",
+    "keywords_snippet": "LangGraph 状态图 多Agent工作流 Pydantic V2 asyncio LangChain"
+  },
+  {
+    "module": "10",
+    "date": "2026-05-19",
+    "topic": "anthropics/financial-services",
+    "title": "Anthropic官方60K+ Star金融AI套件，企业级Claude Agent工程实践",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "企业级AI Agent、金融分析工作流、引用溯源、异步并发",
+    "keywords_snippet": "anthropics financial-services 金融AI Agent Claude 引用溯源 asyncio"
+  },
+  {
+    "module": "10",
+>>>>>>> 1d54cc0
     "date": "2026-05-18",
     "topic": "Kubernetes 1.36",
     "title": "Haru版本70项增强，AI工作负载支持进入成熟期",

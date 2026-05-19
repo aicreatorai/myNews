@@ -178,5 +178,78 @@
     "depth": "技术层",
     "angle": "AI产品PRD特殊写法：效果指标、数据质量、Bad Case处理、监控方案",
     "keywords_snippet": "PRD AI产品 效果指标 数据漂移 Bad Case 模型监控 豆包"
+<<<<<<< HEAD
+=======
+  },
+  {
+    "module": "15",
+    "date": "2026-05-19",
+    "topic": "Gemini生态整合",
+    "title": "Google Gemini月活破7.5亿：生态整合驱动的AI产品增长范式",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "Google Gemini生态整合驱动的AI产品增长案例分析",
+    "keywords_snippet": "Gemini 生态整合 Workspace 用户增长 月活7.5亿"
+  },
+  {
+    "module": "15",
+    "date": "2026-05-19",
+    "topic": "Claude Code代理式编程",
+    "title": "Claude Code原生集成Xcode：代理式编程工具的产品设计方法论",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "Claude Code代理式编程的产品设计方法论",
+    "keywords_snippet": "Claude Code 代理式编程 Xcode 自主执行 产品设计"
+  },
+  {
+    "module": "15",
+    "date": "2026-05-19",
+    "topic": "美团AI产品矩阵",
+    "title": "美团AI产品矩阵：C端体验优化+B端商家提效的双轮驱动",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "美团C端体验优化+B端商家提效的AI产品矩阵案例",
+    "keywords_snippet": "美团 小美 问小团 美团大脑 无人配送 AI产品矩阵"
+  },
+  {
+    "module": "15",
+    "date": "2026-05-19",
+    "topic": "豆包全场景AI平台",
+    "title": "豆包全场景AI平台：字节跳动的AI产品战略与春晚破圈方法论",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "豆包全场景AI平台与春晚破圈营销案例",
+    "keywords_snippet": "豆包 字节跳动 即梦 春晚 破圈 全场景AI平台"
+  },
+  {
+    "module": "15",
+    "date": "2026-05-19",
+    "topic": "Kimi K2.6 Agent能力",
+    "title": "Kimi K2.6 Agent能力突破：国产大模型的自主执行产品设计",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "Kimi K2.6 Agent自主执行能力的产品设计案例",
+    "keywords_snippet": "Kimi K2.6 月之暗面 Agent 自主执行 任务分解"
+  },
+  {
+    "module": "15",
+    "date": "2026-05-19",
+    "topic": "千问AI眼镜硬件",
+    "title": "通义千问AI眼镜：AI硬件产品的场景定义与用户预期管理",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "通义千问AI眼镜的硬件产品场景定义案例",
+    "keywords_snippet": "千问 AI眼镜 MWC 阿里 硬件 实时翻译 场景定义"
+  },
+  {
+    "module": "15",
+    "date": "2026-05-19",
+    "topic": "AI玩具情感陪伴",
+    "title": "AI玩具设计方法论：情感陪伴型AI产品的产品化路径",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "AI玩具情感陪伴产品的设计方法论案例",
+    "keywords_snippet": "AI玩具 奇碰 Haivivi 情感陪伴 儿童产品 信任关系"
+>>>>>>> 1d54cc0
   }
 ]

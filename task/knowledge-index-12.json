@@ -189,6 +189,7 @@
     "angle": "AI游戏制作、微信小游戏、广告分成、内购变现",
     "keywords_snippet": "小游戏 AI编程 微信小游戏 广告分成 零成本副业"
   },
+<<<<<<< HEAD
   {
     "module": "12",
     "date": "2026-05-18",
@@ -198,5 +199,76 @@
     "depth": "概念层",
     "angle": "内容矩阵、外包接单、Agent服务三条赛道收入对比和选择建议",
     "keywords_snippet": "AI副业 内容矩阵 外包接单 Agent服务 三条赛道对比 月收入"
+=======
+    {
+    "module": "12",
+    "date": "2026-05-19",
+    "topic": "AI创业最新动态",
+    "title": "三人团队AI公司年入1亿美元：Hightouch的数据syncaas模式",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "数据中间件模式、ToB SaaS、3人团队极致效率",
+    "keywords_snippet": "Hightouch 3人 年收1亿美元 数据syncaas 企业SaaS"
+  },
+  {
+    "module": "12",
+    "date": "2026-05-19",
+    "topic": "AI焦虑顾问变现",
+    "title": "AI焦虑顾问月入$1万：ToB服务最简单的赚钱方式",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "ToB服务、卖安心、零成本创业、副业变现",
+    "keywords_snippet": "AI焦虑顾问 月入1万刀 ToB服务 企业咨询"
+  },
+  {
+    "module": "12",
+    "date": "2026-05-19",
+    "topic": "AI落地页生成器",
+    "title": "MakeLanding月入$45万：AI落地页生成器",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "独立开发者SaaS、91%毛利率、细分场景",
+    "keywords_snippet": "MakeLanding AI落地页 月入45万 独立开发者 91%毛利率"
+  },
+  {
+    "module": "12",
+    "date": "2026-05-19",
+    "topic": "AI出海创业",
+    "title": "AI出海草根创业者日入$10万：华人独立开发者的逆袭",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "AI出海、信息差套利、独立开发者、执行力",
+    "keywords_snippet": "AI出海 日入10万美金 华人独立开发者 执行力"
+  },
+  {
+    "module": "12",
+    "date": "2026-05-19",
+    "topic": "AI副业三条赛道",
+    "title": "AI副业三条赛道收入对比：内容矩阵/外包接单/Agent服务",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "内容矩阵、外包接单、Agent服务三条赛道对比和选择",
+    "keywords_snippet": "AI副业 内容矩阵 外包接单 Agent服务 三条赛道"
+  },
+  {
+    "module": "12",
+    "date": "2026-05-19",
+    "topic": "AI企业数据清理",
+    "title": "AI企业数据清理：最无聊但最暴利的ToB刚需",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "数据清理、ToB服务、刚需暴利、企业AI基础设施",
+    "keywords_snippet": "AI企业数据清理 ToB服务 数据基础设施 月入数万"
+  },
+  {
+    "module": "12",
+    "date": "2026-05-19",
+    "topic": "独立开发者生存法则",
+    "title": "独立开发者三条生存法则：从0到月入$5万实战总结",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "独立开发者、聚焦细分、边做边卖、AI杠杆",
+    "keywords_snippet": "独立开发者 三条法则 月入5万 细分场景 AI杠杆"
+>>>>>>> 1d54cc0
   }
 ]

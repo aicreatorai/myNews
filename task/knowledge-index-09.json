@@ -1,6 +1,10 @@
 {
   "module": "09_开发语言",
+<<<<<<< HEAD
   "last_updated": "2026-05-18",
+=======
+  "last_updated": "2026-05-19",
+>>>>>>> 1d54cc0
   "entries": [
     {
       "id": 1,
@@ -127,6 +131,7 @@
       "angle": "Go云原生生态",
       "keywords": ["Go 1.26", "Kubernetes", "GoLand", "云原生"],
       "date": "2026-05-18"
+<<<<<<< HEAD
     }
   ],
   "statistics": {
@@ -138,5 +143,81 @@
       "L4": 0
     },
     "languages_covered": ["Swift", "Python", "Java", "TypeScript", "Go", "PHP", "Bun", "Rust", "Kotlin"]
+=======
+    },
+    {
+      "id": 15,
+      "title": "Bun正式完成Rust重写：多平台性能验证达标，Zig时代终结",
+      "level": "L2",
+      "depth": "技术层",
+      "angle": "Bun Rust重写正式发布与平台支持",
+      "keywords": ["Bun", "Rust重写", "多平台", "性能验证", "Zig"],
+      "date": "2026-05-19"
+    },
+    {
+      "id": 16,
+      "title": "TypeScript 7.0 Beta发布：Go重写编译器进入实测阶段",
+      "level": "L2",
+      "depth": "技术层",
+      "angle": "TypeScript编译器Go重写Beta测试",
+      "keywords": ["TypeScript 7.0", "Go重写", "Beta", "编译器架构", "编译提速"],
+      "date": "2026-05-19"
+    },
+    {
+      "id": 17,
+      "title": "Java 27预览机制启动：基础类型模式匹配迎第五轮打磨",
+      "level": "L2",
+      "depth": "技术层",
+      "angle": "Java JEP 532第五轮预览与Shenandoah GC",
+      "keywords": ["Java 27", "JEP 532", "基础类型模式匹配", "Shenandoah", "第五预览"],
+      "date": "2026-05-19"
+    },
+    {
+      "id": 18,
+      "title": "uv生态急速扩张：从包管理器到Python一体化工具链",
+      "level": "L1",
+      "depth": "概念层",
+      "angle": "uv Python工具链生态与OpenAI收购",
+      "keywords": ["uv", "Python工具链", "Astral", "pip替代", "OpenAI"],
+      "date": "2026-05-19"
+    },
+    {
+      "id": 19,
+      "title": "TIOBE 2026年5月榜：C语言重返第二，嵌入式IoT驱动回升",
+      "level": "L1",
+      "depth": "概念层",
+      "angle": "C语言嵌入式IoT驱动回升分析",
+      "keywords": ["TIOBE", "C语言", "嵌入式", "IoT", "排名回升"],
+      "date": "2026-05-19"
+    },
+    {
+      "id": 20,
+      "title": "Go 1.26默认启用Green Tea GC，cgo开销降低30%",
+      "level": "L2",
+      "depth": "技术层",
+      "angle": "Go Green Tea GC默认启用与cgo优化",
+      "keywords": ["Go 1.26", "Green Tea GC", "cgo优化", "泛型自引用", "errors.AsType"],
+      "date": "2026-05-19"
+    },
+    {
+      "id": 21,
+      "title": "Python 3.14自由线程生态演进：无GIL构建生产可用性评估",
+      "level": "L2",
+      "depth": "技术层",
+      "angle": "Python无GIL生态适配与生产评估",
+      "keywords": ["Python 3.14", "自由线程", "无GIL", "PEP 703", "生态适配"],
+      "date": "2026-05-19"
+    }
+  ],
+  "statistics": {
+    "total_entries": 21,
+    "by_level": {
+      "L1": 12,
+      "L2": 9,
+      "L3": 0,
+      "L4": 0
+    },
+    "languages_covered": ["Swift", "Python", "Java", "TypeScript", "Go", "PHP", "Bun", "Rust", "Kotlin", "C"]
+>>>>>>> 1d54cc0
   }
 }

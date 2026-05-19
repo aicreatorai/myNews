@@ -188,5 +188,78 @@
     "depth": "技术层",
     "angle": "Function Calling工程实践、错误处理、性能优化",
     "keywords_snippet": "Function Calling,生产环境,错误处理,重试策略,黄金标准"
+<<<<<<< HEAD
+=======
+  },
+  {
+    "module": "07",
+    "date": "2026-05-19",
+    "topic": "RAG技术演进五阶段",
+    "title": "RAG技术演进五阶段：从检索+生成到自主思考的智能系统",
+    "level": "L1",
+    "depth": "概念层 - Naive RAG/Advanced RAG/Modular RAG/GraphRAG/Agentic RAG演进",
+    "angle": "RAG技术发展脉络与各代际核心突破",
+    "keywords_snippet": "RAG,Naive RAG,Advanced RAG,Agentic RAG,GraphRAG,Modular RAG,检索增强生成"
+  },
+  {
+    "module": "07",
+    "date": "2026-05-19",
+    "topic": "GraphRAG与LightRAG对比",
+    "title": "GraphRAG vs LightRAG：知识图谱RAG的两条技术路线对比",
+    "level": "L2",
+    "depth": "技术层 - 知识图谱构建、实体关系提取、社区检测算法",
+    "angle": "GraphRAG与LightRAG技术路线对比与选型",
+    "keywords_snippet": "GraphRAG,LightRAG,知识图谱,实体提取,关系抽取,社区检测,Ψ-RAG"
+  },
+  {
+    "module": "07",
+    "date": "2026-05-19",
+    "topic": "向量检索算法HNSW与IVF",
+    "title": "向量检索双雄：HNSW与IVF原理深度解析与工程选型",
+    "level": "L2",
+    "depth": "技术层 - 图索引原理、聚类索引、ANN近似搜索",
+    "angle": "HNSW与IVF向量索引算法原理与工程实践",
+    "keywords_snippet": "HNSW,IVF,向量检索,近似最近邻,ANN,向量索引,Voronoi,K-Means"
+  },
+  {
+    "module": "07",
+    "date": "2026-05-19",
+    "topic": "混合检索Hybrid Search",
+    "title": "混合检索：BM25+向量搜索如何实现1+1>2",
+    "level": "L1",
+    "depth": "概念层 - 稀疏检索与稠密检索融合、RRR融合算法",
+    "angle": "混合检索技术与生产级RAG系统实现",
+    "keywords_snippet": "混合检索,Hybrid Search,BM25,向量检索,RRR,倒数排序融合,Elasticsearch"
+  },
+  {
+    "module": "07",
+    "date": "2026-05-19",
+    "topic": "Reranker重排序",
+    "title": "Reranker：RAG检索质量的精排优化器",
+    "level": "L2",
+    "depth": "技术层 - Cross-Encoder、重排序模型、精排vs粗排",
+    "angle": "Reranker重排序技术原理与RAG优化实践",
+    "keywords_snippet": "Reranker,重排序,Cross-Encoder,精排,粗排,RAG优化,BGE-Reranker"
+  },
+  {
+    "module": "07",
+    "date": "2026-05-19",
+    "topic": "RAG分块策略",
+    "title": "分块策略：决定RAG质量的切菜工艺",
+    "level": "L2",
+    "depth": "技术层 - 固定分块、语义分块、递归分块、Late Chunking",
+    "angle": "RAG分块策略技术演进与选型",
+    "keywords_snippet": "分块策略,Chunking,固定分块,语义分块,递归分块,Late Chunking,Meta-Chunking"
+  },
+  {
+    "module": "07",
+    "date": "2026-05-19",
+    "topic": "查询扩展技术",
+    "title": "查询扩展技术：让RAG理解用户的真实意图",
+    "level": "L2",
+    "depth": "技术层 - Query Rewriting、HyDE、后退提示",
+    "angle": "查询扩展技术原理与RAG检索优化",
+    "keywords_snippet": "查询扩展,Query Rewriting,HyDE,后退提示,Step Back Prompting,多查询扩展"
+>>>>>>> 1d54cc0
   }
 ]
