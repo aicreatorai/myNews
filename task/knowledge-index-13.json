@@ -178,5 +178,75 @@
     "depth": "技术层",
     "angle": "AI教育国际合作与适应性专业化理论",
     "keywords_snippet": "AI教育 国际合作 哈萨克斯坦 全球南方 适应性专业化理论 同伴学习"
+  },
+  {
+    "module": "13",
+    "date": "2026-05-19",
+    "topic": "AI学伴落地",
+    "title": "深圳福田AI学伴实验：大规模个性化学习的中国方案",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "生成效应与间隔效应协同作用",
+    "keywords_snippet": "AI学伴 福田 知识图谱 精准练习 生成效应 间隔效应"
+  },
+  {
+    "module": "13",
+    "date": "2026-05-19",
+    "topic": "AI英语教学",
+    "title": "青岛第五十三中学：AI赋能英语项目化教学的课堂革命",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "情境学习与多模态学习",
+    "keywords_snippet": "AI英语 项目化学习 情境学习 多模态 协作建构 ZPD"
+  },
+  {
+    "module": "13",
+    "date": "2026-05-19",
+    "topic": "AI数学教学",
+    "title": "AI数学课堂：从几何画板到智能评析的教学革新",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "多模态表征与刻意练习",
+    "keywords_snippet": "AI数学 几何画板 多模态表征 刻意练习 ZPD 即时反馈"
+  },
+  {
+    "module": "13",
+    "date": "2026-05-19",
+    "topic": "AI学校系统",
+    "title": "成都AI学校矩阵：从数据孤岛到智能闭环的系统变革",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "数据驱动与系统思维",
+    "keywords_snippet": "成都AI学校 数据中台 智能体 循证教研 系统思维"
+  },
+  {
+    "module": "13",
+    "date": "2026-05-19",
+    "topic": "AI职业教育",
+    "title": "浙江机电职院AI实训：从黑板上修机器到虚拟产线学技能",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "Kolb经验学习圈与虚拟仿真",
+    "keywords_snippet": "职业教育 AI实训 Kolb经验学习圈 虚拟仿真 心理安全"
+  },
+  {
+    "module": "13",
+    "date": "2026-05-19",
+    "topic": "AI高等教育",
+    "title": "北京航空航天大学：AI赋能高等教育的全流程质量提升",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "OBE与学习分析",
+    "keywords_snippet": "高等教育 AI 北航 OBE 学习分析 形成性评价"
+  },
+  {
+    "module": "13",
+    "date": "2026-05-19",
+    "topic": "AI自习室",
+    "title": "AI自习室：从概念噱头到机构刚需的产业变革",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "元认知与第三空间",
+    "keywords_snippet": "AI自习室 元认知 第三空间 自我调节学习 承诺机制"
   }
 ]

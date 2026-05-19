@@ -316,5 +316,239 @@
     "normalized_key": "豆包kimi通义数据2026",
     "result": "豆包月活3.15亿断层第一；Kimi日活300万次日留存18%；通义千问智能体数量破19000",
     "cached_at": "2026-05-18 07:32:28"
+  },
+  "苹果 wwdc 2026 gemini siri": {
+    "keyword": "苹果 WWDC 2026 Gemini Siri",
+    "normalized_key": "苹果 wwdc 2026 gemini siri",
+    "result": "苹果将在WWDC2026发布搭载Gemini的新版Siri，采用苹果设计+谷歌算力混合架构，隐私保护为核心卖点 | 来源：搜狐、太平洋科技",
+    "cached_at": "2026-05-19 07:06:49"
+  },
+  "腾讯音乐 收购 喜马拉雅 186亿": {
+    "keyword": "腾讯音乐 收购 喜马拉雅 186亿",
+    "normalized_key": "腾讯音乐 收购 喜马拉雅 186亿",
+    "result": "腾讯音乐完成收购喜马拉雅，对价186亿元包括12.6亿美元现金+1.75亿股 | 来源：东方财富网、腾讯网",
+    "cached_at": "2026-05-19 07:06:49"
+  },
+  "cerebras 上市 ipo 纳斯达克": {
+    "keyword": "Cerebras 上市 IPO 纳斯达克",
+    "normalized_key": "cerebras 上市 ipo 纳斯达克",
+    "result": "Cerebras 5月14日登陆纳斯达克，IPO募资55.5亿美元创纪录，首日暴涨68%市值670亿美元 | 来源：东方财富网、搜狐",
+    "cached_at": "2026-05-19 07:06:49"
+  },
+  "蚂蚁百灵 ring 开源模型": {
+    "keyword": "蚂蚁百灵 Ring 开源模型",
+    "normalized_key": "蚂蚁百灵 ring 开源模型",
+    "result": "蚂蚁百灵5月15日开源Ring-2.6-1T万亿参数推理模型，支持双档推理模式，性能超越GPT-5.4 | 来源：搜狐、CSDN",
+    "cached_at": "2026-05-19 07:06:49"
+  },
+  "国产ai芯片 市场份额 英伟达": {
+    "keyword": "国产AI芯片 市场份额 英伟达",
+    "normalized_key": "国产ai芯片 市场份额 英伟达",
+    "result": "国产AI芯片份额突破60%，英伟达中国市场份额跌至8%，华为昇腾有望独占50% | 来源：太平洋科技",
+    "cached_at": "2026-05-19 07:06:49"
+  },
+  "谷歌io大会 gemini ai眼镜": {
+    "keyword": "谷歌IO大会 Gemini AI眼镜",
+    "normalized_key": "谷歌io大会 gemini ai眼镜",
+    "result": "谷歌I/O 5月19-20日举行，发布新Gemini模型和三星合作AI眼镜Jinju | 来源：搜狐、东方财富网",
+    "cached_at": "2026-05-19 07:06:49"
+  },
+  "spacex ipo 上市 2026": {
+    "keyword": "SpaceX IPO 上市 2026",
+    "normalized_key": "spacex ipo 上市 2026",
+    "result": "SpaceX计划6月12日纳斯达克上市，融资750-800亿美元，估值或超2万亿美元 | 来源：DoNews、搜狐",
+    "cached_at": "2026-05-19 07:06:49"
+  },
+  "政务 要闻 政策 发布": {
+    "keyword": "政务 要闻 政策 发布 2026-05-18至2026-05-19",
+    "normalized_key": "政务 要闻 政策 发布",
+    "result": "中美元首会晤经贸成果/朱雀二号发射成功/空间站发现新物种",
+    "cached_at": "2026-05-19 07:40:16"
+  },
+  "经济数据 gdp cpi pmi 发布": {
+    "keyword": "经济数据 GDP CPI PMI 发布 2026-05-18至2026-05-19",
+    "normalized_key": "经济数据 gdp cpi pmi 发布",
+    "result": "1-4月规上工业增加值同比增长5.6%/CPI同比上涨0.9%",
+    "cached_at": "2026-05-19 07:40:17"
+  },
+  "中美 中欧 中俄 关系 最新": {
+    "keyword": "中美 中欧 中俄 关系 最新 2026-05-18至2026-05-19",
+    "normalized_key": "中美 中欧 中俄 关系 最新",
+    "result": "特朗普访华/普京即将访华/中美经贸磋商成果",
+    "cached_at": "2026-05-19 07:40:18"
+  },
+  "地缘政治 重大 变化 冲突": {
+    "keyword": "地缘政治 重大 变化 冲突 2026-05-18至2026-05-19",
+    "normalized_key": "地缘政治 重大 变化 冲突",
+    "result": "美伊冲突第82天/内塔尼亚胡与特朗普通话",
+    "cached_at": "2026-05-19 07:40:19"
+  },
+  "房地产 市场 最新": {
+    "keyword": "房地产 市场 最新 2026-05-18至2026-05-19",
+    "normalized_key": "房地产 市场 最新",
+    "result": "一线量价齐升/二线全面放开/三四线阴跌",
+    "cached_at": "2026-05-19 07:40:20"
+  },
+  "上证指数 深证成指": {
+    "keyword": "上证指数 深证成指 2026-05-18至2026-05-19",
+    "normalized_key": "上证指数 深证成指",
+    "result": "上证4131.53点(-0.09%)/深证15530.23点(-0.20%)/创业板3914.88点(-0.36%)",
+    "cached_at": "2026-05-19 07:40:21"
+  },
+  "bitcoin crypto may 18 2026": {
+    "keyword": "Bitcoin crypto May 18 2026",
+    "normalized_key": "bitcoin crypto may 18 2026",
+    "result": "Bitcoin跌破77000美元/657M加密货币清算",
+    "cached_at": "2026-05-19 07:40:22"
+  },
+  "crude oil gold price may 2026": {
+    "keyword": "crude oil gold price May 2026",
+    "normalized_key": "crude oil gold price may 2026",
+    "result": "WTI原油101.02美元/布伦特106.20美元/黄金4714美元",
+    "cached_at": "2026-05-19 07:40:23"
+  },
+  "ios 26.5 rc 新功能 发布 2026": {
+    "keyword": "iOS 26.5 RC 新功能 发布 2026",
+    "normalized_key": "ios 26.5 rc 新功能 发布 2026",
+    "result": "iOS 26.5 RC 2紧急发布，修复关键问题，正式版预计5月12日推送。iOS 27将在WWDC26发布，停止支持iPhone 11系列",
+    "cached_at": "2026-05-19 08:16:03"
+  },
+  "wwdc 2026 visionos ios27": {
+    "keyword": "WWDC 2026 visionOS iOS27",
+    "normalized_key": "wwdc 2026 visionos ios27",
+    "result": "WWDC 2026将于6月9日凌晨举行，iOS 27即将发布，visionOS 26已发布支持罗技空间手写笔",
+    "cached_at": "2026-05-19 08:16:04"
+  },
+  "app store replit ai编程审核 2026": {
+    "keyword": "App Store Replit AI编程审核 2026",
+    "normalized_key": "app store replit ai编程审核 2026",
+    "result": "苹果App Store放行AI编程应用Replit，4个月后首次更新",
+    "cached_at": "2026-05-19 08:16:05"
+  },
+  "harmonyos 6 终端 6000万 2026": {
+    "keyword": "HarmonyOS 6 终端 6000万 2026",
+    "normalized_key": "harmonyos 6 终端 6000万 2026",
+    "result": "HarmonyOS 6终端设备突破6000万，日均新增设备超15万台",
+    "cached_at": "2026-05-19 08:16:05"
+  },
+  "hdc 2026 华为 鸿蒙新版本": {
+    "keyword": "HDC 2026 华为 鸿蒙新版本",
+    "normalized_key": "hdc 2026 华为 鸿蒙新版本",
+    "result": "HDC 2026将于6月12日举行，发布HarmonyOS全新版本和鸿蒙AI核心能力",
+    "cached_at": "2026-05-19 08:16:07"
+  },
+  "开源鸿蒙 开发者大会 2026 ai": {
+    "keyword": "开源鸿蒙 开发者大会 2026 AI",
+    "normalized_key": "开源鸿蒙 开发者大会 2026 ai",
+    "result": "开源鸿蒙开发者大会2026将于5月28日举行，以AI@OpenHarmony为主题",
+    "cached_at": "2026-05-19 08:16:07"
+  },
+  "android 16 开发者预览 google play 2026": {
+    "keyword": "Android 16 开发者预览 Google Play 2026",
+    "normalized_key": "android 16 开发者预览 google play 2026",
+    "result": "Android 16首个开发者预览版DP2发布，Google Play抽成下调至20%",
+    "cached_at": "2026-05-19 08:16:08"
+  },
+  "google play billing 抽成 第三方支付 2026": {
+    "keyword": "Google Play Billing 抽成 第三方支付 2026",
+    "normalized_key": "google play billing 抽成 第三方支付 2026",
+    "result": "Google Play服务费从30%下调至20%，订阅服务费降至10%，全面开放第三方支付",
+    "cached_at": "2026-05-19 08:16:09"
+  },
+  "ai 创业 最新 动态": {
+    "keyword": "AI 创业 最新 动态",
+    "normalized_key": "ai 创业 最新 动态",
+    "result": "OpenAI 1220亿美元融资|Claude Opus 4.7发布|Hightouch 3人年入1亿美元|基流科技估值91.6亿",
+    "cached_at": "2026-05-19 08:16:10"
+  },
+  "flutter 3.27 impeller 默认 渲染": {
+    "keyword": "Flutter 3.27 Impeller 默认 渲染",
+    "normalized_key": "flutter 3.27 impeller 默认 渲染",
+    "result": "Flutter 3.27发布，Impeller成为默认渲染引擎，Cupertino组件升级",
+    "cached_at": "2026-05-19 08:16:10"
+  },
+  "ai教育落地案例": {
+    "keyword": "AI教育落地案例",
+    "normalized_key": "ai教育落地案例",
+    "result": "深圳福田AI学伴实验|郑州航空港AI五育融合|成都AI学校场景|青岛英语AI项目化|职业教育AI实训|高校AI教学北航案例",
+    "cached_at": "2026-05-19 08:16:11"
+  },
+  "kotlin multiplatform kmp 跨平台 2026": {
+    "keyword": "Kotlin Multiplatform KMP 跨平台 2026",
+    "normalized_key": "kotlin multiplatform kmp 跨平台 2026",
+    "result": "Kuikly跨端框架基于KMP推出，Compose Multiplatform 1.10.0发布",
+    "cached_at": "2026-05-19 08:16:11"
+  },
+  "ai 商业模式 最新": {
+    "keyword": "AI 商业模式 最新",
+    "normalized_key": "ai 商业模式 最新",
+    "result": "订阅制SaaS|API计费|Anthropic Claude Max|200美元用出5000美元价值|91%毛利率",
+    "cached_at": "2026-05-19 08:16:11"
+  },
+  "智慧教育最新进展": {
+    "keyword": "智慧教育最新进展",
+    "normalized_key": "智慧教育最新进展",
+    "result": "2026世界数字教育大会|全球数字教育发展指数|智慧教育公共服务平台",
+    "cached_at": "2026-05-19 08:16:12"
+  },
+  "一人公司 赚钱 模式": {
+    "keyword": "一人公司 赚钱 模式",
+    "normalized_key": "一人公司 赚钱 模式",
+    "result": "AI焦虑顾问月入1万刀|企业数据清理|Base44 6个月8000万被收购|一人公司SaaS|MakeLanding月入45万",
+    "cached_at": "2026-05-19 08:16:12"
+  },
+  "ai 产品 案例 拆解": {
+    "keyword": "AI 产品 案例 拆解",
+    "normalized_key": "ai 产品 案例 拆解",
+    "result": "2026年AI产品爆款案例：Gemini月活7.5亿、Claude Code原生Xcode、美团AI矩阵、豆包春晚破圈、Kimi K2.6 Agent能力、千问AI眼镜、AI玩具情感陪伴",
+    "cached_at": "2026-05-19 08:18:49"
+  },
+  "ai 产品 设计 最新": {
+    "keyword": "AI 产品 设计 最新",
+    "normalized_key": "ai 产品 设计 最新",
+    "result": "2026年AI产品设计趋势：代理式编程、情感陪伴、全场景平台、硬件入口、生态整合驱动的用户增长范式",
+    "cached_at": "2026-05-19 08:18:50"
+  },
+  "github trending ai agent 框架 工具 2026年5月": {
+    "keyword": "GitHub Trending AI Agent 框架 工具 2026年5月",
+    "normalized_key": "github trending ai agent 框架 工具 2026年5月",
+    "result": "AI Agent工具链全面爆发，字节跳动UI-TARS-desktop 27.7K Star，mattpocock/skills 37K+ Star，Goose 27K+ Star，agentmemory 4.8K Star",
+    "cached_at": "2026-05-19 08:19:11"
+  },
+  "mattpocock skills claude typescript github 2026": {
+    "keyword": "mattpocock skills Claude TypeScript github 2026",
+    "normalized_key": "mattpocock skills claude typescript github 2026",
+    "result": "mattpocock/skills开源，55K+ Star，TypeScript社区教父Matt Pocock，SKILL.md格式，35+专项技能",
+    "cached_at": "2026-05-19 08:19:12"
+  },
+  "tiny humans ai openhuman github 2026": {
+    "keyword": "Tiny Humans AI openhuman github 2026",
+    "normalized_key": "tiny humans ai openhuman github 2026",
+    "result": "OpenHuman开源，3.4K Star，Tiny Humans AI团队，Rust+TypeScript+Tauri，隐私优先，118+集成，记忆树系统",
+    "cached_at": "2026-05-19 08:19:14"
+  },
+  "5月民生 养老金 最新": {
+    "keyword": "5月民生 养老金 最新 2026-05-18至2026-05-19",
+    "normalized_key": "5月民生 养老金 最新",
+    "result": "养老金上调至163元/灵活就业社保取消户籍限制/医保跨省家庭共济",
+    "cached_at": "2026-05-19 08:28:47"
+  },
+  "朝鲜半岛 最新": {
+    "keyword": "朝鲜半岛 最新 2026-05-18至2026-05-19",
+    "normalized_key": "朝鲜半岛 最新",
+    "result": "朝鲜删除半岛统一表述/韩国和平共处白皮书/韩美总统通话",
+    "cached_at": "2026-05-19 08:28:47"
+  },
+  "s&p 500 nasdaq dow may 18 2026": {
+    "keyword": "S&P 500 Nasdaq Dow May 18 2026",
+    "normalized_key": "s&p 500 nasdaq dow may 18 2026",
+    "result": "标普7501点/道指50063点/纳指26635点",
+    "cached_at": "2026-05-19 08:28:48"
+  },
+  "人民币 汇率 最新": {
+    "keyword": "人民币 汇率 最新 2026-05-18至2026-05-19",
+    "normalized_key": "人民币 汇率 最新",
+    "result": "人民币对美元6.8435/港股恒指25600",
+    "cached_at": "2026-05-19 08:28:49"
   }
 }

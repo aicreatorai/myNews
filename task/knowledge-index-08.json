@@ -161,12 +161,72 @@
   },
   {
     "module": "08",
-    "date": "2026-05-18",
-    "topic": "Suno AI音乐创作",
-    "title": "Suno AI音乐创作实战：五步从零生成专属原创歌曲",
+    "date": "2026-05-19",
+    "topic": "Gemini AI Chrome技能",
+    "title": "Chrome版Gemini技能功能：三步设置AI工作流自动化",
     "level": "L2",
     "depth": "技术层",
-    "angle": "Suno AI音乐制作歌词创作曲风控制",
-    "keywords_snippet": "Suno AI音乐 歌词创作 曲风控制 Custom Mode 古风 原创歌曲"
+    "angle": "技能功能保存复用提示词思考强度调节Auto Browse",
+    "keywords_snippet": "Gemini Chrome 技能功能 斜杠命令 提示词复用 思考强度调节 Auto-Browse"
+  },
+  {
+    "module": "08",
+    "date": "2026-05-19",
+    "topic": "秘塔AI搜索",
+    "title": "秘塔AI搜索三模式：学术研究效率提升三倍实战指南",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "简洁深入研究三种模式思维导图生成导出WordPDF",
+    "keywords_snippet": "秘塔AI搜索 简洁模式 深入模式 研究模式 思维导图 Word导出 知识图谱"
+  },
+  {
+    "module": "08",
+    "date": "2026-05-19",
+    "topic": "WPS AI灵犀3.0",
+    "title": "WPS AI灵犀3.0实测：双屏协同办公效率翻倍指南",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "灵犀Canvas双屏协同表格AI自然语言DeepSeek集成",
+    "keywords_snippet": "WPS AI灵犀3.0 灵犀Canvas双屏协同 表格AI 自然语言函数 AI PPT DeepSeek"
+  },
+  {
+    "module": "08",
+    "date": "2026-05-19",
+    "topic": "可灵AI 3.0",
+    "title": "可灵AI 3.0新功能：登顶42国榜首的创作者实战技巧",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "可灵3.0棒球特效人物一致性API开放",
+    "keywords_snippet": "可灵AI 3.0 棒球现场特效 人物一致性 API 视频生成 图像生成 虚拟试穿"
+  },
+  {
+    "module": "08",
+    "date": "2026-05-19",
+    "topic": "Midjourney提示词技巧",
+    "title": "Midjourney提示词公式：四步生成专业级AI绘画作品",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "五要素提示词法主体场景光影运镜质感四套风格模板",
+    "keywords_snippet": "Midjourney 提示词 五要素 主体 场景 光影 运镜 质感 风格模板 钢笔淡彩水墨"
+  },
+  {
+    "module": "08",
+    "date": "2026-05-19",
+    "topic": "Notion AI使用技巧",
+    "title": "Notion AI九大使用场景：从笔记工具到AI工作流中枢",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "Personal Agent九大场景数据库管理文件处理MCP集成",
+    "keywords_snippet": "Notion AI Personal Agent Custom Agent MCP 数据库管理 文件处理 跨应用搜索"
+  },
+  {
+    "module": "08",
+    "date": "2026-05-19",
+    "topic": "Gamma AI PPT",
+    "title": "Gamma AI PPT制作教程：十分钟生成专业级演示文稿",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "三种创建方式提示词生成导出PPT思维导图转换",
+    "keywords_snippet": "Gamma AI PPT 一句话生成 思维导图转换 导出PPT 在线协作 第三方嵌入"
   }
 ]
