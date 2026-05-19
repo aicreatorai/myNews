@@ -99,33 +99,160 @@ def clean_search_cache():
     else:
         print("  📭 搜索缓存不存在，跳过")
 
+# ─── 写入前去重：从 SQLite 索引获取已覆盖话题黑名单 ─────────
+
+def get_fingerprint_blacklist(date_params, agent_id, history_file=None):
+    """
+    查询 SQLite 指纹索引。
+    注意：只返回「内容级重复」(完全相同的内容)，不返回话题级列表。
+    已覆盖的话题但有新进展 → 不算重复，可以写。
+    """
+    db_path = os.path.join(TASK_DIR, "content-fingerprint.db")
+    if not os.path.exists(db_path):
+        return ""
+
+    try:
+        import sqlite3
+        conn = sqlite3.connect(db_path)
+        date_str = date_params["DATE"]
+        total = conn.execute("SELECT COUNT(*) FROM fingerprints WHERE module = ?", (agent_id,)).fetchone()[0]
+
+        if total == 0:
+            conn.close()
+            return ""
+
+        lines = []
+        lines.append(f"  📊 内容指纹索引: 本模块已收录 {total} 条历史内容")
+        lines.append(f"  💡 写作前请运行以下命令检测每条候选新闻是否重复：")
+        lines.append(f"     python3 scripts/check-dedup.py check \"<标题>\"")
+        lines.append(f"     返回 🔴 → 跳过 | 🟢 → 可写")
+        lines.append(f"")
+
+        # 如果传入了本批次已有文件（跨批去重用），只显示内容级匹配
+        if history_file and os.path.exists(history_file):
+            batch_heads = []
+            with open(history_file, 'r', encoding='utf-8') as f:
+                for line in f:
+                    m = re.match(r'^###\s+\d+\.\s*(.*)', line)
+                    if m:
+                        batch_heads.append(m.group(1).strip())
+            if batch_heads:
+                lines.append(f"  ⚠️ 本日同批次已有以下内容，请逐个运行 check 检测：")
+                for h in batch_heads:
+                    lines.append(f"      python3 scripts/check-dedup.py check \"{h}\"")
+
+        conn.close()
+        return "\n".join(lines) + "\n"
+    except Exception as e:
+        return f"  ⚠️ 索引查询异常: {e}\n"
+
+
+def read_batch1_headlines(date_params):
+    """读取第一批Agent的输出文件，提取所有标题（供第二批去重参考）"""
+    out_dir = os.path.join(NEWS_DIR, date_params["YYYYMM"], date_params["YYYYMMDD"])
+    if not os.path.isdir(out_dir):
+        return {}
+    result = {}
+    batch1_ids = set(a["id"] for a in AGENTS_CONFIG["batch1_news_tech"]["agents"])
+    for f in sorted(os.listdir(out_dir)):
+        if not f.endswith('.md'):
+            continue
+        mod = f[:2]
+        if mod not in batch1_ids:
+            continue
+        headlines = []
+        with open(os.path.join(out_dir, f), 'r', encoding='utf-8') as fh:
+            for line in fh:
+                m = re.match(r'^###\s+\d+\.\s*(.*)', line)
+                if m:
+                    headlines.append(m.group(1).strip())
+        if headlines:
+            result[mod] = {"file": f, "headlines": headlines}
+    return result
+
+
 # ─── 步骤3: 生成 Agent 分批启动提示 ─────────────────────────
 
 def generate_batch_prompts(date_params):
-    """生成每批Agent的启动提示（供AI使用）"""
+    """
+    生成每批Agent的启动提示（供AI使用）。
+    去重黑名单直接嵌入提示词中，Agent 写作前即可判断。
+    """
     step("Agent 分批启动提示（复制给AI使用）")
 
-    for batch_key, batch in AGENTS_CONFIG.items():
-        print(f"\n{'─'*60}")
-        print(f"  📋 {batch['label']}")
-        print(f"{'─'*60}")
+    # 第一批：新闻+科技（01+05+06+07+08+09）
+    batch1 = AGENTS_CONFIG["batch1_news_tech"]
+    print(f"\n{'─'*60}")
+    print(f"  📋 {batch1['label']}")
+    print(f"{'─'*60}")
+    print()
+
+    for agent in batch1["agents"]:
+        if agent['id'] == '01' and agent['name'] == '新闻早报':
+            output_filename = "01_今日头条.md"
+        else:
+            output_filename = f"{agent['id']}_{agent['file'][3:]}"
+        output_path = f"news/{date_params['YYYYMM']}/{date_params['YYYYMMDD']}/{output_filename}"
+
+        print(f"  Agent {agent['id']} [{agent['weight']}] {agent['name']}")
+        print(f"    文件: task/morning_news/{agent['file']}")
+        print(f"    输出: {output_path}")
+        print(f"    max_turns: {agent['max_turns']}")
         print()
 
-        for agent in batch["agents"]:
-            # 新闻早报输出为 01_今日头条.md（文件名不变，兼容旧前端）
-            if agent['id'] == '01' and agent['name'] == '新闻早报':
-                output_filename = "01_今日头条.md"
-            else:
-                output_filename = f"{agent['id']}_{agent['file'][3:]}"
-            output_path = f"news/{date_params['YYYYMM']}/{date_params['YYYYMMDD']}/{output_filename}"
-            print(f"  Agent {agent['id']} [{agent['weight']}] {agent['name']}")
-            print(f"    文件: task/morning_news/{agent['file']}")
-            print(f"    输出: {output_path}")
-            print(f"    max_turns: {agent['max_turns']}")
+        # 写入前去重黑名单
+        blacklist = get_fingerprint_blacklist(date_params, agent['id'])
+        if blacklist:
+            print(blacklist)
+            print()
+
+    # 第二批：知识+工具（10+11+12+13+14+15）
+    batch2 = AGENTS_CONFIG["batch2_knowledge"]
+    batch1_data = read_batch1_headlines(date_params)
+
+    print(f"\n{'─'*60}")
+    print(f"  📋 {batch2['label']}")
+    print(f"{'─'*60}")
+    print()
+
+    # 如果第一批已写完，提示内容级去重（不展示话题列表）
+    if batch1_data:
+        total_b1 = sum(len(v["headlines"]) for v in batch1_data.values())
+        print(f"  ⚠️ 注意：本日第一批已写完 {total_b1} 条新闻。")
+        print(f"  写作前对每条候选新闻运行 check 检测是否内容重复：")
+        print(f"     python3 scripts/check-dedup.py check \"<标题>\"")
+        print(f"  返回 🔴 重复 → 跳过 | 🟢 可写 → 正常写作")
+        print()
+
+    for agent in batch2["agents"]:
+        output_filename = f"{agent['id']}_{agent['file'][3:]}"
+        output_path = f"news/{date_params['YYYYMM']}/{date_params['YYYYMMDD']}/{output_filename}"
+
+        print(f"  Agent {agent['id']} [{agent['weight']}] {agent['name']}")
+        print(f"    文件: task/morning_news/{agent['file']}")
+        print(f"    输出: {output_path}")
+        print(f"    max_turns: {agent['max_turns']}")
+        print()
+
+        # 写入前去重黑名单（含历史 + 第一批）
+        blacklist = get_fingerprint_blacklist(date_params, agent['id'])
+        if blacklist:
+            print(blacklist)
             print()
 
     print(f"  💡 提示完成。共 2 批, 12 个 Agent。")
-    print(f"  请将以上配置单复制给AI ，按批次逐步执行。")
+    print(f"  💡 去重黑名单已嵌入每个 Agent 的提示中，")
+    print(f"  写作时直接对照黑名单，已覆盖的话题请跳过。")
+    print()
+
+    # 后置指引
+    print(f"{'─'*60}")
+    print(f"  🔄 后置步骤")
+    print(f"{'─'*60}")
+    print()
+    print(f"  全部完成后运行：")
+    print(f"     python3 scripts/run-morning-news.py --only-post --date {date_params['DATE']}")
+    print(f"  该命令会自动执行：去重检测 → 指纹索引更新 → 验证 → 提交")
 
 # ─── 步骤4: 验证文件完整性 ──────────────────────────────────
 
@@ -142,11 +269,29 @@ def verify_files(date_params):
         return False
 
     files = os.listdir(out_dir)
+    has_issues = False
     for f in sorted(files):
         if f.endswith(".md"):
             actual += 1
             size = os.path.getsize(os.path.join(out_dir, f))
             print(f"  {'✅' if size > 0 else '⚠️'} {f:30s} {size:>8,d} bytes")
+            # 内容质量检查
+            if size > 0:
+                content = open(os.path.join(out_dir, f), 'r', encoding='utf-8').read()
+                issues = []
+                if '{DATE' in content or '{YYYYMM}' in content:
+                    issues.append('含未替换的占位符')
+                if len(content) < 200:
+                    issues.append('内容过短(<200字)')
+                if '生成失败' in content:
+                    issues.append('含"生成失败"标记')
+                if not re.search(r'🔗|来源', content):
+                    issues.append('缺少信息来源标注')
+                if not re.search(r'^###\s+\d+\.', content, re.MULTILINE):
+                    issues.append('无新闻条目(无h3标题)')
+                if issues:
+                    has_issues = True
+                    print(f"      ⚠️ {'; '.join(issues)}")
 
     # 检查具体哪些缺失
     expected_ids = set()
@@ -207,12 +352,12 @@ def git_commit_push(date_params):
     print(f"\n  ✅ 已推送至 Gitee & GitHub: {date_str} 早间新闻（12板块）")
     return True
 
-# ─── 后置步骤（组合） ──────────────────────────────────────
+# ─── 步骤4-7: 后置步骤（组合） ──────────────────────────────
 
 def post_steps(date_params, auto=False):
     """执行全部后置步骤"""
     if not auto:
-        r = prompt("执行验证、生成索引和Git提交？")
+        r = prompt("执行验证、生成索引、去重检测和Git提交？")
         if r == "skip":
             print("  跳过后置步骤")
             return
@@ -222,7 +367,35 @@ def post_steps(date_params, auto=False):
         print("\n  ⚠️ 文件不完整，跳过索引生成和Git提交")
         return False
 
+    # 去重检测 + 构建指纹索引
+    step("内容去重检测")
+    dedup_result = subprocess.run(
+        ["python3", os.path.join(SCRIPTS_DIR, "check-dedup.py"), "scan", date_params["DATE"]],
+        cwd=BASE_DIR, capture_output=True, text=True)
+    print(dedup_result.stdout)
+    if dedup_result.stderr:
+        print(f"  ⚠️ {dedup_result.stderr.strip()}")
+
+    # 更新内容指纹索引
+    index_result = subprocess.run(
+        ["python3", os.path.join(SCRIPTS_DIR, "check-dedup.py"), "build-index", date_params["DATE"]],
+        cwd=BASE_DIR, capture_output=True, text=True)
+    print(index_result.stdout)
+
     regenerate_index()
+
+    # 更新知识索引（知识类模块）
+    step("更新知识索引")
+    knowledge_modules = {"07", "08", "09", "10", "12", "13", "14", "15"}
+    out_dir = os.path.join(NEWS_DIR, date_params["YYYYMM"], date_params["YYYYMMDD"])
+    for f in sorted(os.listdir(out_dir)):
+        if not f.endswith('.md'):
+            continue
+        cat_id = f[:2]
+        if cat_id in knowledge_modules:
+            print(f"  📝 [{cat_id}] 请手动执行知识索引更新:")
+            print(f"     python3 scripts/manage-knowledge.py list {cat_id}")
+
     git_commit_push(date_params)
     return True
 

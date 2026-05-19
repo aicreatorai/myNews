@@ -188,8 +188,6 @@
     "depth": "技术层",
     "angle": "Function Calling工程实践、错误处理、性能优化",
     "keywords_snippet": "Function Calling,生产环境,错误处理,重试策略,黄金标准"
-<<<<<<< HEAD
-=======
   },
   {
     "module": "07",
@@ -260,6 +258,5 @@
     "depth": "技术层 - Query Rewriting、HyDE、后退提示",
     "angle": "查询扩展技术原理与RAG检索优化",
     "keywords_snippet": "查询扩展,Query Rewriting,HyDE,后退提示,Step Back Prompting,多查询扩展"
->>>>>>> 1d54cc0
   }
 ]

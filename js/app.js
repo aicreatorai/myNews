@@ -587,13 +587,19 @@
         // 转义 HTML 标签（避免冲突）
         html = html.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
 
-        // 代码块 (```)
+        // ⚠️ 用占位符保护代码块和行内代码，防止内部标记被二次解析
+        const codeBlocks = [];
         html = html.replace(/```(\w*)\n([\s\S]*?)```/g, (_, lang, code) => {
-            return `<pre><code>${code.trim()}</code></pre>`;
+            const idx = codeBlocks.length;
+            codeBlocks.push(`<pre><code>${code.trim()}</code></pre>`);
+            return `%%%CODEBLOCK_${idx}%%%`;
         });
-
-        // 行内代码 (`code`)
-        html = html.replace(/`([^`]+)`/g, '<code>$1</code>');
+        const inlineCodes = [];
+        html = html.replace(/`([^`]+)`/g, (_, code) => {
+            const idx = inlineCodes.length;
+            inlineCodes.push(`<code>${code}</code>`);
+            return `%%%INLINECODE_${idx}%%%`;
+        });
 
         // 水平分割线
         html = html.replace(/^---+\s*$/gm, '<hr>');
@@ -624,12 +630,14 @@
         // 有序列表 (1. item)
         html = html.replace(/^\d+\.\s+(.*)$/gm, '<li>$1</li>');
 
-        // 表格 (简单处理)
-        html = html.replace(/\|(.+)\|/g, (match) => {
-            if (match.includes('---')) return '';
-            const cells = match.split('|').filter(c => c.trim());
-            return '<tr><td>' + cells.join('</td><td>') + '</td></tr>';
-        });
+        // 表格 — 只在包含表头分隔符时处理（避免误匹配普通文本中的 |）
+        if (/^\|.+\|\s*$/.test(html)) {
+            html = html.replace(/\|(.+)\|/g, (match) => {
+                if (match.includes('---')) return '';
+                const cells = match.split('|').filter(c => c.trim());
+                return '<tr><td>' + cells.join('</td><td>') + '</td></tr>';
+            });
+        }
 
         // 段落 (双换行)
         html = html.replace(/\n\n/g, '</p><p>');
@@ -644,6 +652,10 @@
         // 空段落清理
         html = html.replace(/<p>\s*<br\s*\/?>\s*<\/p>/g, '');
         html = html.replace(/<p><\/p>/g, '');
+
+        // 还原代码块占位符
+        html = html.replace(/%%%CODEBLOCK_(\d+)%%%/g, (_, idx) => codeBlocks[parseInt(idx)]);
+        html = html.replace(/%%%INLINECODE_(\d+)%%%/g, (_, idx) => inlineCodes[parseInt(idx)]);
 
         return html;
     }

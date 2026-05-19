@@ -161,15 +161,13 @@
   },
   {
     "module": "08",
-<<<<<<< HEAD
     "date": "2026-05-18",
     "topic": "Suno AI音乐创作",
     "title": "Suno AI音乐创作实战：五步从零生成专属原创歌曲",
     "level": "L2",
     "depth": "技术层",
     "angle": "Suno AI音乐制作歌词创作曲风控制",
-    "keywords_snippet": "Suno AI音乐 歌词创作 曲风控制 Custom Mode 古风 原创歌曲"
-=======
+    "keywords_snippet": "Suno AI音乐 歌词创作 曲风控制 Custom Mode 古风 原创歌曲",
     "date": "2026-05-19",
     "topic": "Gemini AI Chrome技能",
     "title": "Chrome版Gemini技能功能：三步设置AI工作流自动化",
@@ -237,6 +235,5 @@
     "depth": "技术层",
     "angle": "三种创建方式提示词生成导出PPT思维导图转换",
     "keywords_snippet": "Gamma AI PPT 一句话生成 思维导图转换 导出PPT 在线协作 第三方嵌入"
->>>>>>> 1d54cc0
   }
 ]

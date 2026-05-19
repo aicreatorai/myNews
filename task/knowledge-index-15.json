@@ -178,8 +178,6 @@
     "depth": "技术层",
     "angle": "AI产品PRD特殊写法：效果指标、数据质量、Bad Case处理、监控方案",
     "keywords_snippet": "PRD AI产品 效果指标 数据漂移 Bad Case 模型监控 豆包"
-<<<<<<< HEAD
-=======
   },
   {
     "module": "15",
@@ -250,6 +248,5 @@
     "depth": "技术层",
     "angle": "AI玩具情感陪伴产品的设计方法论案例",
     "keywords_snippet": "AI玩具 奇碰 Haivivi 情感陪伴 儿童产品 信任关系"
->>>>>>> 1d54cc0
   }
 ]

@@ -1,8 +1,6 @@
 {
   "dates": [
     {
-<<<<<<< HEAD
-=======
       "date": "2026-05-19",
       "format": "subdir",
       "has_multi": true,
@@ -83,7 +81,6 @@
       "path": "202605/20260519"
     },
     {
->>>>>>> 1d54cc0
       "date": "2026-05-18",
       "format": "subdir",
       "has_multi": true,
@@ -974,8 +971,6 @@
       "month": "202605",
       "dates": [
         {
-<<<<<<< HEAD
-=======
           "date": "2026-05-19",
           "format": "subdir",
           "has_multi": true,
@@ -1056,7 +1051,6 @@
           "path": "202605/20260519"
         },
         {
->>>>>>> 1d54cc0
           "date": "2026-05-18",
           "format": "subdir",
           "has_multi": true,

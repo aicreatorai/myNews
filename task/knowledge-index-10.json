@@ -181,8 +181,6 @@
   },
   {
     "module": "10",
-<<<<<<< HEAD
-=======
     "date": "2026-05-19",
     "topic": "UI-TARS-desktop",
     "title": "字节跳动32.7K Star开源多模态AI Agent，一句话控制你的电脑",
@@ -253,7 +251,6 @@
   },
   {
     "module": "10",
->>>>>>> 1d54cc0
     "date": "2026-05-18",
     "topic": "Kubernetes 1.36",
     "title": "Haru版本70项增强，AI工作负载支持进入成熟期",
