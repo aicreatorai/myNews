@@ -198,6 +198,51 @@ body {
     box-shadow: 0 2px 12px rgba(67, 97, 238, 0.4);
 }
 
+/* 隐身按钮 */
+.stealth-btn {
+    background: rgba(0,0,0,0.05);
+    border: 1px solid var(--color-border);
+    border-radius: 50%;
+    width: 34px;
+    height: 34px;
+    font-size: 1rem;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: var(--transition);
+    line-height: 1;
+}
+.stealth-btn:active {
+    transform: scale(0.9);
+}
+[data-theme="dark"] .stealth-btn {
+    background: rgba(255,255,255,0.1);
+    border-color: rgba(255,255,255,0.15);
+}
+.stealth-btn.active {
+    background: #e74c3c;
+    border-color: #e74c3c;
+    color: #fff;
+}
+[data-theme="dark"] .stealth-btn.active {
+    background: #c0392b;
+    border-color: #c0392b;
+}
+
+/* 隐身模式：只隐藏分类导航条，保留功能导航条 */
+body.stealth-mode .sidebar {
+    transform: translateX(-100%);
+}
+body.stealth-mode .category-tabs,
+body.stealth-mode .mobile-category-strip {
+    display: none !important;
+}
+body.stealth-mode .main-content {
+    max-width: 100%;
+    padding: 12px 20px;
+}
+
 /* 主题切换按钮 */
 .theme-toggle {
     background: rgba(0,0,0,0.05);
@@ -1054,6 +1099,7 @@ body {
         font-size: 0.72rem;
     }
 
+    .stealth-btn,
     .theme-toggle {
         width: 30px;
         height: 30px;

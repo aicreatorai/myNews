@@ -699,6 +699,24 @@
     //  事件绑定
     // ==========================================
     function setupEventListeners() {
+        // 隐身模式
+        const stealthToggle = document.getElementById('stealthToggle');
+        if (stealthToggle) {
+            // 恢复上次状态
+            if (localStorage.getItem('stealthMode') === 'on') {
+                document.body.classList.add('stealth-mode');
+                stealthToggle.classList.add('active');
+                stealthToggle.textContent = '🙈';
+            }
+            stealthToggle.addEventListener('click', () => {
+                document.body.classList.toggle('stealth-mode');
+                const on = document.body.classList.contains('stealth-mode');
+                stealthToggle.classList.toggle('active', on);
+                stealthToggle.textContent = on ? '🙈' : '🙈';
+                localStorage.setItem('stealthMode', on ? 'on' : 'off');
+            });
+        }
+
         // 主题切换
         themeToggle.addEventListener('click', toggleTheme);
 
