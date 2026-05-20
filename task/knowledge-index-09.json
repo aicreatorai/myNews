@@ -486,5 +486,6 @@
       "Java",
       "Kotlin"
     ]
+    "languages_covered": ["Swift", "Python", "Java", "TypeScript", "Go", "PHP", "Bun", "Rust", "Kotlin", "C"]
   }
 }
