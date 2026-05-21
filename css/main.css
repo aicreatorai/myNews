@@ -82,6 +82,8 @@ body {
     background: #fff;
     color: var(--color-text);
     border-bottom: 1px solid var(--color-border);
+    transition: transform 0.3s ease;
+    will-change: transform;
     display: flex;
     align-items: center;
     padding: 0 20px;

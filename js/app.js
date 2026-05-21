@@ -714,63 +714,69 @@
                 stealthToggle.classList.toggle('active', on);
                 stealthToggle.textContent = on ? '🙈' : '🙈';
                 localStorage.setItem('stealthMode', on ? 'on' : 'off');
-                // 退出隐身模式时恢复日期标题显示
+                // 退出隐身模式时恢复顶栏和标题
                 if (!on) {
                     const dh = document.querySelector('.date-header');
-                    if (dh) { dh.style.transform = ''; dh.style.opacity = ''; }
+                    if (dh) { dh.style.transform = ''; dh.style.opacity = ''; dh.style.pointerEvents = ''; }
+                    const tb = document.querySelector('.topbar');
+                    if (tb) { tb.style.transform = ''; }
+                    const ac = document.querySelector('.app-container');
+                    if (ac) { ac.style.marginTop = ''; }
                     pcStealthHidden = false;
                 }
             });
         }
 
-        // === PC端隐身模式: 向上滚动隐藏"早间新闻"标题，向下滚动显示 ===
+        // === PC端隐身模式: 滚动隐藏顶栏+日期标题，向下滚动显示 ===
         let pcStealthHidden = false;
         let pcStealthTicking = false;
         let pcStealthLastY = 0;
 
+        function setPCStealthNav(hide) {
+            const topbar = document.querySelector('.topbar');
+            const dateHeader = document.querySelector('.date-header');
+            const appContainer = document.querySelector('.app-container');
+            if (!topbar || !dateHeader || !appContainer) return;
+
+            if (hide) {
+                topbar.style.transform = 'translateY(-100%)';
+                dateHeader.style.transform = 'translateY(-150%)';
+                dateHeader.style.opacity = '0';
+                dateHeader.style.pointerEvents = 'none';
+                appContainer.style.marginTop = '0';
+            } else {
+                topbar.style.transform = '';
+                dateHeader.style.transform = '';
+                dateHeader.style.opacity = '';
+                dateHeader.style.pointerEvents = '';
+                appContainer.style.marginTop = '';
+            }
+            pcStealthHidden = hide;
+        }
+
         function handlePCStealthScroll() {
-            if (window.innerWidth < 768) return; // 移动端已有独立处理
+            if (window.innerWidth < 768) return;
             if (!document.body.classList.contains('stealth-mode')) {
-                // 非隐身模式 → 确保标题始终显示
-                if (pcStealthHidden) {
-                    const dh = document.querySelector('.date-header');
-                    if (dh) { dh.style.transform = ''; dh.style.opacity = ''; }
-                    pcStealthHidden = false;
-                }
+                if (pcStealthHidden) setPCStealthNav(false);
                 return;
             }
-
-            const dateHeader = document.querySelector('.date-header');
-            if (!dateHeader) return;
 
             const cy = window.scrollY;
             const delta = cy - pcStealthLastY;
             const atTop = cy <= 30;
 
-            // 顶部 → 强制显示
             if (atTop) {
-                if (pcStealthHidden) {
-                    dateHeader.style.transform = '';
-                    dateHeader.style.opacity = '';
-                    pcStealthHidden = false;
-                }
+                if (pcStealthHidden) setPCStealthNav(false);
                 pcStealthLastY = cy;
                 return;
             }
 
             if (delta > 20 && !pcStealthHidden) {
-                // 向下滚动 → 隐藏标题
-                dateHeader.style.transform = 'translateY(-150%)';
-                dateHeader.style.opacity = '0';
-                dateHeader.style.pointerEvents = 'none';
-                dateHeader.style.transition = 'transform 0.3s ease, opacity 0.3s ease';
-                pcStealthHidden = true;
+                // 向下滚动 → 隐藏顶栏+标题
+                setPCStealthNav(true);
             } else if (delta < -20 && pcStealthHidden) {
-                // 向上滚动 → 显示标题
-                dateHeader.style.transform = '';
-                dateHeader.style.opacity = '';
-                dateHeader.style.pointerEvents = '';
-                pcStealthHidden = false;
+                // 向上滚动 → 显示顶栏+标题
+                setPCStealthNav(false);
             }
 
             pcStealthLastY = cy;
