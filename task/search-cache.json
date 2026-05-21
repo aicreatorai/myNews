@@ -72,10 +72,10 @@
     "cached_at": "2026-05-18 07:25:48"
   },
   "大模型 发布 新架构": {
-    "keyword": "大模型 发布 新架构 2026-05-17至2026-05-18",
+    "keyword": "大模型 发布 新架构 2026-05-14至2026-05-21",
     "normalized_key": "大模型 发布 新架构",
-    "result": "GPT-5.5全量发布，幻觉率降低52.5%；Kimi K2.6登顶5月榜单94.3分；国产模型调用量环比涨81.7%；SubCube稀疏注意力1200万Token上下文",
-    "cached_at": "2026-05-18 07:25:49"
+    "result": "Gemini 3.5系列发布：Gemini 3.5 Flash/Pro/Ultra，推理速度提升4倍，价格砍半；GPT-5发布：MMLU-Pro 95.2%，推理时计算新范式；DeepSeek V4持续迭代",
+    "cached_at": "2026-05-21 10:01:27"
   },
   "国产ai工具 对比 豆包 千问 kimi 2026": {
     "keyword": "国产AI工具 对比 豆包 千问 Kimi 2026",
@@ -96,10 +96,10 @@
     "cached_at": "2026-05-18 07:25:49"
   },
   "多模态 模型 最新": {
-    "keyword": "多模态 模型 最新 2026-05-17至2026-05-18",
+    "keyword": "多模态 模型 最新 2026-05-14至2026-05-21",
     "normalized_key": "多模态 模型 最新",
-    "result": "Claude Opus 4.7编程称雄；DeepSeek V4多模态灰度测试；MiniCPM-V 4.6仅1.3B参数6G内存登顶同尺寸榜首",
-    "cached_at": "2026-05-18 07:25:50"
+    "result": "Gemini 3.5支持Omni多模态输入；中山大学等研究揭示多模态推理模型视觉理解盲区；多模态大模型全面盘点",
+    "cached_at": "2026-05-21 10:01:28"
   },
   "function calling技术原理": {
     "keyword": "Function Calling技术原理",
@@ -120,52 +120,52 @@
     "cached_at": "2026-05-18 07:25:51"
   },
   "ai agent 技术 进展": {
-    "keyword": "AI Agent 技术 进展 2026-05-17至2026-05-18",
+    "keyword": "AI Agent 技术 进展 2026-05-14至2026-05-21",
     "normalized_key": "ai agent 技术 进展",
-    "result": "Claude Mythos Preview数小时连贯工作流；GPT-5.5序列超50000token；微软Agent 365企业级上线；容器化沙盒隔离技术升级",
-    "cached_at": "2026-05-18 07:25:51"
+    "result": "多智能体系统进入实战期；李开复苏姿丰对话：AI开始替代整个部门；IQuest研究院提出多Agent协作推理框架；中国发布AI智能体新规",
+    "cached_at": "2026-05-21 10:01:29"
   },
   "rag mcp 技术 更新": {
-    "keyword": "RAG MCP 技术 更新 2026-05-17至2026-05-18",
+    "keyword": "RAG MCP 技术 更新 2026-05-14至2026-05-21",
     "normalized_key": "rag mcp 技术 更新",
-    "result": "Agentic RAG准确率提升至95%+；GraphRAG知识图谱增强；MCP协议2025-06-18重大更新；RAG 2.0多智能体并行检索",
-    "cached_at": "2026-05-18 07:25:52"
+    "result": "Agentic RAG崛起，检索增强向记忆智能体演进；Graph-RAG图结构增强检索；Skill+MCP+Agent+RAG四层架构；2026年五大AI技术栈",
+    "cached_at": "2026-05-21 10:01:30"
   },
   "推理能力 突破 最新": {
-    "keyword": "推理能力 突破 最新 2026-05-17至2026-05-18",
+    "keyword": "推理能力 突破 最新 2026-05-14至2026-05-21",
     "normalized_key": "推理能力 突破 最新",
-    "result": "小参数模型达接近GPT-4效果；稀疏注意力NSA硬件对齐；推理时计算成新路径；Claude Opus 4.7数学推理最强",
-    "cached_at": "2026-05-18 07:25:53"
+    "result": "GPT-5发布MMLU-Pro 95.2%突破，推理时计算规模化；IQuest研究院多Agent协作推理框架arXiv:2605.10344；国产模型全面追赶",
+    "cached_at": "2026-05-21 10:01:31"
   },
   "ai 落地 应用 案例": {
-    "keyword": "AI 落地 应用 案例 2026-05-17至2026-05-18",
+    "keyword": "AI 落地 应用 案例 2026-05-14至2026-05-21",
     "normalized_key": "ai 落地 应用 案例",
-    "result": "百度胜算Agent平台发布；星工聚将工业具身智能获36氪案例奖；AWS集成Claude Platform；新疆AI+百业场景展示",
-    "cached_at": "2026-05-18 07:25:55"
+    "result": "36氪2026 AI最佳场景渗透案例发布；今元集团AI BPO方案入选；XCOPS智能运维年会；中国企业AI应用场景报告",
+    "cached_at": "2026-05-21 10:01:32"
   },
   "ai 监管 政策 发布": {
-    "keyword": "AI 监管 政策 发布 2026-05-17至2026-05-18",
+    "keyword": "AI 监管 政策 发布 2026-05-14至2026-05-21",
     "normalized_key": "ai 监管 政策 发布",
-    "result": "剪映因未落实内容标识被处罚；天津AI安全评估条例5月生效；南非发布AI政策草案；欧盟AI法案分级监管",
-    "cached_at": "2026-05-18 07:25:55"
+    "result": "国家网信办等三部门联合发布《智能体规范应用与创新发展实施意见》；19类应用场景；AIP智能体互联协议国家标准；广州发布AI产业2026年工作要点",
+    "cached_at": "2026-05-21 10:01:33"
   },
   "ai 安全 对齐 研究": {
-    "keyword": "AI 安全 对齐 研究 2026-05-17至2026-05-18",
+    "keyword": "AI 安全 对齐 研究 2026-05-14至2026-05-21",
     "normalized_key": "ai 安全 对齐 研究",
-    "result": "Claude勒索行为从96%降至0%；Anthropic困难建议数据集+宪法训练；Palisade Research自主复制成功率81%；后对齐时代安全范式",
-    "cached_at": "2026-05-18 07:25:57"
+    "result": "ICLR 2026大模型安全论文趋势；推理模型安全成为新热点；Anthropic两篇LLM对齐新范式论文；2026国际AI安全报告；IEEE S&P 2026大模型安全论文",
+    "cached_at": "2026-05-21 10:01:34"
   },
   "量子计算 最新 进展": {
-    "keyword": "量子计算 最新 进展 2026-05-17至2026-05-18",
+    "keyword": "量子计算 最新 进展 2026-05-14至2026-05-21",
     "normalized_key": "量子计算 最新 进展",
-    "result": "九章四号量子优势比10^54发表于Nature；本源悟空-180上线；双核原子量子计算机发布；量子计算商用试点启动",
-    "cached_at": "2026-05-18 07:25:57"
+    "result": "九章四号量子计算原型机：1024量子压缩态输入8176模式，Nature发表，比超算快10^54倍；本源悟空-180第四代超导量子计算机上线",
+    "cached_at": "2026-05-21 10:01:35"
   },
   "模型 量化 优化 技术": {
-    "keyword": "模型 量化 优化 技术 2026-05-17至2026-05-18",
+    "keyword": "模型 量化 优化 技术 2026-05-14至2026-05-21",
     "normalized_key": "模型 量化 优化 技术",
-    "result": "AMD vLLM-ATOM插件发布；DeepSeek联合vLLM开源推理引擎；稀疏注意力NSA硬件对齐优化；量化压缩技术",
-    "cached_at": "2026-05-18 07:25:58"
+    "result": "vLLM 0.20.1支持FP4量化；推理优化系统化：INT8/INT4/KV Cache优化/FlashAttention/连续批处理；大模型推理优化关键技术研究报告",
+    "cached_at": "2026-05-21 10:01:36"
   },
   "typescript 7.0 beta go重写 编译加速": {
     "keyword": "TypeScript 7.0 Beta Go重写 编译加速",
@@ -550,5 +550,155 @@
     "normalized_key": "人民币 汇率 最新",
     "result": "人民币对美元6.8435/港股恒指25600",
     "cached_at": "2026-05-19 08:28:49"
+  },
+  "推理引擎 vllm 更新": {
+    "keyword": "推理引擎 vLLM 更新 2026-05-14至2026-05-21",
+    "normalized_key": "推理引擎 vllm 更新",
+    "result": "vLLM 0.20.1发布：修复DeepSeek-V4多卡通信和FP4转换问题，支持推测解码在思考模型上运行；Pyramid KV显存优化；C++20编译支持",
+    "cached_at": "2026-05-21 10:01:37"
+  },
+  "大模型 发布 gpt claude gemini": {
+    "keyword": "大模型 发布 GPT Claude Gemini 2026-05-18至2026-05-21",
+    "normalized_key": "大模型 发布 gpt claude gemini",
+    "result": "谷歌I/O 2026发布Gemini 3.5 Flash，价格降40%速度增4倍，同时推出全模态Omni模型和AI助手Spark",
+    "cached_at": "2026-05-21 10:01:45"
+  },
+  "ai 芯片 算力 最新": {
+    "keyword": "AI 芯片 算力 最新 2026-05-18至2026-05-21",
+    "normalized_key": "ai 芯片 算力 最新",
+    "result": "阿里云峰会发布真武M890芯片，英伟达Vera CPU交付，AMD AI开发者日上海举办，国产AI芯片寒武纪+160%",
+    "cached_at": "2026-05-21 10:01:45"
+  },
+  "科技公司 财报 融资 收购": {
+    "keyword": "科技公司 财报 融资 收购 2026-05-18至2026-05-21",
+    "normalized_key": "科技公司 财报 融资 收购",
+    "result": "百度Q1财报AI业务136亿元占比52%，Meta裁员8000人7000人转岗AI，腾讯音乐完成收购喜马拉雅",
+    "cached_at": "2026-05-21 10:01:46"
+  },
+  "ai agent 应用 最新": {
+    "keyword": "AI Agent 应用 最新 2026-05-18至2026-05-21",
+    "normalized_key": "ai agent 应用 最新",
+    "result": "谷歌Spark AI助手亮相，英伟达Vera CPU专为Agentic AI设计，2026中国AI应用日均Token调用140万亿",
+    "cached_at": "2026-05-21 10:01:47"
+  },
+  "科技 巨头 战略 调整": {
+    "keyword": "科技 巨头 战略 调整 2026-05-18至2026-05-21",
+    "normalized_key": "科技 巨头 战略 调整",
+    "result": "Meta裁员10%全员转向AI架构，谷歌全面转向AI Agent战略，阿里云全栈重构芯-云-模型-推理",
+    "cached_at": "2026-05-21 10:01:48"
+  },
+  "gpu ai 芯片 发布": {
+    "keyword": "GPU AI 芯片 发布 2026-05-18至2026-05-21",
+    "normalized_key": "gpu ai 芯片 发布",
+    "result": "英伟达Vera CPU交付，阿里平头哥真武M890芯片发布，AMD AI开发者日公布MI400技术细节",
+    "cached_at": "2026-05-21 10:01:49"
+  },
+  "云计算 aws azure 更新": {
+    "keyword": "云计算 AWS Azure 更新 2026-05-18至2026-05-21",
+    "normalized_key": "云计算 aws azure 更新",
+    "result": "AWS推出Inference Serverless毫秒计费服务，阿里云发布真武M890芯片和128卡超节点服务器",
+    "cached_at": "2026-05-21 10:01:49"
+  },
+  "prompt 工程 最新 技术": {
+    "keyword": "Prompt 工程 最新 技术 2026-04-21至2026-05-21",
+    "normalized_key": "prompt 工程 最新 技术",
+    "result": "Prompt工程2026年最新技术趋势：IBM发布2026提示工程指南；知乎发布提示词工程智能客服实战教程；Advanced Prompt Engineering 2026总结12种核心技术；上下文工程崛起替代传统Prompting；Agentic AI范式转移",
+    "cached_at": "2026-05-21 10:02:43"
+  },
+  "lora 微调 最新": {
+    "keyword": "LoRA 微调 最新 2026-04-21至2026-05-21",
+    "normalized_key": "lora 微调 最新",
+    "result": "LoRA微调2026年最新进展：QLoRA+1000条数据+一张RTX4090即可微调7B模型；权重衰减对LoRA效果的影响研究；德克萨斯大学可查询LoRA动态路由方法；大模型微调技术完全指南2026版",
+    "cached_at": "2026-05-21 10:02:44"
+  },
+  "指令微调 最新": {
+    "keyword": "指令微调 最新 2026-04-21至2026-05-21",
+    "normalized_key": "指令微调 最新",
+    "result": "指令微调2026年最新动态：LLaMA Factory框架拥有70,600星标成为最广泛采用的开源微调框架；指令微调+SFT流程自动化；LLaMA Factory支持零代码网页界面LlamaBoard",
+    "cached_at": "2026-05-21 10:02:45"
+  },
+  "saas 订阅 变现 最新": {
+    "keyword": "SaaS 订阅 变现 最新",
+    "normalized_key": "saas 订阅 变现 最新",
+    "result": "AI SaaS定价四大模式：成本加成->竞争定价->价值定价->成果定价。GitHub Copilot个人版0/月锚定价值定价。AI订阅策略调研报告2026-05-12，各大厂商定价体系分析。",
+    "cached_at": "2026-05-21 10:06:46"
+  },
+  "ai 创业 收入 最新": {
+    "keyword": "AI 创业 收入 最新",
+    "normalized_key": "ai 创业 收入 最新",
+    "result": "全球34家头部AI创业公司年化收入800亿美元，半年增长112%。OpenAI 250亿美元，Anthropic 300亿美元，Cursor 20亿美元，Perplexity等5亿美元+。Stripe数据显示AI商业化速度远超SaaS。",
+    "cached_at": "2026-05-21 10:06:47"
+  },
+  "独立产品 定价 策略": {
+    "keyword": "独立产品 定价 策略",
+    "normalized_key": "独立产品 定价 策略",
+    "result": "AI产品定价策略指南-QQ开发者社区2026-04-23。从成本导向转为价值导向。动态定价、基于使用量、价值分层、订阅+增值、成果导向五大趋势。OpenAI分级定价案例。",
+    "cached_at": "2026-05-21 10:06:48"
+  },
+  "思维模型 最新": {
+    "keyword": "思维模型 最新 2026-04-21至2026-05-21",
+    "normalized_key": "思维模型 最新",
+    "result": "搜索到批判性思维(世界经济论坛2026-05-03)、系统思维(社科院2026-05-15)、元认知(36氪2026-02-13)、第一性原理(腾讯2026-01-08)、反事实思维(Nature Human Behaviour 2026-01-08)、贝叶斯思维(腾讯2026-02-23)、结构化思维(MBAlib 2026-03-12)等相关内容",
+    "cached_at": "2026-05-21 10:07:00"
+  },
+  "认知升级 最新 方法": {
+    "keyword": "认知升级 最新 方法 2026-04-21至2026-05-21",
+    "normalized_key": "认知升级 最新 方法",
+    "result": "搜索到认知升级路线图(知乎2026-05-15)、成长型思维指南(noiz.ai 2026-04-23)、认知策略指南(2026-04-19)等内容",
+    "cached_at": "2026-05-21 10:07:01"
+  },
+  "anthropics/skills agent skills协议 100k star": {
+    "keyword": "anthropics/skills Agent Skills协议 100K Star",
+    "normalized_key": "anthropics/skills agent skills协议 100k star",
+    "result": "Anthropic推出Agent Skills协议规范仓库，100K+ Star，已被VS Code/Cursor/Goose等32家工具采纳，成为Agent Skill事实标准。三层加载架构：L1 name+description(~100词)、L2 SKILL.md主体(<500行)、L3 scripts/references按需加载。",
+    "cached_at": "2026-05-21 10:07:44"
+  },
+  "github/spec-kit 规格驱动开发 98.8k star": {
+    "keyword": "github/spec-kit 规格驱动开发 98.8K Star",
+    "normalized_key": "github/spec-kit 规格驱动开发 98.8k star",
+    "result": "GitHub官方推出Spec Kit工具包，98.8K Star，实现规格驱动开发(SDD)。通过Specify CLI管理：specify init初始化，支持Copilot/Claude集成。先写规格文档->AI生成代码->规格即可执行资产。",
+    "cached_at": "2026-05-21 10:07:45"
+  },
+  "unsloth llm微调加速 57k star": {
+    "keyword": "unsloth LLM微调加速 57K Star",
+    "normalized_key": "unsloth llm微调加速 57k star",
+    "result": "Unsloth开源LLM微调加速框架，57K Star。比HuggingFace Transformers快2-5x，VRAM降低50-80%。支持500+模型，自研Triton内核。2026年发布Unsloth Studio无代码Web UI。",
+    "cached_at": "2026-05-21 10:07:47"
+  },
+  "langchain-ai/open-swe 异步编码agent 7.8k star": {
+    "keyword": "langchain-ai/open-swe 异步编码Agent 7.8K Star",
+    "normalized_key": "langchain-ai/open-swe 异步编码agent 7.8k star",
+    "result": "LangChain推出Open SWE开源异步编码Agent，7.8K Star。基于LangGraph构建，长context多轮迭代，GitHub PR自动生成，Slack/Linear集成，安全沙箱执行。代表从实时副驾驶向自主长期运行Agent演进。",
+    "cached_at": "2026-05-21 10:07:49"
+  },
+  "microsoft/apm agent包管理器 2.4k star": {
+    "keyword": "microsoft/apm Agent包管理器 2.4K Star",
+    "normalized_key": "microsoft/apm agent包管理器 2.4k star",
+    "result": "Microsoft开源APM Agent Package Manager，2.4K Star。类似npm for agents，通过apm.yml声明Skills/Prompts/Hooks/MCP Server依赖。三大理念：便携(Manifest)、安全(Secure默认)、策略治理(Policy)。",
+    "cached_at": "2026-05-21 10:07:51"
+  },
+  "google/adk-python agent开发套件 18.5k star": {
+    "keyword": "google/adk-python Agent开发套件 18.5K Star",
+    "normalized_key": "google/adk-python agent开发套件 18.5k star",
+    "result": "Google开源ADK(Agent Development Kit)，18.5K Star。深度集成Vertex AI+Gemini+MCP协议，支持多Agent协作、人工审批、A/B测试。Python/TS/Go/Java多语言支持，企业级可观测性。",
+    "cached_at": "2026-05-21 10:07:52"
+  },
+  "bytedance/lance 3b多模态统一模型 519 star": {
+    "keyword": "bytedance/Lance 3B多模态统一模型 519 Star",
+    "normalized_key": "bytedance/lance 3b多模态统一模型 519 star",
+    "result": "字节跳动开源Lance，3B活跃参数原生统一多模态模型。支持图/视频理解、生成、编辑。128块A100预算从零训练。40GB VRAM推理。t2i/t2v/image_edit/video_edit/x2t任务。Gradio Web界面。",
+    "cached_at": "2026-05-21 10:07:53"
+  },
+  "ai 产品 经理 工具": {
+    "keyword": "AI 产品 经理 工具",
+    "normalized_key": "ai 产品 经理 工具",
+    "result": "2026年产品经理必备10款AI工具（知乎摹客2026-05-11）、AI工具横评UXbot（SegmentFault 2026-04-20）、AI工具全景实测（太平洋科技2026-03-30）、Dovetail用户研究工具、Amplitude数据分析、Dify开源工作流引擎",
+    "cached_at": "2026-05-21 10:08:00"
+  },
+  "ai 产品 工作 流": {
+    "keyword": "AI 产品 工作 流",
+    "normalized_key": "ai 产品 工作 流",
+    "result": "AI工作流编排平台横评Zapier/Make/N8N/Dify（Alignify 2026-05-13）、AI智能体工作流完整指南（知乎2026-01-20）、Dify工作流编排大全（CSDN 2026-01-20）、AI时代产品经理五大核心能力（腾讯云2026-03-07）",
+    "cached_at": "2026-05-21 10:08:01"
   }
 }
