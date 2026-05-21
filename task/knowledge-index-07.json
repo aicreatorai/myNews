@@ -258,5 +258,75 @@
     "depth": "技术层 - Query Rewriting、HyDE、后退提示",
     "angle": "查询扩展技术原理与RAG检索优化",
     "keywords_snippet": "查询扩展,Query Rewriting,HyDE,后退提示,Step Back Prompting,多查询扩展"
+  },
+  {
+    "module": "07",
+    "date": "2026-05-21",
+    "topic": "思维链CoT",
+    "title": "思维链CoT让大模型学会一步步思考",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "Prompt工程核心推理技术",
+    "keywords_snippet": "Chain-of-Thought思维链"
+  },
+  {
+    "module": "07",
+    "date": "2026-05-21",
+    "topic": "LoRA微调",
+    "title": "LoRA低秩适配一张消费级显卡微调百亿参数模型",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "LoRA核心原理与实践",
+    "keywords_snippet": "LoRA低秩适配"
+  },
+  {
+    "module": "07",
+    "date": "2026-05-21",
+    "topic": "QLoRA",
+    "title": "QLoRA量化微调4GB显存跑7B模型",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "量化+LoRA的极致方案",
+    "keywords_snippet": "QLoRA量化低秩适配"
+  },
+  {
+    "module": "07",
+    "date": "2026-05-21",
+    "topic": "指令微调SFT",
+    "title": "指令微调SFT让通用模型变身领域专家",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "指令微调核心原理与流程",
+    "keywords_snippet": "指令微调InstructionTuning"
+  },
+  {
+    "module": "07",
+    "date": "2026-05-21",
+    "topic": "DSPy框架",
+    "title": "DSPy框架用程序替代手写提示词",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "自动提示优化框架",
+    "keywords_snippet": "DSPy自动提示优化"
+  },
+  {
+    "module": "07",
+    "date": "2026-05-21",
+    "topic": "PEFT参数高效微调",
+    "title": "PEFT参数高效微调全景LoRAAdapter与PromptTuning对比",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "PEFT三大主流方向系统对比",
+    "keywords_snippet": "PEFT参数高效微调"
+  },
+  {
+    "module": "07",
+    "date": "2026-05-21",
+    "topic": "可查询LoRA",
+    "title": "可查询LoRA德克萨斯大学最新动态路由微调技术",
+    "level": "L4",
+    "depth": "前沿层",
+    "angle": "动态路由微调前沿研究",
+    "keywords_snippet": "QueryableLoRA动态微调"
   }
 ]

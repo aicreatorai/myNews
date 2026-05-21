@@ -248,5 +248,75 @@
     "depth": "技术层",
     "angle": "元认知与第三空间",
     "keywords_snippet": "AI自习室 元认知 第三空间 自我调节学习 承诺机制"
+  },
+  {
+    "module": "13",
+    "date": "2026-05-21",
+    "topic": "AI英语口语",
+    "title": "AI英语口语陪练：用DeepSeek R2实现音素级纠音与追问式对话",
+    "level": "L3",
+    "depth": "实践层",
+    "angle": "AI英语口语工具的教学应用与学习科学原理",
+    "keywords_snippet": "DeepSeek R2, 可栗口语, 音素级纠音, 追问式AI外教"
+  },
+  {
+    "module": "13",
+    "date": "2026-05-21",
+    "topic": "AI数学教学",
+    "title": "AI数学教学：从刷题工具到结构化推理能力培养",
+    "level": "L3",
+    "depth": "实践层",
+    "angle": "AI数学推理链可视化和苏格拉底式提问教学",
+    "keywords_snippet": "AI数学教学, 推理链, 苏格拉底提问, 自适应出题"
+  },
+  {
+    "module": "13",
+    "date": "2026-05-21",
+    "topic": "AI语文教学",
+    "title": "AI语文写作教学：全国调研揭示人机协同新范式",
+    "level": "L3",
+    "depth": "实践层",
+    "angle": "AI作文批改的人机协同模式与教育部调研",
+    "keywords_snippet": "AI语文作文教学, 人机协同, AI初筛教师复核, 教育部调研"
+  },
+  {
+    "module": "13",
+    "date": "2026-05-21",
+    "topic": "AI英语读写",
+    "title": "AI英语读写教学：北航团队构建认知发展新框架",
+    "level": "L3",
+    "depth": "实践层",
+    "angle": "AI辅助英语读写认知转化,输入增强与写作脚手架",
+    "keywords_snippet": "AI英语读写, 认知发展框架, 读写桥接, 北航"
+  },
+  {
+    "module": "13",
+    "date": "2026-05-21",
+    "topic": "AI科学教学",
+    "title": "AI科学学科教学：虚拟实验与仿真模拟突破资源瓶颈",
+    "level": "L3",
+    "depth": "实践层",
+    "angle": "AI虚拟实验在中西部学校科学教学中的落地方案",
+    "keywords_snippet": "AI科学教学, 虚拟实验, PhET, EduInteract, 仿真模拟"
+  },
+  {
+    "module": "13",
+    "date": "2026-05-21",
+    "topic": "AI自适应学习",
+    "title": "AI自适应学习路径：五部门行动计划推动个性化学科教学",
+    "level": "L3",
+    "depth": "实践层",
+    "angle": "AI自适应系统的三维诊断模型与三级干预策略在学校落地",
+    "keywords_snippet": "AI自适应学习, 个性化学科教学, 三维诊断, 三级干预"
+  },
+  {
+    "module": "13",
+    "date": "2026-05-21",
+    "topic": "AI英语备考",
+    "title": "AI英语备考方案：从四六级到雅思的全流程智能备考",
+    "level": "L3",
+    "depth": "实践层",
+    "angle": "AI诊断性测评与精准干预在英语备考中的应用",
+    "keywords_snippet": "AI英语备考, 智能诊断, 靶向训练, 备考路径规划"
   }
 ]

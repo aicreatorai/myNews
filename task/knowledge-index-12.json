@@ -268,5 +268,65 @@
     "depth": "技术层",
     "angle": "独立开发者、聚焦细分、边做边卖、AI杠杆",
     "keywords_snippet": "独立开发者 三条法则 月入5万 细分场景 AI杠杆"
+  },
+  {
+    "module": "12",
+    "date": "2026-05-21",
+    "topic": "AI创业收入格局",
+    "title": "AI创业一年狂揽800亿美元：模型层赢家通吃，应用层如何突围？",
+    "level": "L3",
+    "depth": "实践层",
+    "angle": "真实行业收入数据与商业模式对比",
+    "keywords_snippet": "AI创业,800亿美元,OpenAI,Anthropic,Intercom"
+  },
+  {
+    "module": "12",
+    "date": "2026-05-21",
+    "topic": "SaaS订阅",
+    "title": "独立产品定价策略升级：AI SaaS从成本导向到价值导向的变现转型",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "定价方法论与GitHub Copilot案例",
+    "keywords_snippet": "AI产品定价,价值定价,GitHub Copilot"
+  },
+  {
+    "module": "12",
+    "date": "2026-05-21",
+    "topic": "AI编程工具变现",
+    "title": "Cursor年化收入20亿美元：AI编程工具订阅模式的爆发与天花板",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "订阅模式与推理成本经济",
+    "keywords_snippet": "Cursor,Claude Code,AI编程工具,订阅变现"
+  },
+  {
+    "module": "12",
+    "date": "2026-05-21",
+    "topic": "一人公司",
+    "title": "Marc Lou的ShipFast：AI时代独立开发者年入百万美元的变现密码",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "数字模板产品变现模式",
+    "keywords_snippet": "ShipFast,Marc Lou,独立开发,AI变现"
+  },
+  {
+    "module": "12",
+    "date": "2026-05-21",
+    "topic": "一人公司",
+    "title": "独立开发者Saas产品矩阵：一人维护12个产品月入30万美元的微观SaaS策略",
+    "level": "L3",
+    "depth": "实践层",
+    "angle": "多产品矩阵运营策略",
+    "keywords_snippet": "产品矩阵,Micro SaaS,独立开发者"
+  },
+  {
+    "module": "12",
+    "date": "2026-05-21",
+    "topic": "变现技术",
+    "title": "按效果付费：AI应用层变现的终局模式",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "按效果付费模式原理与Intercom案例",
+    "keywords_snippet": "按效果付费,Outcome-based Pricing,Intercom"
   }
 ]

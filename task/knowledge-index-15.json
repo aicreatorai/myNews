@@ -248,5 +248,75 @@
     "depth": "技术层",
     "angle": "AI玩具情感陪伴产品的设计方法论案例",
     "keywords_snippet": "AI玩具 奇碰 Haivivi 情感陪伴 儿童产品 信任关系"
+  },
+  {
+    "module": "15",
+    "date": "2026-05-21",
+    "topic": "UXbot AI原型全链路工作流",
+    "title": "从PRD到可交互原型：UXbot如何重构PM从需求到演示的全链路工作流",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "AI原型工具如何消除PM对设计师排期的依赖",
+    "keywords_snippet": "UXbot AI原型 PRD 工作流 自然语言生成原型"
+  },
+  {
+    "module": "15",
+    "date": "2026-05-21",
+    "topic": "AI工作流编排平台横评",
+    "title": "AI工作流编排平台横评：Zapier/Make/N8N/Dify四强选型实战指南",
+    "level": "L3",
+    "depth": "实践层",
+    "angle": "四大AI工作流编排平台选型决策框架和实战对比",
+    "keywords_snippet": "Zapier Make N8N Dify 工作流编排 自动化"
+  },
+  {
+    "module": "15",
+    "date": "2026-05-21",
+    "topic": "PM文档调研工具组合",
+    "title": "文档与调研双引擎：Claude+Notion AI+Perplexity如何重构PM信息工作流",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "三款AI工具在PM信息工作流中的分工协作策略",
+    "keywords_snippet": "Claude Notion AI Perplexity PM 文档 调研 信息工作流"
+  },
+  {
+    "module": "15",
+    "date": "2026-05-21",
+    "topic": "AI用户研究工具",
+    "title": "Dovetail如何用AI重塑用户研究：从访谈录音到洞察报告的全自动化",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "AI自动转录打标聚类将用户研究从手工劳动变为AI预处理决策",
+    "keywords_snippet": "Dovetail AI用户研究 访谈分析 洞察 用户反馈"
+  },
+  {
+    "module": "15",
+    "date": "2026-05-21",
+    "topic": "AI产品数据分析工具",
+    "title": "Amplitude AI让产品数据分析平民化：PM用自然语言就能做数据洞察",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "自然语言查询降低数据分析门槛让PM能自助完成数据洞察",
+    "keywords_snippet": "Amplitude AI 数据分析 自然语言查询 产品指标"
+  },
+  {
+    "module": "15",
+    "date": "2026-05-21",
+    "topic": "Dify开源AI工作流引擎",
+    "title": "Dify开源AI工作流引擎：PM也能低代码搭建Agent应用的零门槛利器",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "开源AI工作流引擎如何让产品经理参与AI应用构建",
+    "keywords_snippet": "Dify 开源 AI工作流 Agent 低代码 知识库"
+  },
+  {
+    "module": "15",
+    "date": "2026-05-21",
+    "topic": "AI PM工具链全景",
+    "title": "2026年AI PM工作流全景：从需求识别到产品上线的7大环节工具链实战",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "系统性框架展示AI产品经理全链路工具组合和落地方法",
+    "keywords_snippet": "AI PM 工作流 全链路 工具链 方法论"
   }
 ]

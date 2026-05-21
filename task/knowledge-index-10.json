@@ -258,5 +258,75 @@
     "depth": "概念层",
     "angle": "Kubernetes 1.36 Haru版本、AI工作负载、安全加固",
     "keywords_snippet": "Kubernetes 1.36 Haru GPU调度 AI工作负载 安全加固"
+  },
+  {
+    "module": "10",
+    "date": "2026-05-21",
+    "topic": "anthropics/skills",
+    "title": "Anthropic官方Agent Skills协议标准库，100K Star终结AI技能碎片化",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "Agent Skills协议标准的三层加载架构设计与实战",
+    "keywords_snippet": "anthropics skills Agent Skills 协议标准 三层架构 SKILL.md"
+  },
+  {
+    "module": "10",
+    "date": "2026-05-21",
+    "topic": "spec-kit",
+    "title": "GitHub官方规格驱动开发工具包，98.8K Star终结无脑编码乱象",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "GitHub Spec Kit规格驱动开发理念、工具链与实战",
+    "keywords_snippet": "spec-kit Specify CLI 规格驱动开发 SDD GitHub"
+  },
+  {
+    "module": "10",
+    "date": "2026-05-21",
+    "topic": "unsloth",
+    "title": "开源LLM微调加速框架，57K Star让微调成本从$5000降至$60",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "Unsloth开源LLM微调加速框架介绍与Triton内核优化",
+    "keywords_snippet": "unsloth LLM微调 LoRA QLoRA Triton内核 显存优化"
+  },
+  {
+    "module": "10",
+    "date": "2026-05-21",
+    "topic": "open-swe",
+    "title": "LangChain开源异步编程Agent，7.8K Star定义自主软件工程新范式",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "开源异步Coding Agent框架介绍与LangGraph实现",
+    "keywords_snippet": "open-swe LangChain 异步Agent 软件工程 LangGraph"
+  },
+  {
+    "module": "10",
+    "date": "2026-05-21",
+    "topic": "apm",
+    "title": "微软开源Agent包管理器，2.4K Star定义AI配置的npm时代",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "Agent Package Manager理念、apm.yml清单与安全策略",
+    "keywords_snippet": "microsoft apm Agent包管理器 apm.yml 依赖管理 Skills MCP"
+  },
+  {
+    "module": "10",
+    "date": "2026-05-21",
+    "topic": "google-adk",
+    "title": "Google开源Agent开发套件，18.5K Star让开发企业级AI Agent变简单",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "Google ADK代码优先架构、多Agent编排与A/B测试",
+    "keywords_snippet": "google adk Agent Development Kit Gemini Vertex AI MCP A/B测试"
+  },
+  {
+    "module": "10",
+    "date": "2026-05-21",
+    "topic": "bytedance/Lance",
+    "title": "字节跳动开源3B参数多模态统一模型，单卡搞定图/视频理解与生成",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "原生统一多模态模型架构、从零训练的Joint Training",
+    "keywords_snippet": "bytedance Lance 3B多模态 统一模型 理解生成编辑"
   }
 ]

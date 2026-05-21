@@ -258,5 +258,75 @@
     "depth": "概念层",
     "angle": "播客生态、Podwise与知识闭环",
     "keywords_snippet": "播客学习 小宇宙 Podwise AI播客 碎片时间"
+  },
+  {
+    "module": "14",
+    "date": "2026-05-21",
+    "topic": "批判性思维",
+    "title": "批判性思维：AI时代不可替代的认知免疫系统",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "Critical Thinking定义，三源验证法，论证拆解，认知偏差防御",
+    "keywords_snippet": "批判性思维 Critical Thinking 论证拆解 三源验证 世界经济论坛 教育"
+  },
+  {
+    "module": "14",
+    "date": "2026-05-21",
+    "topic": "系统思维",
+    "title": "系统思维：在复杂世界中看到整体而非碎片",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "系统循环图，反馈回路，涌现特性，杠杆点",
+    "keywords_snippet": "系统思维 Systems Thinking 反馈回路 涌现 系统循环图 整体性"
+  },
+  {
+    "module": "14",
+    "date": "2026-05-21",
+    "topic": "元认知",
+    "title": "元认知：给自己的思维装一个监控摄像头",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "元认知知识-调控，学5测1，元认知日志，邓宁-克鲁格",
+    "keywords_snippet": "元认知 Metacognition 监控-反馈环 学习策略 邓宁-克鲁格 神经可塑性"
+  },
+  {
+    "module": "14",
+    "date": "2026-05-21",
+    "topic": "第一性原理",
+    "title": "第一性原理：像物理学家一样拆解任何复杂问题",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "亚里士多德，马斯克，五问拆解法，奥卡姆剃刀",
+    "keywords_snippet": "第一性原理 First Principles 亚里士多德 五问法 本质思维 奥卡姆剃刀"
+  },
+  {
+    "module": "14",
+    "date": "2026-05-21",
+    "topic": "反事实思维",
+    "title": "反事实思维：用如果-就好了优化未来决策",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "Nature Human Behaviour，事前验尸法，因果推理，向上向下反事实",
+    "keywords_snippet": "反事实思维 Counterfactual Thinking 事前验尸 Nature Human Behaviour 因果推理 决策优化"
+  },
+  {
+    "module": "14",
+    "date": "2026-05-21",
+    "topic": "贝叶斯思维",
+    "title": "贝叶斯思维：用信念更新公式在不确定性中做明智决策",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "先验概率-后验概率，信念更新，费米估算，概率化表达",
+    "keywords_snippet": "贝叶斯思维 Bayesian Thinking 信念更新 先验概率 后验概率 不确定性 概率化"
+  },
+  {
+    "module": "14",
+    "date": "2026-05-21",
+    "topic": "结构化思维",
+    "title": "结构化思维：让混乱问题自动现出清晰解的底层框架",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "金字塔原理，MECE原则，结论先行，SCQA模型",
+    "keywords_snippet": "结构化思维 金字塔原理 MECE 结论先行 SCQA 组块化 PREP"
   }
 ]

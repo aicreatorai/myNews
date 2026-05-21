@@ -161,13 +161,6 @@
   },
   {
     "module": "08",
-    "date": "2026-05-18",
-    "topic": "Suno AI音乐创作",
-    "title": "Suno AI音乐创作实战：五步从零生成专属原创歌曲",
-    "level": "L2",
-    "depth": "技术层",
-    "angle": "Suno AI音乐制作歌词创作曲风控制",
-    "keywords_snippet": "Suno AI音乐 歌词创作 曲风控制 Custom Mode 古风 原创歌曲",
     "date": "2026-05-19",
     "topic": "Gemini AI Chrome技能",
     "title": "Chrome版Gemini技能功能：三步设置AI工作流自动化",
@@ -235,5 +228,75 @@
     "depth": "技术层",
     "angle": "三种创建方式提示词生成导出PPT思维导图转换",
     "keywords_snippet": "Gamma AI PPT 一句话生成 思维导图转换 导出PPT 在线协作 第三方嵌入"
+  },
+  {
+    "module": "08",
+    "date": "2026-05-21",
+    "topic": "ChatGPT提示词工程",
+    "title": "[L4] ChatGPT提示词黄金7要素",
+    "level": "L4",
+    "depth": "前沿层",
+    "angle": "7要素公式实战",
+    "keywords_snippet": "黄金7要素 提示词 Prompt 评估标准"
+  },
+  {
+    "module": "08",
+    "date": "2026-05-21",
+    "topic": "Superpowers+Claude Code",
+    "title": "[L4] Superpowers+Claude Code工程化工作流",
+    "level": "L4",
+    "depth": "前沿层",
+    "angle": "工程纪律约束AI编程",
+    "keywords_snippet": "Superpowers Claude Code TDD 工作流"
+  },
+  {
+    "module": "08",
+    "date": "2026-05-21",
+    "topic": "Cursor AI编辑器",
+    "title": "[L2] Cursor AI编辑器Agent模式实战",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "Agent模式工作流",
+    "keywords_snippet": "Cursor Agent 规划模式 上下文管理 TDD"
+  },
+  {
+    "module": "08",
+    "date": "2026-05-21",
+    "topic": "AI搜索工具",
+    "title": "[L3] AI搜索工具三强横评",
+    "level": "L3",
+    "depth": "实践层",
+    "angle": "Perplexity秘塔ChatGPT Search对比",
+    "keywords_snippet": "AI搜索 Perplexity 秘塔 ChatGPT Search"
+  },
+  {
+    "module": "08",
+    "date": "2026-05-21",
+    "topic": "AI自动化平台",
+    "title": "[L4] n8n Dify Coze三选一",
+    "level": "L4",
+    "depth": "前沿层",
+    "angle": "平台选型对比",
+    "keywords_snippet": "n8n Dify Coze 自动化 工作流 选型"
+  },
+  {
+    "module": "08",
+    "date": "2026-05-21",
+    "topic": "豆包AI",
+    "title": "[L1] 豆包AI深度实战",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "全场景使用指南",
+    "keywords_snippet": "豆包 Seedance 文件分析 多模态 免费"
+  },
+  {
+    "module": "08",
+    "date": "2026-05-21",
+    "topic": "国产AI工具对比",
+    "title": "[L3] 国产AI工具全景对比",
+    "level": "L3",
+    "depth": "实践层",
+    "angle": "豆包DeepSeek千问元宝横评",
+    "keywords_snippet": "国产AI 豆包 DeepSeek 千问 元宝 对比"
   }
 ]
