@@ -632,6 +632,8 @@ body.stealth-mode .main-content {
     margin-bottom: 20px;
     padding-bottom: 16px;
     border-bottom: 2px solid var(--color-border);
+    transition: transform 0.3s ease, opacity 0.3s ease;
+    will-change: transform, opacity;
 }
 
 .date-header h2 {
