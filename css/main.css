@@ -994,6 +994,8 @@ body.stealth-mode .main-content {
     border-radius: 4px;
     font-size: 0.88em;
     font-family: "SF Mono", "Fira Code", monospace;
+    word-break: break-all;
+    overflow-wrap: break-word;
 }
 
 .news-content pre {
@@ -1003,6 +1005,10 @@ body.stealth-mode .main-content {
     overflow-x: auto;
     margin: 12px 0;
     font-size: 0.85rem;
+    white-space: pre-wrap;
+    word-break: break-word;
+    overflow-wrap: break-word;
+    max-width: 100%;
     line-height: 1.5;
 }
 
@@ -1346,11 +1352,16 @@ body.stealth-mode .main-content {
 
     .card-body code {
         font-size: 0.92rem;
+        word-break: break-all;
     }
 
     .card-body pre {
         padding: 8px;
         font-size: 0.9rem;
+        white-space: pre-wrap;
+        word-break: break-word;
+        overflow-wrap: break-word;
+        overflow: hidden;
     }
 
     .card-body .table-wrap {
