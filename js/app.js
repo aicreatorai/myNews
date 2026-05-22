@@ -630,22 +630,34 @@
         // 有序列表 (1. item)
         html = html.replace(/^\d+\.\s+(.*)$/gm, '<li>$1</li>');
 
-        // 表格 — 只在包含表头分隔符时处理（避免误匹配普通文本中的 |）
-        if (/^\|.+\|\s*$/.test(html)) {
-            html = html.replace(/\|(.+)\|/g, (match) => {
-                if (match.includes('---')) return '';
-                const cells = match.split('|').filter(c => c.trim());
-                return '<tr><td>' + cells.join('</td><td>') + '</td></tr>';
-            });
-        }
+        // 表格 — 完整支持：识别markdown表格块，区分表头/数据行，生成标准<table>结构
+        // 匹配连续的表格行（以 | 开头和结尾），中间包含分隔行（|---|）
+        html = html.replace(/(^\|.+\|\s*\n)(^\|[-| :]+\|\s*\n)((\|.+\|\s*\n)*)/gm, (match, headerLine, sepLine, bodyLines) => {
+            const parseRow = (line, isHeader) => {
+                const cells = line.split('|').filter(c => c.trim());
+                const tag = isHeader ? 'th' : 'td';
+                return '<tr>' + cells.map(c => `<${tag}>${c.trim()}</${tag}>`).join('') + '</tr>';
+            };
+            const thead = parseRow(headerLine, true);
+            const tbody = bodyLines.trim() ? bodyLines.trim().split('\n').map(l => parseRow(l, false)).join('') : '';
+            return `<table><thead>${thead}</thead>${tbody ? '<tbody>' + tbody + '</tbody>' : ''}</table>`;
+        });
+        // 兜底：无分隔行的单行表格（简单数据展示）
+        html = html.replace(/(^\|.+\|\s*\n)+/gm, (match) => {
+            const rows = match.trim().split('\n').map(l => {
+                const cells = l.split('|').filter(c => c.trim());
+                return '<tr><td>' + cells.map(c => c.trim()).join('</td><td>') + '</td></tr>';
+            }).join('');
+            return `<table>${rows}</table>`;
+        });
 
         // 段落 (双换行)
         html = html.replace(/\n\n/g, '</p><p>');
         html = '<p>' + html + '</p>';
 
-        // 清理嵌套标签
-        html = html.replace(/<p>\s*<(ul|ol|li|h[1-5]|hr|pre|blockquote|table|tr)/g, '<$1');
-        html = html.replace(/<\/(ul|ol|li|h[1-5]|hr|pre|blockquote|table|tr)>\s*<\/p>/g, '</$1>');
+        // 清理嵌套标签（表格标签也需要解包）
+        html = html.replace(/<p>\s*<(ul|ol|li|h[1-5]|hr|pre|blockquote|table|thead|tbody|tr|th|td)/g, '<$1');
+        html = html.replace(/<\/(ul|ol|li|h[1-5]|hr|pre|blockquote|table|thead|tbody|tr|th|td)>\s*<\/p>/g, '</$1>');
         html = html.replace(/<p>\s*<\/p>/g, '');
         html = html.replace(/<li><\/li>/g, '');
 
