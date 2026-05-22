@@ -328,5 +328,55 @@
     "depth": "概念层",
     "angle": "原生统一多模态模型架构、从零训练的Joint Training",
     "keywords_snippet": "bytedance Lance 3B多模态 统一模型 理解生成编辑"
+  },
+  {
+    "module": "10",
+    "date": "2026-05-22",
+    "topic": "codegraph",
+    "title": "CodeGraph预索引代码知识图谱让AI编码代理秒懂百万行代码库",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "代码知识图谱预索引原理、MCP协议集成与性能基准",
+    "keywords_snippet": "CodeGraph 代码知识图谱 pre-indexed MCP tree-sitter 预索引"
+  },
+  {
+    "module": "10",
+    "date": "2026-05-22",
+    "topic": "Chrome DevTools MCP",
+    "title": "Chrome DevTools MCP谷歌官方让AI编码代理操控浏览器",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "谷歌官方MCP服务器、40+浏览器操作工具、CDP深度调试",
+    "keywords_snippet": "Chrome DevTools MCP Puppeteer CDP 浏览器自动化 AI编码"
+  },
+  {
+    "module": "10",
+    "date": "2026-05-22",
+    "topic": "Supertonic TTS",
+    "title": "Supertonic 3开源端侧31语言TTS引擎99M参数媲美商用音质",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "端侧ONNX Runtime多语言TTS引擎、99M参数架构与Voice Builder自定义音色",
+    "keywords_snippet": "Supertonic TTS ONNX 端侧推理 多语言 44.1kHz Voice Builder"
+  },
+  {
+    "module": "10",
+    "date": "2026-05-22",
+    "topic": "CLI-Anything",
+    "title": "CLI-Anything港大开源让所有软件成为AI Agent原生工具",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "自动CLI生成引擎、7阶段流水线、GUI软件Agent桥接",
+    "keywords_snippet": "CLI-Anything HKUDS 港大 Agent-Native GUI转CLI 7阶段流水线"
+  },
+  {
+    "module": "10",
+    "date": "2026-05-22",
+    "topic": "MoneyPrinterV2",
+    "title": "MoneyPrinterV2开源AI短视频自动生产线日更千条不是梦",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "AI全自动短视频管线、Ollama本地模型优先、Twitter Bot集成发布",
+    "keywords_snippet": "MoneyPrinterV2 AI短视频 Ollama 自动发布 YouTube Shorts TTS"
   }
 ]

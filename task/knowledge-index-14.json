@@ -328,5 +328,55 @@
     "depth": "概念层",
     "angle": "金字塔原理，MECE原则，结论先行，SCQA模型",
     "keywords_snippet": "结构化思维 金字塔原理 MECE 结论先行 SCQA 组块化 PREP"
+  },
+  {
+    "module": "14",
+    "date": "2026-05-22",
+    "topic": "元控制理论",
+    "title": "元控制理论：意志力不是疲惫的肌肉，而是可切换的大脑档位",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "意志力模式切换，博洛尼亚大学实验，多巴胺双通道，坚持模式vs灵活模式",
+    "keywords_snippet": "元控制理论 Metacontrol Theory 意志力 模式切换 多巴胺 坚持模式 灵活模式"
+  },
+  {
+    "module": "14",
+    "date": "2026-05-22",
+    "topic": "无痛自律法",
+    "title": "无痛自律法：用微习惯+两分钟法则科学欺骗大脑",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "微习惯，两分钟法则，前额叶启动阻力，行为-身份认同内化",
+    "keywords_snippet": "无痛自律 微习惯 两分钟法则 前额叶抵抗 身份认同 James Clear Stephen Guise"
+  },
+  {
+    "module": "14",
+    "date": "2026-05-22",
+    "topic": "习惯追踪体系",
+    "title": "习惯追踪的科学体系：从66天真相到锯齿效应",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "66天定律，锯齿效应，多巴胺前移，二元打卡法，链条法，基石习惯",
+    "keywords_snippet": "习惯追踪 Habit Tracking 锯齿效应 66天定律 二元打卡 链条法 基石习惯 多巴胺"
+  },
+  {
+    "module": "14",
+    "date": "2026-05-22",
+    "topic": "环境重构术",
+    "title": "环境重构术：让好习惯不可避免的七步设计法",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "环境设计，背外侧纹状体，认知负荷卸载，摩擦系数模型，微环境设计",
+    "keywords_snippet": "环境重构 Environment Redesign 行为设计 环境审计 提示 摩擦系数 背外侧纹状体"
+  },
+  {
+    "module": "14",
+    "date": "2026-05-22",
+    "topic": "多巴胺管理",
+    "title": "多巴胺管理双面游戏：驯服消费型刺激激活生产型动力",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "消费型vs生产型多巴胺，多巴胺受体下调，灰度模式，Detox，多巴胺基线滑移",
+    "keywords_snippet": "多巴胺管理 Dopamine Management 消费型多巴胺 生产型多巴胺 灰度模式 Detox 多巴胺受体 D2 基线滑移"
   }
 ]

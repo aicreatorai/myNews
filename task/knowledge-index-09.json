@@ -408,14 +408,74 @@
         "增量编译"
       ],
       "date": "2026-05-21"
+    },
+    {
+      "id": 29,
+      "title": "Mojo 1.0.0b1 Beta发布：Chris Lattner打造的AI编程语言走向生产可用",
+      "level": "L2",
+      "depth": "技术层",
+      "angle": "Mojo 1.0 Beta API冻结、comptime元编程与MAX运行时集成",
+      "keywords": [
+        "Mojo 1.0 Beta",
+        "Modular 26.3",
+        "comptime",
+        "MAX",
+        "AI编程语言"
+      ],
+      "date": "2026-05-22"
+    },
+    {
+      "id": 30,
+      "title": "TIOBE 5月排行榜发布：统计编程市场大洗牌，Python与R成为赢家",
+      "level": "L2",
+      "depth": "技术层",
+      "angle": "TIOBE排名数据分析与统计编程市场整合趋势深度解读",
+      "keywords": [
+        "TIOBE",
+        "统计编程整合",
+        "Python",
+        "R",
+        "Java"
+      ],
+      "date": "2026-05-22"
+    },
+    {
+      "id": 31,
+      "title": "Bun 1.3.14发布：96万行代码从Zig迁移至Rust，JavaScript运行时格局剧变",
+      "level": "L2",
+      "depth": "技术层",
+      "angle": "Bun Zig转Rust技术细节、Claude Code AI辅助迁移与内存模型变化",
+      "keywords": [
+        "Bun",
+        "Rust",
+        "Zig",
+        "Claude Code",
+        "JavaScript运行时"
+      ],
+      "date": "2026-05-22"
+    },
+    {
+      "id": 32,
+      "title": "Java 26发布两月回顾：虚拟线程深入生产化，Spring Boot 4全面拥抱云原生",
+      "level": "L3",
+      "depth": "实践层",
+      "angle": "Java 26虚拟线程的生产压测数据与Spring Boot 4云原生实践",
+      "keywords": [
+        "Java 26",
+        "虚拟线程",
+        "Spring Boot 4",
+        "GraalVM",
+        "生产实践"
+      ],
+      "date": "2026-05-22"
     }
   ],
   "statistics": {
-    "total_entries": 28,
+    "total_entries": 32,
     "by_level": {
       "L1": 12,
-      "L2": 14,
-      "L3": 2
+      "L2": 17,
+      "L3": 3
     },
     "languages_covered": [
       "Mojo",

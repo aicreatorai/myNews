@@ -298,5 +298,35 @@
     "depth": "实践层",
     "angle": "豆包DeepSeek千问元宝横评",
     "keywords_snippet": "国产AI 豆包 DeepSeek 千问 元宝 对比"
+  },
+  {
+    "module": "08",
+    "date": "2026-05-22",
+    "topic": "Dify AI Agent搭建",
+    "title": "Dify AI Agent实战：30分钟搭建多Agent协作工作流",
+    "level": "L4",
+    "depth": "前沿层",
+    "angle": "多Agent协作实战，从安装部署到双Agent工作流编排全过程",
+    "keywords_snippet": "Dify 多Agent Workflow RAG 插件"
+  },
+  {
+    "module": "08",
+    "date": "2026-05-22",
+    "topic": "AI视频生成工具",
+    "title": "AI视频生成实战：可灵2.0+Runway Gen-3完整工作流",
+    "level": "L3",
+    "depth": "实践层",
+    "angle": "以产品宣传片制作为实战案例，可灵与Runway双工具互补工作流",
+    "keywords_snippet": "可灵AI Runway Gen-3 文生视频 图生视频 运动笔刷 提示词"
+  },
+  {
+    "module": "08",
+    "date": "2026-05-22",
+    "topic": "Bolt.new AI建站",
+    "title": "Bolt.new+Lovable实测：自然语言生成完整网站",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "Bolt.new与Lovable双平台实测对比，从相同需求出发分别演示建站流程",
+    "keywords_snippet": "Bolt.new Lovable AI建站 全栈 自然语言 零代码"
   }
 ]

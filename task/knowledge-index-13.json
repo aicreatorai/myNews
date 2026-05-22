@@ -318,5 +318,45 @@
     "depth": "实践层",
     "angle": "AI诊断性测评与精准干预在英语备考中的应用",
     "keywords_snippet": "AI英语备考, 智能诊断, 靶向训练, 备考路径规划"
+  },
+  {
+    "module": "13",
+    "date": "2026-05-22",
+    "topic": "DeepTutor开源AI辅导",
+    "title": "【L2】港大开源DeepTutor：免费AI私教如何重塑家庭辅导模式",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "DeepTutor多智能体架构的技术原理与家庭教育场景落地，从免费开源视角切入与商业工具的对比",
+    "keywords_snippet": "DeepTutor 港大HKUDS 多智能体 RAG 开源AI家教 HyperAI 引导式教学"
+  },
+  {
+    "module": "13",
+    "date": "2026-05-22",
+    "topic": "AI亲子教育免费工具实测",
+    "title": "【L3】三款免费AI亲子教育工具横向实测：家长辅导作业的效率革命",
+    "level": "L3",
+    "depth": "实践层",
+    "angle": "智在记录/讯飞听见/通义听悟三款工具的横向对比实测与学习科学原理分析",
+    "keywords_snippet": "智在记录 讯飞听见 通义听悟 录音转写 认知负荷 多模态学习 生成效应"
+  },
+  {
+    "module": "13",
+    "date": "2026-05-22",
+    "topic": "AI家庭辅导边界指南",
+    "title": "【L1】AI辅导作业的边界指南：家长如何让AI成为教练而非枪手",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "AI辅导作业使用边界判断框架、四象限法与家长实操指南",
+    "keywords_snippet": "AI边界 脚手架理论 认知卸载 理想困难 批判性思维 元认知"
+  },
+  {
+    "module": "13",
+    "date": "2026-05-22",
+    "topic": "家长手搓AI学习工具",
+    "title": "【L1】家长手搓AI学习工具：零代码时代定制孩子的专属学习应用",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "Vibe Coding让家长零代码定制孩子专属学习应用的概念、案例与学习科学",
+    "keywords_snippet": "Vibe Coding Cursor Trae 手搓APP 自我决定理论 游戏化学习 生成效应"
   }
 ]

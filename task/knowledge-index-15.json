@@ -318,5 +318,45 @@
     "depth": "概念层",
     "angle": "系统性框架展示AI产品经理全链路工具组合和落地方法",
     "keywords_snippet": "AI PM 工作流 全链路 工具链 方法论"
+  },
+  {
+    "module": "15",
+    "date": "2026-05-22",
+    "topic": "社交裂变增长",
+    "title": "腾讯元宝10亿红包AI社交裂变方法论",
+    "level": "L3",
+    "depth": "实践层",
+    "angle": "社交裂变增长策略和裂变机制设计",
+    "keywords_snippet": "社交裂变,腾讯元宝,10亿红包,裂变系数,元宝派"
+  },
+  {
+    "module": "15",
+    "date": "2026-05-22",
+    "topic": "付费订阅转化",
+    "title": "豆包分层收费模式与AI产品Freemium运营",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "AI产品从免费到付费的分层定价和转化漏斗设计",
+    "keywords_snippet": "豆包,付费订阅,Freemium,分层收费,价值瓶颈,转化漏斗"
+  },
+  {
+    "module": "15",
+    "date": "2026-05-22",
+    "topic": "下沉市场运营",
+    "title": "AI产品县域58%银发6倍增长密码",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "AI产品下沉市场获客和本地化运营策略",
+    "keywords_snippet": "下沉市场,县域用户,银发群体,社区团长,语音交互"
+  },
+  {
+    "module": "15",
+    "date": "2026-05-22",
+    "topic": "全链路运营增长",
+    "title": "2026年AI APP从获客到留存的7大数据密码",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "AI产品全生命周期运营方法论和关键指标",
+    "keywords_snippet": "全链路运营,获客-激活-留存-变现,D30留存率,CAC,LTV,推理成本"
   }
 ]
