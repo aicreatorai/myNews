@@ -1025,32 +1025,49 @@ body.stealth-mode .main-content {
     font-weight: 600;
 }
 
-/* 卡片内表格样式 */
-.card-body table {
+/* 卡片内表格样式 — 可滚动容器 */
+.card-body .table-wrap {
+    width: 100%;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    margin: 12px 0;
+    border-radius: 6px;
+}
+.card-body .table-wrap table {
     width: 100%;
     border-collapse: collapse;
-    margin: 12px 0;
     font-size: 0.92rem;
-    overflow-x: auto;
-    display: block;
+    min-width: 400px; /* 窄屏时触发滚动，避免单元格被挤扁 */
 }
-.card-body th,
-.card-body td {
+.card-body .table-wrap th,
+.card-body .table-wrap td {
     border: 1px solid var(--color-border);
     padding: 8px 12px;
     text-align: left;
     vertical-align: top;
 }
-.card-body th {
+.card-body .table-wrap th {
     background: var(--color-table-hdr);
     font-weight: 600;
     white-space: nowrap;
 }
-.card-body tr:nth-child(even) td {
+.card-body .table-wrap tr:nth-child(even) td {
     background: rgba(0,0,0,0.02);
 }
-[data-theme="dark"] .card-body tr:nth-child(even) td {
+[data-theme="dark"] .card-body .table-wrap tr:nth-child(even) td {
     background: rgba(255,255,255,0.03);
+}
+/* 手机端滑动提示：右侧渐变遮罩暗示可滚动 */
+@media (hover: none) and (pointer: coarse) {
+    .card-body .table-wrap {
+        background: 
+            linear-gradient(to right, transparent 96%, var(--color-bg) 100%),
+            linear-gradient(to left, transparent 96%, var(--color-bg) 100%);
+        background-attachment: local, local;
+        background-size: 40px 100%, 40px 100%;
+        background-repeat: no-repeat;
+        background-position: right center, left center;
+    }
 }
 
 /* 新闻条目特殊样式 */
@@ -1336,21 +1353,16 @@ body.stealth-mode .main-content {
         font-size: 0.9rem;
     }
 
-    .card-body table {
-        width: 100%;
-        border-collapse: collapse;
-        margin: 10px 0;
-        font-size: 0.92rem;
-        overflow-x: auto;
-        display: block;
+    .card-body .table-wrap {
+        margin: 8px 0;
     }
-
-    .card-body th,
-    .card-body td {
-        border: 1px solid var(--color-border);
+    .card-body .table-wrap table {
+        font-size: 0.88rem;
+        min-width: 350px;
+    }
+    .card-body .table-wrap th,
+    .card-body .table-wrap td {
         padding: 5px 7px;
-        text-align: left;
-        vertical-align: top;
         white-space: normal;
     }
 

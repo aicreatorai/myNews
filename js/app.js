@@ -631,6 +631,7 @@
         html = html.replace(/^\d+\.\s+(.*)$/gm, '<li>$1</li>');
 
         // 表格 — 完整支持：识别markdown表格块，区分表头/数据行，生成标准<table>结构
+        // 包裹在可滚动容器中，手机端可左右滑动
         // 匹配连续的表格行（以 | 开头和结尾），中间包含分隔行（|---|）
         html = html.replace(/(^\|.+\|\s*\n)(^\|[-| :]+\|\s*\n)((\|.+\|\s*\n)*)/gm, (match, headerLine, sepLine, bodyLines) => {
             const parseRow = (line, isHeader) => {
@@ -640,7 +641,8 @@
             };
             const thead = parseRow(headerLine, true);
             const tbody = bodyLines.trim() ? bodyLines.trim().split('\n').map(l => parseRow(l, false)).join('') : '';
-            return `<table><thead>${thead}</thead>${tbody ? '<tbody>' + tbody + '</tbody>' : ''}</table>`;
+            const table = `<table><thead>${thead}</thead>${tbody ? '<tbody>' + tbody + '</tbody>' : ''}</table>`;
+            return `<div class="table-wrap">${table}</div>`;
         });
         // 兜底：无分隔行的单行表格（简单数据展示）
         html = html.replace(/(^\|.+\|\s*\n)+/gm, (match) => {
@@ -648,16 +650,16 @@
                 const cells = l.split('|').filter(c => c.trim());
                 return '<tr><td>' + cells.map(c => c.trim()).join('</td><td>') + '</td></tr>';
             }).join('');
-            return `<table>${rows}</table>`;
+            return `<div class="table-wrap"><table>${rows}</table></div>`;
         });
 
         // 段落 (双换行)
         html = html.replace(/\n\n/g, '</p><p>');
         html = '<p>' + html + '</p>';
 
-        // 清理嵌套标签（表格标签也需要解包）
-        html = html.replace(/<p>\s*<(ul|ol|li|h[1-5]|hr|pre|blockquote|table|thead|tbody|tr|th|td)/g, '<$1');
-        html = html.replace(/<\/(ul|ol|li|h[1-5]|hr|pre|blockquote|table|thead|tbody|tr|th|td)>\s*<\/p>/g, '</$1>');
+        // 清理嵌套标签（表格/容器标签也需要解包）
+        html = html.replace(/<p>\s*<(div|ul|ol|li|h[1-5]|hr|pre|blockquote|table|thead|tbody|tr|th|td)/g, '<$1');
+        html = html.replace(/<\/(div|ul|ol|li|h[1-5]|hr|pre|blockquote|table|thead|tbody|tr|th|td)>\s*<\/p>/g, '</$1>');
         html = html.replace(/<p>\s*<\/p>/g, '');
         html = html.replace(/<li><\/li>/g, '');
 
