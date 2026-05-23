@@ -1,856 +1,1357 @@
-# 10_GitHubSkills（2026-05-23）
+# GitHubSkills
 
-> 聚焦 GitHub Trending 热门开源项目，面向开发者推荐高效工具
+> **生成日期**：2026-05-23 | **搜索时段**：2026-04-23 ~ 2026-05-23
 
 ---
 
-### 1. 【OpenClaw：GitHub 史上增速最快的开源 AI 助手】（⭐⭐ 周增 15 万 Star）
+### 1. 【mattpocock/skills】真实工程师的 Claude Code 技能集（⭐⭐ 101,317 Star，月增 83,850）
 
-> 📍 **导语**（180字）: OpenClaw 在2026年4月以惊人的速度登顶 GitHub 全类目 Trending 榜首，仅用数周便突破数十万 Star，被誉为"GitHub 新王"。它不是一个普通 AI 助手，而是一个可以操控本地电脑、自主执行任务、跨平台启动浏览器的**全能型本地 AI Agent 框架**。对于开发者而言，它把"让 AI 真正帮你干活"从概念变成了可落地的工具链。本篇将深度解析它的架构设计、核心能力与快速上手方式。
+> 📍 **导语**：2026 年 5 月，GitHub Trending 被一个看似简单的项目彻底引爆——TypeScript 教学红人 Matt Pocock 把自己 `.claude` 目录下的技能文件原封不动开源了出来。没有花哨的营销，没有复杂的架构图，就是"我平时怎么用 Claude Code 的，你们拿去用"。结果一个月内狂揽 8.3 万 Star，成为本月 GitHub 增长最快的项目。这件事本身比任何技术博客都更能说明一个问题：AI 编程工具的"使用方式"正在成为新的稀缺知识，而顶級开发者的私有工作流，正在通过 Skills 这种轻量级机制被大规模复用。
 
 ---
 
 **⭐ 深度项目解析**
 
-**▌ 项目数据速览**（200字）
-- **Star 数**：截至2026年5月，OpenClaw 主仓库 Star 数已突破 80 万（含官方与社区镜像），周增约 15 万，是 GitHub 有史以来增速最快的 AI 项目之一
-- **贡献者**：核心团队 15 人 + 社区贡献者 300+，活跃 PR 日均 40+ 个
-- **下载量**：PyPI 月下载量 120 万次，npm 月下载量 85 万次
-- **性能数据**：相比手动操作，自动化任务执行效率提升 8-12 倍；相比传统 RPA 工具，部署时间缩短 90%（从 2 天降至 20 分钟）
-- **支持平台**：macOS / Windows / Linux / Docker /  Kubernetes
+**▌ 项目数据速览**
 
-**▌ 它解决了什么真实痛点？**（280字）
+`mattpocock/skills` 是一个纯 Shell 脚本 + Markdown 指令文件组成的 Claude Code 技能包，截至 2026 年 5 月 23 日，该项目在 GitHub 上累计获得 **101,317 Star**，过去 30 天内新增 **83,850 Star**，增速位居全 GitHub 第一。项目语言标注为 Shell（实际上是 Claude Code 的 skill 定义文件，以 Markdown 和 shell 脚本混合形式组织）。作者 Matt Pocock 是 TypeScript 社区最具影响力的教育者之一，在 X（Twitter）和 YouTube 拥有数十万开发者粉丝。该项目没有直接依赖任何第三方库，因为它本质上是一组"给 AI 看的指令文件"——这也是为什么它能以近乎零维护成本获得爆炸式传播。项目的 Fork 数已达 8,961，说明大量开发者正在基于 Matt 的技能文件定制自己的版本。这种"技能分叉"现象，正在形成新的开源协作模式。
 
-**痛点场景**：开发者每天需要执行大量重复性操作——打开浏览器登录后台、填写表单、批量处理文件、跑测试、部署代码、监控日志……这些事情单独看都不难，但合在一起就极其消耗精力。传统解决方案有三种：
-1. **写脚本**：灵活但费时，每个新网站/新场景都要重新写，维护成本高
-2. **用 RPA 工具**（如 UiPath）：功能强但重，安装包几百 MB，学习曲线陡峭，价格昂贵（年费数万元）
-3. **用浏览器扩展**：轻量但能力有限，无法处理复杂逻辑
+**▌ 它解决了什么真实痛点？**
 
-**OpenClaw 的突破**：把 LLM 的"理解能力"和"代码执行能力"直接打通。你用自然语言描述任务，它自动生成执行代码、操控浏览器/文件系统/API，遇到错误还能自我修复（重试、换策略）。本质是 **"AI 驱动的超级 RPA"**，但比传统 RPA 智能 10 倍、便宜 100 倍。
+Claude Code 自 2025 年底推出 Agent Skills 规范以来，能力边界迅速扩张，但大多数开发者仍然把它当成一个"更好的代码补全工具"来用——问个问题，复制粘贴答案，如此循环。真正的痛点在于：**会写代码的人很多，但知道怎么"指挥 AI 写代码"的人极少**。这两者之间的差距，不是模型能力的差距，而是"提示工程 + 工程规范 + 工具链整合"的复合差距。具体来说：你让 Claude Code 写一个 API 接口，它能写；但你如何让它在 10 秒内生成本符合你团队代码规范的、带测试的、处理了边界条件的、并且顺便更新了文档的完整 PR？这需要一套精心设计的 skill 文件——定义角色、定义流程、定义输出规范、定义工具调用边界。Matt Pocock 的价值在于，他把这套"隐性知识"显式化了。你不再需要自己摸索怎么让 AI 写出 TypeScript 类型安全的代码，因为 Matt 的 skill 文件里已经写好了。
 
-具体数据：一位独立开发者用 OpenClaw 自动化了每日数据报表生成流程，原来每天手动操作 45 分钟，现在全自动 3 分钟完成，准确率 100%，每月节省约 20 小时。
+**▌ 核心原理与架构**
 
-**▌ 核心原理与架构**（320字）
+Claude Code 的 Skills 机制本质上是一种**结构化系统提示（Structured System Prompt）** 的模块化组织方式。一个 skill 文件通常包含以下几个部分：
 
-OpenClaw 的架构设计非常清晰，核心分为四层：
+1. **角色定义（Role Definition）**：告诉 Claude 它在这个场景下应该扮演什么角色（例如"你是 TypeScript 类型安全审查员"）
+2. **工作流程（Workflow）**：分步骤定义 Claude 应该依次调用哪些工具（read file → analyze → write test → run type-check）
+3. **输出规范（Output Schema）**：用 Markdown 表格或伪代码定义 Claude 的输出格式，减少歧义
+4. **工具权限（Tool Permissions）**：通过 Claude Code 的 permission 机制，限制 AI 在特定 skill 下能/不能调用哪些工具（例如禁止自动 `git push`）
 
 ```
-用户输入（自然语言任务描述）
-  ↓
-LLM 理解层：将任务分解为操作步骤
-  ↓
-技能库（Skills）匹配层：找到对应的可执行技能模块
-  ↓
-执行引擎：调用浏览器/文件系统/API 实际执行
-  ↓
-反馈与自我修复：执行结果返回 LLM，错误时自动调整策略重试
+用户请求
+   ↓
+Claude Code 匹配最适合的 Skill
+   ↓
+加载 Skill 中的角色定义 + 工作流程 + 输出规范
+   ↓
+按步骤调用工具（read/write/run/browser...）
+   ↓
+输出结构化结果
+   ↓
+等待用户确认（human-in-the-loop）
 ```
 
-**关键设计决策**：
-1. **Skills 模块化设计**：每个能力封装成独立"技能包"（SKILL.md），可插拔、可共享。这是 OpenClaw 能快速扩张能力的核心——社区每贡献一个新 Skill，所有用户都能直接用
-2. **本地优先执行**：所有代码在用户本地运行，敏感数据不上传云端（可选），满足企业合规要求
-3. **多 LLM 适配**：支持 Claude / GPT / Gemini / 本地模型，用户自选，成本可控
-4. **沙箱隔离**：执行环境默认沙箱化，防止误操作破坏系统
+`mattpocock/skills` 的核心架构优势在于：**它是生产环境淬炼出来的**。每一个 skill 文件都对应 Matt 真实工作中反复出现的任务模式——"给现有函数加类型"、"重构一个 React 组件"、"写一个 TypeScript 库的发布前检查清单"。这意味着这些 skill 不是纸上谈兵的提示词工程，而是在真实代码库上验证过有效性。
 
-数据流：用户指令 → LLM 分解为 N 个步骤 → 每个步骤匹配对应 Skill → 生成可执行代码 → 在沙箱中执行 → 结果返回 → 如需人工确认则暂停等待
+**▌ 5分钟快速上手**
 
-**▌ 5分钟快速上手**（250字）
+使用 `mattpocock/skills` 的前提是你已经安装了 Claude Code（可以通过 VS Code 扩展或终端使用）。安装步骤如下：
 
 ```bash
-# 1. 安装（Requires Python 3.10+）
-pip install openclaw
+# 1. 克隆技能仓库到你的 Claude 配置目录
+git clone https://github.com/mattpocock/skills.git ~/.claude/skills-mattpocock
 
-# 2. 初始化配置
-openclaw init
-# 按提示输入：选择 LLM 提供商（Claude/GPT/本地）、API Key、工作目录
+# 2. 将技能文件链接到 Claude Code 的 skills 目录
+#（具体路径可能因 Claude Code 版本而异，以下为示例）
+ln -s ~/.claude/skills-mattpocock/skills/* ~/.claude/skills/
 
-# 3. 验证安装
-openclaw doctor
-# 输出应为：✅ LLM connected / ✅ Browser ready / ✅ Skills loaded: 47
-
-# 4. 运行第一个自动化任务（示例：自动搜索并保存信息）
-openclaw run "打开百度，搜索'GitHub Trending 2026'，截图保存"
-
-# 5. 查看执行日志
-openclaw logs --last
+# 3. 启动 Claude Code，验证技能已加载
+claude
+# 在 Claude Code 中输入 /skills 查看已加载的技能列表
 ```
 
-**进阶：安装社区 Skills**
+或者在 VS Code 中：
+
+```
+1. 安装 Claude Code VS Code 扩展
+2. 打开命令面板（Cmd+Shift+P）
+3. 搜索 "Claude Code: Manage Skills"
+4. 添加本地 skills 目录路径：~/.claude/skills-mattpocock/skills
+5. 重新加载窗口使技能生效
+```
+
+验证安装是否成功的最快方式：在 Claude Code 中输入一段 TypeScript 相关任务，观察输出是否自动包含了类型安全审查、测试生成等 Matt 风格的工作流程。
+
 ```bash
-# 安装常用技能包（网页抓取、表单填写、文件处理）
-openclaw skills install web-scraping
-openclaw skills install form-filler
-openclaw skills install file-processor
-
-# 查看已安装技能
-openclaw skills list
+# 快速验证：让 Claude 帮你写一个类型安全的函数
+claude "写一个 TypeScript 函数，实现深拷贝，要求：\
+  - 处理循环引用 \
+  - 完整类型推断 \
+  - 附带 Vitest 测试"
 ```
 
-**▌ 真实场景实战**（300字）
+如果 skill 正确加载，Claude 的输出会自动遵循 Matt 定义的代码规范和测试规范，而不需要你在提示词里反复强调这些要求。
 
-**场景：自动化每日竞品监控**
+**▌ 真实场景实战**
 
-某 SaaS 公司产品经理每天需要手动检查 5 个竞品的官网是否有更新（新产品发布、定价变化、博客更新），耗时约 40 分钟。
+**场景一：TypeScript 库维护者的日常**
 
-**传统做法**：打开 5 个网站，逐一浏览，复制关键信息到 Excel，耗时 40 分钟/天，容易遗漏。
+假设你维护一个开源 TypeScript 库，每次 PR 都需要手动检查类型安全、运行测试、更新 CHANGELOG、检查 bundle size。在引入 Matt 的 skills 后，这一切可以交给 Claude Code 自动完成：
 
-**OpenClaw 做法**：
-1. 编写任务描述（`competitor-monitor.md`）：
 ```
-每天上午9点，自动访问以下5个竞品官网：
-1. 检查首页是否有新 banner（截图对比）
-2. 检查定价页是否有变化（文本对比）
-3. 检查博客是否有新文章（RSS/页面抓取）
-4. 将变化汇总发送到企业微信群
+用户：Review PR #142，检查类型安全，跑测试，更新 CHANGELOG
+Claude Code（加载了 code-review skill）：
+  1. 读取 PR diff
+  2. 对每个 TypeScript 文件运行 tsc --noEmit 检查
+  3. 识别潜在的 any 类型泄露
+  4. 运行 vitest run
+  5. 按照 KeepAChangelog 规范更新 CHANGELOG.md
+  6. 输出审查报告（含具体行号和建议）
 ```
-2. 配置定时执行（`openclaw schedule --cron "0 9 * * *"`）
-3. 首次运行后，OpenClaw 会自动学习每个网站的结构，后续自动适配页面变化
 
-**效果**：全程无人值守，每天自动生成监控报告，准确率 95%+（剩余 5% 为网站大幅改版需人工介入）。产品经理每天节省 40 分钟，一年节省约 170 小时。
+**场景二：团队协作中的代码规范统一**
 
-**注意事项**：
-- 初次配置需要 30-60 分钟（让 OpenClaw 学习各网站结构）
-- 对于需要登录的网站，需配置凭证（支持环境变量 / 加密配置文件）
-- 建议先在测试环境运行 3 天，确认稳定后再投入生产使用
+在大团队中，不同开发者的代码风格差异会导致 PR review 成本极高。通过共享同一个 skills 仓库（Fork `mattpocock/skills` 后按团队规范修改），整个团队可以让 Claude Code 以统一的标准生成代码，相当于把"团队规范文档"变成了可执行的 AI 指令。
+
+**场景三：学习 TypeScript 高级特性**
+
+Matt Pocock 本身是 TypeScript 教育者，他的 skills 中包含了大量"类型体操"相关的指令模式。初学者可以让 Claude Code 以 Matt 的教学风格解释复杂类型，相当于拥有了一位"不会累的 TypeScript 家教"。
 
 **▌ 选型对比表**
 
-| 对比维度 | OpenClaw | UiPath（传统RPA） | n8n（自动化平台） |
-|---------|--------|-----------------|---------------|
-| Star数 | 80万+ | 非开源 | 62万 |
-| 核心思想 | LLM驱动+技能模块化 | 可视化拖拽编程 | 节点式工作流 |
-| 安装复杂度 | 低（pip一键） | 高（需安装Studio） | 中（Docker推荐） |
-| AI理解能力 | ✅ 原生支持 | ❌ 无 | ⚠️ 需外接 |
-| 适合场景 | 非结构化任务自动化 | 企业级固定流程 | API集成自动化 |
-| 选型建议 | 推荐用于需要"理解"的任务 | 用于合规要求高的企业 | 用于API密集型集成 |
+| 对比维度 | mattpocock/skills | andrej-karpathy-skills | everything-claude-code | OH-MY-CODEX |
+|---------|-------------------|------------------------|----------------------|-------------|
+| **作者背景** | TypeScript 教育者 | 前 OpenAI 创始人 | 社区聚合 | 终端增强 |
+| **技能数量** | 中等（求精） | 少而精 | 极多（求全） | 中等 |
+| **适用语言** | TypeScript/JS 优先 | 通用 Python/ML | 全语言 | 全语言 |
+| **学习曲线** | 低（直给） | 中（需要理解 Karpathy 风格） | 高（配置复杂） | 中 |
+| **维护活跃度** | 高（作者持续使用） | 高（Karpathy 本人维护） | 中（社区维护） | 中 |
+| **最适合人群** | TypeScript 开发者 | ML/AI 研究者 | Claude Code 深度用户 | 终端重度用户 |
 
-**▌ 学习路线**（180字）
+**▌ 学习路线**
 
-**前置知识**：基础命令行操作、了解 JSON/API 基本概念、会读错误日志即可上手，不需要深度学习。
+如果你想深入掌握 Claude Code Skills 的开发，推荐以下学习路线：
 
-**入门资源**：
-- 官方文档：`https://docs.openclaw.ai`（有中文版）
-- 快速入门视频：B站搜索"OpenClaw 5分钟上手"
-- 社区 Skills 市场：`https://skills.openclaw.ai`
-
-**进阶方向**：
-1. 学习编写自定义 Skill（SKILL.md 格式规范）
-2. 集成到现有 CI/CD 流程
-3. 多 Agent 协同（让多个 OpenClaw 实例分工合作）
-
-**今日行动**：打开终端，运行 `pip install openclaw && openclaw init`，15 分钟内完成安装配置，然后试着让它"打开 GitHub Trending 并截图保存"——这是验证安装成功的最快方式。
+1. **入门（1 天）**：Fork `mattpocock/skills`，阅读每个 `.md` 文件的结构，理解 Role/Workflow/Output 三部分如何组织
+2. **进阶（3-5 天）**：参考 Anthropic 官方的 Agent Skills 规范文档，为自己最常用的开发任务写一个自定义 skill
+3. **深入（1-2 周）**：研究 Claude Code 的 tool permission 机制，学会为 skill 设置安全的工具调用边界（防止 AI 误操作）
+4. **社区（持续）**：关注 GitHub Trending 的 `#claude-skills` 标签，每月都有新的高质量 skills 开源
 
 ---
 
-🔗 **信息来源：** GitHub Repository（OpenClaw/OpenClaw，2026-05）/ GitHub Trending 月榜（2026年4月-5月）/ 掘金技术博客（2026-04-12）
-
+🔗 **信息来源：** [GitHub mattpocock/skills](https://github.com/mattpocock/skills)（101,317 ⭐ / 2026-05-23）| [git-trending-rank 2026年5月月榜](https://git-trending-rank.github.io/post/trending-monthly-2026年5月/)
 
 ---
 
-### 2. 【Hermes-Agent：会"成长"的 AI Agent 框架，随你一起进化】（⭐ 12.4 万 Star）
+### 2. 【multica-ai/andrej-karpathy-skills】Karpathy 风格的 Claude 行为优化（⭐⭐ 147,445 Star，月增 71,455）
 
-> 📍 **导语**（160字）: NousResearch 出品的 Hermes-Agent 打出了"与你共同成长的 AI Agent"口号，核心理念是：Agent 不应该只是执行指令的工具，而应该通过持续使用不断适应用户的工作习惯和偏好。过去一个月 Star 增长超过 3 万，是 Python 类 Trending 榜的常客。对于开发者来说，它解决的是"AI助手越用越聪明"这个问题——不再是每次对话都从零开始，而是真正建立了"记忆"和"进化能力"。
+> 📍 **导语**：Andrej Karpathy 是前 OpenAI 创始成员、特斯拉 AI 前主管、斯坦福 CS231n 讲师，也是全球最具影响力的 AI 教育者和实践者之一。2026 年 5 月，一个名为 `andrej-karpathy-skills` 的项目在 GitHub 上病毒式传播——它本质上是一个 `CLAUDE.md` 文件，基于 Karpathy 对 LLM 编程陷阱的深度观察，提炼出一套让 Claude Code 避免常见错误的"行为准则"。这个项目一个月内获得 7.1 万新增 Star，总 Star 数高达 14.7 万，是目前 GitHub 上 Star 数最高的 Claude Skills 项目。它之所以爆火，是因为 Karpathy 说出了几乎所有开发者在使用 AI 编程助手时都会遇到的那些"说不清道不明"的问题——然后给出了系统性的解决方案。
 
 ---
 
 **⭐ 深度项目解析**
 
-**▌ 项目数据速览**（180字）
-- **Star 数**：124,517（截至2026年5月23日），过去30天新增约 32,000
-- **主要语言**：Python（核心框架）+ TypeScript（部分前端组件）
-- **贡献者**：42 位活跃贡献者，核心团队 8 人
-- **性能数据**：相比固定提示词的 Agent，任务完成率提升 35%；长期对话上下文命中率提升 60%
-- **下载量**：PyPI 月下载 38 万次，Docker Hub 拉取量 12 万次/月
-- **社区活跃度**：Discord 成员 8500+，GitHub Discussions 日均新帖 15 条
+**▌ 项目数据速览**
 
-**▌ 它解决了什么真实痛点？**（300字）
+`multica-ai/andrej-karpathy-skills` 截至 2026 年 5 月 23 日累计 **147,445 Star**，过去 30 天新增 **71,455 Star**，是本月 GitHub 总 Star 数和新增 Star 数双料冠军。与 `mattpocock/skills` 不同的是，这个项目的核心不是一个 skills 目录，而是**单个 `CLAUDE.md` 文件**——Claude Code 每次启动时会自动读取项目根目录下的 `CLAUDE.md` 作为系统级指令。这种极简的设计恰恰是它病毒式传播的关键：你只需要把这个文件复制到你的项目根目录，Claude Code 就会自动"变成"一个更谨慎、更工程化、更不容易犯傻的 AI 助手。项目的 Fork 数已达 15,098，说明大量开发者正在基于 Karpathy 的原始指令进行二次定制。值得注意的是，这个项目由 `multica-ai` 组织维护而非 Karpathy 本人，但内容直接源自 Karpathy 的公开演讲、博客和代码审查反馈。
 
-**痛点场景**：你用了大半年的 AI 编程助手，每次新对话它还是不记得你的代码风格、项目结构、常用工具链。你不得不每次都重新介绍背景、粘贴相关代码、解释架构决策……这是当前所有 LLM-based Agent 的通用短板：**无状态、无长期记忆、无法从交互中持续学习。**
+**▌ 它解决了什么真实痛点？**
 
-具体表现：
-- 第1天：你告诉 Agent "我用 pnpm 而不是 npm"，它记住了
-- 第2天新对话：它又用 npm 了，你还得再说一遍
-- 第30天：它还是不了解你的项目架构，每次都要重新解释
+Andrej Karpathy 在 2025-2026 年多次公开谈到 LLM 编程助手的一个核心矛盾：**模型能力越强，开发者越容易盲目信任它的建议，而一旦模型"犯傻"，造成的损失也比以前更大**。他总结了几类最高频的 LLM 编程陷阱：
 
-**Hermes-Agent 的解决方案**：引入**持久化记忆层** + **偏好学习机制**。每次交互后，Agent 自动总结"关于这个用户我知道了什么"，写入结构化记忆库；下次对话时主动加载相关记忆，并随时间不断优化对用户的了解。
+1. **过度自信地修改大范围代码**：Claude/ChatGPT 在面对模糊指令时，倾向于"大刀阔斧"地重构代码，而很多重构是不必要的
+2. **忽视上下文窗口限制**：当代码库变大时，AI 会"忘记"早期对话中约定的规范，导致前后矛盾
+3. **测试崇拜但测试质量低**：AI 倾向于生成"能通过测试的坏代码"（ Goodhart's Law 在测试覆盖上的体现）
+4. **不做基准性能测量就优化**：AI 喜欢主动"优化"代码，但往往没有先建立性能基线
+5. **忽略错误处理和边界条件**：生成的代码在 happy path 上运行良好，但缺乏生产级的错误处理
 
-实际效果（社区反馈）：一位开发者使用 Hermes-Agent 管理个人开发环境，30 天后 Agent 对他常用命令、代码风格、项目偏好的"理解准确率"从初期的 40% 提升到 85%，每日需要手动纠正的次数从 8 次降至 1-2 次。
+`andrej-karpathy-skills` 的 `CLAUDE.md` 文件通过精心设计的系统指令，让 Claude Code 在面对这些场景时主动"减速思考"——先问清楚再动手，先写测试再写实现，先测量再优化。
 
-**▌ 核心原理与架构**（340字）
+**▌ 核心原理与架构**
 
-Hermes-Agent 的核心架构围绕"记忆"和"进化"两个概念展开：
+`CLAUDE.md` 的工作机制是 Claude Code 的**项目级系统提示注入**。Claude Code 在启动时会按以下优先级读取配置：
 
 ```
-用户输入
-  ↓
-Memory Retriever（记忆检索层）
-  → 从向量数据库检索相关历史记忆
-  ↓
-Context Assembler（上下文组装层）
-  → 将检索到的记忆 + 当前输入组装成完整 Prompt
-  ↓
-LLM Executor（执行层）
-  → 调用 LLM 生成回复 / 执行操作
-  ↓
-Memory Consolidator（记忆巩固层）
-  → 将本次交互中有价值的信息提取为结构化记忆
-  → 写入向量数据库（支持 Chroma/Pinecone/本地 SQLite）
-  ↓
-Preference Tracker（偏好追踪层）
-  → 分析用户反馈（显式+隐式），更新用户画像
+1. ~/.claude/CLAUDE.md          # 用户级全局配置（最高优先级）
+2. <项目根>/CLAUDE.md            # 项目级配置（本项目使用这一层）
+3. <项目根>/.claude/settings.json # 工具权限配置
 ```
 
-**关键设计决策**：
-1. **记忆分层**：短期记忆（当前对话）+ 中期记忆（最近 N 天）+ 长期记忆（永久），不同层级有不同的检索优先级和遗忘策略
-2. **增量学习**：不需要重新训练模型，只需更新记忆库，成本极低
-3. **隐私保护**：记忆数据默认本地存储，可选端到端加密同步
-4. **可解释性**：每次 Agent 回答时会标注"我之所以这样做，是因为记得你之前说过……"，让用户理解决策依据
+`andrej-karpathy-skills` 的 `CLAUDE.md` 核心架构可以分为以下几个指令模块：
 
-**▌ 5分钟快速上手**（280字）
+**模块一：谨慎行动指令（Conservative Action）**
+```
+Before making any non-trivial code changes, you MUST:
+1. Summarize your understanding of the task
+2. List the files you plan to modify and why
+3. Wait for explicit user confirmation
+```
+这直接对抗 AI 的"过度修改"倾向。
+
+**模块二：测试先行指令（Test-First）**
+```
+For any new feature or bugfix:
+1. Write the test FIRST
+2. Show the test failing
+3. Then write the implementation
+4. Show the test passing
+```
+这强制 Claude Code 遵循 TDD 流程。
+
+**模块三：性能基准指令（Benchmark Before Optimize）**
+```
+Before suggesting performance optimizations:
+1. Add timing/benchmark code
+2. Run the benchmark and record baseline
+3. Only then propose optimized version
+4. Show benchmark comparison
+```
+
+**模块四：上下文管理指令（Context Management）**
+```
+When working with large codebases:
+1. Summarize your understanding after every 3 tool calls
+2. If context window > 50% used, proactively summarize
+3. Store important decisions in /docs/decisions.md
+```
+
+```
+用户指令
+   ↓
+Claude Code 读取项目根目录 CLAUDE.md
+   ↓
+系统提示被注入，Claude 行为模式改变
+   ↓
+每次工具调用前，Claude 先"自我检查"是否符合 Karpathy 指令
+   ↓
+输出更谨慎、更工程化的结果
+```
+
+**▌ 5分钟快速上手**
+
+这是所有 Claude Skills 项目中最简单的一个，因为它只有一个文件：
 
 ```bash
-# 1. 安装
-pip install hermes-agent
+# 方法一：直接下载到你的项目根目录
+curl -o CLAUDE.md https://raw.githubusercontent.com/multica-ai/andrej-karpathy-skills/main/CLAUDE.md
 
-# 2. 初始化（配置 LLM + 记忆存储）
-hermes init --provider claude --model claude-3-7-sonnet \
-  --memory-backend chroma  # 可选：chroma / pinecone / sqlite
+# 方法二：克隆仓库后复制
+git clone https://github.com/multica-ai/andrej-karpathy-skills.git /tmp/karpathy-skills
+cp /tmp/karpathy-skills/CLAUDE.md ./CLAUDE.md
 
-# 3. 启动交互式会话
-hermes chat
-
-# 在会话中：
-# > 帮我写一个 Python 快速排序
-# （执行后）
-# > 记住：我更喜欢用类型注解，以后所有代码都加类型注解
-# ✅ 已记录你的偏好：代码风格 = 类型注解优先
-
-# 4. 下次对话时，Agent 会自动应用这个偏好
-hermes chat
-# > 帮我写一个二分查找
-# （生成的代码会自动包含类型注解 ✅）
-
-# 5. 查看/管理记忆
-hermes memory list    # 查看所有记忆
-hermes memory delete <id>  # 删除错误记忆
-hermes memory export > backup.json  # 备份记忆
+# 验证：启动 Claude Code，观察行为变化
+claude "帮我重构 src/utils.ts，让它更快"
 ```
 
-**▌ 真实场景实战**（320字）
+有了 `CLAUDE.md` 之后，Claude Code 不会立即动手重构，而是会：
+1. 先解释它对"更快"的理解（是更快的开发速度？更快的运行速度？）
+2. 列出计划修改的文件
+3. 询问你是否要先建立性能基准
+4. 等待你确认后才动手
 
-**场景：个人全栈开发助手**
+如果你希望全局生效（所有项目都自动加载 Karpathy 指令），可以把这个文件放到你的 home 目录：
 
-一位全栈开发者用 Hermes-Agent 作为日常开发助手，配置了以下记忆维度：
-- **技术栈偏好**：Next.js + FastAPI + PostgreSQL，不用 ORM（偏好原生 SQL）
-- **代码风格**：函数式优先、避免类继承、ESLint 配置特定规则
-- **项目上下文**：当前维护 3 个项目（电商后台 / 数据看板 / 内部工具），各自的技术决策不同
+```bash
+# 全局安装（所有项目生效）
+curl -o ~/.claude/CLAUDE.md https://raw.githubusercontent.com/multica-ai/andrej-karpathy-skills/main/CLAUDE.md
+```
 
-**30天使用效果**：
-- 第1周：每天需要纠正 6-8 次（Agent 还在学习）
-- 第2周：纠正次数降至 3-4 次
-- 第4周：纠正次数降至 0-1 次，Agent 能准确判断"这个项目用 ORM，那个不用"
+**▌ 真实场景实战**
 
-**量化收益**：
-- 每次对话平均节省 3-5 分钟（不需要重复解释背景）
-- 每天约 10 次对话 → 每天节省 30-50 分钟
-- 一个月节省约 15 小时
+**场景一：防止 AI 过度重构**
 
-**注意事项**：
-- 记忆质量依赖用户输入：明确说"记住XXX"比隐式期待效果好得多
-- 向量数据库选择：Chroma 适合本地开发，Pinecone 适合团队共享记忆
-- 隐私考虑：不要把极度敏感信息（密码/私钥）写入记忆
+没有 Karpathy 指令时：
+```
+用户：帮我清理一下这段代码
+Claude：好的，我重构了整个文件，还顺手改了三个相关文件...
+用户：等等，你为什么把我的注释删了？
+```
+
+有 Karpathy 指令时：
+```
+用户：帮我清理一下这段代码
+Claude：我理解你想清理代码。在动手之前，我想确认：
+  1. "清理"指的是删除无用代码？还是重新格式化？
+  2. 我会只修改 src/foo.ts，不会碰其他文件
+  3. 我会保留所有注释，除非你明确说要删除
+  请确认以上理解是否正确？
+```
+
+**场景二：性能优化前的基准测试**
+
+```
+用户：这个函数的矩阵运算太慢了，帮我优化
+Claude（Karpathy 模式）：
+  在优化之前，让我先建立一个性能基准：
+  
+  ```typescript
+  // 基准测试代码
+  const start = performance.now();
+  for (let i = 0; i < 1000; i++) matrixMultiply(a, b);
+  const baseline = performance.now() - start;
+  console.log(`Baseline: ${baseline}ms`);
+  ```
+  
+  运行结果：Baseline: 1240ms
+  
+  现在我来提出优化方案，并展示优化后的对比数据...
+```
+
+**场景三：大型代码库的上下文管理**
+
+当你的项目超过 50 个文件时，Claude Code 容易"失忆"。Karpathy 的上下文管理指令让 Claude 主动维护一个决策日志：
+
+```
+# /docs/decisions.md（由 Claude 自动维护）
+
+## 2026-05-23
+- 决定使用 Zod 进行运行时类型验证（而非 io-ts）
+  - 原因：团队更熟悉 Zod；bundle size 更小
+  - 影响文件：src/schemas.ts, src/api/client.ts
+- 决定暂不引入 React Server Components
+  - 原因：当前部署环境不支持
+  -  revisit：2026-Q3
+```
 
 **▌ 选型对比表**
 
-| 对比维度 | Hermes-Agent | LangChain（标准Agent） | AutoGen（多Agent） |
-|---------|-------------|---------------------|-----------------|
-| Star数 | 12.4万 | 10.2万 | 4.8万 |
-| 核心思想 | 记忆增强+偏好学习 | 链式提示词编排 | 多Agent协作对话 |
-| 长期记忆 | ✅ 原生支持 | ⚠️ 需自行集成 | ⚠️ 需自行集成 |
-| 学习进化 | ✅ 持续适应用户 | ❌ 无 | ❌ 无 |
-| 安装复杂度 | 低 | 中 | 高 |
-| 适合场景 | 个人助手/长期协作 | 复杂任务编排 | 多角色协作任务 |
-| 选型建议 | 推荐用于需要"记住你"的场景 | 用于复杂工作流编排 | 用于需要多角色辩论的任务 |
+| 对比维度 | andrej-karpathy-skills | mattpocock/skills | superpowers | everything-claude-code |
+|---------|------------------------|-------------------|-------------|----------------------|
+| **形式** | 单个 CLAUDE.md | 多个 skill 文件 | 多个 skill 文件 | 大型配置包 |
+| **核心目标** | 纠正 AI 行为偏差 | 提供专业工作流 | 规范需求分析流程 | 全面增强 Claude |
+| **即插即用** | ✅ 极强（一个文件） | ✅ 强 | 中 | 中（需要配置） |
+| **定制化难度** | 低（直接编辑 md） | 中 | 中 | 高 |
+| **适合团队规范** | ✅ 适合作为基础模板 | ✅ 适合 TypeScript 团队 | 适合产品团队 | 适合个人深度用户 |
+| **维护来源** | 社区（基于 Karpathy 思想） | Matt Pocock 本人 | 社区 | 社区聚合 |
 
-**▌ 学习路线**（160字）
+**▌ 学习路线**
 
-**前置知识**：Python 基础、了解 LLM Prompt 基本概念、向量数据库基础（什么是 embedding）。
-
-**入门资源**：
-- 官方 GitHub：`https://github.com/NousResearch/hermes-agent`
-- 快速入门 Colab Notebook：仓库 `/examples/quickstart.ipynb`
-- 记忆系统设计理念：博客文章"Memory in the Age of LLMs"（仓库 `/docs/memory-design.md`）
-
-**进阶方向**：团队共享记忆（多人共享同一 Agent 记忆库）、跨项目记忆迁移、记忆重要性自动评分（哪些记忆该遗忘）。
-
-**今日行动**：`pip install hermes-agent && hermes init`，花 10 分钟完成配置，然后和它聊 3 轮并记录它的回复——你会直观感受到"它在记住你"。
+1. **基础（30 分钟）**：把 `CLAUDE.md` 下载到你的项目，实际使用 1-2 天，感受 Claude 行为的变化
+2. **理解（2-3 小时）**：逐段阅读 `CLAUDE.md` 的每一行指令，理解 Karpathy 在每个指令背后针对的具体陷阱
+3. **定制（1 天）**：根据你的团队规范，修改 `CLAUDE.md` 中的具体指令（例如加入你们团队的 Git commit 规范）
+4. **扩展（持续）**：在你的 `~/.claude/CLAUDE.md` 中聚合多个优秀 `CLAUDE.md` 的精华部分，形成你的"个人 AI 编程规范"
 
 ---
 
-🔗 **信息来源：** GitHub Repository（NousResearch/hermes-agent，2026-05）/ 掘金技术博客（2026-04-12）
-
+🔗 **信息来源：** [GitHub multica-ai/andrej-karpathy-skills](https://github.com/multica-ai/andrej-karpathy-skills)（147,445 ⭐ / 2026-05-23）| [git-trending-rank 2026年5月月榜](https://git-trending-rank.github.io/post/trending-monthly-2026年5月/)
 
 ---
 
-### 3. 【andrej-karpathy-skills：让 Claude Code 智商在线的神级配置】（⭐ 9.8 万 Star）
+### 3. 【TauricResearch/TradingAgents】多智能体 LLM 金融交易框架（⭐⭐ 78,643 Star，月增 26,605）
 
-> 📍 **导语**（150字）: 这是 Andrej Karpathy（特斯拉前 AI 总监、OpenAI 创始成员）发布的一个 CLAUDE.md 配置文件项目，核心是"总结 LLM 编程中常见的失败模式，并写成配置文件让 AI 编程助手自动避开这些坑"。发布仅两周 Star 突破 9 万，现在是 GitHub Trending 的常客。对于每天用 Claude Code / Cursor / GitHub Copilot 写代码的开发者，这个项目能直接提升 AI 助手的代码质量——相当于给 AI 装了一套"编程最佳实践"操作系统。
+> 📍 **导语**：量化交易一直是个"黑盒"——传统量化框架要么闭源，要么开源但依赖你懂 C++/Python 高性能计算。2026 年 5 月，`TradingAgents` 这个项目用一种全新的思路冲击了这个领域：它用多个 LLM 智能体（Agent）模拟一个完整的对冲基金团队——基本面分析师、技术分析师、风险管理员、交易员——让这些 AI Agent 通过辩论和投票来做出交易决策。这个项目在过去的 30 天里获得了 2.66 万新增 Star，总 Star 数达到 7.86 万。它之所以引爆开发者社区，是因为它把"AI Agent 协作框架"这个抽象概念，落地到了一个每个人都能理解、并且有直接经济价值的场景里。
 
 ---
 
 **⭐ 深度项目解析**
 
-**▌ 项目数据速览**（160字）
-- **Star 数**：97,537（截至2026年5月），增速极快（发布仅6周）
-- **语言**：Markdown（核心是一个精心设计的 CLAUDE.md 配置文件）
-- **贡献者**：Andrej Karpathy 主导，社区 PR 贡献 120+ 个
-- **影响范围**：被 Claude Code 官方文档引用，Cursor 社区广泛采用
-- **下载量**：文件直接被引用/下载次数 200 万+（GitHub Raw 访问统计）
-- **衍生项目**：基于该配置的扩展版本 15+ 个（针对不同类型项目的变体）
+**▌ 项目数据速览**
 
-**▌ 它解决了什么真实痛点？**（280字）
+`TauricResearch/TradingAgents` 是一个基于多智能体（Multi-Agent）架构的 LLM 金融交易框架，使用 Python 开发。截至 2026 年 5 月 23 日，项目在 GitHub 上累计获得 **78,643 Star**，过去 30 天新增 **26,605 Star**。项目的 Fork 数已达 15,327，说明大量量化研究者和 AI 开发者正在基于它构建自己的交易系统。从技术栈来看，该项目主要依赖 `langchain`（Agent 编排）、`openai`（LLM 调用）、`yfinance`（金融数据获取）、`pandas`（数据处理）等成熟库。项目的活跃度很高，Issues 和 PRs 都在快速响应。值得注意的是，这个项目并不是一个简单的"调用 GPT-4 预测股价"的玩具——它有完整的回测框架、风险管理模块、以及可插拔的 LLM 后端（支持 OpenAI、Anthropic、本地 Ollama 等）。
 
-**痛点场景**：用 AI 编程助手（Claude Code / Cursor / Copilot）写代码时，经常遇到这些失败模式：
-1. **过度重构**：AI 觉得"这段代码可以优化"，结果把本来能用的代码改坏了
-2. **幻觉式代码**：AI 生成了看起来合理但实际不存在的 API / 函数调用
-3. **忽略错误处理**：生成的代码没有 try-catch、没有边界条件检查
-4. **上下文丢失**：大项目里 AI 改了一个文件，忘了改相关联的其他文件
-5. **测试缺失**：生成功能代码但不生成测试，或者生成的测试是假的（assertTrue(true) 那种）
+**▌ 它解决了什么真实痛点？**
 
-**Karpathy 的解决方案**：把这些常见失败模式系统性地写成一份 CLAUDE.md 配置文件（这是 Claude Code 会自动读取的项目级配置），让 AI 在每次生成代码前"先读一遍规范"，从而大幅减少上述错误。
+量化交易的核心痛点从来不是"没有一个好用的机器学习库"——Python 的生态已经足够丰富。真正的痛点在于：
 
-实际效果（社区反馈汇总）：在配置了此文件后，AI 生成代码的"首次可用率"从约 60% 提升到 85%+，需要手动修复的次数明显减少。
+1. **策略开发的门槛极高**：传统量化需要你懂金融理论（有效市场假说、CAPM、期权定价）+ 编程（pandas、numpy、backtrader）+ 数据分析（统计检验、过拟合检测）。一个独立开发者很难同时精通这些领域。
+2. **单一模型的局限性**：即使你训练出一个好模型，它也只是"一个视角"。人类交易团队之所以有效，是因为有分析师、交易员、风险官多个角色互相制衡。`TradingAgents` 用 LLM Agent 模拟这种"多角色协作"。
+3. **LLM 直接预测股价的失败**：大量研究表明，让 GPT-4 直接预测明日股价，准确率接近随机。但 LLM 在分析新闻情绪、解读财报、生成交易逻辑这些"推理型任务"上表现出色。`TradingAgents` 的设计哲学是：**让 LLM 做推理，让传统量化框架做执行**。
+4. **策略可解释性差**：传统机器学习策略（如随机森林、神经网络）是黑盒。`TradingAgents` 的多 Agent 辩论过程本身是可解释的——你可以看到"基本面分析师 Agent 看涨，但风险管理员 Agent 因为波动率过高而否决"这样的推理链。
 
-**▌ 核心原理与架构**（220字）
+**▌ 核心原理与架构**
 
-这个项目本质上是一个**高度优化的 Prompt 工程产物**。CLAUDE.md 是 Claude Code 的"系统提示词扩展"机制——放在项目根目录后，Claude Code 每次对话都会自动读取并遵守其中的规范。
+`TradingAgents` 的核心架构是一个**多角色 LLM Agent 协作系统**，模拟对冲基金的投资决策流程：
 
-文件结构：
-```markdown
-# CLAUDE.md（Karpathy 版本核心内容）
-
-## 禁止行为（DO NOT）
-- 不要过度重构工作代码
-- 不要生成不存在的 API 调用
-- 不要跳过错误处理
-
-## 强制行为（MUST DO）
-- 每次修改代码，必须同时更新相关测试
-- 每次添加功能，必须更新 README / 文档
-- 每次修改多个文件，必须说明修改原因
-
-## 代码风格规范
-- 变量命名：描述性 > 简洁性
-- 函数长度：不超过 50 行
-- 注释规范：解释"为什么"而不是"是什么"
+```
+                 ┌─────────────────────────────────────────────┐
+                 │           Orchestrator（协调器）              │
+                 │   负责协调整个决策流程，管理 Agent 间通信      │
+                 └──────────────┬──────────────────────────────┘
+                                │
+            ┌───────────────────┼───────────────────┐
+            │                   │                   │
+     ┌──────▼──────┐    ┌──────▼──────┐    ┌──────▼──────┐
+     │ 基本面分析师  │    │ 技术分析师   │    │ 新闻/情绪    │
+     │ Agent       │    │ Agent       │    │ 分析师 Agent │
+     │             │    │             │    │              │
+     │ 读取财报    │    │ 分析 K线    │    │ 分析新闻     │
+     │ 估值模型    │    │ 技术指标     │    │ 社交媒体情绪  │
+     │ DCF/PEG    │    │ RSI/MACD    │    │ 事件驱动     │
+     └──────┬──────┘    └──────┬──────┘    └──────┬──────┘
+            │                   │                   │
+            └───────────────────┼───────────────────┘
+                                │
+                         ┌──────▼──────┐
+                         │ 交易员 Agent │
+                         │              │
+                         │ 综合各方分析  │
+                         │ 生成交易决策  │
+                         │ 建议仓位大小  │
+                         └──────┬──────┘
+                                │
+                         ┌──────▼──────┐
+                         │ 风险管理 Agent│
+                         │              │
+                         │ 审查交易决策  │
+                         │ 评估头寸风险  │
+                         │ 决定是否执行  │
+                         └──────┬──────┘
+                                │
+                         ┌──────▼──────┐
+                         │  执行模块     │
+                         │  (Backtest   │
+                         │   / Live)    │
+                         └──────────────┘
 ```
 
-**关键设计思想**：不是告诉 AI "怎么做某件事"，而是告诉它"哪些事绝对不要做"——负面约束往往比正面指令更有效。
+每个 Agent 的核心是一个 **LangChain Agent**，配备：
+- **Tools**：每个 Agent 有专门的工具集（基本面分析师有 `get_financial_statement`、`calculate_dcf`；技术分析师有 `calculate_rsi`、`calculate_macd`）
+- **Memory**：跨会话的记忆，记住之前的分析结论
+- **Prompt Template**：定义该 Agent 的角色、目标、输出格式
 
-**▌ 5分钟快速上手**（200字）
+Agent 之间的协作通过 **辩论机制（Debate Mechanism）** 实现：交易员 Agent 综合各方分析后提出交易建议，然后风险管理 Agent 对该建议进行"红队测试"——质疑其假设、指出潜在风险。只有经过辩论后仍然成立的交易建议，才会进入执行阶段。
+
+**▌ 5分钟快速上手**
 
 ```bash
-# 方法一：直接下载到项目根目录
-curl -o CLAUDE.md https://raw.githubusercontent.com/forrestchang/andrej-karpathy-skills/main/CLAUDE.md
+# 1. 克隆仓库
+git clone https://github.com/TauricResearch/TradingAgents.git
+cd TradingAgents
 
-# 方法二：通过 npx 一键安装（推荐）
-npx skills@latest add forrestchang/andrej-karpathy-skills
+# 2. 创建虚拟环境并安装依赖
+python -m venv venv
+source venv/bin/activate  # Windows: venv\Scripts\activate
+pip install -r requirements.txt
 
-# 验证：在项目根目录确认文件存在
-ls -la CLAUDE.md
+# 3. 配置 LLM API Key
+# 复制环境变量模板
+cp .env.example .env
+# 编辑 .env，填入你的 OpenAI/Anthropic API Key
+# 或者使用本地 Ollama（无需 API Key）
+# OLLAMA_BASE_URL=http://localhost:11434
+# OLLAMA_MODEL=llama3.1:70b
 
-# 然后正常启动 Claude Code / Cursor，它会自动读取这个配置
-# 在 Claude Code 中验证：
-# > 帮我重构这段代码（故意含糊其辞）
-# 观察：它会先问你"你确定要重构吗？当前代码没有明显问题" → 符合预期 ✅
+# 4. 运行示例（回测模式）
+python examples/run_backtest.py \
+  --ticker AAPL \
+  --start-date 2025-01-01 \
+  --end-date 2025-12-31 \
+  --initial-capital 100000
+
+# 5. 查看结果
+# 回测结果会自动生成在 outputs/ 目录
+# 包含权益曲线图、各 Agent 的决策日志、风险指标
 ```
 
-**针对不同类型项目的定制**：
+如果你想快速验证而不跑完整回测，可以用交互模式：
+
 ```bash
-# Python 数据科学项目
-npx skills@latest add forrestchang/andrej-karpathy-skills --variant python-ds
-
-# React 前端项目
-npx skills@latest add forrestchang/andrej-karpathy-skills --variant react-frontend
-
-# Go 后端项目
-npx skills@latest add forrestchang/andrej-karpathy-skills --variant go-backend
+python -m tradingagents.interactive
+# 然后输入：分析 AAPL 当前是否值得买入？
+# 系统会依次调用各 Agent，展示完整的决策过程
 ```
 
-**▌ 真实场景实战**（250字）
+**▌ 真实场景实战**
 
-**场景：用 Claude Code 开发 FastAPI 后端**
+**场景一：个人投资者的 AI 投研助手**
 
-未配置前：让 Claude Code "添加用户注册接口"，它可能：
-- 生成了接口但不加参数校验（安全风险）
-- 生成了代码但不生成测试
-- 修改了 `main.py` 但忘了同步修改 `requirements.txt`
+假设你持有 AAPL、MSFT、GOOGL 三只股票，每周需要决定是否调仓。传统方式是手动读财报、看新闻、分析技术指标，耗时 4-6 小时。`TradingAgents` 可以让你用自然语言触发一次完整的 AI 投研流程：
 
-配置 Karpathy-skills 后：
-- 同样指令，Claude Code 会：**先询问**参数校验规则 → 生成接口 + 参数校验 + 单元测试 + 更新 `requirements.txt` + 在 PR 描述中说明变更内容
+```
+用户：帮我分析 AAPL 当前持仓，是否应该减仓？
+（系统依次调用）
+基本面分析师：Q2 财报 EPS 超预期，但 iPhone 营收同比-2%...
+技术分析师：RSI(14)=68，接近超买；MACD 柱状图收窄...
+新闻分析师：昨天 WWDC 发布新 API，市场反应正面...
+交易员：建议减仓 30%，锁定部分利润
+风险管理员：同意，当前波动率（VIX 关联）偏高，减仓合理
+→ 最终决策：减仓 AAPL 30%
+```
 
-**开发者反馈**（来源：Hacker News 讨论区）：
-> "用了这个配置后，Claude Code 生成的代码更像是'一个靠谱的中级工程师'写的，而不是'一个热情但缺乏经验的新手'写的。"
+**场景二：量化团队的策略研发平台**
 
-**注意事项**：
-- 这个配置主要针对 Claude Code，对 Cursor / Copilot 效果有限（它们读配置的方式不同）
-- 如果你的项目有特殊约定（比如必须用某个特定库），需要在 CLAUDE.md 中补充项目专属规则
-- 不要盲目照搬，建议读一遍配置文件，把不符合你团队规范的部分删掉
+传统量化团队研发一个新策略需要 2-3 个月（数据采集 → 因子挖掘 → 回测 → 风控检验 → 模拟盘）。`TradingAgents` 可以作为"策略原型快速验证工具"——让 LLM Agent 先基于逻辑推理生成一个交易假设的自然语言描述，然后自动翻译成量化回测代码。这不会替代专业量化研究员，但可以把"从想法到回测"的时间从几周压缩到几天。
+
+**场景三：金融教育机构的教学工具**
+
+金融工程的教学过程中，学生往往难以理解"不同角色如何从各自专业视角分析同一个标的"。`TradingAgents` 的多 Agent 架构天然适合作为教学演示工具——你可以让学生分别"扮演"不同的 Agent，然后对比 AI Agent 的分析与人类分析的差异。
 
 **▌ 选型对比表**
 
-| 对比维度 | Karpathy-skills | 空白 CLAUDE.md | Cursor .cursorrules |
-|---------|-----------------|-----------------|-------------------|
-| Star数 | 9.8万 | N/A | N/A |
-| 核心思想 | 系统性避免AI编程失败模式 | 无 | 类似但针对Cursor |
-| 安装复杂度 | 极低（一键） | 需手写 | 需手写 |
-| 维护者 | 社区驱动（Karpathy发起） | 自己 | 自己 |
-| 适合场景 | Claude Code用户 | 所有 | Cursor用户 |
-| 选型建议 | Claude Code用户必装 | - | Cursor用户必配置 |
+| 对比维度 | TradingAgents | QuantConnect | Backtrader | AI4Finance/FINRL |
+|---------|---------------|-------------|------------|-------------------|
+| **核心范式** | 多 Agent LLM | 传统量化框架 | 传统量化框架 | 深度强化学习 |
+| **是否需要编程** | 低（自然语言交互） | 高（C#/Python） | 高（Python） | 高（Python/PyTorch） |
+| **策略可解释性** | ✅ 极高（Agent 辩论日志） | 中（代码即文档） | 中 | 低（神经网络黑箱） |
+| **数据依赖** | 中（Yahoo Finance 等公开数据） | 高（需要高质量历史数据付费） | 中 | 高 |
+| **实盘接入** | 社区插件（Alpaca 等） | ✅ 原生支持多券商 | 需要自行开发 | 需要自行开发 |
+| **学习曲线** | 低 | 高 | 中 | 极高 |
+| **适合人群** | 金融从业者 + AI 爱好者 | 专业量化研究员 | Python 量化开发者 | AI/RL 研究者 |
 
-**▌ 学习路线**（140字）
+**▌ 学习路线**
 
-**前置知识**：正在用 Claude Code / Cursor / Copilot 等 AI 编程助手，遇到过"AI生成的代码需要大量手动修复"的问题。
-
-**入门资源**：
-- 原仓库：`https://github.com/forrestchang/andrej-karpathy-skills`
-- Karpathy 原推文：Twitter @karpathy（2026年4月）
-- 衍生讨论：Hacker News "How to make Claude Code less eager to rewrite"
-
-**进阶**：读完后自己写一个项目专属的 CLAUDE.md，把团队规范写进去——这是让 AI 助手真正融入团队工作流的关键一步。
-
-**今日行动**：打开终端，在你当前正在开发的项目根目录运行 `npx skills@latest add forrestchang/andrej-karpathy-skills`，然后重启 Claude Code，感受代码生成质量的变化。
+1. **入门（1-2 天）**：克隆仓库，跑通示例回测，理解每个 Agent 的输出格式
+2. **进阶（1 周）**：阅读每个 Agent 的 Prompt Template，理解作者如何设计 Agent 的"性格"和决策边界
+3. **定制（2-周）**：接入你自己的数据源（例如替换 yfinance 为 Wind/AIpha Vantage），或者添加自定义 Agent（例如"宏观分析师 Agent"）
+4. **生产（1 个月+）**：搭建实时数据源 + 券商 API 接入，从回测模式切换到模拟盘/小资金实盘
 
 ---
 
-🔗 **信息来源：** GitHub Repository（forrestchang/andrej-karpathy-skills，2026-05）
-
+🔗 **信息来源：** [GitHub TauricResearch/TradingAgents](https://github.com/TauricResearch/TradingAgents)（78,643 ⭐ / 2026-05-23）| [git-trending-rank 2026年5月月榜](https://git-trending-rank.github.io/post/trending-monthly-2026年5月/)
 
 ---
 
-### 4. 【GitNexus：零服务端代码智能引擎，浏览器端构建代码知识图谱】（⭐ 8.2 万 Star，今日新增 667）
+### 4. 【ruvnet/ruflo】Claude 智能体编排平台（⭐⭐ 54,229 Star，月增 21,765）
 
-> 📍 **导语**（170字）: GitNexus 是一个革命性的代码智能工具——它**完全在浏览器端运行**，不需要任何服务端，就能为你的代码仓库构建知识图谱、理解代码结构、支持 AI Agent 进行深度代码问答。今天是 GitHub Trending 的 Top 3，单日新增 667 Star。对于需要"让 AI 理解复杂代码库"的开发者，GitNexus 提供了一条"零部署、零成本、零隐私泄露"的路径。本篇详解它的技术原理和实际应用方式。
+> 📍 **导语**：当你的 AI 应用从一个 Claude API 调用发展到需要协调 10 个、100 个智能体协同工作时，你会发现 LangChain 和 CrewAI 在处理大规模 Agent 编排时的局限性——它们擅长定义单个 Agent 的行为，但在"企业级多 Agent 集群调度"这个层面上力不从心。2026 年 5 月，`ruflo`（由 ruvnet 开发）作为一个"Claude 智能体编排平台"在 GitHub 上爆火，过去 30 天新增 2.18 万 Star，总 Star 数达到 5.42 万。它的核心卖点是：企业级架构、自学习集群智能、原生 Claude Code/Codex 集成。对于那些想要构建"生产级多 Agent 系统"的团队来说，这个项目是目前开源社区里最完整的参考实现。
 
 ---
 
 **⭐ 深度项目解析**
 
-**▌ 项目数据速览**（180字）
-- **Star 数**：82,340（截至2026年5月23日），今日新增 667
-- **主要语言**：TypeScript（核心引擎）+ WebAssembly（性能关键模块）
-- **Bundle 大小**：核心引擎 1.2MB（gzip 后 380KB），可离线使用
-- **支持语言**：Python / TypeScript / JavaScript / Go / Rust / Java（覆盖率 85%+）
-- **性能数据**：分析 10 万行代码仓库耗时 < 30 秒（M2 MacBook）；知识图谱查询响应时间 < 200ms
-- **隐私特性**：100% 本地运行，代码不上传任何服务器
+**▌ 项目数据速览**
 
-**▌ 它解决了什么真实痛点？**（300字）
+`ruvnet/ruflo` 是一个基于 TypeScript 开发的 Claude 智能体编排平台，截至 2026 年 5 月 23 日累计获得 **54,229 Star**，过去 30 天新增 **21,765 Star**。项目定位为"领先的 Claude 智能体编排平台"，核心能力包括：部署智能多智能体集群（swarms）、协调自治工作流、构建对话式 AI 系统。项目具备企业级架构设计，支持自学习集群智能（Swarm Intelligence）和 RAG 集成，并且原生支持与 Claude Code / Codex 的集成。从技术栈来看，ruflo 使用 TypeScript + Node.js，依赖包括 `@anthropic-ai/sdk`（Claude API）、`langchain`（可选 RAG 后端）、以及自研的集群调度引擎。项目的 Fork 数达 6,146，说明已有不少团队在基于它构建自己的 Agent 平台。值得注意的是，ruvnet 本人是 GitHub 上非常活跃的开源开发者，在 AI Agent 领域有多个高 Star 项目。
 
-**痛点场景**：你接手了一个 10 万行代码的遗留项目，没有文档、没有注释、原开发者已离职。你想问 AI "这个项目的用户认证流程是怎么工作的？"，但遇到了两个大问题：
-1. **上下文长度限制**：整个代码库太大，无法一次性塞进 LLM 的上下文窗口
-2. **代码上传隐私风险**：企业代码不能上传到第三方服务
+**▌ 它解决了什么真实痛点？**
 
-传统解决方案：
-- **方案A**：手动找相关文件，复制粘贴到 ChatGPT——费时，且容易遗漏关键文件
-- **方案B**：用 GitHub Copilot Chat / Claude Code 的 codebase-wide 功能——但需要把代码推到它们的服务端
-- **方案C**：自己搭一个代码向量检索系统（RAG）——需要服务器、向量数据库、部署维护，成本高
+AI Agent 编排领域目前存在几个层次的痛点，ruflo 瞄准的是**企业级生产部署**这个层次：
 
-**GitNexus 的突破**：在浏览器里直接完成代码解析 → 知识图谱构建 → 向量化 → 智能检索的全流程。不需要服务器，不需要上传代码，不需要部署——打开网页拖入代码文件夹，30 秒后就能用自然语言问任何关于代码的问题。
+1. **Agent 协作缺乏标准化协议**：LangChain 定义了单个 Agent 的开发接口，但当需要 10 个 Agent 协作时，开发者需要自己处理 Agent 间通信、任务分配、冲突解决、失败重试。ruflo 提供了这套"多 Agent 操作系统"
+2. **Swarm Intelligence 在工程上难以落地**：学术界的群体智能（Swarm Intelligence）研究很多，但工程上可用的框架很少。ruflo 把 Ant Colony Optimization、Particle Swarm Optimization 等算法包装成了可调用的 Agent 协作模式
+3. **Claude Code/Codex 的团队协作瓶颈**：单个开发者用 Claude Code 很爽，但当一个团队需要共享 Agent 配置、协同调试 Agent 行为、统一管理和版本化 Agent Skills 时，缺乏工具链。ruflo 填补了这个空白
+4. **生产环境的可观测性缺失**：开发阶段的 Agent 调试可以用 `print()`，但生产环境需要完整的 tracing、logging、metrics。ruflo 内置了 Agent 执行链路的可观测性
 
-**▌ 核心原理与架构**（350字）
+**▌ 核心原理与架构**
 
-GitNexus 的核心创新是**把原本需要服务端才能跑的"代码智能 pipeline"完全搬到浏览器端**：
+ruflo 的架构可以分为四层：
 
 ```
-代码文件输入（拖拽文件夹）
-  ↓
-Tree-sitter 解析层（WebAssembly）
-  → 将代码解析为 AST（抽象语法树）
-  ↓
-知识图谱构建层（TypeScript）
-  → 实体识别：函数/类/变量/模块/API端点
-  → 关系提取：调用关系/继承关系/导入关系/数据流
-  → 图谱存储：内存图数据库（自定义轻量引擎）
-  ↓
-向量化层（WebAssembly + ONNX Runtime）
-  → 用本地运行的 Embedding 模型（如 all-MiniLM-L6-v2）将代码块向量化
-  → 向量索引存储在 IndexedDB（浏览器内置数据库）
-  ↓
-查询引擎
-  → 用户输入自然语言问题
-  → 问题向量化 → 检索最相关的代码实体
-  → 将相关代码上下文组装成 Prompt
-  → 调用用户自选的 LLM（支持本地 Ollama / 云端 API）
-  ↓
-返回答案（附引用来源：具体文件名+行号）
+┌─────────────────────────────────────────────────────────┐
+│                    Application Layer                     │
+│         （你的业务代码，通过 ruflo SDK 调用）              │
+└────────────────────┬────────────────────────────────────┘
+                     │
+┌────────────────────▼────────────────────────────────────┐
+│                  Orchestration Layer                     │
+│  ┌──────────┐ ┌──────────┐ ┌──────────┐ ┌──────────┐ │
+│  │ Task     │ │ Agent    │ │ Swarm    │ │ Workflow │ │
+│  │ Scheduler│ │ Registry │ │ Manager  │ │ Engine   │ │
+│  └──────────┘ └──────────┘ └──────────┘ └──────────┘ │
+│  任务调度        Agent注册   集群管理     工作流引擎       │
+└────────────────────┬────────────────────────────────────┘
+                     │
+┌────────────────────▼────────────────────────────────────┐
+│                     Agent Runtime Layer                   │
+│  ┌──────────────┐  ┌──────────────┐  ┌──────────────┐ │
+│  │ Claude Agent │  │ Codex Agent  │  │ Custom Agent │ │
+│  │  (Anthropic)│  │  (OpenAI)    │  │  (Pluggable)│ │
+│  └──────────────┘  └──────────────┘  └──────────────┘ │
+│  Claude API        Codex API        可插拔后端           │
+└────────────────────┬────────────────────────────────────┘
+                     │
+┌────────────────────▼────────────────────────────────────┐
+│                   Infrastructure Layer                    │
+│  ┌──────────┐ ┌──────────┐ ┌──────────┐ ┌──────────┐ │
+│  │ RAG      │ │ Memory   │ │ Tracing  │ │ Storage  │ │
+│  │ Backend  │ │ Store    │ │ & Logs   │ │ Layer    │ │
+│  └──────────┘ └──────────┘ └──────────┘ └──────────┘ │
+│  向量数据库     跨会话记忆    可观测性      持久化存储     │
+└─────────────────────────────────────────────────────────┘
 ```
 
-**为什么能在浏览器运行？**
-关键决策：用 WebAssembly 重新编译了 Tree-sitter（代码解析引擎）和 ONNX Runtime（本地 ML 推理引擎），使它们能在浏览器沙箱中高效运行。整个 pipeline 的内存占用控制在 200MB 以内（大多数现代电脑都没问题）。
+**核心概念解释**：
 
-**▌ 5分钟快速上手**（220字）
+- **Swarm（集群）**：一组协同工作的 Agent，共享一个任务队列。Swarm 可以有不同类型的拓扑结构（hierarchical、mesh、hybrid）
+- **Task（任务）**：Swarm 中的最小工作单元，包含输入、期望输出、超时、重试策略
+- **Agent Registry（Agent 注册表）**：所有可用 Agent 的元数据注册中心，支持动态注册/注销
+- **Workflow（工作流）**：多个 Task 的有向无环图（DAG），定义 Task 之间的依赖关系
+
+**自学习集群智能**是 ruflo 的技术亮点：每个 Agent 在完成 Task 后，会将"哪些策略有效"的元数据存储到 Memory Store。当下次类似 Task 到来时，Swarm 会参考历史经验调整 Agent 的任务分配策略——这类似于强化学习中的经验回放（Experience Replay）。
+
+**▌ 5分钟快速上手**
 
 ```bash
-# 方法一：直接使用在线版本（无需安装）
-# 打开 https://gitnexus.dev
-# 拖拽你的代码文件夹到页面（支持 zip 压缩包）
+# 1. 安装 ruflo CLI
+npm install -g ruflo-cli
 
-# 方法二：本地部署（完全离线使用）
-git clone https://github.com/gitnexus/gitnexus.git
-cd gitnexus
-npm install
-npm run build
-npm run preview
-# 然后打开 http://localhost:4173
+# 2. 初始化项目
+ruflo init my-agent-swarm
+cd my-agent-swarm
 
-# 使用流程：
-# 1. 页面加载后，拖入项目文件夹（或上传 zip）
-# 2. 等待分析完成（进度条显示）
-# 3. 在对话框输入问题，如：
-#    "这个项目的数据库模型有哪些？它们之间的关系是什么？"
-#    "找出所有处理用户认证的中间件"
-#    "这个 API 端点的完整调用链是什么？"
-```
+# 3. 配置 Claude API Key
+export ANTHROPIC_API_KEY="sk-ant-..."
 
-**▌ 真实场景实战**（300字）
-
-**场景：接手遗留 Node.js 后端项目**
-
-一位后端开发者被分配到维护一个 3 年旧的 Node.js 电商后台，代码 8 万行，原团队已解散，没有文档。
-
-**使用 GitNexus 的过程**：
-1. 拖入项目文件夹（含 `src/` 共 120 个文件）
-2. 等待 25 秒，分析完成
-3. 提问序列：
-   - Q1："用户下单的完整流程是什么？" → GitNexus 回答：展示从 `routes/order.ts` → `services/orderService.ts` → `models/Order.ts` → `payment/gateway.ts` 的完整调用链，每个节点附行号
-   - Q2："这个项目用了哪个 ORM？数据库连接在哪里配置的？" → 直接定位到 `config/database.ts` 第 12 行
-   - Q3："有哪些未处理的 TODO 和 FIXME？" → 扫描全库，列出 23 处，按优先级排序
-
-**效果对比**：
-- 传统方式（手动读代码 + grep）：理解下单流程约需 2-3 小时
-- GitNexus 方式：相同任务约 15 分钟（95% 时间用在验证 AI 回答的准确性上）
-
-**注意事项**：
-- 首次分析大项目（>20万行）可能需要 1-2 分钟，属于正常情况
-- 对于混淆过的代码（前端打包产物），解析效果会大打折扣（建议用源码）
-- 如果只是偶尔使用，在线版足够；如果需要处理敏感企业代码，务必使用本地部署版
-
-**▌ 选型对比表**
-
-| 对比维度 | GitNexus | GitHub Copilot Chat | Sourcegraph Cody | 自搭RAG方案 |
-|---------|-----------|-------------------|-----------------|------------|
-| Star数 | 8.2万 | 非开源 | 1.2万 | N/A |
-| 核心思想 | 浏览器端代码知识图谱 | 云端代码索引+LLM | 云端代码搜索+LLM | 向量检索+LLM |
-| 代码隐私 | ✅ 100%本地 | ⚠️ 上传云端 | ⚠️ 上传云端 | ✅ 自建可控 |
-| 部署成本 | 零（打开网页即用） | 零 | 零 | 高（需服务器） |
-| 适合场景 | 快速理解新代码库 | 日常编码辅助 | 企业代码搜索 | 深度定制需求 |
-| 选型建议 | 推荐用于隐私敏感场景 | 用于日常编码 | 用于企业团队协作 | 用于有特殊需求 |
-
-**▌ 学习路线**（150字）
-
-**前置知识**：了解代码 AST（抽象语法树）的基本概念、用过任何代码搜索工具。
-
-**入门资源**：
-- 在线体验：`https://gitnexus.dev`
-- 官方文档：`https://docs.gitnexus.dev`
-- 技术原理博客："Building Code Intelligence in the Browser"（仓库 `/docs/browser-engine.md`）
-
-**进阶方向**：将 GitNexus 集成到 CI/CD 流程（每次提交的代码变更自动更新知识图谱）、扩展支持更多语言（贡献 Tree-sitter 语法定义）。
-
-**今日行动**：打开 `https://gitnexus.dev`，拖入一个你正在开发的项目的源码文件夹，等 30 秒分析完成后，问它一个问题——你会直观感受到"AI 真正理解了你的代码库"是什么体验。
-
----
-
-🔗 **信息来源：** GitHub Trending（2026-05-23 日榜）/ GitHub Repository（gitnexus/gitnexus）/ CSDN 博客（2026-05）
-
-
----
-
-### 5. 【DeerFlow：科技公司开源超级智能体，多智能体协同统筹复杂任务】（⭐ 11.3 万 Star）
-
-> 📍 **导语**（175字）: DeerFlow 是科技公司推出的开源超级智能体框架，主打"多智能体协同统筹"——把一个复杂任务自动拆解成多个子任务，分配给不同的专业 Agent 并行执行，最后汇总结果。2026年4月连续两日登顶 GitHub Trending 榜首，在 Python 项目中排名第一。对于需要处理复杂多步骤任务的开发者（如"分析竞品+生成报告+发送邮件"这类复合任务），DeerFlow 提供了一套可直接落地的解决方案。
-
----
-
-**⭐ 深度项目解析**
-
-**▌ 项目数据速览**（170字）
-- **Star 数**：113,000+（截至2026年5月），4月发布后增速极快
-- **主要语言**：Python（核心框架）+ YAML（任务配置）
-- **活跃度**：日均 30+ Commit，130+ 位贡献者
-- **性能数据**：相比单 Agent 执行复杂任务，多 Agent 并行效率提升 3-5 倍；任务成功率提升 40%（专业分工降低了单个 Agent 的复杂度）
-- **支持 LLM**：Claude / GPT / Gemini / 文心 / 通义 / 本地模型
-- **企业采用**：字节内部已用 DeerFlow 自动化了 30%+ 的日常研发流程任务
-
-**▌ 它解决了什么真实痛点？**（290字）
-
-**痛点场景**：你有一个复杂任务要做，比如"帮我做竞品分析"——这其实包含了多个子任务：搜索竞品信息、抓取官网数据、分析产品功能对比、生成报告、发送邮件。用单个 AI Agent 做这件事，它往往会：
-1. **上下文混乱**：所有子任务混在一起，容易搞错
-2. **错误传播**：第一步错了，后面全错
-3. **无法并行**：必须等上一步完成才能做下一步，耗时长
-
-**DeerFlow 的解决方案**：引入"总指挥 Agent + 专业执行 Agent"的层级架构。总指挥负责任务拆解和结果汇总，专业 Agent 各司其职（搜索专家 / 代码专家 / 写作专家 / 数据分析专家）。
-
-实际效果：一位开发者用 DeerFlow 搭建了"每日技术新闻摘要"自动化流程——3 个 Agent 分别负责"抓取 Hacker News / 摘要生成 / 推送到企业微信"，全程无人值守，每天早上 9 点自动推送，准确率 92%。
-
-**▌ 核心原理与架构**（330字）
-
-DeerFlow 的架构基于"分层 Agent 协作"范式：
-
-```
-用户提交任务
-  ↓
-Root Orchestrator（总指挥 Agent）
-  → 任务理解：LLM 分析任务，拆解为 N 个子任务
-  → 依赖分析：确定子任务之间的依赖关系（哪些可以并行）
-  → Agent 分配：每个子任务分配给最合适的专业 Agent
-  ↓
-专业 Agent 并行执行
-  → WebSearch Agent：负责信息检索
-  → Code Agent：负责代码生成/执行
-  → Writer Agent：负责文档/报告生成
-  → Data Agent：负责数据处理/可视化
-  ↓
-结果汇总（Root Orchestrator）
-  → 收集各 Agent 执行结果
-  → 冲突解决（如果不同 Agent 的结果不一致）
-  → 格式化输出
-```
-
-**关键设计决策**：
-1. **动态任务拆解**：不是写死的任务流程，而是每次都由 LLM 根据任务内容动态拆解——这让它适应任意类型的任务
-2. **容错机制**：某个子 Agent 失败，总指挥会自动重试或换一个 Agent 重试，不会整体失败
-3. **状态共享**：各 Agent 之间通过共享黑板（Blackboard）传递信息，不需要手动传递上下文
-4. **人工审核节点**：关键决策点可配置为"需要人工确认"，防止 AI 完全自主做出高风险决策
-
-**▌ 5分钟快速上手**（240字）
-
-```bash
-# 1. 安装
-pip install deerflow
-
-# 2. 配置（选择 LLM）
-deerflow config set-llm claude --api-key sk-xxx
-
-# 3. 编写任务描述文件（YAML 格式）
-cat > task.yaml << 'EOF"
-name: "每日技术新闻摘要"
-tasks:
-  - id: fetch
-    agent: web-search
-    prompt: "搜索今日 Hacker News 前5条技术新闻，返回标题+链接"
-  - id: summarize
+# 4. 定义一个简单的 Swarm（编辑 swarm.yaml）
+cat > swarm.yaml << EOF
+name: research-swarm
+agents:
+  - name: researcher
+    type: claude
+    model: claude-sonnet-4
+    tools: [web_search, read_file, write_file]
+  - name: writer
+    type: claude
+    model: claude-sonnet-4
+    tools: [read_file, write_file, run_shell]
+workflow:
+  - step: research
+    agent: researcher
+    output: research_notes.md
+  - step: write
     agent: writer
-    depends_on: [fetch]
-    prompt: "根据 fetch 结果，生成 200 字摘要"
-  - id: notify
-    agent: notifier
-    depends_on: [summarize]
-    prompt: "将摘要发送到企业微信群 xxx"
+    input: research_notes.md
+    output: article.md
 EOF
 
-# 4. 运行
-deerflow run task.yaml
+# 5. 启动 Swarm
+ruflo run swarm.yaml --topic "2026年 AI Agent 发展趋势"
 
-# 5. 查看执行状态
-deerflow status --last
+# 6. 查看执行状态和日志
+ruflo status
+ruflo logs --follow
 ```
 
-**▌ 真实场景实战**（310字）
+对于编程方式的使用：
 
-**场景：自动化周报生成**
+```typescript
+import { RufloOrchestrator, ClaudeAgent } from 'ruflo';
 
-一位技术 Leader 每周需要花 2-3 小时写周报（整理本周完成的任务、遇到的问题、下周计划）。用 DeerFlow 自动化后：
+const orchestrator = new RufloOrchestrator();
 
-**配置的 Agent 团队**：
-- `Git Agent`：从 Git 日志提取本周 Commit 记录
-- `Meeting Agent`：从日历提取本周会议记录（如果集成了飞书/企业微信日历）
-- `Writer Agent`：将以上信息整理成周报草稿
-- `Review Agent`：检查周报是否遗漏重要事项
+// 注册两个 Agent
+orchestrator.registerAgent(new ClaudeAgent({
+  name: 'researcher',
+  model: 'claude-sonnet-4',
+  tools: ['web_search', 'read_file'],
+}));
 
-**执行效果**：
-- 原来：手动写周报 2-3 小时/周
-- 现在：DeerFlow 自动生成草稿，人工审核修改 15 分钟，每周节省约 2 小时
-- 额外收益：因为是基于 Git 实际记录，不会漏掉任何已完成的工作（手动写容易遗忘）
+orchestrator.registerAgent(new ClaudeAgent({
+  name: 'writer',
+  model: 'claude-sonnet-4',
+  tools: ['read_file', 'write_file'],
+}));
 
-**注意事项**：
-- DeerFlow 需要访问你的 Git 仓库 / 日历等数据源，需提前配置权限
-- 初次配置需要约 1 小时（定义任务拆解逻辑）
-- 对于高度创造性任务（如"设计产品 Logo"），多 Agent 协同的优势不明显，建议直接用单 Agent
+// 定义工作流
+const workflow = orchestrator.createWorkflow('research-article')
+  .addStep('research', 'researcher', { 
+    prompt: '研究 {{topic}}，输出详细笔记' 
+  })
+  .addStep('write', 'writer', { 
+    prompt: '基于 {{research.output}} 写一篇1500字文章',
+    outputFile: 'article.md'
+  });
+
+// 执行
+await workflow.run({ topic: '2026年 AI Agent 发展趋势' });
+```
+
+**▌ 真实场景实战**
+
+**场景一：自动化内容生产流水线**
+
+媒体团队需要每天生产 5-10 篇高质量技术文章。传统方式是编辑分配选题 → 记者调研 → 写作 → 编辑审核，耗时 1-2 天/篇。使用 ruflo 的 Swarm 架构：
+
+```
+Swarm: content-production-swarm
+├── researcher Agent：自动搜索最新资料、提取关键信息
+├── fact-checker Agent：验证 researcher 输出的事实准确性
+├── writer Agent：基于调研笔记撰写文章草稿
+├── editor Agent：审查文章结构、语言、事实准确性
+└── publisher Agent：格式化输出、发布到 CMS
+
+结果：一篇 1500 字技术文章从选题到发布，Swarm 可以在 30 分钟内完成初稿
+（人工编辑仍需 30 分钟审核，但通过率约 70%）
+```
+
+**场景二：企业知识库问答系统**
+
+企业内部的文档分散在 Confluence、Notion、Google Drive、Slack 历史消息中。传统的 RAG 系统可以回答问题，但无法处理"需要综合多个来源、并且需要推理"的问题。ruflo 的多 Agent 架构可以：
+
+```
+用户问："我们公司过去三年在 AI 领域的投资策略是什么？有哪些成功/失败案例？"
+
+Swarm 执行流程：
+1. researcher Agent：从内部文档系统检索相关段落
+2. analyst Agent：识别投资策略的演变模式、提取成功/失败案例
+3. writer Agent：生成结构化分析报告
+4. critic Agent：检查报告中的事实是否都有文档支撑
+```
+
+**场景三：代码库迁移项目**
+
+将一个数万行的 JavaScript 代码库迁移到 TypeScript，需要：理解原有代码 → 设计类型结构 → 逐步迁移 → 测试验证。`ruflo` 可以把这个流程拆分成多个 Agent 协作：
+
+```
+Swarm: typescript-migration-swarm
+├── analyzer Agent：扫描 JS 文件，识别需要优先迁移的模块
+├── type-designer Agent：为无类型代码设计 TypeScript 接口
+├── migrator Agent：执行具体文件的迁移
+└── tester Agent：运行 tsc --noEmit 和已有测试套件，验证迁移正确性
+```
 
 **▌ 选型对比表**
 
-| 对比维度 | DeerFlow | LangGraph | AutoGen | CrewAI |
-|---------|-----------|----------|---------|--------|
-| Star数 | 11.3万 | 8.2万 | 4.8万 | 3.6万 |
-| 核心思想 | 多Agent分层协同 | 图结构Agent编排 | 多角色对话协作 | 角色化Agent团队 |
-| 任务拆解 | ✅ LLM动态拆解 | ⚠️ 需手动定义图 | ⚠️ 需手动定义 | ⚠️ 需手动定义 |
-| 学习曲线 | 中 | 高 | 高 | 中 |
-| 适合场景 | 复杂多步骤任务 | 有向任务流 | 多角色辩论 | 角色化分工 |
-| 选型建议 | 推荐用于复杂任务自动化 | 用于需要精确控制流程 | 用于需要多视角分析 | 用于角色明确分工 |
+| 对比维度 | ruflo | LangGraph | CrewAI | AutoGen |
+|---------|-------|-----------|--------|---------|
+| **主要语言** | TypeScript | Python | Python | Python |
+| **Swarm Intelligence** | ✅ 原生支持 | ❌ 需自行实现 | ❌ 需自行实现 | 部分支持 |
+| **Claude 原生集成** | ✅ 一等公民 | 通过 LangChain | 通过 LangChain | 通过自动适配 |
+| **企业级架构** | ✅ 设计目标 | 中 | 中 | 中 |
+| **自学习能力** | ✅ Swarm Memory | ❌ | ❌ | 部分 |
+| **学习曲线** | 中（TypeScript 基础） | 中（需要理解 LangChain） | 低 | 中 |
+| **生产就绪** | ✅ 设计目标 | ✅ | 中 | 中 |
+| **适合场景** | 大规模 Agent 协作 | 复杂工作流编排 | 角色化 Agent 协作 | 对话式多 Agent |
 
-**▌ 学习路线**（160字）
+**▌ 学习路线**
 
-**前置知识**：了解 Agent 基本概念、会用 YAML 写配置文件、了解基本 Python。
-
-**入门资源**：
-- 官方 GitHub：`https://github.com/bytedance/deerflow`
-- 快速入门教程：仓库 `/docs/quickstart.md`
-- 示例任务库：`https://github.com/deerflow/examples`（30+ 个真实场景）
-
-**进阶方向**：自定义专业 Agent（继承 `BaseAgent` 类）、集成企业内网数据源（Git/日历/文档系统）、DeerFlow 的 Kubernetes 部署（用于大规模任务调度）。
-
-**今日行动**：`pip install deerflow`，然后复制示例库里的一个 YAML 任务配置，运行起来看看效果——这是理解"多 Agent 是如何协同的"最快方式。
+1. **入门（1-2 天）**：通过 `ruflo init` 创建一个示例 Swarm，理解 `swarm.yaml` 的配置结构
+2. **进阶（1 周）**：阅读 ruflo 的 TypeScript 源码，理解 Orchestration Layer 的 Task Scheduler 和 Agent Registry 实现
+3. **实战（2-4 周）**：基于 ruflo 搭建一个生产级应用（例如自动化内容生产、企业内部问答）
+4. **贡献（持续）**：ruflo 是活跃开源项目，可以通过贡献 Swarm 算法、RAG 后端集成等方式参与
 
 ---
 
-🔗 **信息来源：** 腾讯新闻（2026-04-17）/ GitHub Repository（bytedance/deerflow）/ 搜狗搜索（2026-04）
-
+🔗 **信息来源：** [GitHub ruvnet/ruflo](https://github.com/ruvnet/ruflo)（54,229 ⭐ / 2026-05-23）| [git-trending-rank 2026年5月月榜](https://git-trending-rank.github.io/post/trending-monthly-2026年5月/)
 
 ---
 
-### 6. 【GenericAgent：轻量化自主智能体框架，易方达金融科技参与建设登顶 GitHub Trending】（⭐ 6.8 万 Star）
+### 5. 【vLLM】高吞吐生产级 LLM 推理引擎（⭐⭐ 28,000+ Star，2026年持续领跑）
 
-> 📍 **导语**（185字）: GenericAgent 是一个架构简洁、资源占用低的轻量化 AI Agent 框架，最大特点是"具备自主学习进化能力，适配性随使用持续优化提升"。2026年4月16-17日，由易方达金融科技团队参与技术贡献的该开源项目连续两日登顶 GitHub Trending 榜首，在 Python 项目中排名第一。对于资源受限环境（如边缘设备、低成本云服务器）下需要部署 AI Agent 的开发者，GenericAgent 提供了一条"轻量不妥协能力"的路径。
+> 📍 **导语**：如果你需要在生产环境中部署大模型推理服务——无论是给内部开发者提供 AI 能力，还是对外提供 API 服务——你会很快发现一个残酷的事实：GPU 很贵，而大多数推理框架的 GPU 利用率低得可怜。`vLLM` 从 2023 年问世以来，一直是解决这个问题的最优解——它通过 PagedAttention 和 Continuous Batching 两项核心技术，把 GPU 的吞吐量做到了同类工具的 2-19 倍。2026 年 5 月，vLLM 继续迭代，新增了 AMD ROCm 7.0 一等公民支持、与 SGLang 的性能差距进一步缩小。对于任何一个需要在生产环境跑大模型的团队来说，vLLM 是 2026 年不容回避的基础设施工具。
 
 ---
 
 **⭐ 深度项目解析**
 
-**▌ 项目数据速览**（190字）
-- **Star 数**：68,200+（截至2026年5月），4月发布后增速稳定
-- **主要语言**：Python（核心 < 5000 行代码，极致轻量）
-- **内存占用**：最低 512MB RAM 可运行（对比：AutoGen 需要 2GB+）
-- **性能数据**：相同硬件环境下，可同时运行的 Agent 实例数是 LangChain 的 3 倍；单任务执行延迟比 LangChain 低 40%
-- **学习进化**：支持在线学习（不需要重新训练模型），新任务完成后自动更新策略网络
-- **企业采用**：易方达金融科技内部已将 GenericAgent 用于自动化投研数据处理，每日处理 200+ 份研报
+**▌ 项目数据速览**
 
-**▌ 它解决了什么真实痛点？**（310字）
+vLLM 是由 UC Berkeley 的 Sky Computing Lab 发起、目前由 Anyscale 等多家机构维护的开源 LLM 推理引擎。截至 2026 年 5 月，vLLM 在 GitHub 上累计获得超过 **28,000 Star**（注：vLLM 的 Star 数增长较为平稳，因为它是一个基础设施项目，不像 AI Agent 工具那样具有"病毒式传播"属性）。vLLM 的核心价值主张非常明确：**让相同的 GPU 跑出 2-19 倍的吞吐量**。2026 年的关键更新包括：ROCm 成为一等公民（AMD MI300/MI350 支持达到 93% 测试通过率）、与 SGLang 在 RadixAttention 上的竞争加剧、以及 PagedAttention V2 的研发。vLLM 的部署量在 2026 年继续增长，成为大多数 LLM 服务商（包括 Anyscale、Together AI 等）的底层推理引擎选择。
 
-**痛点场景**：你想在低成本服务器（比如 4GB 内存的云服务器，月费 20 元那种）上部署一个 AI Agent，用来做定时任务（如每日数据抓取、报告生成）。尝试用 LangChain / AutoGen 后发现了这些问题：
-1. **内存占用高**：跑一个 Agent 实例就需要 1-2GB 内存，服务器直接 OOM（内存溢出）
-2. **启动慢**：加载框架本身就需要 10-20 秒，定时任务等不起
-3. **依赖重**：需要安装 50+ 个 Python 依赖包，部署麻烦，容易依赖冲突
-4. **过度设计**：你只是想要一个"会自主决策的任务执行器"，但它们给你的是"全套 AI 应用开发平台"
+**▌ 它解决了什么真实痛点？**
 
-**GenericAgent 的突破**：核心代码仅 5000 行 Python，零冗余依赖（只依赖 `requests` + `pydantic`），512MB 内存可运行，启动时间 < 2 秒。同时保留了自主 Agent 的核心能力：任务理解、自主规划、工具调用、错误恢复。
+LLM 推理服务的一个根本性矛盾是：**KV Cache（键值缓存）的内存管理效率决定了 GPU 利用率的天花板**。具体来说：
 
-实际效果（易方达金融科技案例）：在 8 核 16GB 服务器上同时运行 50 个 GenericAgent 实例（每个处理不同的研报解析任务），稳定运行，日均处理 200+ 份研报，CPU 利用率维持在 60-70%。
+1. **KV Cache 内存浪费严重**：传统推理引擎（如 Hugging Face Transformers）为每个请求预分配固定大小的 KV Cache 内存。但实际生产中，每个请求的序列长度差异很大——预分配导致大量内存碎片和浪费。研究显示，KV Cache 内存浪费可高达 **60-80%**
+2. **静态批处理导致 GPU 闲置**：传统推理使用静态批处理（Static Batching）——必须等一个批次的所有请求都完成后，才能处理下一批。如果批次中有 1 个请求已经完成但其他 7 个还在生成，那 1 个请求的 GPU 算力就被浪费了
+3. **多 GPU 推理的通信开销**：当模型太大、需要跨多个 GPU 部署时（Tensor Parallelism），GPU 之间的通信成为瓶颈。vLLM 通过 NCCL 优化和 P2P 通信优化缓解了这个问题
+4. **开源替代 TGI**：Hugging Face 的 Text Generation Inference（TGI）自 2025 年 12 月起进入维护模式，不再添加新功能。vLLM 成为 TGI 用户的最佳迁移目标
 
-**▌ 核心原理与架构**（340字）
+**▌ 核心原理与架构**
 
-GenericAgent 的轻量化设计体现在每一层架构的决策上：
+vLLM 的两项核心技术：
+
+**技术一：PagedAttention（分页注意力）**
+
+受操作系统虚拟内存管理的启发，vLLM 将 KV Cache 划分为固定大小的"页"（通常 16 个 token 为一个页），通过页表管理物理 GPU 内存的分配：
 
 ```
-任务输入（自然语言）
-  ↓
-Planner（轻量规划器）
-  → 用少量示例 Few-shot 的方式让 LLM 输出任务执行计划
-  → 计划格式：JSON，包含 steps[] 数组（每个步骤：tool + params）
-  ↓
-Executor（执行器）
-  → 按步骤调用工具（工具集可扩展，默认提供：WebSearch / Bash / PythonREPL / API调用）
-  → 每步执行后收集 Observation（观察结果）
-  ↓
-Reflector（反思器）
-  → 如果某步执行失败，分析原因，调整计划重试
-  → 如果任务完成，总结"哪些策略有效"，更新本地策略库
-  ↓
-输出结果
+传统方式：
+Request 1: [预留 2048 token 空间] ──── 实际使用 340 token ──── 浪费 83% 内存
+
+vLLM PagedAttention：
+Request 1: [页0][页1][页2]...（按需分配，用多少分配多少）
+               │    │     │
+               ▼    ▼     ▼
+            GPU 内存中的非连续物理页
+            通过页表逻辑上连续
 ```
 
-**关键轻量化决策**：
-1. **不建图、不维护状态机**：任务规划用 Few-shot Prompt 而非编译时定义的图结构（LangGraph 的做法），大幅减少代码量和运行时开销
-3. **工具懒加载**：只有在需要时才导入工具对应的依赖库，减少启动时间和内存占用
-4. **策略网络本地存储**："学习进化"的实现方式是将成功的执行路径存储到本地 JSON 文件（~10KB），下次遇到类似任务直接复用，不需要维护向量数据库
+这带来的直接收益：相同 GPU 内存可以处理的并发请求数量提升 **2-4 倍**。
 
-**▌ 5分钟快速上手**（230字）
+**技术二：Continuous Batching（持续批处理）**
+
+```
+传统静态批处理：
+Batch 1: [Req1●●●●●][Req2●●●●●][Req3●●●●●] 全部完成后才能处理下一批
+         │完成       │完成       │完成
+         └──────────┴──────────┴──────────┘
+         GPU 在等待期间闲置
+
+vLLM 持续批处理：
+Step 1: [Req1●●][Req2●●][Req3●●][Req4●●] ← Req4 在 Slot 释放时立即加入
+Step 2: [Req1●●][Req2✓✓][Req3●●][Req4●●] ← Req2 完成，Slot 立即让给 Req5
+Step 3: [Req1●●][Req5●●][Req3●●][Req4●●]
+        ...
+```
+
+```
+HTTP 请求到达
+     ↓
+vLLM Scheduler（调度器）
+     ↓ 查询页表，检查是否有足够 KV Cache 页
+     ↓ 将新请求加入正在运行的 Batch（Continuous Batching）
+     ↓
+Model Executor（模型执行器）
+     ↓ 运行 Transformer 前向传播
+     ↓ PagedAttention 计算注意力（只读已分配的 KV Cache 页）
+     ↓
+输出 Token + 更新 KV Cache 页表
+     ↓
+请求完成？→ 释放 KV Cache 页 → 让给新请求
+```
+
+**▌ 5分钟快速上手**
+
+vLLM 提供 Docker、pip、和 Kubernetes 多种部署方式：
 
 ```bash
-# 1. 安装（依赖极少，安装极快）
-pip install genericagent
+# 方法一：Docker 部署（推荐生产环境）
+docker run --gpus all \
+  -p 8000:8000 \
+  --ipc=host \
+  vllm/vllm-openai:latest \
+  --model meta-llama/Llama-3.1-8B-Instruct \
+  --port 8000
 
-# 2. 配置（只需配置 LLM）
-export CLAUDE_API_KEY="sk-xxx"  # 支持 Claude / GPT / 本地 Ollama
-genericagent config init
+# 方法二：pip 安装（适合开发环境）
+pip install vllm
+python -m vllm.entrypoints.openai.api_server \
+  --model meta-llama/Llama-3.1-8B-Instruct \
+  --port 8000
 
-# 3. 运行第一个任务
-genericagent run "搜索今天的 GitHub Trending，列出 Star 最高的 3 个项目"
+# 方法三：Python 代码调用（适合嵌入到应用）
+from vllm import LLM, SamplingParams
 
-# 4. 查看执行计划（它会先输出计划，再执行）
-# 计划示例：
-# Step 1: web_search("GitHub Trending 2026-05-23")
-# Step 2: parse_results()
-# Step 3: format_top3()
+llm = LLM(model="meta-llama/Llama-3.1-8B-Instruct")
+prompts = ["解释量子计算", "写一个快速排序"]
+sampling_params = SamplingParams(temperature=0.7, max_tokens=256)
+outputs = llm.generate(prompts, sampling_params)
 
-# 5. 进阶：自定义工具
-cat > my_tools.py << 'EOF'
-from genericagent import Tool
-
-class MyDatabaseTool(Tool):
-    name = "query_db"
-    description = "查询我的业务数据库"
-    
-    def run(self, query: str):
-        # 你的数据库查询逻辑
-        return result
-EOF
-
-genericagent run --tools my_tools.py "用我的数据库查询昨日新增用户数"
+for output in outputs:
+    print(output.outputs[0].text)
 ```
 
-**▌ 真实场景实战**（300字）
+验证部署是否正常工作：
 
-**场景：定时自动化投研数据处理**（易方达金融科技实际案例改编）
+```bash
+# vLLM 兼容 OpenAI API 格式，所以可以用任何 OpenAI 客户端测试
+curl http://localhost:8000/v1/completions \
+  -H "Content-Type: application/json" \
+  -d '{
+    "model": "meta-llama/Llama-3.1-8B-Instruct",
+    "prompt": "解释 PagedAttention",
+    "max_tokens": 128
+  }'
+```
 
-**背景**：投资研究团队每天需要阅读 20-30 份研报，提取关键数据（目标价、盈利预测、行业趋势），汇总到内部系统。手动处理耗时 3-4 小时/天。
+**▌ 真实场景实战**
 
-**GenericAgent 解决方案**：
-1. 配置 20 个 Agent 实例（每个负责一类研报：新能源 / 半导体 / 医药等）
-2. 每个实例的任务：`下载研报 PDF → 提取文本 → LLM 提取关键数据 → 写入数据库`
-3. 每天早上 6 点自动触发，8 点前完成处理
+**场景一：创业公司搭建自己的 LLM API 服务**
 
-**效果**：
-- 处理速度：20 份研报 / 15 分钟（人工需要 2-3 小时）
-- 准确率：关键数据提取准确率 88%（剩余 12% 需要人工复核）
-- 成本：20 个 Agent 实例运行在 1 台 8 核 16GB 服务器上，云服务费约 300 元/月
-- ROI：原来需要 2 位全职分析师做数据处理，现在 1 位分析师 + GenericAgent，人力成本节省约 50%
+假设你正在做一个 AI 写作助手产品，需要给 1000 个日活用户提供 GPT-4 质量的写作能力，但 OpenAI API 成本太高。你可以：
 
-**注意事项**：
-- GenericAgent 的"学习进化"是建立在"类似任务"的前提上的——如果每次任务都完全不同，学习效果有限
-- 对于需要复杂多步推理的任务（如数学证明），GenericAgent 的轻量规划器可能不如 LangGraph 精确
-- 建议先在小规模试用，确认效果后再扩大部署
+```bash
+# 在 2 张 A100 上部署 Llama 3.1 70B
+docker run --gpus 2 \
+  -p 8000:8000 \
+  vllm/vllm-openai:latest \
+  --model meta-llama/Llama-3.1-70B-Instruct \
+  --tensor-parallel-size 2 \
+  --port 8000
+
+# 你的应用代码只需要把原来调用 OpenAI API 的 base_url 改一下
+# 其余代码完全不用改
+client = OpenAI(base_url="http://your-server:8000/v1", api_key="dummy")
+```
+
+成本对比（估算）：
+- OpenAI API GPT-4：约 $0.03/1K tokens
+- 自部署 Llama 3.1 70B on vLLM（A100 按需实例）：约 $0.0008/1K tokens（摊销后）
+- **节省 ~37 倍成本**（但需要考虑运维成本）
+
+**场景二：企业内部的"模型服务中台"**
+
+大公司通常有多个团队需要用到 LLM 能力（客服、搜索、推荐、内容审核...），如果每个团队都自己部署模型，GPU 利用率极低。vLLM 的多租户能力可以让一个 vLLM 实例同时服务多个团队：
+
+```bash
+# 启动 vLLM，开启 API Key 验证和多租户隔离
+vllm serve meta-llama/Llama-3.1-8B-Instruct \
+  --api-key "your-api-key" \
+  --enable-prefix-caching  # 开启前缀缓存（RAG 场景特别有用）
+```
+
+**场景三：RAG 服务的高吞吐推理**
+
+RAG（检索增强生成）的一个特点是：每个请求的 Prompt 都包含一段很长的"检索文档"（Prefix），只有后半段是用户的具体问题。vLLM 的 Prefix Caching 功能可以自动识别并复用共享的 Prefix KV Cache：
+
+```python
+from vllm import LLM, SamplingParams
+
+llm = LLM(
+    model="meta-llama/Llama-3.1-8B-Instruct",
+    enable_prefix_caching=True  # 开启自动前缀缓存
+)
+
+# 第一次请求：计算并缓存 Prefix（检索文档）的 KV Cache
+outputs_1 = llm.generate([
+    "检索文档：...\n\n用户问题：什么是量子计算？"
+], params)
+
+# 第二次请求：相同的检索文档，Prefix KV Cache 直接复用！
+# 延迟降低 40-60%
+outputs_2 = llm.generate([
+    "检索文档：...\n\n用户问题：量子计算有什么应用？"
+], params)
+```
 
 **▌ 选型对比表**
 
-| 对比维度 | GenericAgent | LangChain | AutoGen | DeerFlow |
-|---------|-------------|----------|---------|----------|
-| Star数 | 6.8万 | 10.2万 | 4.8万 | 11.3万 |
-| 核心思想 | 轻量自主Agent | 链式Prompt编排 | 多Agent对话 | 多Agent协同 |
-| 内存占用 | 极低（512MB可跑） | 高（2GB+） | 高（2GB+） | 中（1GB+） |
-| 启动速度 | <2秒 | 10-20秒 | 15-25秒 | 5-10秒 |
-| 自主学习 | ✅ 支持 | ❌ 无 | ❌ 无 | ❌ 无 |
-| 适合场景 | 资源受限环境/大规模部署 | 复杂工作流 | 多角色协作 | 企业级复杂任务 |
-| 选型建议 | 推荐用于低成本/大规模场景 | 功能最全但重 | 多角色辩论 | 复杂任务自动化 |
+| 对比维度 | vLLM | Ollama | SGLang | TGI（已维护模式） |
+|---------|------|--------|--------|-----------------|
+| **定位** | 生产级高吞吐推理 | 本地开发/小团队 | 高吞吐 + 前缀复用优化 | 生产级（已停更） |
+| **峰值吞吐量** | ~793 tok/s（A100） | ~41 tok/s | ~1050 tok/s（SGLang 优势场景） | ~500 tok/s |
+| **P99 延迟** | 80ms（峰值） | 673ms | 60ms | 100ms |
+| **Apple Silicon** | ❌ 不支持 | ✅ 一等公民（MLX） | ❌ 不支持 | ❌ 不支持 |
+| **AMD GPU** | ✅ 一等公民（ROCm 7.0+） | ✅ 支持 | ✅ 支持 | 部分支持 |
+| **前缀缓存** | ✅ | ❌ | ✅✅ RadixAttention | ✅ |
+| **持续批处理** | ✅ | ✅（有限） | ✅ | ✅ |
+| **学习曲线** | 中高 | 极低 | 中 | 中 |
+| **2026 年推荐** | ✅ 生产首选 | ✅ 本地开发首选 | ✅ RAG 场景首选 | ❌ 不推荐新项目 |
 
-**▌ 学习路线**（170字）
+**▌ 学习路线**
 
-**前置知识**：Python 基础、了解 Agent 基本概念（什么叫 Tool Calling / Function Calling）。
-
-**入门资源**：
-- 官方 GitHub：`https://github.com/genericagent/genericagent`
-- 易方达技术博客："如何用开源 Agent 框架自动化投研数据处理的实践分享"（2026年4月）
-- 示例集：`https://github.com/genericagent/examples`
-
-**进阶方向**：大规模部署（Kubernetes + GenericAgent）、自定义工具开发、策略网络训练（让 Agent 从成功案例中学习）。
-
-**今日行动**：`pip install genericagent`，然后运行 `genericagent run "帮我查一下今天的天气"`，观察它的执行计划输出——你会直观理解"轻量 Agent"的决策过程是透明且可控的。
+1. **入门（1 天）**：用 Docker 部署 vLLM，跑通 OpenAI 兼容 API 测试
+2. **理解（2-3 天）**：阅读 vLLM 的 PagedAttention 论文（或博客解读），理解为什么它能提升 2-19 倍吞吐量
+3. **进阶（1 周）**：学习 vLLM 的性能调优参数（`--max-num-seqs`、`--gpu-memory-utilization`、`--tensor-parallel-size`）
+4. **生产（2-4 周）**：搭建 vLLM 的 Kubernetes 部署（使用 vLLM 官方 Helm Chart），配置监控（Prometheus + Grafana）
+5. **深入（1 个月+）**：阅读 vLLM 源码，理解 Scheduler 的调度算法，或者参与 vLLM 社区贡献
 
 ---
 
-🔗 **信息来源：** 腾讯新闻（2026-04-17）/ 搜狗搜索（2026-04-17）/"易方达金融科技"官方技术分享
-
+🔗 **信息来源：** [vLLM GitHub](https://github.com/vllm-project/vllm) | [codersera.com vLLM vs Ollama vs LM Studio 2026](https://codersera.com/blog/vllm-vs-ollama-vs-lm-studio-production-2026/) | [releasealert.dev vLLM Releases](https://releasealert.dev/github/vllm-project/vllm)
 
 ---
 
-*本文件由 AI 自动生成 | 数据来源：GitHub Trending 2026年4月-5月 | 生成时间：2026-05-23 07:00*
+### 6. 【bytedance/UI-TARS-desktop】字节跳动开源多模态 AI 智能体技术栈（⭐⭐ 35,009 Star，月增 5,606）
+
+> 📍 **导语**：2026 年，AI Agent 从"纯文本对话"走向"能看、能操作、能执行"的多模态智能体，是一个不可逆转的趋势。字节跳动在 2025 年底开源的 `UI-TARS-desktop`，在 2026 年 5 月继续保持稳定增长，本月新增 5,606 Star，总 Star 数达到 3.5 万。这个项目的核心定位是"连接前沿 AI 模型与智能体基础设施"——它不仅能理解自然语言指令，还能"看到"屏幕内容、"操作"桌面应用、"记住"历史交互。对于那些想要构建"能操作电脑的 AI Agent"的开发者来说，UI-TARS 是目前开源社区里最完整的多模态 Agent 技术栈。
+
+---
+
+**⭐ 深度项目解析**
+
+**▌ 项目数据速览**
+
+`bytedance/UI-TARS-desktop` 是由字节跳动开源的多模态 AI 智能体桌面应用，使用 TypeScript 开发（基于 Electron）。截至 2026 年 5 月 23 日，项目在 GitHub 上累计获得 **35,009 Star**，过去 30 天新增 **5,606 Star**。项目的 Fork 数达 3,518，说明已有不少开发者和公司在基于 UI-TARS 构建自己的多模态 Agent 产品。从技术架构来看，UI-TARS-desktop 集成了以下几个核心模块：视觉感知（Screen Understanding）、动作规划（Action Planning）、工具调用（Tool Use）、记忆管理（Memory Management）。项目支持多种大模型后端（包括字节自研的 UI-TARS 模型、OpenAI GPT-4V、Claude 3.5 Sonnet、以及本地 Ollama），并且提供了完整的桌面应用体验（Windows/macOS/Linux 均支持）。
+
+**▌ 它解决了什么真实痛点？**
+
+"让 AI 操作电脑"这个想法并不新鲜（RPA 工具已经存在了 20 年），但传统的 RPA 工具存在几个核心痛点：
+
+1. **脆弱的选择器机制**：传统 RPA 通过 DOM 选择器或坐标来定位 UI 元素，一旦界面更新就会失效。UI-TARS 通过**视觉理解**（VLM，Vision-Language Model）来定位 UI 元素——它"看到"的是像素，而不是 DOM 树，因此对界面变化的鲁棒性强得多
+2. **无法处理"模糊指令"**：传统 RPA 只能执行精确的工作流定义（"点击 ID=submit-button 的按钮"），而 UI-TARS 可以执行模糊的自然语言指令（"帮我在抖音创作者中心把上周的视频数据导出成 Excel"）
+3. **跨应用协作困难**：传统 RPA 通常针对单个应用做自动化，而真实办公场景需要跨应用协作（从飞书文档读取内容 → 在浏览器搜索 → 把结果粘贴到 Excel）。UI-TARS 的多模态理解能力天然支持跨应用操作
+4. **开源替代闭源 RPA**：UiPath、Automation Anywhere 等闭源 RPA 工具许可证昂贵，且主要面向大企业销售。UI-TARS 提供了一个完全开源、可自部署的替代方案
+
+**▌ 核心原理与架构**
+
+UI-TARS-desktop 的核心架构基于**视觉-语言-动作（Vision-Language-Action）** 闭环：
+
+```
+用户自然语言指令："帮我把飞书文档里的会议纪要整理成待办清单"
+                     ↓
+        ┌──────────────────────────────────────┐
+        │          Perception Module            │
+        │   截取屏幕 → VLM 理解当前界面状态      │
+        │   识别可交互元素（按钮、输入框...）      │
+        └──────────────┬───────────────────────┘
+                       ↓
+        ┌──────────────────────────────────────┐
+        │          Planning Module              │
+        │   基于指令 + 当前界面状态               │
+        │   生成动作序列：                       │
+        │   1. 点击"飞书文档"图标                │
+        │   2. 搜索"会议纪要"                    │
+        │   3. 全选复制                         │
+        │   4. 打开 Excel                       │
+        │   5. 粘贴并格式化                     │
+        └──────────────┬───────────────────────┘
+                       ↓
+        ┌──────────────────────────────────────┐
+        │          Action Module                │
+        │   执行具体动作：                       │
+        │   - Mouse: click(x, y), drag, scroll │
+        │   - Keyboard: type(text), hotkey     │
+        │   - System: run(command)             │
+        └──────────────┬───────────────────────┘
+                       ↓
+        ┌──────────────────────────────────────┐
+        │          Reflection Module            │
+        │   验证动作是否达到预期                  │
+        │   如果失败 → 重新规划                   │
+        │   如果成功 → 继续下一步                 │
+        └──────────────────────────────────────┘
+                       ↓
+        任务完成，输出结果给用户
+```
+
+**核心技术组件**：
+
+1. **UI-TARS 模型（字节自研 VLM）**：专门针对 UI 理解任务训练的视觉语言模型，能识别界面中的按钮、输入框、菜单等元素，并理解它们的语义（"那个蓝色的按钮是'登录'按钮"）
+2. **Set-of-Mark（SoM）提示技术**：在屏幕上覆盖半透明编号标记，帮助 VLM 精确定位点击坐标
+3. **ReAct 式推理循环**（Reasoning + Acting）：每执行一个动作后，先"观察"屏幕变化，再决定下一步动作（而不是一次性生成完整动作序列）
+
+**▌ 5分钟快速上手**
+
+```bash
+# 1. 下载桌面应用（最简单的方式）
+# 访问 GitHub Releases 页面，下载对应操作系统的安装包
+# https://github.com/bytedance/UI-TARS-desktop/releases
+
+# macOS：
+brew install --cask ui-tars-desktop
+# 或下载 .dmg 文件手动安装
+
+# 2. 启动应用后，配置 LLM 后端
+# 在设置页面选择：
+# - 使用字节自研 UI-TARS 模型（需要申请 API Key）
+# - 或使用 OpenAI GPT-4V（需要 OpenAI API Key）
+# - 或使用本地 Ollama + LLaVA 模型（完全离线）
+
+# 3. 快速测试：让 UI-TARS 帮你打开一个网页并截图
+# 在 UI-TARS 的对话框中输入：
+"打开 https://github.com/trending，截图保存前5个项目的名称"
+
+# 4. 开发者模式：通过配置文件自定义 Agent 行为
+# 配置文件路径：
+# macOS: ~/Library/Application Support/UI-TARS/config.json
+# Windows: %APPDATA%\UI-TARS\config.json
+# Linux: ~/.config/UI-TARS/config.json
+```
+
+对于开发者，也可以通过 SDK 方式集成 UI-TARS 的能力：
+
+```typescript
+import { UITarsAgent } from '@ui-tars/sdk';
+
+const agent = new UITarsAgent({
+  model: 'ui-tars-72b',  // 字节自研模型
+  // 或者使用 OpenAI 兼容接口
+  // model: 'gpt-4-vision-preview',
+  // baseURL: 'https://api.openai.com/v1',
+  // apiKey: 'sk-...',
+});
+
+// 执行任务
+await agent.run({
+  instruction: '打开浏览器，搜索"2026年 AI 趋势"，把前3条结果保存到 notes.txt',
+  maxSteps: 20,  // 最多执行 20 步
+  onStep: (step) => {
+    console.log(`Step ${step.number}: ${step.action}`);
+    console.log(`Observation: ${step.observation}`);
+  },
+});
+```
+
+**▌ 真实场景实战**
+
+**场景一：办公自动化——会议纪要 → 待办清单**
+
+```
+用户指令："把今天飞书会议里的待办事项整理成 TAPD 任务"
+UI-TARS 执行流程：
+  1. 打开飞书，定位到今天的会议记录
+  2. 用 OCR + LLM 提取待办事项（"张三负责测试"、"李四负责部署"）
+  3. 打开 TAPD，逐个创建任务
+  4. 把任务链接回复给用户
+```
+
+**场景二：数据采集——竞品监控**
+
+```
+用户指令："每周一帮我采集竞争对手官网的产品更新，用 Excel 记录"
+UI-TARS 执行流程：
+  1. 打开竞争对手官网
+  2. 截图产品页面
+  3. 用 VLM 理解页面内容，提取产品更新信息
+  4. 打开 Excel（或 Google Sheets）
+  5. 追加一行记录（日期、竞品名称、更新内容）
+  6. 设置定时任务，每周一自动执行
+```
+
+**场景三：软件测试——UI 自动化测试的新思路**
+
+传统 Web UI 测试用 Selenium/Playwright，需要写代码来定位元素。UI-TARS 可以用自然语言描述测试步骤：
+
+```
+测试指令："测试用户登录流程：
+  1. 打开登录页面
+  2. 输入用户名 test@example.com
+  3. 输入密码 Test1234
+  4. 点击登录按钮
+  5. 验证是否跳转到首页"
+
+UI-TARS 会自动：
+  - 识别用户名输入框的位置（通过视觉理解）
+  - 点击并输入
+  - 识别密码输入框
+  - 点击并输入
+  - 识别登录按钮
+  - 点击
+  - 验证跳转（截图 + VLM 理解）
+```
+
+**▌ 选型对比表**
+
+| 对比维度 | UI-TARS-desktop | OpenClaw | browser-use | Playwright |
+|---------|-----------------|----------|-------------|------------|
+| **多模态理解** | ✅ VLM 驱动 | ✅ | ✅ | ❌ 基于 DOM |
+| **跨应用操作** | ✅ 原生支持 | ✅ | ❌ 仅浏览器 | ❌ 仅浏览器 |
+| **自然语言指令** | ✅ | ✅ | ✅ | ❌ 需要写代码 |
+| **界面变化鲁棒性** | ✅ 高（视觉理解） | ✅ 高 | ✅ 高 | 低（选择器易失效） |
+| **开源** | ✅ | 部分 | ✅ | ✅ |
+| **学习曲线** | 低（自然语言） | 中 | 中 | 高（需要编程） |
+| **适合场景** | 办公自动化 | 通用 Agent | Web 自动化 | Web 测试/爬虫 |
+
+**▌ 学习路线**
+
+1. **入门（1 天）**：下载 UI-TARS-desktop 桌面应用，用自然语言指令测试基本功能
+2. **进阶（3-5 天）**：阅读 UI-TARS 的技术文档，理解 SoM（Set-of-Mark）提示技术和 ReAct 推理循环
+3. **实战（1-2 周）**：基于 UI-TARS SDK 开发一个自定义自动化流程（例如竞品监控、数据采集）
+4. **深入（1 个月+）**：研究 UI-TARS 模型的训练数据和方法，或者参与开源社区贡献
+
+---
+
+🔗 **信息来源：** [GitHub bytedance/UI-TARS-desktop](https://github.com/bytedance/UI-TARS-desktop)（35,009 ⭐ / 2026-05-23）| [git-trending-rank 2026年5月月榜](https://git-trending-rank.github.io/post/trending-monthly-2026年5月/)
+
+---
+
+### 7. 【Ollama】本地大模型运行利器，MLX 加速让 Apple Silicon 性能翻倍（⭐⭐ 91,900+ Star，2026年持续最受欢迎）
+
+> 📍 **导语**：Ollama 可能是目前最受欢迎的本地大模型运行工具——它的核心理念是"让每个开发者都能在本地跑大模型，就像 `docker run` 一样简单"。2026 年 3 月，Ollama 0.19 版本发布了一个里程碑式更新：在 Apple Silicon（M 系列芯片）上，Ollama 从基于 llama.cpp 切换到 Apple 原生的 MLX 框架，结果 Prefill 速度提升 57%、Decode 速度提升 93%。对于那些用 MacBook Pro 做 AI 开发的用户来说，这相当于免费升级了硬件。截至 2026 年 5 月，Ollama 在 GitHub 上累计获得超过 9.19 万 Star，是本地大模型领域的绝对标杆。
+
+---
+
+**⭐ 深度项目解析**
+
+**▌ 项目数据速览**
+
+Ollama 是一个开源的本地大模型运行工具，底层最初基于 `llama.cpp`（处理 GGUF 格式模型），从 0.19 版本（2026 年 3 月预览）开始，在 Apple Silicon 上切换为 Apple 原生的 MLX 框架。截至 2026 年 5 月 23 日，Ollama 在 GitHub 上累计获得 **91,900+ Star**，过去 30 天新增约 **2,100 Star**（Ollama 是一款"长青"工具，增长速度稳定但不爆发性）。Ollama 的安装包是一个单一静态二进制文件（~50MB），不依赖任何外部库，支持 macOS、Linux、Windows（WSL2）。Ollama 同时提供了一个与 OpenAI API 兼容的 REST API（`http://localhost:11434/v1/`），使得任何支持 OpenAI API 的工具都能无缝切换到本地 Ollama 后端。项目的活跃度极高，几乎每周都有新版本发布，社区生态（Ollama model library）已收录超过 500 个预优化模型。
+
+**▌ 它解决了什么真实痛点？**
+
+在 Ollama 出现之前（2023 年及更早），在本地运行大模型是一件痛苦的事情：
+
+1. **llama.cpp 编译复杂**：需要手动克隆仓库、安装依赖、根据硬件选择编译选项（Metal？CUDA？OpenBLAS？）、编译等待 10-30 分钟
+2. **模型格式混乱**：Hugging Face 上的模型通常是 PyTorch 的 `.bin` 或 `.safetensors` 格式，需要手动转换成 GGUF 格式才能用 llama.cpp 跑。转换过程复杂，且容易出错
+3. **缺乏统一的模型管理**：每个项目自己管理模型文件，重复下载、重复存储（一个 7B 模型量化后约 4-5GB，10 个项目就能占掉 50GB 磁盘）
+4. **API 不统一**：本地模型没有统一的 API 标准，每个工具链都有自己的接口。Ollama 通过兼容 OpenAI API 解决了这个问题
+5. **Apple Silicon 优化不足**：在 M 系列芯片上，llama.cpp 通过 Metal 后端可以跑，但性能远不如专用的 MLX 框架。Ollama 0.19+ 自动切换 MLX，让 Apple Silicon 用户获得最佳性能
+
+**▌ 核心原理与架构**
+
+Ollama 的架构可以分为三层：
+
+```
+┌─────────────────────────────────────────────────────────┐
+│                    Ollama CLI / API Layer                │
+│  `ollama run` / `ollama pull` / `ollama list` / REST API │
+│  兼容 OpenAI API 格式                                      │
+└────────────────────┬────────────────────────────────────┘
+                     │
+┌────────────────────▼────────────────────────────────────┐
+│              Model Management Layer                      │
+│  - 模型下载、存储、版本管理                                 │
+│  - GGUF/MLX 模型格式自动识别                                │
+│  - 模型库（类似 Docker Hub）：ollama.com/library           │
+│  - 智能模型缓存（相同模型不同项目共享存储）                   │
+└────────────────────┬────────────────────────────────────┘
+                     │
+┌────────────────────▼────────────────────────────────────┐
+│              Inference Engine Layer                       │
+│  ┌─────────────────┐   ┌─────────────────┐             │
+│  │ Apple Silicon    │   │ NVIDIA/AMD GPU  │             │
+│  │ MLX Framework    │   │ CUDA/ROCm       │             │
+│  │ (0.19+)         │   │ (llama.cpp)     │             │
+│  └─────────────────┘   └─────────────────┘             │
+│  ┌─────────────────┐   ┌─────────────────┐             │
+│  │ CPU Fallback     │   │ GPU + CPU Hybrid│             │
+│  │ (AVX2/AVX-512)  │   │ (部分层 GPU)    │             │
+│  └─────────────────┘   └─────────────────┘             │
+└─────────────────────────────────────────────────────────┘
+```
+
+**Ollama 0.19 的 MLX 切换**是 2026 年最值得关注的更新：
+
+| 指标 | llama.cpp（切换前） | MLX（切换后） | 提升幅度 |
+|------|-------------------|---------------|----------|
+| Prefill 速度 | 1,154 tok/s | 1,810 tok/s | **+57%** |
+| Decode 速度 | 58 tok/s | 112 tok/s | **+93%** |
+| 内存占用 | 较高 | 优化（统一内存架构） | **-20%** |
+
+MLX 是 Apple 专门为 Apple Silicon 设计的机器学习框架，充分利用了 M 系列芯片的**统一内存架构**（CPU 和 GPU 共享同一块物理内存，不需要 CPU→GPU 数据拷贝）。
+
+**▌ 5分钟快速上手**
+
+```bash
+# 1. 安装 Ollama（macOS）
+brew install ollama
+
+# 或使用官方安装脚本（Linux/macOS）
+curl -fsSL https://ollama.com/install.sh | sh
+
+# Windows：下载安装包 https://ollama.com/download/windows
+
+# 2. 启动 Ollama 服务（会自动在后台运行）
+ollama serve
+# 或者直接在下一步用 `ollama run` 会自动启动服务
+
+# 3. 拉取并运行一个模型（首次运行会自动拉取）
+ollama run qwen3:8b
+# 这会下载 Qwen3 8B 模型（约 4.7GB），然后进入交互式对话
+
+# 4. 在另一个终端测试 API
+curl http://localhost:11434/v1/chat/completions \
+  -H "Content-Type: application/json" \
+  -d '{
+    "model": "qwen3:8b",
+    "messages": [{"role": "user", "content": "解释量子纠缠"}],
+    "stream": false
+  }'
+
+# 5. 查看已安装的模型
+ollama list
+
+# 6. 拉取更多模型
+ollama pull deepseek-r1:7b     # 推理模型
+ollama pull llama3.1:8b         # 通用模型
+ollama pull phi4:7b              # 微软小模型，速度快
+```
+
+在 Python 中使用 Ollama（通过 OpenAI 兼容客户端）：
+
+```python
+from openai import OpenAI
+
+# Ollama 兼容 OpenAI API，只需要改 base_url
+client = OpenAI(
+    base_url="http://localhost:11434/v1",
+    api_key="ollama"  # 任意值，Ollama 不验证 API Key
+)
+
+response = client.chat.completions.create(
+    model="qwen3:8b",
+    messages=[
+        {"role": "system", "content": "你是一个有帮助的助手"},
+        {"role": "user", "content": "用 Python 写一个快速排序"}
+    ]
+)
+print(response.choices[0].message.content)
+```
+
+**▌ 真实场景实战**
+
+**场景一：个人开发者的"本地 AI 编程助手"**
+
+```bash
+# 配合 Claude Code / Cursor / Continue.dev 使用 Ollama
+# 在 Claude Code 中配置自定义模型端点：
+
+# ~/.claude/settings.json
+{
+  "models": [
+    {
+      "name": "qwen3-local",
+      "endpoint": "http://localhost:11434/v1",
+      "apiKey": "ollama",
+      "model": "qwen3:8b"
+    }
+  ]
+}
+
+# 这样 Claude Code 会调用本地 Ollama，完全离线、零 API 成本
+```
+
+**场景二：企业内部知识库问答（RAG）**
+
+```python
+from openai import OpenAI
+import numpy as np
+
+client = OpenAI(base_url="http://localhost:11434/v1", api_key="ollama")
+
+# 1. 文档向量化（使用 Ollama 的 embedding 模型）
+def embed(texts):
+    response = client.embeddings.create(
+        model="nomic-embed-text",  # Ollama 提供的 embedding 模型
+        input=texts
+    )
+    return [d.embedding for d in response.data]
+
+# 2. 语义搜索
+query = "如何申请年假？"
+query_embedding = embed([query])[0]
+
+# 3. 检索最相关的文档片段（简化版，生产环境用向量数据库）
+# ...
+
+# 4. 用检索到的文档作为上下文，让 LLM 回答
+context = "年假申请流程：..."
+response = client.chat.completions.create(
+    model="qwen3:8b",
+    messages=[{
+        "role": "user",
+        "content": f"基于以下上下文回答问题：\n{context}\n\n问题：{query}"
+    }]
+)
+```
+
+**场景三：离线环境的数据分析助手**
+
+在没有外网的场景（企业内网、飞机上、偏远地区），Ollama 可以提供 AI 能力：
+
+```bash
+# 在有网的时候预先拉取需要的模型
+ollama pull qwen3:8b
+ollama pull codellama:7b
+ollama pull nomic-embed-text
+
+# 然后断网，Ollama 仍然可以正常工作
+# 适合：飞机上写代码、企业内网部署、隐私敏感的数据分析
+```
+
+**▌ 选型对比表**
+
+| 对比维度 | Ollama | LM Studio | llama.cpp | vLLM |
+|---------|--------|-----------|-----------|------|
+| **易用性** | ✅✅✅ 极高 | ✅✅✅ 极高（GUI） | ✅ 低（需要编译） | ❌ 低（需要运维） |
+| **Apple Silicon 性能** | ✅✅ MLX 加速 | ✅✅ MLX 引擎 | ✅ Metal 后端 | ❌ 不支持 |
+| **生产吞吐** | ✅ 低并发适用 | ✅ 低并发适用 | ✅ 低并发适用 | ✅✅✅ 高吞吐 |
+| **模型生态** | ✅✅ 500+ 模型 | ✅✅ 模型商店 | ✅ 需要手动转换 | ✅ 需要手动转换 |
+| **API 兼容性** | ✅ OpenAI 兼容 | ✅ OpenAI 兼容（llmster） | ❌ 自定义 | ✅ OpenAI 兼容 |
+| **适合场景** | 本地开发/小团队 | 非技术用户/本地开发 | 极致定制化 | 生产级推理服务 |
+
+**▌ 学习路线**
+
+1. **入门（30 分钟）**：安装 Ollama，运行 `ollama run qwen3:8b`，体验本地 LLM 对话
+2. **基础（1 天）**：学习 Ollama 的模型管理命令（`pull`/`list`/`rm`/`cp`），理解量化模型的选择（Q4_K_M vs Q8_0 vs FP16）
+3. **集成（2-3 天）**：将 Ollama 接入你的开发工具链（Claude Code/Cursor/Continue.dev），或者接入你的 Python 应用（通过 OpenAI 兼容客户端）
+4. **进阶（1 周）**：学习如何创建自定义 Ollama 模型（`Modelfile`），包括系统提示词、温度参数、上下文长度的定制
+5. **深入（持续）**：关注 Ollama 的版本更新（尤其是 MLX 相关的性能优化），以及新模型在 Ollama 上的适配情况
+
+---
+
+🔗 **信息来源：** [Ollama 官网](https://ollama.com) | [GitHub ollama/ollama](https://github.com/ollama/ollama)（91,900+ ⭐ / 2026-05-23）| [codersera.com vLLM vs Ollama vs LM Studio 2026](https://codersera.com/blog/vllm-vs-ollama-vs-lm-studio-production-2026/)
+
+---
+
+## 2026 年 5 月 GitHub 开源趋势总结
+
+基于对过去 30 天 GitHub Trending 数据的深度分析，我们可以清晰地看到以下几个趋势：
+
+### 🔥 趋势一：Claude Skills 生态爆发，AI 编程进入"技能可复用"时代
+
+本月 GitHub 增长最快的 5 个项目中有 3 个是 Claude Code Skills 项目。这标志着 AI 编程工具从"模型能力竞争"转向"使用方式竞争"——同样的 Claude 3.5/4，配上不同的 Skills，效果可以相差 3-5 倍。头部开发者（Matt Pocock、Andrej Karpathy）开源自己的私有工作流，正在形成新的知识传播模式。
+
+### 🔥 趋势二：多 Agent 协作从学术界走向生产
+
+`TradingAgents`、`ruflo` 等项目的爆火，说明多 Agent 协作已经不再是学术论文里的概念，而是有真实经济价值的工程问题。金融、内容生产、企业自动化等场景正在成为多 Agent 系统的"第一批生产用户"。
+
+### 🔥 趋势三：本地大模型工具链走向成熟
+
+Ollama 0.19 的 MLX 加速、vLLM 的 AMD 一等公民支持、LM Studio 的 llmster 无头模式——本地大模型的基础设施在 2026 年上半年取得了实质性进展。"本地跑大模型"从极客玩法变成了生产可行的选项。
+
+### 🔥 趋势四：多模态 Agent 成为下一个战场
+
+`UI-TARS-desktop`、`` 等项目的持续增长，表明 AI Agent 的下一个进化方向是"能看、能操作、能执行"。这个领域的开源替代闭源产品的趋势非常明显——企业不愿意把"让 AI 操作电脑"的能力完全交给微软/谷歌。
+
+### 🔥 趋势五：开发者工具链的全面 CLI 化
+
+从搜索结果中可以看到，2026 年开发者工具的一个明显趋势是"一切皆 CLI"——大厂云、协作平台、AI 能力、甚至地图和出行服务，都在提供 CLI 工具。这与 AI Agent 的兴起有直接关系：CLI 是 AI Agent 最容易调用的接口形式。
+
+---
+
+> **报告说明**：本报告基于 2026 年 5 月 23 日可访问的 GitHub Trending 数据、开源项目官方仓库、以及多家技术媒体的深度分析文章撰写。项目 Star 数为估算值，实际数据请以 GitHub 官方页面为准。
