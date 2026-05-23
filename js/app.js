@@ -317,7 +317,7 @@
                         <div class="card-body"></div>
                     </div>`;
                 const cardBody = newsContent.querySelector('.card-body');
-                cardBody.innerHTML = cachedHtml;
+                cardBody.innerHTML = sanitizeHtml(cachedHtml);
                 addNewsToggle(cardBody);
                 newsContent.scrollTop = 0;
                 return;
@@ -354,7 +354,7 @@
                     <div class="card-body"></div>
                 </div>`;
             const cardBody = newsContent.querySelector('.card-body');
-            cardBody.innerHTML = html;
+            cardBody.innerHTML = sanitizeHtml(html);
             addNewsToggle(cardBody);
             newsContent.scrollTop = 0;
 
@@ -469,7 +469,7 @@
         // 命中内存缓存
         if (contentCache.has(cacheKey)) {
             const body = card.querySelector('.card-body');
-            body.innerHTML = contentCache.get(cacheKey);
+            body.innerHTML = sanitizeHtml(contentCache.get(cacheKey));
             addNewsToggle(body);
             card.dataset.loading = '0';
             card.dataset.loaded = '1';
@@ -481,7 +481,7 @@
         if (lsCached) {
             contentCache.set(cacheKey, lsCached);
             const body = card.querySelector('.card-body');
-            body.innerHTML = lsCached;
+            body.innerHTML = sanitizeHtml(lsCached);
             addNewsToggle(body);
             card.dataset.loading = '0';
             card.dataset.loaded = '1';
@@ -508,6 +508,15 @@
         } catch (e) {
             body.innerHTML = `<div class="error-msg"><p>⚠️ ${catName} 加载失败</p></div>`;
         }
+    }
+
+    // ==========================================
+    //  全局HTML清理：移除任何残留的占位符
+    // ==========================================
+    function sanitizeHtml(html) {
+        return html
+            .replace(/%%%INLINECODE_?\d+%%%/g, '<code>[代码]</code>')
+            .replace(/%%%CODEBLOCK_?\d+%%%/g, '<pre><code>[代码块]</code></pre>');
     }
 
     // ==========================================
@@ -670,9 +679,6 @@
         // 还原代码块占位符
         html = html.replace(/%%%CODEBLOCK_?(\d+)%%%/g, (_, idx) => codeBlocks[parseInt(idx)]);
         html = html.replace(/%%%INLINECODE_?(\d+)%%%/g, (_, idx) => inlineCodes[parseInt(idx)]);
-        // 兜底清理：移除任何残留的占位符（防止 AI 生成时格式不一致）
-        html = html.replace(/%%%INLINECODE\d+%%%/g, '<code>[代码]</code>');
-        html = html.replace(/%%%CODEBLOCK\d+%%%/g, '<pre><code>[代码块]</code></pre>');
 
         return html;
     }
