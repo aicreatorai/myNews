@@ -668,8 +668,11 @@
         html = html.replace(/<p><\/p>/g, '');
 
         // 还原代码块占位符
-        html = html.replace(/%%%CODEBLOCK_(\d+)%%%/g, (_, idx) => codeBlocks[parseInt(idx)]);
-        html = html.replace(/%%%INLINECODE_(\d+)%%%/g, (_, idx) => inlineCodes[parseInt(idx)]);
+        html = html.replace(/%%%CODEBLOCK_?(\d+)%%%/g, (_, idx) => codeBlocks[parseInt(idx)]);
+        html = html.replace(/%%%INLINECODE_?(\d+)%%%/g, (_, idx) => inlineCodes[parseInt(idx)]);
+        // 兜底清理：移除任何残留的占位符（防止 AI 生成时格式不一致）
+        html = html.replace(/%%%INLINECODE\d+%%%/g, '<code>[代码]</code>');
+        html = html.replace(/%%%CODEBLOCK\d+%%%/g, '<pre><code>[代码块]</code></pre>');
 
         return html;
     }
