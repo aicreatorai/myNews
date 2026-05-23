@@ -151,6 +151,55 @@ body {
     color: #ccc;
 }
 
+/* 字体大小控制 */
+.fontsize-controls {
+    display: flex;
+    align-items: center;
+    gap: 2px;
+    background: rgba(255,255,255,0.08);
+    border-radius: 8px;
+    padding: 2px;
+}
+.fontsize-btn {
+    background: transparent;
+    border: none;
+    color: #ccc;
+    font-size: 0.75rem;
+    font-weight: 700;
+    cursor: pointer;
+    padding: 4px 7px;
+    border-radius: 6px;
+    line-height: 1;
+    transition: background 0.2s, color 0.2s;
+    min-width: 24px;
+    text-align: center;
+}
+.fontsize-btn:hover {
+    background: rgba(255,255,255,0.15);
+    color: #fff;
+}
+.fontsize-btn:active {
+    background: rgba(255,255,255,0.25);
+}
+.fontsize-reset {
+    font-size: 0.7rem;
+    opacity: 0.7;
+    border-left: 1px solid rgba(255,255,255,0.15);
+    border-right: 1px solid rgba(255,255,255,0.15);
+    border-radius: 0;
+    padding: 4px 8px;
+}
+[data-theme="dark"] .fontsize-controls {
+    background: rgba(0,0,0,0.2);
+}
+[data-theme="dark"] .fontsize-btn {
+    color: #aaa;
+}
+[data-theme="dark"] .fontsize-btn:hover {
+    background: rgba(0,0,0,0.3);
+    color: #fff;
+}
+
 /* 刷新按钮 */
 .refresh-btn {
     background: rgba(0,0,0,0.05);

@@ -710,6 +710,50 @@
     }
 
     // ==========================================
+    //  字体大小控制
+    // ==========================================
+    const FONT_SIZES = [14, 16, 18, 20, 22];  // 可选档位
+    const DEFAULT_INDEX = 1;                    // 默认 16px
+
+    function getFontIndex() {
+        const saved = localStorage.getItem('fontSize');
+        if (saved) {
+            const idx = parseInt(saved);
+            if (idx >= 0 && idx < FONT_SIZES.length) return idx;
+        }
+        return DEFAULT_INDEX;
+    }
+
+    function applyFontSize(idx) {
+        document.documentElement.style.fontSize = FONT_SIZES[idx] + 'px';
+        localStorage.setItem('fontSize', idx.toString());
+        updateFontButtons(idx);
+    }
+
+    function updateFontButtons(idx) {
+        const down = document.getElementById('fontSizeDown');
+        const reset = document.getElementById('fontSizeReset');
+        const up = document.getElementById('fontSizeUp');
+        if (down) down.style.opacity = idx <= 0 ? '0.3' : '1';
+        if (up) up.style.opacity = idx >= FONT_SIZES.length - 1 ? '0.3' : '1';
+        if (reset) reset.style.fontWeight = idx === DEFAULT_INDEX ? '700' : '400';
+    }
+
+    // 初始化
+    applyFontSize(getFontIndex());
+
+    // 按钮事件
+    document.getElementById('fontSizeDown')?.addEventListener('click', () => {
+        applyFontSize(Math.max(0, getFontIndex() - 1));
+    });
+    document.getElementById('fontSizeUp')?.addEventListener('click', () => {
+        applyFontSize(Math.min(FONT_SIZES.length - 1, getFontIndex() + 1));
+    });
+    document.getElementById('fontSizeReset')?.addEventListener('click', () => {
+        applyFontSize(DEFAULT_INDEX);
+    });
+
+    // ==========================================
     //  事件绑定
     // ==========================================
     function setupEventListeners() {
