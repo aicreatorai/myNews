@@ -232,7 +232,7 @@ body {
     border-color: #c0392b;
 }
 
-/* 隐身模式：只隐藏分类导航条，保留功能导航条 */
+/* 隐身模式：隐藏侧边栏 + 分类导航条 */
 body.stealth-mode .sidebar {
     transform: translateX(-100%);
 }
@@ -240,9 +240,29 @@ body.stealth-mode .category-tabs,
 body.stealth-mode .mobile-category-strip {
     display: none !important;
 }
-body.stealth-mode .main-content {
-    max-width: 100%;
-    padding: 12px 20px;
+
+/* 移动端隐身模式 */
+@media (max-width: 767px) {
+    body.stealth-mode .main-content {
+        max-width: 100%;
+        padding: 12px 20px;
+    }
+}
+
+/* PC端隐身模式：侧边栏释放flex空间 + 文章居中显示 */
+@media (min-width: 768px) {
+    body.stealth-mode .sidebar {
+        width: 0;
+        min-width: 0;
+        padding: 0;
+        overflow: hidden;
+        border-right: none;
+    }
+    body.stealth-mode .main-content {
+        max-width: 960px;
+        margin: 0 auto;
+        padding: 24px 28px;
+    }
 }
 
 /* 主题切换按钮 */
