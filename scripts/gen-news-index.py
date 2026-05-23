@@ -11,6 +11,9 @@ OUTPUT = os.path.join(os.path.dirname(NEWS_DIR), "news-index.json")
 
 CATEGORIES = {
     "01": {"name": "新闻早报",     "icon": "🔥"},
+    "02": {"name": "AI与设计创意", "icon": "🎨"},
+    "03": {"name": "AI与数据工程", "icon": "⚙️"},
+    "04": {"name": "技术精选推荐", "icon": "🌟"},
     "05": {"name": "科技前沿",     "icon": "🧠"},
     "06": {"name": "科技动态",     "icon": "🤖"},
     "07": {"name": "AI知识点",     "icon": "🧩"},
