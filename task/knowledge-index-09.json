@@ -477,15 +477,6 @@
       "L2": 17,
       "L3": 3
     },
-    "languages_covered": [
-      "Mojo",
-      "Node.js",
-      "Bun",
-      "Go",
-      "Python",
-      "Java",
-      "Kotlin"
-    ]
-    "languages_covered": ["Swift", "Python", "Java", "TypeScript", "Go", "PHP", "Bun", "Rust", "Kotlin", "C"]
+    "languages_covered": ["Swift", "Python", "Java", "TypeScript", "Go", "PHP", "Bun", "Rust", "Kotlin", "C", "Mojo", "Node.js"]
   }
 }
