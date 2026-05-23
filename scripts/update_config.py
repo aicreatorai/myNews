@@ -3,11 +3,15 @@
 """更新并行新闻生成配置中的条数要求"""
 
 import sys
+import os
 
 sys.stdout.reconfigure(encoding='utf-8')
 
+BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+CONFIG_FILE = os.path.join(BASE_DIR, "task", "并行新闻生成配置.md")
+
 # Read the file
-with open('task/并行新闻生成配置.md', 'r', encoding='utf-8') as f:
+with open(CONFIG_FILE, 'r', encoding='utf-8') as f:
     content = f.read()
 
 # Define the old and new content
@@ -39,7 +43,7 @@ new_table = """| 01 | 01_新闻早报.md | **合并**今日热点+国内+国际+
 
 if old_table in content:
     content = content.replace(old_table, new_table)
-    with open('task/并行新闻生成配置.md', 'w', encoding='utf-8') as f:
+    with open(CONFIG_FILE, 'w', encoding='utf-8') as f:
         f.write(content)
     print("✅ 配置更新成功")
 else:

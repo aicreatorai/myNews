@@ -10,10 +10,7 @@ NEWS_DIR = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__
 OUTPUT = os.path.join(os.path.dirname(NEWS_DIR), "news-index.json")
 
 CATEGORIES = {
-    "01": {"name": "今日头条",     "icon": "🔥"},
-    "02": {"name": "国内热点",     "icon": "🇨🇳"},
-    "03": {"name": "国际视野",     "icon": "🌍"},
-    "04": {"name": "财经市场",     "icon": "💹"},
+    "01": {"name": "新闻早报",     "icon": "🔥"},
     "05": {"name": "科技前沿",     "icon": "🧠"},
     "06": {"name": "科技动态",     "icon": "🤖"},
     "07": {"name": "AI知识点",     "icon": "🧩"},
@@ -148,12 +145,15 @@ def scan():
     ki_dir = os.path.join(os.path.dirname(NEWS_DIR), "task")
     total_records = 0
     module_count = 0
-    for fname in os.listdir(ki_dir):
-        if fname.startswith("knowledge-index-") and fname.endswith(".json"):
-            module_count += 1
-            with open(os.path.join(ki_dir, fname), 'r', encoding='utf-8') as f:
-                total_records += len(json.load(f))
-    print(f"   - 知识索引: {total_records} 条记录, {module_count} 个模块")
+    if os.path.isdir(ki_dir):
+        for fname in os.listdir(ki_dir):
+            if fname.startswith("knowledge-index-") and fname.endswith(".json"):
+                module_count += 1
+                with open(os.path.join(ki_dir, fname), 'r', encoding='utf-8') as f:
+                    total_records += len(json.load(f))
+        print(f"   - 知识索引: {total_records} 条记录, {module_count} 个模块")
+    else:
+        print(f"   - 知识索引: task/ 目录不存在，跳过")
 
 if __name__ == "__main__":
     scan()

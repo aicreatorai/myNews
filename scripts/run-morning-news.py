@@ -4,9 +4,9 @@
 自动执行：清理旧缓存 → 分批生成Agent提示 → 验证 → 生成索引 → Git提交
 
 用法：
-  python3 run-morning-news.py                      # 交互模式，按步骤确认
+  python3 run-morning-news.py                      # 自动模式（默认）
   python3 run-morning-news.py --date 2026-05-15    # 指定日期
-  python3 run-morning-news.py --auto               # 全自动模式（跳过确认）
+  python3 run-morning-news.py --interactive        # 交互模式（手动确认每一步）
   python3 run-morning-news.py --only-post           # 只执行后置步骤（验证+索引+提交）
 
 流程：
@@ -76,9 +76,23 @@ def step(msg):
     print(f"{'='*60}")
 
 def prompt(msg):
-    """交互式确认"""
+    """交互式确认（仅 --interactive 模式使用）"""
     print(f"\n❓ {msg}")
     return input("  按 Enter 继续，输入 'skip' 跳过: ").strip()
+
+def get_git_branch():
+    """自动检测当前 Git 分支名"""
+    try:
+        result = subprocess.run(
+            ["git", "rev-parse", "--abbrev-ref", "HEAD"],
+            cwd=BASE_DIR, capture_output=True, text=True
+        )
+        branch = result.stdout.strip()
+        if branch and result.returncode == 0:
+            return branch
+    except Exception:
+        pass
+    return "main"  # fallback
 
 # ─── 步骤1: 创建输出目录 ───────────────────────────────────
 
@@ -332,10 +346,11 @@ def regenerate_index():
 def git_commit_push(date_params):
     step("Git 提交")
     date_str = date_params["DATE"]
+    branch = get_git_branch()
     cmds = [
         f"git add news/ news-index.json task/knowledge-index*.json",
         f'git commit -m "{date_str} 早间新闻（12板块）"',
-        "git push origin main",
+        f"git push origin {branch}",
     ]
     for cmd in cmds:
         result = subprocess.run(cmd, cwd=BASE_DIR, shell=True, capture_output=True, text=True)
@@ -354,9 +369,9 @@ def git_commit_push(date_params):
 
 # ─── 步骤4-7: 后置步骤（组合） ──────────────────────────────
 
-def post_steps(date_params, auto=False):
+def post_steps(date_params, interactive=False):
     """执行全部后置步骤"""
-    if not auto:
+    if interactive:
         r = prompt("执行验证、生成索引、去重检测和Git提交？")
         if r == "skip":
             print("  跳过后置步骤")
@@ -405,7 +420,7 @@ def main():
     import argparse
     parser = argparse.ArgumentParser(description="早间新闻一键生成工具")
     parser.add_argument("--date", default=None, help="日期 (YYYY-MM-DD)，默认今天")
-    parser.add_argument("--auto", action="store_true", help="全自动模式（跳过确认）")
+    parser.add_argument("--interactive", action="store_true", help="交互模式（手动确认每一步）")
     parser.add_argument("--only-post", action="store_true", help="只执行后置步骤")
     args = parser.parse_args()
 
@@ -420,14 +435,16 @@ def main():
     print(f"\n{'🌟'*10}")
     print(f"  早间新闻一键生成工具")
     print(f"  日期: {date_str}")
-    if args.auto:
-        print(f"  模式: 全自动")
+    if args.interactive:
+        print(f"  模式: 交互")
+    else:
+        print(f"  模式: 自动")
     print(f"{'🌟'*10}\n")
 
-    use_auto = args.auto
+    is_interactive = args.interactive
 
     if args.only_post:
-        post_steps(date_params, auto=use_auto)
+        post_steps(date_params, interactive=is_interactive)
         return
 
     # 步骤1: 创建输出目录
@@ -435,11 +452,11 @@ def main():
     out_dir = create_output_dir(date_params)
     print(f"  ✅ 输出目录已就绪")
 
-    if not use_auto:
+    if is_interactive:
         r = prompt("继续执行清理和生成Agent提示？")
         if r == "skip":
             print("  跳过前置步骤")
-            post_steps(date_params)
+            post_steps(date_params, interactive=True)
             return
 
     # 步骤2: 清理缓存
@@ -454,11 +471,9 @@ def main():
     print(f"  python3 scripts/run-morning-news.py --only-post --date {date_str}")
     print(f"{'='*60}")
 
-    # 如果在自动模式，提示用户执行Agent任务
-    if use_auto:
-        print(f"\n  💡 请将以上2批Agent配置依次交给AI执行。")
-        print(f"  全部完成后，运行:")
-        print(f"  python3 scripts/run-morning-news.py --only-post --date {date_str}")
+    print(f"\n  💡 请将以上2批Agent配置依次交给AI执行。")
+    print(f"  全部完成后，运行:")
+    print(f"  python3 scripts/run-morning-news.py --only-post --date {date_str}")
 
 if __name__ == "__main__":
     main()
