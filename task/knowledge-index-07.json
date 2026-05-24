@@ -378,5 +378,65 @@
     "depth": "概念层 - 统一架构、MoE路由、Mamba状态空间、Glyph视觉Token",
     "angle": "原生多模态架构的三大技术路线对比",
     "keywords_snippet": "原生多模态,统一架构,MoE,Mamba,Glyph,状态空间模型,Emu3"
+  },
+  {
+    "module": "07",
+    "date": "2026-05-24",
+    "topic": "MoE/混合专家架构",
+    "title": "DeepSeek V4引爆MoE：一文读懂混合专家模型核心原理",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "MoE架构核心概念与DeepSeek V4背景介绍",
+    "keywords_snippet": "MoE 混合专家 稀疏激活 门控网络 Router Top-K"
+  },
+  {
+    "module": "07",
+    "date": "2026-05-24",
+    "topic": "MoE/混合专家架构",
+    "title": "MoE路由策略深度对比：从Top-K门控到DeepSeek V3的免辅助损失方案",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "路由策略演进:Top-K,Switch,偏置项方案",
+    "keywords_snippet": "MoE 路由策略 Top-K Gating 辅助损失 负载均衡 DeepSeek V3偏置项"
+  },
+  {
+    "module": "07",
+    "date": "2026-05-24",
+    "topic": "MoE/混合专家架构",
+    "title": "MoE推理加速实战：KV Cache压缩与专家并行优化技术",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "推理加速:KV Cache压缩,专家并行,CSA注意力",
+    "keywords_snippet": "MoE 推理优化 KV Cache CSA 专家并行 vLLM All-to-All 通信"
+  },
+  {
+    "module": "07",
+    "date": "2026-05-24",
+    "topic": "MoE/混合专家架构",
+    "title": "DeepSeek V4 Pro的MoE生产实践：1.6T参数的部署优化之道",
+    "level": "L3",
+    "depth": "实践层",
+    "angle": "生产部署:训练策略,CSA/HCA,量化,API调用",
+    "keywords_snippet": "DeepSeek V4 Pro MoE CSA HCA 训练策略 量化 部署 Int4"
+  },
+  {
+    "module": "07",
+    "date": "2026-05-24",
+    "topic": "MoE/混合专家架构",
+    "title": "DeepSeek V4的CSA与HCA：混合注意力如何重塑MoE推理上限",
+    "level": "L4",
+    "depth": "前沿层",
+    "angle": "前沿创新:CSA/HCA混合注意力与MoE路由感知压缩",
+    "keywords_snippet": "CSA HCA 混合注意力 压缩注意力 MoE路由感知 DeepSeek V4"
+  },
+  {
+    "module": "07",
+    "date": "2026-05-24",
+    "topic": "RAG/检索增强生成",
+    "title": "RAG检索增强生成进阶：高级分块、混合检索与重排序技术全景",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "检索管线:语义分块,混合检索,Cross-Encoder重排",
+    "keywords_snippet": "RAG 语义分块 混合检索 BM25 向量检索 Cross-Encoder 重排序 RRF"
   }
 ]

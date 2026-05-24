@@ -1,22 +1,85 @@
 {
   "07": {
-    "last_main": [],
-    "last_week": ""
+    "last_main": [
+      "T2",
+      "T11"
+    ],
+    "last_week": "2026-05-24"
   },
   "12": {
-    "last_main": [],
-    "last_week": ""
+    "last_main": [
+      "E14",
+      "E12",
+      "E3"
+    ],
+    "last_week": "2026-05-24"
   },
   "13": {
-    "last_main": [],
-    "last_week": ""
+    "last_main": [
+      "U1",
+      "U4",
+      "U16",
+      "U3",
+      "U13"
+    ],
+    "last_week": "2026-05-24"
   },
   "14": {
-    "last_main": [],
-    "last_week": ""
+    "last_main": [
+      "G7",
+      "G7",
+      "G7",
+      "G6",
+      "G6",
+      "G1",
+      "G1"
+    ],
+    "last_week": "2026-05-24"
   },
   "15": {
-    "last_main": [],
-    "last_week": ""
+    "last_main": [
+      "P4",
+      "P2",
+      "P6",
+      "P7",
+      "P3"
+    ],
+    "last_week": "2026-05-24"
+  },
+  "08": {
+    "last_main": [
+      "T1",
+      "T2",
+      "T3",
+      "T4",
+      "T5",
+      "T6",
+      "T7"
+    ],
+    "last_week": "2026-05-24"
+  },
+  "09": {
+    "last_main": [
+      "Deno2.8",
+      "Python3.14",
+      "TypeScript7.0",
+      "Swift6.3",
+      "Mojo1.0",
+      "Kotlin2.3",
+      "Node.js24"
+    ],
+    "last_week": "2026-05-24"
+  },
+  "10": {
+    "last_main": [
+      "P1",
+      "P2",
+      "P3",
+      "P4",
+      "P5",
+      "P6",
+      "P7"
+    ],
+    "last_week": "2026-05-24"
   }
 }

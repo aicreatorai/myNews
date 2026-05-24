@@ -163,7 +163,8 @@
     "module": "08",
     "date": "2026-05-19",
     "keywords_snippet": "Suno AI音乐 歌词创作 曲风控制 Custom Mode 古风 原创歌曲"
-  }, {
+  },
+  {
     "topic": "Gemini AI Chrome技能",
     "title": "Chrome版Gemini技能功能：三步设置AI工作流自动化",
     "level": "L2",
@@ -330,5 +331,75 @@
     "depth": "概念层",
     "angle": "Bolt.new与Lovable双平台实测对比，从相同需求出发分别演示建站流程",
     "keywords_snippet": "Bolt.new Lovable AI建站 全栈 自然语言 零代码"
+  },
+  {
+    "module": "08",
+    "date": "2026-05-24",
+    "topic": "DeepSeek使用技巧",
+    "title": "DeepSeek深度使用进阶：90%用户不知道的7个提效技巧",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "深度思考模式+联网搜索+文件上传组合工作流",
+    "keywords_snippet": "DeepSeek 深度思考 R1 V3 联网搜索 文件上传 提示词 代码调试 数据分析"
+  },
+  {
+    "module": "08",
+    "date": "2026-05-24",
+    "topic": "Suno AI音乐制作",
+    "title": "Suno V5进阶实战：从随机抽卡到精准控曲的完整工作流",
+    "level": "L3",
+    "depth": "实践层",
+    "angle": "自定义模式+结构化歌词+曲风标签精准控曲工作流",
+    "keywords_snippet": "Suno V5 自定义模式 Custom Mode 歌词标记 曲风标签 Personas 商业BGM 国风R&B"
+  },
+  {
+    "module": "08",
+    "date": "2026-05-24",
+    "topic": "ElevenLabs AI语音克隆",
+    "title": "ElevenLabs语音克隆实战：从5分钟样本到专业级配音",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "Instant Voice Cloning全流程+参数调优+Lip Sync唇形同步",
+    "keywords_snippet": "ElevenLabs 语音克隆 VoiceLab TTS 文本转语音 Lip Sync 相似度 SSML 有声书"
+  },
+  {
+    "module": "08",
+    "date": "2026-05-24",
+    "topic": "Monica AI浏览器助手",
+    "title": "Monica浏览器助手实测：一个插件整合GPT+Claude+Gemini",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "五大核心功能实测+场景化工作流+模型切换策略",
+    "keywords_snippet": "Monica 浏览器插件 网页总结 翻译 写作 GPT Claude Gemini 侧边栏 效率"
+  },
+  {
+    "module": "08",
+    "date": "2026-05-24",
+    "topic": "剪映AI视频剪辑",
+    "title": "剪映AI剪辑进阶：用对这5个AI功能让出片速度翻3倍",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "五大AI功能组合实战+数字人+智能抠像+图文成片+AI配乐",
+    "keywords_snippet": "剪映 AI一键成片 智能抠像 数字人 图文成片 AI配乐 智能字幕 视频剪辑"
+  },
+  {
+    "module": "08",
+    "date": "2026-05-24",
+    "topic": "ChatGPT代码解释器数据分析",
+    "title": "ChatGPT代码解释器实战：零代码完成数据清洗到可视化全流程",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "商业数据分析全流程+数据清洗+可视化+分析报告生成",
+    "keywords_snippet": "ChatGPT 代码解释器 Code Interpreter 数据分析 Excel 数据清洗 可视化 Python 沙箱"
+  },
+  {
+    "module": "08",
+    "date": "2026-05-24",
+    "topic": "沉浸式翻译 DeepL 双语阅读",
+    "title": "沉浸式翻译+DeepL组合：打造你的个人双语阅读系统",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "双语对照阅读模式+DeepL高质量翻译+PDF论文精读工作流",
+    "keywords_snippet": "沉浸式翻译 DeepL 浏览器插件 双语对照 双语阅读 PDF翻译 学术论文 YouTube字幕 悬停翻译"
   }
 ]

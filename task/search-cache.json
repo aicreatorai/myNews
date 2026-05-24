@@ -1,52 +1,4 @@
 {
-  "ai教育政策2026": {
-    "keyword": "AI教育政策2026",
-    "normalized_key": "ai教育政策2026",
-    "result": "三份政策文件构建AI教育框架：教育部等五部门《人工智能+教育行动计划》、世界数字教育大会发布八项成果、中国智慧教育发展报告2025-2026",
-    "cached_at": "2026-05-17 08:04:08"
-  },
-  "ai教育规模化应用2026": {
-    "keyword": "AI教育规模化应用2026",
-    "normalized_key": "ai教育规模化应用2026",
-    "result": "2026世界数字教育大会：AI教育正式迈入规模化应用阶段，覆盖1.5亿中小学生，43%国家规划AI+教育转型",
-    "cached_at": "2026-05-17 08:04:09"
-  },
-  "ai赋能教师成长2026": {
-    "keyword": "AI赋能教师成长2026",
-    "normalized_key": "ai赋能教师成长2026",
-    "result": "银川市金凤区第十八小学AI赋能教师成长案例入选世界数字教育大会，数据采集-智能诊断-精准改进闭环模式",
-    "cached_at": "2026-05-17 08:04:10"
-  },
-  "ai学科教学创新2026": {
-    "keyword": "AI学科教学创新2026",
-    "normalized_key": "ai学科教学创新2026",
-    "result": "AI在8个学科创新应用：语文诗词AI绘画、数学3D几何、英语AI对话、物理化学实验模拟等",
-    "cached_at": "2026-05-17 08:04:11"
-  },
-  "swift 新版本 语言 特性 更新": {
-    "keyword": "Swift 新版本 语言 特性 更新",
-    "normalized_key": "swift 新版本 语言 特性 更新",
-    "result": "Swift 6.3.2稳定版发布，全模块编译优化默认开启，并发安全能力显著增强",
-    "cached_at": "2026-05-17 08:06:33"
-  },
-  "swiftui 新组件 框架 更新": {
-    "keyword": "SwiftUI 新组件 框架 更新",
-    "normalized_key": "swiftui 新组件 框架 更新",
-    "result": "SwiftUI富文本编辑器和网页视图API开发中，WWDC预期",
-    "cached_at": "2026-05-17 08:06:34"
-  },
-  "harmonyos next 版本 更新 api": {
-    "keyword": "HarmonyOS NEXT 版本 更新 API",
-    "normalized_key": "harmonyos next 版本 更新 api",
-    "result": "HarmonyOS 6.1.0.120推送，NEXT 5.0.0.102 SP6新增碰一碰分享",
-    "cached_at": "2026-05-17 08:06:35"
-  },
-  "flutter 新版本 impeller 渲染引擎": {
-    "keyword": "Flutter 新版本 Impeller 渲染引擎",
-    "normalized_key": "flutter 新版本 impeller 渲染引擎",
-    "result": "Flutter 3.27发布，Impeller成为默认渲染引擎，Cupertino组件升级",
-    "cached_at": "2026-05-17 08:06:35"
-  },
   "claude code 进阶 技巧 hook规则": {
     "keyword": "Claude Code 进阶 技巧 hook规则",
     "normalized_key": "claude code 进阶 技巧 hook规则",
@@ -730,5 +682,14 @@
     "normalized_key": "ai 产品 增长 策略",
     "result": "2026年AI产品增长策略：1)社交裂变增长（腾讯元宝红包活动裂变贡献超30%新增）｜2)下沉市场增长（县域用户占比58%,银发暴涨6倍）｜3)付费转化策略（豆包Freemium分层收费模型）｜4)生态增长（豆包依托抖音生态DAU 7871万）｜5)成本领先策略（DeepSeek成本为GPT-4o的1/18）",
     "cached_at": "2026-05-22 18:02:14"
+  },
+  "数据 工程 热点 工具 架构 最新": {
+    "keyword": "数据 工程 热点 工具 架构 最新 2026-05-17至2026-05-24",
+    "normalized_key": "数据 工程 热点 工具 架构 最新",
+    "result": "Flink Forward Asia 2026深圳; Flink 2.0存算分离; Paimon 2.0全模态数据湖; Fluss 1.0毫秒级流存储; 数据治理市场六大平台(AI-DG/DataLeap/DataWorks/DataArts/WeData/BIP); dbt AI辅助开发自愈数据管道",
+    "cached_at": "2026-05-24 11:48:01"
+  }
+}��估)",
+    "cached_at": "2026-05-24 11:48:01"
   }
 }

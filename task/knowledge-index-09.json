@@ -1,6 +1,6 @@
 {
   "module": "09_开发语言",
-  "last_updated": "2026-05-21",
+  "last_updated": "2026-05-24",
   "entries": [
     {
       "id": 1,
@@ -468,15 +468,143 @@
         "生产实践"
       ],
       "date": "2026-05-22"
+    },
+    {
+      "topic": "Deno 2.8 Node兼容性 npm冷启动",
+      "title": "Deno 2.8发布：Node兼容性飙至76%，npm冷启动提速3.66倍",
+      "level": "L2",
+      "depth": "技术层",
+      "angle": "import defer提案与Node.js兼容性突破深度解析",
+      "keywords": [
+        "Deno 2.8",
+        "import defer",
+        "Node兼容",
+        "npm冷启动",
+        "JavaScript运行时"
+      ],
+      "date": "2026-05-24",
+      "id": 33
+    },
+    {
+      "topic": "Python 3.14 Free Threading 生产实践",
+      "title": "Python 3.14 Free Threading生产验证：无GIL多线程性能实测与迁移指南",
+      "level": "L3",
+      "depth": "实践层",
+      "angle": "无GIL多线程生产环境性能量化评估与C扩展适配现状",
+      "keywords": [
+        "Python 3.14",
+        "Free Threading",
+        "无GIL",
+        "生产实践",
+        "性能基准",
+        "C扩展适配"
+      ],
+      "date": "2026-05-24",
+      "id": 34
+    },
+    {
+      "topic": "TypeScript 7.0 Go编译器",
+      "title": "TypeScript 7.0 Go编译器Beta实测：10倍编译加速的架构革命",
+      "level": "L3",
+      "depth": "实践层",
+      "angle": "Go重写编译器性能实测与架构变革分析",
+      "keywords": [
+        "TypeScript 7.0",
+        "Go编译器",
+        "10倍加速",
+        "编译器架构",
+        "迁移路径"
+      ],
+      "date": "2026-05-24",
+      "id": 35
+    },
+    {
+      "topic": "Swift 6.3 C互操作 跨平台",
+      "title": "Swift 6.3技术深解：@c属性、C互操作架构与跨平台新纪元",
+      "level": "L2",
+      "depth": "技术层",
+      "angle": "@c属性C互操作范式变革与Android SDK支持",
+      "keywords": [
+        "Swift 6.3",
+        "@c属性",
+        "C互操作",
+        "Android SDK",
+        "跨平台",
+        "区域隔离"
+      ],
+      "date": "2026-05-24",
+      "id": 36
+    },
+    {
+      "topic": "Mojo 1.0 Beta",
+      "title": "Mojo 1.0 Beta发布：comptime元编程、MAX运行时与Python生态融合",
+      "level": "L3",
+      "depth": "实践层",
+      "angle": "Mojo comptime元编程与Python高性能融合实践",
+      "keywords": [
+        "Mojo 1.0 Beta",
+        "comptime",
+        "MAX运行时",
+        "Python融合",
+        "AI编程语言"
+      ],
+      "date": "2026-05-24",
+      "id": 37
+    },
+    {
+      "topic": "Kotlin 2.3 K2编译器实战",
+      "title": "Kotlin 2.3 K2编译器实战：百万行代码库构建提速40%+的技术内幕",
+      "level": "L3",
+      "depth": "实践层",
+      "angle": "Lazy Resolution与IR多阶段流水线性能实测",
+      "keywords": [
+        "Kotlin 2.3",
+        "K2编译器",
+        "Lazy Resolution",
+        "构建提速",
+        "增量编译",
+        "IR管道"
+      ],
+      "date": "2026-05-24",
+      "id": 38
+    },
+    {
+      "topic": "Node.js 24 原生TypeScript",
+      "title": "Node.js 24原生TypeScript运行：从ts-node到零转译的生产实践",
+      "level": "L3",
+      "depth": "实践层",
+      "angle": "类型剥离机制与CI/CD生产部署实测",
+      "keywords": [
+        "Node.js 24",
+        "TypeScript原生",
+        "类型剥离",
+        "ts-node替代",
+        "生产部署"
+      ],
+      "date": "2026-05-24",
+      "id": 39
     }
   ],
   "statistics": {
-    "total_entries": 32,
+    "total_entries": 39,
     "by_level": {
       "L1": 12,
-      "L2": 17,
-      "L3": 3
+      "L2": 19,
+      "L3": 8
     },
-    "languages_covered": ["Swift", "Python", "Java", "TypeScript", "Go", "PHP", "Bun", "Rust", "Kotlin", "C", "Mojo", "Node.js"]
+    "languages_covered": [
+      "Swift",
+      "Python",
+      "Java",
+      "TypeScript",
+      "Go",
+      "PHP",
+      "Bun",
+      "Rust",
+      "Kotlin",
+      "C",
+      "Mojo",
+      "Node.js"
+    ]
   }
 }

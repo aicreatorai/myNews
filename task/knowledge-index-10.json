@@ -378,5 +378,75 @@
     "depth": "概念层",
     "angle": "AI全自动短视频管线、Ollama本地模型优先、Twitter Bot集成发布",
     "keywords_snippet": "MoneyPrinterV2 AI短视频 Ollama 自动发布 YouTube Shorts TTS"
+  },
+  {
+    "module": "10",
+    "date": "2026-05-24",
+    "topic": "Spec-Kit规范驱动开发",
+    "title": "Spec-Kit：GitHub官方的规范即代码开发范式",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "SDD七步流水线架构与扩展系统",
+    "keywords_snippet": "规范驱动开发 SDD speckit 宪法 澄清 计划 任务 实现"
+  },
+  {
+    "module": "10",
+    "date": "2026-05-24",
+    "topic": "CodeWhale终端AI编码",
+    "title": "CodeWhale：基于Rust的DeepSeek原生终端编程Agent",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "终端原生AI编程Agent的架构与DeepSeek优化",
+    "keywords_snippet": "CodeWhale DeepSeek TUI Rust 终端 编程 Agent 子代理 沙箱"
+  },
+  {
+    "module": "10",
+    "date": "2026-05-24",
+    "topic": "TradingAgents多智能体交易",
+    "title": "TradingAgents：用8个AI Agent组建虚拟交易公司",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "LangGraph多Agent协作架构与结构化辩论机制",
+    "keywords_snippet": "TradingAgents 多智能体 量化交易 LangGraph 分析师 研究员 交易员 风控"
+  },
+  {
+    "module": "10",
+    "date": "2026-05-24",
+    "topic": "UI-TARS多模态GUI",
+    "title": "UI-TARS-desktop：字节跳动开源多模态GUI Agent",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "VLM驱动的GUI自动化与MCP工具生态",
+    "keywords_snippet": "UI-TARS 字节跳动 多模态 GUI Agent VLM 桌面控制 浏览器自动化"
+  },
+  {
+    "module": "10",
+    "date": "2026-05-24",
+    "topic": "Bun运行时工具链",
+    "title": "Bun：一个二进制文件替代npm+Node+Jest+Webpack的JS全家桶",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "Zig+JSC底层实现与四大模块性能对比",
+    "keywords_snippet": "Bun JavaScript 运行时 Zig JavaScriptCore 包管理器 测试 打包 替代Node"
+  },
+  {
+    "module": "10",
+    "date": "2026-05-24",
+    "topic": "Codegraph代码知识图谱",
+    "title": "CodeGraph：预索引代码知识图谱节省35%成本",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "tree-sitter静态分析+MCP协议+SQLite图谱架构",
+    "keywords_snippet": "CodeGraph 代码知识图谱 tree-sitter SQLite MCP 调用链 影响分析 FTS5"
+  },
+  {
+    "module": "10",
+    "date": "2026-05-24",
+    "topic": "AgentMemory持久记忆",
+    "title": "AgentMemory：AI编码Agent的长期记忆引擎",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "四层记忆巩固+三流混合检索+12 Hook自动捕获",
+    "keywords_snippet": "AgentMemory 记忆 BM25 向量 知识图谱 艾宾浩斯 Token 效率 团队记忆"
   }
 ]

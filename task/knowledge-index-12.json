@@ -328,5 +328,65 @@
     "depth": "概念层",
     "angle": "按效果付费模式原理与Intercom案例",
     "keywords_snippet": "按效果付费,Outcome-based Pricing,Intercom"
+  },
+  {
+    "module": "12",
+    "date": "2026-05-24",
+    "topic": "AI创业融资",
+    "title": "2026年1-5月全球AI融资全景：超2025全年1.2倍，钱去了哪里",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "全球AI融资全景与趋势分析",
+    "keywords_snippet": "AI融资 2026 1-5月 OpenAI Anthropic Kimi 融资全景"
+  },
+  {
+    "module": "12",
+    "date": "2026-05-24",
+    "topic": "AI创业融资",
+    "title": "Kimi 39亿美元融资收官：国产大模型从烧钱追跑到国家队入局的资本跃迁",
+    "level": "L4",
+    "depth": "前沿层",
+    "angle": "Kimi融资深度拆解与国产大模型生态分析",
+    "keywords_snippet": "Kimi 月之暗面 39亿 融资 国产大模型 中国移动 Agent"
+  },
+  {
+    "module": "12",
+    "date": "2026-05-24",
+    "topic": "AI创业融资",
+    "title": "从融资流向看创业机会：通用大模型赛道关闭，AI Agent和具身智能才是普通人的入场券",
+    "level": "L3",
+    "depth": "实践层",
+    "angle": "基于融资数据推导创业赛道选择",
+    "keywords_snippet": "AI创业 赛道 通用大模型 Agent 具身智能 创业机会 融资流向"
+  },
+  {
+    "module": "12",
+    "date": "2026-05-24",
+    "topic": "独立开发者案例",
+    "title": "Marc Lou一人3年25个产品年入740万：独立开发者的快速迭代+公开构建方法论",
+    "level": "L3",
+    "depth": "实践层",
+    "angle": "Marc Lou完整创业案例拆解与可复制方法论",
+    "keywords_snippet": "Marc Lou 独立开发者 一人公司 ShipFast 年入百万 公开构建 Build in Public"
+  },
+  {
+    "module": "12",
+    "date": "2026-05-24",
+    "topic": "独立开发者案例",
+    "title": "MRR中位数3.9万美元：Top100独立AI产品如何用帮用户赚钱实现变现",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "TrustMRR Top100数据分析与变现密码拆解",
+    "keywords_snippet": "MRR TrustMRR 独立开发者 变现 离钱最近 SEO 营销"
+  },
+  {
+    "module": "12",
+    "date": "2026-05-24",
+    "topic": "AI Agent变现",
+    "title": "从AI内容创作到全自动变现：2026年六大AI赚钱路径实测与收益拆解",
+    "level": "L3",
+    "depth": "实践层",
+    "angle": "六大AI变现路径全拆解与收入数据",
+    "keywords_snippet": "AI变现 赚钱 路径 绘画 写作 数字人 知识付费 自动化"
   }
 ]
