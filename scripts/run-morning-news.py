@@ -229,7 +229,7 @@ def generate_batch_prompts(date_params):
             print()
 
     # 第二批：知识+工具（10+11+12+13+14+15）
-    batch2 = AGENTS_CONFIG["batch2_knowledge"]
+    batch2 = AGENTS_CONFIG["batch2_tech_knowledge"]
     batch1_data = read_batch1_headlines(date_params)
 
     print(f"\n{'─'*60}")
