@@ -1,9 +1,9 @@
 name: 每日新闻自动生成
 
 on:
-  # 定时触发：每天 UTC 00:00 = 北京时间 08:00
-  schedule:
-    - cron: '0 0 * * *'
+  # ⚠️ 定时触发已手动关闭，仅保留手动触发
+  # schedule:
+  #   - cron: '0 0 * * *'
   # 允许手动触发
   workflow_dispatch:
 
