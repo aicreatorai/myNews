@@ -401,5 +401,45 @@
     "depth": "概念层",
     "angle": "双语对照阅读模式+DeepL高质量翻译+PDF论文精读工作流",
     "keywords_snippet": "沉浸式翻译 DeepL 浏览器插件 双语对照 双语阅读 PDF翻译 学术论文 YouTube字幕 悬停翻译"
+  },
+  {
+    "module": "08",
+    "date": "2026-05-27",
+    "topic": "n8n自动化",
+    "title": "n8n+AI Agent五大自动化工作流：零代码搭建",
+    "level": "L3",
+    "depth": "实践层",
+    "angle": "n8n+AI Agent五个实战工作流从客服到竞品监控",
+    "keywords_snippet": "n8n AI Agent Docker 自动化 客服邮件 周报 竞品监控 客户线索"
+  },
+  {
+    "module": "08",
+    "date": "2026-05-27",
+    "topic": "AI视频生成",
+    "title": "AI视频生成工具2026横评：可灵Runway Pika海螺即梦五强实测",
+    "level": "L3",
+    "depth": "实践层",
+    "angle": "五大AI视频工具实测对比+按场景推荐选型",
+    "keywords_snippet": "AI视频生成 可灵 Runway Pika 海螺 即梦 1080p 30秒 图生视频 文生视频"
+  },
+  {
+    "module": "08",
+    "date": "2026-05-27",
+    "topic": "国产AI大模型",
+    "title": "国产AI大模型2026深度横评：DeepSeek通义豆包Kimi日常办公谁更强",
+    "level": "L3",
+    "depth": "实践层",
+    "angle": "五大国产模型按长文档/写作/代码/数据四个场景实测对比",
+    "keywords_snippet": "DeepSeek 通义千问 豆包 Kimi 文心一言 长文档 写作 代码 数据分析"
+  },
+  {
+    "module": "08",
+    "date": "2026-05-27",
+    "topic": "Dify低代码平台",
+    "title": "Dify低代码AI平台实战：10分钟搭建企业级AI知识库问答",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "从部署到知识库搭建到API发布完整实战",
+    "keywords_snippet": "Dify RAG 知识库 低代码 LLM 企业应用 问答助手 API"
   }
 ]

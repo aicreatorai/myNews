@@ -448,5 +448,75 @@
     "depth": "技术层",
     "angle": "四层记忆巩固+三流混合检索+12 Hook自动捕获",
     "keywords_snippet": "AgentMemory 记忆 BM25 向量 知识图谱 艾宾浩斯 Token 效率 团队记忆"
+  },
+  {
+    "module": "10",
+    "date": "2026-05-27",
+    "topic": "终端编程智能体",
+    "title": "DeepSeek-TUI：用Rust重写的终端AI编程智能体",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "成本对比+原生DeepSeek V4集成",
+    "keywords_snippet": "DeepSeek-TUI,Rust,终端编程,100万token,成本1/20,RLM并行推理"
+  },
+  {
+    "module": "10",
+    "date": "2026-05-27",
+    "topic": "AI Agent框架",
+    "title": "Hermes Agent：两个月斩获155k Star的自进化AI Agent框架",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "自进化学习循环+Skill自动生成机制",
+    "keywords_snippet": "Hermes Agent,自进化,Skill自动生成,AgentDB,MCP,155.8k Stars"
+  },
+  {
+    "module": "10",
+    "date": "2026-05-27",
+    "topic": "金融AI",
+    "title": "TradingAgents：模拟华尔街的多智能体金融交易框架",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "多角色决策+共识机制+风控否决权",
+    "keywords_snippet": "TradingAgents,多智能体,金融交易,风控,76.8k Stars"
+  },
+  {
+    "module": "10",
+    "date": "2026-05-27",
+    "topic": "GUI Agent",
+    "title": "UI-TARS-desktop：字节跳动开源的多模态GUI Agent",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "VLM视觉理解+跨应用操作+桌面自动化",
+    "keywords_snippet": "UI-TARS-desktop,字节跳动,多模态,GUI Agent,VLM,桌面自动化,34.6k Stars"
+  },
+  {
+    "module": "10",
+    "date": "2026-05-27",
+    "topic": "视频生成",
+    "title": "Hyperframes：HeyGen开源的HTML视频渲染框架",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "HTML写视频+Agent优先设计+确定性渲染",
+    "keywords_snippet": "Hyperframes,HeyGen,HTML,视频渲染,Agent,19.2k Stars"
+  },
+  {
+    "module": "10",
+    "date": "2026-05-27",
+    "topic": "多智能体系统",
+    "title": "Ruflo：为Claude Code装上的多智能体编排平台",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "蜂群架构+100+Agent角色+共识协议",
+    "keywords_snippet": "Ruflo,多智能体,Claude Code,蜂群,Hive Mind,52.6k Stars,MCP"
+  },
+  {
+    "module": "10",
+    "date": "2026-05-27",
+    "topic": "AI编程工具",
+    "title": "Agent-Skills：Google工程师的AI编程工程技能框架",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "工程纪律+六阶段生命周期+TDD工作流",
+    "keywords_snippet": "Agent-Skills,Addy Osmani,工程技能,TDD,六阶段,43.2k Stars"
   }
 ]

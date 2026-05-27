@@ -428,5 +428,75 @@
     "depth": "实践层",
     "angle": "拆解四种AI产品类型(工具型/内容型/平台型/社交型)的北极星指标选择框架，分析豆包从规模指标向价值指标转型的决策逻辑",
     "keywords_snippet": "北极星指标 AI产品 DAU MAU 任务完成率 付费转化 价值指标 规模指标 豆包"
+  },
+  {
+    "module": "15",
+    "date": "2026-05-27",
+    "topic": "AI Agent 产品化",
+    "title": "AI Agent产品化：从聊天助手到有状态运行时系统的范式跃迁",
+    "level": "L3",
+    "depth": "实践层",
+    "angle": "Agent范式收敛趋势与产品化架构设计",
+    "keywords_snippet": "Agent运行时 脑手分离 评测闭环 轨迹审计 可恢复执行 MCP A2A"
+  },
+  {
+    "module": "15",
+    "date": "2026-05-27",
+    "topic": "Agent产品策略",
+    "title": "Anthropic vs OpenAI：Agent产品策略的路线分歧与选型指南",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "两大Agent厂商技术路线对比与选型决策框架",
+    "keywords_snippet": "脑手分离 评测闭环 RFT session sandbox MCP A2A 选型"
+  },
+  {
+    "module": "15",
+    "date": "2026-05-27",
+    "topic": "AI产品失败复盘",
+    "title": "两年六次转型全部失败：一家中小SaaS企业的AI产品踩坑深度复盘",
+    "level": "L3",
+    "depth": "实践层",
+    "angle": "中小SaaS企业AI转型失败的战略与产品教训",
+    "keywords_snippet": "SaaS AI转型 战略失焦 PMF 角色漂移 技术追赶 Know-How Skills"
+  },
+  {
+    "module": "15",
+    "date": "2026-05-27",
+    "topic": "Agent评测方法论",
+    "title": "Agent评测方法论：为什么final response不够你需要三层并行评测",
+    "level": "L4",
+    "depth": "前沿层",
+    "angle": "三层并行评测框架与Agent产品评测落地",
+    "keywords_snippet": "trajectory evaluation end-state final response 评测基准 评测闭环 RFT"
+  },
+  {
+    "module": "15",
+    "date": "2026-05-27",
+    "topic": "AI PM工具",
+    "title": "AI时代产品经理工具链重构：从需求管理到原型生成的全流程升级",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "2026年PM工具全流程升级与选型决策框架",
+    "keywords_snippet": "Figma AI 墨刀AI Axure Dev Mode 原型生成 工具链 选型"
+  },
+  {
+    "module": "15",
+    "date": "2026-05-27",
+    "topic": "原型设计工具",
+    "title": "Figma AI vs 墨刀AI vs Axure RP 11：2026年三大原型工具深度横评",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "三大原型工具能力对比与选型决策",
+    "keywords_snippet": "Figma AI 墨刀AI Axure Dev Mode 原型生成 工具横评 代码输出"
+  },
+  {
+    "module": "15",
+    "date": "2026-05-27",
+    "topic": "AI出海算力",
+    "title": "AI产品出海算力基建：海外GPU如何重构全球化竞争底盘",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "AI出海的算力本地化、合规化与智能化策略",
+    "keywords_snippet": "出海GPU 算力本地化 合规化 推理算力 跨境数据 GDPR"
   }
 ]

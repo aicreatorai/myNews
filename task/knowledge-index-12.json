@@ -388,5 +388,45 @@
     "depth": "实践层",
     "angle": "六大AI变现路径全拆解与收入数据",
     "keywords_snippet": "AI变现 赚钱 路径 绘画 写作 数字人 知识付费 自动化"
+  },
+  {
+    "module": "12",
+    "date": "2026-05-27",
+    "topic": "AI SaaS产品变现",
+    "title": "AI商业化拐点已至：Anthropic首次盈利，阿里云AI单季逼近90亿",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "AI商业化拐点全景，从烧钱到盈利的行业转折",
+    "keywords_snippet": "Anthropic 首次盈利 Q2营收109亿美元 阿里云AI 89亿 商业化拐点"
+  },
+  {
+    "module": "12",
+    "date": "2026-05-27",
+    "topic": "AI产品定价策略",
+    "title": "大模型价格战进入厘时代：百万Token低至0.075元",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "国产大模型定价全面对比，从Token计费到订阅制Coding Plan",
+    "keywords_snippet": "大模型 定价 Token 厘时代 0.075元 阿里 qwen3-max 智谱 GLM-4 价格战"
+  },
+  {
+    "module": "12",
+    "date": "2026-05-27",
+    "topic": "AI SaaS产品变现",
+    "title": "AI产品从0到月入3万：六条程序员转型独立开发者实战路径",
+    "level": "L3",
+    "depth": "实践层",
+    "angle": "六条可复制路径（工具开发/开源变现/外包/内容/AI Agent/行业方案）从0到月入3万",
+    "keywords_snippet": "程序员 独立开发者 六条路径 月入3万 AI工具开发 外包 开源变现"
+  },
+  {
+    "module": "12",
+    "date": "2026-05-27",
+    "topic": "一人公司AI赋能",
+    "title": "独立开发者出海新范式：AI Agent+MCP工具链",
+    "level": "L4",
+    "depth": "前沿层",
+    "angle": "MCP协议+AI Agent编排，一人7天完成建站到支付全流程",
+    "keywords_snippet": "MCP Agent 出海 独立开发者 7天建站 Claude Code Stripe SEO 自动化"
   }
 ]

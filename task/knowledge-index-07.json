@@ -438,5 +438,75 @@
     "depth": "技术层",
     "angle": "检索管线:语义分块,混合检索,Cross-Encoder重排",
     "keywords_snippet": "RAG 语义分块 混合检索 BM25 向量检索 Cross-Encoder 重排序 RRF"
+  },
+  {
+    "module": "07",
+    "date": "2026-05-27",
+    "topic": "Agent架构编排",
+    "title": "Agent框架四强争霸：LangGraph/CrewAI/AutoGen与官方SDK的架构对决",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "框架架构对比与选型",
+    "keywords_snippet": "LangGraph CrewAI AutoGen Agent框架 MCP SDK 2026"
+  },
+  {
+    "module": "07",
+    "date": "2026-05-27",
+    "topic": "MCP协议工具调用",
+    "title": "MCP协议2026生态爆发：13000+服务器如何重塑Agent工具调用标准",
+    "level": "L3",
+    "depth": "实践层",
+    "angle": "MCP生态规模与标准化工具集成实践",
+    "keywords_snippet": "MCP Model Context Protocol 13000服务器 Function Calling 工具调用 2026"
+  },
+  {
+    "module": "07",
+    "date": "2026-05-27",
+    "topic": "Agent架构编排",
+    "title": "多Agent协作六大模式实战：从顺序流水线到动态辩论的完整指南",
+    "level": "L3",
+    "depth": "实践层",
+    "angle": "六种协作模式对比与生产实践",
+    "keywords_snippet": "多Agent 协作模式 顺序 层级 辩论 广播 动态路由 CrewAI AutoGen 2026"
+  },
+  {
+    "module": "07",
+    "date": "2026-05-27",
+    "topic": "Agent记忆管理",
+    "title": "Agent记忆技术三代演进：从向量拼接RAG到四层仿生架构的认知飞跃",
+    "level": "L4",
+    "depth": "前沿层",
+    "angle": "记忆系统三代技术演进与评测数据",
+    "keywords_snippet": "Agent记忆 向量RAG 四层仿生架构 腾讯云 OpenClaw Hermes PersonaMem 2026"
+  },
+  {
+    "module": "07",
+    "date": "2026-05-27",
+    "topic": "视频生成扩散模型",
+    "title": "一文看懂视频扩散模型：从Sora关停到中国AI视频三国杀的技术底牌",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "视频扩散模型基础概念与产业格局",
+    "keywords_snippet": "视频扩散模型 DiT Sora Seedance 可灵 HappyHorse 中国AI视频 2026"
+  },
+  {
+    "module": "07",
+    "date": "2026-05-27",
+    "topic": "Agent应用落地",
+    "title": "2026中国AI应用全景图谱：9亿次点击背后Agent从聊天走向做事的范式转移",
+    "level": "L4",
+    "depth": "前沿层",
+    "angle": "Agent应用范式转移与市场数据",
+    "keywords_snippet": "中国AI应用 全景图谱 Agent 聊天 做事 范式转移 量子位 2026"
+  },
+  {
+    "module": "07",
+    "date": "2026-05-27",
+    "topic": "视频生成扩散模型",
+    "title": "HappyHorse-1.0技术解密：5个月从零到盲测榜首的架构创新与物理短板",
+    "level": "L4",
+    "depth": "前沿层",
+    "angle": "HappyHorse架构创新与工程取舍",
+    "keywords_snippet": "HappyHorse-1.0 阿里巴巴 多镜头一致性 物理拟真 Elo 1333 DiT 2026"
   }
 ]

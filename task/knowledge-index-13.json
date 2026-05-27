@@ -428,5 +428,55 @@
     "depth": "前沿层",
     "angle": "AI自适应学习系统三代演进",
     "keywords_snippet": "AI自适应学习 刷题 最近发展区 掌握学习法 知识图谱"
+  },
+  {
+    "module": "13",
+    "date": "2026-05-27",
+    "topic": "钉钉悟空教育AI方案",
+    "title": "钉钉悟空教育AI方案：22万所学校的智能助教落地实践",
+    "level": "L3",
+    "depth": "实践层",
+    "angle": "教育AI智能体大规模落地实践",
+    "keywords_snippet": "钉钉悟空 教育 AI智能体 22万学校 教学全流程"
+  },
+  {
+    "module": "13",
+    "date": "2026-05-27",
+    "topic": "中国教师AI应用报告",
+    "title": "中国教师AI应用报告：8.6万教师揭示AI进课堂的真实图景",
+    "level": "L3",
+    "depth": "实践层",
+    "angle": "教师AI应用的国家级大规模调研发现",
+    "keywords_snippet": "中国教师 AI应用报告 8.6万教师 生成式AI 教育部"
+  },
+  {
+    "module": "13",
+    "date": "2026-05-27",
+    "topic": "AI家长辅导作业批改工具",
+    "title": "AI家长辅导实战：从作业批改到错题管理的智能工具全攻略",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "AI作业批改工具选择与使用方法",
+    "keywords_snippet": "AI作业批改 错题管理 百度多模态 学习机 家长辅导"
+  },
+  {
+    "module": "13",
+    "date": "2026-05-27",
+    "topic": "Coze零代码AI教育应用",
+    "title": "Coze零代码搭建AI教学工具：教师不用写代码也能创建专属AI应用",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "教师零代码创建AI教学智能体的实操方法",
+    "keywords_snippet": "Coze扣子 零代码 AI教育 智能体 教师工具"
+  },
+  {
+    "module": "13",
+    "date": "2026-05-27",
+    "topic": "AI职业技能认证",
+    "title": "2026年AI职业技能认证全景：从人工智能训练师到AI工程师的证书指南",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "AI职业技能证书选择与备考路径",
+    "keywords_snippet": "AI证书 人工智能训练师 华为认证 工信部 职业技能"
   }
 ]
