@@ -19,15 +19,10 @@
   },
   "13": {
     "last_main": [
-      "U1",
-      "U2",
-      "U8",
-      "U9",
-      "U12",
-      "U14",
-      "U16"
+      "U3",
+      "U11"
     ],
-    "last_week": "2026-05-27"
+    "last_week": "2026-05-28"
   },
   "14": {
     "last_main": [
@@ -53,15 +48,15 @@
   },
   "08": {
     "last_main": [
-      "T1",
-      "T2",
-      "T3",
-      "T4",
-      "T5",
-      "T6",
-      "T7"
+      "ComfyUI+Flux工作流",
+      "HeyGen数字人制作",
+      "Canva AI 2.0",
+      "Obsidian AI插件",
+      "GitHub Copilot 2026",
+      "AI数据分析Excel",
+      "Lovable AI全栈开发"
     ],
-    "last_week": "2026-05-24"
+    "last_week": "2026-05-28"
   },
   "09": {
     "last_main": [

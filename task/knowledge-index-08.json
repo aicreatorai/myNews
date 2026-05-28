@@ -441,5 +441,75 @@
     "depth": "技术层",
     "angle": "从部署到知识库搭建到API发布完整实战",
     "keywords_snippet": "Dify RAG 知识库 低代码 LLM 企业应用 问答助手 API"
+  },
+  {
+    "module": "08",
+    "date": "2026-05-28",
+    "topic": "ComfyUI+Flux工作流",
+    "title": "ComfyUI+Flux工作流实战：节点式AI绘画从安装到出图",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "节点式工作流搭建与Flux模型配置",
+    "keywords_snippet": "ComfyUI Flux 节点式工作流 FluxLoader FluxSampler VAE LoRA"
+  },
+  {
+    "module": "08",
+    "date": "2026-05-28",
+    "topic": "HeyGen数字人制作",
+    "title": "HeyGen数字人制作实战：3步生成可本地化口型同步视频",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "数字人形象选择脚本优化多语言本地化",
+    "keywords_snippet": "HeyGen 数字人 口型同步 Avatar Translation 多语言 60秒克隆"
+  },
+  {
+    "module": "08",
+    "date": "2026-05-28",
+    "topic": "Canva AI 2.0",
+    "title": "Canva AI 2.0实战：对话式设计让零基础做出专业海报",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "对话式设计工作流多尺寸适配",
+    "keywords_snippet": "Canva AI 2.0 对话式设计 Magic Resize 品牌规范 多尺寸适配"
+  },
+  {
+    "module": "08",
+    "date": "2026-05-28",
+    "topic": "Obsidian AI插件",
+    "title": "Obsidian+AI插件实战：打造真正能用的第二大脑",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "Smart Connections语义搜索+Copilot对话问答",
+    "keywords_snippet": "Obsidian Smart Connections Copilot Auto Classifier 语义搜索 本地化知识库"
+  },
+  {
+    "module": "08",
+    "date": "2026-05-28",
+    "topic": "GitHub Copilot 2026",
+    "title": "GitHub Copilot 2026新功能实战：跨文件精准补全技巧",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "跨文件上下文感知Agent模式实战",
+    "keywords_snippet": "GitHub Copilot 跨文件上下文 Agent模式 Copilot Edits VS Code"
+  },
+  {
+    "module": "08",
+    "date": "2026-05-28",
+    "topic": "AI数据分析Excel",
+    "title": "AI数据分析实战：用GPT+Python零代码处理Excel",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "ChatGPT代码解释器电商数据分析全流程",
+    "keywords_snippet": "ChatGPT 代码解释器 Pandas 数据分析 Excel 可视化 Prophet"
+  },
+  {
+    "module": "08",
+    "date": "2026-05-28",
+    "topic": "Lovable AI全栈开发",
+    "title": "Lovable AI全栈开发实战：自然语言生成完整应用",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "自然语言需求描述多轮迭代部署全流程",
+    "keywords_snippet": "Lovable 全栈应用 Supabase React TypeScript MVP 自然语言开发"
   }
 ]

@@ -498,5 +498,45 @@
     "depth": "技术层",
     "angle": "AI出海的算力本地化、合规化与智能化策略",
     "keywords_snippet": "出海GPU 算力本地化 合规化 推理算力 跨境数据 GDPR"
+  },
+  {
+    "module": "15",
+    "date": "2026-05-28",
+    "topic": "AI产品商业化定价",
+    "title": "豆包付费订阅深度分析：68元起步的AI商业化中国方案",
+    "level": "L3",
+    "depth": "实践层",
+    "angle": "豆包分层定价策略的产品逻辑与落地指南",
+    "keywords_snippet": "豆包付费订阅 分层定价 68元 算力成本 商业化"
+  },
+  {
+    "module": "15",
+    "date": "2026-05-28",
+    "topic": "AI订阅策略",
+    "title": "2026全球AI订阅策略全景：从OpenAI到豆包的定价战争",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "全球AI产品定价趋势的系统性分析框架",
+    "keywords_snippet": "AI订阅策略 OpenAI Claude Gemini 豆包 定价 按量计费 混合模式"
+  },
+  {
+    "module": "15",
+    "date": "2026-05-28",
+    "topic": "AI产品用户留存",
+    "title": "AI应用年留存仅21%：从定价狂欢到留存寒冬的产品困局",
+    "level": "L3",
+    "depth": "实践层",
+    "angle": "AI产品高流失率的根因分析与留存策略",
+    "keywords_snippet": "AI应用留存率 21% RevenueCat 高转化低留存 工作流嵌入 数据资产"
+  },
+  {
+    "module": "15",
+    "date": "2026-05-28",
+    "topic": "AI定价模式",
+    "title": "AI定价模式演变：从固定订阅到混合计费的范式转移",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "AI定价模式的驱动因素、三种模式对比与决策框架",
+    "keywords_snippet": "AI定价模式 固定订阅 按量计费 混合模式 GitHub Copilot AI Credits"
   }
 ]

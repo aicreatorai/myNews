@@ -478,5 +478,75 @@
     "depth": "技术层",
     "angle": "AI职业技能证书选择与备考路径",
     "keywords_snippet": "AI证书 人工智能训练师 华为认证 工信部 职业技能"
+  },
+  {
+    "module": "13",
+    "date": "2026-05-28",
+    "topic": "AI学习机对比",
+    "title": "学而思X5 vs 科大讯飞S30：2026年AI学习机深度对比",
+    "level": "L3",
+    "depth": "实践层",
+    "angle": "产品对比与选择指南",
+    "keywords_snippet": "AI学习机 学而思 科大讯飞 对比测评"
+  },
+  {
+    "module": "13",
+    "date": "2026-05-28",
+    "topic": "Khanmigo使用效果",
+    "title": "Khanmigo使用效果分析：仅15%用户活跃背后的教育AI启示",
+    "level": "L4",
+    "depth": "前沿层",
+    "angle": "产品效果分析",
+    "keywords_snippet": "Khanmigo AI辅导 使用率 教育AI"
+  },
+  {
+    "module": "13",
+    "date": "2026-05-28",
+    "topic": "世界数字教育大会",
+    "title": "2026世界数字教育大会成果解读：AI重新定义教育新范式",
+    "level": "L4",
+    "depth": "前沿层",
+    "angle": "政策解读与成果分析",
+    "keywords_snippet": "世界数字教育大会 AI教育 政策成果"
+  },
+  {
+    "module": "13",
+    "date": "2026-05-28",
+    "topic": "Duolingo AI语言学习",
+    "title": "Duolingo Max与AI语言学习工具对比：多语种学习效果验证",
+    "level": "L3",
+    "depth": "实践层",
+    "angle": "工具对比与效果验证",
+    "keywords_snippet": "Duolingo Max AI语言学习 多语种"
+  },
+  {
+    "module": "13",
+    "date": "2026-05-28",
+    "topic": "教师AI工具",
+    "title": "2026年教师必备10款免费AI工具实测：减负增效全指南",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "工具实测与选型指南",
+    "keywords_snippet": "教师AI工具 免费 减负增效"
+  },
+  {
+    "module": "13",
+    "date": "2026-05-28",
+    "topic": "AI课件PPT工具",
+    "title": "2026年5月实测：4款AI课件PPT生成工具深度对比",
+    "level": "L3",
+    "depth": "实践层",
+    "angle": "工具对比与选型",
+    "keywords_snippet": "AI PPT 课件生成 教学场景"
+  },
+  {
+    "module": "13",
+    "date": "2026-05-28",
+    "topic": "AI理科编程教学",
+    "title": "AI理科与编程教学：从Scratch到Python的AI辅助方案",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "学习路径设计",
+    "keywords_snippet": "AI编程教学 Scratch Python 理科解题"
   }
 ]

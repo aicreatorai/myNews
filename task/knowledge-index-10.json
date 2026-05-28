@@ -518,5 +518,37 @@
     "depth": "概念层",
     "angle": "工程纪律+六阶段生命周期+TDD工作流",
     "keywords_snippet": "Agent-Skills,Addy Osmani,工程技能,TDD,六阶段,43.2k Stars"
+  },
+  {
+    "module": "10",
+    "date": "2026-05-28",
+    "topic": "OpenClaw",
+    "title": "OpenClaw：375K Star的个人AI助手操作系统",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "架构设计、渠道无关、本地优先",
+    "keywords_snippet": "OpenClaw AI助手 操作系统 多渠道 本地模型"
+  },
+  {
+    "module": "10",
+    "date": "2026-05-28",
+    "topic": "knowledge-work-plugins",
+    "title": "Anthropic官方16个知识工作插件",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "声明式岗位注入、MCP协议、零代码配置",
+    "keywords_snippet": "Anthropic 知识工作插件 Claude Cowork MCP 声明式"
+  },
+  {
+    "module": "10",
+    "date": "2026-05-28",
+    "topic": "Bumblebee",
+    "title": "Bumblebee：Perplexity只读供应链安全扫描器",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "只读设计、离线优先、全环境覆盖",
+    "keywords_snippet": "Bumblebee 供应链安全 PerplexityAI 只读扫描"
+  }
+]��分析 Claude Code插件"
   }
 ]
