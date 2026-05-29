@@ -1,610 +1,392 @@
-{
-  "module": "09_开发语言",
-  "last_updated": "2026-05-24",
-  "entries": [
-    {
-      "id": 1,
-      "title": "Swift 6.3发布：首次官方支持Android开发",
-      "level": "L1",
-      "depth": "概念层",
-      "angle": "Swift跨平台战略与Android支持",
-      "keywords": [
-        "Swift 6.3",
-        "Android支持",
-        "跨平台开发",
-        "C互操作"
-      ],
-      "date": "2026-05-16"
-    },
-    {
-      "id": 2,
-      "title": "Python 3.14正式发布：自由线程与JIT编译器双重突破",
-      "level": "L2",
-      "depth": "技术层",
-      "angle": "Python子解释器与性能优化",
-      "keywords": [
-        "Python 3.14",
-        "自由线程",
-        "子解释器",
-        "JIT"
-      ],
-      "date": "2026-05-16"
-    },
-    {
-      "id": 3,
-      "title": "Java 26正式发布：Switch模式匹配正式化与虚拟线程优化",
-      "level": "L1",
-      "depth": "概念层",
-      "angle": "Java现代化进程",
-      "keywords": [
-        "Java 26",
-        "Switch模式匹配",
-        "虚拟线程",
-        "GraalVM"
-      ],
-      "date": "2026-05-16"
-    },
-    {
-      "id": 4,
-      "title": "TypeScript 7.0 Beta发布：Go重写实现10倍编译加速",
-      "level": "L2",
-      "depth": "技术层",
-      "angle": "TypeScript编译器架构变革",
-      "keywords": [
-        "TypeScript 7.0",
-        "Go重写",
-        "编译加速",
-        "类型系统"
-      ],
-      "date": "2026-05-16"
-    },
-    {
-      "id": 5,
-      "title": "Go 1.26正式发布：泛型限制放宽与运行时性能优化",
-      "level": "L1",
-      "depth": "概念层",
-      "angle": "Go泛型演进",
-      "keywords": [
-        "Go 1.26",
-        "泛型",
-        "运行时优化",
-        "工具链"
-      ],
-      "date": "2026-05-16"
-    },
-    {
-      "id": 6,
-      "title": "TIOBE 2026年5月排行榜：Python份额回落，统计语言整合加速",
-      "level": "L1",
-      "depth": "概念层",
-      "angle": "编程语言市场趋势",
-      "keywords": [
-        "TIOBE",
-        "编程语言排名",
-        "Python",
-        "市场趋势"
-      ],
-      "date": "2026-05-16"
-    },
-    {
-      "id": 7,
-      "title": "PHP 8.4新特性解析：属性钩子与AI辅助开发全面升级",
-      "level": "L1",
-      "depth": "概念层",
-      "angle": "PHP现代化与AI集成",
-      "keywords": [
-        "PHP 8.4",
-        "属性钩子",
-        "短闭包",
-        "AI辅助开发"
-      ],
-      "date": "2026-05-16"
-    },
-    {
-      "id": 8,
-      "title": "TypeScript 7.0 Beta发布：Go重写实现10倍编译加速",
-      "level": "L2",
-      "depth": "技术层",
-      "angle": "TypeScript编译器架构变革",
-      "keywords": [
-        "TypeScript 7.0",
-        "Go重写",
-        "编译加速",
-        "Beta发布"
-      ],
-      "date": "2026-05-18"
-    },
-    {
-      "id": 9,
-      "title": "Bun创始人宣布六天内用Rust重写96万行代码",
-      "level": "L2",
-      "depth": "技术层",
-      "angle": "JavaScript运行时生态变革",
-      "keywords": [
-        "Bun",
-        "Rust重写",
-        "Zig",
-        "JavaScript运行时"
-      ],
-      "date": "2026-05-18"
-    },
-    {
-      "id": 10,
-      "title": "Rust 1.95.0正式发布：cfg_select!宏开启编译时元编程新时代",
-      "level": "L2",
-      "depth": "技术层",
-      "angle": "Rust编译时元编程",
-      "keywords": [
-        "Rust 1.95.0",
-        "cfg_select",
-        "宏",
-        "match守卫"
-      ],
-      "date": "2026-05-18"
-    },
-    {
-      "id": 11,
-      "title": "Python 3.14.5正式发布：自由线程与JIT编译器双重突破",
-      "level": "L2",
-      "depth": "技术层",
-      "angle": "Python自由线程与维护更新",
-      "keywords": [
-        "Python 3.14.5",
-        "自由线程",
-        "GIL",
-        "正式发布"
-      ],
-      "date": "2026-05-18"
-    },
-    {
-      "id": 12,
-      "title": "TIOBE 2026年5月榜：Python份额回落5.37%，统计语言整合加速",
-      "level": "L1",
-      "depth": "概念层",
-      "angle": "编程语言市场趋势分析",
-      "keywords": [
-        "TIOBE",
-        "Python份额",
-        "R语言",
-        "统计语言整合"
-      ],
-      "date": "2026-05-18"
-    },
-    {
-      "id": 13,
-      "title": "Kotlin 2.3.0发布：编译器优化与Java互操作深化",
-      "level": "L1",
-      "depth": "概念层",
-      "angle": "Kotlin编译器现代化",
-      "keywords": [
-        "Kotlin 2.3.0",
-        "编译器优化",
-        "Java互操作",
-        "IntelliJ IDEA"
-      ],
-      "date": "2026-05-18"
-    },
-    {
-      "id": 14,
-      "title": "Go生态动态：Kubernetes升级Go 1.25，工具链持续完善",
-      "level": "L1",
-      "depth": "概念层",
-      "angle": "Go云原生生态",
-      "keywords": [
-        "Go 1.26",
-        "Kubernetes",
-        "GoLand",
-        "云原生"
-      ],
-      "date": "2026-05-18"
-    },
-    {
-      "id": 15,
-      "title": "Bun正式完成Rust重写：多平台性能验证达标，Zig时代终结",
-      "level": "L2",
-      "depth": "技术层",
-      "angle": "Bun Rust重写正式发布与平台支持",
-      "keywords": [
-        "Bun",
-        "Rust重写",
-        "多平台",
-        "性能验证",
-        "Zig"
-      ],
-      "date": "2026-05-19"
-    },
-    {
-      "id": 16,
-      "title": "TypeScript 7.0 Beta发布：Go重写编译器进入实测阶段",
-      "level": "L2",
-      "depth": "技术层",
-      "angle": "TypeScript编译器Go重写Beta测试",
-      "keywords": [
-        "TypeScript 7.0",
-        "Go重写",
-        "Beta",
-        "编译器架构",
-        "编译提速"
-      ],
-      "date": "2026-05-19"
-    },
-    {
-      "id": 17,
-      "title": "Java 27预览机制启动：基础类型模式匹配迎第五轮打磨",
-      "level": "L2",
-      "depth": "技术层",
-      "angle": "Java JEP 532第五轮预览与Shenandoah GC",
-      "keywords": [
-        "Java 27",
-        "JEP 532",
-        "基础类型模式匹配",
-        "Shenandoah",
-        "第五预览"
-      ],
-      "date": "2026-05-19"
-    },
-    {
-      "id": 18,
-      "title": "uv生态急速扩张：从包管理器到Python一体化工具链",
-      "level": "L1",
-      "depth": "概念层",
-      "angle": "uv Python工具链生态与OpenAI收购",
-      "keywords": [
-        "uv",
-        "Python工具链",
-        "Astral",
-        "pip替代",
-        "OpenAI"
-      ],
-      "date": "2026-05-19"
-    },
-    {
-      "id": 19,
-      "title": "TIOBE 2026年5月榜：C语言重返第二，嵌入式IoT驱动回升",
-      "level": "L1",
-      "depth": "概念层",
-      "angle": "C语言嵌入式IoT驱动回升分析",
-      "keywords": [
-        "TIOBE",
-        "C语言",
-        "嵌入式",
-        "IoT",
-        "排名回升"
-      ],
-      "date": "2026-05-19"
-    },
-    {
-      "id": 20,
-      "title": "Go 1.26默认启用Green Tea GC，cgo开销降低30%",
-      "level": "L2",
-      "depth": "技术层",
-      "angle": "Go Green Tea GC默认启用与cgo优化",
-      "keywords": [
-        "Go 1.26",
-        "Green Tea GC",
-        "cgo优化",
-        "泛型自引用",
-        "errors.AsType"
-      ],
-      "date": "2026-05-19"
-    },
-    {
-      "id": 21,
-      "title": "Python 3.14自由线程生态演进：无GIL构建生产可用性评估",
-      "level": "L2",
-      "depth": "技术层",
-      "angle": "Python无GIL生态适配与生产评估",
-      "keywords": [
-        "Python 3.14",
-        "自由线程",
-        "无GIL",
-        "PEP 703",
-        "生态适配"
-      ],
-      "date": "2026-05-19"
-    },
-    {
-      "id": 22,
-      "title": "Mojo 1.0.0b1发布：编译器之神的AI编程语言进入Beta",
-      "level": "L1",
-      "depth": "概念层",
-      "angle": "Mojo进入1.0 Beta，通往生产可用",
-      "keywords": [
-        "Mojo 1.0",
-        "Beta",
-        "AI编程语言",
-        "Modular",
-        "Chris Lattner"
-      ],
-      "date": "2026-05-21"
-    },
-    {
-      "id": 23,
-      "title": "Node.js 24.0.0正式发布：10大重磅更新助力全栈开发",
-      "level": "L1",
-      "depth": "概念层",
-      "angle": "Node.js新版发布与JavaScript运行时演进",
-      "keywords": [
-        "Node.js 24",
-        "TypeScript原生编译",
-        "V8 13.4",
-        "Test Runner",
-        "npm 11"
-      ],
-      "date": "2026-05-21"
-    },
-    {
-      "id": 24,
-      "title": "Bun v1.3.14发布：Rust重写后首批功能投产版本",
-      "level": "L3",
-      "depth": "实践层",
-      "angle": "Bun Rust重写后首个人功能密集版本生产评估",
-      "keywords": [
-        "Bun 1.3.14",
-        "Image API",
-        "HTTP/3",
-        "Rust重写",
-        "JavaScript运行时"
-      ],
-      "date": "2026-05-21"
-    },
-    {
-      "id": 25,
-      "title": "Go 1.26 Green Tea GC生产实践：迁移踩坑与性能验证",
-      "level": "L3",
-      "depth": "实践层",
-      "angle": "Go 1.26 Green Tea GC三个月生产实践与参数调优",
-      "keywords": [
-        "Go 1.26",
-        "Green Tea GC",
-        "生产迁移",
-        "cgo优化",
-        "GC调优"
-      ],
-      "date": "2026-05-21"
-    },
-    {
-      "id": 26,
-      "title": "Python uv包管理器技术原理深度解析",
-      "level": "L2",
-      "depth": "技术层",
-      "angle": "uv增量解析算法与全局缓存架构源码分析",
-      "keywords": [
-        "uv",
-        "Python包管理",
-        "增量解析",
-        "全局缓存",
-        "Rust"
-      ],
-      "date": "2026-05-21"
-    },
-    {
-      "id": 27,
-      "title": "Java边缘计算运行时演进：从JVM裁减到轻量部署",
-      "level": "L2",
-      "depth": "技术层",
-      "angle": "JLink+GraalVM+Shenandoah的Java边缘轻量化方案",
-      "keywords": [
-        "Java",
-        "边缘计算",
-        "JLink",
-        "GraalVM",
-        "原生镜像",
-        "Shenandoah"
-      ],
-      "date": "2026-05-21"
-    },
-    {
-      "id": 28,
-      "title": "Kotlin 2.3 K2编译器深度解析：大型代码库构建提速40%",
-      "level": "L2",
-      "depth": "技术层",
-      "angle": "K2编译器Lazy Resolution与IR优化管道",
-      "keywords": [
-        "Kotlin 2.3",
-        "K2编译器",
-        "构建提速",
-        "Lazy Resolution",
-        "增量编译"
-      ],
-      "date": "2026-05-21"
-    },
-    {
-      "id": 29,
-      "title": "Mojo 1.0.0b1 Beta发布：Chris Lattner打造的AI编程语言走向生产可用",
-      "level": "L2",
-      "depth": "技术层",
-      "angle": "Mojo 1.0 Beta API冻结、comptime元编程与MAX运行时集成",
-      "keywords": [
-        "Mojo 1.0 Beta",
-        "Modular 26.3",
-        "comptime",
-        "MAX",
-        "AI编程语言"
-      ],
-      "date": "2026-05-22"
-    },
-    {
-      "id": 30,
-      "title": "TIOBE 5月排行榜发布：统计编程市场大洗牌，Python与R成为赢家",
-      "level": "L2",
-      "depth": "技术层",
-      "angle": "TIOBE排名数据分析与统计编程市场整合趋势深度解读",
-      "keywords": [
-        "TIOBE",
-        "统计编程整合",
-        "Python",
-        "R",
-        "Java"
-      ],
-      "date": "2026-05-22"
-    },
-    {
-      "id": 31,
-      "title": "Bun 1.3.14发布：96万行代码从Zig迁移至Rust，JavaScript运行时格局剧变",
-      "level": "L2",
-      "depth": "技术层",
-      "angle": "Bun Zig转Rust技术细节、Claude Code AI辅助迁移与内存模型变化",
-      "keywords": [
-        "Bun",
-        "Rust",
-        "Zig",
-        "Claude Code",
-        "JavaScript运行时"
-      ],
-      "date": "2026-05-22"
-    },
-    {
-      "id": 32,
-      "title": "Java 26发布两月回顾：虚拟线程深入生产化，Spring Boot 4全面拥抱云原生",
-      "level": "L3",
-      "depth": "实践层",
-      "angle": "Java 26虚拟线程的生产压测数据与Spring Boot 4云原生实践",
-      "keywords": [
-        "Java 26",
-        "虚拟线程",
-        "Spring Boot 4",
-        "GraalVM",
-        "生产实践"
-      ],
-      "date": "2026-05-22"
-    },
-    {
-      "topic": "Deno 2.8 Node兼容性 npm冷启动",
-      "title": "Deno 2.8发布：Node兼容性飙至76%，npm冷启动提速3.66倍",
-      "level": "L2",
-      "depth": "技术层",
-      "angle": "import defer提案与Node.js兼容性突破深度解析",
-      "keywords": [
-        "Deno 2.8",
-        "import defer",
-        "Node兼容",
-        "npm冷启动",
-        "JavaScript运行时"
-      ],
-      "date": "2026-05-24",
-      "id": 33
-    },
-    {
-      "topic": "Python 3.14 Free Threading 生产实践",
-      "title": "Python 3.14 Free Threading生产验证：无GIL多线程性能实测与迁移指南",
-      "level": "L3",
-      "depth": "实践层",
-      "angle": "无GIL多线程生产环境性能量化评估与C扩展适配现状",
-      "keywords": [
-        "Python 3.14",
-        "Free Threading",
-        "无GIL",
-        "生产实践",
-        "性能基准",
-        "C扩展适配"
-      ],
-      "date": "2026-05-24",
-      "id": 34
-    },
-    {
-      "topic": "TypeScript 7.0 Go编译器",
-      "title": "TypeScript 7.0 Go编译器Beta实测：10倍编译加速的架构革命",
-      "level": "L3",
-      "depth": "实践层",
-      "angle": "Go重写编译器性能实测与架构变革分析",
-      "keywords": [
-        "TypeScript 7.0",
-        "Go编译器",
-        "10倍加速",
-        "编译器架构",
-        "迁移路径"
-      ],
-      "date": "2026-05-24",
-      "id": 35
-    },
-    {
-      "topic": "Swift 6.3 C互操作 跨平台",
-      "title": "Swift 6.3技术深解：@c属性、C互操作架构与跨平台新纪元",
-      "level": "L2",
-      "depth": "技术层",
-      "angle": "@c属性C互操作范式变革与Android SDK支持",
-      "keywords": [
-        "Swift 6.3",
-        "@c属性",
-        "C互操作",
-        "Android SDK",
-        "跨平台",
-        "区域隔离"
-      ],
-      "date": "2026-05-24",
-      "id": 36
-    },
-    {
-      "topic": "Mojo 1.0 Beta",
-      "title": "Mojo 1.0 Beta发布：comptime元编程、MAX运行时与Python生态融合",
-      "level": "L3",
-      "depth": "实践层",
-      "angle": "Mojo comptime元编程与Python高性能融合实践",
-      "keywords": [
-        "Mojo 1.0 Beta",
-        "comptime",
-        "MAX运行时",
-        "Python融合",
-        "AI编程语言"
-      ],
-      "date": "2026-05-24",
-      "id": 37
-    },
-    {
-      "topic": "Kotlin 2.3 K2编译器实战",
-      "title": "Kotlin 2.3 K2编译器实战：百万行代码库构建提速40%+的技术内幕",
-      "level": "L3",
-      "depth": "实践层",
-      "angle": "Lazy Resolution与IR多阶段流水线性能实测",
-      "keywords": [
-        "Kotlin 2.3",
-        "K2编译器",
-        "Lazy Resolution",
-        "构建提速",
-        "增量编译",
-        "IR管道"
-      ],
-      "date": "2026-05-24",
-      "id": 38
-    },
-    {
-      "topic": "Node.js 24 原生TypeScript",
-      "title": "Node.js 24原生TypeScript运行：从ts-node到零转译的生产实践",
-      "level": "L3",
-      "depth": "实践层",
-      "angle": "类型剥离机制与CI/CD生产部署实测",
-      "keywords": [
-        "Node.js 24",
-        "TypeScript原生",
-        "类型剥离",
-        "ts-node替代",
-        "生产部署"
-      ],
-      "date": "2026-05-24",
-      "id": 39
-    }
-  ],
-  "statistics": {
-    "total_entries": 39,
-    "by_level": {
-      "L1": 12,
-      "L2": 19,
-      "L3": 8
-    },
-    "languages_covered": [
-      "Swift",
-      "Python",
-      "Java",
-      "TypeScript",
-      "Go",
-      "PHP",
-      "Bun",
-      "Rust",
-      "Kotlin",
-      "C",
-      "Mojo",
-      "Node.js"
-    ]
+[
+  {
+    "module": "09",
+    "date": "2026-05-16",
+    "topic": "Swift 6.3 Android支持 跨平台开发",
+    "title": "Swift 6.3发布：首次官方支持Android开发",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "Swift跨平台战略与Android支持",
+    "keywords_snippet": "Swift 6.3 Android支持 跨平台开发 C互操作"
+  },
+  {
+    "module": "09",
+    "date": "2026-05-16",
+    "topic": "Python 3.14 自由线程 子解释器",
+    "title": "Python 3.14正式发布：自由线程与JIT编译器双重突破",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "Python子解释器与性能优化",
+    "keywords_snippet": "Python 3.14 自由线程 子解释器 JIT"
+  },
+  {
+    "module": "09",
+    "date": "2026-05-16",
+    "topic": "Java 26 Switch模式匹配 虚拟线程",
+    "title": "Java 26正式发布：Switch模式匹配正式化与虚拟线程优化",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "Java现代化进程",
+    "keywords_snippet": "Java 26 Switch模式匹配 虚拟线程 GraalVM"
+  },
+  {
+    "module": "09",
+    "date": "2026-05-16",
+    "topic": "TypeScript 7.0 Go重写 编译加速",
+    "title": "TypeScript 7.0 Beta发布：Go重写实现10倍编译加速",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "TypeScript编译器架构变革",
+    "keywords_snippet": "TypeScript 7.0 Go重写 编译加速 类型系统"
+  },
+  {
+    "module": "09",
+    "date": "2026-05-16",
+    "topic": "Go 1.26 泛型 运行时优化",
+    "title": "Go 1.26正式发布：泛型限制放宽与运行时性能优化",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "Go泛型演进",
+    "keywords_snippet": "Go 1.26 泛型 运行时优化 工具链"
+  },
+  {
+    "module": "09",
+    "date": "2026-05-16",
+    "topic": "TIOBE 编程语言排名 Python",
+    "title": "TIOBE 2026年5月排行榜：Python份额回落，统计语言整合加速",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "编程语言市场趋势",
+    "keywords_snippet": "TIOBE 编程语言排名 Python 市场趋势"
+  },
+  {
+    "module": "09",
+    "date": "2026-05-16",
+    "topic": "PHP 8.4 属性钩子 短闭包",
+    "title": "PHP 8.4新特性解析：属性钩子与AI辅助开发全面升级",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "PHP现代化与AI集成",
+    "keywords_snippet": "PHP 8.4 属性钩子 短闭包 AI辅助开发"
+  },
+  {
+    "module": "09",
+    "date": "2026-05-18",
+    "topic": "TypeScript 7.0 Go重写 编译加速",
+    "title": "TypeScript 7.0 Beta发布：Go重写实现10倍编译加速",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "TypeScript编译器架构变革",
+    "keywords_snippet": "TypeScript 7.0 Go重写 编译加速 Beta发布"
+  },
+  {
+    "module": "09",
+    "date": "2026-05-18",
+    "topic": "Bun Rust重写 Zig",
+    "title": "Bun创始人宣布六天内用Rust重写96万行代码",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "JavaScript运行时生态变革",
+    "keywords_snippet": "Bun Rust重写 Zig JavaScript运行时"
+  },
+  {
+    "module": "09",
+    "date": "2026-05-18",
+    "topic": "Rust 1.95.0 cfg_select 宏",
+    "title": "Rust 1.95.0正式发布：cfg_select!宏开启编译时元编程新时代",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "Rust编译时元编程",
+    "keywords_snippet": "Rust 1.95.0 cfg_select 宏 match守卫"
+  },
+  {
+    "module": "09",
+    "date": "2026-05-18",
+    "topic": "Python 3.14.5 自由线程 GIL",
+    "title": "Python 3.14.5正式发布：自由线程与JIT编译器双重突破",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "Python自由线程与维护更新",
+    "keywords_snippet": "Python 3.14.5 自由线程 GIL 正式发布"
+  },
+  {
+    "module": "09",
+    "date": "2026-05-18",
+    "topic": "TIOBE Python份额 R语言",
+    "title": "TIOBE 2026年5月榜：Python份额回落5.37%，统计语言整合加速",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "编程语言市场趋势分析",
+    "keywords_snippet": "TIOBE Python份额 R语言 统计语言整合"
+  },
+  {
+    "module": "09",
+    "date": "2026-05-18",
+    "topic": "Kotlin 2.3.0 编译器优化 Java互操作",
+    "title": "Kotlin 2.3.0发布：编译器优化与Java互操作深化",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "Kotlin编译器现代化",
+    "keywords_snippet": "Kotlin 2.3.0 编译器优化 Java互操作 IntelliJ IDEA"
+  },
+  {
+    "module": "09",
+    "date": "2026-05-18",
+    "topic": "Go 1.26 Kubernetes GoLand",
+    "title": "Go生态动态：Kubernetes升级Go 1.25，工具链持续完善",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "Go云原生生态",
+    "keywords_snippet": "Go 1.26 Kubernetes GoLand 云原生"
+  },
+  {
+    "module": "09",
+    "date": "2026-05-19",
+    "topic": "Bun Rust重写 多平台",
+    "title": "Bun正式完成Rust重写：多平台性能验证达标，Zig时代终结",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "Bun Rust重写正式发布与平台支持",
+    "keywords_snippet": "Bun Rust重写 多平台 性能验证 Zig"
+  },
+  {
+    "module": "09",
+    "date": "2026-05-19",
+    "topic": "TypeScript 7.0 Go重写 Beta",
+    "title": "TypeScript 7.0 Beta发布：Go重写编译器进入实测阶段",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "TypeScript编译器Go重写Beta测试",
+    "keywords_snippet": "TypeScript 7.0 Go重写 Beta 编译器架构 编译提速"
+  },
+  {
+    "module": "09",
+    "date": "2026-05-19",
+    "topic": "Java 27 JEP 532 基础类型模式匹配",
+    "title": "Java 27预览机制启动：基础类型模式匹配迎第五轮打磨",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "Java JEP 532第五轮预览与Shenandoah GC",
+    "keywords_snippet": "Java 27 JEP 532 基础类型模式匹配 Shenandoah 第五预览"
+  },
+  {
+    "module": "09",
+    "date": "2026-05-19",
+    "topic": "uv Python工具链 Astral",
+    "title": "uv生态急速扩张：从包管理器到Python一体化工具链",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "uv Python工具链生态与OpenAI收购",
+    "keywords_snippet": "uv Python工具链 Astral pip替代 OpenAI"
+  },
+  {
+    "module": "09",
+    "date": "2026-05-19",
+    "topic": "TIOBE C语言 嵌入式",
+    "title": "TIOBE 2026年5月榜：C语言重返第二，嵌入式IoT驱动回升",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "C语言嵌入式IoT驱动回升分析",
+    "keywords_snippet": "TIOBE C语言 嵌入式 IoT 排名回升"
+  },
+  {
+    "module": "09",
+    "date": "2026-05-19",
+    "topic": "Go 1.26 Green Tea GC cgo优化",
+    "title": "Go 1.26默认启用Green Tea GC，cgo开销降低30%",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "Go Green Tea GC默认启用与cgo优化",
+    "keywords_snippet": "Go 1.26 Green Tea GC cgo优化 泛型自引用 errors.AsType"
+  },
+  {
+    "module": "09",
+    "date": "2026-05-19",
+    "topic": "Python 3.14 自由线程 无GIL",
+    "title": "Python 3.14自由线程生态演进：无GIL构建生产可用性评估",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "Python无GIL生态适配与生产评估",
+    "keywords_snippet": "Python 3.14 自由线程 无GIL PEP 703 生态适配"
+  },
+  {
+    "module": "09",
+    "date": "2026-05-21",
+    "topic": "Mojo 1.0 Beta AI编程语言",
+    "title": "Mojo 1.0.0b1发布：编译器之神的AI编程语言进入Beta",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "Mojo进入1.0 Beta，通往生产可用",
+    "keywords_snippet": "Mojo 1.0 Beta AI编程语言 Modular Chris Lattner"
+  },
+  {
+    "module": "09",
+    "date": "2026-05-21",
+    "topic": "Node.js 24 TypeScript原生编译 V8 13.4",
+    "title": "Node.js 24.0.0正式发布：10大重磅更新助力全栈开发",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "Node.js新版发布与JavaScript运行时演进",
+    "keywords_snippet": "Node.js 24 TypeScript原生编译 V8 13.4 Test Runner npm 11"
+  },
+  {
+    "module": "09",
+    "date": "2026-05-21",
+    "topic": "Bun 1.3.14 Image API HTTP/3",
+    "title": "Bun v1.3.14发布：Rust重写后首批功能投产版本",
+    "level": "L3",
+    "depth": "实践层",
+    "angle": "Bun Rust重写后首个人功能密集版本生产评估",
+    "keywords_snippet": "Bun 1.3.14 Image API HTTP/3 Rust重写 JavaScript运行时"
+  },
+  {
+    "module": "09",
+    "date": "2026-05-21",
+    "topic": "Go 1.26 Green Tea GC 生产迁移",
+    "title": "Go 1.26 Green Tea GC生产实践：迁移踩坑与性能验证",
+    "level": "L3",
+    "depth": "实践层",
+    "angle": "Go 1.26 Green Tea GC三个月生产实践与参数调优",
+    "keywords_snippet": "Go 1.26 Green Tea GC 生产迁移 cgo优化 GC调优"
+  },
+  {
+    "module": "09",
+    "date": "2026-05-21",
+    "topic": "uv Python包管理 增量解析",
+    "title": "Python uv包管理器技术原理深度解析",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "uv增量解析算法与全局缓存架构源码分析",
+    "keywords_snippet": "uv Python包管理 增量解析 全局缓存 Rust"
+  },
+  {
+    "module": "09",
+    "date": "2026-05-21",
+    "topic": "Java 边缘计算 JLink",
+    "title": "Java边缘计算运行时演进：从JVM裁减到轻量部署",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "JLink+GraalVM+Shenandoah的Java边缘轻量化方案",
+    "keywords_snippet": "Java 边缘计算 JLink GraalVM 原生镜像 Shenandoah"
+  },
+  {
+    "module": "09",
+    "date": "2026-05-21",
+    "topic": "Kotlin 2.3 K2编译器 构建提速",
+    "title": "Kotlin 2.3 K2编译器深度解析：大型代码库构建提速40%",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "K2编译器Lazy Resolution与IR优化管道",
+    "keywords_snippet": "Kotlin 2.3 K2编译器 构建提速 Lazy Resolution 增量编译"
+  },
+  {
+    "module": "09",
+    "date": "2026-05-22",
+    "topic": "Mojo 1.0 Beta Modular 26.3 comptime",
+    "title": "Mojo 1.0.0b1 Beta发布：Chris Lattner打造的AI编程语言走向生产可用",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "Mojo 1.0 Beta API冻结、comptime元编程与MAX运行时集成",
+    "keywords_snippet": "Mojo 1.0 Beta Modular 26.3 comptime MAX AI编程语言"
+  },
+  {
+    "module": "09",
+    "date": "2026-05-22",
+    "topic": "TIOBE 统计编程整合 Python",
+    "title": "TIOBE 5月排行榜发布：统计编程市场大洗牌，Python与R成为赢家",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "TIOBE排名数据分析与统计编程市场整合趋势深度解读",
+    "keywords_snippet": "TIOBE 统计编程整合 Python R Java"
+  },
+  {
+    "module": "09",
+    "date": "2026-05-22",
+    "topic": "Bun Rust Zig",
+    "title": "Bun 1.3.14发布：96万行代码从Zig迁移至Rust，JavaScript运行时格局剧变",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "Bun Zig转Rust技术细节、Claude Code AI辅助迁移与内存模型变化",
+    "keywords_snippet": "Bun Rust Zig Claude Code JavaScript运行时"
+  },
+  {
+    "module": "09",
+    "date": "2026-05-22",
+    "topic": "Java 26 虚拟线程 Spring Boot 4",
+    "title": "Java 26发布两月回顾：虚拟线程深入生产化，Spring Boot 4全面拥抱云原生",
+    "level": "L3",
+    "depth": "实践层",
+    "angle": "Java 26虚拟线程的生产压测数据与Spring Boot 4云原生实践",
+    "keywords_snippet": "Java 26 虚拟线程 Spring Boot 4 GraalVM 生产实践"
+  },
+  {
+    "module": "09",
+    "date": "2026-05-24",
+    "topic": "Deno 2.8 Node兼容性 npm冷启动",
+    "title": "Deno 2.8发布：Node兼容性飙至76%，npm冷启动提速3.66倍",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "import defer提案与Node.js兼容性突破深度解析",
+    "keywords_snippet": "Deno 2.8 import defer Node兼容 npm冷启动 JavaScript运行时"
+  },
+  {
+    "module": "09",
+    "date": "2026-05-24",
+    "topic": "Python 3.14 Free Threading 生产实践",
+    "title": "Python 3.14 Free Threading生产验证：无GIL多线程性能实测与迁移指南",
+    "level": "L3",
+    "depth": "实践层",
+    "angle": "无GIL多线程生产环境性能量化评估与C扩展适配现状",
+    "keywords_snippet": "Python 3.14 Free Threading 无GIL 生产实践 性能基准 C扩展适配"
+  },
+  {
+    "module": "09",
+    "date": "2026-05-24",
+    "topic": "TypeScript 7.0 Go编译器",
+    "title": "TypeScript 7.0 Go编译器Beta实测：10倍编译加速的架构革命",
+    "level": "L3",
+    "depth": "实践层",
+    "angle": "Go重写编译器性能实测与架构变革分析",
+    "keywords_snippet": "TypeScript 7.0 Go编译器 10倍加速 编译器架构 迁移路径"
+  },
+  {
+    "module": "09",
+    "date": "2026-05-24",
+    "topic": "Swift 6.3 C互操作 跨平台",
+    "title": "Swift 6.3技术深解：@c属性、C互操作架构与跨平台新纪元",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "@c属性C互操作范式变革与Android SDK支持",
+    "keywords_snippet": "Swift 6.3 @c属性 C互操作 Android SDK 跨平台 区域隔离"
+  },
+  {
+    "module": "09",
+    "date": "2026-05-24",
+    "topic": "Mojo 1.0 Beta",
+    "title": "Mojo 1.0 Beta发布：comptime元编程、MAX运行时与Python生态融合",
+    "level": "L3",
+    "depth": "实践层",
+    "angle": "Mojo comptime元编程与Python高性能融合实践",
+    "keywords_snippet": "Mojo 1.0 Beta comptime MAX运行时 Python融合 AI编程语言"
+  },
+  {
+    "module": "09",
+    "date": "2026-05-24",
+    "topic": "Kotlin 2.3 K2编译器实战",
+    "title": "Kotlin 2.3 K2编译器实战：百万行代码库构建提速40%+的技术内幕",
+    "level": "L3",
+    "depth": "实践层",
+    "angle": "Lazy Resolution与IR多阶段流水线性能实测",
+    "keywords_snippet": "Kotlin 2.3 K2编译器 Lazy Resolution 构建提速 增量编译 IR管道"
+  },
+  {
+    "module": "09",
+    "date": "2026-05-24",
+    "topic": "Node.js 24 原生TypeScript",
+    "title": "Node.js 24原生TypeScript运行：从ts-node到零转译的生产实践",
+    "level": "L3",
+    "depth": "实践层",
+    "angle": "类型剥离机制与CI/CD生产部署实测",
+    "keywords_snippet": "Node.js 24 TypeScript原生 类型剥离 ts-node替代 生产部署"
   }
-}
+]
