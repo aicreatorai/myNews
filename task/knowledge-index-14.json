@@ -518,5 +518,105 @@
     "depth": "技术层",
     "angle": "计划监控评估三阶段框架与实战",
     "keywords_snippet": "元认知 计划监控评估 弗拉威尔 思维质量 邓宁克鲁格 认知灵活性"
+  },
+  {
+    "module": "14",
+    "date": "2026-05-29",
+    "topic": "刻意练习",
+    "title": "刻意练习在AI时代的新范式：从一万小时到精准反馈循环",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "AI工具降低反馈成本+髓鞘化+生成效应",
+    "keywords_snippet": "刻意练习 Ericsson 一万小时 AI反馈 髓鞘化"
+  },
+  {
+    "module": "14",
+    "date": "2026-05-29",
+    "topic": "AI职业",
+    "title": "AI时代的职业进化论：你不必和机器竞争但必须学会和它协作",
+    "level": "L4",
+    "depth": "前沿层",
+    "angle": "AI岗位从研究型转向实操型+人机协同策略",
+    "keywords_snippet": "AI职业 人机协作 认知外包 比较优势 LinkedIn实操型"
+  },
+  {
+    "module": "14",
+    "date": "2026-05-29",
+    "topic": "微证书",
+    "title": "从学历到能力：96%雇主认可的微证书正在重写职场游戏规则",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "微证书生态+信号理论+技能半衰期",
+    "keywords_snippet": "微证书 96%雇主认可 学历去中心化 Spence信号理论"
+  },
+  {
+    "module": "14",
+    "date": "2026-05-29",
+    "topic": "多巴胺习惯",
+    "title": "JHU重磅研究：行为终止线索让多巴胺自动化你的习惯",
+    "level": "L4",
+    "depth": "前沿层",
+    "angle": "JHU 2026年Neuropsychopharmacology论文解读",
+    "keywords_snippet": "JHU 多巴胺 终止线索 习惯自动化 Neuropsychopharmacology"
+  },
+  {
+    "module": "14",
+    "date": "2026-05-29",
+    "topic": "习惯养成",
+    "title": "James Clear和Huberman对谈：坏日子才是习惯的真正考场",
+    "level": "L3",
+    "depth": "实践层",
+    "angle": "Clear七个习惯法则+坏日子法则+身份投票",
+    "keywords_snippet": "James Clear Huberman 坏日子 身份投票 环境设计"
+  },
+  {
+    "module": "14",
+    "date": "2026-05-29",
+    "topic": "原子习惯",
+    "title": "原子习惯四大法则完整拆解：提示渴望回应奖励循环",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "四大法则对应的神经机制完整解析",
+    "keywords_snippet": "原子习惯 四大法则 基底神经节 多巴胺 Schultz"
+  },
+  {
+    "module": "14",
+    "date": "2026-05-29",
+    "topic": "习惯养成",
+    "title": "21天形成习惯是伪科学：Lally研究的真实数据",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "Lally 2010研究的66天中位数+18-254天范围",
+    "keywords_snippet": "习惯形成时间 66天 Lally 21天神话 突触可塑性"
+  },
+  {
+    "module": "14",
+    "date": "2026-05-29",
+    "topic": "深度工作",
+    "title": "深度工作2026：中断控制四层法夺回专注力",
+    "level": "L3",
+    "depth": "实践层",
+    "angle": "youngju.dev中断控制四层法+注意力残留效应",
+    "keywords_snippet": "深度工作 中断控制 注意力残留 心流 Newport"
+  },
+  {
+    "module": "14",
+    "date": "2026-05-29",
+    "topic": "生物钟",
+    "title": "HBR 2026/05：用昼夜节律管理能量而非时间",
+    "level": "L3",
+    "depth": "实践层",
+    "angle": "HBR封面文章：百灵鸟/夜猫子/午后型+能量对齐策略",
+    "keywords_snippet": "HBR 昼夜节律 生物钟 百灵鸟 夜猫子 能量管理"
+  },
+  {
+    "module": "14",
+    "date": "2026-05-29",
+    "topic": "番茄工作法",
+    "title": "番茄工作法2.0：个性化心流节奏设计",
+    "level": "L3",
+    "depth": "实践层",
+    "angle": "个性化番茄时长+心流前导期+疲劳预警",
+    "keywords_snippet": "番茄工作法 心流 超昼夜节律 个性化 专注力"
   }
 ]

@@ -428,5 +428,55 @@
     "depth": "前沿层",
     "angle": "MCP协议+AI Agent编排，一人7天完成建站到支付全流程",
     "keywords_snippet": "MCP Agent 出海 独立开发者 7天建站 Claude Code Stripe SEO 自动化"
+  },
+  {
+    "module": "12",
+    "date": "2026-05-29",
+    "topic": "成功案例拆解",
+    "title": "OPC一人公司热潮的冰与火：45万创业者涌入，月收入中位数不足7000元的真相",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "OPC创业生态全景分析，包含数据报告、政策支持和实际案例",
+    "keywords_snippet": "OPC 一人公司 WeOPC 45万创业者 月收入中位数7000"
+  },
+  {
+    "module": "12",
+    "date": "2026-05-29",
+    "topic": "成功案例拆解",
+    "title": "5天赚$700 MRR：Mark Savant用OpenClaw构建自动化内容工厂的完整拆解",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "OpenClaw AI Agent自动化内容生产流程的技术拆解",
+    "keywords_snippet": "OpenClaw AI Agent Mark Savant $700 MRR 5天 自动化内容"
+  },
+  {
+    "module": "12",
+    "date": "2026-05-29",
+    "topic": "成功案例拆解",
+    "title": "fal两人创始团队估值45亿美元：专注视觉生成基础设施，如何从第零天变现",
+    "level": "L3",
+    "depth": "实践层",
+    "angle": "fal创业故事拆解，聚焦战略决策和商业模式",
+    "keywords_snippet": "fal 45亿美元 两人创始 视觉生成 推理基础设施 第零天变现"
+  },
+  {
+    "module": "12",
+    "date": "2026-05-29",
+    "topic": "AI内容变现",
+    "title": "AI视频单条播放3000万、收益35万：内容变现的暴利公式还成立吗",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "AI视频变现案例分析，2026年入局者策略",
+    "keywords_snippet": "AI视频 3000万播放 35万收益 内容变现 暴利公式"
+  },
+  {
+    "module": "12",
+    "date": "2026-05-29",
+    "topic": "失败案例教训",
+    "title": "17家AI创业公司从估值过亿到团队解散：5个致命死亡陷阱的完整复盘",
+    "level": "L3",
+    "depth": "实践层",
+    "angle": "17家AI创业公司的失败原因分析和避坑指南",
+    "keywords_snippet": "AI创业 失败 5个陷阱 套壳 PMF真空 融资依赖 死亡陷阱"
   }
 ]

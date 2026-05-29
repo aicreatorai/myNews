@@ -511,5 +511,75 @@
     "depth": "概念层",
     "angle": "自然语言需求描述多轮迭代部署全流程",
     "keywords_snippet": "Lovable 全栈应用 Supabase React TypeScript MVP 自然语言开发"
+  },
+  {
+    "module": "08",
+    "date": "2026-05-29",
+    "topic": "Cursor AI编程",
+    "title": "Cursor Agent模式+TDD实战：让AI帮你写代码的正确姿势",
+    "level": "L3",
+    "depth": "实践层",
+    "angle": "Agent模式+TDD工作流实操",
+    "keywords_snippet": "Cursor Agent模式 并行执行 Cloud Agents 规划模式 TDD"
+  },
+  {
+    "module": "08",
+    "date": "2026-05-29",
+    "topic": "Claude Code",
+    "title": "Claude Code深度实战：从CLAUDE.md配置到企业级钩子工作流",
+    "level": "L3",
+    "depth": "实践层",
+    "angle": "CLAUDE.md+Hooks+SDK工作流",
+    "keywords_snippet": "CLAUDE.md Hooks钩子 /clear /catchup Skills Task Explore SDK"
+  },
+  {
+    "module": "08",
+    "date": "2026-05-29",
+    "topic": "国产AI工具对比",
+    "title": "国产AI App横向测评：DeepSeek、豆包、Kimi、千问、元宝各有所长",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "五大工具场景对比实测",
+    "keywords_snippet": "DeepSeek 豆包 Kimi 千问 元宝 国产AI 对比测评"
+  },
+  {
+    "module": "08",
+    "date": "2026-05-29",
+    "topic": "WPS AI办公",
+    "title": "WPS AI 2026实战：月活6.78亿的办公神器",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "AI+文表演示三件套实操",
+    "keywords_snippet": "WPS AI 文档写作 表格分析 PPT生成 隐形AI 端云同步"
+  },
+  {
+    "module": "08",
+    "date": "2026-05-29",
+    "topic": "Suno AI音乐",
+    "title": "Suno V5.5音乐创作实战：人声克隆+专属模型，零乐理也能发专辑",
+    "level": "L3",
+    "depth": "实践层",
+    "angle": "V5.5新功能+Custom Mode实操",
+    "keywords_snippet": "Suno V5.5 Voices Custom Models My Taste Custom Mode 提示词"
+  },
+  {
+    "module": "08",
+    "date": "2026-05-29",
+    "topic": "Dify AI Agent",
+    "title": "Dify开源AI Agent搭建实战：零代码创建你的第一个智能客服应用",
+    "level": "L3",
+    "depth": "实践层",
+    "angle": "Docker部署到智能客服上线全流程",
+    "keywords_snippet": "Dify RAG 知识库 工作流 Agent 零代码 智能客服 Docker"
+  },
+  {
+    "module": "08",
+    "date": "2026-05-29",
+    "topic": "AI搜索工具",
+    "title": "Perplexity vs 秘塔 vs Kimi：2026年AI搜索怎么选",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "四款AI搜索工具场景化对比",
+    "keywords_snippet": "Perplexity 秘塔 Kimi Deep Research 中文搜索 信源验证"
   }
 ]

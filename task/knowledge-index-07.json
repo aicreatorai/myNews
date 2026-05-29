@@ -508,5 +508,125 @@
     "depth": "前沿层",
     "angle": "HappyHorse架构创新与工程取舍",
     "keywords_snippet": "HappyHorse-1.0 阿里巴巴 多镜头一致性 物理拟真 Elo 1333 DiT 2026"
+  },
+  {
+    "module": "07",
+    "date": "2026-05-29",
+    "topic": "模型训练与对齐",
+    "title": "DPO直接偏好优化",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "DPO原理与实现",
+    "keywords_snippet": "DPO 直接偏好优化 对齐训练"
+  },
+  {
+    "module": "07",
+    "date": "2026-05-29",
+    "topic": "模型训练与对齐",
+    "title": "大模型后训练全景：从SFT到RLHF的对齐训练是什么？",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "后训练全流程入门",
+    "keywords_snippet": "SFT RLHF DPO PPO 对齐训练"
+  },
+  {
+    "module": "07",
+    "date": "2026-05-29",
+    "topic": "模型训练与对齐",
+    "title": "RLHF 2.0进化",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "多模态反馈与在线对齐",
+    "keywords_snippet": "RLHF 2.0 多模态 在线对齐"
+  },
+  {
+    "module": "07",
+    "date": "2026-05-29",
+    "topic": "模型训练与对齐",
+    "title": "GRPO群体相对策略优化",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "DeepSeek对齐方案",
+    "keywords_snippet": "GRPO DeepSeek 对齐 强化学习"
+  },
+  {
+    "module": "07",
+    "date": "2026-05-29",
+    "topic": "模型训练与对齐",
+    "title": "偏好对齐算法全景对决",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "PPO vs DPO vs KTO vs SimPO",
+    "keywords_snippet": "PPO DPO KTO SimPO 对齐"
+  },
+  {
+    "module": "07",
+    "date": "2026-05-29",
+    "topic": "模型训练与对齐",
+    "title": "奖励模型训练揭秘",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "RM训练与POLAR",
+    "keywords_snippet": "奖励模型 RM POLAR"
+  },
+  {
+    "module": "07",
+    "date": "2026-05-29",
+    "topic": "模型训练与对齐",
+    "title": "Constitutional AI 2.0",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "价值内化对齐",
+    "keywords_snippet": "Constitutional AI CAI Anthropic"
+  },
+  {
+    "module": "07",
+    "date": "2026-05-29",
+    "topic": "模型训练与对齐",
+    "title": "Scaling Law新争议",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "Chinchilla vs T²",
+    "keywords_snippet": "Scaling Law Chinchilla T²法则"
+  },
+  {
+    "module": "07",
+    "date": "2026-05-29",
+    "topic": "视觉语言模型(VLM)",
+    "title": "VLM技术路线全解",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "VLM架构入门",
+    "keywords_snippet": "VLM 视觉语言模型 LLaVA"
+  },
+  {
+    "module": "07",
+    "date": "2026-05-29",
+    "topic": "视觉语言模型(VLM)",
+    "title": "从CLIP到SigLIP",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "视觉编码器进化",
+    "keywords_snippet": "CLIP SigLIP 视觉编码器"
+  },
+  {
+    "module": "07",
+    "date": "2026-05-29",
+    "topic": "视觉语言模型(VLM)",
+    "title": "Q-Former与MLP Projector",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "视觉语言桥接",
+    "keywords_snippet": "Q-Former MLP Projector"
+  },
+  {
+    "module": "07",
+    "date": "2026-05-29",
+    "topic": "视觉语言模型(VLM)",
+    "title": "VLM长文档理解突破",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "128K上下文",
+    "keywords_snippet": "VLM 长文档 128K 港科大"
   }
 ]
