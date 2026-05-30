@@ -388,5 +388,45 @@
     "depth": "实践层",
     "angle": "类型剥离机制与CI/CD生产部署实测",
     "keywords_snippet": "Node.js 24 TypeScript原生 类型剥离 ts-node替代 生产部署"
+  },
+  {
+    "module": "09",
+    "date": "2026-05-30",
+    "topic": "Java语言",
+    "title": "JDK 26发布两月生产回顾：HTTP/3原生支持落地",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "JDK版本特性深度分析",
+    "keywords_snippet": "JDK 26 HTTP/3 G1 GC AOT Virtual Threads"
+  },
+  {
+    "module": "09",
+    "date": "2026-05-30",
+    "topic": "Go语言生态",
+    "title": "Go 1.26落地百日观察",
+    "level": "L3",
+    "depth": "实践层",
+    "angle": "版本落地实测",
+    "keywords_snippet": "Go 1.26 Green Tea GC"
+  },
+  {
+    "module": "09",
+    "date": "2026-05-30",
+    "topic": "CSharp语言",
+    "title": ".NET 10与C# 14半年观察",
+    "level": "L3",
+    "depth": "实践层",
+    "angle": "生态落地观察",
+    "keywords_snippet": ".NET 10 C# 14 LTS"
+  },
+  {
+    "module": "09",
+    "date": "2026-05-30",
+    "topic": "Zig系统编程",
+    "title": "Zig 0.14深度解析",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "系统编程语言分析",
+    "keywords_snippet": "Zig 0.14 comptime"
   }
 ]
