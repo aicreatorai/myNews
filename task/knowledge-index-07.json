@@ -628,5 +628,75 @@
     "depth": "技术层",
     "angle": "128K上下文",
     "keywords_snippet": "VLM 长文档 128K 港科大"
+  },
+  {
+    "module": "07",
+    "date": "2026-05-31",
+    "topic": "Agent架构与编排",
+    "title": "Multi-Agent框架2026横评：LangGraph/CrewAI/AG2选型指南",
+    "level": "L4",
+    "depth": "前沿层",
+    "angle": "框架横评对比选型",
+    "keywords_snippet": "Multi-Agent LangGraph CrewAI AG2 编排 框架 对比 2026"
+  },
+  {
+    "module": "07",
+    "date": "2026-05-31",
+    "topic": "Agent架构与编排",
+    "title": "Anthropic Managed Agents：Brain-Hands解耦如何重新定义Agent架构",
+    "level": "L4",
+    "depth": "前沿层",
+    "angle": "Brain-Hands解耦架构设计",
+    "keywords_snippet": "Managed Agents Brain Hands 解耦 Session 持久化 Anthropic"
+  },
+  {
+    "module": "07",
+    "date": "2026-05-31",
+    "topic": "Agent架构与编排",
+    "title": "多Agent编排水线：持久化执行为何成为2026年关键壁垒",
+    "level": "L4",
+    "depth": "前沿层",
+    "angle": "持久化执行检查点Temporal",
+    "keywords_snippet": "Durable Execution Temporal Checkpoint 持久化 检查点 Agent工作流"
+  },
+  {
+    "module": "07",
+    "date": "2026-05-31",
+    "topic": "Agent架构与编排",
+    "title": "从Prompt Engineering到Agentic Workflow：AI开发范式的结构性转变",
+    "level": "L4",
+    "depth": "前沿层",
+    "angle": "Agentic Workflow范式转变MCP A2A",
+    "keywords_snippet": "Agentic Workflow Prompt Engineering MCP A2A 编排 范式 转变"
+  },
+  {
+    "module": "07",
+    "date": "2026-05-31",
+    "topic": "推理优化与量化",
+    "title": "一文搞懂模型量化：INT8/FP8/GPTQ/AWQ四大方案怎么选",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "四大量化方案入门对比",
+    "keywords_snippet": "模型量化 INT8 FP8 GPTQ AWQ 精度 显存 压缩"
+  },
+  {
+    "module": "07",
+    "date": "2026-05-31",
+    "topic": "推理优化与量化",
+    "title": "KV Cache：大模型推理加速的第一性原理",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "KV Cache机制入门+PagedAttention",
+    "keywords_snippet": "KV Cache PagedAttention vLLM 显存 优化 推理加速"
+  },
+  {
+    "module": "07",
+    "date": "2026-05-31",
+    "topic": "推理优化与量化",
+    "title": "FlashAttention：IO感知计算如何让注意力机制突破显存瓶颈",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "FlashAttention V1-V3演进与IO感知",
+    "keywords_snippet": "FlashAttention IO感知 Tiling Online Softmax 显存 加速"
   }
 ]

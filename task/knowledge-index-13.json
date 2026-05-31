@@ -61,5 +61,65 @@
     "angle": "国家平台接入对教育公平的深层影响",
     "keywords_snippet": "猿创未来 猿编程 国家智慧教育平台 AI编程教育",
     "date": "2026-05-29"
+  },
+  {
+    "module": "13",
+    "date": "2026-05-31",
+    "topic": "AI英语写作批改",
+    "title": "AI英语写作批改：从批改慢到秒级反馈的教育革命",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "写作批改场景+教育原理",
+    "keywords_snippet": "AI写作批改,英语写作,即时反馈"
+  },
+  {
+    "module": "13",
+    "date": "2026-05-31",
+    "topic": "AI辅助语文教学",
+    "title": "AI辅助语文教学：从备课到课堂的智能升级",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "语文备课+课堂互动",
+    "keywords_snippet": "AI语文教学,备课,课件生成"
+  },
+  {
+    "module": "13",
+    "date": "2026-05-31",
+    "topic": "AI语文作文批改",
+    "title": "AI语文作文批改：笔神批改如何让教师减负80%",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "作文批改场景+教育原理",
+    "keywords_snippet": "AI作文批改,笔神,语文教学"
+  },
+  {
+    "module": "13",
+    "date": "2026-05-31",
+    "topic": "AI个性化英语学习",
+    "title": "AI个性化英语学习路径：自适应系统如何规划你的进阶路线",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "个性化学习路径+教育原理",
+    "keywords_snippet": "AI学习路径,自适应学习,个性化"
+  },
+  {
+    "module": "13",
+    "date": "2026-05-31",
+    "topic": "AI英语阅读词汇",
+    "title": "AI英语阅读与词汇扩展：智能化语言输入新范式",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "阅读辅助+词汇扩展",
+    "keywords_snippet": "AI英语阅读,词汇扩展,语境化记忆"
+  },
+  {
+    "module": "13",
+    "date": "2026-05-31",
+    "topic": "AI文科教学",
+    "title": "AI文科教学：历史地理政治的智能化课堂实践",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "文科教学+可视化",
+    "keywords_snippet": "AI文科教学,历史,地理,政治"
   }
 ]

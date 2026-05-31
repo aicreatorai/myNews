@@ -152,8 +152,12 @@ def scan():
         for fname in os.listdir(ki_dir):
             if fname.startswith("knowledge-index-") and fname.endswith(".json"):
                 module_count += 1
-                with open(os.path.join(ki_dir, fname), 'r', encoding='utf-8') as f:
-                    total_records += len(json.load(f))
+                fpath = os.path.join(ki_dir, fname)
+                try:
+                    with open(fpath, 'r', encoding='utf-8') as f:
+                        total_records += len(json.load(f))
+                except (UnicodeDecodeError, json.JSONDecodeError) as e:
+                    print(f"   ⚠️ 跳过 {fname}: {e}")
         print(f"   - 知识索引: {total_records} 条记录, {module_count} 个模块")
     else:
         print(f"   - 知识索引: task/ 目录不存在，跳过")

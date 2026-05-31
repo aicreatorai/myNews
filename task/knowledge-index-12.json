@@ -478,5 +478,45 @@
     "depth": "实践层",
     "angle": "17家AI创业公司的失败原因分析和避坑指南",
     "keywords_snippet": "AI创业 失败 5个陷阱 套壳 PMF真空 融资依赖 死亡陷阱"
+  },
+  {
+    "module": "12",
+    "date": "2026-05-31",
+    "topic": "AI SaaS产品变现",
+    "title": "一人公司月入$96K：Marc Lou的ShipFast产品矩阵全拆解",
+    "level": "L4",
+    "depth": "前沿层",
+    "angle": "产品矩阵交叉推广策略",
+    "keywords_snippet": "ShipFast,CodeFast,产品矩阵,交叉推广"
+  },
+  {
+    "module": "12",
+    "date": "2026-05-31",
+    "topic": "AI赋能一人公司",
+    "title": "2026年一人公司爆发：36.3%新公司仅1人，AI让单人顶一支队",
+    "level": "L4",
+    "depth": "前沿层",
+    "angle": "一人公司成本结构对比",
+    "keywords_snippet": "OPC,一人公司,AI工具栈,成本结构"
+  },
+  {
+    "module": "12",
+    "date": "2026-05-31",
+    "topic": "出海与合规",
+    "title": "一人公司出海收款全指南：Stripe+Airwallex搞定全球收款，费率低至1.2%",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "出海收款架构+费率对比",
+    "keywords_snippet": "Stripe,Airwallex,出海收款,新加坡公司"
+  },
+  {
+    "module": "12",
+    "date": "2026-05-31",
+    "topic": "海外发布与获客",
+    "title": "Product Hunt冲榜全攻略：周末首发+AI内容矩阵，0预算获10万+曝光",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "PH首发流程+AI搜索长尾价值",
+    "keywords_snippet": "Product Hunt,PH首发,周末发布,AI搜索"
   }
 ]

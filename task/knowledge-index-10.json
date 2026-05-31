@@ -518,5 +518,55 @@
     "depth": "概念层",
     "angle": "工程纪律+六阶段生命周期+TDD工作流",
     "keywords_snippet": "Agent-Skills,Addy Osmani,工程技能,TDD,六阶段,43.2k Stars"
+  },
+  {
+    "module": "10",
+    "date": "2026-05-31",
+    "topic": "Ollama本地AI运行时",
+    "title": "Ollama 0.24.0本地AI运行时大更新：Codex App支持+MTP推测解码提速2倍",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "五大本地AI运行时横向对比",
+    "keywords_snippet": "Ollama,vLLM,llama.cpp,MLX,LM Studio"
+  },
+  {
+    "module": "10",
+    "date": "2026-05-31",
+    "topic": "GitHub MCP Server",
+    "title": "github-mcp-server：GitHub官方MCP服务器，让AI直接操作你的仓库",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "MCP协议+GitHub API包装层",
+    "keywords_snippet": "github-mcp-server,MCP,GitHub自动化"
+  },
+  {
+    "module": "10",
+    "date": "2026-05-31",
+    "topic": "多模态AI桌面代理",
+    "title": "UI-TARS-Desktop：字节开源多模态AI代理，看懂屏幕+操作桌面",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "RPA替代+多模态屏幕理解",
+    "keywords_snippet": "UI-TARS-Desktop,多模态,RPA替代"
+  },
+  {
+    "module": "10",
+    "date": "2026-05-31",
+    "topic": "Bun JS运行时",
+    "title": "Bun 1.2极速JS运行时：捆绑+转译+测试+运行一把梭",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "All-in-One vs 碎片化工具链",
+    "keywords_snippet": "Bun,JS运行时,工具链疲劳"
+  },
+  {
+    "module": "10",
+    "date": "2026-05-31",
+    "topic": "AI编码生产力",
+    "title": "agent-skills：Google工程师的AI编码实战技巧合集",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "场景化技能文件 vs 原则导向",
+    "keywords_snippet": "agent-skills,Addy Osmani,AI编码规范"
   }
 ]

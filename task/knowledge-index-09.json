@@ -428,5 +428,49 @@
     "depth": "技术层",
     "angle": "系统编程语言分析",
     "keywords_snippet": "Zig 0.14 comptime"
+  },
+  {
+    "module": "09",
+    "date": "2026-05-31",
+    "topic": "Python 3.14 GIL移除",
+    "title": "Python 3.14发布：自由线程打破GIL枷锁",
+    "level": "L4",
+    "depth": "前沿层",
+    "angle": "自由线程模式原理与性能实测",
+    "keywords_snippet": "Python 3.14, Free-Threaded, GIL, 多核并行"
+  },
+  {
+    "module": "09",
+    "date": "2026-05-31",
+    "topic": "TypeScript 6.0 类型系统",
+    "title": "TypeScript 6.0发布：为原生速度7.0铺路",
+    "level": "L4",
+    "depth": "前沿层",
+    "angle": "现代默认值与satisfies增强",
+    "keywords_snippet": "TypeScript 6.0, strict mode, satisfies, const type"
+  },
+  {
+    "module": "09",
+    "date": "2026-05-31",
+    "topic": "Java 26 AI集成",
+    "title": "Java 26发布：AI集成与G1GC优化",
+    "level": "L4",
+    "depth": "前沿层",
+    "angle": "基元类型模式匹配与AI API",
+    "keywords_snippet": "Java 26, Project Loom, G1GC, java.ai"
+  },
+  {
+    "module": "09",
+    "date": "2026-05-31",
+    "topic": "Go 1.26 泛型 GC",
+    "title": "Go 1.26发布：泛型规则放宽，Green Tea GC性能提升30%",
+    "level": "L4",
+    "depth": "前沿层",
+    "angle": "泛型递归定义与GC优化",
+    "keywords_snippet": "Go 1.26, generics, Green Tea GC, cgo"
+  }
+]a, Go, Rust"
+  }
+]ithResolvers"
   }
 ]
