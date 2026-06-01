@@ -1,4 +1,4 @@
-# 10_GitHubSkills（TOP 6-8条）
+# 10_GitHubSkills（TOP 3-5条）
 
 > 基于 `任务基础模板.md` | 本文件仅包含差异化内容
 
