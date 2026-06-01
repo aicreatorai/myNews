@@ -13,9 +13,10 @@
   - SQLite 分表：按季度自动分区，旧数据自动归档
 
 用法：
-  python3 scripts/check-dedup.py scan <YYYY-MM-DD>        # 检测当日/跨天重复
+  python3 scripts/check-dedup.py scan <YYYY-MM-DD>        # 检测当日/跨天重复（含同模块垂直重复）
   python3 scripts/check-dedup.py build-index <YYYY-MM-DD> # 构建内容指纹索引
-  python3 scripts/check-dedup.py check "<标题>"           # 查询某标题是否已存在
+  python3 scripts/check-dedup.py check "<标题>" [模块]    # 查询某标题是否已存在（加模块检测垂直重复）
+  python3 scripts/check-dedup.py check "<标题>" 01       # 示例：查01模块近7天是否有相似报道
 """
 
 import json, os, sys, re, hashlib, sqlite3
@@ -28,6 +29,9 @@ DB_PATH = os.path.join(BASE_DIR, "task", "content-fingerprint.db")
 
 # 模糊比对只查询最近 N 天（避免全表扫描）
 SIMILARITY_LOOKBACK_DAYS = 60
+
+# 同模块跨天检测：N 天内同模块相似标题预警
+SAME_MODULE_LOOKBACK_DAYS = 7
 
 # --- 版本号模式 ---
 VERSION_PATTERNS = [
@@ -182,10 +186,9 @@ def build_index(date_str: str):
 #  check: 写作前查重
 # ══════════════════════════════════════════════
 
-def check_headline(headline: str):
-    """查询某标题是否与历史重复"""
+def check_headline(headline: str, module: str = ''):
+    """查询某标题是否与历史重复，支持指定模块"""
     conn = get_db()
-    normalized = normalize_title(headline)
     cursor = conn.execute("SELECT COUNT(*) FROM fingerprints")
     total = cursor.fetchone()[0]
 
@@ -194,10 +197,8 @@ def check_headline(headline: str):
         conn.close()
         return
 
-    # 1. 精确指纹匹配（O(1) 索引查找）— 用于最终确认
-    #    先构建候选指纹
-    sample_lead = ''
-    candidate_fp = extract_content_fingerprint(headline, sample_lead)
+    # 1. 精确指纹匹配（O(1) 索引查找）
+    candidate_fp = extract_content_fingerprint(headline, '')
     row = conn.execute(
         "SELECT module, date, headline FROM fingerprints WHERE fingerprint = ?",
         (candidate_fp,)
@@ -205,25 +206,47 @@ def check_headline(headline: str):
 
     if row:
         print(f"🔴 与历史内容完全重复（指纹匹配）")
-        print(f"   历史: {row[1]} | {row[2]}")
+        print(f"   历史: {row[1]} | [{row[0]}] {row[2]}")
         print(f"   建议跳过")
         conn.close()
         return
 
-    # 2. 模糊相似度比对 — 只查最近 60 天，避免全表扫描
+    # 2. 跨天同模块重复检测（新增 — 解决垂直重复问题）
+    if module:
+        cutoff_date = (datetime.now() - timedelta(days=SAME_MODULE_LOOKBACK_DAYS)).strftime("%Y-%m-%d")
+        same_mod_rows = conn.execute(
+            "SELECT module, date, headline FROM fingerprints WHERE module = ? AND date >= ? ORDER BY date DESC",
+            (module, cutoff_date)
+        ).fetchall()
+
+        for mod, d, h in same_mod_rows:
+            sim = title_similarity(headline, h)
+            if sim > DUPLICATE_THRESHOLD:
+                if has_different_versions(headline, h):
+                    print(f"🟡 [同模块] 近{SAME_MODULE_LOOKBACK_DAYS}天内该模块有版本演进")
+                    print(f"   历史({d}): {h}")
+                    print(f"   新标题: {headline}")
+                    print(f"   建议: 标题需突出新版本号以区分")
+                else:
+                    print(f"🔴 [同模块] 近{SAME_MODULE_LOOKBACK_DAYS}天内该模块有相似报道")
+                    print(f"   历史({d}): {h}")
+                    print(f"   相似度: {sim:.0%}")
+                    print(f"   建议: 若无实质新进展，请跳过或改为「进展更新」视角")
+                conn.close()
+                return
+
+    # 3. 模糊相似度比对 — 跨模块（只查最近 60 天）
     cutoff_date = (datetime.now() - timedelta(days=SIMILARITY_LOOKBACK_DAYS)).strftime("%Y-%m-%d")
     rows = conn.execute(
-        "SELECT module, date, headline, normalized FROM fingerprints WHERE date >= ? ORDER BY date DESC",
+        "SELECT module, date, headline FROM fingerprints WHERE date >= ? ORDER BY date DESC",
         (cutoff_date,)
     ).fetchall()
 
     best_match = None
     best_sim = 0
-    hit_count = 0
 
-    for mod, d, h, norm in rows:
+    for mod, d, h in rows:
         sim = title_similarity(headline, h)
-        hit_count += 1
         if sim > best_sim:
             best_sim = sim
             best_match = (mod, d, h)
@@ -234,7 +257,7 @@ def check_headline(headline: str):
             print(f"   参考历史: {best_match[1]} | {best_match[2]}")
         else:
             print(f"🔴 与历史内容重复，建议跳过")
-            print(f"   历史: {best_match[1]} | {best_match[2]}")
+            print(f"   历史: {best_match[1]} | [{best_match[0]}] {best_match[2]}")
             print(f"   相似度: {best_sim:.0%}")
     else:
         print(f"🟢 无历史重复，可写")
@@ -352,7 +375,42 @@ def scan(date_str: str):
     if cross_day == 0:
         print(f"  ✅ 无跨天重复")
 
-    # ── 检测3: 版本更新标注（跨模块检测） ──
+    # ── 检测3: 同模块跨天垂直重复（新增 — 解决连续多天相同事件报道） ──
+    print(f"\n📋 同模块跨天垂直重复检查（最近{SAME_MODULE_LOOKBACK_DAYS}天内）:")
+    print(f"{'─'*40}")
+    vert_found = 0
+
+    # 对当天每个模块的每条新闻，查同模块最近 N 天的历史
+    vert_cutoff = (datetime.strptime(date_str, "%Y-%m-%d") - timedelta(days=SAME_MODULE_LOOKBACK_DAYS)).strftime("%Y-%m-%d")
+    for mod, f, h, lead in today_items:
+        rows = conn.execute(
+            "SELECT date, headline FROM fingerprints WHERE module = ? AND date >= ? AND date != ? ORDER BY date DESC",
+            (mod, vert_cutoff, date_str)
+        ).fetchall()
+
+        for d, hist_h in rows:
+            sim = title_similarity(h, hist_h)
+            if sim > DUPLICATE_THRESHOLD:
+                if has_different_versions(h, hist_h):
+                    # 版本演进：不算重复，标注
+                    vert_found += 1
+                    print(f"  ℹ️ [{mod}] {d} 同模块版本演进")
+                    print(f"     旧: {hist_h}")
+                    print(f"     新: {h}")
+                else:
+                    vert_found += 1
+                    print(f"  ⚠️ [{mod}] {d} 同模块相似报道（{sim:.0%}）")
+                    print(f"     旧: {hist_h}")
+                    print(f"     新: {h}")
+                break  # 只报告最匹配的一条
+
+    if vert_found == 0:
+        print(f"  ✅ 无同模块垂直重复")
+    else:
+        print(f"  📊 共发现 {vert_found} 条同模块垂直重复/演进")
+        print(f"  💡 建议: 连续报道同一事件时，标题必须体现「新进展/更新」")
+
+    # ── 检测4: 版本更新标注（跨模块检测） ──
     print(f"\n📋 版本更新标注（正常演进，不算重复）:")
     print(f"{'─'*40}")
     ver_found = 0
@@ -432,9 +490,11 @@ if __name__ == "__main__":
 
     elif cmd == "check":
         if len(sys.argv) < 3:
-            print("用法: python3 check-dedup.py check <标题>")
+            print("用法: python3 check-dedup.py check <标题> [模块编号]")
+            print("  示例: check-dedup.py check \"美伊谈判\" 01")
             sys.exit(1)
-        check_headline(sys.argv[2])
+        module = sys.argv[3] if len(sys.argv) > 3 else ''
+        check_headline(sys.argv[2], module)
 
     elif cmd == "scan":
         if len(sys.argv) < 3:
