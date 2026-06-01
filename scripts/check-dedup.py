@@ -33,6 +33,20 @@ SIMILARITY_LOOKBACK_DAYS = 60
 # 同模块跨天检测：N 天内同模块相似标题预警
 SAME_MODULE_LOOKBACK_DAYS = 7
 
+# 同模块检测使用更低的阈值（用户对同模块重复更敏感）
+SAME_MODULE_DUPLICATE_THRESHOLD = 0.70
+
+# 事件级去重：提取标题中的核心实体
+# 注意：中文和英文混排时\b不work，需要用前瞻/后瞻
+EVENT_ENTITY_PATTERNS = [
+    # 1. 英文专名（前后不能是英文数字）：Anthropic, OpenAI, GPT, iOS, Swift
+    r'(?<![a-zA-Z0-9])[A-Z][a-z]+\d*(?:\s[A-Z][a-z]+\d*)*(?![a-zA-Z0-9])',
+    # 2. 数字（至少2位，带单位）：650亿, 9650万, 50.0%
+    r'(?<![a-zA-Z0-9%])\d{2,}(?:[.,]\d+)?(?:亿|万|千|百|%|美元|元)?(?![a-zA-Z0-9%])',
+    # 3. 关键动作词（事件核心动词）
+    r'(?:融资|收购|发布|推出|上线|裁员|涨价|降价|突破|超越|达成|签署|通过|印发|实施|停火|谈判|制裁|会晤|会谈|访问|下调|提升|增长|下跌)',
+]
+
 # --- 版本号模式 ---
 VERSION_PATTERNS = [
     r'\d+\.\d+(?:\.\d+)?(?:\.\d+)?',
@@ -116,6 +130,32 @@ def title_similarity(t1: str, t2: str) -> float:
     c1 = normalize_title(t1)
     c2 = normalize_title(t2)
     return SequenceMatcher(None, c1, c2).ratio()
+
+
+def extract_entities(title: str) -> set:
+    """提取标题中的核心实体集合"""
+    entities = set()
+    for pat in EVENT_ENTITY_PATTERNS:
+        for m in re.finditer(pat, title):
+            entities.add(m.group().strip())
+    return entities
+
+
+def event_jaccard_similarity(t1: str, t2: str) -> float:
+    """计算两个标题的实体集合 Jaccard 相似度
+    J = |A ∩ B| / |A ∪ B|
+    值越接近1，越可能是同一事件"""
+    e1 = extract_entities(t1)
+    e2 = extract_entities(t2)
+    if not e1 or not e2:
+        return 0.0
+    intersection = e1 & e2
+    union = e1 | e2
+    return len(intersection) / len(union)
+
+
+# 事件指纹匹配阈值：Jaccard > 0.3 即视为同一事件
+EVENT_JACCARD_THRESHOLD = 0.3
 
 
 def has_different_versions(t1: str, t2: str) -> bool:
@@ -211,26 +251,33 @@ def check_headline(headline: str, module: str = ''):
         conn.close()
         return
 
-    # 2. 跨天同模块重复检测（新增 — 解决垂直重复问题）
+    # 2. 跨天同模块重复检测（增强版：标题相似度 + 事件指纹）
     if module:
         cutoff_date = (datetime.now() - timedelta(days=SAME_MODULE_LOOKBACK_DAYS)).strftime("%Y-%m-%d")
+        new_entities = extract_entities(headline)
         same_mod_rows = conn.execute(
             "SELECT module, date, headline FROM fingerprints WHERE module = ? AND date >= ? ORDER BY date DESC",
             (module, cutoff_date)
         ).fetchall()
 
         for mod, d, h in same_mod_rows:
+            # 检测1: 标题相似度（用较低阈值 0.70）
             sim = title_similarity(headline, h)
-            if sim > DUPLICATE_THRESHOLD:
+            # 检测2: 事件 Jaccard 相似度
+            jaccard = event_jaccard_similarity(headline, h)
+
+            if sim > SAME_MODULE_DUPLICATE_THRESHOLD or jaccard > EVENT_JACCARD_THRESHOLD:
+                reason = f"标题相似度 {sim:.0%}" if sim > SAME_MODULE_DUPLICATE_THRESHOLD else f"事件匹配 J={jaccard:.0%}"
                 if has_different_versions(headline, h):
                     print(f"🟡 [同模块] 近{SAME_MODULE_LOOKBACK_DAYS}天内该模块有版本演进")
                     print(f"   历史({d}): {h}")
                     print(f"   新标题: {headline}")
                     print(f"   建议: 标题需突出新版本号以区分")
                 else:
-                    print(f"🔴 [同模块] 近{SAME_MODULE_LOOKBACK_DAYS}天内该模块有相似报道")
+                    print(f"🔴 [同模块] 近{SAME_MODULE_LOOKBACK_DAYS}天内已有相同事件报道")
                     print(f"   历史({d}): {h}")
-                    print(f"   相似度: {sim:.0%}")
+                    print(f"   新标题: {headline}")
+                    print(f"   匹配方式: {reason}")
                     print(f"   建议: 若无实质新进展，请跳过或改为「进展更新」视角")
                 conn.close()
                 return
@@ -383,23 +430,28 @@ def scan(date_str: str):
     # 对当天每个模块的每条新闻，查同模块最近 N 天的历史
     vert_cutoff = (datetime.strptime(date_str, "%Y-%m-%d") - timedelta(days=SAME_MODULE_LOOKBACK_DAYS)).strftime("%Y-%m-%d")
     for mod, f, h, lead in today_items:
+        new_entities = extract_entities(h)
         rows = conn.execute(
             "SELECT date, headline FROM fingerprints WHERE module = ? AND date >= ? AND date != ? ORDER BY date DESC",
             (mod, vert_cutoff, date_str)
         ).fetchall()
 
         for d, hist_h in rows:
+            # 检测1: 标题相似度（同模块用低阈值）
             sim = title_similarity(h, hist_h)
-            if sim > DUPLICATE_THRESHOLD:
+            # 检测2: 事件 Jaccard 相似度
+            jaccard = event_jaccard_similarity(h, hist_h)
+
+            if sim > SAME_MODULE_DUPLICATE_THRESHOLD or jaccard > EVENT_JACCARD_THRESHOLD:
+                reason = f"相似度{sim:.0%}" if sim > SAME_MODULE_DUPLICATE_THRESHOLD else f"事件匹配 J={jaccard:.0%}"
                 if has_different_versions(h, hist_h):
-                    # 版本演进：不算重复，标注
                     vert_found += 1
-                    print(f"  ℹ️ [{mod}] {d} 同模块版本演进")
+                    print(f"  ℹ️ [{mod}] {d} 同模块版本演进（{reason}）")
                     print(f"     旧: {hist_h}")
                     print(f"     新: {h}")
                 else:
                     vert_found += 1
-                    print(f"  ⚠️ [{mod}] {d} 同模块相似报道（{sim:.0%}）")
+                    print(f"  ⚠️ [{mod}] {d} 同模块重复（{reason}）")
                     print(f"     旧: {hist_h}")
                     print(f"     新: {h}")
                 break  # 只报告最匹配的一条

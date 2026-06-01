@@ -137,8 +137,23 @@ def get_fingerprint_blacklist(date_params, agent_id, history_file=None):
 
         lines = []
         lines.append(f"  📊 内容指纹索引: 本模块已收录 {total} 条历史内容")
+
+        # 查询同模块最近7天的热点事件，形成黑名单
+        cutoff_7 = (datetime.strptime(date_str, "%Y-%m-%d") - timedelta(days=7)).strftime("%Y-%m-%d")
+        recent_rows = conn.execute(
+            "SELECT date, headline FROM fingerprints WHERE module = ? AND date >= ? ORDER BY date DESC",
+            (agent_id, cutoff_7)
+        ).fetchall()
+
+        if recent_rows:
+            lines.append(f"  ⚠️ 本模块近7天已报道事件（写作前请自查是否重复）：")
+            for rd, rh in recent_rows[:5]:  # 最多显示5条
+                lines.append(f"     · [{rd}] {rh}")
+            lines.append(f"  💡 同事件请检查是否有实质新进展，否则跳过")
+            lines.append(f"")
+
         lines.append(f"  💡 写作前请运行以下命令检测每条候选新闻是否重复：")
-        lines.append(f"     python3 scripts/check-dedup.py check \"<标题>\"")
+        lines.append(f"     python3 scripts/check-dedup.py check \"<标题>\" {agent_id}")
         lines.append(f"     返回 🔴 → 跳过 | 🟢 → 可写")
         lines.append(f"")
 
@@ -234,8 +249,9 @@ def generate_batch_prompts(date_params):
         total_b1 = sum(len(v["headlines"]) for v in batch1_data.values())
         print(f"  ⚠️ 注意：本日第一批已写完 {total_b1} 条新闻。")
         print(f"  写作前对每条候选新闻运行 check 检测是否内容重复：")
-        print(f"     python3 scripts/check-dedup.py check \"<标题>\"")
+        print(f"     python3 scripts/check-dedup.py check \"<标题>\" <模块编号>")
         print(f"  返回 🔴 重复 → 跳过 | 🟢 可写 → 正常写作")
+        print(f"  返回 🔴 [同模块] → 近7天已有相似报道，无实质新进展则跳过")
         print()
 
     for agent in batch2["agents"]:
