@@ -349,7 +349,7 @@ def git_commit_push(date_params):
     branch = get_git_branch()
     cmds = [
         f"git add news/ news-index.json task/knowledge-index*.json",
-        f'git commit -m "{date_str} 早间新闻（15板块）"',
+        f'git commit -m "{date_str} 早间新闻（12板块）"',
         f"git push origin {branch}",
     ]
     for cmd in cmds:
@@ -364,7 +364,7 @@ def git_commit_push(date_params):
         if "create mode" in out or "changed" in out or "main -> main" in out:
             print(f"  ✅ {out.split(chr(10))[0]}")
 
-    print(f"\n  ✅ 已推送至 Gitee & GitHub: {date_str} 早间新闻（15板块）")
+    print(f"\n  ✅ 已推送至 Gitee & GitHub: {date_str} 早间新闻（12板块，02/03/04暂停）")
     return True
 
 # ─── 步骤4-7: 后置步骤（组合） ──────────────────────────────
