@@ -8,51 +8,46 @@
   },
   "12": {
     "last_main": [
-      "E2",
-      "E11",
-      "E6",
-      "E1",
-      "E13",
-      "E12",
-      "E8",
-      "E4"
+      "E3",
+      "E5",
+      "E15",
+      "E1"
     ],
-    "last_week": "2026-05-31"
+    "last_week": "2026-06-01"
   },
   "13": {
     "last_main": [
-      "U4",
-      "U6"
+      "U9",
+      "U5",
+      "U7",
+      "U2"
     ],
-    "last_week": "2026-05-31"
+    "last_week": "2026-06-01"
   },
   "14": {
     "last_main": [
-      "G1",
-      "G6",
-      "G15"
+      "G7",
+      "G10",
+      "G9"
     ],
-    "last_week": "2026-05-31"
+    "last_week": "2026-06-01"
   },
   "15": {
     "last_main": [
-      "P11",
-      "P5",
-      "P14"
+      "P1",
+      "P4",
+      "P6"
     ],
-    "last_week": "2026-05-29"
+    "last_week": "2026-06-01"
   },
   "08": {
     "last_main": [
-      "Midjourney V8.1",
-      "Suno V5.5",
-      "AI搜索工具选型",
-      "AI翻译三件套",
-      "AI视频生成工具",
-      "Notion vs Obsidian",
-      "国产AI大模型横评"
+      "L3",
+      "L2",
+      "L4",
+      "L3"
     ],
-    "last_week": "2026-05-31"
+    "last_week": "2026-06-01"
   },
   "09": {
     "last_main": [
@@ -67,13 +62,13 @@
   },
   "10": {
     "last_main": [
-      "P0",
-      "P1",
-      "P2",
-      "P3",
-      "P4"
+      "CodeGraph",
+      "DeepSeek-TUI",
+      "MoneyPrinterTurbo",
+      "MCP Server",
+      "Understand-Anything"
     ],
-    "last_week": "2026-05-31"
+    "last_week": "2026-06-01"
   },
   "02": {
     "last_main": [
@@ -96,5 +91,17 @@
       "F13"
     ],
     "last_week": "2026-05-31"
+  },
+  "7": {
+    "last_main": [
+      "T4",
+      "T1",
+      "T2",
+      "T3",
+      "T5",
+      "T6",
+      "T23"
+    ],
+    "last_week": "2026-06-01"
   }
 }
