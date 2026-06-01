@@ -468,9 +468,45 @@
     "depth": "前沿层",
     "angle": "泛型递归定义与GC优化",
     "keywords_snippet": "Go 1.26, generics, Green Tea GC, cgo"
-  }
-]a, Go, Rust"
-  }
-]ithResolvers"
+  },
+  {
+    "module": "09",
+    "date": "2026-06-01",
+    "topic": "Node.js 26 Temporal API FFI",
+    "title": "Node.js 26.0正式发布，Temporal API默认启用",
+    "level": "L4",
+    "depth": "前沿层",
+    "angle": "Temporal API默认启用与FFI模块原生支持",
+    "keywords_snippet": "Node.js 26 Temporal API FFI 模块"
+  },
+  {
+    "module": "09",
+    "date": "2026-06-01",
+    "topic": "Python 3.14 GC回滚",
+    "title": "Python 3.14/3.15回滚增量GC",
+    "level": "L3",
+    "depth": "实践层",
+    "angle": "生产环境内存压力导致增量GC回退",
+    "keywords_snippet": "Python 3.14 3.15 增量GC 回滚 分代GC 内存压力"
+  },
+  {
+    "module": "09",
+    "date": "2026-06-01",
+    "topic": ".NET 11 Runtime-Async",
+    "title": ".NET 11 Preview 4发布",
+    "level": "L4",
+    "depth": "前沿层",
+    "angle": "Runtime-Async全面启用与C# 15新特性",
+    "keywords_snippet": ".NET 11 Runtime-Async C# 15 集合字面量 半属性"
+  },
+  {
+    "module": "09",
+    "date": "2026-06-01",
+    "topic": "Deno 2.8 Node兼容性",
+    "title": "Deno 2.8发布Node兼容性跃升至76%",
+    "level": "L4",
+    "depth": "前沿层",
+    "angle": "npm兼容率突破与import defer懒编译",
+    "keywords_snippet": "Deno 2.8 Node兼容 import defer npm冷启动"
   }
 ]

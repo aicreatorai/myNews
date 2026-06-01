@@ -586,9 +586,45 @@
     "depth": "前沿层",
     "angle": "V5.5人声克隆+Custom Models+My Taste个性化全链路",
     "keywords_snippet": "Suno V5.5 人声克隆 专属模型训练 AI音乐 国风原创"
-  }
-]量产 中文提示词"
-  }
-]壁垒"
+  },
+  {
+    "module": "08",
+    "date": "2026-06-01",
+    "topic": "ChatGPT Deep Research",
+    "title": "ChatGPT Deep Research深度研究：把一周调研压缩到15分钟",
+    "level": "L3",
+    "depth": "实践层",
+    "angle": "深度研究功能实战工作流",
+    "keywords_snippet": "ChatGPT Deep Research 深度研究 研究报告 多源搜索 引用验证"
+  },
+  {
+    "module": "08",
+    "date": "2026-06-01",
+    "topic": "Kimi长文档处理",
+    "title": "Kimi K2.5长文档处理：200万字上下文的正确打开方式",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "长文档处理实战技巧和多文件对比分析",
+    "keywords_snippet": "Kimi K2.5 长文档 256K上下文 多文件对比 PDF分析 合同审查"
+  },
+  {
+    "module": "08",
+    "date": "2026-06-01",
+    "topic": "AI视频创作",
+    "title": "可灵3.0+即梦Seedance 2.0：国产AI视频创作从入门到导演级输出",
+    "level": "L4",
+    "depth": "前沿层",
+    "angle": "可灵3.0与Seedance 2.0双工具互补实战工作流",
+    "keywords_snippet": "可灵3.0 即梦 Seedance 2.0 AI视频 智能分镜 4K 60fps 音画同步"
+  },
+  {
+    "module": "08",
+    "date": "2026-06-01",
+    "topic": "国产AI工具组合",
+    "title": "国产AI工具组合工作流：豆包、Kimi、千问如何协同作战",
+    "level": "L3",
+    "depth": "实践层",
+    "angle": "多AI协同工作流Kimi读通义验豆包写",
+    "keywords_snippet": "国产AI 豆包 Kimi 通义千问 DeepSeek 多工具协同 工作流组合"
   }
 ]

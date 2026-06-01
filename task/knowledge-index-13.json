@@ -121,5 +121,45 @@
     "depth": "概念层",
     "angle": "文科教学+可视化",
     "keywords_snippet": "AI文科教学,历史,地理,政治"
+  },
+  {
+    "module": "13",
+    "date": "2026-06-01",
+    "topic": "AI自习室与中高考备考",
+    "title": "AI智能自习室：中高考冲刺期的个性化学习新方案",
+    "level": "L3",
+    "depth": "实践层",
+    "angle": "AI自习室线下场景的中高考备考方案，结合学习科学原理分析",
+    "keywords_snippet": "AI自习室 中高考 备考 个性化学习"
+  },
+  {
+    "module": "13",
+    "date": "2026-06-01",
+    "topic": "AI理科辅导",
+    "title": "AI理科辅导：从解题工具到学习伙伴的进化之路",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "AI分步推理工具的数理辅导方案，结合生成效应和脚手架理论分析",
+    "keywords_snippet": "LearnFast AI Solvify AI 理科辅导 分步推理"
+  },
+  {
+    "module": "13",
+    "date": "2026-06-01",
+    "topic": "AI高考助考",
+    "title": "华为小艺AI高考伴考：从冲刺备考到志愿填报的全流程智能服务",
+    "level": "L3",
+    "depth": "实践层",
+    "angle": "华为小艺AI高考频道全流程服务，从备考到志愿填报，结合学习科学分析",
+    "keywords_snippet": "华为小艺 AI高考 备考 志愿填报"
+  },
+  {
+    "module": "13",
+    "date": "2026-06-01",
+    "topic": "AI艺术教育",
+    "title": "AI赋能艺术课堂：从被动欣赏到主动创作的美育新范式",
+    "level": "L3",
+    "depth": "实践层",
+    "angle": "AI音乐和美术创作工具在课堂中的美育应用，结合创作驱动学习理论分析",
+    "keywords_snippet": "Suno AI音乐 丹青识画 AI美术 美育 艺术教育"
   }
 ]

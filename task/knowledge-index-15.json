@@ -548,5 +548,55 @@
     "depth": "前沿层",
     "angle": "全球AI定价体系全景分析与趋势提炼",
     "keywords_snippet": "AI订阅定价 按量计费 混合计费模式"
+  },
+  {
+    "module": "15",
+    "date": "2026-06-01",
+    "topic": "AI产品思维与决策",
+    "title": "AI产品思维：从功能执行者到智能系统架构师的五大能力模型",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "AI PM五大核心能力模型",
+    "keywords_snippet": "AI产品思维 能力模型 智能系统架构师"
+  },
+  {
+    "module": "15",
+    "date": "2026-06-01",
+    "topic": "AI产品思维与决策",
+    "title": "产品经理的AI提示词三层思维模型",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "提示词方法论与实战",
+    "keywords_snippet": "提示词 三层思维模型 人机协作"
+  },
+  {
+    "module": "15",
+    "date": "2026-06-01",
+    "topic": "国内AI产品案例拆解",
+    "title": "豆包付费订阅解析：AI产品从流量思维到价值思维的商业化转型",
+    "level": "L3",
+    "depth": "实践层",
+    "angle": "豆包付费订阅案例拆解",
+    "keywords_snippet": "豆包 付费订阅 商业化 Token"
+  },
+  {
+    "module": "15",
+    "date": "2026-06-01",
+    "topic": "LLM选型与技术边界",
+    "title": "Token经济学：AI产品经理的模型选型与成本决策指南",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "模型选型成本决策框架",
+    "keywords_snippet": "Token经济学 模型选型 成本决策 多模型路由"
+  },
+  {
+    "module": "15",
+    "date": "2026-06-01",
+    "topic": "AI产品思维与决策",
+    "title": "AI产品经理的PRD协作革命：从需求文档到智能工作流的升级实践",
+    "level": "L3",
+    "depth": "实践层",
+    "angle": "AI辅助PRD全流程实践",
+    "keywords_snippet": "PRD AI辅助 需求文档 原型生成"
   }
 ]

@@ -518,5 +518,45 @@
     "depth": "概念层",
     "angle": "PH首发流程+AI搜索长尾价值",
     "keywords_snippet": "Product Hunt,PH首发,周末发布,AI搜索"
+  },
+  {
+    "module": "12",
+    "date": "2026-06-01",
+    "topic": "AI Agent商业化",
+    "title": "Anthropic首次季度盈利：大模型从烧钱到赚钱的历史转折点",
+    "level": "L4",
+    "depth": "前沿层",
+    "angle": "AI Agent商业化+大模型盈利模式拆解",
+    "keywords_snippet": "Anthropic 季度盈利 109亿美元 OpenAI IPO AI Agent 商业化 拐点"
+  },
+  {
+    "module": "12",
+    "date": "2026-06-01",
+    "topic": "独立开发者增长策略",
+    "title": "从月入300到3.5万美元：一个独立开发者+一位网红的增长奇迹",
+    "level": "L4",
+    "depth": "前沿层",
+    "angle": "单一网红利润分成深度绑定策略",
+    "keywords_snippet": "Monai 独立开发者 Flo 网红合作 利润分成 MRR 35K 哥伦比亚 冷启动"
+  },
+  {
+    "module": "12",
+    "date": "2026-06-01",
+    "topic": "AI硬件出海",
+    "title": "乐奇AI眼镜日本众筹6.36亿日元破纪录：AI硬件出海冷启动全复盘",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "AI硬件出海冷启动策略+日本众筹模式",
+    "keywords_snippet": "Rokid 乐奇 AI眼镜 Makuake 众筹 6.36亿日元 出海 冷启动"
+  },
+  {
+    "module": "12",
+    "date": "2026-06-01",
+    "topic": "AI内容变现",
+    "title": "15人团队年入百万美元：Every公司的AI内容变现模式拆解",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "AI赋能内容订阅+工作流自动化+轻资产创业",
+    "keywords_snippet": "Every 15人 年入百万 10万付费 AI简报 内容订阅 Claude Code 自动化"
   }
 ]

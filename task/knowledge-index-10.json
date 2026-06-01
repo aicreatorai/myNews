@@ -568,5 +568,55 @@
     "depth": "概念层",
     "angle": "场景化技能文件 vs 原则导向",
     "keywords_snippet": "agent-skills,Addy Osmani,AI编码规范"
+  },
+  {
+    "module": "10",
+    "date": "2026-06-01",
+    "topic": "DeepSeek-TUI",
+    "title": "DeepSeek-TUI 终端里的AI编程Agent百万token上下文",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "终端原生DeepSeek V4编程Agent的架构设计与多模式调度",
+    "keywords_snippet": "DeepSeek-TUI, Rust, 终端Agent, DeepSeek V4, 百万上下文"
+  },
+  {
+    "module": "10",
+    "date": "2026-06-01",
+    "topic": "CodeGraph",
+    "title": "CodeGraph 预索引代码知识图谱让AI编程效率翻倍",
+    "level": "L3",
+    "depth": "实践层",
+    "angle": "tree-sitter预索引知识图谱在AI编程中的性能提升数据",
+    "keywords_snippet": "CodeGraph, tree-sitter, 知识图谱, MCP, AI编程"
+  },
+  {
+    "module": "10",
+    "date": "2026-06-01",
+    "topic": "MoneyPrinterTurbo",
+    "title": "MoneyPrinterTurbo v1.2.8 AI一键生成短视频工具",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "MVC架构与LiteLLM多模型集成的AI视频生成工具",
+    "keywords_snippet": "MoneyPrinterTurbo, 短视频, LiteLLM, AI视频, TTS"
+  },
+  {
+    "module": "10",
+    "date": "2026-06-01",
+    "topic": "MCP Server",
+    "title": "MCP Server生态2026 10款开源MCP服务器横向对比",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "MCP协议生态与FileSystem/Git/PostgreSQL等核心服务器选型",
+    "keywords_snippet": "MCP Server, Model Context Protocol, FileSystem, Git, PostgreSQL"
+  },
+  {
+    "module": "10",
+    "date": "2026-06-01",
+    "topic": "Understand-Anything",
+    "title": "Understand-Anything 将代码库变为交互式知识图谱",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "多Agent流水线构建交互式代码知识图谱的原理与使用",
+    "keywords_snippet": "Understand-Anything, 知识图谱, Claude Code插件, 代码可视化"
   }
 ]
