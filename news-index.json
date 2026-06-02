@@ -1,6 +1,86 @@
 {
   "dates": [
     {
+      "date": "2026-06-02",
+      "format": "subdir",
+      "has_multi": true,
+      "categories": [
+        {
+          "id": "01",
+          "file": "01_今日头条.md",
+          "name": "今日头条",
+          "icon": "📄"
+        },
+        {
+          "id": "05",
+          "file": "05_科技前沿.md",
+          "name": "科技前沿",
+          "icon": "🧠"
+        },
+        {
+          "id": "06",
+          "file": "06_科技动态.md",
+          "name": "科技动态",
+          "icon": "🤖"
+        },
+        {
+          "id": "07",
+          "file": "07_AI知识点.md",
+          "name": "AI知识点",
+          "icon": "🧩"
+        },
+        {
+          "id": "08",
+          "file": "08_AI工具使用.md",
+          "name": "AI工具使用",
+          "icon": "✨"
+        },
+        {
+          "id": "09",
+          "file": "09_开发语言.md",
+          "name": "开发语言",
+          "icon": "🔤"
+        },
+        {
+          "id": "10",
+          "file": "10_GitHubSkills.md",
+          "name": "GitHubSkills",
+          "icon": "⭐"
+        },
+        {
+          "id": "11",
+          "file": "11_移动开发.md",
+          "name": "移动开发",
+          "icon": "📱"
+        },
+        {
+          "id": "12",
+          "file": "12_AI创业.md",
+          "name": "AI创业",
+          "icon": "💰"
+        },
+        {
+          "id": "13",
+          "file": "13_AI教育.md",
+          "name": "AI教育",
+          "icon": "📚"
+        },
+        {
+          "id": "14",
+          "file": "14_个人成长.md",
+          "name": "个人成长",
+          "icon": "🌱"
+        },
+        {
+          "id": "15",
+          "file": "15_AI产品经理.md",
+          "name": "AI产品经理",
+          "icon": "📋"
+        }
+      ],
+      "path": "202606/20260602"
+    },
+    {
       "date": "2026-06-01",
       "format": "subdir",
       "has_multi": true,
@@ -4019,6 +4099,86 @@
     {
       "month": "202606",
       "dates": [
+        {
+          "date": "2026-06-02",
+          "format": "subdir",
+          "has_multi": true,
+          "categories": [
+            {
+              "id": "01",
+              "file": "01_今日头条.md",
+              "name": "今日头条",
+              "icon": "📄"
+            },
+            {
+              "id": "05",
+              "file": "05_科技前沿.md",
+              "name": "科技前沿",
+              "icon": "🧠"
+            },
+            {
+              "id": "06",
+              "file": "06_科技动态.md",
+              "name": "科技动态",
+              "icon": "🤖"
+            },
+            {
+              "id": "07",
+              "file": "07_AI知识点.md",
+              "name": "AI知识点",
+              "icon": "🧩"
+            },
+            {
+              "id": "08",
+              "file": "08_AI工具使用.md",
+              "name": "AI工具使用",
+              "icon": "✨"
+            },
+            {
+              "id": "09",
+              "file": "09_开发语言.md",
+              "name": "开发语言",
+              "icon": "🔤"
+            },
+            {
+              "id": "10",
+              "file": "10_GitHubSkills.md",
+              "name": "GitHubSkills",
+              "icon": "⭐"
+            },
+            {
+              "id": "11",
+              "file": "11_移动开发.md",
+              "name": "移动开发",
+              "icon": "📱"
+            },
+            {
+              "id": "12",
+              "file": "12_AI创业.md",
+              "name": "AI创业",
+              "icon": "💰"
+            },
+            {
+              "id": "13",
+              "file": "13_AI教育.md",
+              "name": "AI教育",
+              "icon": "📚"
+            },
+            {
+              "id": "14",
+              "file": "14_个人成长.md",
+              "name": "个人成长",
+              "icon": "🌱"
+            },
+            {
+              "id": "15",
+              "file": "15_AI产品经理.md",
+              "name": "AI产品经理",
+              "icon": "📋"
+            }
+          ],
+          "path": "202606/20260602"
+        },
         {
           "date": "2026-06-01",
           "format": "subdir",
