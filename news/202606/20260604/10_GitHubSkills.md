@@ -6,7 +6,7 @@
 
 ---
 
-## 一、OpenClaw：360K+ Star 的上下文记忆型个人AI助手
+### 1. OpenClaw：360K+ Star 的上下文记忆型个人AI助手
 
 ### 项目数据速览
 
@@ -124,7 +124,7 @@ OpenClaw 会自动执行：读取 git log → 调用飞书 API 获取消息 → 
 
 ---
 
-## 二、vLLM vs Ollama：大模型推理部署框架深度对决
+### 2. vLLM vs Ollama：大模型推理部署框架深度对决
 
 ### 项目数据速览
 
@@ -284,7 +284,7 @@ response = client.chat.completions.create(
 
 ---
 
-## 三、AI编程CLI工具实测：Aider vs Claude Code vs CLI-Anything
+### 3. AI编程CLI工具实测：Aider vs Claude Code vs CLI-Anything
 
 ### 项目数据速览
 
@@ -427,7 +427,7 @@ cli "解释这个项目的架构"
 
 ---
 
-## 四、Continue.dev：25K+ Star 的开源IDE AI编程插件
+### 4. Continue.dev：25K+ Star 的开源IDE AI编程插件
 
 ### 项目数据速览
 
@@ -593,7 +593,7 @@ Continue Core (TypeScript)
 
 ---
 
-## 五、Dify：140K+ Star 的企业级AI应用开发平台
+### 5. Dify：140K+ Star 的企业级AI应用开发平台
 
 ### 项目数据速览
 
