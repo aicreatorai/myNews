@@ -698,5 +698,75 @@
     "depth": "概念层",
     "angle": "FlashAttention V1-V3演进与IO感知",
     "keywords_snippet": "FlashAttention IO感知 Tiling Online Softmax 显存 加速"
+  },
+  {
+    "module": "07",
+    "date": "2026-06-04",
+    "topic": "AI安全与对齐",
+    "title": "AgentDoG 1.5：AI Agent安全对齐的诊断式护栏框架",
+    "level": "L4",
+    "depth": "前沿层",
+    "angle": "AgentDoG 1.5双层安全架构、小样本高质量训练、影响函数净化",
+    "keywords_snippet": "AgentDoG 1.5,安全对齐,双层架构,影响函数,AI Agent安全"
+  },
+  {
+    "module": "07",
+    "date": "2026-06-04",
+    "topic": "AI安全与对齐",
+    "title": "AI模型幻觉治理：从检测到纠正的技术全景",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "置信度感知解码、PSRD自我纠错、RAG检索增强四层防御",
+    "keywords_snippet": "AI幻觉,置信度解码,PSRD,VRP,Self-Consistency"
+  },
+  {
+    "module": "07",
+    "date": "2026-06-04",
+    "topic": "合成数据/数据工程",
+    "title": "合成数据：AI模型训练的燃料革命",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "合成数据三大生成路线、LLM驱动/扩散模型/GAN对比",
+    "keywords_snippet": "合成数据,LLM驱动,扩散模型,GAN,Self-Play,GRPO"
+  },
+  {
+    "module": "07",
+    "date": "2026-06-04",
+    "topic": "推理优化与量化",
+    "title": "模型量化技术全景：INT8/FP8/GPTQ/AWQ四大方案怎么选",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "PTQ与QAT对比、GPTQ/AWQ/FP8量化方案选型",
+    "keywords_snippet": "INT8,FP8,GPTQ,AWQ,模型量化,离群值,Marlin内核"
+  },
+  {
+    "module": "07",
+    "date": "2026-06-04",
+    "topic": "AI可解释性",
+    "title": "AI可解释性：打开大模型黑箱的技术路径",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "机制可解释性三大路线、电路追踪、神经元翻译、CoT监控",
+    "keywords_snippet": "AI可解释性,机制可解释性,电路追踪,稀疏自编码器,SAE,归因图谱"
+  },
+  {
+    "module": "07",
+    "date": "2026-06-04",
+    "topic": "AI工程化/推理部署",
+    "title": "AI推理服务性能监控与生产优化实践",
+    "level": "L3",
+    "depth": "实践层",
+    "angle": "vLLM生产部署参数调优、PagedAttention、连续批处理、前缀缓存",
+    "keywords_snippet": "vLLM,PagedAttention,连续批处理,前缀缓存,Prometheus,推理优化"
+  },
+  {
+    "module": "07",
+    "date": "2026-06-04",
+    "topic": "AI工程化/推理部署",
+    "title": "AI工程化MLOps：大模型从训练到生产的全链路管理",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "LLMOps六大阶段、MLOps vs LLMOps对比、安全合规左移",
+    "keywords_snippet": "MLOps,LLMOps,全生命周期,模型交付,安全合规,迭代闭环"
   }
 ]
