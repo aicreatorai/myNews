@@ -48,22 +48,22 @@ AGENTS_CONFIG = {
     "batch1_news_tech": {
         "label": "第一批 - 新闻+技术（01+05+06+07+08+09，共6个）",
         "agents": [
-            {"id": "01", "name": "新闻早报",     "file": "01_新闻早报.md",       "max_turns": 160, "weight": "特重量级"},
-            {"id": "05", "name": "科技前沿",     "file": "05_科技前沿.md",       "max_turns": 120, "weight": "重量级"},
-            {"id": "06", "name": "科技动态",     "file": "06_科技动态.md",       "max_turns": 120, "weight": "重量级"},
-            {"id": "07", "name": "AI知识点",     "file": "07_AI知识点.md",       "max_turns": 100, "weight": "中量级"},
-            {"id": "08", "name": "AI工具使用",   "file": "08_AI工具使用.md",     "max_turns": 60,  "weight": "轻量级"},
-            {"id": "09", "name": "开发语言",     "file": "09_开发语言.md",       "max_turns": 60,  "weight": "轻量级"},
+            {"id": "01", "name": "新闻早报",     "file": "01_新闻早报.md",       "max_turns": 100, "weight": "重量级"},
+            {"id": "05", "name": "科技前沿",     "file": "05_科技前沿.md",       "max_turns": 80,  "weight": "中量级"},
+            {"id": "06", "name": "科技动态",     "file": "06_科技动态.md",       "max_turns": 80,  "weight": "中量级"},
+            {"id": "07", "name": "AI知识点",     "file": "07_AI知识点.md",       "max_turns": 60,  "weight": "中量级"},
+            {"id": "08", "name": "AI工具使用",   "file": "08_AI工具使用.md",     "max_turns": 45,  "weight": "轻量级"},
+            {"id": "09", "name": "开发语言",     "file": "09_开发语言.md",       "max_turns": 45,  "weight": "轻量级"},
         ]
     },
     "batch2_knowledge": {
         "label": "第二批 - 知识+社区（10+11+12+13+14+15，共6个）",
         "agents": [
-            {"id": "10", "name": "GitHubSkills", "file": "10_GitHubSkills.md",   "max_turns": 80,  "weight": "中量级"},
-            {"id": "11", "name": "移动开发",     "file": "11_移动开发.md",       "max_turns": 100, "weight": "中量级"},
-            {"id": "12", "name": "AI创业",       "file": "12_AI创业.md",         "max_turns": 60,  "weight": "轻量级"},
-            {"id": "13", "name": "AI教育",       "file": "13_AI教育.md",         "max_turns": 60,  "weight": "轻量级"},
-            {"id": "14", "name": "个人成长",     "file": "14_个人成长.md",       "max_turns": 60,  "weight": "轻量级"},
+            {"id": "10", "name": "GitHubSkills", "file": "10_GitHubSkills.md",   "max_turns": 60,  "weight": "中量级"},
+            {"id": "11", "name": "移动开发",     "file": "11_移动开发.md",       "max_turns": 60,  "weight": "中量级"},
+            {"id": "12", "name": "AI创业",       "file": "12_AI创业.md",         "max_turns": 45,  "weight": "轻量级"},
+            {"id": "13", "name": "AI教育",       "file": "13_AI教育.md",         "max_turns": 45,  "weight": "轻量级"},
+            {"id": "14", "name": "个人成长",     "file": "14_个人成长.md",       "max_turns": 45,  "weight": "轻量级"},
             {"id": "15", "name": "AI产品经理",   "file": "15_AI产品经理.md",     "max_turns": 60,  "weight": "轻量级"},
         ]
     }
