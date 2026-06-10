@@ -768,5 +768,25 @@
     "depth": "概念层",
     "angle": "LLMOps六大阶段、MLOps vs LLMOps对比、安全合规左移",
     "keywords_snippet": "MLOps,LLMOps,全生命周期,模型交付,安全合规,迭代闭环"
+  },
+  {
+    "module": "07",
+    "date": "2026-06-10",
+    "topic": "原生多模态视觉语音融合",
+    "title": "LongCat-Next：美团开源原生多模态视觉语音融合模型",
+    "level": "L1",
+    "depth": "概念层 - 是什么、解决什么问题、与什么不同",
+    "angle": "美团LongCat-Next 离散分词器 原生多模态 物理世界感知",
+    "keywords_snippet": "LongCat-Next 原生多模态 离散分词器 视觉语音 美团 开源"
+  },
+  {
+    "module": "07",
+    "date": "2026-06-10",
+    "topic": "Mamba-3状态空间模型",
+    "title": "Mamba-3与非Transformer架构：线性复杂度的推理革命",
+    "level": "L3",
+    "depth": "实践层 - 生产级方案、踩坑经验、数据对比",
+    "angle": "Mamba-3 ICLR 2026 SSM 混合架构 混元T1 Kimi-K2 线性复杂度",
+    "keywords_snippet": "Mamba-3 SSM 状态空间 非Transformer 线性复杂度 混合架构"
   }
 ]

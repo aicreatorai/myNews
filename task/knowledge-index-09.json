@@ -508,5 +508,45 @@
     "depth": "前沿层",
     "angle": "npm兼容率突破与import defer懒编译",
     "keywords_snippet": "Deno 2.8 Node兼容 import defer npm冷启动"
+  },
+  {
+    "module": "09",
+    "date": "2026-06-10",
+    "topic": "编程语言趋势与排行",
+    "title": "TIOBE 2026年6月编程语言排行榜：Rust创历史新高首登第12名",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "Rust突破性增长与TIOBE排行格局变化",
+    "keywords_snippet": "TIOBE, Rust, 编程语言排行榜, 2026年6月, Python, Java, C++, Go, Paul Jansen, 编程语言趋势"
+  },
+  {
+    "module": "09",
+    "date": "2026-06-10",
+    "topic": "Python类型检查工具",
+    "title": "Meta发布Pyrefly 1.0：Rust编写的Python类型检查器正式稳定",
+    "level": "L2",
+    "depth": "机制层",
+    "angle": "Meta开源Pyrefly 1.0的技术亮点与工业级验证",
+    "keywords_snippet": "Pyrefly, Python类型检查, Meta, Rust, mypy, pyright, Pylance, TSP, Instagram, PyTorch"
+  },
+  {
+    "module": "09",
+    "date": "2026-06-10",
+    "topic": "Python版本更新",
+    "title": "Python 3.15功能冻结：sentinel、frozendict等核心新特性落地解析",
+    "level": "L2",
+    "depth": "机制层",
+    "angle": "3.15功能冻结后的新特性解读",
+    "keywords_snippet": "Python 3.15, sentinel, frozendict, PEP 661, PEP 814, PEP 829, JIT, 自由线程, 功能冻结, 性能优化"
+  },
+  {
+    "module": "09",
+    "date": "2026-06-10",
+    "topic": "Zig语言编译器进展",
+    "title": "Zig构建系统重构：配置执行分离，增量编译性能提升超90%",
+    "level": "L3",
+    "depth": "实践层",
+    "angle": "构建系统性能优化与自托管里程碑",
+    "keywords_snippet": "Zig, 构建系统, 增量编译, 自托管编译器, ELF链接器, Configurer, Maker, Andrew Kelley, 0.17.0"
   }
 ]

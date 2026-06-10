@@ -1,630 +1,702 @@
 [
+  [
+    {
+      "module": "08",
+      "date": "2026-05-15",
+      "topic": "Claude Code",
+      "title": "Claude Code 六步工作流：从新手到高手的实战指南",
+      "level": "L3",
+      "depth": "实践层",
+      "angle": "工作流方法与命令实操",
+      "keywords_snippet": "Claude Code, Plan Mode, /init, /memory, Auto-Accept, 六步工作流"
+    },
+    {
+      "module": "08",
+      "date": "2026-05-15",
+      "topic": "Perplexity AI",
+      "title": "Perplexity AI 深度使用指南：把搜索变成研究",
+      "level": "L3",
+      "depth": "实践层",
+      "angle": "搜索技巧与研究工作流",
+      "keywords_snippet": "Perplexity, Spaces, Focus模式, Pages, AI搜索, 信息收集"
+    },
+    {
+      "module": "08",
+      "date": "2026-05-15",
+      "topic": "Coze 扣子",
+      "title": "Coze 扣子 2.5 实战教程：零代码搭建 AI 智能体",
+      "level": "L3",
+      "depth": "实践层",
+      "angle": "零代码搭建与云电脑云手机实操",
+      "keywords_snippet": "Coze, 扣子2.5, 云电脑, 云手机, 工作流, AI Agent, 智能体搭建"
+    },
+    {
+      "module": "08",
+      "date": "2026-05-17",
+      "topic": "ChatGPT提示词技巧",
+      "title": "ChatGPT高级提示词技巧：3步拆解复杂任务提升输出质量",
+      "level": "L1",
+      "depth": "概念层",
+      "angle": "提示词技巧和实战案例",
+      "keywords_snippet": "ChatGPT 提示词 会议准备 文档撰写 分步执行"
+    },
+    {
+      "module": "08",
+      "date": "2026-05-17",
+      "topic": "Cursor AI编程",
+      "title": "Cursor AI编程实战：从零到一30分钟完成企业管理系统",
+      "level": "L1",
+      "depth": "概念层",
+      "angle": "Cursor IDE使用技巧和编程工作流",
+      "keywords_snippet": "Cursor Agent模式 Copilot 代码补全 项目实战"
+    },
+    {
+      "module": "08",
+      "date": "2026-05-17",
+      "topic": "AI视频生成工具",
+      "title": "AI视频生成零基础实战：3步搞定专业级短视频创作",
+      "level": "L1",
+      "depth": "概念层",
+      "angle": "AI视频工具使用教程和选型对比",
+      "keywords_snippet": "AI视频 文字转视频 图文转视频 剪映 影忆"
+    },
+    {
+      "module": "08",
+      "date": "2026-05-17",
+      "topic": "Suno AI音乐制作",
+      "title": "Suno AI音乐制作：5分钟创作专属原创歌曲",
+      "level": "L1",
+      "depth": "概念层",
+      "angle": "Suno使用教程和音乐创作工作流",
+      "keywords_snippet": "Suno AI音乐 ChatGPT生成歌词 歌曲创作 音乐风格"
+    },
+    {
+      "module": "08",
+      "date": "2026-05-17",
+      "topic": "WPS AI办公",
+      "title": "WPS AI实战：3大招让办公效率提升10倍",
+      "level": "L1",
+      "depth": "概念层",
+      "angle": "WPS AI使用技巧和PPT/表格制作",
+      "keywords_snippet": "WPS AI 灵犀 AI PPT 表格处理 双屏协同"
+    },
+    {
+      "module": "08",
+      "date": "2026-05-17",
+      "topic": "AI会议纪要工具",
+      "title": "AI会议纪要工具横评：哪款让打工人真正告别加班",
+      "level": "L1",
+      "depth": "概念层",
+      "angle": "会议纪要工具横评和选型对比",
+      "keywords_snippet": "AI会议 录音转写 智能纪要 听脑AI 随身鹿"
+    },
+    {
+      "module": "08",
+      "date": "2026-05-17",
+      "topic": "国产AI工具推荐",
+      "title": "2026国产AI工具推荐榜：豆包、千问、即梦谁更强",
+      "level": "L1",
+      "depth": "概念层",
+      "angle": "国产AI工具推荐和使用场景对比",
+      "keywords_snippet": "国产AI 豆包 千问 即梦 秘塔 Kimi"
+    },
+    {
+      "module": "08",
+      "date": "2026-05-18",
+      "topic": "Claude Code进阶技巧",
+      "title": "Claude Code七招进阶：钩子系统让开发效率翻倍",
+      "level": "L3",
+      "depth": "实践层",
+      "angle": "钩子系统模块化规则并行终端",
+      "keywords_snippet": "Claude Code hook PreToolUse 模块化规则 CLAUDE.md 并行终端 Plan Mode"
+    },
+    {
+      "module": "08",
+      "date": "2026-05-18",
+      "topic": "Cursor高级Prompt",
+      "title": "Cursor高级Prompt公式：五步让AI生成代码一次到位",
+      "level": "L2",
+      "depth": "技术层",
+      "angle": "Golden Prompt公式 @符号上下文注入 .cursorrules",
+      "keywords_snippet": "Cursor Golden Prompt Cmd+K Cmd+I @符号 .cursorrules 迭代优化"
+    },
+    {
+      "module": "08",
+      "date": "2026-05-18",
+      "topic": "AI工作流自动化",
+      "title": "n8n vs Coze：选对工作流自动化工具少走三年弯路",
+      "level": "L3",
+      "depth": "实践层",
+      "angle": "n8n Coze Dify工作流自动化选型对比",
+      "keywords_snippet": "n8n Coze Dify 工作流自动化 节点 自托管 零代码"
+    },
+    {
+      "module": "08",
+      "date": "2026-05-18",
+      "topic": "ChatGPT会议管理",
+      "title": "ChatGPT深度会议流：从议程生成到任务闭环全流程实战",
+      "level": "L3",
+      "depth": "实践层",
+      "angle": "会议议程生成纪要提炼待办管理",
+      "keywords_snippet": "ChatGPT 会议议程 录音转文字 纪要提炼 待办事项 思维导图"
+    },
+    {
+      "module": "08",
+      "date": "2026-05-18",
+      "topic": "国产AI横评",
+      "title": "国产AI横评实战：豆包/千问/Kimi/DeepSeek谁是你的职场搭子",
+      "level": "L2",
+      "depth": "技术层",
+      "angle": "国产AI六强横评14项任务选型指南",
+      "keywords_snippet": "Kimi 豆包 DeepSeek 通义千问 腾讯元宝 文心 国产AI对比"
+    },
+    {
+      "module": "08",
+      "date": "2026-05-18",
+      "topic": "AI视频制作",
+      "title": "AI视频制作零门槛：即梦可灵Runway三大场景选型指南",
+      "level": "L2",
+      "depth": "技术层",
+      "angle": "AI视频生成工具选型可灵即梦Runway实操",
+      "keywords_snippet": "AI视频 可灵 即梦 Runway 剪映 文字转视频 图生视频"
+    },
+    {
+      "topic": "Gemini AI Chrome技能",
+      "title": "Chrome版Gemini技能功能：三步设置AI工作流自动化",
+      "level": "L2",
+      "depth": "技术层",
+      "angle": "技能功能保存复用提示词思考强度调节Auto Browse",
+      "keywords_snippet": "Gemini Chrome 技能功能 斜杠命令 提示词复用 思考强度调节 Auto-Browse"
+    },
+    {
+      "module": "08",
+      "date": "2026-05-19",
+      "topic": "秘塔AI搜索",
+      "title": "秘塔AI搜索三模式：学术研究效率提升三倍实战指南",
+      "level": "L2",
+      "depth": "技术层",
+      "angle": "简洁深入研究三种模式思维导图生成导出WordPDF",
+      "keywords_snippet": "秘塔AI搜索 简洁模式 深入模式 研究模式 思维导图 Word导出 知识图谱"
+    },
+    {
+      "module": "08",
+      "date": "2026-05-19",
+      "topic": "WPS AI灵犀3.0",
+      "title": "WPS AI灵犀3.0实测：双屏协同办公效率翻倍指南",
+      "level": "L2",
+      "depth": "技术层",
+      "angle": "灵犀Canvas双屏协同表格AI自然语言DeepSeek集成",
+      "keywords_snippet": "WPS AI灵犀3.0 灵犀Canvas双屏协同 表格AI 自然语言函数 AI PPT DeepSeek"
+    },
+    {
+      "module": "08",
+      "date": "2026-05-19",
+      "topic": "可灵AI 3.0",
+      "title": "可灵AI 3.0新功能：登顶42国榜首的创作者实战技巧",
+      "level": "L2",
+      "depth": "技术层",
+      "angle": "可灵3.0棒球特效人物一致性API开放",
+      "keywords_snippet": "可灵AI 3.0 棒球现场特效 人物一致性 API 视频生成 图像生成 虚拟试穿"
+    },
+    {
+      "module": "08",
+      "date": "2026-05-19",
+      "topic": "Midjourney提示词技巧",
+      "title": "Midjourney提示词公式：四步生成专业级AI绘画作品",
+      "level": "L2",
+      "depth": "技术层",
+      "angle": "五要素提示词法主体场景光影运镜质感四套风格模板",
+      "keywords_snippet": "Midjourney 提示词 五要素 主体 场景 光影 运镜 质感 风格模板 钢笔淡彩水墨"
+    },
+    {
+      "module": "08",
+      "date": "2026-05-19",
+      "topic": "Notion AI使用技巧",
+      "title": "Notion AI九大使用场景：从笔记工具到AI工作流中枢",
+      "level": "L2",
+      "depth": "技术层",
+      "angle": "Personal Agent九大场景数据库管理文件处理MCP集成",
+      "keywords_snippet": "Notion AI Personal Agent Custom Agent MCP 数据库管理 文件处理 跨应用搜索"
+    },
+    {
+      "module": "08",
+      "date": "2026-05-19",
+      "topic": "Gamma AI PPT",
+      "title": "Gamma AI PPT制作教程：十分钟生成专业级演示文稿",
+      "level": "L2",
+      "depth": "技术层",
+      "angle": "三种创建方式提示词生成导出PPT思维导图转换",
+      "keywords_snippet": "Gamma AI PPT 一句话生成 思维导图转换 导出PPT 在线协作 第三方嵌入"
+    },
+    {
+      "module": "08",
+      "date": "2026-05-21",
+      "topic": "ChatGPT提示词工程",
+      "title": "[L4] ChatGPT提示词黄金7要素",
+      "level": "L4",
+      "depth": "前沿层",
+      "angle": "7要素公式实战",
+      "keywords_snippet": "黄金7要素 提示词 Prompt 评估标准"
+    },
+    {
+      "module": "08",
+      "date": "2026-05-21",
+      "topic": "Superpowers+Claude Code",
+      "title": "[L4] Superpowers+Claude Code工程化工作流",
+      "level": "L4",
+      "depth": "前沿层",
+      "angle": "工程纪律约束AI编程",
+      "keywords_snippet": "Superpowers Claude Code TDD 工作流"
+    },
+    {
+      "module": "08",
+      "date": "2026-05-21",
+      "topic": "Cursor AI编辑器",
+      "title": "[L2] Cursor AI编辑器Agent模式实战",
+      "level": "L2",
+      "depth": "技术层",
+      "angle": "Agent模式工作流",
+      "keywords_snippet": "Cursor Agent 规划模式 上下文管理 TDD"
+    },
+    {
+      "module": "08",
+      "date": "2026-05-21",
+      "topic": "AI搜索工具",
+      "title": "[L3] AI搜索工具三强横评",
+      "level": "L3",
+      "depth": "实践层",
+      "angle": "Perplexity秘塔ChatGPT Search对比",
+      "keywords_snippet": "AI搜索 Perplexity 秘塔 ChatGPT Search"
+    },
+    {
+      "module": "08",
+      "date": "2026-05-21",
+      "topic": "AI自动化平台",
+      "title": "[L4] n8n Dify Coze三选一",
+      "level": "L4",
+      "depth": "前沿层",
+      "angle": "平台选型对比",
+      "keywords_snippet": "n8n Dify Coze 自动化 工作流 选型"
+    },
+    {
+      "module": "08",
+      "date": "2026-05-21",
+      "topic": "豆包AI",
+      "title": "[L1] 豆包AI深度实战",
+      "level": "L1",
+      "depth": "概念层",
+      "angle": "全场景使用指南",
+      "keywords_snippet": "豆包 Seedance 文件分析 多模态 免费"
+    },
+    {
+      "module": "08",
+      "date": "2026-05-21",
+      "topic": "国产AI工具对比",
+      "title": "[L3] 国产AI工具全景对比",
+      "level": "L3",
+      "depth": "实践层",
+      "angle": "豆包DeepSeek千问元宝横评",
+      "keywords_snippet": "国产AI 豆包 DeepSeek 千问 元宝 对比"
+    },
+    {
+      "module": "08",
+      "date": "2026-05-22",
+      "topic": "Dify AI Agent搭建",
+      "title": "Dify AI Agent实战：30分钟搭建多Agent协作工作流",
+      "level": "L4",
+      "depth": "前沿层",
+      "angle": "多Agent协作实战，从安装部署到双Agent工作流编排全过程",
+      "keywords_snippet": "Dify 多Agent Workflow RAG 插件"
+    },
+    {
+      "module": "08",
+      "date": "2026-05-22",
+      "topic": "AI视频生成工具",
+      "title": "AI视频生成实战：可灵2.0+Runway Gen-3完整工作流",
+      "level": "L3",
+      "depth": "实践层",
+      "angle": "以产品宣传片制作为实战案例，可灵与Runway双工具互补工作流",
+      "keywords_snippet": "可灵AI Runway Gen-3 文生视频 图生视频 运动笔刷 提示词"
+    },
+    {
+      "module": "08",
+      "date": "2026-05-22",
+      "topic": "Bolt.new AI建站",
+      "title": "Bolt.new+Lovable实测：自然语言生成完整网站",
+      "level": "L1",
+      "depth": "概念层",
+      "angle": "Bolt.new与Lovable双平台实测对比，从相同需求出发分别演示建站流程",
+      "keywords_snippet": "Bolt.new Lovable AI建站 全栈 自然语言 零代码"
+    },
+    {
+      "module": "08",
+      "date": "2026-05-24",
+      "topic": "DeepSeek使用技巧",
+      "title": "DeepSeek深度使用进阶：90%用户不知道的7个提效技巧",
+      "level": "L2",
+      "depth": "技术层",
+      "angle": "深度思考模式+联网搜索+文件上传组合工作流",
+      "keywords_snippet": "DeepSeek 深度思考 R1 V3 联网搜索 文件上传 提示词 代码调试 数据分析"
+    },
+    {
+      "module": "08",
+      "date": "2026-05-24",
+      "topic": "Suno AI音乐制作",
+      "title": "Suno V5进阶实战：从随机抽卡到精准控曲的完整工作流",
+      "level": "L3",
+      "depth": "实践层",
+      "angle": "自定义模式+结构化歌词+曲风标签精准控曲工作流",
+      "keywords_snippet": "Suno V5 自定义模式 Custom Mode 歌词标记 曲风标签 Personas 商业BGM 国风R&B"
+    },
+    {
+      "module": "08",
+      "date": "2026-05-24",
+      "topic": "ElevenLabs AI语音克隆",
+      "title": "ElevenLabs语音克隆实战：从5分钟样本到专业级配音",
+      "level": "L2",
+      "depth": "技术层",
+      "angle": "Instant Voice Cloning全流程+参数调优+Lip Sync唇形同步",
+      "keywords_snippet": "ElevenLabs 语音克隆 VoiceLab TTS 文本转语音 Lip Sync 相似度 SSML 有声书"
+    },
+    {
+      "module": "08",
+      "date": "2026-05-24",
+      "topic": "Monica AI浏览器助手",
+      "title": "Monica浏览器助手实测：一个插件整合GPT+Claude+Gemini",
+      "level": "L1",
+      "depth": "概念层",
+      "angle": "五大核心功能实测+场景化工作流+模型切换策略",
+      "keywords_snippet": "Monica 浏览器插件 网页总结 翻译 写作 GPT Claude Gemini 侧边栏 效率"
+    },
+    {
+      "module": "08",
+      "date": "2026-05-24",
+      "topic": "剪映AI视频剪辑",
+      "title": "剪映AI剪辑进阶：用对这5个AI功能让出片速度翻3倍",
+      "level": "L2",
+      "depth": "技术层",
+      "angle": "五大AI功能组合实战+数字人+智能抠像+图文成片+AI配乐",
+      "keywords_snippet": "剪映 AI一键成片 智能抠像 数字人 图文成片 AI配乐 智能字幕 视频剪辑"
+    },
+    {
+      "module": "08",
+      "date": "2026-05-24",
+      "topic": "ChatGPT代码解释器数据分析",
+      "title": "ChatGPT代码解释器实战：零代码完成数据清洗到可视化全流程",
+      "level": "L2",
+      "depth": "技术层",
+      "angle": "商业数据分析全流程+数据清洗+可视化+分析报告生成",
+      "keywords_snippet": "ChatGPT 代码解释器 Code Interpreter 数据分析 Excel 数据清洗 可视化 Python 沙箱"
+    },
+    {
+      "module": "08",
+      "date": "2026-05-24",
+      "topic": "沉浸式翻译 DeepL 双语阅读",
+      "title": "沉浸式翻译+DeepL组合：打造你的个人双语阅读系统",
+      "level": "L1",
+      "depth": "概念层",
+      "angle": "双语对照阅读模式+DeepL高质量翻译+PDF论文精读工作流",
+      "keywords_snippet": "沉浸式翻译 DeepL 浏览器插件 双语对照 双语阅读 PDF翻译 学术论文 YouTube字幕 悬停翻译"
+    },
+    {
+      "module": "08",
+      "date": "2026-05-27",
+      "topic": "n8n自动化",
+      "title": "n8n+AI Agent五大自动化工作流：零代码搭建",
+      "level": "L3",
+      "depth": "实践层",
+      "angle": "n8n+AI Agent五个实战工作流从客服到竞品监控",
+      "keywords_snippet": "n8n AI Agent Docker 自动化 客服邮件 周报 竞品监控 客户线索"
+    },
+    {
+      "module": "08",
+      "date": "2026-05-27",
+      "topic": "AI视频生成",
+      "title": "AI视频生成工具2026横评：可灵Runway Pika海螺即梦五强实测",
+      "level": "L3",
+      "depth": "实践层",
+      "angle": "五大AI视频工具实测对比+按场景推荐选型",
+      "keywords_snippet": "AI视频生成 可灵 Runway Pika 海螺 即梦 1080p 30秒 图生视频 文生视频"
+    },
+    {
+      "module": "08",
+      "date": "2026-05-27",
+      "topic": "国产AI大模型",
+      "title": "国产AI大模型2026深度横评：DeepSeek通义豆包Kimi日常办公谁更强",
+      "level": "L3",
+      "depth": "实践层",
+      "angle": "五大国产模型按长文档/写作/代码/数据四个场景实测对比",
+      "keywords_snippet": "DeepSeek 通义千问 豆包 Kimi 文心一言 长文档 写作 代码 数据分析"
+    },
+    {
+      "module": "08",
+      "date": "2026-05-27",
+      "topic": "Dify低代码平台",
+      "title": "Dify低代码AI平台实战：10分钟搭建企业级AI知识库问答",
+      "level": "L2",
+      "depth": "技术层",
+      "angle": "从部署到知识库搭建到API发布完整实战",
+      "keywords_snippet": "Dify RAG 知识库 低代码 LLM 企业应用 问答助手 API"
+    },
+    {
+      "module": "08",
+      "date": "2026-05-28",
+      "topic": "ComfyUI+Flux工作流",
+      "title": "ComfyUI+Flux工作流实战：节点式AI绘画从安装到出图",
+      "level": "L2",
+      "depth": "技术层",
+      "angle": "节点式工作流搭建与Flux模型配置",
+      "keywords_snippet": "ComfyUI Flux 节点式工作流 FluxLoader FluxSampler VAE LoRA"
+    },
+    {
+      "module": "08",
+      "date": "2026-05-28",
+      "topic": "HeyGen数字人制作",
+      "title": "HeyGen数字人制作实战：3步生成可本地化口型同步视频",
+      "level": "L2",
+      "depth": "技术层",
+      "angle": "数字人形象选择脚本优化多语言本地化",
+      "keywords_snippet": "HeyGen 数字人 口型同步 Avatar Translation 多语言 60秒克隆"
+    },
+    {
+      "module": "08",
+      "date": "2026-05-28",
+      "topic": "Canva AI 2.0",
+      "title": "Canva AI 2.0实战：对话式设计让零基础做出专业海报",
+      "level": "L1",
+      "depth": "概念层",
+      "angle": "对话式设计工作流多尺寸适配",
+      "keywords_snippet": "Canva AI 2.0 对话式设计 Magic Resize 品牌规范 多尺寸适配"
+    },
+    {
+      "module": "08",
+      "date": "2026-05-28",
+      "topic": "Obsidian AI插件",
+      "title": "Obsidian+AI插件实战：打造真正能用的第二大脑",
+      "level": "L2",
+      "depth": "技术层",
+      "angle": "Smart Connections语义搜索+Copilot对话问答",
+      "keywords_snippet": "Obsidian Smart Connections Copilot Auto Classifier 语义搜索 本地化知识库"
+    },
+    {
+      "module": "08",
+      "date": "2026-05-28",
+      "topic": "GitHub Copilot 2026",
+      "title": "GitHub Copilot 2026新功能实战：跨文件精准补全技巧",
+      "level": "L2",
+      "depth": "技术层",
+      "angle": "跨文件上下文感知Agent模式实战",
+      "keywords_snippet": "GitHub Copilot 跨文件上下文 Agent模式 Copilot Edits VS Code"
+    },
+    {
+      "module": "08",
+      "date": "2026-05-28",
+      "topic": "AI数据分析Excel",
+      "title": "AI数据分析实战：用GPT+Python零代码处理Excel",
+      "level": "L2",
+      "depth": "技术层",
+      "angle": "ChatGPT代码解释器电商数据分析全流程",
+      "keywords_snippet": "ChatGPT 代码解释器 Pandas 数据分析 Excel 可视化 Prophet"
+    },
+    {
+      "module": "08",
+      "date": "2026-05-28",
+      "topic": "Lovable AI全栈开发",
+      "title": "Lovable AI全栈开发实战：自然语言生成完整应用",
+      "level": "L1",
+      "depth": "概念层",
+      "angle": "自然语言需求描述多轮迭代部署全流程",
+      "keywords_snippet": "Lovable 全栈应用 Supabase React TypeScript MVP 自然语言开发"
+    },
+    {
+      "module": "08",
+      "date": "2026-05-29",
+      "topic": "Cursor AI编程",
+      "title": "Cursor Agent模式+TDD实战：让AI帮你写代码的正确姿势",
+      "level": "L3",
+      "depth": "实践层",
+      "angle": "Agent模式+TDD工作流实操",
+      "keywords_snippet": "Cursor Agent模式 并行执行 Cloud Agents 规划模式 TDD"
+    },
+    {
+      "module": "08",
+      "date": "2026-05-29",
+      "topic": "Claude Code",
+      "title": "Claude Code深度实战：从CLAUDE.md配置到企业级钩子工作流",
+      "level": "L3",
+      "depth": "实践层",
+      "angle": "CLAUDE.md+Hooks+SDK工作流",
+      "keywords_snippet": "CLAUDE.md Hooks钩子 /clear /catchup Skills Task Explore SDK"
+    },
+    {
+      "module": "08",
+      "date": "2026-05-29",
+      "topic": "国产AI工具对比",
+      "title": "国产AI App横向测评：DeepSeek、豆包、Kimi、千问、元宝各有所长",
+      "level": "L2",
+      "depth": "技术层",
+      "angle": "五大工具场景对比实测",
+      "keywords_snippet": "DeepSeek 豆包 Kimi 千问 元宝 国产AI 对比测评"
+    },
+    {
+      "module": "08",
+      "date": "2026-05-29",
+      "topic": "WPS AI办公",
+      "title": "WPS AI 2026实战：月活6.78亿的办公神器",
+      "level": "L2",
+      "depth": "技术层",
+      "angle": "AI+文表演示三件套实操",
+      "keywords_snippet": "WPS AI 文档写作 表格分析 PPT生成 隐形AI 端云同步"
+    },
+    {
+      "module": "08",
+      "date": "2026-05-29",
+      "topic": "Suno AI音乐",
+      "title": "Suno V5.5音乐创作实战：人声克隆+专属模型，零乐理也能发专辑",
+      "level": "L3",
+      "depth": "实践层",
+      "angle": "V5.5新功能+Custom Mode实操",
+      "keywords_snippet": "Suno V5.5 Voices Custom Models My Taste Custom Mode 提示词"
+    },
+    {
+      "module": "08",
+      "date": "2026-05-29",
+      "topic": "Dify AI Agent",
+      "title": "Dify开源AI Agent搭建实战：零代码创建你的第一个智能客服应用",
+      "level": "L3",
+      "depth": "实践层",
+      "angle": "Docker部署到智能客服上线全流程",
+      "keywords_snippet": "Dify RAG 知识库 工作流 Agent 零代码 智能客服 Docker"
+    },
+    {
+      "module": "08",
+      "date": "2026-05-29",
+      "topic": "AI搜索工具",
+      "title": "Perplexity vs 秘塔 vs Kimi：2026年AI搜索怎么选",
+      "level": "L2",
+      "depth": "技术层",
+      "angle": "四款AI搜索工具场景化对比",
+      "keywords_snippet": "Perplexity 秘塔 Kimi Deep Research 中文搜索 信源验证"
+    },
+    {
+      "module": "08",
+      "date": "2026-05-31",
+      "topic": "Suno AI音乐",
+      "title": "Suno V5.5 全面升级：上传干声克隆自己音色，训练专属曲风模型",
+      "level": "L4",
+      "depth": "前沿层",
+      "angle": "V5.5人声克隆+Custom Models+My Taste个性化全链路",
+      "keywords_snippet": "Suno V5.5 人声克隆 专属模型训练 AI音乐 国风原创"
+    },
+    {
+      "module": "08",
+      "date": "2026-06-01",
+      "topic": "ChatGPT Deep Research",
+      "title": "ChatGPT Deep Research深度研究：把一周调研压缩到15分钟",
+      "level": "L3",
+      "depth": "实践层",
+      "angle": "深度研究功能实战工作流",
+      "keywords_snippet": "ChatGPT Deep Research 深度研究 研究报告 多源搜索 引用验证"
+    },
+    {
+      "module": "08",
+      "date": "2026-06-01",
+      "topic": "Kimi长文档处理",
+      "title": "Kimi K2.5长文档处理：200万字上下文的正确打开方式",
+      "level": "L2",
+      "depth": "技术层",
+      "angle": "长文档处理实战技巧和多文件对比分析",
+      "keywords_snippet": "Kimi K2.5 长文档 256K上下文 多文件对比 PDF分析 合同审查"
+    },
+    {
+      "module": "08",
+      "date": "2026-06-01",
+      "topic": "AI视频创作",
+      "title": "可灵3.0+即梦Seedance 2.0：国产AI视频创作从入门到导演级输出",
+      "level": "L4",
+      "depth": "前沿层",
+      "angle": "可灵3.0与Seedance 2.0双工具互补实战工作流",
+      "keywords_snippet": "可灵3.0 即梦 Seedance 2.0 AI视频 智能分镜 4K 60fps 音画同步"
+    },
+    {
+      "module": "08",
+      "date": "2026-06-01",
+      "topic": "国产AI工具组合",
+      "title": "国产AI工具组合工作流：豆包、Kimi、千问如何协同作战",
+      "level": "L3",
+      "depth": "实践层",
+      "angle": "多AI协同工作流Kimi读通义验豆包写",
+      "keywords_snippet": "国产AI 豆包 Kimi 通义千问 DeepSeek 多工具协同 工作流组合"
+    },
+    {
+      "module": "08",
+      "date": "2026-06-10",
+      "topic": "Perplexity搜索即代码",
+      "title": "Perplexity推出搜索即代码架构：AI搜索从调用API走向自编工作流",
+      "level": "L4",
+      "depth": "前沿层",
+      "angle": "架构革新与实测效果",
+      "keywords_snippet": "Search as Code,Perplexity,SaC,搜索即代码,Python代码搜索,Token节省85%"
+    }
+  ],
   {
     "module": "08",
-    "date": "2026-05-15",
-    "topic": "Claude Code",
-    "title": "Claude Code 六步工作流：从新手到高手的实战指南",
-    "level": "L3",
-    "depth": "实践层",
-    "angle": "工作流方法与命令实操",
-    "keywords_snippet": "Claude Code, Plan Mode, /init, /memory, Auto-Accept, 六步工作流"
-  },
-  {
-    "module": "08",
-    "date": "2026-05-15",
-    "topic": "Perplexity AI",
-    "title": "Perplexity AI 深度使用指南：把搜索变成研究",
-    "level": "L3",
-    "depth": "实践层",
-    "angle": "搜索技巧与研究工作流",
-    "keywords_snippet": "Perplexity, Spaces, Focus模式, Pages, AI搜索, 信息收集"
-  },
-  {
-    "module": "08",
-    "date": "2026-05-15",
-    "topic": "Coze 扣子",
-    "title": "Coze 扣子 2.5 实战教程：零代码搭建 AI 智能体",
-    "level": "L3",
-    "depth": "实践层",
-    "angle": "零代码搭建与云电脑云手机实操",
-    "keywords_snippet": "Coze, 扣子2.5, 云电脑, 云手机, 工作流, AI Agent, 智能体搭建"
-  },
-  {
-    "module": "08",
-    "date": "2026-05-17",
-    "topic": "ChatGPT提示词技巧",
-    "title": "ChatGPT高级提示词技巧：3步拆解复杂任务提升输出质量",
+    "date": "2026-06-10",
+    "topic": "Gemini CLI停服Antigravity迁移",
+    "title": "Gemini CLI停服倒计时：10万星开源项目6月18日终止",
     "level": "L1",
     "depth": "概念层",
-    "angle": "提示词技巧和实战案例",
-    "keywords_snippet": "ChatGPT 提示词 会议准备 文档撰写 分步执行"
+    "angle": "平台更迭与迁移实操",
+    "keywords_snippet": "Gemini CLI,Antigravity CLI,停服,迁移,供应商锁定"
   },
   {
     "module": "08",
-    "date": "2026-05-17",
-    "topic": "Cursor AI编程",
-    "title": "Cursor AI编程实战：从零到一30分钟完成企业管理系统",
+    "date": "2026-06-10",
+    "topic": "Runway AI视频工具实战",
+    "title": "AI视频生成工具2026实战：Runway Gen-4.5领衔",
     "level": "L1",
     "depth": "概念层",
-    "angle": "Cursor IDE使用技巧和编程工作流",
-    "keywords_snippet": "Cursor Agent模式 Copilot 代码补全 项目实战"
+    "angle": "工具选型与实操避坑",
+    "keywords_snippet": "Runway Gen-4.5,可灵AI,即梦AI,Sora,AI视频,效率提升500%"
   },
   {
     "module": "08",
-    "date": "2026-05-17",
-    "topic": "AI视频生成工具",
-    "title": "AI视频生成零基础实战：3步搞定专业级短视频创作",
+    "date": "2026-06-10",
+    "topic": "蓝信AI新品政企办公",
+    "title": "蓝信2026全栈AI新品：政企办公三件套",
     "level": "L1",
     "depth": "概念层",
-    "angle": "AI视频工具使用教程和选型对比",
-    "keywords_snippet": "AI视频 文字转视频 图文转视频 剪映 影忆"
+    "angle": "政企AI办公三件套",
+    "keywords_snippet": "蓝信,听蓝AI录音卡,蓝域智能体平台,知行AI超级助理,政企办公,国产自主可控"
   },
   {
     "module": "08",
-    "date": "2026-05-17",
-    "topic": "Suno AI音乐制作",
-    "title": "Suno AI音乐制作：5分钟创作专属原创歌曲",
+    "date": "2026-06-10",
+    "topic": "AI数据分析工具选型2026",
+    "title": "AI数据分析工具2026选型指南",
     "level": "L1",
     "depth": "概念层",
-    "angle": "Suno使用教程和音乐创作工作流",
-    "keywords_snippet": "Suno AI音乐 ChatGPT生成歌词 歌曲创作 音乐风格"
+    "angle": "工具选型与决策树",
+    "keywords_snippet": "ChatGPT Data Analyst,Julius AI,Akkio,Sigma,数以轻舟Agent,因果分析,本地部署"
   },
   {
     "module": "08",
-    "date": "2026-05-17",
-    "topic": "WPS AI办公",
-    "title": "WPS AI实战：3大招让办公效率提升10倍",
+    "date": "2026-06-10",
+    "topic": "AI搜索市场格局2026",
+    "title": "AI搜索市场2026格局巨变：ChatGPT占17%查询份额",
     "level": "L1",
     "depth": "概念层",
-    "angle": "WPS AI使用技巧和PPT/表格制作",
-    "keywords_snippet": "WPS AI 灵犀 AI PPT 表格处理 双屏协同"
+    "angle": "市场数据与平台差异",
+    "keywords_snippet": "AI搜索,ChatGPT 17%,Perplexity 1亿月活,Gemini 27.4%,AI Overview CTR暴跌"
   },
   {
     "module": "08",
-    "date": "2026-05-17",
-    "topic": "AI会议纪要工具",
-    "title": "AI会议纪要工具横评：哪款让打工人真正告别加班",
-    "level": "L1",
-    "depth": "概念层",
-    "angle": "会议纪要工具横评和选型对比",
-    "keywords_snippet": "AI会议 录音转写 智能纪要 听脑AI 随身鹿"
-  },
-  {
-    "module": "08",
-    "date": "2026-05-17",
-    "topic": "国产AI工具推荐",
-    "title": "2026国产AI工具推荐榜：豆包、千问、即梦谁更强",
-    "level": "L1",
-    "depth": "概念层",
-    "angle": "国产AI工具推荐和使用场景对比",
-    "keywords_snippet": "国产AI 豆包 千问 即梦 秘塔 Kimi"
-  },
-  {
-    "module": "08",
-    "date": "2026-05-18",
-    "topic": "Claude Code进阶技巧",
-    "title": "Claude Code七招进阶：钩子系统让开发效率翻倍",
+    "date": "2026-06-10",
+    "topic": "Midjourney V7评测",
+    "title": "Midjourney V7实测：Draft Mode与Omni Reference重构创作工作流",
     "level": "L3",
     "depth": "实践层",
-    "angle": "钩子系统模块化规则并行终端",
-    "keywords_snippet": "Claude Code hook PreToolUse 模块化规则 CLAUDE.md 并行终端 Plan Mode"
-  },
-  {
-    "module": "08",
-    "date": "2026-05-18",
-    "topic": "Cursor高级Prompt",
-    "title": "Cursor高级Prompt公式：五步让AI生成代码一次到位",
-    "level": "L2",
-    "depth": "技术层",
-    "angle": "Golden Prompt公式 @符号上下文注入 .cursorrules",
-    "keywords_snippet": "Cursor Golden Prompt Cmd+K Cmd+I @符号 .cursorrules 迭代优化"
-  },
-  {
-    "module": "08",
-    "date": "2026-05-18",
-    "topic": "AI工作流自动化",
-    "title": "n8n vs Coze：选对工作流自动化工具少走三年弯路",
-    "level": "L3",
-    "depth": "实践层",
-    "angle": "n8n Coze Dify工作流自动化选型对比",
-    "keywords_snippet": "n8n Coze Dify 工作流自动化 节点 自托管 零代码"
-  },
-  {
-    "module": "08",
-    "date": "2026-05-18",
-    "topic": "ChatGPT会议管理",
-    "title": "ChatGPT深度会议流：从议程生成到任务闭环全流程实战",
-    "level": "L3",
-    "depth": "实践层",
-    "angle": "会议议程生成纪要提炼待办管理",
-    "keywords_snippet": "ChatGPT 会议议程 录音转文字 纪要提炼 待办事项 思维导图"
-  },
-  {
-    "module": "08",
-    "date": "2026-05-18",
-    "topic": "国产AI横评",
-    "title": "国产AI横评实战：豆包/千问/Kimi/DeepSeek谁是你的职场搭子",
-    "level": "L2",
-    "depth": "技术层",
-    "angle": "国产AI六强横评14项任务选型指南",
-    "keywords_snippet": "Kimi 豆包 DeepSeek 通义千问 腾讯元宝 文心 国产AI对比"
-  },
-  {
-    "module": "08",
-    "date": "2026-05-18",
-    "topic": "AI视频制作",
-    "title": "AI视频制作零门槛：即梦可灵Runway三大场景选型指南",
-    "level": "L2",
-    "depth": "技术层",
-    "angle": "AI视频生成工具选型可灵即梦Runway实操",
-    "keywords_snippet": "AI视频 可灵 即梦 Runway 剪映 文字转视频 图生视频"
-  },
-  {
-    "topic": "Gemini AI Chrome技能",
-    "title": "Chrome版Gemini技能功能：三步设置AI工作流自动化",
-    "level": "L2",
-    "depth": "技术层",
-    "angle": "技能功能保存复用提示词思考强度调节Auto Browse",
-    "keywords_snippet": "Gemini Chrome 技能功能 斜杠命令 提示词复用 思考强度调节 Auto-Browse"
-  },
-  {
-    "module": "08",
-    "date": "2026-05-19",
-    "topic": "秘塔AI搜索",
-    "title": "秘塔AI搜索三模式：学术研究效率提升三倍实战指南",
-    "level": "L2",
-    "depth": "技术层",
-    "angle": "简洁深入研究三种模式思维导图生成导出WordPDF",
-    "keywords_snippet": "秘塔AI搜索 简洁模式 深入模式 研究模式 思维导图 Word导出 知识图谱"
-  },
-  {
-    "module": "08",
-    "date": "2026-05-19",
-    "topic": "WPS AI灵犀3.0",
-    "title": "WPS AI灵犀3.0实测：双屏协同办公效率翻倍指南",
-    "level": "L2",
-    "depth": "技术层",
-    "angle": "灵犀Canvas双屏协同表格AI自然语言DeepSeek集成",
-    "keywords_snippet": "WPS AI灵犀3.0 灵犀Canvas双屏协同 表格AI 自然语言函数 AI PPT DeepSeek"
-  },
-  {
-    "module": "08",
-    "date": "2026-05-19",
-    "topic": "可灵AI 3.0",
-    "title": "可灵AI 3.0新功能：登顶42国榜首的创作者实战技巧",
-    "level": "L2",
-    "depth": "技术层",
-    "angle": "可灵3.0棒球特效人物一致性API开放",
-    "keywords_snippet": "可灵AI 3.0 棒球现场特效 人物一致性 API 视频生成 图像生成 虚拟试穿"
-  },
-  {
-    "module": "08",
-    "date": "2026-05-19",
-    "topic": "Midjourney提示词技巧",
-    "title": "Midjourney提示词公式：四步生成专业级AI绘画作品",
-    "level": "L2",
-    "depth": "技术层",
-    "angle": "五要素提示词法主体场景光影运镜质感四套风格模板",
-    "keywords_snippet": "Midjourney 提示词 五要素 主体 场景 光影 运镜 质感 风格模板 钢笔淡彩水墨"
-  },
-  {
-    "module": "08",
-    "date": "2026-05-19",
-    "topic": "Notion AI使用技巧",
-    "title": "Notion AI九大使用场景：从笔记工具到AI工作流中枢",
-    "level": "L2",
-    "depth": "技术层",
-    "angle": "Personal Agent九大场景数据库管理文件处理MCP集成",
-    "keywords_snippet": "Notion AI Personal Agent Custom Agent MCP 数据库管理 文件处理 跨应用搜索"
-  },
-  {
-    "module": "08",
-    "date": "2026-05-19",
-    "topic": "Gamma AI PPT",
-    "title": "Gamma AI PPT制作教程：十分钟生成专业级演示文稿",
-    "level": "L2",
-    "depth": "技术层",
-    "angle": "三种创建方式提示词生成导出PPT思维导图转换",
-    "keywords_snippet": "Gamma AI PPT 一句话生成 思维导图转换 导出PPT 在线协作 第三方嵌入"
-  },
-  {
-    "module": "08",
-    "date": "2026-05-21",
-    "topic": "ChatGPT提示词工程",
-    "title": "[L4] ChatGPT提示词黄金7要素",
-    "level": "L4",
-    "depth": "前沿层",
-    "angle": "7要素公式实战",
-    "keywords_snippet": "黄金7要素 提示词 Prompt 评估标准"
-  },
-  {
-    "module": "08",
-    "date": "2026-05-21",
-    "topic": "Superpowers+Claude Code",
-    "title": "[L4] Superpowers+Claude Code工程化工作流",
-    "level": "L4",
-    "depth": "前沿层",
-    "angle": "工程纪律约束AI编程",
-    "keywords_snippet": "Superpowers Claude Code TDD 工作流"
-  },
-  {
-    "module": "08",
-    "date": "2026-05-21",
-    "topic": "Cursor AI编辑器",
-    "title": "[L2] Cursor AI编辑器Agent模式实战",
-    "level": "L2",
-    "depth": "技术层",
-    "angle": "Agent模式工作流",
-    "keywords_snippet": "Cursor Agent 规划模式 上下文管理 TDD"
-  },
-  {
-    "module": "08",
-    "date": "2026-05-21",
-    "topic": "AI搜索工具",
-    "title": "[L3] AI搜索工具三强横评",
-    "level": "L3",
-    "depth": "实践层",
-    "angle": "Perplexity秘塔ChatGPT Search对比",
-    "keywords_snippet": "AI搜索 Perplexity 秘塔 ChatGPT Search"
-  },
-  {
-    "module": "08",
-    "date": "2026-05-21",
-    "topic": "AI自动化平台",
-    "title": "[L4] n8n Dify Coze三选一",
-    "level": "L4",
-    "depth": "前沿层",
-    "angle": "平台选型对比",
-    "keywords_snippet": "n8n Dify Coze 自动化 工作流 选型"
-  },
-  {
-    "module": "08",
-    "date": "2026-05-21",
-    "topic": "豆包AI",
-    "title": "[L1] 豆包AI深度实战",
-    "level": "L1",
-    "depth": "概念层",
-    "angle": "全场景使用指南",
-    "keywords_snippet": "豆包 Seedance 文件分析 多模态 免费"
-  },
-  {
-    "module": "08",
-    "date": "2026-05-21",
-    "topic": "国产AI工具对比",
-    "title": "[L3] 国产AI工具全景对比",
-    "level": "L3",
-    "depth": "实践层",
-    "angle": "豆包DeepSeek千问元宝横评",
-    "keywords_snippet": "国产AI 豆包 DeepSeek 千问 元宝 对比"
-  },
-  {
-    "module": "08",
-    "date": "2026-05-22",
-    "topic": "Dify AI Agent搭建",
-    "title": "Dify AI Agent实战：30分钟搭建多Agent协作工作流",
-    "level": "L4",
-    "depth": "前沿层",
-    "angle": "多Agent协作实战，从安装部署到双Agent工作流编排全过程",
-    "keywords_snippet": "Dify 多Agent Workflow RAG 插件"
-  },
-  {
-    "module": "08",
-    "date": "2026-05-22",
-    "topic": "AI视频生成工具",
-    "title": "AI视频生成实战：可灵2.0+Runway Gen-3完整工作流",
-    "level": "L3",
-    "depth": "实践层",
-    "angle": "以产品宣传片制作为实战案例，可灵与Runway双工具互补工作流",
-    "keywords_snippet": "可灵AI Runway Gen-3 文生视频 图生视频 运动笔刷 提示词"
-  },
-  {
-    "module": "08",
-    "date": "2026-05-22",
-    "topic": "Bolt.new AI建站",
-    "title": "Bolt.new+Lovable实测：自然语言生成完整网站",
-    "level": "L1",
-    "depth": "概念层",
-    "angle": "Bolt.new与Lovable双平台实测对比，从相同需求出发分别演示建站流程",
-    "keywords_snippet": "Bolt.new Lovable AI建站 全栈 自然语言 零代码"
-  },
-  {
-    "module": "08",
-    "date": "2026-05-24",
-    "topic": "DeepSeek使用技巧",
-    "title": "DeepSeek深度使用进阶：90%用户不知道的7个提效技巧",
-    "level": "L2",
-    "depth": "技术层",
-    "angle": "深度思考模式+联网搜索+文件上传组合工作流",
-    "keywords_snippet": "DeepSeek 深度思考 R1 V3 联网搜索 文件上传 提示词 代码调试 数据分析"
-  },
-  {
-    "module": "08",
-    "date": "2026-05-24",
-    "topic": "Suno AI音乐制作",
-    "title": "Suno V5进阶实战：从随机抽卡到精准控曲的完整工作流",
-    "level": "L3",
-    "depth": "实践层",
-    "angle": "自定义模式+结构化歌词+曲风标签精准控曲工作流",
-    "keywords_snippet": "Suno V5 自定义模式 Custom Mode 歌词标记 曲风标签 Personas 商业BGM 国风R&B"
-  },
-  {
-    "module": "08",
-    "date": "2026-05-24",
-    "topic": "ElevenLabs AI语音克隆",
-    "title": "ElevenLabs语音克隆实战：从5分钟样本到专业级配音",
-    "level": "L2",
-    "depth": "技术层",
-    "angle": "Instant Voice Cloning全流程+参数调优+Lip Sync唇形同步",
-    "keywords_snippet": "ElevenLabs 语音克隆 VoiceLab TTS 文本转语音 Lip Sync 相似度 SSML 有声书"
-  },
-  {
-    "module": "08",
-    "date": "2026-05-24",
-    "topic": "Monica AI浏览器助手",
-    "title": "Monica浏览器助手实测：一个插件整合GPT+Claude+Gemini",
-    "level": "L1",
-    "depth": "概念层",
-    "angle": "五大核心功能实测+场景化工作流+模型切换策略",
-    "keywords_snippet": "Monica 浏览器插件 网页总结 翻译 写作 GPT Claude Gemini 侧边栏 效率"
-  },
-  {
-    "module": "08",
-    "date": "2026-05-24",
-    "topic": "剪映AI视频剪辑",
-    "title": "剪映AI剪辑进阶：用对这5个AI功能让出片速度翻3倍",
-    "level": "L2",
-    "depth": "技术层",
-    "angle": "五大AI功能组合实战+数字人+智能抠像+图文成片+AI配乐",
-    "keywords_snippet": "剪映 AI一键成片 智能抠像 数字人 图文成片 AI配乐 智能字幕 视频剪辑"
-  },
-  {
-    "module": "08",
-    "date": "2026-05-24",
-    "topic": "ChatGPT代码解释器数据分析",
-    "title": "ChatGPT代码解释器实战：零代码完成数据清洗到可视化全流程",
-    "level": "L2",
-    "depth": "技术层",
-    "angle": "商业数据分析全流程+数据清洗+可视化+分析报告生成",
-    "keywords_snippet": "ChatGPT 代码解释器 Code Interpreter 数据分析 Excel 数据清洗 可视化 Python 沙箱"
-  },
-  {
-    "module": "08",
-    "date": "2026-05-24",
-    "topic": "沉浸式翻译 DeepL 双语阅读",
-    "title": "沉浸式翻译+DeepL组合：打造你的个人双语阅读系统",
-    "level": "L1",
-    "depth": "概念层",
-    "angle": "双语对照阅读模式+DeepL高质量翻译+PDF论文精读工作流",
-    "keywords_snippet": "沉浸式翻译 DeepL 浏览器插件 双语对照 双语阅读 PDF翻译 学术论文 YouTube字幕 悬停翻译"
-  },
-  {
-    "module": "08",
-    "date": "2026-05-27",
-    "topic": "n8n自动化",
-    "title": "n8n+AI Agent五大自动化工作流：零代码搭建",
-    "level": "L3",
-    "depth": "实践层",
-    "angle": "n8n+AI Agent五个实战工作流从客服到竞品监控",
-    "keywords_snippet": "n8n AI Agent Docker 自动化 客服邮件 周报 竞品监控 客户线索"
-  },
-  {
-    "module": "08",
-    "date": "2026-05-27",
-    "topic": "AI视频生成",
-    "title": "AI视频生成工具2026横评：可灵Runway Pika海螺即梦五强实测",
-    "level": "L3",
-    "depth": "实践层",
-    "angle": "五大AI视频工具实测对比+按场景推荐选型",
-    "keywords_snippet": "AI视频生成 可灵 Runway Pika 海螺 即梦 1080p 30秒 图生视频 文生视频"
-  },
-  {
-    "module": "08",
-    "date": "2026-05-27",
-    "topic": "国产AI大模型",
-    "title": "国产AI大模型2026深度横评：DeepSeek通义豆包Kimi日常办公谁更强",
-    "level": "L3",
-    "depth": "实践层",
-    "angle": "五大国产模型按长文档/写作/代码/数据四个场景实测对比",
-    "keywords_snippet": "DeepSeek 通义千问 豆包 Kimi 文心一言 长文档 写作 代码 数据分析"
-  },
-  {
-    "module": "08",
-    "date": "2026-05-27",
-    "topic": "Dify低代码平台",
-    "title": "Dify低代码AI平台实战：10分钟搭建企业级AI知识库问答",
-    "level": "L2",
-    "depth": "技术层",
-    "angle": "从部署到知识库搭建到API发布完整实战",
-    "keywords_snippet": "Dify RAG 知识库 低代码 LLM 企业应用 问答助手 API"
-  },
-  {
-    "module": "08",
-    "date": "2026-05-28",
-    "topic": "ComfyUI+Flux工作流",
-    "title": "ComfyUI+Flux工作流实战：节点式AI绘画从安装到出图",
-    "level": "L2",
-    "depth": "技术层",
-    "angle": "节点式工作流搭建与Flux模型配置",
-    "keywords_snippet": "ComfyUI Flux 节点式工作流 FluxLoader FluxSampler VAE LoRA"
-  },
-  {
-    "module": "08",
-    "date": "2026-05-28",
-    "topic": "HeyGen数字人制作",
-    "title": "HeyGen数字人制作实战：3步生成可本地化口型同步视频",
-    "level": "L2",
-    "depth": "技术层",
-    "angle": "数字人形象选择脚本优化多语言本地化",
-    "keywords_snippet": "HeyGen 数字人 口型同步 Avatar Translation 多语言 60秒克隆"
-  },
-  {
-    "module": "08",
-    "date": "2026-05-28",
-    "topic": "Canva AI 2.0",
-    "title": "Canva AI 2.0实战：对话式设计让零基础做出专业海报",
-    "level": "L1",
-    "depth": "概念层",
-    "angle": "对话式设计工作流多尺寸适配",
-    "keywords_snippet": "Canva AI 2.0 对话式设计 Magic Resize 品牌规范 多尺寸适配"
-  },
-  {
-    "module": "08",
-    "date": "2026-05-28",
-    "topic": "Obsidian AI插件",
-    "title": "Obsidian+AI插件实战：打造真正能用的第二大脑",
-    "level": "L2",
-    "depth": "技术层",
-    "angle": "Smart Connections语义搜索+Copilot对话问答",
-    "keywords_snippet": "Obsidian Smart Connections Copilot Auto Classifier 语义搜索 本地化知识库"
-  },
-  {
-    "module": "08",
-    "date": "2026-05-28",
-    "topic": "GitHub Copilot 2026",
-    "title": "GitHub Copilot 2026新功能实战：跨文件精准补全技巧",
-    "level": "L2",
-    "depth": "技术层",
-    "angle": "跨文件上下文感知Agent模式实战",
-    "keywords_snippet": "GitHub Copilot 跨文件上下文 Agent模式 Copilot Edits VS Code"
-  },
-  {
-    "module": "08",
-    "date": "2026-05-28",
-    "topic": "AI数据分析Excel",
-    "title": "AI数据分析实战：用GPT+Python零代码处理Excel",
-    "level": "L2",
-    "depth": "技术层",
-    "angle": "ChatGPT代码解释器电商数据分析全流程",
-    "keywords_snippet": "ChatGPT 代码解释器 Pandas 数据分析 Excel 可视化 Prophet"
-  },
-  {
-    "module": "08",
-    "date": "2026-05-28",
-    "topic": "Lovable AI全栈开发",
-    "title": "Lovable AI全栈开发实战：自然语言生成完整应用",
-    "level": "L1",
-    "depth": "概念层",
-    "angle": "自然语言需求描述多轮迭代部署全流程",
-    "keywords_snippet": "Lovable 全栈应用 Supabase React TypeScript MVP 自然语言开发"
-  },
-  {
-    "module": "08",
-    "date": "2026-05-29",
-    "topic": "Cursor AI编程",
-    "title": "Cursor Agent模式+TDD实战：让AI帮你写代码的正确姿势",
-    "level": "L3",
-    "depth": "实践层",
-    "angle": "Agent模式+TDD工作流实操",
-    "keywords_snippet": "Cursor Agent模式 并行执行 Cloud Agents 规划模式 TDD"
-  },
-  {
-    "module": "08",
-    "date": "2026-05-29",
-    "topic": "Claude Code",
-    "title": "Claude Code深度实战：从CLAUDE.md配置到企业级钩子工作流",
-    "level": "L3",
-    "depth": "实践层",
-    "angle": "CLAUDE.md+Hooks+SDK工作流",
-    "keywords_snippet": "CLAUDE.md Hooks钩子 /clear /catchup Skills Task Explore SDK"
-  },
-  {
-    "module": "08",
-    "date": "2026-05-29",
-    "topic": "国产AI工具对比",
-    "title": "国产AI App横向测评：DeepSeek、豆包、Kimi、千问、元宝各有所长",
-    "level": "L2",
-    "depth": "技术层",
-    "angle": "五大工具场景对比实测",
-    "keywords_snippet": "DeepSeek 豆包 Kimi 千问 元宝 国产AI 对比测评"
-  },
-  {
-    "module": "08",
-    "date": "2026-05-29",
-    "topic": "WPS AI办公",
-    "title": "WPS AI 2026实战：月活6.78亿的办公神器",
-    "level": "L2",
-    "depth": "技术层",
-    "angle": "AI+文表演示三件套实操",
-    "keywords_snippet": "WPS AI 文档写作 表格分析 PPT生成 隐形AI 端云同步"
-  },
-  {
-    "module": "08",
-    "date": "2026-05-29",
-    "topic": "Suno AI音乐",
-    "title": "Suno V5.5音乐创作实战：人声克隆+专属模型，零乐理也能发专辑",
-    "level": "L3",
-    "depth": "实践层",
-    "angle": "V5.5新功能+Custom Mode实操",
-    "keywords_snippet": "Suno V5.5 Voices Custom Models My Taste Custom Mode 提示词"
-  },
-  {
-    "module": "08",
-    "date": "2026-05-29",
-    "topic": "Dify AI Agent",
-    "title": "Dify开源AI Agent搭建实战：零代码创建你的第一个智能客服应用",
-    "level": "L3",
-    "depth": "实践层",
-    "angle": "Docker部署到智能客服上线全流程",
-    "keywords_snippet": "Dify RAG 知识库 工作流 Agent 零代码 智能客服 Docker"
-  },
-  {
-    "module": "08",
-    "date": "2026-05-29",
-    "topic": "AI搜索工具",
-    "title": "Perplexity vs 秘塔 vs Kimi：2026年AI搜索怎么选",
-    "level": "L2",
-    "depth": "技术层",
-    "angle": "四款AI搜索工具场景化对比",
-    "keywords_snippet": "Perplexity 秘塔 Kimi Deep Research 中文搜索 信源验证"
-  },
-  {
-    "module": "08",
-    "date": "2026-05-31",
-    "topic": "Suno AI音乐",
-    "title": "Suno V5.5 全面升级：上传干声克隆自己音色，训练专属曲风模型",
-    "level": "L4",
-    "depth": "前沿层",
-    "angle": "V5.5人声克隆+Custom Models+My Taste个性化全链路",
-    "keywords_snippet": "Suno V5.5 人声克隆 专属模型训练 AI音乐 国风原创"
-  },
-  {
-    "module": "08",
-    "date": "2026-06-01",
-    "topic": "ChatGPT Deep Research",
-    "title": "ChatGPT Deep Research深度研究：把一周调研压缩到15分钟",
-    "level": "L3",
-    "depth": "实践层",
-    "angle": "深度研究功能实战工作流",
-    "keywords_snippet": "ChatGPT Deep Research 深度研究 研究报告 多源搜索 引用验证"
-  },
-  {
-    "module": "08",
-    "date": "2026-06-01",
-    "topic": "Kimi长文档处理",
-    "title": "Kimi K2.5长文档处理：200万字上下文的正确打开方式",
-    "level": "L2",
-    "depth": "技术层",
-    "angle": "长文档处理实战技巧和多文件对比分析",
-    "keywords_snippet": "Kimi K2.5 长文档 256K上下文 多文件对比 PDF分析 合同审查"
-  },
-  {
-    "module": "08",
-    "date": "2026-06-01",
-    "topic": "AI视频创作",
-    "title": "可灵3.0+即梦Seedance 2.0：国产AI视频创作从入门到导演级输出",
-    "level": "L4",
-    "depth": "前沿层",
-    "angle": "可灵3.0与Seedance 2.0双工具互补实战工作流",
-    "keywords_snippet": "可灵3.0 即梦 Seedance 2.0 AI视频 智能分镜 4K 60fps 音画同步"
-  },
-  {
-    "module": "08",
-    "date": "2026-06-01",
-    "topic": "国产AI工具组合",
-    "title": "国产AI工具组合工作流：豆包、Kimi、千问如何协同作战",
-    "level": "L3",
-    "depth": "实践层",
-    "angle": "多AI协同工作流Kimi读通义验豆包写",
-    "keywords_snippet": "国产AI 豆包 Kimi 通义千问 DeepSeek 多工具协同 工作流组合"
+    "angle": "深度评测与实战验证",
+    "keywords_snippet": "Midjourney V7,Draft Mode,Omni Reference,角色一致性,文本渲染"
   }
 ]
