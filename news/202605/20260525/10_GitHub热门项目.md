@@ -5,7 +5,7 @@
 
 ---
 
-### 1. Anthropic Skills：Claude Agent 技能官方知识库，3天斩获 138k Stars 的 AI 编程新范式（⭐ 周增 25,400 Stars）
+### 1. 【Anthropic Skills：Claude Agent 技能官方知识库，3天斩获 138k Stars 的 AI 编程新范式（⭐ 周增 25,400 Stars）】
 
 > 📍 **导语**（L1 概念层）：2026 年 5 月 17 日，Anthropic 在 GitHub 正式开源了官方 Claude Agent 技能仓库 anthropics/skills，短短 3 天时间便斩获 138k Star、16.2k Fork，成为 GitHub Trending 榜首项目。这不是一个简单的代码仓库——它是 Anthropic 为 Claude Code 定义的"程序性知识"标准，包含覆盖工程开发、安全审计、代码审查、前端开发等多个领域的可复用技能模块。核心思想：AI 编程 Agent 的能力不应该只靠大模型的通用能力，而应该像人类工程师一样，拥有一套可以积累、共享、迭代的"专业技能"。该项目已被 32 家 AI 工具厂商采纳为 Agent Skills 的事实标准协议。
 
@@ -102,7 +102,7 @@ claude "帮我写一个用户注册 API"
 
 ---
 
-### 2. Unsloth：大模型微调加速框架，比 HuggingFace 快 2-5 倍，VRAM 用量降低 70%（⭐ 总 64.7k Stars）
+### 2. 【Unsloth：大模型微调加速框架，比 HuggingFace 快 2-5 倍，VRAM 用量降低 70%（⭐ 总 64.7k Stars）】
 
 > 📍 **导语**（L2 技术层）：大模型微调对硬件的胃口让大多数人望而却步——Llama 3.1 70B 全参数微调需要 8 张 A100 80G，约 40 万人民币的 GPU 成本。Unsloth 的使命是打破这个门槛：通过手写 Triton 内核替代 HuggingFace 的默认算子、优化的显存管理策略、4bit/8bit 混合精度量化，把同样任务的显存需求砍掉 50-70%，训练速度提升 2-5 倍。截至 2026 年 5 月，Unsloth 在 GitHub 获得 64.7k Stars，支持 DeepSeek V4、Llama 4、Gemma 4、Mistral 等主流开源模型。最新版本还推出了 Unsloth Studio Web UI，让没有编程经验的用户也能在浏览器中完成模型微调和对比对话。
 
@@ -224,7 +224,7 @@ model.save_pretrained_gguf("my-model", tokenizer)
 
 ---
 
-### 3. Chrome DevTools MCP：Google 官方开源浏览器操控 MCP Server，让 AI Agent 直接"看到"浏览器（⭐ 总 18.5k Stars）
+### 3. 【Chrome DevTools MCP：Google 官方开源浏览器操控 MCP Server，让 AI Agent 直接"看到"浏览器（⭐ 总 18.5k Stars）】
 
 > 📍 **导语**（L2 技术层）：当你让 Claude Code "帮我调试一下这个网页的布局问题"时，AI 的困境是——它看不到网页。传统方案需要截图 → 上传 → AI 分析 → 给出修改建议 → 人工执行，来回切换。Google Chrome 团队官方开源的 chrome-devtools-mcp 直接打破了这堵墙：它把 Chrome 的 DevTools Protocol 封装为 MCP（Model Context Protocol）服务，让 AI Agent 能实时读取 DOM 结构、CSS 样式、Console 日志、Network 请求，甚至直接操作页面元素。这不是第三方桥接工具——它直接接入 Chrome 内核，比 Playwright + AI 的组合方案更稳定、更快速。项目在 2026 年 5 月迎来爆发式增长，成为 AI 编码 Agent 浏览器自动化的事实标准。
 
@@ -338,7 +338,7 @@ Agent 自动执行：navigate → get_dom 找到输入框 → click → type →
 
 ---
 
-### 4. Open-SWE：LangChain 开源异步编码 Agent，复刻 Stripe/Ramp/Coinbase 内部 Agent 架构（⭐ 总 8.7k Stars）
+### 4. 【Open-SWE：LangChain 开源异步编码 Agent，复刻 Stripe/Ramp/Coinbase 内部 Agent 架构（⭐ 总 8.7k Stars）】
 
 > 📍 **导语**（L2 技术层）：Stripe、Ramp、Coinbase 这些顶级工程团队有一个共同的秘密武器：内部 AI 编码 Agent。它们不是像 Claude Code 那样的对话式助手，而是接入 Slack/Linear/GitHub 的异步工作流——有任务自动分配给 Agent，Agent 完成后自动提交 PR，人类工程师只需 Review。LangChain 在 2026 年 3 月开源了 Open-SWE，把这个"顶级公司内部 Agent 架构"变成人人可用的开源框架。基于 LangGraph 构建异步事件驱动架构，支持多任务并行、GitHub PR 自动生成、安全沙箱执行。截至 2026 年 5 月，项目获得 8.7k Stars，月增 2.1k，已成为企业级 AI 编码 Agent 的标杆项目。
 
@@ -447,7 +447,7 @@ EOF
 
 ---
 
-### 5. Bun：JavaScript/TypeScript 全家桶运行时，v1.3.14 实现 Node.js 95% API 兼容（⭐ 总 92k Stars）
+### 5. 【Bun：JavaScript/TypeScript 全家桶运行时，v1.3.14 实现 Node.js 95% API 兼容（⭐ 总 92k Stars）】
 
 > 📍 **导语**（L1 概念层）：如果你是 JavaScript 开发者，你的工具链里至少有 4 个独立工具：Node.js 做运行时、npm/pnpm 管依赖、Jest 跑测试、Webpack/esbuild 打包——每个都有独立的配置文件和版本依赖。Bun 用一个约 100MB 的二进制文件统一了这一切。v1.3.14 版本（2026 年 5 月）实现了 Node.js 95% 的 API 兼容性，新增了原生 S3 支持和改进的 Windows 兼容层。在包安装速度上持续碾压传统工具链：安装 1000 个依赖的 React 项目，npm 需要 8.3 秒，Bun 只需 1.2 秒。项目总 Stars 突破 92k，越来越多团队在生产环境中用 Bun 替代 Node.js + npm 全家桶。
 
@@ -556,7 +556,7 @@ bun test
 
 ---
 
-### 6. CodeGraph：预索引代码知识图谱，让 AI 编码 Agent Token 消耗降低 59%、工具调用减少 70%（⭐ 总 21.8k Stars）
+### 6. 【CodeGraph：预索引代码知识图谱，让 AI 编码 Agent Token 消耗降低 59%、工具调用减少 70%（⭐ 总 21.8k Stars）】
 
 > 📍 **导语**（L2 技术层）：当你在 Claude Code 里问"这个项目的认证模块是怎么设计的？"，AI 代理需要读取大量文件才能理解代码结构——每读一个文件都是一次工具调用，消耗 Token 和时间。CodeGraph 解决的是这个"上下文构建成本"问题：它在 AI 代理介入之前，先用 tree-sitter 把整个代码库解析为语义知识图谱（函数调用关系、类继承、导入依赖），存入本地 SQLite 数据库。AI 代理不再需要逐文件探索，而是通过 MCP 工具直接查询图谱获取精准上下文。基准测试显示：在 VS Code 源码上，Token 消耗降低 73%，工具调用减少 72%。项目 2026 年 5 月迎来爆发式增长，月增 17.5k Stars，单日最高新增 4,294 Stars，连续多日登顶 GitHub Trending。
 
@@ -652,7 +652,7 @@ codegraph affected                    # 找出受 git diff 影响的测试文件
 
 ---
 
-### 7. RuView：用 WiFi 信号实现穿墙人体检测，$54 硬件搭建的空间智能平台（⭐ 总 61.2k Stars）
+### 7. 【RuView：用 WiFi 信号实现穿墙人体检测，$54 硬件搭建的空间智能平台（⭐ 总 61.2k Stars）】
 
 > 📍 **导语**（L1 概念层）：不需要摄像头、不需要激光雷达、不需要任何光学传感器——仅凭你家路由器发出的 WiFi 信号，就能实时检测墙后是否有人、追踪人体姿态、监测心率呼吸。这不是科幻，而是 RuView 已经实现的开源技术。基于 ESP32 芯片（$6 一块）和商用 WiFi CSI（信道状态信息）解析，RuView 把普通的无线电波转化为空间智能。项目在 GitHub 获得 61.2k Stars，2026 年 5 月以周增 6,700 Stars 的速度攀升，成为物联网和边缘 AI 领域的现象级开源项目。硬件成本极低（ESP32-S3 + ESP32-C6 双芯片方案约 $54），软件完全开源（Rust + ESP-IDF）。
 

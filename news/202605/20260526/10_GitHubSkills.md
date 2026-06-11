@@ -5,7 +5,7 @@
 
 ---
 
-### 1. Hermes Agent：开源自进化 AI 智能体，越用越聪明的个人工程师（⭐ 155.8k Stars）
+### 1. 【Hermes Agent：开源自进化 AI 智能体，越用越聪明的个人工程师（⭐ 155.8k Stars）】
 
 > 📍 **导语**：2026 年 2 月，知名 AI 研究机构 Nous Research 发布了 Hermes Agent——一个完全自托管、可自我进化的开源 AI 智能体。它不是绑定在 IDE 上的代码补全工具，也不是套壳聊天机器人，而是一个拥有持久记忆、自动学习技能、支持多平台消息网关的**个人工程师**。短短 4 个月时间，项目斩获 155.8k Stars（单月新增 +59.4k），成为 2026 年上半年 GitHub 增速最快的 AI 项目之一。核心亮点：每完成一个任务，Hermes 会自动总结经验并生成可复用的技能文档（SKILL.md），真正做到"越用越聪明"。如果你厌倦了每次向 AI 重新解释项目背景，这个项目将彻底改变你的工作方式。
 
@@ -91,7 +91,7 @@ hermes update
 
 ---
 
-### 2. Andrej Karpathy Skills：前特斯拉 AI 总监的 Claude Code 编程哲学，AI 编程时代的《代码整洁之道》（⭐ 149k Stars）
+### 2. 【Andrej Karpathy Skills：前特斯拉 AI 总监的 Claude Code 编程哲学，AI 编程时代的《代码整洁之道》（⭐ 149k Stars）】
 
 > 📍 **导语**：2026 年 5 月，社区组织 multica-ai 将 Andrej Karpathy（前 Tesla AI 总监、OpenAI 创始成员）在实际编程中使用的 Claude Code 提示词规范开源为 andrej-karpathy-skills 项目。这不是 Anthropic 官方的技能定义文件，而是**Karpathy 本人的编程哲学编码化**——四原则框架（先理解再修改、最小变更、先写测试、保持简洁）。项目单月新增 Stars 高达 80.8k，成为 2026 年 5 月全球 GitHub 增速最快的项目。它不是让你"怎么用 Claude Code"，而是教你"怎么像 Karpathy 一样写代码"——这对所有 AI 编程工具的爱好者都是无价之宝。
 
@@ -172,7 +172,7 @@ claude "请遵循 CLAUDE.md 中的规范，帮我修复 src/auth.py 中的登录
 
 ---
 
-### 3. HyperFrames：HeyGen 开源的 HTML 到视频引擎，让 AI Agent 直接生成视频（⭐ 19.2k Stars）
+### 3. 【HyperFrames：HeyGen 开源的 HTML 到视频引擎，让 AI Agent 直接生成视频（⭐ 19.2k Stars）】
 
 > 📍 **导语**：2026 年 4 月，AI 视频独角兽 HeyGen 开源了一个颠覆性的项目——HyperFrames。它的核心理念极其简洁：**Write HTML. Render video.** 你写一个 HTML 文件，HyperFrames 把它渲染成 MP4 视频。不需要 After Effects、Premiere、React 组件，甚至不需要你会"做视频"——只要会写网页就能做视频。更关键的是，这个项目是为 AI Agent 设计的：LLM 生成 HTML 的准确率远高于生成 React 组件，所以 Claude Code 等 AI 工具可以直接调用 HyperFrames 的 CLI 命令批量生成视频。项目在发布一周内暴涨 9.6k Stars，目前已达 19.2k Stars。
 
@@ -252,7 +252,7 @@ npx hyperframes add lower-third        # 人物介绍字幕
 
 ---
 
-### 4. FinceptTerminal：用 C++20 + Qt6 打造的开源金融终端，个人免费版"彭博"（⭐ 23.3k Stars）
+### 4. 【FinceptTerminal：用 C++20 + Qt6 打造的开源金融终端，个人免费版"彭博"（⭐ 23.3k Stars）】
 
 > 📍 **导语**：彭博终端（Bloomberg Terminal）是金融行业的工作站级软件，年费 24,000 美元起步。2026 年 4 月，一个名为 FinceptTerminal 的开源项目在 GitHub 上爆发——它用 C++20 + Qt6 + 嵌入式 Python 打造了一款跨平台的金融分析终端，集成了 100+ 全球数据源、37 个 AI 投资大师 Agent、QuantLib 量化定价套件，支持股票、期货、加密货币、外汇多资产分析。项目从 4 月底的 14k Stars 飙升至 5 月底的 23.3k，Fork 突破 3,200，是 2026 年金融科技赛道增速最快的开源项目。
 
@@ -337,7 +337,7 @@ cmake --build --preset linux-release
 
 ---
 
-### 5. Agent Skills (Addy Osmani)：Google Chrome 工程总监的生产级 AI 编码技能包（⭐ 43.2k Stars）
+### 5. 【Agent Skills (Addy Osmani)：Google Chrome 工程总监的生产级 AI 编码技能包（⭐ 43.2k Stars）】
 
 > 📍 **导语**：2026 年 4 月，Google Chrome 工程总监 Addy Osmani 开源了一套为 AI 编码 Agent 打造的"生产级工程技能包"——21 个覆盖从需求定义到代码部署的完整开发流程技能。与 Anthropic 官方的通用 Skills 不同，Osmani 的 Agent Skills 深度融入了真实大厂（Google）的工程实践：每个技能都有"反合理化表格"（防止 AI Agent 找借口跳过关键步骤）和"验证要求"（确保输出真正达到生产标准）。不到一个月时间，项目斩获 43.2k Stars。这套技能的核心价值：让 AI 编程 Agent 像 Google 的高级工程师一样思考——不仅仅是"能写代码"，更是"能写出能抗住百万日活的代码"。
 
@@ -426,7 +426,7 @@ ln -s $(pwd)/skills ~/.claude/skills
 
 ---
 
-### 6. Understand Anything：把任意代码库变成可交互的知识图谱，新人入职利器（⭐ 22.5k Stars）
+### 6. 【Understand Anything：把任意代码库变成可交互的知识图谱，新人入职利器（⭐ 22.5k Stars）】
 
 > 📍 **导语**：你加入一个新团队，面对 20 万行代码，几乎没有有价值的文档，唯一了解全貌的老工程师已经离职。怎么办？Understand Anything 用一个多 Agent AI 管道扫描你的代码库，自动构建包含每个文件、函数、类和依赖关系的**交互式知识图谱**，然后给你一个可视化仪表盘——你可以拖拽、缩放、搜索、点击任意节点查看纯英文摘要。它的核心设计哲学很精准："graphs that teach, not graphs that impress"（用于教学的知识图谱，不是用来炫技的）。截至 2026 年 5 月，项目获得 22.5k Stars、496 次提交，最新版本 v2.5.0 支持 15+ AI 工具平台和 4 种输出语言（含中文）。
 
@@ -529,7 +529,7 @@ git lfs track ".understand-anything/*.json"
 
 ---
 
-### 7. AI Engineering From Scratch：从"会调 API"到"能造 LLM"的 428 节开源教学（⭐ 13k Stars）
+### 7. 【AI Engineering From Scratch：从"会调 API"到"能造 LLM"的 428 节开源教学（⭐ 13k Stars）】
 
 > 📍 **导语**：2026 年最被低估的学习资源之一——rohitg00/ai-engineering-from-scratch。这是一个 20 阶段、428 节课的完整 AI 工程课程，覆盖从线性代数、概率论到 Transformer、RLHF、Multi-Agent 系统的完整路径。课程的核心教学方法："从零构建→再对比生产库"（Build It / Use It split）——每节课先用 NumPy 手写算法彻底理解原理，再用 PyTorch/HuggingFace 的生产级实现跑一遍。支持 Python、TypeScript、Rust、Julia 四种语言实现。项目在一周内增长 1k Stars，目前在 GitHub 获得 13k Stars，被 CSDN 评为"目前最全面系统的 AI 工程开源课程"。
 
@@ -549,7 +549,7 @@ git lfs track ".understand-anything/*.json"
 
 AI Engineering From Scratch 的"Build It / Use It"双重教学法精准地填补了这个鸿沟。以 Transformer 为例：Build It 阶段从头实现 Self-Attention、Multi-Head Attention、Position Encoding、Layer Norm——每个数学公式对应一行 NumPy 代码；Use It 阶段用 HuggingFace 的 `AutoModelForCausalLM` 复现，对比手写版和生产库的差异。这种"原理+实践"的双层训练，让学习者真正理解为什么某些设计决策在工业界被广泛采用。
 
-**▌ 20 阶段课程脉络**
+### 20 【阶段课程脉络】
 ```
 阶段 1-4:    数学基础 + Python基础
 阶段 5-8:    线性回归 → 逻辑回归 → 神经网络基础 → 反向传播

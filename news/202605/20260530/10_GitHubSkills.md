@@ -4,7 +4,7 @@
 
 ---
 
-### 1. OpenClaw：下一代AI操作层，30万Star的自动化Agent平台
+### 1. 【OpenClaw：下一代AI操作层，30万Star的自动化Agent平台】
 
 > 导语：OpenClaw是2026年GitHub上增长最快的AI项目之一，以超过30万Star的成绩成为AI自动化领域的标杆。它不是一个简单的聊天机器人，而是真正的"AI操作层"——可以自动执行任务、操作浏览器、控制本地应用、构建跨平台工作流。从"AI能聊天"到"AI能做事"，OpenClaw代表了Agent范式的下一个跃迁。
 
@@ -87,7 +87,7 @@ python -m openclaw agent --interactive
 
 ---
 
-### 2. Dify：14.2万Star的LLM应用开发全站台
+### 2. 【Dify：14.2万Star的LLM应用开发全站台】
 
 > 导语：Dify在2026年GitHub上的Star数突破14.2万，成为AI应用开发平台领域的绝对领导者。它不是一个简单的聊天界面，而是面向开发团队的LLM应用全站台——可视化Workflow编排、RAG知识库构建、Agent开发、Prompt IDE调试、LLMOps运维监控，所有功能均暴露REST API。最新版本v1.14.1于2026年5月12日发布。
 
@@ -166,7 +166,7 @@ docker compose up -d
 
 ---
 
-### 3. n8n：18.8万Star的AI自动化中枢，400+集成的工作流引擎
+### 3. 【n8n：18.8万Star的AI自动化中枢，400+集成的工作流引擎】
 
 > 导语：n8n在2026年GitHub上的Star数达到18.8万，超越了Dify成为低代码AI平台中Star数最高的项目。它的核心竞争力不是AI本身，而是"AI+自动化"——拥有400+集成连接器和900+现成模板，可以将AI能力无缝接入Slack、GitHub、Notion、数据库等现有业务系统。最新稳定版于2026年5月15日发布。
 
@@ -247,7 +247,7 @@ n8n start
 
 ---
 
-### 4. claw-code：2026年增长最快的AI编程项目，Rust重写性能翻倍
+### 4. 【claw-code：2026年增长最快的AI编程项目，Rust重写性能翻倍】
 
 > 导语：claw-code是2026年GitHub上增长最快的AI编程项目之一。它用Rust对流行的AI编程工具进行了完全重写，实现了更快的响应速度和更低的内存占用。在AI编程工具竞争白热化的2026年，claw-code凭借"更快、更省、更强"的定位快速获得了开发者的青睐。
 
@@ -325,7 +325,7 @@ claw-code chat    # 进入交互模式
 
 ---
 
-### 5. Ollama + vLLM：本地大模型部署的双子星，从入门到生产
+### 5. 【Ollama + vLLM：本地大模型部署的双子星，从入门到生产】
 
 > 导语：Ollama和vLLM是2026年本地大模型部署领域最热门的两个开源项目。Ollama以"一行命令运行模型"的极简理念降低了本地部署门槛，成为AI基础设施级工具；vLLM以高吞吐、GPU高利用率的性能优势，成为企业级推理部署的事实标准。两者组合使用，覆盖了从个人开发到生产部署的完整链路。
 
@@ -409,7 +409,7 @@ python -m vllm.entrypoints.openai.api_server \
 
 ---
 
-### 6. browser-use：让AI Agent拥有浏览器操作能力的开源框架
+### 6. 【browser-use：让AI Agent拥有浏览器操作能力的开源框架】
 
 > 导语：browser-use在2026年GitHub上的热度持续攀升，成为AI Agent浏览器自动化领域的标杆项目。它让AI可以像人类一样操作浏览器——点击按钮、填写表单、滚动页面、截图分析——为AI Agent打开了通往"真实世界"的大门。无数Agent项目已将其作为浏览器交互的基础组件。
 
@@ -493,7 +493,7 @@ await agent.run()
 
 ---
 
-### 7. superpowers：先分析再开发的AI编程流程优化器
+### 7. 【superpowers：先分析再开发的AI编程流程优化器】
 
 > 导语：superpowers是2026年GitHub上备受关注的新兴AI编程工具，核心理念颠覆了"直接让AI写代码"的固有模式——它主张"先分析需求、再整理Spec、最后再开发"。这种三阶段工作流显著提升了AI生成代码的质量和可维护性，适合重度AI Coding用户。
 

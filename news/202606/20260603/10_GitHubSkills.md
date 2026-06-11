@@ -5,7 +5,7 @@
 
 ---
 
-### 1. MiniMax M3开源推理引擎（⭐⭐ 15.2K Stars）
+### 1. 【MiniMax M3开源推理引擎（⭐⭐ 15.2K Stars）】
 
 > 📍 **导语**（120-200字）：MiniMax在发布M3大模型的同时，出人意料地将自研的MSA稀疏注意力推理引擎开源，GitHub Star数在一周内从0飙升至15.2K。这个名为`minimax-m3-engine`的项目让开发者能在自己的GPU上以接近云服务的性能运行M3系列模型。与vLLM的最主要区别在于其原生的稀疏注意力支持——在处理超过100K token的输入时，吞吐量是vLLM的2.8倍。项目采用Apache 2.0许可，目前已获Claude Code、LangChain等主流工具的原生集成支持。
 
@@ -83,7 +83,7 @@ print(response.choices[0].message.content)
 
 ---
 
-### 2. Bun 2.0正式发布（⭐⭐ 98K Stars）
+### 2. 【Bun 2.0正式发布（⭐⭐ 98K Stars）】
 
 > 📍 **导语**（120-200字）：Bun 2.0于6月1日正式发布，GitHub Star数突破98K即将冲击100K里程碑。这次发布的亮点不是性能（Bun本就很快），而是Windows原生支持终于到来——15个月来最大的用户抱怨"不能在Windows上用"终于被解决。Node.js兼容率也达到98%，真正具备了"一键替换Node.js"的成熟度。npm包安装量单周暴增300%，JavaScript运行时市场正式进入"Node.js/Bun/Deno"三强时代。
 
@@ -146,7 +146,7 @@ bun run build  # 3.2秒 (webpack: 18秒)
 
 ---
 
-### 3. Agent Zero：开源AI编程Agent框架（⭐⭐ 32K Stars）
+### 3. 【Agent Zero：开源AI编程Agent框架（⭐⭐ 32K Stars）】
 
 > 📍 **导语**（120-200字）：Agent Zero是一个新兴的开源AI编程Agent框架，5月中旬发布后在Hacker News和Reddit上炸裂式传播，一个月内收获32K Star。它与LangChain/AutoGPT的核心差异在于"零抽象"——不用Chain/Agent/Tool的嵌套封装，而是直接把终端、文件系统、浏览器交给AI模型，让它像人类开发者一样自主操作。Claude Code和Cursor的用户开始将Agent Zero作为"更自由的替代品"。
 
@@ -227,7 +227,7 @@ cp .env.example .env
 
 ---
 
-### 4. OpenHands：AI软件工程师平台开源（⭐⭐ 55K Stars）
+### 4. 【OpenHands：AI软件工程师平台开源（⭐⭐ 55K Stars）】
 
 > 📍 **导语**（120-200字）：OpenHands（前身为OpenDevin）在2026年5月发布2.0版本后Star数突破55K，成为GitHub上最受欢迎的AI编程Agent项目。它的定位是"AI软件工程师"——不仅是代码生成，而是完整的软件开发生命周期管理。在SWE-Bench Verified评测中，OpenHands 2.0的自主修复率从1.0版的47%飙升至78%，超越大多数人类初级开发者的表现。
 

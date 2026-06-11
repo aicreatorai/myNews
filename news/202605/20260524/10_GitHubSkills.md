@@ -5,7 +5,7 @@
 
 ---
 
-### 1. Spec-Kit：GitHub 官方的"规范即代码"开发范式，AI 编程从 Vibe 走向工程化（⭐ 周增 712 Stars）
+### 1. 【Spec-Kit：GitHub 官方的"规范即代码"开发范式，AI 编程从 Vibe 走向工程化（⭐ 周增 712 Stars）】
 
 > 📍 **导语**（L2 技术层）：2026 年的 AI 编程工具让"一句话生成 App"成为可能，但同时也带来了新问题——当项目从 Demo 演变为生产系统时，Vibe Coding 式的随意生成导致代码一致性崩溃、需求遗漏频发。GitHub 官方开源的 Spec-Kit 正是为此而生：它把"规范"从一次性文档变成驱动整个开发流程的可执行引擎，通过 7 步结构化流程（宪法→规范→澄清→计划→任务→实现），让 AI 从"代码生成器"进化为"负责任的开发伙伴"。目前已支持 Claude Code、Copilot、Gemini CLI、Cursor CLI、Codex CLI 等 30+ AI 编码代理。
 
@@ -89,7 +89,7 @@ cd my-project
 
 ---
 
-### 2. CodeWhale：基于 Rust 的 DeepSeek 原生终端编程 Agent，1M Token 上下文 + 10 并发子代理（⭐ 33.9k Stars）
+### 2. 【CodeWhale：基于 Rust 的 DeepSeek 原生终端编程 Agent，1M Token 上下文 + 10 并发子代理（⭐ 33.9k Stars）】
 
 > 📍 **导语**（L1 概念层）：如果你是 DeepSeek V4 的重度用户，你大概率经历过这个痛点：在 IDE 里调 AI、在终端里跑命令、在浏览器查文档，三者频繁切换，上下文断裂。CodeWhale（前身 DeepSeek-TUI）解决的就是这个"上下文撕裂"问题——它把 AI 编程助手完全搬到终端里，用 Rust 从头构建，原生支持 DeepSeek V4 Pro 的 1M Token 超长上下文和推理流式传输。截至 2026 年 5 月已获 33.9k Stars、2.9k Forks，发布 97 个版本，社区贡献者超 50 人。它是目前 DeepSeek 生态中最完整的终端 AI 编程 Agent，被中文社区称为"Claude Code 的 DeepSeek 最佳平替"。
 
@@ -171,7 +171,7 @@ codewhale --yolo "Refactor the auth module to use JWT"
 
 ---
 
-### 3. TradingAgents：用 8 个 AI Agent 组建虚拟交易公司，LangGraph 驱动的多智能体量化框架（⭐ 78.9k Stars）
+### 3. 【TradingAgents：用 8 个 AI Agent 组建虚拟交易公司，LangGraph 驱动的多智能体量化框架（⭐ 78.9k Stars）】
 
 > 📍 **导语**（L2 技术层）：真实的华尔街交易公司不是一个人做决策——有基本面分析师读财报、技术分析师看K线、新闻分析师盯头条、多头和空头研究员辩论、交易员执行、风控团队把关。TradingAgents 把这个完整决策链用 AI Agent 模拟了出来。8 个专业化 LLM Agent 各司其职，通过结构化辩论和风险评估流水线，最终产出一个"买/卖/持有"的交易决策。项目 2026 年 5 月 Star 数飙升至 78.9k（月增 15.4k），近期发布了 v0.2.5 版本，新增结构化输出代理和对 GPT-5.5、Qwen、GLM 等新模型的支持。框架基于 LangGraph 构建，支持 OpenAI、Anthropic、Google、DeepSeek、xAI 等 10+ 模型提供商。
 
@@ -271,7 +271,7 @@ print(decision)  # 输出：BUY/HOLD/SELL + 分析理由
 
 ---
 
-### 4. UI-TARS-desktop：字节跳动开源多模态 GUI Agent，让 AI 真正"操作电脑"（⭐ 35k Stars）
+### 4. 【UI-TARS-desktop：字节跳动开源多模态 GUI Agent，让 AI 真正"操作电脑"（⭐ 35k Stars）】
 
 > 📍 **导语**（L1 概念层）：如果说 2025 年的 AI 学会了"聊天"，那 2026 年的 AI 正在学会"操作"。字节跳动开源的 UI-TARS-desktop 是一个多模态 GUI Agent 全栈方案——让 AI 能像人一样看屏幕、理解界面、点击按钮、填写表单。它包含两个核心产品：Agent TARS（面向开发者的 CLI/Web UI 工具）和 UI-TARS Desktop（面向终端用户的桌面应用），支持本地和远程控制。项目在 GitHub 获得 35k Stars，基于视觉语言模型（VLM）驱动，不绑定单一模型——既支持字节自研的 UI-TARS-1.5 本地模型，也支持豆包、Claude 3.7 Sonnet、GPT-4o 等主流 VLM。在浏览器自动化场景下，它提供了三档控制策略（纯视觉/DOM/混合），比 Playwright 的无 AI 脚本更加灵活。
 
@@ -362,7 +362,7 @@ await page.waitForSelector('.dashboard');
 
 ---
 
-### 5. Bun：一个二进制文件替代 npm+Node+Jest+Webpack 的 JS 全家桶（⭐ 92k Stars）
+### 5. 【Bun：一个二进制文件替代 npm+Node+Jest+Webpack 的 JS 全家桶（⭐ 92k Stars）】
 
 > 📍 **导语**（L1 概念层）：JavaScript 开发者的工具箱里通常装着 4-5 个独立工具：Node.js 做运行时、npm/pnpm 管依赖、Jest 跑测试、Webpack/esbuild 打包——每个都有独立的配置文件和版本依赖，CI/CD 中光是工具链安装就要几分钟。Bun 用一个约 100MB 的二进制文件统一了这一切。它用 Zig 语言编写，底层运行 WebKit 的 JavaScriptCore 引擎（而非 V8），在包安装、测试执行、打包速度上全面碾压传统工具链。截至 2026 年 5 月，Bun 在 GitHub 获得 92k Stars，v1.3.14 版本已实现 Node.js 95% API 兼容，被越来越多的团队用于生产环境。
 
@@ -456,7 +456,7 @@ bun test
 
 ---
 
-### 6. CodeGraph：预索引代码知识图谱，让 AI 编程代理省钱 35%、减少 70% 工具调用（⭐ 19.8k Stars）
+### 6. 【CodeGraph：预索引代码知识图谱，让 AI 编程代理省钱 35%、减少 70% 工具调用（⭐ 19.8k Stars）】
 
 > 📍 **导语**（L2 技术层）：当你在 Claude Code 里问"这个项目的认证模块是怎么设计的？"，AI 代理需要读取大量文件才能理解代码结构——每读一个文件都是一次工具调用，消耗 Token 和时间。CodeGraph 解决的就是这个"上下文构建成本"问题：它在 AI 代理介入之前，先用 tree-sitter 把整个代码库解析成语义知识图谱（函数调用关系、类继承、导入依赖），存入本地 SQLite 数据库。AI 代理不再需要逐文件探索，而是通过 MCP 工具直接查询图谱获取精准上下文。基准测试显示：在大代码库（如 VS Code、Django）中，Token 消耗降低约 59%，工具调用减少约 70%，整体成本节省约 35%。项目 2026 年 5 月获得爆发式增长，单月新增 15k+ Stars，并连续多日登上 GitHub Trending 榜首。
 
@@ -551,7 +551,7 @@ codegraph affected                 # 找出受 git diff 影响的测试文件
 
 ---
 
-### 7. AgentMemory：AI 编码 Agent 的"长期记忆"引擎，检索准确率 95.2%，年成本仅 $10（⭐ 16.8k Stars）
+### 7. 【AgentMemory：AI 编码 Agent 的"长期记忆"引擎，检索准确率 95.2%，年成本仅 $10（⭐ 16.8k Stars）】
 
 > 📍 **导语**（L2 技术层）：使用 AI 编码代理最让人沮丧的体验之一：每次新会话都要重新解释一遍"这个项目用 PostgreSQL 而不是 MongoDB""数据库连接字符串在环境变量 DB_URL 里""我们统一用 async/await 不用回调"。AgentMemory 的目标是让 AI 代理拥有真正的"长期记忆"——通过 12 个生命周期 Hooks 自动捕获每一次工具调用中的关键信息，再用 BM25 + 向量嵌入 + 知识图谱的三流混合检索，在新会话开始时精准注入最相关的历史上下文。基准数据显示：检索 R@5 准确率 95.2%（比 mem0 高 26.7 个百分点，比 Letta/MemGPT 高 12 个百分点），每次会话仅消耗约 1,900 tokens（传统方式需 22K+），年度成本仅约 $10。项目 5 月登上 GitHub Trending，支持 Claude Code、Codex CLI、OpenCode、Cursor 等 15+ 主流代理。
 

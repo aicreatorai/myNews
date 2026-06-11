@@ -788,5 +788,15 @@
     "depth": "实践层 - 生产级方案、踩坑经验、数据对比",
     "angle": "Mamba-3 ICLR 2026 SSM 混合架构 混元T1 Kimi-K2 线性复杂度",
     "keywords_snippet": "Mamba-3 SSM 状态空间 非Transformer 线性复杂度 混合架构"
+  },
+  {
+    "module": "07",
+    "date": "2026-06-11",
+    "topic": "Agent架构",
+    "title": "Agent架构设计模式：从单Agent到多Agent协作",
+    "level": "L3",
+    "depth": "实践层",
+    "angle": "架构决策",
+    "keywords_snippet": "Agent架构 编排器 多Agent 协作"
   }
 ]
