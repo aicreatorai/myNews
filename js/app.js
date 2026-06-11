@@ -5,6 +5,9 @@
 (function () {
     'use strict';
 
+    // --- 缓存版本号：修改此值会使所有 localStorage 缓存失效 ---
+    const CACHE_VERSION = 'v2';
+
     // --- State ---
     let indexData = null;
     let currentDate = null;
@@ -56,6 +59,21 @@
     //  初始化
     // ==========================================
     document.addEventListener('DOMContentLoaded', async () => {
+        // 缓存版本校验：版本不一致则清空所有 localStorage 缓存
+        const storedVersion = localStorage.getItem('app_cache_version');
+        if (storedVersion !== CACHE_VERSION) {
+            const keysToRemove = [];
+            for (let i = 0; i < localStorage.length; i++) {
+                const key = localStorage.key(i);
+                if (key && (key.startsWith('card_') || key.startsWith('flat_') || key.startsWith('news_'))) {
+                    keysToRemove.push(key);
+                }
+            }
+            keysToRemove.forEach(k => localStorage.removeItem(k));
+            localStorage.setItem('app_cache_version', CACHE_VERSION);
+            console.log('[早间新闻] 缓存版本更新，已清除', keysToRemove.length, '条旧缓存');
+        }
+
         try {
             const resp = await fetch('news-index.json?v=' + Date.now());
             if (!resp.ok) throw new Error('HTTP ' + resp.status);

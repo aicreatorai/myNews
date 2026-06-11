@@ -300,15 +300,65 @@ def verify_files(date_params):
 
     files = os.listdir(out_dir)
     has_issues = False
+    fixed_count = 0
     for f in sorted(files):
         if f.endswith(".md"):
             actual += 1
-            size = os.path.getsize(os.path.join(out_dir, f))
+            fpath = os.path.join(out_dir, f)
+            size = os.path.getsize(fpath)
             print(f"  {'✅' if size > 0 else '⚠️'} {f:30s} {size:>8,d} bytes")
-            # 内容质量检查
             if size > 0:
-                content = open(os.path.join(out_dir, f), 'r', encoding='utf-8').read()
+                content = open(fpath, 'r', encoding='utf-8').read()
                 issues = []
+
+                # ======== 标题格式自动修正（先修正再校验） ========
+                mod_id = re.match(r'^(\d+)', f)
+                mod_num = mod_id.group(1) if mod_id else '00'
+                uses_bracket_type = (mod_num == '01')  # 01用[标签]，其他用【】
+
+                need_fix = False
+                lines = content.split('\n')
+                new_lines = []
+                for line in lines:
+                    # 修复 ### 一、/二、/三、... 中文序号 → ### 1./2./3.
+                    m_cn = re.match(r'^(###\s*)[一二三四五六七八九十]+[、，,\.]\s*(.*)', line)
+                    if m_cn:
+                        cn_map = {'一':'1','二':'2','三':'3','四':'4','五':'5',
+                                  '六':'6','七':'7','八':'8','九':'9','十':'10'}
+                        cn_char = re.match(r'[一二三四五六七八九十]+', m_cn.group(0)[4:]).group()
+                        arabic = cn_map.get(cn_char, cn_char)
+                        title_text = m_cn.group(2).strip()
+                        if not uses_bracket_type:
+                            title_text = re.sub(r'^【(.*)】$', r'\1', title_text)
+                            title_text = f'【{title_text}】' if not title_text.startswith('【') else title_text
+                        new_lines.append(f'{m_cn.group(1).rstrip()} {arabic}. {title_text}')
+                        need_fix = True
+                        continue
+
+                    # 修复 ### N. Title 缺少 【】包裹
+                    m_arab = re.match(r'^(###\s+\d+\.)\s+(.*)', line)
+                    if m_arab and not uses_bracket_type:
+                        prefix = m_arab.group(1)
+                        title_text = m_arab.group(2).strip()
+                        if not title_text.startswith('【') and not re.match(r'^\[.*?\]', title_text):
+                            new_lines.append(f'{prefix} 【{title_text}】')
+                            need_fix = True
+                            continue
+
+                    new_lines.append(line)
+
+                # 修复后写回文件
+                if need_fix:
+                    fixed_count += 1
+                    fixed_content = '\n'.join(new_lines)
+                    fixed_content = re.sub(r'\n{3,}', '\n\n', fixed_content)
+                    with open(fpath, 'w', encoding='utf-8') as fw:
+                        fw.write(fixed_content)
+                    print(f"      ✅ 标题格式已自动修正")
+                    # 使用修正后的内容做后续校验
+                    content = fixed_content
+
+                # 内容质量检查（使用修正后的内容）
                 if '{DATE' in content or '{YYYYMM}' in content:
                     issues.append('含未替换的占位符')
                 if len(content) < 200:
@@ -319,9 +369,13 @@ def verify_files(date_params):
                     issues.append('缺少信息来源标注')
                 if not re.search(r'^###\s+\d+\.', content, re.MULTILINE):
                     issues.append('无新闻条目(无h3标题)')
+
                 if issues:
                     has_issues = True
                     print(f"      ⚠️ {'; '.join(issues)}")
+
+    if fixed_count > 0:
+        print(f"\n  ✅ 标题格式修正: 共修复 {fixed_count} 个文件")
 
     # 检查具体哪些缺失
     expected_ids = set()
@@ -364,7 +418,7 @@ def git_commit_push(date_params):
     date_str = date_params["DATE"]
     branch = get_git_branch()
     cmds = [
-        f"git add news/ news-index.json task/knowledge-index*.json",
+        f"git add news/ news-index.json task/knowledge-index*.json js/app.js",
         f'git commit -m "{date_str} 早间新闻（12板块）"',
         f"git push origin {branch}",
     ]
@@ -414,6 +468,23 @@ def post_steps(date_params, interactive=False):
     print(index_result.stdout)
 
     regenerate_index()
+
+    # 更新前端缓存版本号
+    step("更新前端缓存版本号")
+    app_js = os.path.join(BASE_DIR, 'js', 'app.js')
+    if os.path.exists(app_js):
+        with open(app_js, 'r') as f:
+            js_content = f.read()
+        m = re.search(r"const CACHE_VERSION = 'v(\d+)'", js_content)
+        if m:
+            old_ver = int(m.group(1))
+            new_ver = old_ver + 1
+            js_content = js_content.replace(
+                f"const CACHE_VERSION = 'v{old_ver}'",
+                f"const CACHE_VERSION = 'v{new_ver}'")
+            with open(app_js, 'w') as f:
+                f.write(js_content)
+            print(f"  ✅ 缓存版本号: v{old_ver} → v{new_ver}")
 
     # 更新知识索引（知识类模块）
     step("更新知识索引")

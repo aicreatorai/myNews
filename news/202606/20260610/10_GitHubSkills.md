@@ -14,15 +14,15 @@
 
 **⭐ 深度项目解析**
 
-**▌ 项目数据速览**
+**项目数据速览**
 
 UI-TARS-desktop 由字节跳动 Seed 团队开发，GitHub 地址 `bytedance/UI-TARS-desktop`，当前 36.3K Star / 3.7K Fork。项目采用 Apache 2.0 协议，累计 1,109 次提交。它包含两个核心子项目：**Agent TARS**（CLI + Web UI 多模态 Agent 技术栈）和 **UI-TARS Desktop**（桌面 GUI Agent 应用）。最新版本 v0.3.0，支持 macOS / Windows / Browser 三端。技术栈基于 MCP 协议构建内核，深度整合视觉语言模型 Seed-1.5-VL/1.6 系列。
 
-**▌ 它解决了什么真实痛点？**
+**它解决了什么真实痛点？**
 
 传统 RPA（机器人流程自动化）依赖固定脚本和 DOM 选择器，一旦界面改版就全面崩溃。而通用大模型虽能"看懂"屏幕截图，却缺乏精确操控鼠标键盘的能力——它知道"点哪里"，但做不到"点到像素级"。UI-TARS-desktop 解决的核心痛点是：**让 AI 兼具视觉理解与精确操作能力**。它通过原生视觉语言模型驱动截图识别 + 精准坐标定位 + 鼠标键盘操控，实现了"看得到、点得准、操作得稳"的闭环。无论网页改版还是本地应用界面变化，只要视觉上可识别，Agent 就能自适应完成操作，彻底摆脱了传统 RPA 对选择器的路径依赖。
 
-**▌ 核心原理与架构**
+**核心原理与架构**
 
 UI-TARS-desktop 的架构分三层：
 
@@ -32,7 +32,7 @@ UI-TARS-desktop 的架构分三层：
 
 Agent TARS 在此基础上引入 **MCP 集成**——内核基于 MCP 协议，可挂载任意 MCP Server 连接现实世界工具（文件系统、数据库、API 等），实现 GUI 操作与工具调用的混合策略。它支持三种浏览器控制模式：纯 GUI Agent（视觉驱动）、纯 DOM Agent（结构化操作）和混合模式（视觉+DOM 协同），按场景自动切换。
 
-**▌ 5分钟快速上手**
+**5分钟快速上手**
 
 ```bash
 # 安装 Agent TARS CLI
@@ -48,13 +48,13 @@ agent-tars start --mode server
 
 桌面应用可直接从 GitHub Releases 下载安装包。启动后在设置中配置视觉语言模型 API Key（支持 OpenAI / Anthropic / 本地 Ollama），然后用自然语言下达任务指令即可，例如"帮我打开浏览器搜索今天的天气"。
 
-**▌ 真实场景实战**
+**真实场景实战**
 
 **场景：自动化跨应用数据填报**
 
 某企业需要每天从内部 Web 系统导出报表，打开本地 Excel 填入数据，再登录另一个平台提交。传统 RPA 脚本维护成本极高（DOM 经常变化），人工操作又耗时。使用 UI-TARS-desktop：Agent 先通过浏览器操控登录 Web 系统，视觉识别表格区域并提取数据；再切换到本地 Excel 应用执行粘贴操作；最后在提交平台完成表单填写——全程无需任何固定选择器，全靠视觉理解驱动。即使某次界面改版，Agent 仍能正确定位和操作，因为它的"定位逻辑"是语义级的而非路径级的。
 
-**▌ 选型对比表**
+**选型对比表**
 
 | 维度 | UI-TARS-desktop | 传统RPA(Uipath) | browser-use |
 |------|-----------------|-----------------|-------------|
@@ -63,7 +63,7 @@ agent-tars start --mode server
 | 自适应 | 界面改版仍可运行 | 改版需重写脚本 | DOM变化需调整 |
 | 本地隐私 | 支持完全本地 | 本地部署 | 依赖云端模型 |
 
-**▌ 学习路线**
+**学习路线**
 
 1. 先从桌面应用入手，体验自然语言操控 GUI 的基本流程
 2. 学习 MCP Server 配置，接入自定义工具扩展 Agent 能力
@@ -86,15 +86,15 @@ agent-tars start --mode server
 
 **⭐ 深度项目解析**
 
-**▌ 项目数据速览**
+**项目数据速览**
 
 OpenAI Agents SDK（`openai/openai-agents-python`）是 OpenAI 此前智能体实验项目 Swarm 的生产就绪升级版。当前 27K Star，MIT 协议，Python 99.7%，1,602 次提交，已发布 101 个版本，最新 v0.17.4（2026-05-26）。JS/TS 版本在 `openai/openai-agents-js` 同步开发。它定位为构建多智能体工作流的轻量框架，核心设计原则是"provider-agnostic"——不绑定任何特定 LLM 厂商。
 
-**▌ 它解决了什么真实痛点？**
+**它解决了什么真实痛点？**
 
 现有 Agent 框架的两大痛点：**过度抽象**和**厂商锁定**。LangChain 类框架层层包装，调试时像剥洋葱——你得穿过 Retriever → Chain → Agent 三层才能看到实际 Prompt。而 AutoGen 等框架深度绑定 OpenAI API，换模型就得改架构。OpenAI Agents SDK 的解法是：**极简抽象 + 多模型兼容**。Agent 就是一个"配置了指令、工具和防护栏的 LLM"，没有隐式魔法；Handoff 机制让 Agent 间委托任务一目了然；同时原生支持 100+ LLM，从 Claude 到本地 Ollama 无缝切换。对于需要"看得懂、控得住、换得动"的工程团队，这正是他们想要的。
 
-**▌ 核心原理与架构**
+**核心原理与架构**
 
 SDK 围绕七个核心概念构建：
 
@@ -108,7 +108,7 @@ SDK 围绕七个核心概念构建：
 
 v0.14.0 新增的 **Sandbox Agent** 支持容器化执行长任务，**Realtime Agent** 使用 gpt-realtime-2 构建语音智能体。架构上采用"扁平优先"原则——没有 Chain/Node/Edge 等图抽象，一切通过 Agent + Tool + Handoff 的简单组合完成，降低认知复杂度。
 
-**▌ 5分钟快速上手**
+**5分钟快速上手**
 
 ```bash
 pip install openai-agents
@@ -140,7 +140,7 @@ print(result.final_output)
 
 语音Agent安装：`pip install 'openai-agents[voice]'`，Redis会话：`pip install 'openai-agents[redis]'`
 
-**▌ 真实场景实战**
+**真实场景实战**
 
 **场景：客户支持多Agent系统**
 
@@ -153,7 +153,7 @@ print(result.final_output)
 
 整个系统用不到 100 行 Python 代码实现，而且换模型只需改一行配置——从 GPT-4o 切换到本地 Ollama 模型，无需修改任何业务逻辑。
 
-**▌ 选型对比表**
+**选型对比表**
 
 | 维度 | OpenAI Agents SDK | LangGraph | AutoGen |
 |------|-------------------|-----------|---------|
@@ -162,7 +162,7 @@ print(result.final_output)
 | 调试体验 | 内置Tracing | LangSmith | 有限 |
 | 学习曲线 | 平缓 | 陡峭 | 中等 |
 
-**▌ 学习路线**
+**学习路线**
 
 1. 阅读官方文档的 Quickstart，用 20 行代码跑通第一个 Agent
 2. 学习 Handoff 机制，构建"路由 Agent → 专业 Agent"模式
@@ -185,15 +185,15 @@ print(result.final_output)
 
 **⭐ 深度项目解析**
 
-**▌ 项目数据速览**
+**项目数据速览**
 
 CodeGraph（`colbymchenry/codegraph`）由独立开发者 Colby McHenry 创建，当前 46K Star / 2.8K Fork，MIT 协议，TypeScript 开发，443 次提交，已发布 15 个版本，最新 v0.9.9（2026-06-02）。它支持 20+ 编程语言、14 个 Web 框架的路由识别，100% 本地运行（SQLite 存储），零配置自动启用。核心定位：为 AI 编码代理提供预索引的代码知识图谱，通过 MCP 协议与 Claude Code、Cursor、Codex、Gemini CLI、Kiro、Hermes Agent 等无缝集成。
 
-**▌ 它解决了什么真实痛点？**
+**它解决了什么真实痛点？**
 
 AI 编码 Agent 的最大效率瓶颈不是"不会写代码"，而是"不了解你的代码"。每次新会话，Agent 都要从零开始探索——先用 Glob 找文件，再用 Grep 搜关键词，然后 Read 一堆文件才弄清函数间关系。对于万文件级别的项目，这个过程可能消耗数千 Token 和数十次工具调用。更糟的是，Agent 的"探索"常常是不完整的——它可能漏掉关键依赖关系，导致生成的代码引入回归 Bug。CodeGraph 把这个"盲人摸象"的过程变成"开卷考试"：所有符号关系、调用图、影响范围已提前建好索引，Agent 一次 `codegraph_explore` 调用即可获取完整上下文。
 
-**▌ 核心原理与架构**
+**核心原理与架构**
 
 CodeGraph 的工作流程分三步：
 
@@ -203,7 +203,7 @@ CodeGraph 的工作流程分三步：
 
 框架感知路由是亮点：自动识别 14 个 Web 框架的路由文件，将 URL 模式链接到处理器函数，这对 Web 开发场景特别有用。
 
-**▌ 5分钟快速上手**
+**5分钟快速上手**
 
 ```bash
 # 安装（任选一种）
@@ -223,7 +223,7 @@ codegraph init -i
 
 安装脚本也支持无需 Node.js 的方式：`curl -fsSL https://raw.githubusercontent.com/colbymchenry/codegraph/main/install.sh | sh`
 
-**▌ 真实场景实战**
+**真实场景实战**
 
 **场景：大型代码库重构**
 
@@ -236,7 +236,7 @@ codegraph init -i
 
 实测在 VS Code 级代码库上，Token 消耗降低 64%，工具调用减少 81%。
 
-**▌ 选型对比表**
+**选型对比表**
 
 | 维度 | CodeGraph | AST Grep | Sourcegraph |
 |------|-----------|----------|-------------|
@@ -245,7 +245,7 @@ codegraph init -i
 | 运行方式 | 100%本地 | 本地 | 云端+本地 |
 | Token节省 | 47%+ | 无直接优化 | 无直接优化 |
 
-**▌ 学习路线**
+**学习路线**
 
 1. 在个人小项目上安装 CodeGraph，体验 `codegraph_explore` 的查询能力
 2. 在中型项目中使用，对比有/无 CodeGraph 时 Agent 的效率差异
@@ -268,15 +268,15 @@ codegraph init -i
 
 **⭐ 深度项目解析**
 
-**▌ 项目数据速览**
+**项目数据速览**
 
 AgentMemory（`rohitg00/agentmemory`）基于 iii engine 构建，当前 22.1K Star / 1.8K Fork，Apache 2.0 协议，TypeScript 83%，最新版本 v0.9.27（2026-06-07），49 个 Release，455 次提交，1,423+ 测试通过。支持 Claude Code、GitHub Copilot CLI、Cursor、Gemini CLI、Codex CLI 等 20+ 编码代理。核心定位：AI 编码代理的持久化记忆引擎，让代理跨会话记住项目约定与历史决策。
 
-**▌ 它解决了什么真实痛点？**
+**它解决了什么真实痛点？**
 
 AI 编码代理最大的体验断裂是**会话间失忆**。你花 30 分钟和 Claude Code 讨论完架构方案，关掉窗口后再打开，它什么都不记得。CLAUDE.md 和 .cursorrules 是目前的主流解法，但它们有硬伤：200 行上限、手动维护、无法按需检索——你不可能把所有历史决策都塞进 200 行里。AgentMemory 的解法是**自动捕获 + 分层压缩 + 混合检索**：它通过 12 个 Hook 自动记录代理的每次工具使用，按认知科学模型压缩为四层记忆，下次会话按需检索注入，Token 消耗仅为粘贴完整上下文的 8%。
 
-**▌ 核心原理与架构**
+**核心原理与架构**
 
 AgentMemory 的核心是**四层记忆巩固体系**，借鉴人类认知模型：
 
@@ -289,7 +289,7 @@ AgentMemory 的核心是**四层记忆巩固体系**，借鉴人类认知模型�
 
 检索采用**三流混合架构**：BM25（关键词匹配）+ Vector（语义嵌入）+ Graph（知识图谱遍历），通过 Reciprocal Rank Fusion (RRF, k=60) 融合排序，确保高召回高精度。MCP 服务器提供 53 个工具、6 个资源、3 个 Prompt、15 个技能。
 
-**▌ 5分钟快速上手**
+**5分钟快速上手**
 
 ```bash
 # 全局安装
@@ -311,7 +311,7 @@ agentmemory demo --serve  # 一键：启动→运行demo→关闭
 
 也支持 Docker 部署和 npx 免安装运行。实时查看器在端口 3113 提供可视化界面，可观察记忆流、会话浏览和知识图谱。
 
-**▌ 真实场景实战**
+**真实场景实战**
 
 **场景：大型项目多会话协作开发**
 
@@ -319,7 +319,7 @@ agentmemory demo --serve  # 一键：启动→运行demo→关闭
 
 使用 AgentMemory 后：Agent 自动记住团队的技术决策（Semantic Memory）、上次改了哪些文件（Episodic Memory）、代码审查的反馈模式（Procedural Memory）。当 A 开发完订单服务后，B 打开库存服务时，Agent 自动注入"订单服务通过 gRPC 调用库存服务的 ReserveStock 方法"这一上下文，无需 B 手动说明。团队记忆通过命名空间共享 + 私有隔离机制，既保持信息同步又保护个人工作隐私。
 
-**▌ 选型对比表**
+**选型对比表**
 
 | 维度 | AgentMemory | CLAUDE.md | Mem0 |
 |------|-------------|-----------|------|
@@ -328,7 +328,7 @@ agentmemory demo --serve  # 一键：启动→运行demo→关闭
 | 检索方式 | BM25+向量+图谱 | 全文 | 向量检索 |
 | Token效率 | 省92% | 无优化 | 中等优化 |
 
-**▌ 学习路线**
+**学习路线**
 
 1. 安装并运行 `agentmemory demo`，体验记忆的存储和检索
 2. 连接你的主力编码代理，在日常开发中观察记忆的自动积累
@@ -351,15 +351,15 @@ agentmemory demo --serve  # 一键：启动→运行demo→关闭
 
 **⭐ 深度项目解析**
 
-**▌ 项目数据速览**
+**项目数据速览**
 
 Cline（`cline/cline`）当前 63K Star / 6.6K Fork，Apache 2.0 协议，TypeScript 97.8%，CLI 最新版 v3.0.23（2026-06-10）。被 3.3K 项目使用，276 Watchers。它是一个完全开源的自主编码代理，支持五种使用形态：CLI（命令行交互/无头模式）、VS Code 扩展、JetBrains 插件、Kanban 看板（多Agent并行任务板）、SDK（Node.js 编程 API）。支持 `.clinerules` 项目规则文件和 Skills 技能加载系统。
 
-**▌ 它解决了什么真实痛点？**
+**它解决了什么真实痛点？**
 
 AI 编码工具的三大绑定痛点：**IDE 绑定**（Cursor 只能在自家编辑器用）、**模型绑定**（Copilot 只能用 OpenAI）、**形态绑定**（Claude Code 只有终端）。Cline 的解法是"全平台 + 全模型 + 全形态"：同一套核心能力，你在 VS Code 里用它就是 IDE 插件，在终端里就是 CLI Agent，在 CI/CD 里就是无头模式，通过 SDK 集成就是编程 API。模型方面从 Claude Opus 到本地 Ollama 的 200+ 模型任意切换，而且不绑定任何商业 API——你可以全部使用本地模型，实现真正的"AI编码零依赖"。
 
-**▌ 核心原理与架构**
+**核心原理与架构**
 
 Cline 的核心能力围绕"理解 → 计划 → 执行 → 验证"循环：
 
@@ -370,7 +370,7 @@ Cline 的核心能力围绕"理解 → 计划 → 执行 → 验证"循环：
 
 架构上，Cline 通过 **MCP 服务器**连接外部系统（数据库、API、云基础设施），通过 **插件系统**注册工具和生命周期挂钩，通过 **多Agent团队**协调多个代理处理复杂任务（协调器分解子任务 → 专家代理并行执行），通过 **定时代理**按计划运行日常任务（PR摘要、依赖检查、代码健康报告）。消息平台集成支持 Telegram / Slack / Discord / WhatsApp / Linear 等。
 
-**▌ 5分钟快速上手**
+**5分钟快速上手**
 
 ```bash
 # CLI 安装
@@ -406,7 +406,7 @@ cline --headless "修复所有 TypeScript 类型错误"
 }
 ```
 
-**▌ 真实场景实战**
+**真实场景实战**
 
 **场景：使用Kanban看板并行修复多模块Bug**
 
@@ -420,7 +420,7 @@ cline --headless "修复所有 TypeScript 类型错误"
 
 全程无需切换窗口或等待上一个任务完成，并行效率提升显著。
 
-**▌ 选型对比表**
+**选型对比表**
 
 | 维度 | Cline | Cursor | Claude Code |
 |------|-------|--------|-------------|
@@ -429,7 +429,7 @@ cline --headless "修复所有 TypeScript 类型错误"
 | 开源程度 | 完全开源 | 闭源 | 闭源 |
 | 多Agent | 看板并行 | 单Agent | 单会话 |
 
-**▌ 学习路线**
+**学习路线**
 
 1. 从 VS Code 扩展开始，体验基本的代码生成和编辑功能
 2. 学习 `.clinerules` 配置，定义项目特定的编码规范和架构约定
@@ -452,15 +452,15 @@ cline --headless "修复所有 TypeScript 类型错误"
 
 **⭐ 深度项目解析**
 
-**▌ 项目数据速览**
+**项目数据速览**
 
 CloakBrowser（`CloakHQ/CloakBrowser`）当前 22.8K Star，2026年5月开源，基于 Chromium 源码级补丁构建。它的核心卖点是在 Chromium C++ 层面做了 57 处指纹修改，通过所有主流 Bot 检测测试（30/30 passed），可作为 Playwright 和 Puppeteer 的零配置替代品。支持创建多浏览器 Profile（独立指纹/代理/持久会话），通过 noVNC 在浏览器中远程交互。
 
-**▌ 它解决了什么真实痛点？**
+**它解决了什么真实痛点？**
 
 传统反检测方案的致命缺陷是**在应用层修补，而非在源码层根治**。playwright-stealth 在运行时注入 JS 脚本隐藏 `navigator.webdriver`，undetected-chromedriver 改启动参数和二进制标记——这些"补丁"本质上是撒谎，而现代反检测系统（如 Cloudflare Turnstile、Akamai Bot Manager）会检测这些谎言的痕迹：JS 补丁可以通过执行时序差异发现，参数修改可以通过与正常浏览器的统计偏差识别。CloakBrowser 的解法是从根源上"不说谎"——直接修改 Chromium 源码中产生指纹的代码，让浏览器本身就具备"正常"的指纹特征，无需运行时欺骗。
 
-**▌ 核心原理与架构**
+**核心原理与架构**
 
 CloakBrowser 的核心技术是**源码级补丁**，覆盖五个指纹维度：
 
@@ -472,7 +472,7 @@ CloakBrowser 的核心技术是**源码级补丁**，覆盖五个指纹维度：
 
 每个浏览器 Profile 拥有独立的指纹配置、代理设置和持久化存储，通过 Docker 容器隔离运行。API 层面兼容 Playwright 和 Puppeteer，现有脚本只需改一行 import 即可迁移。
 
-**▌ 5分钟快速上手**
+**5分钟快速上手**
 
 ```bash
 # Docker 启动
@@ -505,7 +505,7 @@ curl -X POST http://localhost:8080/api/profiles \
   -d '{"name": "profile-1", "proxy": "socks5://proxy:1080"}'
 ```
 
-**▌ 真实场景实战**
+**真实场景实战**
 
 **场景：电商价格监控自动化**
 
@@ -518,7 +518,7 @@ curl -X POST http://localhost:8080/api/profiles \
 
 迁移后 3 个月零失效，维护工时从每周 4 小时降到 0。
 
-**▌ 选型对比表**
+**选型对比表**
 
 | 维度 | CloakBrowser | playwright-stealth | undetected-chromedriver |
 |------|-------------|---------------------|------------------------|
@@ -527,7 +527,7 @@ curl -X POST http://localhost:8080/api/profiles \
 | 检测通过率 | 30/30 | 15-20/30 | 18-22/30 |
 | 迁移成本 | 改一行连接 | 已集成 | 已集成 |
 
-**▌ 学习路线**
+**学习路线**
 
 1. 用 Docker 快速启动，访问 noVNC 界面体验隐身浏览器
 2. 在 Playwright 中替换连接方式，跑通现有自动化脚本
@@ -550,15 +550,15 @@ curl -X POST http://localhost:8080/api/profiles \
 
 **⭐ 深度项目解析**
 
-**▌ 项目数据速览**
+**项目数据速览**
 
 9Router（`decolua/9router`）当前 15.4K Star，2026年5月开源。它是一个开源的 AI 智能路由中间件，支持连接 Claude Code、Cursor、Cline、Copilot、Codex、Antigravity 等主流 AI 编码工具，通过 40+ 供应商提供 AI 能力，核心特性包括：自动 Fallback（主供应商限流时自动切换备用）、RTK Token 压缩（省 20-40% Token）、多账户轮询、本地运行零数据泄露。兼容 OpenAI API 格式，现有工具只需改一行 API 地址即可接入。
 
-**▌ 它解决了什么真实痛点？**
+**它解决了什么真实痛点？**
 
 AI 编程的"三限"问题：**速率限制**（Claude / GPT 的 RPM 限制打断工作流）、**额度限制**（月度 API 额度耗尽就得等下月）、**成本限制**（重度使用每月几百美元的API费用）。9Router 同时解决这三个问题：速率限制 → 自动 Fallback 到备用供应商继续服务；额度限制 → 多账户轮询 + 免费供应商兜底；成本限制 → RTK 压缩减少 Token 消耗 + 自动路由到最便宜的可用模型。对于个人开发者和初创团队，9Router 让"无限免费 AI 编程"成为可能——通过合理配置免费额度供应商（如 Groq 免费层、Google AI Studio 免费层），可以实现零成本的日常编码辅助。
 
-**▌ 核心原理与架构**
+**核心原理与架构**
 
 9Router 的架构是一个本地反向代理：
 
@@ -574,7 +574,7 @@ AI编码工具(Claude Code/Cursor/...) → 9Router(localhost:8080) → 40+ AI供
 4. **多账户轮询**：同一供应商配置多个 API Key，按权重轮询，突破单账户速率限制。
 5. **兼容层**：对外暴露 OpenAI 兼容的 API 格式，上游工具只需将 API Base URL 改为 `http://localhost:8080/v1` 即可。
 
-**▌ 5分钟快速上手**
+**5分钟快速上手**
 
 ```bash
 # Docker 一键启动
@@ -619,7 +619,7 @@ rtk:
   compression: 0.4  # 目标压缩率
 ```
 
-**▌ 真实场景实战**
+**真实场景实战**
 
 **场景：初创团队低成本AI编程**
 
@@ -632,7 +632,7 @@ rtk:
 
 月度成本降至 $350（Anthropic $250 + Groq $50 + 其他 $50），节省 65%。团队所有成员共享同一个 9Router 实例，各自工具只需指向同一地址。
 
-**▌ 选型对比表**
+**选型对比表**
 
 | 维度 | 9Router | OpenRouter | LiteLLM |
 |------|---------|------------|---------|
@@ -641,7 +641,7 @@ rtk:
 | 免费供应商 | 40+含免费层 | 部分免费 | 需自配 |
 | 本地运行 | 完全本地 | 云端 | 本地/云端 |
 
-**▌ 学习路线**
+**学习路线**
 
 1. Docker 一键启动，配置 Cursor 或 Claude Code 连接 9Router
 2. 添加多个供应商，体验自动 Fallback 的无缝切换
