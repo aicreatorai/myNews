@@ -5,7 +5,7 @@
 
 ---
 
-### 1. NVIDIA Cosmos世界模型开源（⭐⭐ 28K Stars）
+### 1. 【NVIDIA Cosmos世界模型开源（⭐⭐ 28K Stars）】
 
 > 📍 **导语**（120-200字）：英伟达在发布PHYSICAL AI平台的同时，出人意料地将Cosmos世界模型的核心代码以Apache 2.0许可开源。这个项目在GitHub上一周内斩获28K Stars，成为COMPUTEX 2026周最火爆的开源项目。Cosmos是一个基于Transformer+Diffusion的"世界模型"——给定文本描述（"一个杂乱的现代厨房"），它能生成高度物理真实的3D场景，专为机器人训练和自动驾驶仿真设计。
 
@@ -64,7 +64,7 @@ scene.export("my_kitchen.usd")  # 可直接导入Omniverse/Blender
 
 ---
 
-### 2. LlamaIndex 0.12：RAG框架的"企业级操作系统"（⭐⭐ 45K Stars）
+### 2. 【LlamaIndex 0.12：RAG框架的"企业级操作系统"（⭐⭐ 45K Stars）】
 
 > 📍 **导语**（120-200字）：LlamaIndex在5月底发布的0.12版本是一次"架构级别的重写"。新版本引入了Agent-native设计——每个RAG组件（检索器、生成器、路由器）都被设计为Agent，可以独立运行、被编排或替换。GitHub Star数突破45K，在企业级RAG框架的竞争中LlamdIndex正在拉开与LangChain的差距。新增的"RAG评估仪表盘"让开发者能可视化管理检索质量和生成效果的持续改进。
 
@@ -119,7 +119,7 @@ print(response)  # 附带引用和置信度评分
 
 ---
 
-### 3. Open Interpreter 2.0：开源"电脑操控AI Agent"（⭐⭐ 62K Stars）
+### 3. 【Open Interpreter 2.0：开源"电脑操控AI Agent"（⭐⭐ 62K Stars）】
 
 > 📍 **导语**（120-200字）：Open Interpreter 2.0于6月初发布，让AI Agent不仅可以运行代码，还可以"操控电脑"——打开浏览器、点击按钮、填写表单、管理文件。这不仅仅是Claude Code的"终端版"，而是"整个桌面操作系统的AI控制器"。新版本使用计算机视觉+操作系统的Accessibility API来理解屏幕内容，无需依赖任何特定应用的API。Star数飙升至62K。
 
@@ -166,7 +166,7 @@ interpreter --vision  # 启用计算机视觉模式
 
 ---
 
-### 4. Triggre：零代码AI应用构建平台（⭐⭐ 12K Stars）
+### 4. 【Triggre：零代码AI应用构建平台（⭐⭐ 12K Stars）】
 
 > 📍 **导语**（120-200字）：Triggre是一个新兴的开源"零代码AI应用构建器"，6月初在GitHub上爆发式传播。区别于Coze/Dify需要"Prompt编排"的半低代码路径，Triggre的核心理念是"你描述业务逻辑，AI生成完整应用"——输入"我需要一个客服工单系统，支持用户提交工单、自动分类、分配给对应部门、追踪处理进度"，AI自动生成前后端代码+数据库schema+Docker部署配置。面向"有想法但不会写代码"的产品经理和创业者。
 

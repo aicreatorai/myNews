@@ -5,7 +5,7 @@
 
 ---
 
-### 1. Claude Skills 生态全面引爆：一个月内 4 个项目单月破 2 万 Star，AI 编程进入"技能商店"时代（⭐⭐ 趋势专题）
+### 1. 【Claude Skills 生态全面引爆：一个月内 4 个项目单月破 2 万 Star，AI 编程进入"技能商店"时代（⭐⭐ 趋势专题）】
 
 > 📍 **导语**：2026 年 5 月，GitHub Trending 榜被一个关键词彻底统治——Claude Skills。从 Andrej Karpathy 的行为优化提示集（160k Star，月增 65k），到 TypeScript 领域"布道者"Matt Pocock 的工程师 Skills 集合（110k Star，月增 75k），再到 Google 工程师 Addy Osmani 的生产级 Agent Skills（43k Star，月增 26k），Claude Skills 生态以惊人的速度构建起了一个"AI 行为的可共享、可复用知识库"。这不是又一个 GitHub 热门，而是一次范式转移：AI 编程正在从"写代码"升级到"配置行为"。
 
@@ -82,7 +82,7 @@ claude
 
 ---
 
-### 2. Hermes Agent 单月增 6 万 Star 登顶：首个内置"完整学习闭环"的开源 AI 智能体框架（⭐⭐ 172,000+ Star）
+### 2. 【Hermes Agent 单月增 6 万 Star 登顶：首个内置"完整学习闭环"的开源 AI 智能体框架（⭐⭐ 172,000+ Star）】
 
 > 📍 **导语**：如果说 Claude Skills 定义了 AI 编程的"行为规范"，那 Hermes Agent 则定义了 AI 智能体的"自我成长"。由 Nous Research 团队打造的这个开源框架，在 2026 年 5 月以 172k Star 的成绩成为 GitHub 上 Star 数最高的 AI Agent 项目，月增近 60k Star。它的核心竞争力就一个：内置学习闭环。与 LangChain/AutoGen 等"工具链"框架不同，Hermes 的 Agent 会在执行任务的过程中自动创建技能、优化技能、记住经验——真正做到了"越用越聪明"。
 
@@ -177,7 +177,7 @@ hermes
 
 ---
 
-### 3. CodeGraph：给 AI 编程助手装上"代码地图"，工具调用减少 57%、成本降低 18%（⭐⭐ 32,200+ Star）
+### 3. 【CodeGraph：给 AI 编程助手装上"代码地图"，工具调用减少 57%、成本降低 18%（⭐⭐ 32,200+ Star）】
 
 > 📍 **导语**：当你用 Claude Code 或 Cursor 在大型代码库中修 Bug 时，AI 需要反复调用 grep、glob、Read 等工具来"探索"代码结构。在一个有 1 万个文件的代码库中，这种探索可能消耗数百次工具调用和不菲的 Token 费用。CodeGraph 的解决方案很优雅：预先构建一个代码知识图谱，让 AI 像查地图一样一次定位目标。实测数据：工具调用减少 57%，Token 消耗降低 51%，成本节省 18%——更关键的是，100% 本地运行，代码不离开你的机器。
 
@@ -273,7 +273,7 @@ codegraph serve --mcp
 
 ---
 
-### 4. AgentMemory：AI 编程 Agent 的"长期记忆"系统，摆脱"每次对话从零开始"的困境（⭐⭐ 19,300+ Star）
+### 4. 【AgentMemory：AI 编程 Agent 的"长期记忆"系统，摆脱"每次对话从零开始"的困境（⭐⭐ 19,300+ Star）】
 
 > 📍 **导语**：你是否有过这样的体验——用了 3 小时的 Claude Code 对话帮你重构了一个模块，第二天打开新对话后，Agent 对你的项目架构建、编码风格、甚至刚刚讨论过的技术决策一无所知？AgentMemory 正是为解决这个"失忆问题"而生。它给 Claude Code、Codex CLI、Cursor 等 AI 编程代理装上了一个持久化记忆系统，让 Agent 能够跨会话记住项目上下文、用户偏好和过往经验。从 4 月发布到 5 月中旬，19k Star 的增长速度反映了开发者对这个问题的强烈共鸣。
 
@@ -362,7 +362,7 @@ npx @rohitg00/agentmemory view
 
 ---
 
-### 5. CloakBrowser：57 个 C++ 源码级补丁，让 Playwright 通过所有主流 Bot 检测——零配置替换方案（⭐⭐ 22,100+ Star）
+### 5. 【CloakBrowser：57 个 C++ 源码级补丁，让 Playwright 通过所有主流 Bot 检测——零配置替换方案（⭐⭐ 22,100+ Star）】
 
 > 📍 **导语**：做网页爬虫或自动化测试的开发者都遇到过这个问题：明明代码逻辑正确，网站却返回 403、验证码或者空白页面——因为你的浏览器被识别为 Bot 了。现有的解决方案（如 playwright-stealth、undetected-chromedriver）都在 JavaScript 层面打补丁，反检测网站一升级就失效。CloakBrowser 的思路完全不同：它直接修改了 Chromium 的 C++ 源码，在 57 个关键位置打了底层补丁，让浏览器从指纹层面和普通用户浏览器完全一致。22k Star 的增长证明了这一思路的彻底性。
 
@@ -460,7 +460,7 @@ const browser = await chromium.launch();
 
 ---
 
-### 6. Ruflo：100+ Agent 协同工作的编排引擎，Claude Code 从"单人秀"升级为"AI 工程团队"（⭐⭐ 56,100+ Star）
+### 6. 【Ruflo：100+ Agent 协同工作的编排引擎，Claude Code 从"单人秀"升级为"AI 工程团队"（⭐⭐ 56,100+ Star）】
 
 > 📍 **导语**：单个 AI Agent 写代码已经很强大，但如果一个 Agent 负责架构设计、另一个负责代码实现、第三个负责安全审查、第四个负责写测试——"AI 工程团队"会不会比单个 Agent 更强？Ruflo 就是为这个场景设计的。它是一个面向 Claude Code 的多 Agent 编排平台，支持 100+ 专业 Agent 通过 Swarm、层级、自适应等多种拓扑结构协同工作。5 月以 56k Star 的成绩成为编排领域的领跑者，背后反映的是 AI 编程从"工具"向"平台"的范式进化。
 
@@ -555,7 +555,7 @@ npx ruvflo task "Implement user registration with JWT auth"
 
 ---
 
-### 7. Understand-Anything：把 10 万行代码库变成一张"可以对话的地图"，团队新人上手时间缩短 80%（⭐⭐ 42,800+ Star）
+### 7. 【Understand-Anything：把 10 万行代码库变成一张"可以对话的地图"，团队新人上手时间缩短 80%（⭐⭐ 42,800+ Star）】
 
 > 📍 **导语**：新加入一个 10 万行代码的项目，最常见的困境是"不知道从哪里开始看"。即使有架构文档，从纸面理解到真正理解代码之间仍有巨大的鸿沟。Understand-Anything 的做法很有想象力：用多 Agent 分析管道把代码库转化为一个可交互的知识图谱——你可以搜索"认证模块的入口在哪"、点击函数节点查看调用关系、甚至直接在图谱中向 Claude 提问。42k Star 的增长说明开发者对"可视化理解代码"的需求被严重低估了。
 

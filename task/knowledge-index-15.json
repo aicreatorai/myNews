@@ -598,5 +598,105 @@
     "depth": "实践层",
     "angle": "AI辅助PRD全流程实践",
     "keywords_snippet": "PRD AI辅助 需求文档 原型生成"
+  },
+  {
+    "module": "15",
+    "date": "2026-06-10",
+    "topic": "AI产品规模化营收",
+    "title": "AI产品商业化三卡点破局：从功能Demo到规模化营收的完整路径",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "拆解AI产品从Demo到商业化的三个核心卡点：场景闭环、单位经济模型、规模化交付",
+    "keywords_snippet": "AI产品商业化三卡点：场景闭环、单位经济模型、规模化交付、从Demo到营收"
+  },
+  {
+    "module": "15",
+    "date": "2026-06-10",
+    "topic": "对话式AI交互设计",
+    "title": "对话式AI的UX革命：从对话框到意图中心的交互范式跃迁",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "从LUI到Intent-Centric的AI产品交互范式跃迁，降低对话轮次提升任务完成率",
+    "keywords_snippet": "对话式AI UX意图中心设计 LUI对话框交互范式升级 PM UX设计"
+  },
+  {
+    "module": "15",
+    "date": "2026-06-10",
+    "topic": "A-B测试",
+    "title": "从Prompt到Product：AI产品经理的A-B测试方法论升级",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "针对AI产品非确定性输出的A/B测试四难点：输出变异性、效果体验分离、Prompt敏感度、短期长期指标冲突",
+    "keywords_snippet": "AI产品 A-B测试 非确定性输出 重复采样 双维度评估 Prompt变体矩阵"
+  },
+  {
+    "module": "15",
+    "date": "2026-06-10",
+    "topic": "竞品分析",
+    "title": "AI时代的产品经理竞品分析：从截图对比到智能系统解构",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "AI产品竞品分析的四个新维度：模型策略逆向、Prompt工程反推、数据飞轮解读、Agent架构解构",
+    "keywords_snippet": "AI产品竞品分析 模型策略逆向 Prompt反推 数据飞轮 Agent架构解构 四维解构法"
+  },
+  {
+    "module": "15",
+    "date": "2026-06-10",
+    "topic": "置信度工程",
+    "title": "智能产品的置信度工程：如何让AI输出从可信到可信赖",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "AI产品用户信任度设计：置信度展示、可解释性洋葱模型、风险分层兜底策略",
+    "keywords_snippet": "置信度工程 模型幻觉 可解释性AI 信任度设计 风险分层兜底 不确定性可视化"
+  },
+  {
+    "module": "15",
+    "date": "2026-06-10",
+    "topic": "多模型路由",
+    "title": "多模型路由进阶实践：从单模型困局到智能分发体系",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "四层智能分发架构：语义缓存层、规则路由层、动态智能路由层、回退降级层",
+    "keywords_snippet": "多模型路由 智能分发 语义缓存 模型选型 成本优化 四层架构 Token成本"
+  },
+  {
+    "module": "15",
+    "date": "2026-06-10",
+    "topic": "AI产品冷启动",
+    "title": "AI产品冷启动策略：零数据零用户场景下的破局路径",
+    "level": "L2",
+    "depth": "方法论层",
+    "angle": "增长策略",
+    "keywords_snippet": "冷启动,合成数据,专家种子,降维启动,数据鸡用户蛋"
+  },
+  {
+    "module": "15",
+    "date": "2026-06-10",
+    "topic": "可托付智能",
+    "title": "可托付智能：AI产品从辅助输出到有界委托的设计范式跃迁",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "设计范式跃迁",
+    "keywords_snippet": "可托付智能,有界委托,Agent设计,任务委托化,人机协作"
+  },
+  {
+    "module": "15",
+    "date": "2026-06-10",
+    "topic": "UX 3.0",
+    "title": "UX 3.0：三层架构如何应对AI非确定性输出的体验挑战",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "体验架构重构",
+    "keywords_snippet": "UX 3.0,非确定性,概率层交互层评估层,置信度展示,循环式交互"
+  },
+  {
+    "module": "15",
+    "date": "2026-06-10",
+    "topic": "界面暗效应",
+    "title": "AI产品界面暗效应：UI布局如何操控用户对AI输出的信任",
+    "level": "L2",
+    "depth": "方法论层",
+    "angle": "认知科学",
+    "keywords_snippet": "界面暗效应,UI布局,信任操控,批判性思考,位置权威效应"
   }
 ]

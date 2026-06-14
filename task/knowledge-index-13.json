@@ -1,165 +1,72 @@
 [
   {
-    "topic": "AI教育政策 行动计划",
-    "title": "教育部五部门联合印发人工智能+教育行动计划六大工程重塑教学全流程",
-    "level": "L2",
-    "depth": "技术层",
-    "angle": "政策解读与地方落地全景分析",
-    "keywords_snippet": "人工智能+教育行动计划 五部门联合 六大工程 1+4+N",
-    "date": "2026-05-29"
-  },
-  {
-    "topic": "数字教育指数 GDEI",
-    "title": "GDEI 2026全球数字教育指数发布中国跻身AI教育第一阵营",
-    "level": "L1",
-    "depth": "概念层",
-    "angle": "全球视野下的AI教育排名和能力培养趋势",
-    "keywords_snippet": "GDEI 全球数字教育发展指数 中美韩芬 高阶思维能力",
-    "date": "2026-05-29"
-  },
-  {
-    "topic": "儿童 AI素养 学前教育",
-    "title": "2026全国学前教育宣传月守护数字时代童年AI时代幼儿启蒙新规则",
-    "level": "L1",
-    "depth": "概念层",
-    "angle": "幼儿数字素养培养框架和皮亚杰认知理论的结合",
-    "keywords_snippet": "学前教育宣传月 数字时代童年 AI启蒙 无屏幕编程 3-6岁",
-    "date": "2026-05-29"
-  },
-  {
-    "topic": "钉钉 悟空 教育 AI智能体",
-    "title": "钉钉悟空教育场景产品发布AI智能体重构22万所学校教学全流程",
+    "module": "13",
+    "date": "2026-06-10",
+    "topic": "AI教育政策",
+    "title": "2026年AI教育政策密集落地",
     "level": "L4",
     "depth": "前沿层",
-    "angle": "AI智能体重构教学全流程产品设计剖析",
-    "keywords_snippet": "钉钉悟空 AI智能体 教学全流程",
-    "date": "2026-05-29"
-  },
-  {
-    "topic": "企业培训 AI培训",
-    "title": "2026企业AI培训转型从全员学工具到AI垂直领域深度融合",
-    "level": "L1",
-    "depth": "概念层",
-    "angle": "企业培训行业转型趋势全景扫描",
-    "keywords_snippet": "企业AI培训 AI+供应链 AI+营销 场景化培训",
-    "date": "2026-05-29"
-  },
-  {
-    "topic": "AI学习机 家教",
-    "title": "2026 AI学习机四大品牌实测学而思讯飞小猿希沃对比",
-    "level": "L4",
-    "depth": "前沿层",
-    "angle": "产品选购指南和掌握学习理论分析",
-    "keywords_snippet": "AI学习机 学而思X5 科大讯飞T30 小猿T6 希沃W20",
-    "date": "2026-05-29"
-  },
-  {
-    "topic": "猿编程 青少年编程 AI教育",
-    "title": "猿创未来AI教育平台接入国家平台青少年编程教育进入国家队时代",
-    "level": "L1",
-    "depth": "概念层",
-    "angle": "国家平台接入对教育公平的深层影响",
-    "keywords_snippet": "猿创未来 猿编程 国家智慧教育平台 AI编程教育",
-    "date": "2026-05-29"
+    "angle": "五部门行动计划+四部门数字素养要点，系统推进AI教育",
+    "keywords_snippet": "人工智能+教育行动计划 数字素养工作要点 教师AI素养"
   },
   {
     "module": "13",
-    "date": "2026-05-31",
-    "topic": "AI英语写作批改",
-    "title": "AI英语写作批改：从批改慢到秒级反馈的教育革命",
+    "date": "2026-06-10",
+    "topic": "教师AI应用",
+    "title": "中国教师生成式AI应用报告2026",
     "level": "L1",
     "depth": "概念层",
-    "angle": "写作批改场景+教育原理",
-    "keywords_snippet": "AI写作批改,英语写作,即时反馈"
+    "angle": "92.3%教师已用AI，深度应用仅18%",
+    "keywords_snippet": "教师AI应用报告 生成式AI 教师AI素养 教学能力"
   },
   {
     "module": "13",
-    "date": "2026-05-31",
-    "topic": "AI辅助语文教学",
-    "title": "AI辅助语文教学：从备课到课堂的智能升级",
-    "level": "L1",
-    "depth": "概念层",
-    "angle": "语文备课+课堂互动",
-    "keywords_snippet": "AI语文教学,备课,课件生成"
-  },
-  {
-    "module": "13",
-    "date": "2026-05-31",
-    "topic": "AI语文作文批改",
-    "title": "AI语文作文批改：笔神批改如何让教师减负80%",
-    "level": "L1",
-    "depth": "概念层",
-    "angle": "作文批改场景+教育原理",
-    "keywords_snippet": "AI作文批改,笔神,语文教学"
-  },
-  {
-    "module": "13",
-    "date": "2026-05-31",
-    "topic": "AI个性化英语学习",
-    "title": "AI个性化英语学习路径：自适应系统如何规划你的进阶路线",
-    "level": "L1",
-    "depth": "概念层",
-    "angle": "个性化学习路径+教育原理",
-    "keywords_snippet": "AI学习路径,自适应学习,个性化"
-  },
-  {
-    "module": "13",
-    "date": "2026-05-31",
-    "topic": "AI英语阅读词汇",
-    "title": "AI英语阅读与词汇扩展：智能化语言输入新范式",
-    "level": "L1",
-    "depth": "概念层",
-    "angle": "阅读辅助+词汇扩展",
-    "keywords_snippet": "AI英语阅读,词汇扩展,语境化记忆"
-  },
-  {
-    "module": "13",
-    "date": "2026-05-31",
-    "topic": "AI文科教学",
-    "title": "AI文科教学：历史地理政治的智能化课堂实践",
-    "level": "L1",
-    "depth": "概念层",
-    "angle": "文科教学+可视化",
-    "keywords_snippet": "AI文科教学,历史,地理,政治"
-  },
-  {
-    "module": "13",
-    "date": "2026-06-01",
-    "topic": "AI自习室与中高考备考",
-    "title": "AI智能自习室：中高考冲刺期的个性化学习新方案",
-    "level": "L3",
-    "depth": "实践层",
-    "angle": "AI自习室线下场景的中高考备考方案，结合学习科学原理分析",
-    "keywords_snippet": "AI自习室 中高考 备考 个性化学习"
-  },
-  {
-    "module": "13",
-    "date": "2026-06-01",
-    "topic": "AI理科辅导",
-    "title": "AI理科辅导：从解题工具到学习伙伴的进化之路",
+    "date": "2026-06-10",
+    "topic": "AI教学工具",
+    "title": "2026年教师AI工具实测",
     "level": "L2",
     "depth": "技术层",
-    "angle": "AI分步推理工具的数理辅导方案，结合生成效应和脚手架理论分析",
-    "keywords_snippet": "LearnFast AI Solvify AI 理科辅导 分步推理"
+    "angle": "秘塔AI备课+科大讯飞批改+好未来学情分析",
+    "keywords_snippet": "AI教学工具 秘塔AI 作文批改 学情分析 教师减负"
   },
   {
     "module": "13",
-    "date": "2026-06-01",
-    "topic": "AI高考助考",
-    "title": "华为小艺AI高考伴考：从冲刺备考到志愿填报的全流程智能服务",
-    "level": "L3",
-    "depth": "实践层",
-    "angle": "华为小艺AI高考频道全流程服务，从备考到志愿填报，结合学习科学分析",
-    "keywords_snippet": "华为小艺 AI高考 备考 志愿填报"
+    "date": "2026-06-10",
+    "topic": "AI学习诊断",
+    "title": "AI学习诊断与个性化路径",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "知识图谱+自适应测试，精准定位薄弱点",
+    "keywords_snippet": "AI学习诊断 知识图谱 自适应测试 个性化学习路径"
   },
   {
     "module": "13",
-    "date": "2026-06-01",
-    "topic": "AI艺术教育",
-    "title": "AI赋能艺术课堂：从被动欣赏到主动创作的美育新范式",
-    "level": "L3",
-    "depth": "实践层",
-    "angle": "AI音乐和美术创作工具在课堂中的美育应用，结合创作驱动学习理论分析",
-    "keywords_snippet": "Suno AI音乐 丹青识画 AI美术 美育 艺术教育"
+    "date": "2026-06-10",
+    "topic": "AI教育未来思考",
+    "title": "施一公人民日报撰文",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "AI时代教育的核心是培养独立思考、跨学科思维、提出好问题的能力",
+    "keywords_snippet": "施一公 人民日报 AI时代 教育何为 独立思考 跨学科"
+  },
+  {
+    "module": "13",
+    "date": "2026-06-10",
+    "topic": "AI自学路径",
+    "title": "AI自学路线图2026",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "零基础到实战高手的12个月通关计划，分4阶段推进",
+    "keywords_snippet": "AI自学路线图 零基础 12个月 项目式学习 Prompt工程"
+  },
+  {
+    "module": "13",
+    "date": "2026-06-10",
+    "topic": "AI教育产品",
+    "title": "2026年AI教育产品全景",
+    "level": "L4",
+    "depth": "前沿层",
+    "angle": "个性化学习+智能测评+虚拟教师三大赛道，全球市场600亿美元",
+    "keywords_snippet": "AI教育产品 个性化学习 智能测评 虚拟教师 HolonIQ"
   }
 ]
