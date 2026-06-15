@@ -28,7 +28,7 @@
 |------|------|
 | **输出文件** | `news/{YYYYMM}/{YYYYMMDD}/10_GitHubSkills.md` |
 | **新闻条数** | 3-5 条 |
-| **搜索时段** | `{DATE-30} 07:00 ~ {DATE} 07:00`（30天） |
+| **搜索时段** | `{DATE-7} 07:00 ~ {DATE} 07:00`（**7天**） |
 
 ---
 
@@ -47,79 +47,79 @@
 ### P0 AI与Agent工具/AI编程（优先覆盖，3-4条）
 
 **▸ MCP生态与Agent框架**：
-- `"GitHub Trending AI Agent 框架 MCP 开源 {DATE-30}至{DATE}"`
-- `"开源 Agent 框架 LangGraph AutoGen CrewAI 更新 {DATE-30}至{DATE}"`
-- `"MCP server client 开源 项目 生态 工具 {DATE-30}至{DATE}"`
+- `"GitHub Trending AI Agent 框架 MCP 开源 {DATE-7}至{DATE}"`
+- `"开源 Agent 框架 LangGraph AutoGen CrewAI 更新 {DATE-7}至{DATE}"`
+- `"MCP server client 开源 项目 生态 工具 {DATE-7}至{DATE}"`
 
 **▸ 大模型推理与部署**：
-- `"大模型 推理 部署 vLLM Ollama llama.cpp 开源 {DATE-30}至{DATE}"`
-- `"模型 微调 fine-tuning LoRA 工具 开源 项目 {DATE-30}至{DATE}"`
+- `"大模型 推理 部署 vLLM Ollama llama.cpp 开源 {DATE-7}至{DATE}"`
+- `"模型 微调 fine-tuning LoRA 工具 开源 项目 {DATE-7}至{DATE}"`
 
 **▸ AI编程工具**：
-- `"AI 编程 助手 IDE 插件 开源 项目 {DATE-30}至{DATE}"`
-- `"AI 代码 审查 重构 生成 测试 开源 工具 {DATE-30}至{DATE}"`
+- `"AI 编程 助手 IDE 插件 开源 项目 {DATE-7}至{DATE}"`
+- `"AI 代码 审查 重构 生成 测试 开源 工具 {DATE-7}至{DATE}"`
 
 **▸ AI应用与产品**：
-- `"开源 AI 应用 产品 ChatBot RAG 知识库 项目 {DATE-30}至{DATE}"`
-- `"AI 设计 图像 视频 生成 开源 工具 前端 {DATE-30}至{DATE}"`
+- `"开源 AI 应用 产品 ChatBot RAG 知识库 项目 {DATE-7}至{DATE}"`
+- `"AI 设计 图像 视频 生成 开源 工具 前端 {DATE-7}至{DATE}"`
 
 ### P1 开发者效率工具（覆盖，2-3条）
 
 **▸ 命令行与终端**：
-- `"GitHub Trending 命令行 CLI 终端 工具 开源 {DATE-30}至{DATE}"`
-- `"GitHub Trending 开发 效率 工具 热门 项目 {DATE-30}至{DATE}"`
+- `"GitHub Trending 命令行 CLI 终端 工具 开源 {DATE-7}至{DATE}"`
+- `"GitHub Trending 开发 效率 工具 热门 项目 {DATE-7}至{DATE}"`
 
 **▸ 文档与笔记**：
-- `"开源 文档 工具 笔记 知识库 Wiki 项目 {DATE-30}至{DATE}"`
+- `"开源 文档 工具 笔记 知识库 Wiki 项目 {DATE-7}至{DATE}"`
 
 **▸ API与数据工具**：
-- `"API 调试 测试 数据库 可视化 开源 工具 {DATE-30}至{DATE}"`
+- `"API 调试 测试 数据库 可视化 开源 工具 {DATE-7}至{DATE}"`
 
 **▸ Git与代码管理**：
-- `"Git 工具 代码 审查 diff 管理 开源 项目 {DATE-30}至{DATE}"`
+- `"Git 工具 代码 审查 diff 管理 开源 项目 {DATE-7}至{DATE}"`
 
 **▸ DevOps与CI/CD**：
-- `"CI CD DevOps 自动化 部署 开源 工具 热门 {DATE-30}至{DATE}"`
+- `"CI CD DevOps 自动化 部署 开源 工具 热门 {DATE-7}至{DATE}"`
 
 ### P2 后端与基础设施（覆盖，1-2条）
 
 **▸ 后端框架与API**：
-- `"后端 框架 API 网关 微服务 开源 新 项目 {DATE-30}至{DATE}"`
+- `"后端 框架 API 网关 微服务 开源 新 项目 {DATE-7}至{DATE}"`
 
 **▸ 数据库与存储**：
-- `"数据库 开源 新 项目 向量 时序 图 数据库 {DATE-30}至{DATE}"`
+- `"数据库 开源 新 项目 向量 时序 图 数据库 {DATE-7}至{DATE}"`
 
 **▸ 云原生与Kubernetes**：
-- `"Kubernetes 云原生 容器 工具 开源 新 项目 {DATE-30}至{DATE}"`
+- `"Kubernetes 云原生 容器 工具 开源 新 项目 {DATE-7}至{DATE}"`
 
 **▸ 消息队列与事件驱动**：
-- `"消息 队列 事件 驱动 流 处理 开源 工具 {DATE-30}至{DATE}"`
+- `"消息 队列 事件 驱动 流 处理 开源 工具 {DATE-7}至{DATE}"`
 
 **▸ 安全与网络**：
-- `"安全 扫描 漏洞 检测 网络 代理 VPN 开源 工具 {DATE-30}至{DATE}"`
+- `"安全 扫描 漏洞 检测 网络 代理 VPN 开源 工具 {DATE-7}至{DATE}"`
 
 **▸ 监控与可观测性**：
-- `"监控 日志 追踪 可观测 性 开源 工具 项目 {DATE-30}至{DATE}"`
+- `"监控 日志 追踪 可观测 性 开源 工具 项目 {DATE-7}至{DATE}"`
 
 ### P3 前端与UI（可选，1-2条）
 
 **▸ 前端框架与工具**：
-- `"前端 框架 工具 构建 工程 化 开源 热门 {DATE-30}至{DATE}"`
-- `"React Vue Svelte 生态 组件 库 工具 开源 新 项目 {DATE-30}至{DATE}"`
+- `"前端 框架 工具 构建 工程 化 开源 热门 {DATE-7}至{DATE}"`
+- `"React Vue Svelte 生态 组件 库 工具 开源 新 项目 {DATE-7}至{DATE}"`
 
 **▸ UI与设计**：
-- `"UI 组件 库 CSS 框架 设计 系统 开源 项目 {DATE-30}至{DATE}"`
-- `"数据 可视化 图表 库 大屏 开源 工具 项目 {DATE-30}至{DATE}"`
+- `"UI 组件 库 CSS 框架 设计 系统 开源 项目 {DATE-7}至{DATE}"`
+- `"数据 可视化 图表 库 大屏 开源 工具 项目 {DATE-7}至{DATE}"`
 
 ### P4 移动端/跨平台/综合（可选，0-1条）
 
 **▸ 移动端开发**：
-- `"移动 端 iOS Android 开源 库 框架 工具 热门 {DATE-30}至{DATE}"`
-- `"跨平台 Flutter React Native 开源 项目 工具 推荐 {DATE-30}至{DATE}"`
+- `"移动 端 iOS Android 开源 库 框架 工具 热门 {DATE-7}至{DATE}"`
+- `"跨平台 Flutter React Native 开源 项目 工具 推荐 {DATE-7}至{DATE}"`
 
 **▸ 月度精选与趋势**：
-- `"GitHub Trending 月度 精选 推荐 开源 项目 {DATE-30}至{DATE}"`
-- `"GitHub Star 飙升 新兴 语言 框架 开源 项目 {DATE-30}至{DATE}"`
+- `"GitHub Trending 月度 精选 推荐 开源 项目 {DATE-7}至{DATE}"`
+- `"GitHub Star 飙升 新兴 语言 框架 开源 项目 {DATE-7}至{DATE}"`
 
 ---
 
