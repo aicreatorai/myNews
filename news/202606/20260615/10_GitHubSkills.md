@@ -1,10 +1,13 @@
 # GitHubSkills
 
-> 搜索时段：2026-06-08 ~ 2026-06-15 | 编辑时间：2026-06-15
+> **生成日期**：2026-06-15 | **搜索时段**：2026-06-08 ~ 2026-06-15
+> **总条数**：5 条
 
 ---
 
 ### 1. 【Headroom：AI Agent 的上下文压缩层，Token 消耗直降 60-95%】
+
+> 📍 **导语**（120字）：使用 Claude Code、Cursor、Codex 等 AI 编程 Agent 的开发者都有一个共同的痛苦——Token 消耗太快了。每次 Agent 读取大量文件内容时，Token 消耗惊人。Headroom 定位为 "AI Agent 上下文压缩层"，能在保持 97% 精度的前提下节省 60-95% 的 Token。
 
 **⭐⭐ GitHub Stars：17,000+ | 仓库：chopratejas/headroom**
 
@@ -77,11 +80,13 @@ headroom stats
 
 Headroom 的优势在于它是目前唯一专为 AI Agent 设计的上下文压缩层工具，且支持主流的 Claude Code、Codex、Cursor 等全部 Agent 工具。同类工具中，传统方案如 `grep` + 手动筛选效率太低，而 Headroom 将压缩变成了 Agent 工作流中的一个透明中间层。
 
-> **参考来源**：[chopratejas/headroom - GitHub](https://github.com/chopratejas/headroom) | Star 数：17,000+ | 掘金技术社区深度拆解文章
+🔗 **信息来源：** [chopratejas/headroom - GitHub](https://github.com/chopratejas/headroom) | Star 数：17,000+ | 掘金技术社区深度拆解文章
 
 ---
 
 ### 2. 【Hermes Agent：开源自进化 AI 智能体，15 万 Star 的现象级项目】
+
+> 📍 **导语**（120字）：大多数 AI Agent 都是"一次性"的——每次对话开始时都是"白纸一张"。Hermes Agent 通过自进化机制、三层记忆系统和自动技能创建，让 Agent 在使用过程中变得越来越聪明。半个月 150,000+ Star，堪称 2026 年最现象级的开源 AI 项目。
 
 **⭐⭐ GitHub Stars：150,000+ | 仓库：NousResearch/hermes-agent**
 
@@ -163,11 +168,13 @@ agent:
 
 Hermes Agent 在自进化和持久记忆方面独树一帜，是目前唯一真正实现"越用越聪明"的开源 Agent 框架。相比之下，AutoGPT 虽然 Star 数更高但项目活跃度下降，LangChain Agent 更适合作为构建框架而非开箱即用的 Agent，CrewAI 则专注于多 Agent 协作场景。
 
-> **参考来源**：[NousResearch/hermes-agent - GitHub](https://github.com/nousresearch/hermes-agent) | Star 数：150,000+ | CSDN 实战深度评测 | 掘金技术解析
+🔗 **信息来源：** [NousResearch/hermes-agent - GitHub](https://github.com/nousresearch/hermes-agent) | Star 数：150,000+ | CSDN 实战深度评测 | 掘金技术解析
 
 ---
 
 ### 3. 【Ollama v0.30.0 正式发布：本地大模型运行的新里程碑】
+
+> 📍 **导语**（120字）：Ollama 自诞生以来就致力于解决"让本地大模型像使用 Docker 一样简单"的问题。v0.30.0 版本带来底层引擎重构、MLX 快照功能等重大升级，在 Apple Silicon 上推理速度提升 20-30%，是 2026 年本地推理领域最重要的版本更新之一。
 
 **⭐⭐ GitHub Stars：200,000+ | 仓库：ollama/ollama**
 
@@ -268,11 +275,13 @@ print(response.choices[0].message.content)
 
 Ollama 的优势在于极低的使用门槛和优秀的模型管理体验，适合个人开发者和小团队快速搭建本地推理环境。vLLM 更适合大规模生产部署（高并发场景），llama.cpp 更适合需要极致性能和最广泛硬件支持的场景。
 
-> **参考来源**：[ollama/ollama - GitHub](https://github.com/ollama/ollama) | Star 数：200,000+ | v0.30.0 Release Notes（2026-06-02） | 腾讯云开发者社区评测
+🔗 **信息来源：** [ollama/ollama - GitHub](https://github.com/ollama/ollama) | Star 数：200,000+ | v0.30.0 Release Notes（2026-06-02） | 腾讯云开发者社区评测
 
 ---
 
 ### 4. 【Microsoft MarkItDown：LLM 时代的万能文档转换器，137K Star】
+
+> 📍 **导语**（120字）：在使用 AI 处理文档时，最大的障碍是格式不兼容。MarkItDown 是微软 AutoGen 团队开源的轻量级 Python 工具，能将 20+ 种文件格式一键转换为 LLM 能"天然理解"的 Markdown 文本，是 AI 时代最受欢迎的文档预处理工具之一。
 
 **⭐⭐ GitHub Stars：137,000+ | 仓库：microsoft/markitdown**
 
@@ -388,11 +397,13 @@ response = llm.invoke(f"请总结以下合同要点：\n\n{result.text_content}"
 
 MarkItDown 的优势在于微软官方维护、格式支持最广泛、输出为纯 Markdown 最有利于 LLM 处理，且 MIT 许可证没有任何使用限制。对于需要批量处理多种格式文档的 AI 应用开发者来说，MarkItDown 是目前最佳的选择。
 
-> **参考来源**：[microsoft/markitdown - GitHub](https://github.com/microsoft/markitdown) | Star 数：137,000+ | 知乎技术评测（2026-04-16） | 腾讯云开发者社区教程
+🔗 **信息来源：** [microsoft/markitdown - GitHub](https://github.com/microsoft/markitdown) | Star 数：137,000+ | 知乎技术评测（2026-04-16） | 腾讯云开发者社区教程
 
 ---
 
 ### 5. 【vLLM v0.23.0：大模型推理引擎的全面进化】
+
+> 📍 **导语**（120字）：大模型部署到生产环境时，推理效率是最大的瓶颈。vLLM 凭借创新的 PagedAttention 算法，将显存利用率从 40-60% 提升到 95% 以上。v0.23.0 版本引入 FlashInfer 采样器、流水线并行气泡消除等重大改进，是生产级推理部署的首选方案。
 
 **⭐⭐ GitHub Stars：45,000+ | 仓库：vllm-project/vllm**
 
@@ -502,7 +513,7 @@ curl http://localhost:8000/metrics
 
 vLLM 是目前大模型生产部署的事实标准。与 TGI 相比，vLLM 的吞吐量高出 2-3 倍；与 TensorRT-LLM 相比，vLLM 的模型兼容性更广且部署更简单；与 llama.cpp 相比，vLLM 更适合高并发 GPU 服务场景。v0.23.0 版本进一步巩固了其在大模型推理引擎领域的领先地位。
 
-> **参考来源**：[vllm-project/vllm - GitHub](https://github.com/vllm-project/vllm) | Star 数：45,000+ | v0.23.0 Release Notes（2026-06-12） | NVIDIA vLLM 文档
+🔗 **信息来源：** [vllm-project/vllm - GitHub](https://github.com/vllm-project/vllm) | Star 数：45,000+ | v0.23.0 Release Notes（2026-06-12） | NVIDIA vLLM 文档
 
 ---
 
