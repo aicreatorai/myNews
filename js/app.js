@@ -6,7 +6,7 @@
     'use strict';
 
     // --- 缓存版本号：修改此值会使所有 localStorage 缓存失效 ---
-    const CACHE_VERSION = 'v8';
+    const CACHE_VERSION = 'v9';
 
     // --- State ---
     let indexData = null;
@@ -351,7 +351,7 @@
                 url = `news/${path}`;
             }
 
-            const resp = await fetch(url);
+            const resp = await fetch(url + '?cb=' + CACHE_VERSION);
             if (!resp.ok) throw new Error(`HTTP ${resp.status}: ${url}`);
             const markdown = await resp.text();
 
@@ -511,7 +511,7 @@
 
         try {
             const url = `news/${basePath}/${catFile}`;
-            const resp = await fetch(url);
+            const resp = await fetch(url + '?cb=' + CACHE_VERSION);
             if (!resp.ok) throw new Error(`HTTP ${resp.status}`);
             const markdown = await resp.text();
             const html = renderMarkdown(markdown);
