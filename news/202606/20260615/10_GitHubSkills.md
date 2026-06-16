@@ -4,7 +4,7 @@
 
 ---
 
-## 1. Headroom：AI Agent 的上下文压缩层，Token 消耗直降 60-95%
+### 1. 【Headroom：AI Agent 的上下文压缩层，Token 消耗直降 60-95%】
 
 **⭐⭐ GitHub Stars：17,000+ | 仓库：chopratejas/headroom**
 
@@ -81,7 +81,7 @@ Headroom 的优势在于它是目前唯一专为 AI Agent 设计的上下文压�
 
 ---
 
-## 2. Hermes Agent：开源自进化 AI 智能体，15 万 Star 的现象级项目
+### 2. 【Hermes Agent：开源自进化 AI 智能体，15 万 Star 的现象级项目】
 
 **⭐⭐ GitHub Stars：150,000+ | 仓库：NousResearch/hermes-agent**
 
@@ -167,7 +167,7 @@ Hermes Agent 在自进化和持久记忆方面独树一帜，是目前唯一真�
 
 ---
 
-## 3. Ollama v0.30.0 正式发布：本地大模型运行的新里程碑
+### 3. 【Ollama v0.30.0 正式发布：本地大模型运行的新里程碑】
 
 **⭐⭐ GitHub Stars：200,000+ | 仓库：ollama/ollama**
 
@@ -272,7 +272,7 @@ Ollama 的优势在于极低的使用门槛和优秀的模型管理体验，适�
 
 ---
 
-## 4. Microsoft MarkItDown：LLM 时代的万能文档转换器，137K Star
+### 4. 【Microsoft MarkItDown：LLM 时代的万能文档转换器，137K Star】
 
 **⭐⭐ GitHub Stars：137,000+ | 仓库：microsoft/markitdown**
 
@@ -392,7 +392,7 @@ MarkItDown 的优势在于微软官方维护、格式支持最广泛、输出为
 
 ---
 
-## 5. vLLM v0.23.0：大模型推理引擎的全面进化
+### 5. 【vLLM v0.23.0：大模型推理引擎的全面进化】
 
 **⭐⭐ GitHub Stars：45,000+ | 仓库：vllm-project/vllm**
 
