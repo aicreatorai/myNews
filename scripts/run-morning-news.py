@@ -377,6 +377,39 @@ def verify_files(date_params):
     if fixed_count > 0:
         print(f"\n  ✅ 标题格式修正: 共修复 {fixed_count} 个文件")
 
+    # ─── 逐条标题去重检测（新增） ───
+    step("逐条标题去重检测")
+    title_dup_count = 0
+    for f in sorted(files):
+        if not f.endswith('.md') or f.startswith('_'):
+            continue
+        fpath = os.path.join(out_dir, f)
+        content = open(fpath, 'r', encoding='utf-8').read()
+        mod_id = re.match(r'^(\d+)', f)
+        mod_num = mod_id.group(1) if mod_id else '00'
+        
+        # 提取所有标题
+        headings = re.findall(r'###\s+\d+\.\s*(?:\[.*?\]\s*)?(.*?)(?:\n|$)', content)
+        for h in headings:
+            h_clean = h.strip()
+            if len(h_clean) < 5:
+                continue
+            # 调用 check-dedup 检测每一条
+            result = subprocess.run(
+                ["python3", os.path.join(SCRIPTS_DIR, "check-dedup.py"), "check", h_clean, mod_num],
+                cwd=BASE_DIR, capture_output=True, text=True, timeout=15)
+            if '🔴' in result.stdout:
+                title_dup_count += 1
+                print(f"  🔴 [{mod_num}] {h_clean[:60]}...")
+                print(f"     {result.stdout.strip().split(chr(10))[0]}")
+    
+    if title_dup_count > 0:
+        print(f"\n  ⚠️ 检测到 {title_dup_count} 条跨日重复标题")
+        print(f"  建议：下次生成前使用 pre_gen_context.py 生成上下文文件")
+    else:
+        print(f"  ✅ 逐条标题去重检测通过，无跨日重复")
+    # ─── 逐条标题去重检测结束 ───
+
     # 检查具体哪些缺失
     expected_ids = set()
     for batch in AGENTS_CONFIG.values():
@@ -548,6 +581,20 @@ def main():
 
     # 步骤2: 清理缓存
     clean_search_cache()
+
+    # 步骤2.5: 生成上下文文件（Agent写作前必读，防跨日重复）
+    step("生成前上下文文件（防重复）")
+    ctx_result = subprocess.run(
+        ["python3", os.path.join(SCRIPTS_DIR, "pre_gen_context.py"), date_str, "-d", "5"],
+        cwd=BASE_DIR, capture_output=True, text=True)
+    if ctx_result.stdout.strip():
+        print(f"  {ctx_result.stdout.strip()}")
+    if ctx_result.stderr.strip():
+        print(f"  ⚠️ {ctx_result.stderr.strip()}")
+    ctx_file = os.path.join(NEWS_DIR, date_params["YYYYMM"], date_params["YYYYMMDD"], "_PRE_GEN_CONTEXT.md")
+    if os.path.exists(ctx_file):
+        print(f"  📄 上下文文件: {ctx_file}")
+        print(f"  📖 Agent启动后请先阅读此文件，避免选题重复！")
 
     # 步骤3: 生成Agent提示
     generate_batch_prompts(date_params)

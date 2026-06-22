@@ -116,7 +116,7 @@ def normalize_title(title: str) -> str:
     t = re.sub(r'（[^）]*）', '', t)
     t = re.sub(r'\([^)]*\)', '', t)
     t = re.sub(r'[：:].*$', '', t)
-    t = re.sub(r'[，。！？、；：""''【】《》\s]', '', t)
+    t = re.sub(r'[，。！？、；：""''【】《》\\s]', '', t)
     return t.strip()
 
 
