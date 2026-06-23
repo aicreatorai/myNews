@@ -108,5 +108,55 @@
     "depth": "实践层",
     "angle": "AI辅助备课工作流与学习科学原理",
     "keywords_snippet": "AI备课 分层练习 认知卸载 最近发展区 脚手架"
+  },
+  {
+    "module": "13",
+    "date": "2026-06-23",
+    "topic": "AI写作教学",
+    "title": "AI写作教学的过程性指导：超越批改的认知支架设计",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "认知心理学视角，过程性指导vs结果性批改",
+    "keywords_snippet": "认知支架，维果茨基最近发展区，Hayes&Flower写作模型，笔神作文批改，题小小AI写作伙伴"
+  },
+  {
+    "module": "13",
+    "date": "2026-06-23",
+    "topic": "AI赋能高校课程",
+    "title": "复旦大学AI-BEST课程矩阵：AI时代的大学课程设计新范式",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "高校课程体系重构，AI-BEST四层矩阵",
+    "keywords_snippet": "复旦大学，AI-BEST课程矩阵，AI3A共创平台，X+AI双学位，Bloom认知分类学"
+  },
+  {
+    "module": "13",
+    "date": "2026-06-23",
+    "topic": "职业教育AI应用",
+    "title": "职业院校AI应用：产教融合中的技能重构与认知转型",
+    "level": "L2",
+    "depth": "初级层",
+    "angle": "职业教育产教融合，AI具身课程，能力颗粒化",
+    "keywords_snippet": "职业教育，产教融合，AI具身课程，DACUM分析，认知学徒制，五大人机协同能力"
+  },
+  {
+    "module": "13",
+    "date": "2026-06-23",
+    "topic": "AI教育国际治理",
+    "title": "OECD《2026数字教育展望》：AI教育的认知卸载风险与治理转向",
+    "level": "L3",
+    "depth": "进阶层",
+    "angle": "OECD报告解读，认知卸载风险，国际政策比较",
+    "keywords_snippet": "OECD，数字教育展望，认知卸载，元认知惰性，合意困难，苏格拉底辅导，土耳其对照实验"
+  },
+  {
+    "module": "13",
+    "date": "2026-06-23",
+    "topic": "AI虚拟仿真STEM",
+    "title": "AI虚拟仿真实验：具身认知视角下的STEM教育新范式",
+    "level": "L4",
+    "depth": "深度层",
+    "angle": "具身认知理论，虚拟仿真实验，虚实融合教学",
+    "keywords_snippet": "虚拟仿真，具身认知，NOBOOK，生成性学习，认知负荷，双重编码，STEM教育"
   }
 ]

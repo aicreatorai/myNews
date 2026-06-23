@@ -798,5 +798,75 @@
     "depth": "实践层",
     "angle": "架构决策",
     "keywords_snippet": "Agent架构 编排器 多Agent 协作"
+  },
+  {
+    "module": "07",
+    "date": "2026-06-23",
+    "topic": "T4 推理优化",
+    "title": "SubQ动态稀疏注意力：突破Transformer二次复杂度，56倍加速与12M上下文",
+    "level": "L2",
+    "depth": "算法原理层",
+    "angle": "动态稀疏注意力突破二次复杂度瓶颈",
+    "keywords_snippet": "稀疏注意力, SubQ, 二次复杂度, 12M上下文, 56倍加速"
+  },
+  {
+    "module": "07",
+    "date": "2026-06-23",
+    "topic": "T4 推理优化",
+    "title": "投机解码2026：从单模型预测到多级级联的推理加速体系",
+    "level": "L2",
+    "depth": "算法原理层",
+    "angle": "投机解码的技术演进与多级级联方案",
+    "keywords_snippet": "投机解码, EAGLE-3, P-EAGLE, DFlash, 多级级联, 接受率优化"
+  },
+  {
+    "module": "07",
+    "date": "2026-06-23",
+    "topic": "T4 推理优化",
+    "title": "推理加速工程2026：投机解码、连续批处理与KV压缩的系统级协同",
+    "level": "L3",
+    "depth": "工程实践层",
+    "angle": "四项推理加速技术的系统级协同与工程调优",
+    "keywords_snippet": "PagedAttention, Continuous Batching, KV Cache量化, 推理引擎, 系统级优化"
+  },
+  {
+    "module": "07",
+    "date": "2026-06-23",
+    "topic": "T4 推理优化",
+    "title": "LLM量化技术2026选型地图：GPTQ、AWQ与FP8的实战决策",
+    "level": "L3",
+    "depth": "工程实践层",
+    "angle": "量化方案选型对比与决策树",
+    "keywords_snippet": "GPTQ, AWQ, SmoothQuant, FP8, KV Cache量化, 精度损失, 选型决策"
+  },
+  {
+    "module": "07",
+    "date": "2026-06-23",
+    "topic": "T8 多模态融合",
+    "title": "多模态大模型工作原理：从视觉编码到文本生成的完整链路",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "多模态MLLM基础架构原理",
+    "keywords_snippet": "视觉编码器,连接器,LLM,ViT,SigLIP,CLIP,多模态对齐"
+  },
+  {
+    "module": "07",
+    "date": "2026-06-23",
+    "topic": "T8 多模态融合",
+    "title": "原生多模态vs拼接式：三代架构演进与2026年范式转移",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "多模态架构三代演进对比",
+    "keywords_snippet": "拼接式,指令微调,原生统一,LLaVA,GPT-4o,Gemini,架构演进,范式转移"
+  },
+  {
+    "module": "07",
+    "date": "2026-06-23",
+    "topic": "T8 多模态融合",
+    "title": "2026多模态融合前沿：原生统一训练、动态分辨率与视觉幻觉抑制",
+    "level": "L4",
+    "depth": "前沿层",
+    "angle": "2026年多模态融合最新前沿突破",
+    "keywords_snippet": "原生预训练,动态分辨率,Pixel Shuffle,V2PE,幻觉抑制,Activation Steering,VisualPRM,InternVL3,Gemini 3"
   }
 ]

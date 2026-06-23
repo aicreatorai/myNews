@@ -698,5 +698,45 @@
     "depth": "实践层",
     "angle": "深度评测与实战验证",
     "keywords_snippet": "Midjourney V7,Draft Mode,Omni Reference,角色一致性,文本渲染"
+  },
+  {
+    "module": "08",
+    "date": "2026-06-23",
+    "topic": "AI PPT工具",
+    "title": "AI PPT工具横评：Gamma、Canva、讯飞智文、iSlide，5分钟生成专业演示文稿",
+    "level": "LX",
+    "depth": "实战教程",
+    "angle": "横评选型",
+    "keywords_snippet": "Gamma Canva 讯飞智文 iSlide PPT"
+  },
+  {
+    "module": "08",
+    "date": "2026-06-23",
+    "topic": "AI浏览器",
+    "title": "AI浏览器横评：Comet、Atlas、夸克、豆包，谁才是效率首选",
+    "level": "LX",
+    "depth": "横评选型",
+    "angle": "国际+国产对比",
+    "keywords_snippet": "Comet Atlas 夸克 豆包 浏览器 Agent"
+  },
+  {
+    "module": "08",
+    "date": "2026-06-23",
+    "topic": "Notion AI Obsidian",
+    "title": "Notion AI+Obsidian双轨工作流：打造AI驱动的个人知识体系",
+    "level": "LX",
+    "depth": "工作流实战",
+    "angle": "双轨协作+知识管理",
+    "keywords_snippet": "Notion AI Obsidian 第二大脑 知识管理 插件"
+  },
+  {
+    "module": "08",
+    "date": "2026-06-23",
+    "topic": "国产AI工具",
+    "title": "国产AI工具矩阵2026年6月：豆包、通义千问、文心一言、Kimi、DeepSeek的实战分工指南",
+    "level": "LX",
+    "depth": "选型对比",
+    "angle": "场景化分工+国产工具",
+    "keywords_snippet": "豆包 通义千问 文心一言 Kimi DeepSeek 国产大模型 场景分工"
   }
 ]

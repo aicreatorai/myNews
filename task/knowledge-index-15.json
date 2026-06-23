@@ -698,5 +698,55 @@
     "depth": "方法论层",
     "angle": "认知科学",
     "keywords_snippet": "界面暗效应,UI布局,信任操控,批判性思考,位置权威效应"
+  },
+  {
+    "module": "15",
+    "date": "2026-06-23",
+    "topic": "AI产品留存与增长运营",
+    "title": "AI应用留存率：2026年AI产品的生死分水岭",
+    "level": "L3",
+    "depth": "实践层",
+    "angle": "留存数据分析与破局路径",
+    "keywords_snippet": "留存率 MAU 工作流嵌入 情感依赖 ARPU"
+  },
+  {
+    "module": "15",
+    "date": "2026-06-23",
+    "topic": "AI产品工程可靠性设计",
+    "title": "AI应用错误处理工程：让LLM系统在生产环境中优雅降级",
+    "level": "L3",
+    "depth": "实践层",
+    "angle": "错误处理分层架构与降级策略",
+    "keywords_snippet": "错误处理 降级 重试 上下文管理 输出验证 多提供商"
+  },
+  {
+    "module": "15",
+    "date": "2026-06-23",
+    "topic": "AI竞品分析方法与工具",
+    "title": "AI辅助竞品分析：2026年产品经理的效率革命",
+    "level": "L2",
+    "depth": "方法层",
+    "angle": "五步法与多源信息交叉验证",
+    "keywords_snippet": "竞品分析 五步法 官网拆解 评论挖掘 功能对比 机会清单"
+  },
+  {
+    "module": "15",
+    "date": "2026-06-23",
+    "topic": "AI产品验证方法论",
+    "title": "AI产品验证的四种MVP形态：从人工仿制到一日上线的实战演进",
+    "level": "L2",
+    "depth": "方法层",
+    "angle": "四种MVP形态与三天验证法",
+    "keywords_snippet": "MVP 验证 人工MVP 低代码 PromptMVP 三天法 VibeCoding"
+  },
+  {
+    "module": "15",
+    "date": "2026-06-23",
+    "topic": "AI产品文档方法论",
+    "title": "从PRD到AI-PRD：需求文档的范式重置与智能质量闭环",
+    "level": "L2",
+    "depth": "方法层",
+    "angle": "AI辅助PRD生成与质量检查闭环",
+    "keywords_snippet": "PRD 需求文档 AI辅助 质量检查 用户故事 验收标准"
   }
 ]

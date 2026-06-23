@@ -618,5 +618,45 @@
     "depth": "概念层",
     "angle": "多Agent流水线构建交互式代码知识图谱的原理与使用",
     "keywords_snippet": "Understand-Anything, 知识图谱, Claude Code插件, 代码可视化"
+  },
+  {
+    "module": "10",
+    "date": "2026-06-23",
+    "topic": "AI编码效率",
+    "title": "让AI Agent学会偷懒：Ponytail教你像资深工程师一样写代码",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "AI编码效率范式转变",
+    "keywords_snippet": "Ponytail 决策阶梯 代码量减少54% Token降低22% AI Agent行为修正"
+  },
+  {
+    "module": "10",
+    "date": "2026-06-23",
+    "topic": "AI技能安全扫描",
+    "title": "给AI Skills做安检：NVIDIA SkillSpector开源安全扫描器",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "AI Agent安全",
+    "keywords_snippet": "SkillSpector 64种漏洞模式 静态分析 AI Skills安全 26.1%漏洞率"
+  },
+  {
+    "module": "10",
+    "date": "2026-06-23",
+    "topic": "AI文档转PPT",
+    "title": "真正可编辑的AI PPT：PPT Master把任意文档变成原生PowerPoint",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "SVG到DrawingML转换",
+    "keywords_snippet": "PPT Master SVG DrawingML 原生可编辑 PowerPoint 文档转演示文稿"
+  },
+  {
+    "module": "10",
+    "date": "2026-06-23",
+    "topic": "本地AI语音工作室",
+    "title": "本地AI语音工作室：Voicebox一站式替代ElevenLabs+WisprFlow",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "本地语音I/O闭环",
+    "keywords_snippet": "Voicebox TTS STT 语音克隆 MCP Agent 开源 本地 7款引擎"
   }
 ]

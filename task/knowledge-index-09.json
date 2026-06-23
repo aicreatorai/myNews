@@ -548,5 +548,45 @@
     "depth": "实践层",
     "angle": "构建系统性能优化与自托管里程碑",
     "keywords_snippet": "Zig, 构建系统, 增量编译, 自托管编译器, ELF链接器, Configurer, Maker, Andrew Kelley, 0.17.0"
+  },
+  {
+    "module": "09",
+    "date": "2026-06-23",
+    "topic": "Verse",
+    "title": "Epic虚幻引擎6全面转向Verse：事务化并发编程语言重新定义游戏逻辑开发",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "语言设计范式",
+    "keywords_snippet": "Verse, Epic, UE6, 事务化并发, 时序逻辑, 游戏开发"
+  },
+  {
+    "module": "09",
+    "date": "2026-06-23",
+    "topic": "PHP 8.5",
+    "title": "PHP 8.5管道运算符与URI扩展落地：函数式编程风格深度渗透Web开发语言",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "语言特性演进",
+    "keywords_snippet": "PHP 8.5, 管道运算符, URI扩展, 函数式编程, Web开发"
+  },
+  {
+    "module": "09",
+    "date": "2026-06-23",
+    "topic": "C++26 Safe C++",
+    "title": "C++26 Safe C++安全配置与契约编程：系统编程语言的内存安全革命",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "语言安全演进",
+    "keywords_snippet": "C++26, Safe C++, 契约编程, 内存安全, 零开销抽象"
+  },
+  {
+    "module": "09",
+    "date": "2026-06-23",
+    "topic": "Kotlin 2.4.0",
+    "title": "Kotlin 2.4.0语言设计演进：上下文参数、显式支持字段与值类推进安全编码范式",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "语言设计演进",
+    "keywords_snippet": "Kotlin 2.4.0, 上下文参数, 显式支持字段, 值类, K2编译器"
   }
 ]
