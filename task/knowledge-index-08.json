@@ -738,5 +738,45 @@
     "depth": "选型对比",
     "angle": "场景化分工+国产工具",
     "keywords_snippet": "豆包 通义千问 文心一言 Kimi DeepSeek 国产大模型 场景分工"
+  },
+  {
+    "module": "08",
+    "date": "2026-06-24",
+    "topic": "AI搜索工具",
+    "title": "Perplexity AI Pro深度搜索实战：从信息检索到研究报告的全流程工作流",
+    "level": "L3",
+    "depth": "实践",
+    "angle": "实战工作流",
+    "keywords_snippet": "Perplexity AI,Pro Search,Deep Research,Collections,Pages,AI搜索"
+  },
+  {
+    "module": "08",
+    "date": "2026-06-24",
+    "topic": "AI知识管理",
+    "title": "Notion AI实战：把AI嵌入知识管理，打造笔记工作流的智能增强系统",
+    "level": "L2",
+    "depth": "技术",
+    "angle": "工作流集成",
+    "keywords_snippet": "Notion AI,Ask,Write,Build,Custom Agents,知识管理"
+  },
+  {
+    "module": "08",
+    "date": "2026-06-24",
+    "topic": "AI视频生成",
+    "title": "Runway Gen-4 AI视频生成实战：从文字脚本到完整视频的创作全流程",
+    "level": "L3",
+    "depth": "实践",
+    "angle": "创作工作流",
+    "keywords_snippet": "Runway Gen-4,Gen-4 Turbo,视频生成,AI视频,叙事一致性"
+  },
+  {
+    "module": "08",
+    "date": "2026-06-24",
+    "topic": "AI编程工具",
+    "title": "通义灵码实战：阿里AI编程助手从代码补全到项目重构的5个高效技巧",
+    "level": "L3",
+    "depth": "实践",
+    "angle": "技巧总结",
+    "keywords_snippet": "通义灵码,阿里云,AI编程,代码生成,单元测试,MCP广场"
   }
 ]

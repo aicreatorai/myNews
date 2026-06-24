@@ -658,5 +658,45 @@
     "depth": "技术层",
     "angle": "本地语音I/O闭环",
     "keywords_snippet": "Voicebox TTS STT 语音克隆 MCP Agent 开源 本地 7款引擎"
+  },
+  {
+    "module": "10",
+    "date": "2026-06-24",
+    "topic": "AI视频生产",
+    "title": "【OpenMontage】首个开源Agentic视频生产系统，将AI编程助手变成完整视频工作室",
+    "level": "L3",
+    "depth": "实践",
+    "angle": "开源工具评测",
+    "keywords_snippet": "OpenMontage,Agentic视频,视频生产,MCP,AI工作室"
+  },
+  {
+    "module": "10",
+    "date": "2026-06-24",
+    "topic": "代码知识图谱",
+    "title": "【codebase-memory-mcp】高性能代码知识图谱MCP服务器，毫秒级代码库索引",
+    "level": "L3",
+    "depth": "技术",
+    "angle": "开源工具评测",
+    "keywords_snippet": "codebase-memory-mcp,代码知识图谱,MCP服务器,代码索引,Agent"
+  },
+  {
+    "module": "10",
+    "date": "2026-06-24",
+    "topic": "Agent配置",
+    "title": "【gstack】YC总裁Garry Tan亲测的Claude Code配置，23个Agent角色开箱即用",
+    "level": "L3",
+    "depth": "实践",
+    "angle": "开源工具评测",
+    "keywords_snippet": "gstack,Garry Tan,Claude Code,Agent角色,YC"
+  },
+  {
+    "module": "10",
+    "date": "2026-06-24",
+    "topic": "AI视频编辑",
+    "title": "【Palmier Pro】专为AI设计的macOS视频编辑器，原生体验+AI工作流",
+    "level": "L3",
+    "depth": "实践",
+    "angle": "开源工具评测",
+    "keywords_snippet": "Palmier Pro,视频编辑器,AI工作流,macOS,Swift"
   }
 ]

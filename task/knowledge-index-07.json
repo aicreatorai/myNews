@@ -868,5 +868,65 @@
     "depth": "前沿层",
     "angle": "2026年多模态融合最新前沿突破",
     "keywords_snippet": "原生预训练,动态分辨率,Pixel Shuffle,V2PE,幻觉抑制,Activation Steering,VisualPRM,InternVL3,Gemini 3"
+  },
+  {
+    "module": "07",
+    "date": "2026-06-24",
+    "topic": "AI安全/对齐",
+    "title": "AI安全原生对齐：大模型价值对齐的三大技术框架",
+    "level": "L3",
+    "depth": "技术",
+    "angle": "SITS 2026发布AI安全黄金标准，可信训练、动态偏好建模、可验证对齐三大框架",
+    "keywords_snippet": "AI安全,价值对齐,SITS,可信训练,动态偏好建模,可验证对齐"
+  },
+  {
+    "module": "07",
+    "date": "2026-06-24",
+    "topic": "评估方法",
+    "title": "大模型评估体系全景：从MMLU到SWE-bench的评测演进",
+    "level": "L2",
+    "depth": "应用",
+    "angle": "2026年评估体系从MMLU演进到SWE-bench/OSWorld等场景化基准",
+    "keywords_snippet": "大模型评估,MMLU,SWE-bench,OSWorld,基准测试"
+  },
+  {
+    "module": "07",
+    "date": "2026-06-24",
+    "topic": "AI安全",
+    "title": "提示词注入攻防：OWASP榜首的AI安全威胁与防御技术",
+    "level": "L3",
+    "depth": "技术",
+    "angle": "提示词注入连续两年OWASP榜首，直接/间接/多轮注入攻击类型与多层次防御",
+    "keywords_snippet": "提示词注入,OWASP,AI安全,直接注入,间接注入,语义净化"
+  },
+  {
+    "module": "07",
+    "date": "2026-06-24",
+    "topic": "数据工程",
+    "title": "高质量数据集：大模型训练燃料的系统化工程",
+    "level": "L1",
+    "depth": "概念",
+    "angle": "国家数据局25号文推动19+5领域高质量数据集建设",
+    "keywords_snippet": "高质量数据集,数据工程,国家数据局,模数共振,数据清洗"
+  },
+  {
+    "module": "07",
+    "date": "2026-06-24",
+    "topic": "训练技术",
+    "title": "分布式训练策略：万亿参数模型如何拆开训练",
+    "level": "L2",
+    "depth": "应用",
+    "angle": "数据并行/模型并行/混合并行三大策略，FSDP和DeepSpeed ZeRO框架",
+    "keywords_snippet": "分布式训练,FSDP,DeepSpeed ZeRO,混合并行,万亿参数"
+  },
+  {
+    "module": "07",
+    "date": "2026-06-24",
+    "topic": "隐私安全",
+    "title": "机器遗忘学习：让大模型学会忘记隐私数据的前沿技术",
+    "level": "L4",
+    "depth": "前沿",
+    "angle": "ICML 2026揭示机器遗忘可逆性难题，四层遗忘分类体系",
+    "keywords_snippet": "机器遗忘,数据隐私,ICML2026,被遗忘权,遗忘可逆性"
   }
 ]

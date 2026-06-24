@@ -748,5 +748,35 @@
     "depth": "方法层",
     "angle": "AI辅助PRD生成与质量检查闭环",
     "keywords_snippet": "PRD 需求文档 AI辅助 质量检查 用户故事 验收标准"
+  },
+  {
+    "module": "15",
+    "date": "2026-06-24",
+    "topic": "AI产品场景化落地",
+    "title": "AI产品场景化落地：行业Know-How如何融入AI产品设计",
+    "level": "L2",
+    "depth": "实践",
+    "angle": "产品设计方法",
+    "keywords_snippet": "场景化落地,行业Know-How,Knowledge Embedding,Workflow Mapping,Domain Evaluation"
+  },
+  {
+    "module": "15",
+    "date": "2026-06-24",
+    "topic": "AI Agent可解释性设计",
+    "title": "AI Agent产品的可解释性设计：从黑箱到信任的产品策略",
+    "level": "L2",
+    "depth": "实践",
+    "angle": "产品设计方法",
+    "keywords_snippet": "AI Agent,可解释性,过程透明,结果溯源,失败归因,用户信任"
+  },
+  {
+    "module": "15",
+    "date": "2026-06-24",
+    "topic": "AI PM模型评估能力",
+    "title": "AI产品经理的模型评估能力：从离线指标到在线体验的评价体系",
+    "level": "L2",
+    "depth": "实践",
+    "angle": "产品管理方法论",
+    "keywords_snippet": "模型评估,离线指标,在线体验,NPS,三层评价体系,用户感知"
   }
 ]

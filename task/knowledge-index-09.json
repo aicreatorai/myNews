@@ -588,5 +588,35 @@
     "depth": "概念层",
     "angle": "语言设计演进",
     "keywords_snippet": "Kotlin 2.4.0, 上下文参数, 显式支持字段, 值类, K2编译器"
+  },
+  {
+    "module": "09",
+    "date": "2026-06-24",
+    "topic": "Elixir 1.20",
+    "title": "Elixir 1.20发布：渐进式类型系统正式落地，动态语言迎来静态安全时代",
+    "level": "L3",
+    "depth": "概念",
+    "angle": "渐进式类型系统",
+    "keywords_snippet": "Elixir 1.20, 渐进式类型, 集合论类型, dynamic(), José Valim"
+  },
+  {
+    "module": "09",
+    "date": "2026-06-24",
+    "topic": "R 4.6.0",
+    "title": "R 4.6.0发布：统计编程语言迎来多项实用更新，科研分析体验全面升级",
+    "level": "L2",
+    "depth": "技术",
+    "angle": "版本更新",
+    "keywords_snippet": "R 4.6.0, wilcox.test, free1way, GLM诊断, citation DOI, 科研复现"
+  },
+  {
+    "module": "09",
+    "date": "2026-06-24",
+    "topic": "Lua 5.5",
+    "title": "Lua 5.5正式发布：时隔五年重大更新，轻量级脚本语言的性能革命",
+    "level": "L3",
+    "depth": "技术",
+    "angle": "版本更新",
+    "keywords_snippet": "Lua 5.5, 紧凑数组, 增量GC, 全局变量声明, 外部字符串, 游戏脚本"
   }
 ]

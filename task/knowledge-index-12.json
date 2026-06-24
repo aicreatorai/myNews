@@ -658,5 +658,45 @@
     "depth": "概念层",
     "angle": "速度套利与数据驱动的选品方法论",
     "keywords_snippet": "AI选品、TikTok Shop、联盟带货、爆款监控、内容自动化、速度套利"
+  },
+  {
+    "module": "12",
+    "date": "2026-06-24",
+    "topic": "AI可穿戴设备创业",
+    "title": "AI可穿戴设备创业：从硬件配件到场景服务的变现路径",
+    "level": "L2",
+    "depth": "实践",
+    "angle": "创业赛道分析",
+    "keywords_snippet": "AI可穿戴设备,AI眼镜,AI耳机,场景订阅,配件创业"
+  },
+  {
+    "module": "12",
+    "date": "2026-06-24",
+    "topic": "AI Agent定制化部署",
+    "title": "AI Agent定制化部署服务：中小企业AI化的外包创业新蓝海",
+    "level": "L2",
+    "depth": "实践",
+    "angle": "创业服务模式",
+    "keywords_snippet": "AI Agent,中小企业AI化,定制化部署,外包服务,独立开发者"
+  },
+  {
+    "module": "12",
+    "date": "2026-06-24",
+    "topic": "AI垂直行业应用创业",
+    "title": "AI垂直行业应用的\"最后一公里\"创业机会",
+    "level": "L2",
+    "depth": "实践",
+    "angle": "创业赛道分析",
+    "keywords_snippet": "垂直行业,最后一公里,行业定制化,场景数据,创业赛道"
+  },
+  {
+    "module": "12",
+    "date": "2026-06-24",
+    "topic": "AI创业认知转型",
+    "title": "2026年AI创业赛道选择：从\"模型能力\"到\"场景粘性\"的认知转型",
+    "level": "L1",
+    "depth": "概念",
+    "angle": "创业方法论",
+    "keywords_snippet": "AI创业,赛道选择,场景粘性,模型能力,认知转型"
   }
 ]
