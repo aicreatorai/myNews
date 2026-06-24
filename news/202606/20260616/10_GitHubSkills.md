@@ -61,7 +61,7 @@ MCP 服务器: 暴露 45+ 个 MCP 工具给 AI Agent
 
 关键设计决策是选择 Tree-sitter 而非传统正则或 LSP（Language Server Protocol）：Tree-sitter 支持增量解析——当文件变更时只需重新解析变更部分，无需全量重建；且 Tree-sitter 的 AST 结果可稳定序列化，不会像 LSP 那样因编辑器状态变化导致结果不一致。
 
-**▌ 5 分钟快速上手**
+### 5 【分钟快速上手】
 
 ```bash
 # 1. 安装 CodeGraph
@@ -207,7 +207,7 @@ Superpowers 采用"微内核 + 插件化"架构，分为四层：
 
 核心设计理念是 "Composable Skills"——每个 Skill 是独立的、可组合的。你可以只启用 `testing` 和 `commit` 两个技能来规范测试和提交流程，也可以启用完整的 50+ 技能来覆盖整个开发生命周期。
 
-**▌ 5 分钟快速上手**
+### 5 【分钟快速上手】
 
 ```bash
 # 1. 克隆 Superpowers 到项目目录
@@ -348,7 +348,7 @@ Operator 层（50+ 预置 Agent）
 
 ECC 最巧妙的设计是"Operator 模式"——每个 Operator 是一个独立封装的 Agent 角色，有自己的系统提示词、工具集和约束条件。比如 `code-reviewer` Operator 只关注代码质量，无权修改文件；`implement-feature` Operator 有权修改代码但必须先跑测试。这种职责分离让 AI 编程变得可预测、可审计。
 
-**▌ 5 分钟快速上手**
+### 5 【分钟快速上手】
 
 ```bash
 # 1. 安装 ECC
@@ -490,7 +490,7 @@ Nginx 反向代理: 统一入口 + HTTPS + 认证
 
 架构设计的关键决策是"模块可插拔"——用户不需要的功能可以直接关闭，不占用系统资源。比如如果你不需要邮件模块，设置 `ENABLE_EMAIL=false` 即可。
 
-**▌ 5 分钟快速上手**
+### 5 【分钟快速上手】
 
 ```bash
 # 1. 克隆仓库

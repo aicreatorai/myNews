@@ -41,8 +41,8 @@ SAME_MODULE_DUPLICATE_THRESHOLD = 0.70
 EVENT_ENTITY_PATTERNS = [
     # 1. 英文专名（前后不能是英文数字）：Anthropic, OpenAI, GPT, iOS, Swift
     r'(?<![a-zA-Z0-9])[A-Z][a-z]+\d*(?:\s[A-Z][a-z]+\d*)*(?![a-zA-Z0-9])',
-    # 2. 数字（至少2位，带单位）：650亿, 9650万, 50.0%
-    r'(?<![a-zA-Z0-9%])\d{2,}(?:[.,]\d+)?(?:亿|万|千|百|%|美元|元)?(?![a-zA-Z0-9%])',
+    # 2. 数字（至少2位，带单位，排除纯年份1900-2099）：650亿, 9650万, 50.0%
+    r'(?<![a-zA-Z0-9%])(?!(?:19|20)\d{2}\b)\d{2,}(?:[.,]\d+)?(?:亿|万|千|百|%|美元|元)?(?![a-zA-Z0-9%])',
     # 3. 关键动作词（事件核心动词）
     r'(?:融资|收购|发布|推出|上线|裁员|涨价|降价|突破|超越|达成|签署|通过|印发|实施|停火|谈判|制裁|会晤|会谈|访问|下调|提升|增长|下跌)',
 ]
@@ -154,8 +154,11 @@ def event_jaccard_similarity(t1: str, t2: str) -> float:
     return len(intersection) / len(union)
 
 
-# 事件指纹匹配阈值：Jaccard > 0.3 即视为同一事件
-EVENT_JACCARD_THRESHOLD = 0.3
+# 事件指纹匹配阈值：Jaccard > 0.5 即视为同一事件（原0.3太低，误判严重）
+EVENT_JACCARD_THRESHOLD = 0.5
+
+# Jaccard匹配时最低标题相似度（防单实体词误匹配，排除纯年份噪音）
+EVENT_JACCARD_MIN_TITLE_SIM = 0.40
 
 
 def has_different_versions(t1: str, t2: str) -> bool:
@@ -266,8 +269,11 @@ def check_headline(headline: str, module: str = ''):
             # 检测2: 事件 Jaccard 相似度
             jaccard = event_jaccard_similarity(headline, h)
 
-            if sim > SAME_MODULE_DUPLICATE_THRESHOLD or jaccard > EVENT_JACCARD_THRESHOLD:
-                reason = f"标题相似度 {sim:.0%}" if sim > SAME_MODULE_DUPLICATE_THRESHOLD else f"事件匹配 J={jaccard:.0%}"
+            # 标题相似度单独满足即触发；Jaccard需要同时满足最低标题相似度（防单实体词误匹配）
+            title_match = sim > SAME_MODULE_DUPLICATE_THRESHOLD
+            jaccard_match = jaccard > EVENT_JACCARD_THRESHOLD and sim > EVENT_JACCARD_MIN_TITLE_SIM
+            if title_match or jaccard_match:
+                reason = f"标题相似度 {sim:.0%}" if title_match else f"事件匹配 J={jaccard:.0%}"
                 if has_different_versions(headline, h):
                     print(f"🟡 [同模块] 近{SAME_MODULE_LOOKBACK_DAYS}天内该模块有版本演进")
                     print(f"   历史({d}): {h}")
@@ -442,8 +448,10 @@ def scan(date_str: str):
             # 检测2: 事件 Jaccard 相似度
             jaccard = event_jaccard_similarity(h, hist_h)
 
-            if sim > SAME_MODULE_DUPLICATE_THRESHOLD or jaccard > EVENT_JACCARD_THRESHOLD:
-                reason = f"相似度{sim:.0%}" if sim > SAME_MODULE_DUPLICATE_THRESHOLD else f"事件匹配 J={jaccard:.0%}"
+            title_match = sim > SAME_MODULE_DUPLICATE_THRESHOLD
+            jaccard_match = jaccard > EVENT_JACCARD_THRESHOLD and sim > EVENT_JACCARD_MIN_TITLE_SIM
+            if title_match or jaccard_match:
+                reason = f"相似度{sim:.0%}" if title_match else f"事件匹配 J={jaccard:.0%}"
                 if has_different_versions(h, hist_h):
                     vert_found += 1
                     print(f"  ℹ️ [{mod}] {d} 同模块版本演进（{reason}）")
