@@ -778,5 +778,45 @@
     "depth": "实践",
     "angle": "技巧总结",
     "keywords_snippet": "通义灵码,阿里云,AI编程,代码生成,单元测试,MCP广场"
+  },
+  {
+    "module": "08",
+    "date": "2026-06-26",
+    "topic": "WPS AI办公",
+    "title": "WPS AI灵犀3.0实战：从文档润色到数据分析的办公全流程技巧",
+    "level": "L3",
+    "depth": "实践层",
+    "angle": "办公实战工作流",
+    "keywords_snippet": "WPS AI,灵犀3.0,智能公式,PPT生成"
+  },
+  {
+    "module": "08",
+    "date": "2026-06-26",
+    "topic": "AI视频生成",
+    "title": "可灵3.0 AI视频创作实战：从提示词模板到避坑指南的全流程教程",
+    "level": "L3",
+    "depth": "实践层",
+    "angle": "AI视频创作教程",
+    "keywords_snippet": "可灵3.0,AI视频,提示词,Kling"
+  },
+  {
+    "module": "08",
+    "date": "2026-06-26",
+    "topic": "提示词工程",
+    "title": "DeepSeek V4 Agent提示词设计：混合模型时代的提示工程新范式",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "Agent提示词设计",
+    "keywords_snippet": "DeepSeek V4,Agent,提示词,混合模型"
+  },
+  {
+    "module": "08",
+    "date": "2026-06-26",
+    "topic": "AI工作流",
+    "title": "Dify工作流搭建实战：从节点编排到企业级AI应用部署",
+    "level": "L3",
+    "depth": "实践层",
+    "angle": "工作流搭建教程",
+    "keywords_snippet": "Dify,工作流,AI Agent,Text2SQL"
   }
 ]

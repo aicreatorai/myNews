@@ -778,5 +778,55 @@
     "depth": "实践",
     "angle": "产品管理方法论",
     "keywords_snippet": "模型评估,离线指标,在线体验,NPS,三层评价体系,用户感知"
+  },
+  {
+    "module": "15",
+    "date": "2026-06-26",
+    "topic": "AI产品商业化",
+    "title": "豆包专业版付费订阅：3.5亿月活AI产品的商业化分水岭",
+    "level": "L3",
+    "depth": "实践层",
+    "angle": "豆包专业版三级阶梯定价策略拆解与Agent化升级分析",
+    "keywords_snippet": "豆包专业版 付费 商业化 Agent 办公任务模式"
+  },
+  {
+    "module": "15",
+    "date": "2026-06-26",
+    "topic": "AI产品定价模式",
+    "title": "AI定价模式六大进化路径：从Token计费到按结果付费",
+    "level": "L4",
+    "depth": "前沿层",
+    "angle": "AI产品六种定价模式全景对比与产品经理决策框架",
+    "keywords_snippet": "Token按量 订阅制 按结果付费 Outcome-based"
+  },
+  {
+    "module": "15",
+    "date": "2026-06-26",
+    "topic": "AI产品策略案例",
+    "title": "OpenAI ChatGPT+Codex合并：AI超级App的产品策略深度拆解",
+    "level": "L3",
+    "depth": "实践层",
+    "angle": "OpenAI超级App战略的产品逻辑与工作流整合分析",
+    "keywords_snippet": "OpenAI ChatGPT Codex 超级App 合并 Agent"
+  },
+  {
+    "module": "15",
+    "date": "2026-06-26",
+    "topic": "AI用户留存",
+    "title": "AI应用年度留存率仅21%：从数据到行动的增长破局指南",
+    "level": "L3",
+    "depth": "实践层",
+    "angle": "RevenueCat数据驱动的AI留存困境分析与三种破局方法论",
+    "keywords_snippet": "AI应用 留存率 21% RevenueCat 增长 用户运营"
+  },
+  {
+    "module": "15",
+    "date": "2026-06-26",
+    "topic": "AI商业模式",
+    "title": "按结果付费RaaS模式：AI如何颠覆SaaS二十年定价体系",
+    "level": "L4",
+    "depth": "前沿层",
+    "angle": "RaaS按结果付费模式的产品逻辑与PM实操落地指南",
+    "keywords_snippet": "RaaS 按结果付费 Outcome-based Sierra 销售易"
   }
 ]

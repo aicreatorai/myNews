@@ -618,5 +618,45 @@
     "depth": "技术",
     "angle": "版本更新",
     "keywords_snippet": "Lua 5.5, 紧凑数组, 增量GC, 全局变量声明, 外部字符串, 游戏脚本"
+  },
+  {
+    "module": "09",
+    "date": "2026-06-26",
+    "topic": "Swift 6.4",
+    "title": "Swift 6.4 WWDC26发布：所有权系统扩展与Android官方SDK",
+    "level": "L4",
+    "depth": "前沿层",
+    "angle": "WWDC26发布的新版本深度解读，所有权系统和Android SDK",
+    "keywords_snippet": "Swift 6.4 WWDC26 borrow mutate Android SDK"
+  },
+  {
+    "module": "09",
+    "date": "2026-06-26",
+    "topic": "Python 3.15",
+    "title": "Python 3.15 Beta 2全面解析：JIT编译升级与延迟导入革命",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "Beta 2版本深度技术解析",
+    "keywords_snippet": "Python 3.15 Beta 2 JIT lazy imports frozendict Tachyon"
+  },
+  {
+    "module": "09",
+    "date": "2026-06-26",
+    "topic": "Node.js 26",
+    "title": "Node.js 26发布：Temporal API默认启用，奇偶版本策略的绝唱",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "Node.js 26版本发布与Temporal API技术解析",
+    "keywords_snippet": "Node.js 26 Temporal API V8 14.6 Map Upsert"
+  },
+  {
+    "module": "09",
+    "date": "2026-06-26",
+    "topic": "TIOBE排行",
+    "title": "TIOBE 6月排行深度解读：Rust创历史新高首进第12名",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "TIOBE排行数据解读与编程语言趋势分析",
+    "keywords_snippet": "TIOBE 2026年6月 Rust 第12名 Python C++"
   }
 ]

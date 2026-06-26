@@ -698,5 +698,45 @@
     "depth": "实践",
     "angle": "开源工具评测",
     "keywords_snippet": "Palmier Pro,视频编辑器,AI工作流,macOS,Swift"
+  },
+  {
+    "module": "10",
+    "date": "2026-06-26",
+    "topic": "Agent-Reach",
+    "title": "Agent-Reach：给你的AI Agent一键装上互联网能力",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "AI Agent联网能力",
+    "keywords_snippet": "Agent-Reach, AI Agent, CLI, 联网, 零API"
+  },
+  {
+    "module": "10",
+    "date": "2026-06-26",
+    "topic": "stop-slop",
+    "title": "stop-slop：让AI写作告别套话和模板句",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "AI写作质量提升",
+    "keywords_snippet": "stop-slop, Claude Skill, AI套话, 写作, Markdown"
+  },
+  {
+    "module": "10",
+    "date": "2026-06-26",
+    "topic": "SuperMemory",
+    "title": "SuperMemory：AI Agent持久记忆引擎",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "AI记忆架构",
+    "keywords_snippet": "SuperMemory, 记忆引擎, AI Agent, 召回, 基准"
+  },
+  {
+    "module": "10",
+    "date": "2026-06-26",
+    "topic": "taste-skill",
+    "title": "taste-skill：教AI Agent写出有品味的代码",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "代码质量方法论",
+    "keywords_snippet": "taste-skill, 代码品味, Claude Skill, 代码质量, 命名规范"
   }
 ]

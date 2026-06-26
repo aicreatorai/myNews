@@ -698,5 +698,45 @@
     "depth": "概念",
     "angle": "创业方法论",
     "keywords_snippet": "AI创业,赛道选择,场景粘性,模型能力,认知转型"
+  },
+  {
+    "module": "12",
+    "date": "2026-06-26",
+    "topic": "AI产品案例",
+    "title": "5个闷声发财的AI产品案例拆解：从0到月入$57K的变现规律",
+    "level": "L3",
+    "depth": "实践层",
+    "angle": "5个真实AI SaaS产品的变现规律拆解",
+    "keywords_snippet": "SEOBOT Launch Fast AudioPen SuperX"
+  },
+  {
+    "module": "12",
+    "date": "2026-06-26",
+    "topic": "AI平台创业",
+    "title": "一人公司半年套现8000万美元：Base44与MuleRun的AI平台变现暗牌",
+    "level": "L4",
+    "depth": "前沿层",
+    "angle": "AI平台型创业案例分析",
+    "keywords_snippet": "Base44 MuleRun AI平台 Wix收购"
+  },
+  {
+    "module": "12",
+    "date": "2026-06-26",
+    "topic": "AI产品冷启动",
+    "title": "AI产品冷启动实战：不花一分广告费，从0到1000付费用户的获客方法论",
+    "level": "L3",
+    "depth": "实践层",
+    "angle": "零成本AI产品冷启动方法论",
+    "keywords_snippet": "SuperX Sleek.design 冷启动 获客 内容营销"
+  },
+  {
+    "module": "12",
+    "date": "2026-06-26",
+    "topic": "AI产品定价",
+    "title": "AI收费模式大洗牌：2026年AI产品定价策略与独立开发者生存指南",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "AI产品定价策略深度解析",
+    "keywords_snippet": "Token计费 订阅制 混合计费 定价策略"
   }
 ]

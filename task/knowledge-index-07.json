@@ -928,5 +928,75 @@
     "depth": "前沿",
     "angle": "ICML 2026揭示机器遗忘可逆性难题，四层遗忘分类体系",
     "keywords_snippet": "机器遗忘,数据隐私,ICML2026,被遗忘权,遗忘可逆性"
+  },
+  {
+    "module": "07",
+    "date": "2026-06-26",
+    "topic": "PagedAttention",
+    "title": "vLLM PagedAttention：像OS管理内存一样管理KV Cache",
+    "level": "L4",
+    "depth": "前沿层",
+    "angle": "KV Cache分页管理原理与实操",
+    "keywords_snippet": "PagedAttention vLLM KV Cache Block Table"
+  },
+  {
+    "module": "07",
+    "date": "2026-06-26",
+    "topic": "推理引擎横评",
+    "title": "LLM推理引擎横评：vLLM vs SGLang vs TensorRT-LLM",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "三大推理引擎架构对比与选型",
+    "keywords_snippet": "vLLM SGLang TensorRT-LLM 推理引擎 对比"
+  },
+  {
+    "module": "07",
+    "date": "2026-06-26",
+    "topic": "前缀缓存",
+    "title": "自动前缀缓存APC：共享计算加速",
+    "level": "L4",
+    "depth": "前沿层",
+    "angle": "APC原理与RadixAttention对比",
+    "keywords_snippet": "APC 前缀缓存 RadixAttention vLLM SGLang"
+  },
+  {
+    "module": "07",
+    "date": "2026-06-26",
+    "topic": "推理服务化",
+    "title": "LLM推理服务化架构演进",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "从单机到生产级推理系统",
+    "keywords_snippet": "推理服务化 vLLM K8s 部署 架构"
+  },
+  {
+    "module": "07",
+    "date": "2026-06-26",
+    "topic": "语音大模型",
+    "title": "2026语音大模型新突破：全双工交互",
+    "level": "L4",
+    "depth": "前沿层",
+    "angle": "从ASR到全双工语音交互的技术演进",
+    "keywords_snippet": "语音大模型 全双工 DuplexSLA ASR TTS"
+  },
+  {
+    "module": "07",
+    "date": "2026-06-26",
+    "topic": "开源TTS",
+    "title": "开源TTS引擎横评Kokoro CosyVoice FishSpeech",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "主流开源TTS引擎实战对比与选型",
+    "keywords_snippet": "Kokoro CosyVoice FishSpeech TTS 开源 语音合成"
+  },
+  {
+    "module": "07",
+    "date": "2026-06-26",
+    "topic": "DuplexSLA",
+    "title": "DuplexSLA全双工语音交互三通道并行",
+    "level": "L4",
+    "depth": "前沿层",
+    "angle": "160ms粒度听-说-思三通道并行架构",
+    "keywords_snippet": "DuplexSLA 全双工 三通道 语音交互 打断"
   }
 ]
