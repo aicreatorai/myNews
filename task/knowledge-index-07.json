@@ -998,5 +998,75 @@
     "depth": "前沿层",
     "angle": "160ms粒度听-说-思三通道并行架构",
     "keywords_snippet": "DuplexSLA 全双工 三通道 语音交互 打断"
+  },
+  {
+    "module": "07",
+    "date": "2026-06-29",
+    "topic": "推理优化与量化",
+    "title": "PD分离推理架构：Prefill-Decode分体优化方案",
+    "level": "L4",
+    "depth": "前沿层-推理架构演进",
+    "angle": "PD分离技术原理与对比",
+    "keywords_snippet": "PD分离,Prefill,Decode,推理优化"
+  },
+  {
+    "module": "07",
+    "date": "2026-06-29",
+    "topic": "图像与视频生成",
+    "title": "Diffusion Transformer：从文生图到文生视频的统一架构",
+    "level": "L2",
+    "depth": "技术层-DiT核心原理",
+    "angle": "DiT架构与UNet对比",
+    "keywords_snippet": "DiT,Diffusion Transformer,patch化,视频生成"
+  },
+  {
+    "module": "07",
+    "date": "2026-06-29",
+    "topic": "世界模型",
+    "title": "世界模型：从视频生成到可交互物理模拟的范式跃迁",
+    "level": "L1",
+    "depth": "概念层-世界模型定义与原理",
+    "angle": "世界模型概念与视频生成区别",
+    "keywords_snippet": "世界模型,Genie3,物理模拟,状态空间"
+  },
+  {
+    "module": "07",
+    "date": "2026-06-29",
+    "topic": "推理优化与量化",
+    "title": "模型量化：从FP16到INT4的精度效率平衡术",
+    "level": "L4",
+    "depth": "前沿层-量化技术方案",
+    "angle": "GPTQ/AWQ量化方案对比",
+    "keywords_snippet": "模型量化,INT4,GPTQ,AWQ,GGUF"
+  },
+  {
+    "module": "07",
+    "date": "2026-06-29",
+    "topic": "Prompt工程",
+    "title": "CoT思维链：大模型推理能力的慢思考引擎",
+    "level": "L2",
+    "depth": "技术层-CoT原理与变体",
+    "angle": "CoT多种变体对比",
+    "keywords_snippet": "CoT,思维链,Zero-shot CoT,Self-Consistency"
+  },
+  {
+    "module": "07",
+    "date": "2026-06-29",
+    "topic": "微调技术",
+    "title": "LoRA微调：大模型高效参数微调的乐高方案",
+    "level": "L3",
+    "depth": "技术层-LoRA原理与实战",
+    "angle": "LoRA低秩适配原理",
+    "keywords_snippet": "LoRA,QLoRA,低秩适配,PEFT"
+  },
+  {
+    "module": "07",
+    "date": "2026-06-29",
+    "topic": "语音与音频AI",
+    "title": "语音AI：从ASR到TTS到语音克隆的全栈技术",
+    "level": "L2",
+    "depth": "技术层-语音AI全栈架构",
+    "angle": "语音AI全栈技术链",
+    "keywords_snippet": "Whisper,ASR,TTS,CosVoice,语音克隆"
   }
 ]

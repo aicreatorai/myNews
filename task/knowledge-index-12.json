@@ -738,5 +738,55 @@
     "depth": "技术层",
     "angle": "AI产品定价策略深度解析",
     "keywords_snippet": "Token计费 订阅制 混合计费 定价策略"
+  },
+  {
+    "module": "12",
+    "date": "2026-06-29",
+    "topic": "AI Agent自主支付与商业化落地",
+    "title": "AI Agent开始自主付钱！2026年6月成商业化转折点，独立开发者月入3.9万美元",
+    "level": "L1",
+    "depth": "基础层",
+    "angle": "变现模式",
+    "keywords_snippet": "AI Agent 自主支付 商业化 独立开发者 MRR 智能体"
+  },
+  {
+    "module": "12",
+    "date": "2026-06-29",
+    "topic": "一人公司AI SaaS",
+    "title": "从0到年入103万美元：一人公司+AI全栈武器库，2026年单人SaaS爆发元年",
+    "level": "L1",
+    "depth": "基础层",
+    "angle": "变现模式",
+    "keywords_snippet": "一人公司 AI SaaS 独立开发者 月收入 零代码 创业"
+  },
+  {
+    "module": "12",
+    "date": "2026-06-29",
+    "topic": "AI重塑跨境电商",
+    "title": "AI重塑跨境电商：出海创业者98%已用AI工具，营收增速高出传统企业42.7%",
+    "level": "L1",
+    "depth": "基础层",
+    "angle": "出海与合规",
+    "keywords_snippet": "AI 跨境电商 出海 创业 SaaS 亚马逊 卖家 工具"
+  },
+  {
+    "module": "12",
+    "date": "2026-06-29",
+    "topic": "AI内容变现2.0",
+    "title": "AI内容变现2.0：Agentic内容工厂崛起，创作者经济2026年破571亿美元",
+    "level": "L1",
+    "depth": "基础层",
+    "angle": "变现模式",
+    "keywords_snippet": "AI 内容变现 Agent 创作者经济 代笔 SEO 自动化"
+  },
+  {
+    "module": "12",
+    "date": "2026-06-29",
+    "topic": "AI创业融资趋势",
+    "title": "AI创业融资2026年中盘点：395笔交易3370亿美元，赛道从技术叙事切换为财务答卷",
+    "level": "L1",
+    "depth": "基础层",
+    "angle": "创业融资",
+    "keywords_snippet": "AI 创业 融资 资本市场 商业化 财务 指标 估值"
   }
 ]

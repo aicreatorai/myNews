@@ -738,5 +738,55 @@
     "depth": "技术层",
     "angle": "代码质量方法论",
     "keywords_snippet": "taste-skill, 代码品味, Claude Skill, 代码质量, 命名规范"
+  },
+  {
+    "module": "10",
+    "date": "2026-06-29",
+    "topic": "GitHub热门项目",
+    "title": "OpenClaw - 37万星的开源个人AI助手",
+    "level": "L2",
+    "depth": "深度解析",
+    "angle": "AI Agent入门与上手",
+    "keywords_snippet": "OpenClaw AI助手 37万星 GitHub"
+  },
+  {
+    "module": "10",
+    "date": "2026-06-29",
+    "topic": "GitHub热门项目",
+    "title": "Superpowers - Agent技能框架 21.5万星",
+    "level": "L2",
+    "depth": "深度解析",
+    "angle": "AI Agent技能框架",
+    "keywords_snippet": "Superpowers Agent技能框架 软件开发方法论"
+  },
+  {
+    "module": "10",
+    "date": "2026-06-29",
+    "topic": "GitHub热门项目",
+    "title": "ECC - Agent性能优化系统 20.4万星",
+    "level": "L2",
+    "depth": "深度解析",
+    "angle": "Agent性能优化",
+    "keywords_snippet": "ECC Everything Claude Code Token优化"
+  },
+  {
+    "module": "10",
+    "date": "2026-06-29",
+    "topic": "GitHub热门项目",
+    "title": "DSpark/DeepSpec - DeepSeek投机解码推理加速框架",
+    "level": "L3",
+    "depth": "技术解析",
+    "angle": "LLM推理优化",
+    "keywords_snippet": "DSpark DeepSpec 投机解码 推理加速"
+  },
+  {
+    "module": "10",
+    "date": "2026-06-29",
+    "topic": "GitHub热门项目",
+    "title": "Playwright 1.60 - AI辅助浏览器自动化框架",
+    "level": "L2",
+    "depth": "深度解析",
+    "angle": "浏览器自动化",
+    "keywords_snippet": "Playwright AI辅助定位 浏览器自动化"
   }
 ]
