@@ -1068,5 +1068,75 @@
     "depth": "技术层-语音AI全栈架构",
     "angle": "语音AI全栈技术链",
     "keywords_snippet": "Whisper,ASR,TTS,CosVoice,语音克隆"
+  },
+  {
+    "module": "07",
+    "date": "2026-06-30",
+    "topic": "VLM",
+    "title": "视觉语言模型VLM：让AI同时看懂和说话的多模态基座",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "基础概念与架构演进",
+    "keywords_snippet": "VLM 视觉语言模型 多模态"
+  },
+  {
+    "module": "07",
+    "date": "2026-06-30",
+    "topic": "VLM",
+    "title": "VLM视觉编码器：决定看得有多清楚的核心技术",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "视觉编码器原理与动态分辨率",
+    "keywords_snippet": "VLM 视觉编码器 ViT 动态分辨率"
+  },
+  {
+    "module": "07",
+    "date": "2026-06-30",
+    "topic": "VLM",
+    "title": "VLM生产落地的三大坑与避坑指南",
+    "level": "L3",
+    "depth": "实践层",
+    "angle": "生产部署踩坑与优化",
+    "keywords_snippet": "VLM 部署 生产环境 OOM 幻觉"
+  },
+  {
+    "module": "07",
+    "date": "2026-06-30",
+    "topic": "MoE",
+    "title": "MoE混合专家架构：用1/10计算量撑起万亿参数模型",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "MoE基础概念与架构优势",
+    "keywords_snippet": "MoE 混合专家 路由 负载均衡"
+  },
+  {
+    "module": "07",
+    "date": "2026-06-30",
+    "topic": "MoE",
+    "title": "MoE路由机制深度拆解：如何让256个专家各司其职",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "路由原理与专家专业化",
+    "keywords_snippet": "MoE 路由 负载均衡 专家专业化"
+  },
+  {
+    "module": "07",
+    "date": "2026-06-30",
+    "topic": "MoE",
+    "title": "MoE训练与部署实战：从单机到分布式推理",
+    "level": "L3",
+    "depth": "实践层",
+    "angle": "工程化部署与分布式推理",
+    "keywords_snippet": "MoE 训练 部署 专家并行 vLLM"
+  },
+  {
+    "module": "07",
+    "date": "2026-06-30",
+    "topic": "MoE",
+    "title": "MoE+VLM双剑合璧：多模态大模型架构的前沿融合",
+    "level": "L4",
+    "depth": "前沿层",
+    "angle": "MoE与VLM融合趋势",
+    "keywords_snippet": "MoE VLM 模态感知路由 多模态融合"
   }
 ]
