@@ -1,6 +1,6 @@
 # 10_GitHubSkills
 
-## 1. 【OpenClaw：300K+⭐️的AI Agent基础设施，重构工具生态新范式】
+### 1. 【OpenClaw：300K+⭐️的AI Agent基础设施，重构工具生态新范式】
 
 > 📍 **导语**：OpenClaw在2026年6月GitHub Trending榜单上以周增2.8万Star的惊人速度登顶，总Star数突破30万。这个项目之所以引爆开发者社区，是因为它解决了AI Agent开发中最核心的痛点：工具生态碎片化。OpenClaw基于MCP（Model Context Protocol）协议，实现了工具的热插拔和标准化集成，让开发者能像搭积木一样构建复杂的AI工作流。相比传统的LangChain、AutoGen等框架，OpenClaw在代码复用率、企业级部署效率上有90%以上的提升。
 
@@ -118,7 +118,7 @@ tools: [email, mysql, salesforce, fedex]
 
 🔗 **信息来源：** GitHub Repository（star: 302,458，更新日期2026年6月30日）/ GitHub Trending June 2026榜单（2026年6月29日）/ Hacker News讨论（2026年6月28日）
 
-## 2. 【vLLM 2.0：150K+⭐️的大模型推理引擎，吞吐量提升300%】
+### 2. 【vLLM 2.0：150K+⭐️的大模型推理引擎，吞吐量提升300%】
 
 > 📍 **导语**：vLLM在2026年6月发布了里程碑式的2.0版本，GitHub Star数突破15万，周增1.2万Star。这个项目之所以成为大模型部署的事实标准，是因为它革命性地解决了LLM服务中的内存效率和并发吞吐问题。vLLM 2.0引入了PagedAttention v2算法，相比1.0版本，在相同硬件条件下吞吐量提升300%，延迟降低60%。对于需要服务高并发用户的企业和开发者来说，vLLM意味着用1/3的服务器成本提供相同的服务能力。
 
@@ -239,7 +239,7 @@ outputs = llm.generate(prompts, sampling_params)
 
 🔗 **信息来源：** GitHub Repository（star: 152,837，v2.0发布日期2026年6月25日）/ vLLM官方博客性能报告（2026年6月26日）/ arXiv论文PagedAttention v2（2026年6月）
 
-## 3. 【Cursor Rules：85K+⭐️的AI编程规则引擎，代码质量提升80%】
+### 3. 【Cursor Rules：85K+⭐️的AI编程规则引擎，代码质量提升80%】
 
 > 📍 **导语**：Cursor Rules在2026年6月GitHub Trending上以周增8,000 Star的速度飙升，成为AI编程领域的新星。这个项目精准击中了AI代码生成的痛点：生成代码风格不一致、不符合团队规范、存在安全隐患。Cursor Rules是一个规则引擎，能让AI（Cursor、Claude Code等）在生成代码时严格遵守团队定义的编码规范、安全规则和最佳实践。实际数据显示，使用Cursor Rules后，代码审查通过率从65%提升到95%，安全漏洞减少90%。
 
@@ -383,7 +383,7 @@ require:
 
 🔗 **信息来源：** GitHub Repository（star: 85,492，更新日期2026年6月28日）/ Cursor官方博客（2026年6月27日）/ Hacker News规则引擎讨论（2026年6月29日）
 
-## 4. 【DevPod：62K+⭐️的云开发环境，启动时间从小时级降到秒级】
+### 4. 【DevPod：62K+⭐️的云开发环境，启动时间从小时级降到秒级】
 
 > 📍 **导语**：DevPod在2026年6月GitHub Trending上以"开发环境即代码"的创新理念获得广泛关注，周增5,000+ Star。这个项目解决了分布式团队和跨平台开发中的核心痛点：开发环境配置不一致、依赖冲突、新成员上手慢。DevPod将开发环境容器化，通过代码定义环境配置，实现一键创建、秒级启动、随处一致的开发体验。对于拥有多平台（Windows/macOS/Linux）、多项目、多团队协作的组织，DevPod能将环境配置时间从平均8小时减少到30秒。
 
@@ -566,7 +566,7 @@ components:
 
 🔗 **信息来源：** GitHub Repository（star: 62,385，更新日期2026年6月30日）/ DevPod官方博客案例研究（2026年6月28日）/ KubeCon 2026演讲（2026年6月）
 
-## 5. 【Mem0：48K+⭐️的AI记忆引擎，让ChatGPT拥有长期记忆】
+### 5. 【Mem0：48K+⭐️的AI记忆引擎，让ChatGPT拥有长期记忆】
 
 > 📍 **导语**：Mem0在2026年6月GitHub Trending上以"给AI装上海马体"的创新概念获得关注，周增4,000+ Star。这个项目解决了当前大模型的核心缺陷：缺乏长期记忆和个性化上下文。Mem0是一个向量数据库 + 记忆管理引擎，能让ChatGPT、Claude等模型记住与用户的对话历史、偏好习惯、专业知识，实现真正个性化的AI交互。对于构建长期陪伴型AI应用（如AI伴侣、个性化导师、企业知识助手）的开发者，Mem0意味着从"每次对话都是初次见面"到"认识你很久的老朋友"的质变。
 
