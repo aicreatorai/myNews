@@ -9,20 +9,24 @@
   },
   "12": {
     "last_main": [
+      "E3",
+      "E1",
+      "E2",
       "E4",
-      "E6",
-      "E13"
+      "E16",
+      "E7"
     ],
-    "last_week": "2026-06-30"
+    "last_week": "2026-07-03"
   },
   "13": {
     "last_main": [
-      "U2",
       "U4",
-      "U6",
-      "U11"
+      "U5",
+      "U1",
+      "U11",
+      "U10"
     ],
-    "last_week": "2026-06-30"
+    "last_week": "2026-07-03"
   },
   "14": {
     "last_main": [
@@ -34,13 +38,12 @@
   },
   "15": {
     "last_main": [
-      "P2",
-      "P3",
-      "P7",
-      "P8",
-      "P14"
+      "P12",
+      "P13",
+      "P15",
+      "P4"
     ],
-    "last_week": "2026-06-30"
+    "last_week": "2026-07-03"
   },
   "08": {
     "last_main": [
@@ -53,24 +56,21 @@
   },
   "09": {
     "last_main": [
-      "Python3.14-GIL",
-      "Java26-AI",
-      "TypeScript6.0",
-      "Go1.26-GC",
-      "Rust1.95-TIOBE2026-R",
-      "ES2026-Temporal"
+      "TypeScript7.0-RC-Go重写",
+      "Python3.14-模板字符串",
+      "Rust2026-项目目标",
+      "Go1.26-GreenTea-GC"
     ],
-    "last_week": "2026-05-31"
+    "last_week": "2026-07-03"
   },
   "10": {
     "last_main": [
-      "CodeGraph",
-      "DeepSeek-TUI",
-      "MoneyPrinterTurbo",
-      "MCP Server",
-      "Understand-Anything"
+      "MarkItDown-文档解析",
+      "ClaudeCode-AI编程代理",
+      "Headroom-Token压缩",
+      "FluidVoice-离线语音转文字"
     ],
-    "last_week": "2026-06-01"
+    "last_week": "2026-07-03"
   },
   "02": {
     "last_main": [
