@@ -67,3 +67,11 @@ englishStudy/.codebuddy/
 englishStudy/.vocab_*.json
 englishStudy/test-results/
 test-results/
+
+# SQLite 数据库文件（不提交）
+*.db
+*.db-shm
+*.db-wal
+*.db.backup
+task/content-fingerprint.db*
+task/*.db*
