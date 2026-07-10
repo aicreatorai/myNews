@@ -6,7 +6,7 @@
     'use strict';
 
     // --- 缓存版本号：修改此值会使所有 localStorage 缓存失效 ---
-    const CACHE_VERSION = 'v23';
+    const CACHE_VERSION = 'v26';
 
     // --- State ---
     let indexData = null;
@@ -519,7 +519,7 @@
             // 缓存（内存 + localStorage，所有卡片都缓存24小时）
             contentCache.set(cacheKey, html);
             cacheSet('card_' + cacheKey, html, 86400000);
-            body.innerHTML = html;
+            body.innerHTML = sanitizeHtml(html);
             addNewsToggle(body);
             card.dataset.loading = '0';
             card.dataset.loaded = '1';
@@ -611,35 +611,44 @@
     function renderMarkdown(md) {
         let html = md;
 
-        // 转义 HTML 标签（避免冲突）
-        html = html.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
-
-        // ⚠️ 用占位符保护代码块和行内代码，防止内部标记被二次解析
+        // ⚠️ 第1步：先用占位符保护代码块和行内代码，防止内部标记被二次解析
         const codeBlocks = [];
         html = html.replace(/```(\w*)\n([\s\S]*?)```/g, (_, lang, code) => {
             const idx = codeBlocks.length;
             codeBlocks.push(`<pre><code>${code.trim()}</code></pre>`);
-            return `%%%CODEBLOCK_${idx}%%%`;
+            return `%%%CODEBLOCK${idx}%%%`;
         });
         const inlineCodes = [];
         html = html.replace(/`([^`]+)`/g, (_, code) => {
             const idx = inlineCodes.length;
             inlineCodes.push(`<code>${code}</code>`);
-            return `%%%INLINECODE_${idx}%%%`;
+            return `%%%INLINECODE${idx}%%%`;
         });
+
+        // 第2步：转义 HTML 标签（避免冲突）— 此时代码块已保护，不受影响
+        html = html.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
 
         // 水平分割线
         html = html.replace(/^---+\s*$/gm, '<hr>');
 
-        // 引用块 (> ...)
-        html = html.replace(/^&gt;\s*(.*)$/gm, (_, content) => {
-            return `<blockquote><p>${content}</p></blockquote>`;
+        // 引用块 (> ...) — 此时 > 已被转义为 &gt;，匹配 &gt; 开头的行
+        // 连续的多行 blockquote 合并为一个块
+        html = html.replace(/((?:^&gt;\s*.*\n?)+)/gm, (match) => {
+            const lines = match.trim().split('\n').map(l => {
+                const content = l.replace(/^&gt;/, '').trim();
+                // 处理块内加粗/斜体等内联标记
+                let processed = content.replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>');
+                processed = processed.replace(/\*(.+?)\*/g, '<em>$1</em>');
+                processed = processed.replace(/_(.+?)_/g, '<em>$1</em>');
+                return processed;
+            });
+            return `<blockquote>${lines.map(l => `<p>${l}</p>`).join('')}</blockquote>`;
         });
 
         // 加粗 (**text**)
         html = html.replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>');
 
-        // 斜体 (*text* 或 _text_)
+        // 斜体 (*text* 或 _text_) — 注意不要匹配已处理的blockquote
         html = html.replace(/\*(.+?)\*/g, '<em>$1</em>');
         html = html.replace(/_(.+?)_/g, '<em>$1</em>');
 
@@ -652,14 +661,12 @@
 
         // 无序列表 (- item 或 * item)
         html = html.replace(/^[\-\*]\s+(.*)$/gm, '<li>$1</li>');
-        html = html.replace(/(<li>.*<\/li>(\s*<li>.*<\/li>)*)/g, '<ul>$1</ul>');
+        html = html.replace(/(<li>.*<\/li>(?:\s*<li>.*<\/li>)*)/g, '<ul>$1</ul>');
 
         // 有序列表 (1. item)
         html = html.replace(/^\d+\.\s+(.*)$/gm, '<li>$1</li>');
 
-        // 表格 — 完整支持：识别markdown表格块，区分表头/数据行，生成标准<table>结构
-        // 包裹在可滚动容器中，手机端可左右滑动
-        // 匹配连续的表格行（以 | 开头和结尾），中间包含分隔行（|---|）
+        // 表格 — 完整支持
         html = html.replace(/(^\|.+\|\s*\n)(^\|[-| :]+\|\s*\n)((\|.+\|\s*\n)*)/gm, (match, headerLine, sepLine, bodyLines) => {
             const parseRow = (line, isHeader) => {
                 const cells = line.split('|').filter(c => c.trim());
@@ -671,7 +678,7 @@
             const table = `<table><thead>${thead}</thead>${tbody ? '<tbody>' + tbody + '</tbody>' : ''}</table>`;
             return `<div class="table-wrap">${table}</div>`;
         });
-        // 兜底：无分隔行的单行表格（简单数据展示）
+        // 兜底：无分隔行的单行表格
         html = html.replace(/(^\|.+\|\s*\n)+/gm, (match) => {
             const rows = match.trim().split('\n').map(l => {
                 const cells = l.split('|').filter(c => c.trim());
@@ -680,13 +687,14 @@
             return `<div class="table-wrap"><table>${rows}</table></div>`;
         });
 
-        // 段落 (双换行)
+        // 段落处理 — 用行级标签分割代替全局包裹，避免破坏已有结构
+        // 只在纯文本行之间添加段落
         html = html.replace(/\n\n/g, '</p><p>');
         html = '<p>' + html + '</p>';
 
-        // 清理嵌套标签（表格/容器标签也需要解包）
-        html = html.replace(/<p>\s*<(div|ul|ol|li|h[1-5]|hr|pre|blockquote|table|thead|tbody|tr|th|td)/g, '<$1');
-        html = html.replace(/<\/(div|ul|ol|li|h[1-5]|hr|pre|blockquote|table|thead|tbody|tr|th|td)>\s*<\/p>/g, '</$1>');
+        // 清理嵌套标签：将块级标签从<p>中解出
+        html = html.replace(/<p>\s*<(div|ul|ol|li|h[1-5]|hr|pre|blockquote|table|thead|tbody|tr|th|td|figure|figcaption|dl|dt|dd)/g, '<$1');
+        html = html.replace(/<\/(div|ul|ol|li|h[1-5]|hr|pre|blockquote|table|thead|tbody|tr|th|td|figure|figcaption|dl|dt|dd)>\s*<\/p>/g, '</$1>');
         html = html.replace(/<p>\s*<\/p>/g, '');
         html = html.replace(/<li><\/li>/g, '');
 
