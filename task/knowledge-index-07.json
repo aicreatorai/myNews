@@ -1138,5 +1138,65 @@
     "depth": "前沿层",
     "angle": "MoE与VLM融合趋势",
     "keywords_snippet": "MoE VLM 模态感知路由 多模态融合"
+  },
+  {
+    "module": "07",
+    "date": "2026-07-17",
+    "topic": "扩散语言模型",
+    "title": "扩散语言模型：用并行雕刻替代逐字蹦把文本生成提速数十倍",
+    "level": "L1",
+    "depth": "生成范式",
+    "angle": "生成范式对比",
+    "keywords_snippet": "扩散语言模型,Nemotron-Labs-Diffusion,三模式,自回归"
+  },
+  {
+    "module": "07",
+    "date": "2026-07-17",
+    "topic": "混合稀疏注意力",
+    "title": "混合稀疏注意力：以1比11极端稀疏比把KV缓存压掉十倍",
+    "level": "L2",
+    "depth": "架构原理",
+    "angle": "推理优化",
+    "keywords_snippet": "High Sparse,MiMo-V3,跨层KV共享,稀疏注意力"
+  },
+  {
+    "module": "07",
+    "date": "2026-07-17",
+    "topic": "单层RL后训练",
+    "title": "单层RL后训练：仅训练一个Transformer层即可匹敌全参数RL",
+    "level": "L3",
+    "depth": "后训练研究",
+    "angle": "RL对齐",
+    "keywords_snippet": "Is One Layer Enough,单层RL,RLVR,层级收益"
+  },
+  {
+    "module": "07",
+    "date": "2026-07-17",
+    "topic": "无编码器统一多模态",
+    "title": "无编码器统一多模态：将图像与音频直接送入LLM主干",
+    "level": "L1",
+    "depth": "架构原理",
+    "angle": "多模态架构",
+    "keywords_snippet": "Gemma 4,无编码器,统一多模态,端侧"
+  },
+  {
+    "module": "07",
+    "date": "2026-07-17",
+    "topic": "原生RAG",
+    "title": "原生RAG：把检索增强内化为模型能力而非外挂管线",
+    "level": "L2",
+    "depth": "检索增强",
+    "angle": "复合系统原生吸收",
+    "keywords_snippet": "原生RAG,DeepSeek V4,复合系统,外挂叠罗汉"
+  },
+  {
+    "module": "07",
+    "date": "2026-07-17",
+    "topic": "MOPD多教师在线策略蒸馏",
+    "title": "MOPD多教师在线策略蒸馏：用师生log概率之差无损融合专家能力",
+    "level": "L3",
+    "depth": "后训练蒸馏",
+    "angle": "知识蒸馏",
+    "keywords_snippet": "MOPD,多教师蒸馏,MiMo,无损融合"
   }
 ]

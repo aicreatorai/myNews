@@ -828,5 +828,65 @@
     "depth": "前沿层",
     "angle": "RaaS按结果付费模式的产品逻辑与PM实操落地指南",
     "keywords_snippet": "RaaS 按结果付费 Outcome-based Sierra 销售易"
+  },
+  {
+    "module": "15",
+    "date": "2026-07-17",
+    "topic": "AI智能渐进式披露",
+    "title": "AI智能渐进式披露:让能力在对的时机自然浮现而非一次性倾倒",
+    "level": "L2",
+    "depth": "实战",
+    "angle": "产品设计",
+    "keywords_snippet": "渐进式披露 情境触发 能力阶梯"
+  },
+  {
+    "module": "15",
+    "date": "2026-07-17",
+    "topic": "AI优雅降级容错设计",
+    "title": "AI优雅降级设计:当模型幻觉或API超时时产品如何守住可用性",
+    "level": "L2",
+    "depth": "实战",
+    "angle": "产品设计",
+    "keywords_snippet": "优雅降级 容错 兜底 三态"
+  },
+  {
+    "module": "15",
+    "date": "2026-07-17",
+    "topic": "机器可读行为治理",
+    "title": "机器可读行为治理:用规则约束让概率性输出保持品牌一致性",
+    "level": "L3",
+    "depth": "体系",
+    "angle": "产品设计",
+    "keywords_snippet": "机器可读 行为治理 设计系统 约束"
+  },
+  {
+    "module": "15",
+    "date": "2026-07-17",
+    "topic": "透明化展示工作交互",
+    "title": "透明化展示工作:用进度、理由与不确定性重建用户信任",
+    "level": "L1",
+    "depth": "概念",
+    "angle": "交互范式",
+    "keywords_snippet": "透明化 展示工作 进度 理由 不确定性"
+  },
+  {
+    "module": "15",
+    "date": "2026-07-17",
+    "topic": "约束先于能力规则引擎",
+    "title": "约束先于能力:B端AI用规则引擎把幻觉率从30%压至0.8%",
+    "level": "L3",
+    "depth": "实战",
+    "angle": "产品设计",
+    "keywords_snippet": "约束优先 规则引擎 幻觉率 工单"
+  },
+  {
+    "module": "15",
+    "date": "2026-07-17",
+    "topic": "工作流深度嵌入留存",
+    "title": "工作流深度嵌入:把AI做成用户必经步骤而非悬浮选项",
+    "level": "L2",
+    "depth": "实战",
+    "angle": "增长留存",
+    "keywords_snippet": "工作流嵌入 渗透率 留存 迁移成本"
   }
 ]

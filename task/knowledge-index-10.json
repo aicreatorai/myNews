@@ -788,5 +788,65 @@
     "depth": "深度解析",
     "angle": "浏览器自动化",
     "keywords_snippet": "Playwright AI辅助定位 浏览器自动化"
+  },
+  {
+    "module": "10",
+    "date": "2026-07-17",
+    "topic": "GitHub Copilot SDK",
+    "title": "GitHub Copilot SDK：把 Copilot 智能体嵌进你自己的应用与服务的官方 SDK",
+    "level": "L2",
+    "depth": "实战",
+    "angle": "上手教程",
+    "keywords_snippet": "Copilot SDK 智能体 可编程 Agent REST API 云代理"
+  },
+  {
+    "module": "10",
+    "date": "2026-07-17",
+    "topic": "Graphify",
+    "title": "Graphify：把任意代码库/Schema/文档变成可查询知识图谱的 AI 编码技能",
+    "level": "L2",
+    "depth": "实战",
+    "angle": "上手教程",
+    "keywords_snippet": "Graphify 知识图谱 tree-sitter GraphRAG 代码检索 Agent 技能"
+  },
+  {
+    "module": "10",
+    "date": "2026-07-17",
+    "topic": "Strix",
+    "title": "Strix：像真实黑客一样全自动渗透测试、自己验证漏洞的开源 AI 安全工具",
+    "level": "L2",
+    "depth": "实战",
+    "angle": "上手教程",
+    "keywords_snippet": "Strix AI 渗透测试 多智能体 PoC 验证 安全"
+  },
+  {
+    "module": "10",
+    "date": "2026-07-17",
+    "topic": "Hoppscotch",
+    "title": "Hoppscotch：轻量开源 API 调试平台，Postman 的极速替代方案",
+    "level": "L1",
+    "depth": "入门",
+    "angle": "上手教程",
+    "keywords_snippet": "Hoppscotch API 调试 Postman 替代 REST GraphQL WebSocket"
+  },
+  {
+    "module": "10",
+    "date": "2026-07-17",
+    "topic": "LocalStack",
+    "title": "LocalStack：在本地模拟 AWS 云服务的开源利器，省下真金白银的云账单",
+    "level": "L2",
+    "depth": "实战",
+    "angle": "上手教程",
+    "keywords_snippet": "LocalStack AWS 本地模拟 Docker 云集成测试 CI"
+  },
+  {
+    "module": "10",
+    "date": "2026-07-17",
+    "topic": "awesome-llm-apps",
+    "title": "awesome-llm-apps：100+ 可一键运行的 AI Agent 与 RAG 应用合集",
+    "level": "L1",
+    "depth": "入门",
+    "angle": "资源导航",
+    "keywords_snippet": "awesome-llm-apps LLM 应用 Agent RAG 可运行示例 模板"
   }
 ]

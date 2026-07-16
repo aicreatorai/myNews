@@ -658,5 +658,65 @@
     "depth": "概念层",
     "angle": "TIOBE排行数据解读与编程语言趋势分析",
     "keywords_snippet": "TIOBE 2026年6月 Rust 第12名 Python C++"
+  },
+  {
+    "module": "09",
+    "date": "2026-07-17",
+    "topic": "Python 3.15 Beta 自由线程",
+    "title": "Python 3.15 Beta出炉：自由线程延迟引用计数落地，无GIL多核并行走向生产",
+    "level": "L2",
+    "depth": "实战",
+    "angle": "上手教程",
+    "keywords_snippet": "Python 3.15 自由线程 延迟引用计数 GIL JIT"
+  },
+  {
+    "module": "09",
+    "date": "2026-07-17",
+    "topic": "JavaScript ES2026",
+    "title": "JavaScript 2026进化：ES2025定稿与ES2026提案，原生类型化JS在路上",
+    "level": "L1",
+    "depth": "实战",
+    "angle": "上手教程",
+    "keywords_snippet": "JavaScript ECMAScript 2025 2026 TypeScript Node"
+  },
+  {
+    "module": "09",
+    "date": "2026-07-17",
+    "topic": "Rust 1.96 TIOBE",
+    "title": "Rust 1.96稳定extern custom与首入TIOBE前十：所有权安全成系统编程标杆",
+    "level": "L3",
+    "depth": "实战",
+    "angle": "上手教程",
+    "keywords_snippet": "Rust 1.96 extern custom TIOBE 所有权 内存安全"
+  },
+  {
+    "module": "09",
+    "date": "2026-07-17",
+    "topic": "Go 2026 泛型与new函数",
+    "title": "Go 1.26语言增强：new()函数升级与泛型递归约束，工具链全面进化",
+    "level": "L2",
+    "depth": "实战",
+    "angle": "上手教程",
+    "keywords_snippet": "Go 1.26 new函数 泛型 约束 工具链"
+  },
+  {
+    "module": "09",
+    "date": "2026-07-17",
+    "topic": "TIOBE 2026年7月",
+    "title": "TIOBE 2026年7月榜：Rust历史性首入前十，Python霸榜C反超C++",
+    "level": "L1",
+    "depth": "实战",
+    "angle": "上手教程",
+    "keywords_snippet": "TIOBE 2026年7月 Rust 前十 Python C C++"
+  },
+  {
+    "module": "09",
+    "date": "2026-07-17",
+    "topic": "AI辅助编程语言趋势",
+    "title": "AI辅助编程重塑2026语言格局：类型系统成护栏，Rust/Go蚕食Python生产层",
+    "level": "L2",
+    "depth": "实战",
+    "angle": "上手教程",
+    "keywords_snippet": "AI辅助编程 类型系统 护栏 Python Rust Go 趋势"
   }
 ]

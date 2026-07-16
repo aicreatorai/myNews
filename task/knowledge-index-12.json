@@ -788,5 +788,65 @@
     "depth": "基础层",
     "angle": "创业融资",
     "keywords_snippet": "AI 创业 融资 资本市场 商业化 财务 指标 估值"
+  },
+  {
+    "module": "12",
+    "date": "2026-07-17",
+    "topic": "AI Token工厂",
+    "title": "1. 【趋境科技AI Token工厂完成A轮：半年募资超10亿的Token-as-a-Service生意】",
+    "level": "L2",
+    "depth": "实战",
+    "angle": "商业分析",
+    "keywords_snippet": "Token-as-a-Service ATaaS 推理工厂 异构协同 算力产能"
+  },
+  {
+    "module": "12",
+    "date": "2026-07-17",
+    "topic": "AI应用产品矩阵",
+    "title": "2. 【演语科技B+轮募资约21亿：LiblibAI跑通中国AI应用产品矩阵】",
+    "level": "L2",
+    "depth": "实战",
+    "angle": "商业分析",
+    "keywords_snippet": "LiblibAI 演语科技 产品矩阵 PMF ARR 星流 LibTV"
+  },
+  {
+    "module": "12",
+    "date": "2026-07-17",
+    "topic": "AI视频生成独角兽",
+    "title": "3. 【爱诗科技C轮累计募资近30亿：AI视频生成公司跻身独角兽】",
+    "level": "L2",
+    "depth": "实战",
+    "angle": "商业分析",
+    "keywords_snippet": "爱诗科技 视频生成 C轮 阿里领投 世界模型 独角兽"
+  },
+  {
+    "module": "12",
+    "date": "2026-07-17",
+    "topic": "具身智能可信安全",
+    "title": "4. 【无界智航近亿元天使轮：具身智能可信安全成差异化切口】",
+    "level": "L2",
+    "depth": "实战",
+    "angle": "商业分析",
+    "keywords_snippet": "无界智航 Physical AI 具身智能 安全底座 天使轮"
+  },
+  {
+    "module": "12",
+    "date": "2026-07-17",
+    "topic": "AI短剧工具",
+    "title": "5. 【AniShort近亿元融资：AI短剧工具跑出一人制片厂模式】",
+    "level": "L2",
+    "depth": "实战",
+    "angle": "商业分析",
+    "keywords_snippet": "AniShort 八点八数字 AI短剧 一人制片厂 炫佳 Kino"
+  },
+  {
+    "module": "12",
+    "date": "2026-07-17",
+    "topic": "GPT Factory训推一体机",
+    "title": "6. 【昆仑元一年订单破2亿：GPT Factory训推一体机做企业本地大脑】",
+    "level": "L2",
+    "depth": "实战",
+    "angle": "商业分析",
+    "keywords_snippet": "昆仑元 GPT Factory 训推一体机 私有化 订单 估值"
   }
 ]
