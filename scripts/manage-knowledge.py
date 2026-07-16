@@ -48,7 +48,15 @@ def load(module_id=None):
         path = _module_path(module_id)
         if not os.path.exists(path):
             return []
-        return _read_json(path)
+        data = _read_json(path)
+        # 兼容历史数据：文件可能被包裹成 list[list[dict]]，展平为 list[dict]
+        flat = []
+        for item in data:
+            if isinstance(item, list):
+                flat.extend(item)
+            else:
+                flat.append(item)
+        return flat
 
     # 合并所有模块（仅 list --all 时使用）
     all_data = []
@@ -170,7 +178,8 @@ def list_module(module_id):
         print(f"📭 [{module_id}] 暂无记录")
         return
     print(f"📚 [{module_id}] 共 {len(entries)} 条记录：")
-    for e in sorted(entries, key=lambda x: x["date"], reverse=True):
+    valid = [e for e in entries if isinstance(e, dict) and "date" in e]
+    for e in sorted(valid, key=lambda x: x["date"], reverse=True):
         print(f"  {e['date']} | {e['level']} | {e['topic']} | {e['angle']}")
 
 if __name__ == "__main__":
