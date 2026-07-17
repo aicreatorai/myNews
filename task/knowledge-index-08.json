@@ -936,5 +936,65 @@
     "depth": "实战",
     "angle": "上手教程",
     "keywords_snippet": "Zapier 无代码 自动化 6000+应用 AI动作"
+  },
+  {
+    "module": "08",
+    "date": "2026-07-18",
+    "topic": "GitHub Copilot 代理模式",
+    "title": "GitHub Copilot 实战：用代理模式把需求拆成可运行代码",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "Agent Mode 读仓库跑测试闭环开发",
+    "keywords_snippet": "Copilot Agent Mode 多文件编辑 CI 工作流"
+  },
+  {
+    "module": "08",
+    "date": "2026-07-18",
+    "topic": "腾讯元宝文档问答",
+    "title": "腾讯元宝文档问答实战：把百页 PDF 变成可追问的知识库",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "文档切片向量检索多轮追问",
+    "keywords_snippet": "元宝 文档问答 PDF 知识库 混元 RAG"
+  },
+  {
+    "module": "08",
+    "date": "2026-07-18",
+    "topic": "ChatGPT/Claude 提示词框架",
+    "title": "ChatGPT/Claude 提示词结构化工作法：用角色+约束+示例让输出一次过",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "五段式提示词结构提升一次过命中率",
+    "keywords_snippet": "提示词 角色锚定 边界设定 示例约束 写作工作流"
+  },
+  {
+    "module": "08",
+    "date": "2026-07-18",
+    "topic": "秘塔 AI 搜索溯源",
+    "title": "秘塔 AI 搜索溯源实操：用有出处的答案写出可信调研笔记",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "RAG 式搜索带出处降低幻觉",
+    "keywords_snippet": "秘塔 有出处搜索 溯源 调研笔记 RAG"
+  },
+  {
+    "module": "08",
+    "date": "2026-07-18",
+    "topic": "MiniMax 海螺 AI 配音",
+    "title": "MiniMax 海螺 AI 实战：用自然语言生成带情绪的配音与短片",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "神经编解码器情绪化 TTS 与图生视频",
+    "keywords_snippet": "海螺 AI 情绪配音 图生视频 对口型 短视频"
+  },
+  {
+    "module": "08",
+    "date": "2026-07-18",
+    "topic": "Dify 低代码搭 Agent",
+    "title": "Dify 低代码搭 Agent：不写代码做出能调用工具的智能助手",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "可视化编排开源私有化 AI 应用",
+    "keywords_snippet": "Dify 工作流 Agent 知识库 私有化 低代码"
   }
 ]

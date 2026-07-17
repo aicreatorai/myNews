@@ -848,5 +848,65 @@
     "depth": "实战",
     "angle": "商业分析",
     "keywords_snippet": "昆仑元 GPT Factory 训推一体机 私有化 订单 估值"
+  },
+  {
+    "module": "12",
+    "date": "2026-07-18",
+    "topic": "非技术创始人AI SaaS（Launch Fast）",
+    "title": "零代码48小时造SaaS：非技术创始人月入约21万元",
+    "level": "L2",
+    "depth": "实践层",
+    "angle": "行业专家+AI编程工具把痛点变收费产品",
+    "keywords_snippet": "Cursor, Micro SaaS, 亚马逊选品, 零代码"
+  },
+  {
+    "module": "12",
+    "date": "2026-07-18",
+    "topic": "一人公司MVP验证闭环",
+    "title": "一人公司AI加速MVP：小微工具月入5万模型",
+    "level": "L2",
+    "depth": "实践层",
+    "angle": "小切口+快验证+轻资产国内获客打法",
+    "keywords_snippet": "MVP, 一人公司, 小红书, 39元订阅"
+  },
+  {
+    "module": "12",
+    "date": "2026-07-18",
+    "topic": "独立开发者MRR冷启动（AI播客工具）",
+    "title": "零投放做AI播客工具：一人月入约85万元",
+    "level": "L2",
+    "depth": "实践层",
+    "angle": "垂直场景+订阅制+Product Hunt零成本获客",
+    "keywords_snippet": "Product Hunt, 播客生成, 订阅制, 零投放"
+  },
+  {
+    "module": "12",
+    "date": "2026-07-18",
+    "topic": "AI Agent卖结果（SEOBOT）",
+    "title": "AI SEO代理卖结果不卖工具：一人月入约40万元",
+    "level": "L2",
+    "depth": "实践层",
+    "angle": "从卖能力到卖结果的AI代理变现",
+    "keywords_snippet": "AI Agent, SEO, 结果付费, 49美元订阅"
+  },
+  {
+    "module": "12",
+    "date": "2026-07-18",
+    "topic": "AI出海MoR收款",
+    "title": "AI出海收款最后一公里：MoR模式5分钟收全球款",
+    "level": "L2",
+    "depth": "实践层",
+    "angle": "无海外主体用MoR平台合规收全球款",
+    "keywords_snippet": "MoR, Stripe, 跨境收款, 合规, Waffo"
+  },
+  {
+    "module": "12",
+    "date": "2026-07-18",
+    "topic": "一人公司技术栈SOP",
+    "title": "一人公司技术栈SOP：64天用AI撑起全流程",
+    "level": "L2",
+    "depth": "实践层",
+    "angle": "职能到工具映射的64天工作流SOP",
+    "keywords_snippet": "Coze, ComfyUI, HeyGen, Ollama, 工作流"
   }
 ]

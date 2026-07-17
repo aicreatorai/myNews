@@ -848,5 +848,65 @@
     "depth": "入门",
     "angle": "资源导航",
     "keywords_snippet": "awesome-llm-apps LLM 应用 Agent RAG 可运行示例 模板"
+  },
+  {
+    "module": "10",
+    "date": "2026-07-18",
+    "topic": "Caveman",
+    "title": "Caveman：用穴居人语言写Prompt给Claude Code，省65% Token的AI编程技能",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "Prompt压缩降低Token成本",
+    "keywords_snippet": "Claude Code skill, Token节省, 提示工程"
+  },
+  {
+    "module": "10",
+    "date": "2026-07-18",
+    "topic": "OpenCode",
+    "title": "OpenCode：住在终端里的开源AI编程Agent，双代理模式兼顾效率与安全",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "终端AI编码代理与权限分级",
+    "keywords_snippet": "终端Agent, 双代理, MIT"
+  },
+  {
+    "module": "10",
+    "date": "2026-07-18",
+    "topic": "AI Website Cloner",
+    "title": "AI Website Cloner：给个网址多Agent协作几分钟还原整套可运行前端代码的网站克隆工具",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "多Agent网站克隆流水线",
+    "keywords_snippet": "Next.js, 多Agent, 前端生成"
+  },
+  {
+    "module": "10",
+    "date": "2026-07-18",
+    "topic": "Page Agent",
+    "title": "Page Agent：一行JS让企业内部网页听懂人话，阿里开源的网页自然语言操控工具",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "DOM文本化驱动网页自然语言操控",
+    "keywords_snippet": "阿里, 网页自动化, RPA"
+  },
+  {
+    "module": "10",
+    "date": "2026-07-18",
+    "topic": "Meetily",
+    "title": "Meetily：基于Rust的隐私优先本地AI会议助手，4倍速实时转录与说话人分离",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "本地隐私优先会议转录",
+    "keywords_snippet": "Rust, Whisper, 说话人分离"
+  },
+  {
+    "module": "10",
+    "date": "2026-07-18",
+    "topic": "Herdr",
+    "title": "Herdr：用Rust写的高性能终端Agent多路复用器，一台终端并发管理多个AI智能体",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "终端多Agent并发调度",
+    "keywords_snippet": "Rust, 终端多路复用, 多Agent"
   }
 ]

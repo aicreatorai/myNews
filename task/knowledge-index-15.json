@@ -948,5 +948,65 @@
     "depth": "实战",
     "angle": "产品设计",
     "keywords_snippet": "五力模型 规则设计 数据闭环 模型行为管理 转型"
+  },
+  {
+    "module": "15",
+    "date": "2026-07-18",
+    "topic": "AI产品定价重构",
+    "title": "AI产品定价重构：从按人头到按消耗按结果的四层模型",
+    "level": "L2",
+    "depth": "实践层",
+    "angle": "用量与结果计费替代按席位订阅",
+    "keywords_snippet": "定价/用量计费/结果计费"
+  },
+  {
+    "module": "15",
+    "date": "2026-07-18",
+    "topic": "编排者思维与多Agent工作流",
+    "title": "编排者思维：AI产品经理如何用多Agent工作流把产能翻倍",
+    "level": "L2",
+    "depth": "实践层",
+    "angle": "多Agent并行编排提升产品交付产能",
+    "keywords_snippet": "编排者/Agent/工作流/产能"
+  },
+  {
+    "module": "15",
+    "date": "2026-07-18",
+    "topic": "RAG与Prompt产品化",
+    "title": "RAG与Prompt产品化：把提示词与知识库沉淀为产品护城河",
+    "level": "L2",
+    "depth": "实践层",
+    "angle": "提示词与知识库封装为产品壁垒",
+    "keywords_snippet": "RAG/Prompt/知识库/护城河"
+  },
+  {
+    "module": "15",
+    "date": "2026-07-18",
+    "topic": "GEO生成式引擎优化",
+    "title": "GEO生成式引擎优化：AI产品如何抢占AI答案端获客流量",
+    "level": "L2",
+    "depth": "实践层",
+    "angle": "AI信源占位抢占答案端获客",
+    "keywords_snippet": "GEO/生成式引擎优化/获客"
+  },
+  {
+    "module": "15",
+    "date": "2026-07-18",
+    "topic": "场景定义产品法",
+    "title": "场景定义产品法：用生活流需求分层替代功能堆砌",
+    "level": "L2",
+    "depth": "实践层",
+    "angle": "用户需求分层与场景定义替代功能堆叠",
+    "keywords_snippet": "场景定义/生活流/需求分层"
+  },
+  {
+    "module": "15",
+    "date": "2026-07-18",
+    "topic": "AI出海支付与跨境结算",
+    "title": "AI出海支付与跨境结算：多币种与本地支付落地指南",
+    "level": "L2",
+    "depth": "实践层",
+    "angle": "多币种与本地支付落地出海变现",
+    "keywords_snippet": "出海/跨境结算/本地支付"
   }
 ]

@@ -1258,5 +1258,65 @@
     "depth": "原理",
     "angle": "工程落地",
     "keywords_snippet": "MOPD,多教师蒸馏,log概率差,MiMo"
+  },
+  {
+    "module": "07",
+    "date": "2026-07-18",
+    "topic": "MCP协议",
+    "title": "MCP协议2026大修订：让AI智能体从会对话升级到能执行",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "从对话到执行的Agent工具连接标准",
+    "keywords_snippet": "MCP,Model Context Protocol,工具调用,能力发现,可治理"
+  },
+  {
+    "module": "07",
+    "date": "2026-07-18",
+    "topic": "端侧小模型",
+    "title": "端侧小模型实战：把27B大模型塞进手机与嵌入式开发板",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "极端量化把27B模型塞进手机与开发板",
+    "keywords_snippet": "端侧AI,量化,Bonsai 27B,MLC-LLM,离线推理"
+  },
+  {
+    "module": "07",
+    "date": "2026-07-18",
+    "topic": "向量检索与Embedding",
+    "title": "向量检索与Embedding：用稠密向量让语义搜索不再字面对不上",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "稠密向量语义召回与RAG基础",
+    "keywords_snippet": "Embedding,向量检索,pgvector,Reranker,语义搜索"
+  },
+  {
+    "module": "07",
+    "date": "2026-07-18",
+    "topic": "多Agent编排架构",
+    "title": "多Agent编排架构：用角色分工与共享记忆把复杂任务拆给智能体团队",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "角色分工与共享记忆的协作范式",
+    "keywords_snippet": "多Agent,编排,AutoGen,ReAct,共享记忆"
+  },
+  {
+    "module": "07",
+    "date": "2026-07-18",
+    "topic": "DPO与GRPO对齐",
+    "title": "DPO与GRPO对齐：用偏好数据训练出更听话的大模型",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "用偏好/可验证信号直接对齐",
+    "keywords_snippet": "DPO,GRPO,对齐,偏好优化,RLHF"
+  },
+  {
+    "module": "07",
+    "date": "2026-07-18",
+    "topic": "Agent应用落地评测",
+    "title": "Agent应用落地评测：用benchmark给智能体的真实能力画清边界",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "组件级benchmark诊断Agent能力",
+    "keywords_snippet": "Agent评测,benchmark,DexVerse,UniClawBench,能力组件"
   }
 ]

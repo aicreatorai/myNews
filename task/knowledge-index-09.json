@@ -718,5 +718,65 @@
     "depth": "实战",
     "angle": "上手教程",
     "keywords_snippet": "AI辅助编程 类型系统 护栏 Python Rust Go 趋势"
+  },
+  {
+    "module": "09",
+    "date": "2026-07-18",
+    "topic": "Python 3.14 自由线程",
+    "title": "Python 3.14 自由线程落地：GIL 可选移除，t-strings 与实验性 JIT 同登场",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "GIL 可选移除与执行模型演进",
+    "keywords_snippet": "Python 3.14, GIL, free-threading, t-strings, PEP 779, JIT"
+  },
+  {
+    "module": "09",
+    "date": "2026-07-18",
+    "topic": "TypeScript 类型系统",
+    "title": "TypeScript 类型系统演进：satisfies 与 const 类型参数如何重塑类型推导",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "类型推导与 satisfies/const 类型参数",
+    "keywords_snippet": "TypeScript, satisfies, const 类型参数, 类型系统, 类型推导"
+  },
+  {
+    "module": "09",
+    "date": "2026-07-18",
+    "topic": "Go 1.27 泛型方法",
+    "title": "Go 1.27 泛型方法终于落地，标准库内建 UUID 与后量子加密",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "泛型方法与标准库现代化",
+    "keywords_snippet": "Go 1.27, 泛型方法, uuid, json/v2, 后量子加密"
+  },
+  {
+    "module": "09",
+    "date": "2026-07-18",
+    "topic": "Rust 2024 Edition",
+    "title": "Rust 2024 Edition 异步生态成熟：async 闭包、Tonic 入编与 TIOBE 首进前十",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "async 闭包与生态/排名",
+    "keywords_snippet": "Rust, 2024 Edition, async 闭包, Tonic, TIOBE"
+  },
+  {
+    "module": "09",
+    "date": "2026-07-18",
+    "topic": "Swift 6.3",
+    "title": "Swift 6.3 并发诊断升级与 @c 互操作：官方 Android SDK 打通跨端",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "并发诊断与 C 互操作/跨端",
+    "keywords_snippet": "Swift 6.3, @c, 并发, Android SDK, 模块选择器"
+  },
+  {
+    "module": "09",
+    "date": "2026-07-18",
+    "topic": "C# 14",
+    "title": "C# 14 新特性落地：字段关键词、扩展能力与现代 .NET 生态演进",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "扩展成员与 field 关键词",
+    "keywords_snippet": "C# 14, 扩展成员, field, .NET 10, Span"
   }
 ]
