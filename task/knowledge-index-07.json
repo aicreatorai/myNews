@@ -1198,5 +1198,65 @@
     "depth": "后训练蒸馏",
     "angle": "知识蒸馏",
     "keywords_snippet": "MOPD,多教师蒸馏,MiMo,无损融合"
+  },
+  {
+    "module": "07",
+    "date": "2026-07-17",
+    "topic": "扩散语言模型",
+    "title": "扩散语言模型：用“并行雕刻”替代“逐字蹦”把文本生成提速数十倍",
+    "level": "L2",
+    "depth": "原理",
+    "angle": "工程落地",
+    "keywords_snippet": "扩散语言模型,Nemotron-Labs-Diffusion,掩码扩散,并行生成"
+  },
+  {
+    "module": "07",
+    "date": "2026-07-17",
+    "topic": "混合稀疏注意力",
+    "title": "混合稀疏注意力：以 1:11 极端稀疏比把 KV 缓存压掉十倍",
+    "level": "L3",
+    "depth": "原理",
+    "angle": "工程落地",
+    "keywords_snippet": "混合稀疏注意力,High Sparse,KV缓存,跨层共享"
+  },
+  {
+    "module": "07",
+    "date": "2026-07-17",
+    "topic": "单层RL后训练",
+    "title": "单层 RL 后训练：仅训练一个 Transformer 层即可匹敌全参数 RL",
+    "level": "L4",
+    "depth": "原理",
+    "angle": "工程落地",
+    "keywords_snippet": "单层RL,RLVR,基石层,逐层扫描"
+  },
+  {
+    "module": "07",
+    "date": "2026-07-17",
+    "topic": "无编码器统一多模态",
+    "title": "无编码器统一多模态：将图像与音频直接送入 LLM 主干",
+    "level": "L2",
+    "depth": "原理",
+    "angle": "工程落地",
+    "keywords_snippet": "无编码器多模态,Gemma 4,投影层,端侧"
+  },
+  {
+    "module": "07",
+    "date": "2026-07-17",
+    "topic": "原生RAG",
+    "title": "原生 RAG：把检索增强内化为模型能力而非外挂管线",
+    "level": "L3",
+    "depth": "原理",
+    "angle": "工程落地",
+    "keywords_snippet": "原生RAG,DeepSeek V4,Agentic RAG,检索内化"
+  },
+  {
+    "module": "07",
+    "date": "2026-07-17",
+    "topic": "MOPD多教师在线策略蒸馏",
+    "title": "MOPD 多教师在线策略蒸馏：用师生 log 概率之差无损融合专家能力",
+    "level": "L4",
+    "depth": "原理",
+    "angle": "工程落地",
+    "keywords_snippet": "MOPD,多教师蒸馏,log概率差,MiMo"
   }
 ]

@@ -888,5 +888,65 @@
     "depth": "实战",
     "angle": "增长留存",
     "keywords_snippet": "工作流嵌入 渗透率 留存 迁移成本"
+  },
+  {
+    "module": "15",
+    "date": "2026-07-17",
+    "topic": "AI PM思维范式重构",
+    "title": "AI PM思维范式重构：从功能定义到意图编排",
+    "level": "L2",
+    "depth": "实战",
+    "angle": "产品设计",
+    "keywords_snippet": "意图编排 系统优先 协作者 Human-in-the-loop 透明信任"
+  },
+  {
+    "module": "15",
+    "date": "2026-07-17",
+    "topic": "AI产品竞品逆向拆解",
+    "title": "AI产品竞品逆向拆解：四新维度看清对手底牌",
+    "level": "L2",
+    "depth": "实战",
+    "angle": "产品设计",
+    "keywords_snippet": "模型策略逆向 Prompt反推 数据飞轮 Agent架构 拆解"
+  },
+  {
+    "module": "15",
+    "date": "2026-07-17",
+    "topic": "大模型选型决策框架",
+    "title": "大模型选型决策框架：成本能力延迟合规四维",
+    "level": "L2",
+    "depth": "实战",
+    "angle": "产品设计",
+    "keywords_snippet": "成本 能力 延迟 合规 多模型调度 混合架构"
+  },
+  {
+    "module": "15",
+    "date": "2026-07-17",
+    "topic": "RAG产品化设计",
+    "title": "RAG产品化设计：把知识库检索做成可信体验",
+    "level": "L2",
+    "depth": "实战",
+    "angle": "产品设计",
+    "keywords_snippet": "RAG 检索增强 召回混合 版本管控 引用溯源"
+  },
+  {
+    "module": "15",
+    "date": "2026-07-17",
+    "topic": "AI时代PM工具链升级",
+    "title": "AI时代PM工具链升级：PRD到评测看板闭环",
+    "level": "L2",
+    "depth": "实战",
+    "angle": "产品设计",
+    "keywords_snippet": "AI协作者 研究合成 PRD生成 评测看板 工具链"
+  },
+  {
+    "module": "15",
+    "date": "2026-07-17",
+    "topic": "AI PM能力模型与转型",
+    "title": "AI PM能力模型与转型：2026技能栈重构路径",
+    "level": "L2",
+    "depth": "实战",
+    "angle": "产品设计",
+    "keywords_snippet": "五力模型 规则设计 数据闭环 模型行为管理 转型"
   }
 ]

@@ -876,5 +876,65 @@
     "depth": "实战",
     "angle": "上手教程",
     "keywords_snippet": "Zapier 无代码 自动化 工作流 AI动作 触发器 集成"
+  },
+  {
+    "module": "08",
+    "date": "2026-07-17",
+    "topic": "WPS AI",
+    "title": "1.【WPS AI：嵌在办公套件里的写作助手，中文排版零负担】",
+    "level": "L2",
+    "depth": "实战",
+    "angle": "上手教程",
+    "keywords_snippet": "WPS AI 办公套件 中文排版 智能表格 PPT"
+  },
+  {
+    "module": "08",
+    "date": "2026-07-17",
+    "topic": "飞书AI",
+    "title": "2.【飞书AI：把团队知识库变成会回答的同事，纪要 AI 写】",
+    "level": "L2",
+    "depth": "实战",
+    "angle": "上手教程",
+    "keywords_snippet": "飞书AI 知识AI 会议纪要 RAG 多维表格"
+  },
+  {
+    "module": "08",
+    "date": "2026-07-17",
+    "topic": "办公小浣熊",
+    "title": "3.【办公小浣熊：商汤出品的多文件分析师，上传表格秒出图表】",
+    "level": "L2",
+    "depth": "实战",
+    "angle": "上手教程",
+    "keywords_snippet": "办公小浣熊 商汤 多文件分析 数据清洗 可视化"
+  },
+  {
+    "module": "08",
+    "date": "2026-07-17",
+    "topic": "Canva AI",
+    "title": "4.【Canva AI：用一句话生成整套设计，社媒配图效率翻五倍】",
+    "level": "L2",
+    "depth": "实战",
+    "angle": "上手教程",
+    "keywords_snippet": "Canva AI Magic Design 社媒配图 品牌套件 去背景"
+  },
+  {
+    "module": "08",
+    "date": "2026-07-17",
+    "topic": "NotebookLM",
+    "title": "5.【NotebookLM：把资料喂给 AI 生成播客，私人研究助理】",
+    "level": "L2",
+    "depth": "实战",
+    "angle": "上手教程",
+    "keywords_snippet": "NotebookLM Google 证据生成 Audio Overview 溯源"
+  },
+  {
+    "module": "08",
+    "date": "2026-07-17",
+    "topic": "Zapier",
+    "title": "6.【Zapier：无代码把 6000+ 应用串成自动化流水线】",
+    "level": "L2",
+    "depth": "实战",
+    "angle": "上手教程",
+    "keywords_snippet": "Zapier 无代码 自动化 6000+应用 AI动作"
   }
 ]
