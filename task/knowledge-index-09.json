@@ -778,5 +778,65 @@
     "depth": "技术层",
     "angle": "扩展成员与 field 关键词",
     "keywords_snippet": "C# 14, 扩展成员, field, .NET 10, Span"
+  },
+  {
+    "module": "09",
+    "date": "2026-07-19",
+    "topic": "TypeScript 7.0",
+    "title": "TypeScript 7.0 正式版：Go 原生编译器官方落地，构建提速最高近 12 倍",
+    "level": "L1",
+    "depth": "广度层",
+    "angle": "编译器原生重写与构建性能跃迁",
+    "keywords_snippet": "TypeScript 7.0 Go 重写编译器 并行池 构建提速 12倍"
+  },
+  {
+    "module": "09",
+    "date": "2026-07-19",
+    "topic": "Bun 运行时",
+    "title": "Bun 重写为 Rust：AI 辅助 6 天迁移 96 万行 Zig 代码，根治内存安全顽疾",
+    "level": "L2",
+    "depth": "深度层",
+    "angle": "AI辅助迁移与编译期内存安全",
+    "keywords_snippet": "Bun Rust 重写 Zig use-after-free Anthropic 模糊测试"
+  },
+  {
+    "module": "09",
+    "date": "2026-07-19",
+    "topic": "Rust 1.97.0",
+    "title": "Rust 1.97.0 发布：v0 符号改名默认开启与 Cargo 原生接管 warnings 失败策略",
+    "level": "L1",
+    "depth": "广度层",
+    "angle": "符号改名与工程治理配置",
+    "keywords_snippet": "Rust 1.97.0 v0 mangling Cargo warnings linker_messages"
+  },
+  {
+    "module": "09",
+    "date": "2026-07-19",
+    "topic": "Node.js 26.5.0",
+    "title": "Node.js 26.5.0 发布：blob.textStream() 流式接口与 TLS 安全修补落地",
+    "level": "L1",
+    "depth": "广度层",
+    "angle": "运行时维护版与流式API",
+    "keywords_snippet": "Node.js 26.5.0 Blob textStream TLS 安全 流式"
+  },
+  {
+    "module": "09",
+    "date": "2026-07-19",
+    "topic": "Multi-Agent SWE",
+    "title": "AI 辅助编程工程化：从代码补全到多智能体协同软件工程（Multi-Agent SWE）新范式",
+    "level": "L3",
+    "depth": "广度层",
+    "angle": "多智能体协同编程范式与自纠错闭环",
+    "keywords_snippet": "Multi-Agent SWE 多智能体 协同软件工程 LangGraph 自纠错"
+  },
+  {
+    "module": "09",
+    "date": "2026-07-19",
+    "topic": "代码生成评测",
+    "title": "OpenAI 编程评测噪声分离：方差分析框架重建代码生成客观基准",
+    "level": "L4",
+    "depth": "深度层",
+    "angle": "评测方法论与统计显著性",
+    "keywords_snippet": "OpenAI 编程评测 噪声分离 方差分析 bootstrap 置信区间"
   }
 ]

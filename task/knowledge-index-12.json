@@ -908,5 +908,65 @@
     "depth": "实践层",
     "angle": "职能到工具映射的64天工作流SOP",
     "keywords_snippet": "Coze, ComfyUI, HeyGen, Ollama, 工作流"
+  },
+  {
+    "module": "12",
+    "date": "2026-07-19",
+    "topic": "AI视频生成融资与商业化",
+    "title": "AI视频生成第二赚钱赛道：可灵30亿美元估值领跑融资战",
+    "level": "L2",
+    "depth": "广度层",
+    "angle": "融资战与盈利确定性",
+    "keywords_snippet": "可灵 爱诗 Seedance 视频生成 融资"
+  },
+  {
+    "module": "12",
+    "date": "2026-07-19",
+    "topic": "AI智能体产业工作流",
+    "title": "50人撬动4.4亿营收：第零智能用AI智能体重构产业工作流",
+    "level": "L3",
+    "depth": "深度层",
+    "angle": "轻资产高盈利模型",
+    "keywords_snippet": "第零智能 智能体 工作流 港交所"
+  },
+  {
+    "module": "12",
+    "date": "2026-07-19",
+    "topic": "AI出海操作系统RaaS",
+    "title": "AI出海操作系统：百融硅基员工RaaS模式重构企业全球化",
+    "level": "L2",
+    "depth": "广度层",
+    "angle": "出海系统范式",
+    "keywords_snippet": "百融 硅基员工 RaaS 出海操作系统"
+  },
+  {
+    "module": "12",
+    "date": "2026-07-19",
+    "topic": "AI销售智能体获客",
+    "title": "24小时数字销售员：探迹Futern用AI智能体包揽外贸获客",
+    "level": "L1",
+    "depth": "入门层",
+    "angle": "外贸获客SaaS",
+    "keywords_snippet": "探迹 Futern 销售智能体 外贸"
+  },
+  {
+    "module": "12",
+    "date": "2026-07-19",
+    "topic": "AI医疗并购退出",
+    "title": "AI病理公司卖50亿：罗氏收购PathAI背后的双轮驱动退出逻辑",
+    "level": "L4",
+    "depth": "战略层",
+    "angle": "并购退出逻辑",
+    "keywords_snippet": "PathAI 罗氏 病理 双轮驱动 并购"
+  },
+  {
+    "module": "12",
+    "date": "2026-07-19",
+    "topic": "AI漫剧内容出海",
+    "title": "AI漫剧出海新基建：智檬ZeMindio与钛动Navos的内容全球化打法",
+    "level": "L2",
+    "depth": "广度层",
+    "angle": "内容出海平台",
+    "keywords_snippet": "ZeMindio Navos AI漫剧 内容出海"
   }
 ]

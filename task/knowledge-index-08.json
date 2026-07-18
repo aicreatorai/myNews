@@ -996,5 +996,65 @@
     "depth": "技术层",
     "angle": "可视化编排开源私有化 AI 应用",
     "keywords_snippet": "Dify 工作流 Agent 知识库 私有化 低代码"
+  },
+  {
+    "module": "08",
+    "date": "2026-07-19",
+    "topic": "AI编程工具分工",
+    "title": "Cursor+Claude Code+Codex 三角分工：一个写、一个审、一个收尾",
+    "level": "L3",
+    "depth": "深度层",
+    "angle": "多AI编程工具协作分工",
+    "keywords_snippet": "Cursor Claude Code Codex 分工 审查 工作流"
+  },
+  {
+    "module": "08",
+    "date": "2026-07-19",
+    "topic": "n8n自动化编排",
+    "title": "n8n 自托管搭 AI 自动化工作流：RSS 抓取到 Slack 推送零代码实战",
+    "level": "L2",
+    "depth": "广度层",
+    "angle": "开源自动化编排实战",
+    "keywords_snippet": "n8n 自托管 自动化 RSS Slack AI Agent"
+  },
+  {
+    "module": "08",
+    "date": "2026-07-19",
+    "topic": "Dify+DeepSeek内容流水线",
+    "title": "Dify+DeepSeek 零代码搭公众号写作流水线：从找方向到自动成文",
+    "level": "L1",
+    "depth": "广度层",
+    "angle": "内容副业自动化组合",
+    "keywords_snippet": "Dify DeepSeek 公众号 选题 写作 流水线"
+  },
+  {
+    "module": "08",
+    "date": "2026-07-19",
+    "topic": "国产大模型分工",
+    "title": "国产AI分工使用手册：豆包写文案、Kimi读长文、通义做PPT的组合心法",
+    "level": "L2",
+    "depth": "广度层",
+    "angle": "多模型按擅长分工",
+    "keywords_snippet": "豆包 Kimi 通义 剪映 分工 组合"
+  },
+  {
+    "module": "08",
+    "date": "2026-07-19",
+    "topic": "LibTV视频生成",
+    "title": "LibTV Agent 一键成片：用 Skill 把剧本分镜剪辑字幕全包的圆梦工作流",
+    "level": "L4",
+    "depth": "深度层",
+    "angle": "AI视频Agent全包工作流",
+    "keywords_snippet": "LibTV Agent Skill 短剧 分镜 成片"
+  },
+  {
+    "module": "08",
+    "date": "2026-07-19",
+    "topic": "Kimi目标模式",
+    "title": "Kimi Goal Mode 目标模式：把复杂任务交给 AI 自主多轮驱动直到完成",
+    "level": "L3",
+    "depth": "深度层",
+    "angle": "自主多轮任务执行",
+    "keywords_snippet": "Kimi Goal Mode 目标模式 自主 多轮 调研"
   }
 ]

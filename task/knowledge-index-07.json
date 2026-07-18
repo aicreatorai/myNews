@@ -1318,5 +1318,65 @@
     "depth": "技术层",
     "angle": "组件级benchmark诊断Agent能力",
     "keywords_snippet": "Agent评测,benchmark,DexVerse,UniClawBench,能力组件"
+  },
+  {
+    "module": "07",
+    "date": "2026-07-19",
+    "topic": "专家流式加载MoE",
+    "title": "专家流式加载：MoE如何用稀疏激活把744B模型跑进消费级显卡",
+    "level": "L2",
+    "depth": "广度层",
+    "angle": "推理侧稀疏激活/expert streaming",
+    "keywords_snippet": "MoE,稀疏激活,专家流式加载,消费级推理"
+  },
+  {
+    "module": "07",
+    "date": "2026-07-19",
+    "topic": "世界行动模型WAM",
+    "title": "世界行动模型WAM：让机器人边走边干活的预见式控制新范式",
+    "level": "L1",
+    "depth": "广度层",
+    "angle": "机器人loco-manipulation预见式控制",
+    "keywords_snippet": "WAM,世界模型,机器人,预见式控制"
+  },
+  {
+    "module": "07",
+    "date": "2026-07-19",
+    "topic": "持续学习CaRE",
+    "title": "持续学习Continual Learning：对抗灾难性遗忘的双层路由MoE",
+    "level": "L4",
+    "depth": "深度层",
+    "angle": "双层路由MoE/超长任务序列",
+    "keywords_snippet": "持续学习,灾难性遗忘,CaRE,双层路由MoE"
+  },
+  {
+    "module": "07",
+    "date": "2026-07-19",
+    "topic": "RAG与GraphRAG",
+    "title": "RAG检索增强生成与GraphRAG：给大模型外接可溯源的知识库",
+    "level": "L2",
+    "depth": "广度层",
+    "angle": "检索增强/知识图谱多跳",
+    "keywords_snippet": "RAG,GraphRAG,向量检索,知识库"
+  },
+  {
+    "module": "07",
+    "date": "2026-07-19",
+    "topic": "Agent Skills范式",
+    "title": "Agent Skills范式：把工作流程固化成可复用的智能体能力模块",
+    "level": "L1",
+    "depth": "广度层",
+    "angle": "可复用能力协议层/SOP封装",
+    "keywords_snippet": "Agent,Skills,可复用能力,协议层"
+  },
+  {
+    "module": "07",
+    "date": "2026-07-19",
+    "topic": "统一多模态架构Audex",
+    "title": "统一多模态架构Audex：用单一Transformer解码器让AI既听想又说且不遗忘",
+    "level": "L3",
+    "depth": "深度层",
+    "angle": "单骨干跨模态防遗忘",
+    "keywords_snippet": "统一多模态,Audex,Transformer解码器,跨模态遗忘"
   }
 ]

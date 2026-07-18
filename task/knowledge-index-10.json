@@ -908,5 +908,65 @@
     "depth": "技术层",
     "angle": "终端多Agent并发调度",
     "keywords_snippet": "Rust, 终端多路复用, 多Agent"
+  },
+  {
+    "module": "10",
+    "date": "2026-07-19",
+    "topic": "GitHub Agentic Workflows",
+    "title": "GitHub Agentic Workflows 上线：用 Markdown 描述结果，编码 Agent 自动跑在 Actions 里",
+    "level": "L2",
+    "depth": "广度层",
+    "angle": "工作流自动化/入门实践",
+    "keywords_snippet": "Agentic Workflows,Copilot App,Markdown 目标,PR 审核"
+  },
+  {
+    "module": "10",
+    "date": "2026-07-19",
+    "topic": "GitHub Skills 生态",
+    "title": "GitHub Skills 生态爆发：从零散提示词到跨 Agent 通用协议层",
+    "level": "L1",
+    "depth": "广度层",
+    "angle": "生态趋势总览",
+    "keywords_snippet": "Skills,mattpocock,superpowers,跨 Agent 协议"
+  },
+  {
+    "module": "10",
+    "date": "2026-07-19",
+    "topic": "MCP 协议",
+    "title": "MCP 标准确立：用 LSP 式开放协议把 AI 编辑器与工具解耦",
+    "level": "L1",
+    "depth": "广度层",
+    "angle": "协议原理",
+    "keywords_snippet": "MCP,Model Context Protocol,DesktopCommanderMCP,codebase-memory-mcp"
+  },
+  {
+    "module": "10",
+    "date": "2026-07-19",
+    "topic": "GitHub Actions 进阶",
+    "title": "GitHub Actions 进阶：并行步骤、安全默认与免 PAT 的 Copilot CLI",
+    "level": "L3",
+    "depth": "纵深层",
+    "angle": "工程配置实战",
+    "keywords_snippet": "GitHub Actions,parallel steps,pull_request_target,GITHUB_TOKEN"
+  },
+  {
+    "module": "10",
+    "date": "2026-07-19",
+    "topic": "AI Agent CI/CD 门禁",
+    "title": "AI Agent 时代的 CI/CD 生存指南：用分层门禁 harness 随机性",
+    "level": "L4",
+    "depth": "专家层",
+    "angle": "方法论/治理体系",
+    "keywords_snippet": "CI/CD,分层门禁,随机性,a1 CLI"
+  },
+  {
+    "module": "10",
+    "date": "2026-07-19",
+    "topic": "GitHub Code Quality",
+    "title": "GitHub Code Quality 正式发布：把代码质量变成可量化资产",
+    "level": "L2",
+    "depth": "广度层",
+    "angle": "质量量化",
+    "keywords_snippet": "Code Quality,可量化,REST API,质量门禁"
   }
 ]

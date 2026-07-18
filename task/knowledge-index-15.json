@@ -1008,5 +1008,65 @@
     "depth": "实践层",
     "angle": "多币种与本地支付落地出海变现",
     "keywords_snippet": "出海/跨境结算/本地支付"
+  },
+  {
+    "module": "15",
+    "date": "2026-07-19",
+    "topic": "AI需求门控",
+    "title": "AI需求四问门控法：用JTBD+TTF判断该不该上AI",
+    "level": "L2",
+    "depth": "广度层",
+    "angle": "立项前置门控",
+    "keywords_snippet": "JTBD TTF 需求门控 该不该用AI"
+  },
+  {
+    "module": "15",
+    "date": "2026-07-19",
+    "topic": "适老化AI设计",
+    "title": "适老化AI产品设计：好灵AI用老照片修复降低银龄门槛",
+    "level": "L1",
+    "depth": "广度层",
+    "angle": "银龄可及性设计",
+    "keywords_snippet": "适老化 好灵AI 老照片修复 银龄数字鸿沟"
+  },
+  {
+    "module": "15",
+    "date": "2026-07-19",
+    "topic": "CUI交互范式",
+    "title": "CUI对话优先+GUI兜底：支付宝阿宝的交互范式迁移",
+    "level": "L2",
+    "depth": "广度层",
+    "angle": "对话优先图形兜底",
+    "keywords_snippet": "CUI GUI兜底 阿宝 对话交互范式"
+  },
+  {
+    "module": "15",
+    "date": "2026-07-19",
+    "topic": "可编辑AI生成",
+    "title": "可编辑AI生成：Canva用Magic Layers打破平面死图",
+    "level": "L1",
+    "depth": "广度层",
+    "angle": "创作工作流可编辑化",
+    "keywords_snippet": "Magic Layers 可编辑生成 平面死图 创作工作流"
+  },
+  {
+    "module": "15",
+    "date": "2026-07-19",
+    "topic": "企业级执行智能体",
+    "title": "企业级任务执行智能体：实在Agent用屏幕语义识别落地",
+    "level": "L3",
+    "depth": "深度层",
+    "angle": "企业落地无API执行",
+    "keywords_snippet": "实在Agent 屏幕语义识别 执行型智能体 非凡奖"
+  },
+  {
+    "module": "15",
+    "date": "2026-07-19",
+    "topic": "AI销售智能体",
+    "title": "AI销售智能体落地：探迹Futern让工厂3个月获3年询盘",
+    "level": "L3",
+    "depth": "深度层",
+    "angle": "商业化获客闭环",
+    "keywords_snippet": "探迹Futern 销售智能体 获客 询盘转化"
   }
 ]
