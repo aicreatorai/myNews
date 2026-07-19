@@ -1378,5 +1378,65 @@
     "depth": "深度层",
     "angle": "单骨干跨模态防遗忘",
     "keywords_snippet": "统一多模态,Audex,Transformer解码器,跨模态遗忘"
+  },
+  {
+    "module": "07",
+    "date": "2026-07-20",
+    "topic": "合成数据生成技术谱系",
+    "title": "合成数据生成技术谱系：扩散/GAN/LLM/仿真各司其职",
+    "level": "L1",
+    "depth": "技术谱系概述",
+    "angle": "按生成路线梳理四类合成数据方法与其适用边界",
+    "keywords_snippet": "synthetic data, diffusion, GAN, LLM, 物理仿真"
+  },
+  {
+    "module": "07",
+    "date": "2026-07-20",
+    "topic": "合成混合训练SMT",
+    "title": "合成混合训练SMT：闭卷内化知识首超RAG落地成本大降",
+    "level": "L3",
+    "depth": "训练方法",
+    "angle": "问答+文档1:1混合微调让小模型闭卷内化知识反超RAG",
+    "keywords_snippet": "SMT, synthetic mixed training, QuaLITY, 闭卷内化"
+  },
+  {
+    "module": "07",
+    "date": "2026-07-20",
+    "topic": "Meta Autodata",
+    "title": "Meta Autodata：AI数据科学家自动造高质量训练集",
+    "level": "L3",
+    "depth": "智能体化数据生成",
+    "angle": "数据科学家智能体迭代生成并元优化训练数据",
+    "keywords_snippet": "Autodata, agentic data scientist, meta-optimization"
+  },
+  {
+    "module": "07",
+    "date": "2026-07-20",
+    "topic": "命题分块",
+    "title": "命题分块Proposition Chunking：原子声明重写提升RAG忠实度",
+    "level": "L2",
+    "depth": "检索预处理",
+    "angle": "用LLM把段落重写成自包含原子命题再嵌入",
+    "keywords_snippet": "proposition chunking, atomic claim, faithfulness, RAG"
+  },
+  {
+    "module": "07",
+    "date": "2026-07-20",
+    "topic": "混合检索",
+    "title": "混合检索BM25+Dense+RRF：补齐纯向量精确词短板",
+    "level": "L2",
+    "depth": "检索架构",
+    "angle": "稀疏词法+稠密语义并行再RRF融合补齐精确词",
+    "keywords_snippet": "hybrid retrieval, BM25, dense, RRF, NDCG"
+  },
+  {
+    "module": "07",
+    "date": "2026-07-20",
+    "topic": "Matryoshka嵌套表示",
+    "title": "Matryoshka嵌套表示：一个模型多维度向量降本增效",
+    "level": "L2",
+    "depth": "向量优化",
+    "angle": "多维度前缀截断让单模型服务快召回与精重排",
+    "keywords_snippet": "Matryoshka, MRL, truncate_dim, 维度降本"
   }
 ]

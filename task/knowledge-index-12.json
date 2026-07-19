@@ -968,5 +968,65 @@
     "depth": "广度层",
     "angle": "内容出海平台",
     "keywords_snippet": "ZeMindio Navos AI漫剧 内容出海"
+  },
+  {
+    "module": "12",
+    "date": "2026-07-20",
+    "topic": "AI推理Token工厂(ATaaS)",
+    "title": "AI推理Token工厂：趋境科技10亿A轮掘金算力",
+    "level": "L2",
+    "depth": "算力基础设施商业化",
+    "angle": "按质交付Token的算力套利",
+    "keywords_snippet": "趋境科技 ATaaS 高品质Token工厂 10亿A轮"
+  },
+  {
+    "module": "12",
+    "date": "2026-07-20",
+    "topic": "物理AI智能体芯片",
+    "title": "物理AI芯片加数据飞轮：星凡智能3亿融资升级",
+    "level": "L3",
+    "depth": "硬科技与数据飞轮",
+    "angle": "芯片即入口、数据即护城河",
+    "keywords_snippet": "星凡智能 星核R 片上学习 数据飞轮 3亿"
+  },
+  {
+    "module": "12",
+    "date": "2026-07-20",
+    "topic": "AI视频世界模型商业化",
+    "title": "AI视频世界模型跑通：爱诗29.8亿C轮商业化样本",
+    "level": "L2",
+    "depth": "赛道商业化样本",
+    "angle": "模型即基础设施、交互即产品",
+    "keywords_snippet": "爱诗 PixVerse 世界模型 29.8亿C轮"
+  },
+  {
+    "module": "12",
+    "date": "2026-07-20",
+    "topic": "大模型商业化10种模式",
+    "title": "大模型商业化10种模式：从价格战到三层定价",
+    "level": "L1",
+    "depth": "宏观商业模式方法论",
+    "angle": "基础引流+按量+旗舰溢价三层定价",
+    "keywords_snippet": "大模型商业化报告 10种模式 MaaS 三层定价"
+  },
+  {
+    "module": "12",
+    "date": "2026-07-20",
+    "topic": "AI原生AaaS智能体即服务",
+    "title": "AI原生AaaS崛起：智能体按需计费颠覆SaaS订阅",
+    "level": "L2",
+    "depth": "趋势与方法论",
+    "angle": "按结果计费颠覆按席位订阅",
+    "keywords_snippet": "邬贺铨 AaaS 智能体按需计费 SaaS订阅"
+  },
+  {
+    "module": "12",
+    "date": "2026-07-20",
+    "topic": "医疗全流程AI智能体",
+    "title": "医疗全流程AI智能体：Assort 8.6亿C轮20倍增长",
+    "level": "L3",
+    "depth": "垂直Agent应用",
+    "angle": "按交互量计费抗AI冲击",
+    "keywords_snippet": "Assort Health 患者智能体 按交互量 20倍增长"
   }
 ]

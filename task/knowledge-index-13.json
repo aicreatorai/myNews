@@ -368,5 +368,55 @@
     "depth": "前沿层",
     "angle": "互联智能体与连通主义",
     "keywords_snippet": "教育超级智能体 互联生态 连通主义 区域底座"
+  },
+  {
+    "module": "13",
+    "date": "2026-07-20",
+    "topic": "AI美术创作课",
+    "title": "AI美术创作课：用文生图解放审美表达技法门槛",
+    "level": "L3",
+    "depth": "学科融合",
+    "angle": "艺术创作/跨学科落地",
+    "keywords_snippet": "文生图 花饽饽AI绘画 3D打印STEAM 双重编码 自我决定"
+  },
+  {
+    "module": "13",
+    "date": "2026-07-20",
+    "topic": "智能组卷与错题诊断",
+    "title": "AI智能组卷与错题诊断：把题海战术变精准打击",
+    "level": "L2",
+    "depth": "方法进阶",
+    "angle": "备考精准化/掌握学习",
+    "keywords_snippet": "AI自动命题 学科网AI小博士 学而思九章老师 知识图谱 测试效应"
+  },
+  {
+    "module": "13",
+    "date": "2026-07-20",
+    "topic": "儿童AI素养启蒙",
+    "title": "儿童AI素养启蒙：用可解释游戏拆开黑箱思维",
+    "level": "L1",
+    "depth": "入门体验",
+    "angle": "素养与安全/可解释",
+    "keywords_snippet": "西城青少年AI安全基地 斑马Frameforge 可解释AI 元认知 伴学"
+  },
+  {
+    "module": "13",
+    "date": "2026-07-20",
+    "topic": "AI备课工具",
+    "title": "AI教案生成器：用智能备课把熬夜改稿变一盏茶",
+    "level": "L1",
+    "depth": "入门体验",
+    "angle": "教师效率/免费工具降本",
+    "keywords_snippet": "国家平台AI试验场 希沃Bloom 百度文库GenFlow4.0 教案生成 认知负荷"
+  },
+  {
+    "module": "13",
+    "date": "2026-07-20",
+    "topic": "AI职业认证",
+    "title": "AI职业认证：用等级证书把自学碎片变可验证能力",
+    "level": "L4",
+    "depth": "体系前沿",
+    "angle": "职业能力/认证体系",
+    "keywords_snippet": "CAIE 工信部AIGC 中公学习机 传智AI化 能力本位教育"
   }
 ]

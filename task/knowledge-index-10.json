@@ -968,5 +968,65 @@
     "depth": "广度层",
     "angle": "质量量化",
     "keywords_snippet": "Code Quality,可量化,REST API,质量门禁"
+  },
+  {
+    "module": "10",
+    "date": "2026-07-20",
+    "topic": "OpenCode",
+    "title": "OpenCode：终端原生 AI 编程智能体，BYOK 接 75+ 模型",
+    "level": "L2",
+    "depth": "终端工具实战",
+    "angle": "开源 Claude Code 平替，零出域 BYOK 多模型",
+    "keywords_snippet": "终端原生 AI 编程智能体 75+ 模型供应商 BYOK 零出域 SWE-bench 88.6%"
+  },
+  {
+    "module": "10",
+    "date": "2026-07-20",
+    "topic": "Cline",
+    "title": "Cline：VS Code 智能体编程插件，Plan/Act 审批回路",
+    "level": "L2",
+    "depth": "编辑器智能体",
+    "angle": "Plan/Act 审批回路，可控的自动化编程",
+    "keywords_snippet": "VS Code 智能体编程插件 Plan/Act 审批回路 MCP 工具调用 人工把关"
+  },
+  {
+    "module": "10",
+    "date": "2026-07-20",
+    "topic": "FastMCP",
+    "title": "FastMCP：Python 极简构建 MCP 服务",
+    "level": "L3",
+    "depth": "MCP 协议框架",
+    "angle": "装饰器极简构建 MCP server/client",
+    "keywords_snippet": "Python 构建 MCP 服务 装饰器 模型上下文协议 tools resources prompts"
+  },
+  {
+    "module": "10",
+    "date": "2026-07-20",
+    "topic": "OpenHands",
+    "title": "OpenHands：自主端到端开发智能体",
+    "level": "L3",
+    "depth": "自主编程智能体",
+    "angle": "Docker 隔离的自主端到端开发交付",
+    "keywords_snippet": "自主端到端开发智能体 Docker 隔离 自愈循环 issue 到 PR"
+  },
+  {
+    "module": "10",
+    "date": "2026-07-20",
+    "topic": "Qdrant",
+    "title": "Qdrant：Rust 向量数据库，v1.16 混合检索与量化",
+    "level": "L2",
+    "depth": "向量存储层",
+    "angle": "Rust 生产级 RAG 检索，payload 过滤与混合检索",
+    "keywords_snippet": "Rust 向量数据库 payload 过滤 稀疏稠密混合检索 量化 HNSW 生产级 RAG"
+  },
+  {
+    "module": "10",
+    "date": "2026-07-20",
+    "topic": "Dify",
+    "title": "Dify：低代码开源 LLM 应用平台",
+    "level": "L1",
+    "depth": "低代码平台入门",
+    "angle": "可视化编排 LLM 应用，RAG 流水线与 Agent",
+    "keywords_snippet": "低代码开源 LLM 应用平台 可视化工作流 RAG 流水线 Agent 运行时 80+ 模型"
   }
 ]

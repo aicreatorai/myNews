@@ -838,5 +838,65 @@
     "depth": "深度层",
     "angle": "评测方法论与统计显著性",
     "keywords_snippet": "OpenAI 编程评测 噪声分离 方差分析 bootstrap 置信区间"
+  },
+  {
+    "module": "09",
+    "date": "2026-07-20",
+    "topic": "GraalVM 原生镜像",
+    "title": "GraalVM 25.1 原生镜像新增 Web Image 后端",
+    "level": "L3",
+    "depth": "运行时与工具链深解",
+    "angle": "原生编译与 WASM 后端",
+    "keywords_snippet": "GraalVM 25.1 Native Image Web Image WASM Adaptive2"
+  },
+  {
+    "module": "09",
+    "date": "2026-07-20",
+    "topic": "Scala 3.8 生态",
+    "title": "Scala 3.8 线成熟：标准库自编译与 JDK 17 基线",
+    "level": "L3",
+    "depth": "JVM 语言生态演进",
+    "angle": "标准库自编译与 JDK17 基线",
+    "keywords_snippet": "Scala 3.8 标准库自编译 JDK 17 3.9 LTS betterFors"
+  },
+  {
+    "module": "09",
+    "date": "2026-07-20",
+    "topic": "Java 虚拟线程 Loom",
+    "title": "Java 25 虚拟线程 Loom 并发模型全面成熟",
+    "level": "L2",
+    "depth": "实用核心特性",
+    "angle": "并发模型与性能实测",
+    "keywords_snippet": "虚拟线程 Loom JEP 444 Mounting Scheduler 396ms"
+  },
+  {
+    "module": "09",
+    "date": "2026-07-20",
+    "topic": "Java Panama FFM",
+    "title": "Java Panama FFM API 原生互操作走向生产就绪",
+    "level": "L4",
+    "depth": "前沿互操作与底层",
+    "angle": "原生互操作与 JNI 替代",
+    "keywords_snippet": "Panama FFM API JEP 454 MemorySegment Linker Arena"
+  },
+  {
+    "module": "09",
+    "date": "2026-07-20",
+    "topic": "Java 结构化并发",
+    "title": "Java 25 结构化并发 JEP 505 与作用域值 JEP 506",
+    "level": "L1",
+    "depth": "并发范式入门概览",
+    "angle": "错误处理范式与作用域值",
+    "keywords_snippet": "结构化并发 JEP 505 Scoped Values JEP 506 StructuredTaskScope"
+  },
+  {
+    "module": "09",
+    "date": "2026-07-20",
+    "topic": "JDK 25 GC 格局",
+    "title": "JDK 25 GC 格局：G1 通用默认与分代 Shenandoah 转正",
+    "level": "L2",
+    "depth": "JVM 运行时调优",
+    "angle": "GC 默认变更与选型",
+    "keywords_snippet": "JDK 25 G1 JEP 523 Shenandoah JEP 521 ZGC 分代"
   }
 ]

@@ -1056,5 +1056,65 @@
     "depth": "深度层",
     "angle": "自主多轮任务执行",
     "keywords_snippet": "Kimi Goal Mode 目标模式 自主 多轮 调研"
+  },
+  {
+    "module": "08",
+    "date": "2026-07-20",
+    "topic": "Claude Code",
+    "title": "Claude Code 终端AI编程：CLAUDE.md 与子代理工作流实战",
+    "level": "L3",
+    "depth": "实战级",
+    "angle": "终端编程与项目规则文件",
+    "keywords_snippet": "CLAUDE.md、subagent、plan mode、MCP"
+  },
+  {
+    "module": "08",
+    "date": "2026-07-20",
+    "topic": "Gamma",
+    "title": "Gamma AI PPT：从提示词到可发行幻灯片的完整流程",
+    "level": "L1",
+    "depth": "入门级",
+    "angle": "AI PPT 提示词与主题分离",
+    "keywords_snippet": "Generate、主题分离、Content Expander、/chart"
+  },
+  {
+    "module": "08",
+    "date": "2026-07-20",
+    "topic": "剪映 AI",
+    "title": "剪映 AI：一键成片与AI数字人字幕的短视频工作流",
+    "level": "L2",
+    "depth": "进阶级",
+    "angle": "一键成片与AI数字人",
+    "keywords_snippet": "AI一键成片、AI数字人、AI字幕、字节"
+  },
+  {
+    "module": "08",
+    "date": "2026-07-20",
+    "topic": "即梦 AI",
+    "title": "即梦 AI：字节图像视频生成的提示词与图生视频实战",
+    "level": "L4",
+    "depth": "专家级",
+    "angle": "图生视频提示词与一致性",
+    "keywords_snippet": "文生视频、图生视频、六要素提示词、字节"
+  },
+  {
+    "module": "08",
+    "date": "2026-07-20",
+    "topic": "Vidu",
+    "title": "Vidu 长视频生成：参考生视频与文生视频实战",
+    "level": "L1",
+    "depth": "入门级",
+    "angle": "参考生视频角色一致性",
+    "keywords_snippet": "生数科技、参考生视频、文生视频、4秒8秒"
+  },
+  {
+    "module": "08",
+    "date": "2026-07-20",
+    "topic": "Pika",
+    "title": "Pika AI视频：局部修改与Pikaffects特效的实战玩法",
+    "level": "L2",
+    "depth": "进阶级",
+    "angle": "局部修改与特效",
+    "keywords_snippet": "Region Edit、Pikaffects、--no、免费30积分"
   }
 ]

@@ -1068,5 +1068,65 @@
     "depth": "深度层",
     "angle": "商业化获客闭环",
     "keywords_snippet": "探迹Futern 销售智能体 获客 询盘转化"
+  },
+  {
+    "module": "15",
+    "date": "2026-07-20",
+    "topic": "模型选型与技术判断力",
+    "title": "技术判断力：用成本-质量-延迟三角做模型选型",
+    "level": "L1",
+    "depth": "基础认知",
+    "angle": "选型决策",
+    "keywords_snippet": "成本质量延迟三角、GPT-4o、Claude、token成本、模型选型"
+  },
+  {
+    "module": "15",
+    "date": "2026-07-20",
+    "topic": "竞品分析与数据决策",
+    "title": "竞品失败图谱：用AI产品墓地反推PM决策红线",
+    "level": "L2",
+    "depth": "方法框架",
+    "angle": "竞品情报",
+    "keywords_snippet": "AI Graveyard、25款猝死、套壳陷阱、造血能力、失败复盘"
+  },
+  {
+    "module": "15",
+    "date": "2026-07-20",
+    "topic": "AI产品伦理与责任",
+    "title": "伦理护栏：把负责任AI原则嵌进产品默认设置",
+    "level": "L3",
+    "depth": "案例实战",
+    "angle": "合规设计",
+    "keywords_snippet": "伦理安全指引1.0、科技伦理审查办法、默认设置、人工复核"
+  },
+  {
+    "module": "15",
+    "date": "2026-07-20",
+    "topic": "出海市场与本地化",
+    "title": "出海新范式：用AI把跨境单点工具升级为全球增长飞轮",
+    "level": "L4",
+    "depth": "战略范式",
+    "angle": "全球化增长",
+    "keywords_snippet": "亚马逊白皮书、AI驱动全球化、MelodySusie、开售即全球、飞轮"
+  },
+  {
+    "module": "15",
+    "date": "2026-07-20",
+    "topic": "Agent产品化与风险控制",
+    "title": "Agent事故复盘：用权限边界把AI执行风险关进笼子",
+    "level": "L2",
+    "depth": "方法框架",
+    "angle": "风险控制",
+    "keywords_snippet": "权限边界、生产库误删、带外确认、最小权限、熔断"
+  },
+  {
+    "module": "15",
+    "date": "2026-07-20",
+    "topic": "国内AI产品案例拆解",
+    "title": "国内案例拆解：WPS AI用交付重构办公Agent价值",
+    "level": "L3",
+    "depth": "案例实战",
+    "angle": "产品拆解",
+    "keywords_snippet": "WPS AI、灵犀专业版、WPS Comate、SpreadsheetBench、原生交付"
   }
 ]
