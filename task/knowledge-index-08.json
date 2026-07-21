@@ -1176,5 +1176,65 @@
     "depth": "概念层",
     "angle": "大白话文生图与智能画布风格统一",
     "keywords_snippet": "即梦 Seedream 文生图 图生图 智能画布 局部重绘"
+  },
+  {
+    "module": "08",
+    "date": "2026-07-22",
+    "topic": "Cursor Composer 多文件 AI 编程实战",
+    "title": "【Cursor Composer 多文件编辑把需求变成可运行代码】",
+    "level": "L2",
+    "depth": "实践",
+    "angle": "多文件编辑+规则文件+云Agent工作流",
+    "keywords_snippet": "Cursor,Composer,AGENTS.md,多文件编辑,云Agent"
+  },
+  {
+    "module": "08",
+    "date": "2026-07-22",
+    "topic": "即梦AI 图生视频与数字人对口型",
+    "title": "【即梦AI图生视频+数字人对口型 不露脸口播流水线】",
+    "level": "L3",
+    "depth": "实践",
+    "angle": "不露脸口播短视频流水线",
+    "keywords_snippet": "即梦AI,图生视频,数字人对口型,不露脸,口播"
+  },
+  {
+    "module": "08",
+    "date": "2026-07-22",
+    "topic": "音视频转笔记工具横向对比",
+    "title": "【通义听悟讯飞听见Ai好记 音视频转笔记横向对比】",
+    "level": "L1",
+    "depth": "对比",
+    "angle": "按学生/职场/运营/知识管理场景选型",
+    "keywords_snippet": "通义听悟,讯飞听见,Ai好记,音视频转笔记,横向对比"
+  },
+  {
+    "module": "08",
+    "date": "2026-07-22",
+    "topic": "ChatGPT Claude Gemini 持久记忆与自定义指令",
+    "title": "【ChatGPT Projects Claude Gemini Gems 持久记忆与自定义指令配置】",
+    "level": "L4",
+    "depth": "配置",
+    "angle": "Custom Instructions/Projects/Gems 与 RODES 框架",
+    "keywords_snippet": "Custom Instructions,Projects,Gems,RODES,持久记忆"
+  },
+  {
+    "module": "08",
+    "date": "2026-07-22",
+    "topic": "文心一言 通义千问 中文长文写作",
+    "title": "【文心一言通义千问 中文长文写作降AIGC实战】",
+    "level": "L2",
+    "depth": "实践",
+    "angle": "从大纲、降AIGC到多平台适配流水线",
+    "keywords_snippet": "文心一言,通义千问,中文写作,降AIGC,多平台适配"
+  },
+  {
+    "module": "08",
+    "date": "2026-07-22",
+    "topic": "腾讯智影 数字人口播制作",
+    "title": "【腾讯智影数字人口播 从文案到口型同步免拍摄】",
+    "level": "L3",
+    "depth": "实践",
+    "angle": "从文案到口型同步的免拍摄工作流",
+    "keywords_snippet": "腾讯智影,数字人,口播,口型同步,免拍摄"
   }
 ]

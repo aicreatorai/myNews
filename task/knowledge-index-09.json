@@ -958,5 +958,15 @@
     "depth": "中",
     "angle": "编译期元编程/性能热点",
     "keywords_snippet": "Zig, comptime, allocator, 性能"
+  },
+  {
+    "module": "09",
+    "date": "2026-07-22",
+    "topic": "开发语言周度热点(Go安全修复/Go Agent框架/Go 1.27rc2/Rust密码学性能/Rust生态投资/Rust Web框架)",
+    "title": "Go 1.26.5安全修复;微软Go Agent框架;Go 1.27rc2前瞻;Rust纯Rust密码学性能;OpenAI投Rust 60万;Tokio Topcoat框架",
+    "level": "L2",
+    "depth": "特性+安全+生态",
+    "angle": "本周P0热点中避开已覆盖的Python3.14/Rust1.97/TS7.0,聚焦Go与Rust新进展",
+    "keywords_snippet": "Go os.Root CVE;Go Agent;json/v2;RustCrypto SIMD;OpenAI Rust;Topcoat"
   }
 ]

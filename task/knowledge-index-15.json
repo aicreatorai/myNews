@@ -1188,5 +1188,65 @@
     "depth": "深稿",
     "angle": "硬件+订阅双轮与LTV/CAC",
     "keywords_snippet": "LTV CAC ARPD 硬件打底 软件订阅 双轮变现"
+  },
+  {
+    "module": "15",
+    "date": "2026-07-22",
+    "topic": "雕塑概率分布：AI产品设计从画地图到塑结果",
+    "title": "雕塑概率分布：AI产品设计从画地图到塑结果",
+    "level": "L3",
+    "depth": "深度",
+    "angle": "产品设计哲学/护城河",
+    "keywords_snippet": "雕塑概率分布,护城河,验证器,数据飞轮"
+  },
+  {
+    "module": "15",
+    "date": "2026-07-22",
+    "topic": "AI产品验收标准重构：从测试用例到能力边界",
+    "title": "AI产品验收标准重构：从测试用例到能力边界",
+    "level": "L3",
+    "depth": "深度",
+    "angle": "Agent验收范式",
+    "keywords_snippet": "能力边界验收,失败率阈值,红队探针"
+  },
+  {
+    "module": "15",
+    "date": "2026-07-22",
+    "topic": "AI产品设计七趋势：生成式UI与Agentic UX",
+    "title": "AI产品设计七趋势：生成式UI与Agentic UX",
+    "level": "L2",
+    "depth": "广度",
+    "angle": "AI设计趋势路线图",
+    "keywords_snippet": "生成式UI,Agentic UX,意图经济,可解释"
+  },
+  {
+    "module": "15",
+    "date": "2026-07-22",
+    "topic": "Vibe Coding重构一人团队：PM自然语言出原型",
+    "title": "Vibe Coding重构一人团队：PM自然语言出原型",
+    "level": "L2",
+    "depth": "广度",
+    "angle": "PM工具提效/原型生产",
+    "keywords_snippet": "Vibe Coding,一人团队,原型验证,验收值钱"
+  },
+  {
+    "module": "15",
+    "date": "2026-07-22",
+    "topic": "AI硬件从AI原生到Agent原生：重做终端体验",
+    "title": "AI硬件从AI原生到Agent原生：重做终端体验",
+    "level": "L3",
+    "depth": "深度",
+    "angle": "Agent原生终端体验",
+    "keywords_snippet": "Agent原生,记忆墙,决策墙,行动墙"
+  },
+  {
+    "module": "15",
+    "date": "2026-07-22",
+    "topic": "PM用AI做规模化用户研究：百人并行访谈",
+    "title": "PM用AI做规模化用户研究：百人并行访谈",
+    "level": "L2",
+    "depth": "广度",
+    "angle": "用户研究规模化",
+    "keywords_snippet": "AI访谈,并行研究,Dovetail,持续发现"
   }
 ]

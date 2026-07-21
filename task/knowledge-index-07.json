@@ -1498,5 +1498,65 @@
     "depth": "深",
     "angle": "4比特量化底座+LoRA高效微调",
     "keywords_snippet": "QLoRA 量化微调 LoRA NF4 高效微调"
+  },
+  {
+    "module": "07",
+    "date": "2026-07-22",
+    "topic": "MoE分位数均衡路由",
+    "title": "MoE分位数均衡路由：让896个专家不再旱涝不均",
+    "level": "L2",
+    "depth": "原理层",
+    "angle": "路由/负载均衡",
+    "keywords_snippet": "MoE 路由 负载均衡 Quantile Balancing Kimi K3"
+  },
+  {
+    "module": "07",
+    "date": "2026-07-22",
+    "topic": "大模型低比特量化",
+    "title": "大模型低比特量化：INT4到1-bit如何无损压模型",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "量化压缩",
+    "keywords_snippet": "量化 INT8 INT4 1-bit GPTQ AWQ 显存"
+  },
+  {
+    "module": "07",
+    "date": "2026-07-22",
+    "topic": "投机解码与MTP",
+    "title": "投机解码与MTP：小草稿模型给大模型猜未来提速",
+    "level": "L3",
+    "depth": "实战层",
+    "angle": "投机解码加速",
+    "keywords_snippet": "投机解码 Speculative Decoding MTP 草稿模型 加速"
+  },
+  {
+    "module": "07",
+    "date": "2026-07-22",
+    "topic": "连续批处理",
+    "title": "连续批处理与推理引擎：动态拼车把GPU利用率拉满",
+    "level": "L2",
+    "depth": "原理层",
+    "angle": "推理引擎吞吐",
+    "keywords_snippet": "连续批处理 Continuous Batching 推理引擎 吞吐 GPU"
+  },
+  {
+    "module": "07",
+    "date": "2026-07-22",
+    "topic": "A2A智能体协议",
+    "title": "A2A智能体互操作协议：与MCP互补的Agent通信层",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "智能体互操作",
+    "keywords_snippet": "A2A 智能体 互操作 MCP Agent Card"
+  },
+  {
+    "module": "07",
+    "date": "2026-07-22",
+    "topic": "端侧Function Calling",
+    "title": "端侧Function Calling：Gemini Nano 3让手机AI从问答到执行",
+    "level": "L3",
+    "depth": "实战层",
+    "angle": "端侧执行",
+    "keywords_snippet": "端侧 Function Calling Gemini Nano 3 MiniCPM 密度定律"
   }
 ]

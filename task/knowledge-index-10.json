@@ -1088,5 +1088,65 @@
     "depth": "约930中文字",
     "angle": "提交规范与自动版本",
     "keywords_snippet": "Conventional Commits 语义化提交 Changelog SemVer commitlint"
+  },
+  {
+    "module": "10",
+    "date": "2026-07-22",
+    "topic": "GitHub 官方 MCP Server 仓库接入",
+    "title": "GitHub 官方 MCP Server：把仓库、Issue、PR 接入 AI 工作流",
+    "level": "L2",
+    "depth": "中",
+    "angle": "GitHub 平台能力 MCP 化",
+    "keywords_snippet": "GitHub MCP Server Issue PR 官方"
+  },
+  {
+    "module": "10",
+    "date": "2026-07-22",
+    "topic": "GitHub Copilot Kimi K2.7 Code 开源权重模型",
+    "title": "Kimi K2.7 Code 开源权重模型登陆 Copilot：首个可选项进模型选择器",
+    "level": "L2",
+    "depth": "中",
+    "angle": "模型选择器新增开源权重选项",
+    "keywords_snippet": "Copilot 开源权重 自托管 模型选择器"
+  },
+  {
+    "module": "10",
+    "date": "2026-07-22",
+    "topic": "actions/checkout v7 pwn request 供应链安全",
+    "title": "actions/checkout v7 默认拦截 pwn request：堵住供应链攻击",
+    "level": "L3",
+    "depth": "深",
+    "angle": "CI/CD 供应链投毒防护",
+    "keywords_snippet": "pwn request pull_request_target checkout 安全默认"
+  },
+  {
+    "module": "10",
+    "date": "2026-07-22",
+    "topic": "Ponytail AI Agent 省 Token 工作风格",
+    "title": "Ponytail：让 AI Agent 像最懒高级开发一样思考省 Token",
+    "level": "L2",
+    "depth": "中",
+    "angle": "Agent 行为约束省 Token",
+    "keywords_snippet": "Ponytail 懒人法则 Token 复用优先"
+  },
+  {
+    "module": "10",
+    "date": "2026-07-22",
+    "topic": "Claude Code vs Cursor 实战对比",
+    "title": "Claude Code vs Cursor 实战横评：复杂重构与日常补全分工",
+    "level": "L1",
+    "depth": "中",
+    "angle": "AI 编程工具分工选型",
+    "keywords_snippet": "Claude Code Cursor 横评 重构 补全"
+  },
+  {
+    "module": "10",
+    "date": "2026-07-22",
+    "topic": "Chrome DevTools MCP Google 浏览器调试",
+    "title": "Chrome DevTools MCP：Google 官方 44+ 浏览器调试工具喂给 Agent",
+    "level": "L3",
+    "depth": "深",
+    "angle": "浏览器可观测性接入 Agent",
+    "keywords_snippet": "Chrome DevTools MCP CDP 性能 可访问性"
   }
 ]

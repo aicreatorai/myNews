@@ -1088,5 +1088,65 @@
     "depth": "技术层 - 内部机制、关键参数、优化策略",
     "angle": "大模型Agent接管确定性业务流程",
     "keywords_snippet": "Agent,RPA,流程自动化,售后退款"
+  },
+  {
+    "module": "12",
+    "date": "2026-07-22",
+    "topic": "AI 3D生成平台Meshy B轮融资",
+    "title": "【AI 3D生成平台Meshy完成B轮融资，估值破百亿元】",
+    "level": "L2",
+    "depth": "应用层-融资",
+    "angle": "融资/3D生成",
+    "keywords_snippet": "Meshy,AI 3D,3D资产"
+  },
+  {
+    "module": "12",
+    "date": "2026-07-22",
+    "topic": "松应科技 ORCA OS 物理AI操作系统 西门子",
+    "title": "【松应科技推物理AI操作系统ORCA OS，拿下西门子订单】",
+    "level": "L3",
+    "depth": "案例层",
+    "angle": "物理AI落地",
+    "keywords_snippet": "松应科技,ORCA OS,物理AI,西门子"
+  },
+  {
+    "module": "12",
+    "date": "2026-07-22",
+    "topic": "数宗 Digit Master DM Agent OS 消费Agent",
+    "title": "【数宗DM Agent OS：00后团队用智能体重塑消费链路】",
+    "level": "L1",
+    "depth": "基础层",
+    "angle": "Agent OS",
+    "keywords_snippet": "数宗,DM Agent OS,消费智能体"
+  },
+  {
+    "module": "12",
+    "date": "2026-07-22",
+    "topic": "无尽方舟 EonArk AI抗衰药物 融资",
+    "title": "【无尽方舟连获两轮融资，AI抗衰药物跑出硬科技路径】",
+    "level": "L4",
+    "depth": "前沿层",
+    "angle": "AI for Bio",
+    "keywords_snippet": "无尽方舟,Longevity Foundation Model,抗衰"
+  },
+  {
+    "module": "12",
+    "date": "2026-07-22",
+    "topic": "酷奇奇科技 CookiePi AI角色硬件",
+    "title": "【酷奇奇科技推CookiePi角色硬件，完成种子轮融资】",
+    "level": "L2",
+    "depth": "应用层",
+    "angle": "AI硬件",
+    "keywords_snippet": "酷奇奇,CookiePi,K.ALife OS,角色硬件"
+  },
+  {
+    "module": "12",
+    "date": "2026-07-22",
+    "topic": "商米龙虾 SUNMICLAW 商业物理AI样板店",
+    "title": "【商米龙虾开全球首个商业物理AI样板店，重塑门店体验】",
+    "level": "L3",
+    "depth": "案例层",
+    "angle": "物理AI门店",
+    "keywords_snippet": "商米龙虾,物理AI样板店,情绪盲盒"
   }
 ]
