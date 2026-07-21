@@ -418,5 +418,55 @@
     "depth": "体系前沿",
     "angle": "职业能力/认证体系",
     "keywords_snippet": "CAIE 工信部AIGC 中公学习机 传智AI化 能力本位教育"
+  },
+  {
+    "module": "13",
+    "date": "2026-07-21",
+    "topic": "AI教师智能体备课减负",
+    "title": "AI教师智能体把备课从数小时压到几分钟",
+    "level": "L3",
+    "depth": "深",
+    "angle": "教师减负/认知负荷",
+    "keywords_snippet": "教师智能体 备课 九章龙虾 认知负荷 减负"
+  },
+  {
+    "module": "13",
+    "date": "2026-07-21",
+    "topic": "费曼学习法AI解题智能体",
+    "title": "AI学习智能体用费曼学习法重塑解题训练",
+    "level": "L3",
+    "depth": "深",
+    "angle": "解题训练/生成效应",
+    "keywords_snippet": "费曼学习法 AI解题 智能体 讲题 生成效应"
+  },
+  {
+    "module": "13",
+    "date": "2026-07-21",
+    "topic": "氛围编程通识课",
+    "title": "氛围编程进高校通识课：用AI把想法聊成软件",
+    "level": "L2",
+    "depth": "深",
+    "angle": "通识教育/计算思维",
+    "keywords_snippet": "氛围编程 vibe coding 通识课 计算思维 高校"
+  },
+  {
+    "module": "13",
+    "date": "2026-07-21",
+    "topic": "成人AI伴学服务",
+    "title": "成人AI伴学服务：把金融素养课变成随时可听",
+    "level": "L1",
+    "depth": "深",
+    "angle": "成人学习/微学习",
+    "keywords_snippet": "成人伴学 微学习 金融素养 语音 启牛"
+  },
+  {
+    "module": "13",
+    "date": "2026-07-21",
+    "topic": "AI自适应学习路径",
+    "title": "AI自适应学习路径：用知识图谱把学生留在最近发展区",
+    "level": "L2",
+    "depth": "深",
+    "angle": "自适应/最近发展区",
+    "keywords_snippet": "自适应学习 知识图谱 最近发展区 掌握学习 路径"
   }
 ]

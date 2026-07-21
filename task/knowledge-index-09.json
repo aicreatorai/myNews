@@ -898,5 +898,65 @@
     "depth": "JVM 运行时调优",
     "angle": "GC 默认变更与选型",
     "keywords_snippet": "JDK 25 G1 JEP 523 Shenandoah JEP 521 ZGC 分代"
+  },
+  {
+    "module": "09",
+    "date": "2026-07-21",
+    "topic": "Rust 异步 Trait 与借用检查器可用性",
+    "title": "Rust 2026 工程实践：异步 Trait 落地与借用检查器报错优化降低团队上手成本",
+    "level": "L1",
+    "depth": "中",
+    "angle": "工程实践/上手成本",
+    "keywords_snippet": "Rust, 2024 Edition, async trait, async closure, 借用检查器"
+  },
+  {
+    "module": "09",
+    "date": "2026-07-21",
+    "topic": "Python PEP 649 延迟注解求值",
+    "title": "Python 延迟注解求值 PEP 649 落地：泛型与元编程告别定义时报错",
+    "level": "L1",
+    "depth": "中",
+    "angle": "语言特性/运行时注解",
+    "keywords_snippet": "Python 3.14, PEP 649, PEP 749, 注解, 泛型"
+  },
+  {
+    "module": "09",
+    "date": "2026-07-21",
+    "topic": "Python uv 包管理器",
+    "title": "Python 3.13 工程实践：uv 包管理器与可复现构建如何重塑依赖工作流",
+    "level": "L1",
+    "depth": "中",
+    "angle": "工具链/可复现构建",
+    "keywords_snippet": "Python, uv, 包管理, 可复现构建, pip"
+  },
+  {
+    "module": "09",
+    "date": "2026-07-21",
+    "topic": "TypeScript satisfies 与 const 类型参数",
+    "title": "TypeScript 2026 类型驱动开发：satisfies 与 const 类型参数写零运行时开销类型安全",
+    "level": "L1",
+    "depth": "中",
+    "angle": "类型驱动开发/零运行时开销",
+    "keywords_snippet": "TypeScript, satisfies, const type parameters, 类型安全"
+  },
+  {
+    "module": "09",
+    "date": "2026-07-21",
+    "topic": "Go 与 Zig 内存管理权衡",
+    "title": "Go 与 Zig 2026 工程权衡：自动 GC 便利性与手动内存控制的选型决策",
+    "level": "L1",
+    "depth": "中",
+    "angle": "选型对比/内存管理",
+    "keywords_snippet": "Go, Zig, GC, 手动内存, 选型"
+  },
+  {
+    "module": "09",
+    "date": "2026-07-21",
+    "topic": "Zig comptime 编译期元编程",
+    "title": "Zig 实战：用 comptime 编译期执行与显式分配器重写性能热点",
+    "level": "L1",
+    "depth": "中",
+    "angle": "编译期元编程/性能热点",
+    "keywords_snippet": "Zig, comptime, allocator, 性能"
   }
 ]

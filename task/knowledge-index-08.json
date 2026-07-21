@@ -1116,5 +1116,65 @@
     "depth": "进阶级",
     "angle": "局部修改与特效",
     "keywords_snippet": "Region Edit、Pikaffects、--no、免费30积分"
+  },
+  {
+    "module": "08",
+    "date": "2026-07-21",
+    "topic": "Ollama 本地部署",
+    "title": "【Ollama 本地部署大模型：一条命令在电脑上跑起私有AI助手】",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "本地大模型一键部署与私有知识库",
+    "keywords_snippet": "Ollama Open WebUI 本地部署 私有AI GGUF 量化"
+  },
+  {
+    "module": "08",
+    "date": "2026-07-21",
+    "topic": "Gamma PPT",
+    "title": "【Gamma 一句话生成PPT：10秒产出可编辑的专业演示稿】",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "一句话生成可编辑演示稿",
+    "keywords_snippet": "Gamma AI PPT 文生演示 主题引擎 导出PPTX"
+  },
+  {
+    "module": "08",
+    "date": "2026-07-21",
+    "topic": "扣子Coze",
+    "title": "【扣子Coze零代码搭智能体：不写代码做出能调用工具的助手】",
+    "level": "L4",
+    "depth": "前沿层",
+    "angle": "零代码搭能调用工具的智能体",
+    "keywords_snippet": "扣子 Coze 智能体 工作流 RAG 插件 零代码"
+  },
+  {
+    "module": "08",
+    "date": "2026-07-21",
+    "topic": "豆包AI写作",
+    "title": "【豆包AI写作助手：中文语境下把周报与脚本卡壳一次解决】",
+    "level": "L3",
+    "depth": "实践层",
+    "angle": "中文写作助手与多平台风格切换",
+    "keywords_snippet": "豆包 中文写作 专家模式 风格切换 自媒体话术"
+  },
+  {
+    "module": "08",
+    "date": "2026-07-21",
+    "topic": "Grammarly",
+    "title": "【Grammarly 写作润色：边写边改的AI语法与风格助手】",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "实时语法与风格润色",
+    "keywords_snippet": "Grammarly 实时润色 语法检查 英文写作 清晰度"
+  },
+  {
+    "module": "08",
+    "date": "2026-07-21",
+    "topic": "即梦AI图像",
+    "title": "【即梦AI图像生成：用大白话描述生成品牌风格一致的配图】",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "大白话文生图与智能画布风格统一",
+    "keywords_snippet": "即梦 Seedream 文生图 图生图 智能画布 局部重绘"
   }
 ]

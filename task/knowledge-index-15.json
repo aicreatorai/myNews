@@ -1128,5 +1128,65 @@
     "depth": "案例实战",
     "angle": "产品拆解",
     "keywords_snippet": "WPS AI、灵犀专业版、WPS Comate、SpreadsheetBench、原生交付"
+  },
+  {
+    "module": "15",
+    "date": "2026-07-21",
+    "topic": "AI需求验证方法论",
+    "title": "需求三问法与最小可行AI：用MVP验证AI产品价值",
+    "level": "L1",
+    "depth": "深稿",
+    "angle": "需求门控与MVP分级验证",
+    "keywords_snippet": "需求三问法 最小可行AI MVP 数据闭环 三层防护"
+  },
+  {
+    "module": "15",
+    "date": "2026-07-21",
+    "topic": "Agent编排架构",
+    "title": "Agent编排与脑手分离：Anthropic三层架构设计法",
+    "level": "L2",
+    "depth": "深稿",
+    "angle": "脑手分离三层架构",
+    "keywords_snippet": "Agent编排 脑手分离 Brain Hands Harness 能力即风险"
+  },
+  {
+    "module": "15",
+    "date": "2026-07-21",
+    "topic": "Agent信任架构",
+    "title": "渐进式自主权：用信任架构设计可托付的Agent产品",
+    "level": "L3",
+    "depth": "深稿",
+    "angle": "渐进式自主权与信任度量",
+    "keywords_snippet": "渐进式自主权 信任架构 权限扩展率 撤销率"
+  },
+  {
+    "module": "15",
+    "date": "2026-07-21",
+    "topic": "数字员工产品设计",
+    "title": "意图驱动的数字员工：从流程驱动到意图驱动的RPA+LLM解耦",
+    "level": "L4",
+    "depth": "深稿",
+    "angle": "意图驱动RPA+LLM解耦",
+    "keywords_snippet": "数字员工 意图驱动 RPA LLM 感知层 认知层 执行层"
+  },
+  {
+    "module": "15",
+    "date": "2026-07-21",
+    "topic": "AI产品合规设计",
+    "title": "拟人化互动新规：AI产品体验设计的合规红线",
+    "level": "L1",
+    "depth": "深稿",
+    "angle": "拟人化互动服务合规红线",
+    "keywords_snippet": "拟人化互动 合规 2小时弹窗 情感依赖 数据同意"
+  },
+  {
+    "module": "15",
+    "date": "2026-07-21",
+    "topic": "AI产品变现度量",
+    "title": "AI产品LTV与CAC：硬件打底软件服务的双轮变现模型",
+    "level": "L2",
+    "depth": "深稿",
+    "angle": "硬件+订阅双轮与LTV/CAC",
+    "keywords_snippet": "LTV CAC ARPD 硬件打底 软件订阅 双轮变现"
   }
 ]

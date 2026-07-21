@@ -1028,5 +1028,65 @@
     "depth": "垂直Agent应用",
     "angle": "按交互量计费抗AI冲击",
     "keywords_snippet": "Assort Health 患者智能体 按交互量 20倍增长"
+  },
+  {
+    "module": "12",
+    "date": "2026-07-21",
+    "topic": "AI内容矩阵号批量变现",
+    "title": "AI内容矩阵号工厂：40个账号月入5万的批量变现法",
+    "level": "L3",
+    "depth": "实践层 - 生产级方案、踩坑经验、数据对比",
+    "angle": "内容工厂+矩阵分发轻资产模式",
+    "keywords_snippet": "内容矩阵,矩阵号,批量变现,本地生活"
+  },
+  {
+    "module": "12",
+    "date": "2026-07-21",
+    "topic": "垂直行业Agent代搭建模板生意",
+    "title": "垂直行业Agent代搭建：餐饮脚本工具月入15万的模板生意",
+    "level": "L3",
+    "depth": "实践层 - 生产级方案、踩坑经验、数据对比",
+    "angle": "低代码搭行业Agent按模板订阅",
+    "keywords_snippet": "垂直Agent,代搭建,模板,Coze"
+  },
+  {
+    "module": "12",
+    "date": "2026-07-21",
+    "topic": "AI数字员工替代客服降本",
+    "title": "AI数字员工替代客服：私域加粉率反升四成的降本账",
+    "level": "L2",
+    "depth": "技术层 - 内部机制、关键参数、优化策略",
+    "angle": "知识库+工作流+人机协同降本提转化",
+    "keywords_snippet": "数字员工,客服,私域,降本"
+  },
+  {
+    "module": "12",
+    "date": "2026-07-21",
+    "topic": "AI本地商家代运营",
+    "title": "AI本地商家代运营：服务35家宠物店月入12万的打法",
+    "level": "L3",
+    "depth": "实践层 - 生产级方案、踩坑经验、数据对比",
+    "angle": "轻交付重关系的月度代运营",
+    "keywords_snippet": "本地代运营,宠物店,套餐,复购"
+  },
+  {
+    "module": "12",
+    "date": "2026-07-21",
+    "topic": "AI产品全球化出海PLG",
+    "title": "AI产品全球化出海：开源加本地化撬动海外付费的PLG路径",
+    "level": "L4",
+    "depth": "前沿层 - 最新演进、与传统方案的融合",
+    "angle": "开源+合规+本地化出海方法论",
+    "keywords_snippet": "全球化,出海,开源,PLG,本地化"
+  },
+  {
+    "module": "12",
+    "date": "2026-07-21",
+    "topic": "Agent替代RPA流程自动化",
+    "title": "Agent替代RPA流程自动化：电商售后退款Agent续费率八成的生意",
+    "level": "L2",
+    "depth": "技术层 - 内部机制、关键参数、优化策略",
+    "angle": "大模型Agent接管确定性业务流程",
+    "keywords_snippet": "Agent,RPA,流程自动化,售后退款"
   }
 ]

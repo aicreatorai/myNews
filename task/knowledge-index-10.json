@@ -1028,5 +1028,65 @@
     "depth": "低代码平台入门",
     "angle": "可视化编排 LLM 应用，RAG 流水线与 Agent",
     "keywords_snippet": "低代码开源 LLM 应用平台 可视化工作流 RAG 流水线 Agent 运行时 80+ 模型"
+  },
+  {
+    "module": "10",
+    "date": "2026-07-21",
+    "topic": "开源贡献全流程 Fork到PR",
+    "title": "开源贡献全流程：从 Fork 到 PR 合并的协作最佳实践",
+    "level": "L1",
+    "depth": "约970中文字",
+    "angle": "开源协作流程规范",
+    "keywords_snippet": "开源贡献 Fork PR CONTRIBUTING DCO 分支 Issue"
+  },
+  {
+    "module": "10",
+    "date": "2026-07-21",
+    "topic": "GitHub Copilot Agent Mode",
+    "title": "GitHub Copilot Agent Mode 2026：从代码补全到自主 Agent 的实战指南",
+    "level": "L2",
+    "depth": "约990中文字",
+    "angle": "Copilot 自主Agent实践",
+    "keywords_snippet": "GitHub Copilot Agent Mode 2026 自主Agent 实战 Canvases"
+  },
+  {
+    "module": "10",
+    "date": "2026-07-21",
+    "topic": "CI/CD 流水线提速",
+    "title": "CI/CD 流水线提速实战：缓存复用、矩阵分片与路径过滤的 5 个硬技巧",
+    "level": "L3",
+    "depth": "约1020中文字",
+    "angle": "GitHub Actions 缓存并行加速",
+    "keywords_snippet": "CI/CD 提速 GitHub Actions 缓存 matrix 路径过滤 Docker层缓存"
+  },
+  {
+    "module": "10",
+    "date": "2026-07-21",
+    "topic": "Dependabot 自动依赖更新",
+    "title": "Dependabot 自动依赖更新：用自动化守住开源供应链安全",
+    "level": "L2",
+    "depth": "约950中文字",
+    "angle": "供应链安全自动化",
+    "keywords_snippet": "Dependabot 供应链安全 自动PR 漏洞 SBOM github-actions"
+  },
+  {
+    "module": "10",
+    "date": "2026-07-21",
+    "topic": "GitHub CodeQL 代码扫描",
+    "title": "GitHub CodeQL 代码扫描：在 PR 合并前自动拦截漏洞模式的实战",
+    "level": "L2",
+    "depth": "约970中文字",
+    "angle": "SAST 代码漏洞前置拦截",
+    "keywords_snippet": "CodeQL Code Scanning SAST 数据流分析 PR拦截 注入"
+  },
+  {
+    "module": "10",
+    "date": "2026-07-21",
+    "topic": "Conventional Commits 语义化提交",
+    "title": "Conventional Commits 语义化提交：开源协作的提交规范与自动 Changelog",
+    "level": "L1",
+    "depth": "约930中文字",
+    "angle": "提交规范与自动版本",
+    "keywords_snippet": "Conventional Commits 语义化提交 Changelog SemVer commitlint"
   }
 ]

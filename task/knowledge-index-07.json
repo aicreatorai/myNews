@@ -1438,5 +1438,65 @@
     "depth": "向量优化",
     "angle": "多维度前缀截断让单模型服务快召回与精重排",
     "keywords_snippet": "Matryoshka, MRL, truncate_dim, 维度降本"
+  },
+  {
+    "module": "07",
+    "date": "2026-07-21",
+    "topic": "自注意力机制",
+    "title": "自注意力机制：让大模型一眼看懂句子中所有词的关系",
+    "level": "L1",
+    "depth": "深",
+    "angle": "概念原理与公式拆解",
+    "keywords_snippet": "Transformer 自注意力 QKV softmax 多头注意力"
+  },
+  {
+    "module": "07",
+    "date": "2026-07-21",
+    "topic": "高级RAG检索优化",
+    "title": "高级 RAG 检索优化：混合检索与重排序如何把答案准确率翻倍",
+    "level": "L3",
+    "depth": "深",
+    "angle": "生产级RAG优化：混合检索与重排序",
+    "keywords_snippet": "RAG 混合检索 重排序 Reranker 分块"
+  },
+  {
+    "module": "07",
+    "date": "2026-07-21",
+    "topic": "KV Cache量化压缩",
+    "title": "KV Cache 与量化压缩：用精度换显存让长上下文推理跑得动",
+    "level": "L2",
+    "depth": "深",
+    "angle": "KV缓存原理与NVFP4/INT8量化",
+    "keywords_snippet": "KV Cache 量化 NVFP4 推理优化 显存"
+  },
+  {
+    "module": "07",
+    "date": "2026-07-21",
+    "topic": "模型权重量化 GPTQ AWQ",
+    "title": "模型权重量化 GPTQ 与 AWQ：用 4 比特塞下原来 16 比特的大模型",
+    "level": "L2",
+    "depth": "深",
+    "angle": "权重量化算法GPTQ/AWQ原理",
+    "keywords_snippet": "权重量化 GPTQ AWQ INT4 FP4 推理"
+  },
+  {
+    "module": "07",
+    "date": "2026-07-21",
+    "topic": "MoE路由与负载均衡",
+    "title": "MoE 路由与负载均衡：专家网络如何被精准分配到每个 token",
+    "level": "L2",
+    "depth": "深",
+    "angle": "MoE路由机制与负载均衡损失",
+    "keywords_snippet": "MoE 混合专家 路由 负载均衡 TopK"
+  },
+  {
+    "module": "07",
+    "date": "2026-07-21",
+    "topic": "QLoRA量化微调",
+    "title": "QLoRA 量化微调：一张消费级显卡也能让大模型学会新领域",
+    "level": "L3",
+    "depth": "深",
+    "angle": "4比特量化底座+LoRA高效微调",
+    "keywords_snippet": "QLoRA 量化微调 LoRA NF4 高效微调"
   }
 ]

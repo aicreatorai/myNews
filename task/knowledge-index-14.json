@@ -1178,5 +1178,65 @@
     "depth": "方法层",
     "angle": "主动产出比被动阅读记忆更牢的精细加工机制",
     "keywords_snippet": "生成效应 主动产出 精细加工 Slamecka 1978"
+  },
+  {
+    "module": "14",
+    "date": "2026-07-21",
+    "topic": "PARA知识管理与第二大脑",
+    "title": "PARA知识管理：用项目导向把收藏夹变成第二大脑",
+    "level": "L1",
+    "depth": "深",
+    "angle": "知识管理/PARA/CODE流程/项目导向整理",
+    "keywords_snippet": "PARA 知识管理 第二大脑 Tiago Forte CODE Obsidian Notion"
+  },
+  {
+    "module": "14",
+    "date": "2026-07-21",
+    "topic": "测试效应与主动提取",
+    "title": "测试效应：用主动提取把阅读变成长久记忆的存储密码",
+    "level": "L1",
+    "depth": "深",
+    "angle": "记忆科学/检索练习/测试效应原理与自测法",
+    "keywords_snippet": "测试效应 主动提取 检索练习 记忆巩固 Roediger Karpicke"
+  },
+  {
+    "module": "14",
+    "date": "2026-07-21",
+    "topic": "主题阅读法",
+    "title": "主题阅读法：用结构化输入把信息过载变系统认知",
+    "level": "L1",
+    "depth": "深",
+    "angle": "阅读方法/主题阅读/多源交锋/独立判断",
+    "keywords_snippet": "主题阅读 Syntopical Reading 阿德勒 多源阅读 信息过载"
+  },
+  {
+    "module": "14",
+    "date": "2026-07-21",
+    "topic": "环境设计与2分钟法则",
+    "title": "环境设计+2分钟法则：用行为触发消除拖延启动阻力",
+    "level": "L1",
+    "depth": "深",
+    "angle": "习惯养成/环境设计/福格行为模型/2分钟法则",
+    "keywords_snippet": "环境设计 2分钟法则 福格行为模型 原子习惯 启动阻力"
+  },
+  {
+    "module": "14",
+    "date": "2026-07-21",
+    "topic": "信息食谱法",
+    "title": "信息食谱法：用策展式筛选把信息过载变成高质量认知输入",
+    "level": "L1",
+    "depth": "深",
+    "angle": "信息筛选/信息食谱/批判性输入/认知质量",
+    "keywords_snippet": "信息食谱 信息节食 批判性输入 信息过载 认知升级"
+  },
+  {
+    "module": "14",
+    "date": "2026-07-21",
+    "topic": "睡眠记忆巩固",
+    "title": "睡眠记忆巩固：用睡眠周期把当天所学压实进长期记忆的夜间复习术",
+    "level": "L1",
+    "depth": "深",
+    "angle": "睡眠/记忆巩固/慢波睡眠/海马体",
+    "keywords_snippet": "睡眠记忆巩固 慢波睡眠 海马体 Matthew Walker 记忆存档"
   }
 ]
