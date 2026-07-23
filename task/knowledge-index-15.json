@@ -1308,5 +1308,65 @@
     "depth": "数据决策/单位经济",
     "angle": "任务完成率与单任务成本",
     "keywords_snippet": "任务完成率, 单任务成本, 重试率"
+  },
+  {
+    "module": "15",
+    "date": "2026-07-24",
+    "topic": "上下文设计力",
+    "title": "AI PM的上下文设计力：模型效果由喂给它的信息决定",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "上下文组织与噪声控制",
+    "keywords_snippet": "上下文设计 上下文窗口 RAG 检索 记忆 多轮"
+  },
+  {
+    "module": "15",
+    "date": "2026-07-24",
+    "topic": "评测驱动迭代",
+    "title": "AI产品评测驱动迭代：把感觉不错变成可验证指标体系",
+    "level": "L3",
+    "depth": "实践层",
+    "angle": "评测集与多维指标闭环",
+    "keywords_snippet": "评测 Eval 幻觉率 任务成功率 指标 回归"
+  },
+  {
+    "module": "15",
+    "date": "2026-07-24",
+    "topic": "留存习惯循环",
+    "title": "AI产品留存引擎：用习惯循环设计日活钩子",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "触发-行动-奖励-投入回路",
+    "keywords_snippet": "留存 习惯循环 触发 日活 留存率 钩子"
+  },
+  {
+    "module": "15",
+    "date": "2026-07-24",
+    "topic": "PRD工作流重构",
+    "title": "AI PM工作流重构：用LLM辅助PRD与需求评审",
+    "level": "L3",
+    "depth": "实践层",
+    "angle": "B2A PRD边界与失败模式",
+    "keywords_snippet": "PRD Agent B2A 需求 工作流 边界"
+  },
+  {
+    "module": "15",
+    "date": "2026-07-24",
+    "topic": "任务成功率指标",
+    "title": "AI产品指标迁移：从DAU到任务成功率",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "任务完成率与人工介入率",
+    "keywords_snippet": "指标 任务完成率 DAU 人工介入率 北极星"
+  },
+  {
+    "module": "15",
+    "date": "2026-07-24",
+    "topic": "信任设计",
+    "title": "AI产品的信任设计：把可解释与可控作为核心能力",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "可解释可控可撤销透明度",
+    "keywords_snippet": "信任 可解释性 可控 透明度 审计 兜底"
   }
 ]

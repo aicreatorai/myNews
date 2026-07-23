@@ -1618,5 +1618,65 @@
     "depth": "前沿层-动态记忆",
     "angle": "MLP复用为快速权重,即插即用",
     "keywords_snippet": "In-Place TTT,测试时训练,快速权重,动态记忆,字节跳动"
+  },
+  {
+    "module": "07",
+    "date": "2026-07-24",
+    "topic": "思维链CoT与潜思维链",
+    "title": "思维链 CoT 与潜思维链：让大模型先想后答的推理范式",
+    "level": "L2",
+    "depth": "推理范式",
+    "angle": "原理拆解+潜空间加速",
+    "keywords_snippet": "chain of thought, latent reasoning, CoLT, 推理"
+  },
+  {
+    "module": "07",
+    "date": "2026-07-24",
+    "topic": "自注意力与多头注意力",
+    "title": "自注意力与多头注意力：Transformer 如何用注意权重串联全文",
+    "level": "L1",
+    "depth": "架构基础",
+    "angle": "注意力分数与KV Cache",
+    "keywords_snippet": "self-attention, multi-head, QKV, KV Cache"
+  },
+  {
+    "module": "07",
+    "date": "2026-07-24",
+    "topic": "联邦学习",
+    "title": "联邦学习：数据不动模型动保护隐私的分布式训练",
+    "level": "L2",
+    "depth": "隐私分布式",
+    "angle": "FedAvg与差分隐私",
+    "keywords_snippet": "federated learning, FedAvg, 隐私, 分布式训练"
+  },
+  {
+    "module": "07",
+    "date": "2026-07-24",
+    "topic": "长上下文长度外推",
+    "title": "长上下文长度外推：用位置插值把训练长度平滑扩展",
+    "level": "L3",
+    "depth": "长上下文",
+    "angle": "位置插值与NTK-aware",
+    "keywords_snippet": "position interpolation, NTK-aware, RoPE, 长上下文"
+  },
+  {
+    "module": "07",
+    "date": "2026-07-24",
+    "topic": "知识蒸馏",
+    "title": "知识蒸馏：让小模型从大模型的软标签中学会本领",
+    "level": "L2",
+    "depth": "模型压缩",
+    "angle": "教师-学生软标签",
+    "keywords_snippet": "knowledge distillation, 软标签, 暗知识, 端侧"
+  },
+  {
+    "module": "07",
+    "date": "2026-07-24",
+    "topic": "指令微调SFT",
+    "title": "指令微调 SFT：用高质量指令数据把基座模型变成能对话的助手",
+    "level": "L1",
+    "depth": "训练对齐",
+    "angle": "指令数据与条件建模",
+    "keywords_snippet": "SFT, supervised fine-tuning, 指令微调, InstructGPT"
   }
 ]

@@ -968,5 +968,65 @@
     "depth": "特性+安全+生态",
     "angle": "本周P0热点中避开已覆盖的Python3.14/Rust1.97/TS7.0,聚焦Go与Rust新进展",
     "keywords_snippet": "Go os.Root CVE;Go Agent;json/v2;RustCrypto SIMD;OpenAI Rust;Topcoat"
+  },
+  {
+    "module": "09",
+    "date": "2026-07-24",
+    "topic": "Python 3.15 beta 惰性导入 frozendict JIT",
+    "title": "Python 3.15 beta：惰性导入与 frozendict 加速启动、JIT 再提速",
+    "level": "L4",
+    "depth": "特性版发布",
+    "angle": "惰性导入/frozendict/JIT 提速",
+    "keywords_snippet": "Python 3.15 beta JIT frozendict 惰性导入 PEP810"
+  },
+  {
+    "module": "09",
+    "date": "2026-07-24",
+    "topic": "跨语言自定义数据类型 四范式对比",
+    "title": "跨语言自定义数据类型 2026：四范式对比选型",
+    "level": "L2",
+    "depth": "类型系统对比",
+    "angle": "Python/TS/Go/Rust 值对象对比选型",
+    "keywords_snippet": "自定义数据类型 dataclass branded struct derive"
+  },
+  {
+    "module": "09",
+    "date": "2026-07-24",
+    "topic": "V 0.5.2 所有权系统 并发GC",
+    "title": "V 0.5.2 发布：实验性所有权系统 + 并发 GC 进击系统编程",
+    "level": "L4",
+    "depth": "新兴语言发布",
+    "angle": "所有权系统/VGC/SoA",
+    "keywords_snippet": "V 0.5.2 所有权 VGC SoA"
+  },
+  {
+    "module": "09",
+    "date": "2026-07-24",
+    "topic": "C/C++ 现代编码规范 华为谷歌",
+    "title": "C/C++ 现代编码规范 2026：华为与谷歌的可靠性实践",
+    "level": "L3",
+    "depth": "工程实践规范",
+    "angle": "可读性/命名/RAII 防线",
+    "keywords_snippet": "C/C++ 编码规范 华为 谷歌 可读性"
+  },
+  {
+    "module": "09",
+    "date": "2026-07-24",
+    "topic": "Python 性能优化 Numba 多进程 free-threaded",
+    "title": "Python 性能优化范式：Numba JIT、多进程绕过 GIL 与 free-threaded",
+    "level": "L3",
+    "depth": "性能优化实践",
+    "angle": "Numba/多进程/free-threaded 选型",
+    "keywords_snippet": "Python 性能 Numba GIL free-threaded 多进程"
+  },
+  {
+    "module": "09",
+    "date": "2026-07-24",
+    "topic": "Rust 2024 Edition 零成本抽象",
+    "title": "Rust 2024 Edition 优化与零成本抽象：2026 自定义类型实践",
+    "level": "L4",
+    "depth": "语言版演进",
+    "angle": "零成本抽象/自定义类型",
+    "keywords_snippet": "Rust 2024 Edition 零成本抽象 自定义类型"
   }
 ]

@@ -1208,5 +1208,65 @@
     "depth": "选赛道",
     "angle": "垂直楔子避开巨头碾压",
     "keywords_snippet": "垂直AI楔子,工作流护城河,选赛道"
+  },
+  {
+    "module": "12",
+    "date": "2026-07-24",
+    "topic": "数字地主数据护城河",
+    "title": "「数字地主」方法论：用私有数据回流建AI创业护城河",
+    "level": "L3",
+    "depth": "方法论",
+    "angle": "数据资产护城河",
+    "keywords_snippet": "数据护城河 RAG 私有数据回流 数字地主"
+  },
+  {
+    "module": "12",
+    "date": "2026-07-24",
+    "topic": "AI-First代理公司",
+    "title": "AI-First代理公司：一人交付五人团队产出的高毛利打法",
+    "level": "L3",
+    "depth": "商业模式",
+    "angle": "高毛利代理",
+    "keywords_snippet": "AI代理 高毛利 retainers 一人公司"
+  },
+  {
+    "module": "12",
+    "date": "2026-07-24",
+    "topic": "垂直AI SaaS单点突破",
+    "title": "垂直AI SaaS单点突破：高频×重复×人工成本选品公式",
+    "level": "L2",
+    "depth": "选品方法论",
+    "angle": "单点突破 先卖后做",
+    "keywords_snippet": "垂直SaaS 单点突破 选品公式 先卖后做"
+  },
+  {
+    "module": "12",
+    "date": "2026-07-24",
+    "topic": "AI实施伙伴",
+    "title": "AI实施伙伴模式：帮企业落地工作流的高客单服务生意",
+    "level": "L3",
+    "depth": "服务变现",
+    "angle": "高客单实施",
+    "keywords_snippet": "AI实施伙伴 工作流落地 高客单 retainer"
+  },
+  {
+    "module": "12",
+    "date": "2026-07-24",
+    "topic": "超垂直AI内容工作室",
+    "title": "超垂直AI内容工作室：锁定小众领域做内容碾压的变现法",
+    "level": "L3",
+    "depth": "内容变现",
+    "angle": "小众内容垄断",
+    "keywords_snippet": "超垂直内容 小众领域 内容变现 种子社群"
+  },
+  {
+    "module": "12",
+    "date": "2026-07-24",
+    "topic": "AI数据炼金术师",
+    "title": "AI数据炼金术师：采集标注垂直数据集售卖的隐形生意",
+    "level": "L2",
+    "depth": "数据供应",
+    "angle": "垂直数据集售卖",
+    "keywords_snippet": "数据集 数据炼金 垂直标注 数据交易所"
   }
 ]

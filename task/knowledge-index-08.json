@@ -1296,5 +1296,65 @@
     "depth": "概念层",
     "angle": "会议纪要做实",
     "keywords_snippet": "会议 转写 纪要 待办"
+  },
+  {
+    "module": "08",
+    "date": "2026-07-24",
+    "topic": "豆包 文件对话 语音转写 写作",
+    "title": "【豆包：用文件对话与语音转写做高效写作搭子】",
+    "level": "L1",
+    "depth": "入门",
+    "angle": "写作搭子/文件问答/语音转写实操",
+    "keywords_snippet": "豆包 文件对话 语音转写 写作 摘要"
+  },
+  {
+    "module": "08",
+    "date": "2026-07-24",
+    "topic": "飞书aily 低代码 企业智能体 工作流",
+    "title": "【飞书aily：低代码拖拽搭企业智能体接工作流】",
+    "level": "L3",
+    "depth": "企业实践",
+    "angle": "低代码搭智能体接入飞书多维表格",
+    "keywords_snippet": "飞书aily 智能体 低代码 工作流 多维表格"
+  },
+  {
+    "module": "08",
+    "date": "2026-07-24",
+    "topic": "通义灵码 IDE 结对编程 改Bug",
+    "title": "【通义灵码：在IDE里用AI结对编程与改Bug】",
+    "level": "L2",
+    "depth": "技术",
+    "angle": "IDE插件补全/解释/单元测试",
+    "keywords_snippet": "通义灵码 编程 IDE 补全 Bug 单元测试"
+  },
+  {
+    "module": "08",
+    "date": "2026-07-24",
+    "topic": "Fireflies 会议 转录 行动项",
+    "title": "【Fireflies：会议自动转录并提取行动项】",
+    "level": "L1",
+    "depth": "入门",
+    "angle": "跨平台会议转录与行动项提取",
+    "keywords_snippet": "Fireflies 会议 转录 行动项 纪要"
+  },
+  {
+    "module": "08",
+    "date": "2026-07-24",
+    "topic": "Superhuman 邮件 语气学习 提速",
+    "title": "【Superhuman：用语气学习把邮件处理提速数倍】",
+    "level": "L3",
+    "depth": "实践",
+    "angle": "键盘流加语气学习处理邮件",
+    "keywords_snippet": "Superhuman 邮件 语气 键盘 效率"
+  },
+  {
+    "module": "08",
+    "date": "2026-07-24",
+    "topic": "Lovable 对话 全栈应用 建站",
+    "title": "【Lovable：对话生成可部署全栈应用的建站流】",
+    "level": "L2",
+    "depth": "技术",
+    "angle": "自然语言生成可部署全栈应用",
+    "keywords_snippet": "Lovable 建站 全栈 氛围编码 部署"
   }
 ]

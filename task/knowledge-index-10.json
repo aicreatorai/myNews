@@ -1208,5 +1208,65 @@
     "depth": "技术",
     "angle": "AI编码harness构建器",
     "keywords_snippet": "archon harness ai coding reproducible 编码"
+  },
+  {
+    "module": "10",
+    "date": "2026-07-24",
+    "topic": "colibri 消费级大模型推理",
+    "title": "colibri：纯 C 把 744B MoE 大模型塞进 25GB 消费级内存",
+    "level": "L1",
+    "depth": "标准",
+    "angle": "消费级推理引擎/纯C零依赖",
+    "keywords_snippet": "colibri 纯C MoE 消费级推理 GLM-5.2 25GB"
+  },
+  {
+    "module": "10",
+    "date": "2026-07-24",
+    "topic": "grok-build Coding Agent harness",
+    "title": "grok-build：xAI 开源的 Coding Agent harness 与全屏 TUI 终端",
+    "level": "L2",
+    "depth": "标准",
+    "angle": "Agent运行环境/开源harness",
+    "keywords_snippet": "grok-build xAI harness TUI Rust coding agent"
+  },
+  {
+    "module": "10",
+    "date": "2026-07-24",
+    "topic": "destructive_command_guard Agent安全护栏",
+    "title": "destructive_command_guard：拦截 Agent 危险命令的开源安全护栏",
+    "level": "L3",
+    "depth": "标准",
+    "angle": "Agent执行安全护栏",
+    "keywords_snippet": "destructive_command_guard 安全护栏 rm -rf Agent 危险命令"
+  },
+  {
+    "module": "10",
+    "date": "2026-07-24",
+    "topic": "markitdown 文档转Markdown",
+    "title": "markitdown：微软开源的文档转 Markdown 神器，RAG 知识库利器",
+    "level": "L4",
+    "depth": "标准",
+    "angle": "RAG文档预处理/结构化清洗",
+    "keywords_snippet": "markitdown 微软 文档 Markdown RAG 预处理"
+  },
+  {
+    "module": "10",
+    "date": "2026-07-24",
+    "topic": "OfficeCLI AI Agent Office套件",
+    "title": "OfficeCLI：专为 AI Agent 打造的开源 Office 套件，单二进制读写 Word/Excel/PPT",
+    "level": "L1",
+    "depth": "标准",
+    "angle": "Agent办公文档自动化",
+    "keywords_snippet": "OfficeCLI Agent Office Word Excel PPT 单二进制"
+  },
+  {
+    "module": "10",
+    "date": "2026-07-24",
+    "topic": "code-review-graph 代码知识图谱审查",
+    "title": "code-review-graph：本地优先的代码知识图谱，让 AI 审查只读关键上下文",
+    "level": "L2",
+    "depth": "标准",
+    "angle": "AI代码审查/知识图谱上下文",
+    "keywords_snippet": "code-review-graph 代码知识图谱 AI审查 MCP 上下文"
   }
 ]
