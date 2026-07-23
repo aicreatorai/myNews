@@ -1236,5 +1236,65 @@
     "depth": "实践",
     "angle": "从文案到口型同步的免拍摄工作流",
     "keywords_snippet": "腾讯智影,数字人,口播,口型同步,免拍摄"
+  },
+  {
+    "module": "08",
+    "date": "2026-07-23",
+    "topic": "AI编程CRTSE约束框架",
+    "title": "【AI编程CRTSE约束框架：三层文件把代码幻觉率降四成】",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "编程提示框架防幻觉",
+    "keywords_snippet": "CRTSE 约束文件 代码幻觉"
+  },
+  {
+    "module": "08",
+    "date": "2026-07-23",
+    "topic": "AI项目空间Projects持久化上下文",
+    "title": "【Claude/ChatGPT/Gemini项目空间：持久化指令一次设好上下文】",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "上下文持久化工作法",
+    "keywords_snippet": "Projects Gems 项目空间 持久化指令"
+  },
+  {
+    "module": "08",
+    "date": "2026-07-23",
+    "topic": "Notion AI写作与数据库联动",
+    "title": "【Notion AI写作与数据库联动：把笔记变成可追问第二大脑】",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "笔记知识库联动",
+    "keywords_snippet": "Notion AI 数据库 知识库"
+  },
+  {
+    "module": "08",
+    "date": "2026-07-23",
+    "topic": "AI邮件公文写作",
+    "title": "【AI邮件与公文写作：用角色加语气指令30秒出专业草稿】",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "邮件公文提示词",
+    "keywords_snippet": "邮件 公文 AI写作 提示词"
+  },
+  {
+    "module": "08",
+    "date": "2026-07-23",
+    "topic": "AI表格数据处理",
+    "title": "【AI表格数据处理：用自然语言把CSV变成可汇报的图表】",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "自然语言表格分析",
+    "keywords_snippet": "表格 WPS AI Excel 数据分析"
+  },
+  {
+    "module": "08",
+    "date": "2026-07-23",
+    "topic": "AI会议转写结构化纪要",
+    "title": "【会议转写与结构化纪要：用AI把一小时会议压成十分钟待办】",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "会议纪要做实",
+    "keywords_snippet": "会议 转写 纪要 待办"
   }
 ]

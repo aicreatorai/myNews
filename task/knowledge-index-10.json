@@ -1148,5 +1148,65 @@
     "depth": "深",
     "angle": "浏览器可观测性接入 Agent",
     "keywords_snippet": "Chrome DevTools MCP CDP 性能 可访问性"
+  },
+  {
+    "module": "10",
+    "date": "2026-07-23",
+    "topic": "cognee",
+    "title": "【cognee：给 AI Agent 装上一块跨会话长期记忆知识图谱】",
+    "level": "L1",
+    "depth": "入门",
+    "angle": "Agent长期记忆知识图谱",
+    "keywords_snippet": "cognee agent memory knowledge graph 长期记忆"
+  },
+  {
+    "module": "10",
+    "date": "2026-07-23",
+    "topic": "OpenCut",
+    "title": "【OpenCut：本地优先的开源版剪映视频剪辑工具】",
+    "level": "L3",
+    "depth": "实践",
+    "angle": "开源视频剪辑",
+    "keywords_snippet": "OpenCut video editor capcut 开源剪辑"
+  },
+  {
+    "module": "10",
+    "date": "2026-07-23",
+    "topic": "crawl4ai",
+    "title": "【crawl4ai：为 LLM 而生的开源网页爬虫与 RAG 数据准备利器】",
+    "level": "L1",
+    "depth": "入门",
+    "angle": "LLM友好爬虫",
+    "keywords_snippet": "crawl4ai crawler scraper rag 网页抓取"
+  },
+  {
+    "module": "10",
+    "date": "2026-07-23",
+    "topic": "agno",
+    "title": "【agno：面向生产环境的轻量极速多Agent框架】",
+    "level": "L1",
+    "depth": "入门",
+    "angle": "轻量多Agent框架",
+    "keywords_snippet": "agno agent framework multi-agent 生产"
+  },
+  {
+    "module": "10",
+    "date": "2026-07-23",
+    "topic": "Higress",
+    "title": "【Higress：基于Envoy的AI原生API网关统一多模型路由】",
+    "level": "L1",
+    "depth": "入门",
+    "angle": "AI原生API网关",
+    "keywords_snippet": "higress api gateway ai llm route envoy"
+  },
+  {
+    "module": "10",
+    "date": "2026-07-23",
+    "topic": "Archon",
+    "title": "【Archon：把AI编码工作流固化为可复现harness的开源构建器】",
+    "level": "L2",
+    "depth": "技术",
+    "angle": "AI编码harness构建器",
+    "keywords_snippet": "archon harness ai coding reproducible 编码"
   }
 ]

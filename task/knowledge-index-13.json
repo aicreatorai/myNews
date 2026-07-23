@@ -518,5 +518,55 @@
     "depth": "实践层",
     "angle": "知识图谱闭环/测学练评馈/工具对比选型",
     "keywords_snippet": "智能备考 讯飞 洋葱 作业帮 好未来 知识图谱"
+  },
+  {
+    "module": "13",
+    "date": "2026-07-23",
+    "topic": "儿童PBL探究学习",
+    "title": "灵宇宙小方机：用PBL思维脚手架串起孩子的探索提问",
+    "level": "L3",
+    "depth": "深稿",
+    "angle": "PBL项目式+思维脚手架+发现记录沉淀",
+    "keywords_snippet": "小方机/iClassroom/PBL/思维脚手架"
+  },
+  {
+    "module": "13",
+    "date": "2026-07-23",
+    "topic": "K12课堂精准施教",
+    "title": "海亮AI创思课堂：智能平板把学生变小老师重塑精准施教",
+    "level": "L2",
+    "depth": "深稿",
+    "angle": "分层导学案+小老师效应+学情画像",
+    "keywords_snippet": "海亮/AI创思课堂/小老师/学情画像"
+  },
+  {
+    "module": "13",
+    "date": "2026-07-23",
+    "topic": "理科解题方法引导",
+    "title": "与爱为舞拍讲智能体：即拍即讲把搜答案升级为学方法",
+    "level": "L3",
+    "depth": "深稿",
+    "angle": "分步推理+逐层拆解+学方法",
+    "keywords_snippet": "与爱为舞/拍讲/分步推理/学方法"
+  },
+  {
+    "module": "13",
+    "date": "2026-07-23",
+    "topic": "城市级AI教育平台",
+    "title": "上海AI教育国际平台：云端模型一体化重构基础教育教与考",
+    "level": "L1",
+    "depth": "深稿",
+    "angle": "云+端+模型+智能考核闭环",
+    "keywords_snippet": "上海AI教育国际平台/云端算力/智能考核"
+  },
+  {
+    "module": "13",
+    "date": "2026-07-23",
+    "topic": "自适应学习与最近发展区",
+    "title": "自适应学习进最近发展区：Khan Academy式动态难度与国内落地",
+    "level": "L2",
+    "depth": "深稿",
+    "angle": "动态难度+知识图谱+国内落地分析",
+    "keywords_snippet": "Khan Academy/最近发展区/知识追踪/自适应"
   }
 ]

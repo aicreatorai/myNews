@@ -1248,5 +1248,65 @@
     "depth": "广度",
     "angle": "用户研究规模化",
     "keywords_snippet": "AI访谈,并行研究,Dovetail,持续发现"
+  },
+  {
+    "module": "15",
+    "date": "2026-07-23",
+    "topic": "Eval驱动开发",
+    "title": "Eval驱动开发：用评估集替代PRD成为AI产品的真实需求",
+    "level": "L1",
+    "depth": "方法论/需求定义",
+    "angle": "用评估集替代PRD作为AI产品真实需求",
+    "keywords_snippet": "eval-driven development, 评估集, golden set"
+  },
+  {
+    "module": "15",
+    "date": "2026-07-23",
+    "topic": "AI产品路线图减负",
+    "title": "AI路线图减法：Anthropic八万用户研究揭示减负才是真需求",
+    "level": "L2",
+    "depth": "需求分层/路线图",
+    "angle": "Anthropic八万用户研究揭示减负是真需求",
+    "keywords_snippet": "anthropic 用户研究, 减负, 认知负荷"
+  },
+  {
+    "module": "15",
+    "date": "2026-07-23",
+    "topic": "人机协作采纳率",
+    "title": "人机协作采纳率三档模型：AI初稿加人调整为何采纳率达67%",
+    "level": "L3",
+    "depth": "协作边界设计",
+    "angle": "AI初稿+人调整采纳率67%",
+    "keywords_snippet": "协作采纳率, human-in-the-loop, 三档模型"
+  },
+  {
+    "module": "15",
+    "date": "2026-07-23",
+    "topic": "决策编排式AI产品",
+    "title": "决策编排式AI产品：把界面交互重构为自动化决策流",
+    "level": "L4",
+    "depth": "Agent UX范式",
+    "angle": "界面交互重构为自动化决策流",
+    "keywords_snippet": "decision orchestration, 决策边界, 交接时刻"
+  },
+  {
+    "module": "15",
+    "date": "2026-07-23",
+    "topic": "AI PM能力模型",
+    "title": "AI PM三层护城河能力模型：从会调API到评估工程直觉",
+    "level": "L1",
+    "depth": "职业成长/护城河",
+    "angle": "从会调API到评估工程直觉",
+    "keywords_snippet": "护城河, 评估工程, AI PM能力"
+  },
+  {
+    "module": "15",
+    "date": "2026-07-23",
+    "topic": "AI产品上线指标",
+    "title": "AI产品上线后必盯六项指标：任务完成率与单任务成本",
+    "level": "L2",
+    "depth": "数据决策/单位经济",
+    "angle": "任务完成率与单任务成本",
+    "keywords_snippet": "任务完成率, 单任务成本, 重试率"
   }
 ]

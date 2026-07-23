@@ -1558,5 +1558,65 @@
     "depth": "实战层",
     "angle": "端侧执行",
     "keywords_snippet": "端侧 Function Calling Gemini Nano 3 MiniCPM 密度定律"
+  },
+  {
+    "module": "07",
+    "date": "2026-07-23",
+    "topic": "注意力机制Attention",
+    "title": "注意力机制Attention：Transformer用相关性权重让模型学会抓重点",
+    "level": "L1",
+    "depth": "概念层-是什么与适用边界",
+    "angle": "用Query/Key/Value与trophy歧义案例讲清相关性加权",
+    "keywords_snippet": "注意力,Self-Attention,Query,Key,Value,多头注意力,Transformer"
+  },
+  {
+    "module": "07",
+    "date": "2026-07-23",
+    "topic": "KV缓存量化TurboQuant",
+    "title": "KV缓存量化TurboQuant：把推理显存压到六分之一的精度无损术",
+    "level": "L3",
+    "depth": "实践层-部署降本",
+    "angle": "极坐标量化+TriAttention实战数字",
+    "keywords_snippet": "KV Cache,量化,TurboQuant,TriAttention,推理显存,极坐标"
+  },
+  {
+    "module": "07",
+    "date": "2026-07-23",
+    "topic": "RLHF人类反馈对齐",
+    "title": "RLHF人类反馈对齐：用偏好排序把模型调教成听话助手",
+    "level": "L2",
+    "depth": "技术层-对齐机制",
+    "angle": "奖励模型+PPO+向RLVR演进",
+    "keywords_snippet": "RLHF,奖励模型,PPO,偏好对齐,DPO,RLVR"
+  },
+  {
+    "module": "07",
+    "date": "2026-07-23",
+    "topic": "扩散解码Mercury",
+    "title": "扩散解码Mercury：用扩散模型替代逐字生成把推理提速十倍",
+    "level": "L4",
+    "depth": "前沿层-解码范式",
+    "angle": "并行去噪替代自回归,10倍吞吐",
+    "keywords_snippet": "扩散语言模型,Mercury,并行解码,去噪,自回归"
+  },
+  {
+    "module": "07",
+    "date": "2026-07-23",
+    "topic": "长上下文片段级执行",
+    "title": "长上下文片段级执行：训练推理一致的ICML2026可扩展方案",
+    "level": "L3",
+    "depth": "实践层-长上下文部署",
+    "angle": "携带KV尾部+TBPTT消语义鸿沟",
+    "keywords_snippet": "长上下文,片段级执行,ICML2026,携带KV尾部,TBPTT"
+  },
+  {
+    "module": "07",
+    "date": "2026-07-23",
+    "topic": "测试时训练In-Place TTT",
+    "title": "测试时训练In-Place TTT：把MLP改造成推理期可更新动态记忆",
+    "level": "L4",
+    "depth": "前沿层-动态记忆",
+    "angle": "MLP复用为快速权重,即插即用",
+    "keywords_snippet": "In-Place TTT,测试时训练,快速权重,动态记忆,字节跳动"
   }
 ]

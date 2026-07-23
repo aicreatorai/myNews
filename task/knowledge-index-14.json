@@ -1298,5 +1298,65 @@
     "depth": "技术层",
     "angle": "一句话定位声明搭建个人品牌资产",
     "keywords_snippet": "个人品牌 定位声明 自由职业 溢价"
+  },
+  {
+    "module": "14",
+    "date": "2026-07-23",
+    "topic": "知识管理系统",
+    "title": "知识管理系统：用第二大脑把碎片信息变成可调用资产",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "PKM/PARA/Zettelkasten把碎片信息变可调用资产",
+    "keywords_snippet": "知识管理 第二大脑 PKM Obsidian PARA Zettelkasten 卡片盒"
+  },
+  {
+    "module": "14",
+    "date": "2026-07-23",
+    "topic": "创造力培养",
+    "title": "结构化发散法：用跨界联想把灵感从碰运气变成可复制流程",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "结构化发散跨界联想SCAMPER让灵感可复制",
+    "keywords_snippet": "创造力 结构化发散 跨界联想 SCAMPER 远距离联想 走神"
+  },
+  {
+    "module": "14",
+    "date": "2026-07-23",
+    "topic": "精力能量管理",
+    "title": "能量投资法：从时间管理转向精力管理的工作革命",
+    "level": "L4",
+    "depth": "前沿层",
+    "angle": "超日节律能量投资替代时间管理",
+    "keywords_snippet": "精力管理 能量投资 超日节律 ultradian 90分钟 心流 基础休息活动周期"
+  },
+  {
+    "module": "14",
+    "date": "2026-07-23",
+    "topic": "认知偏差决策",
+    "title": "决策外挂法：用给朋友建议视角跳出认知偏差陷阱",
+    "level": "L3",
+    "depth": "实践层",
+    "angle": "朋友视角外挂跳出确认偏误锚定效应",
+    "keywords_snippet": "认知偏差 决策外挂 给朋友建议 确认偏误 锚定 双系统 Heath"
+  },
+  {
+    "module": "14",
+    "date": "2026-07-23",
+    "topic": "周复盘反思",
+    "title": "周复盘反思：用15分钟复盘把隐性经验变成复利资产",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "周复盘反思把隐性经验变复利资产",
+    "keywords_snippet": "周复盘 反思 每周回顾 新鲜起点效应 蔡加尼克 经验复利"
+  },
+  {
+    "module": "14",
+    "date": "2026-07-23",
+    "topic": "弱关系人脉",
+    "title": "弱关系经营：用跨界连接者身份把人脉变机会网络",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "弱关系经营做跨界连接者把人脉变机会",
+    "keywords_snippet": "弱关系 连接者 结构洞 跨领域协作 Granovetter 人脉"
   }
 ]

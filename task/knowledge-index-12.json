@@ -1148,5 +1148,65 @@
     "depth": "案例层",
     "angle": "物理AI门店",
     "keywords_snippet": "商米龙虾,物理AI样板店,情绪盲盒"
+  },
+  {
+    "module": "12",
+    "date": "2026-07-23",
+    "topic": "AI创业验证方法论",
+    "title": "用AI做魔鬼代言人：创业想法上线前的压力测试法",
+    "level": "L2",
+    "depth": "需求验证",
+    "angle": "对抗性提示工程反向验证想法",
+    "keywords_snippet": "魔鬼代言人,确认偏误,Anthropic创始人手册"
+  },
+  {
+    "module": "12",
+    "date": "2026-07-23",
+    "topic": "一人公司创始人模型",
+    "title": "创始人角色重构：从执行者到智能体编排者的一人公司路径",
+    "level": "L2",
+    "depth": "角色重构",
+    "angle": "80%AI执行+20%人类品味",
+    "keywords_snippet": "智能体编排者,一人公司,资本效率"
+  },
+  {
+    "module": "12",
+    "date": "2026-07-23",
+    "topic": "AI原生创业生命周期",
+    "title": "AI原生创业四阶段生命周期：每个阶段的退出标准与典型死法",
+    "level": "L3",
+    "depth": "阶段模型",
+    "angle": "四阶段退出标准与护城河",
+    "keywords_snippet": "四阶段,PMF,CLAUDE.md,护城河"
+  },
+  {
+    "module": "12",
+    "date": "2026-07-23",
+    "topic": "AI产品GTM信号驱动",
+    "title": "AI产品GTM转向信号驱动：用账户事件取代模板群发",
+    "level": "L2",
+    "depth": "增长获客",
+    "angle": "信号驱动替代模板群发",
+    "keywords_snippet": "GTM,信号驱动,获客成本"
+  },
+  {
+    "module": "12",
+    "date": "2026-07-23",
+    "topic": "GTM工程化",
+    "title": "GTM工程化崛起：用信号+数据+CRM搭一条自动营收管道",
+    "level": "L2",
+    "depth": "增长工程化",
+    "angle": "GTM Engineer与免费栈管道",
+    "keywords_snippet": "GTM工程化,Clay,CRM自动化"
+  },
+  {
+    "module": "12",
+    "date": "2026-07-23",
+    "topic": "AI赛道选择方法论",
+    "title": "赛道选择方法论：垂直AI楔子胜过ChatGPT for X包装",
+    "level": "L3",
+    "depth": "选赛道",
+    "angle": "垂直楔子避开巨头碾压",
+    "keywords_snippet": "垂直AI楔子,工作流护城河,选赛道"
   }
 ]
