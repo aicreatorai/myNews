@@ -1268,5 +1268,65 @@
     "depth": "数据供应",
     "angle": "垂直数据集售卖",
     "keywords_snippet": "数据集 数据炼金 垂直标注 数据交易所"
+  },
+  {
+    "module": "12",
+    "date": "2026-07-25",
+    "topic": "AI产品冷启动方法论",
+    "title": "AI产品冷启动方法论：用Aha Moment与精准渠道撬动前1000用户",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "冷启动获客",
+    "keywords_snippet": "冷启动 Aha Moment 精准渠道"
+  },
+  {
+    "module": "12",
+    "date": "2026-07-25",
+    "topic": "一人公司AI商业模式",
+    "title": "一人公司三种AI商业模式：Agent代运营、Micro-SaaS与垂直SaaS拆解",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "一人公司变现",
+    "keywords_snippet": "一人公司 Agent代运营 Micro-SaaS 垂直SaaS"
+  },
+  {
+    "module": "12",
+    "date": "2026-07-25",
+    "topic": "AI融资策略",
+    "title": "2026 AI融资变天：付费试点与数据护城河成拿钱硬指标",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "融资方法论",
+    "keywords_snippet": "AI融资 付费试点 数据护城河"
+  },
+  {
+    "module": "12",
+    "date": "2026-07-25",
+    "topic": "垂直AI SaaS落地",
+    "title": "垂直AI SaaS落地万能公式：高频×重复×高成本切入单点岗位",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "垂直SaaS选需",
+    "keywords_snippet": "垂直AI SaaS 高频 重复 高成本"
+  },
+  {
+    "module": "12",
+    "date": "2026-07-25",
+    "topic": "PMF验证与算账",
+    "title": "PMF验证与月入算账：周留存40%叠加付费率5%的转化模型",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "PMF与收入模型",
+    "keywords_snippet": "PMF 周留存 付费率 月入模型"
+  },
+  {
+    "module": "12",
+    "date": "2026-07-25",
+    "topic": "数据驱动创业终局",
+    "title": "数据驱动终局：从数字佃农到数字地主的AI创业生存法则",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "数据护城河",
+    "keywords_snippet": "数据驱动 数字佃农 数字地主 数据护城河"
   }
 ]

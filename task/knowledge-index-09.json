@@ -1028,5 +1028,65 @@
     "depth": "语言版演进",
     "angle": "零成本抽象/自定义类型",
     "keywords_snippet": "Rust 2024 Edition 零成本抽象 自定义类型"
+  },
+  {
+    "module": "09",
+    "date": "2026-07-25",
+    "topic": "C++26 内存安全",
+    "title": "C++26 内存安全强化：未初始化读取转 UB 与标准库边界加固",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "概念层",
+    "keywords_snippet": "C++26,内存安全,未定义行为,标准库边界检查,合约"
+  },
+  {
+    "module": "09",
+    "date": "2026-07-25",
+    "topic": "仓颉编程语言",
+    "title": "仓颉编程语言：华为原生智能化全场景语言的四大支柱",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "概念层",
+    "keywords_snippet": "仓颉,华为,鸿蒙,全场景,AI原生,AgentDSL"
+  },
+  {
+    "module": "09",
+    "date": "2026-07-25",
+    "topic": "C# 13 新特性",
+    "title": "C# 13 语言新特性：params 集合、新 lock 类型与 field 关键字",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "概念层",
+    "keywords_snippet": "C#,C# 13,.NET,params集合,field关键字,lock"
+  },
+  {
+    "module": "09",
+    "date": "2026-07-25",
+    "topic": "Kotlin 2.0 K2",
+    "title": "Kotlin 2.0 的 K2 编译器转正：统一多平台与编译提速",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "概念层",
+    "keywords_snippet": "Kotlin,K2编译器,Multiplatform,smart cast,全平台"
+  },
+  {
+    "module": "09",
+    "date": "2026-07-25",
+    "topic": "Mojo 编程语言",
+    "title": "Mojo 1.0 Beta 发布：像 Python 写、像 C++ 跑的 AI 语言",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "概念层",
+    "keywords_snippet": "Mojo,Modular,MLIR,Python互操作,GPU内核,AI语言"
+  },
+  {
+    "module": "09",
+    "date": "2026-07-25",
+    "topic": "Julia 2.0 路线图",
+    "title": "Julia 2.0 路线图：高性能科学计算语言的演进方向与痛点攻坚",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "概念层",
+    "keywords_snippet": "Julia,科学计算,TTFX,静态编译,2.0路线图"
   }
 ]

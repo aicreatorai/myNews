@@ -1418,5 +1418,65 @@
     "depth": "动机拖延",
     "angle": "把享乐活动绑在难事上前置即时奖赏",
     "keywords_snippet": "诱惑捆绑/temptation bundling/Milkman/即时强化/坚持"
+  },
+  {
+    "module": "14",
+    "date": "2026-07-25",
+    "topic": "第一性原理与多元思维模型",
+    "title": "第一性原理与多元思维模型：用底层拆解绕开类比陷阱做决策",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "底层思考操作系统",
+    "keywords_snippet": "第一性原理 多元思维模型 决策"
+  },
+  {
+    "module": "14",
+    "date": "2026-07-25",
+    "topic": "确认偏误与反向证据清单",
+    "title": "确认偏误与反向证据清单：用预注册把决策陷阱关进笼子",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "决策防错",
+    "keywords_snippet": "确认偏误 反向证据 预注册"
+  },
+  {
+    "module": "14",
+    "date": "2026-07-25",
+    "topic": "元认知监控",
+    "title": "元认知监控：用对思考的思考把学习效能翻倍",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "学习效能放大器",
+    "keywords_snippet": "元认知 认知监控 学习"
+  },
+  {
+    "module": "14",
+    "date": "2026-07-25",
+    "topic": "精力波峰管理",
+    "title": "精力波峰管理：用能量投资把高难任务排进高峰时段",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "能量投资",
+    "keywords_snippet": "精力管理 能量 昼夜节律"
+  },
+  {
+    "module": "14",
+    "date": "2026-07-25",
+    "topic": "刻意练习四步法",
+    "title": "刻意练习四步法：用结构化反馈把业余练成专家级",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "技能习得",
+    "keywords_snippet": "刻意练习 反馈 专家"
+  },
+  {
+    "module": "14",
+    "date": "2026-07-25",
+    "topic": "自我决定论",
+    "title": "自我决定论：用自主胜任连接激活被奖励扼杀的内驱力",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "内驱力激活",
+    "keywords_snippet": "自我决定论 内驱力 自主感"
   }
 ]

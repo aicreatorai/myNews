@@ -1368,5 +1368,65 @@
     "depth": "技术层",
     "angle": "可解释可控可撤销透明度",
     "keywords_snippet": "信任 可解释性 可控 透明度 审计 兜底"
+  },
+  {
+    "module": "15",
+    "date": "2026-07-25",
+    "topic": "任务成功率指标体系",
+    "title": "任务成功率：用任务完成率重构Agent产品指标",
+    "level": "L1",
+    "depth": "深稿",
+    "angle": "指标方法论",
+    "keywords_snippet": "任务成功率 人工接管率 自我修复率 Agent指标"
+  },
+  {
+    "module": "15",
+    "date": "2026-07-25",
+    "topic": "B2A范式设计",
+    "title": "B2A新范式：产品要被另一个AI调用如何设计",
+    "level": "L2",
+    "depth": "深稿",
+    "angle": "产品设计范式",
+    "keywords_snippet": "B2A Business to Agent 接口契约 权限边界"
+  },
+  {
+    "module": "15",
+    "date": "2026-07-25",
+    "topic": "价值流断点法",
+    "title": "价值流断点法：用流程价值图定位AI最该补的自动化缺口",
+    "level": "L3",
+    "depth": "深稿",
+    "angle": "需求挖掘落地",
+    "keywords_snippet": "价值流图 自动化断点 流程挖掘 HE-PM"
+  },
+  {
+    "module": "15",
+    "date": "2026-07-25",
+    "topic": "Evals评测体系",
+    "title": "Evals评测体系：用Golden Dataset掌控模型迭代",
+    "level": "L2",
+    "depth": "深稿",
+    "angle": "技术边界评测",
+    "keywords_snippet": "Evals Golden Dataset 评测回归 Prompt改动"
+  },
+  {
+    "module": "15",
+    "date": "2026-07-25",
+    "topic": "产品判断力",
+    "title": "产品判断力：工程提速后PM价值从PRD移到判断",
+    "level": "L1",
+    "depth": "深稿",
+    "angle": "PM能力模型",
+    "keywords_snippet": "产品判断力 Cat Wu PRD 决策memo 模型感用户感"
+  },
+  {
+    "module": "15",
+    "date": "2026-07-25",
+    "topic": "AI设计工具语义化生成",
+    "title": "AI设计工具语义化生成：PRD十分钟变可点原型",
+    "level": "L3",
+    "depth": "深稿",
+    "angle": "PM工具工作流",
+    "keywords_snippet": "语义化生成 Pixso Design-to-Code PRD转原型"
   }
 ]

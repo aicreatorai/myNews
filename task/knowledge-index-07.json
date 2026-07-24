@@ -1678,5 +1678,65 @@
     "depth": "训练对齐",
     "angle": "指令数据与条件建模",
     "keywords_snippet": "SFT, supervised fine-tuning, 指令微调, InstructGPT"
+  },
+  {
+    "module": "07",
+    "date": "2026-07-25",
+    "topic": "长上下文与位置编码扩展",
+    "title": "长上下文与位置编码扩展：百万token窗口如何突破长度限制",
+    "level": "L2",
+    "depth": "原理层",
+    "angle": "RoPE/NTK/YaRN扩展机制",
+    "keywords_snippet": "长上下文,位置编码,RoPE,NTK,YaRN,上下文窗口"
+  },
+  {
+    "module": "07",
+    "date": "2026-07-25",
+    "topic": "思维链CoT推理",
+    "title": "思维链CoT推理：让大模型把复杂问题拆解成多步思考",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "CoT提示与推理模型关系",
+    "keywords_snippet": "CoT,思维链,推理模型,Zero-shot CoT"
+  },
+  {
+    "module": "07",
+    "date": "2026-07-25",
+    "topic": "Agentic AI智能体",
+    "title": "Agentic AI智能体：从被动回答到自主规划执行的范式跃迁",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "感知-规划-行动-反馈闭环",
+    "keywords_snippet": "Agentic AI,智能体,ReAct,自主规划"
+  },
+  {
+    "module": "07",
+    "date": "2026-07-25",
+    "topic": "学习力学Learning Mechanics",
+    "title": "学习力学Learning Mechanics：为深度学习建立第一性理论",
+    "level": "L4",
+    "depth": "理论层",
+    "angle": "NTK极限/μP/缩放律统一框架",
+    "keywords_snippet": "学习力学,Learning Mechanics,NTK,μP,缩放律"
+  },
+  {
+    "module": "07",
+    "date": "2026-07-25",
+    "topic": "世界模型与Next-State Prediction",
+    "title": "世界模型与Next-State Prediction：从预测下一个词到预测世界状态",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "NSP范式与物理因果建模",
+    "keywords_snippet": "世界模型,World Model,NSP,Next-State Prediction"
+  },
+  {
+    "module": "07",
+    "date": "2026-07-25",
+    "topic": "嵌入表示Embeddings",
+    "title": "嵌入表示Embeddings：用向量空间把语言的意义算出来",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "语义向量与余弦相似度",
+    "keywords_snippet": "Embeddings,词向量,语义检索,余弦相似度"
   }
 ]

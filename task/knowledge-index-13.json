@@ -618,5 +618,55 @@
     "depth": "虚拟仿真实验",
     "angle": "建构主义做中学与多重表征",
     "keywords_snippet": "虚拟仿真 虚拟实验 3D交互 飞象老师 沉浸式"
+  },
+  {
+    "module": "13",
+    "date": "2026-07-25",
+    "topic": "AI苏格拉底式导师",
+    "title": "AI苏格拉底式导师：用追问逼出知识漏洞",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "用追问代替给答案逼出知识漏洞",
+    "keywords_snippet": "苏格拉底式/主动回忆/生成效应"
+  },
+  {
+    "module": "13",
+    "date": "2026-07-25",
+    "topic": "AI源锚定学习",
+    "title": "AI源锚定学习：用自有资料库消除幻觉",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "源锚定消除幻觉做主动回忆",
+    "keywords_snippet": "NotebookLM/源锚定/主动回忆"
+  },
+  {
+    "module": "13",
+    "date": "2026-07-25",
+    "topic": "AI学习分析仪表盘",
+    "title": "AI学习分析仪表盘：把过程数据变反馈",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "过程性数据可视化反馈",
+    "keywords_snippet": "形成性评估/数字档案/学情诊断"
+  },
+  {
+    "module": "13",
+    "date": "2026-07-25",
+    "topic": "AI职场技能陪练",
+    "title": "AI职场技能陪练：模拟任务加即时反馈",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "模拟任务加即时反馈的职业技能训练",
+    "keywords_snippet": "角色扮演/刻意练习/职业培训"
+  },
+  {
+    "module": "13",
+    "date": "2026-07-25",
+    "topic": "AI多模态学习助手",
+    "title": "AI多模态学习助手：图文音混合降负荷",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "图文音混合降低认知负荷",
+    "keywords_snippet": "多模态/认知负荷/双重编码"
   }
 ]

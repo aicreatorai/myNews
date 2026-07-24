@@ -1356,5 +1356,15 @@
     "depth": "技术",
     "angle": "自然语言生成可部署全栈应用",
     "keywords_snippet": "Lovable 建站 全栈 氛围编码 部署"
+  },
+  {
+    "module": "08",
+    "date": "2026-07-25",
+    "topic": "AI工具使用实战教程",
+    "title": "秘塔写作猫提示词/Kimi+DeepSeek+豆包/WPS AI/Fireflies+Lindy/收件箱分流/AI图像提示词",
+    "level": "L1",
+    "depth": "实战",
+    "angle": "工具使用技巧与效率工作流",
+    "keywords_snippet": "提示词工程,WPS AI,会议自动化,收件箱分流,AI绘画"
   }
 ]

@@ -1268,5 +1268,65 @@
     "depth": "标准",
     "angle": "AI代码审查/知识图谱上下文",
     "keywords_snippet": "code-review-graph 代码知识图谱 AI审查 MCP 上下文"
+  },
+  {
+    "module": "10",
+    "date": "2026-07-25",
+    "topic": "Orca 并行编码 Agent 管理工具",
+    "title": "【Orca：统一管理并行编码 Agent 集群的桌面与移动端工具】",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "多Agent并行编排控制台",
+    "keywords_snippet": "AI Agent,编码智能体,编排"
+  },
+  {
+    "module": "10",
+    "date": "2026-07-25",
+    "topic": "act 本地运行 GitHub Actions",
+    "title": "【act：在本地跑起 GitHub Actions 工作流，CI 调试不用再等云端】",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "本地CI调试利器",
+    "keywords_snippet": "CI/CD,GitHub Actions,DevOps"
+  },
+  {
+    "module": "10",
+    "date": "2026-07-25",
+    "topic": "TensorRT-LLM 推理优化库",
+    "title": "【TensorRT-LLM：NVIDIA 官方 LLM 推理优化库，深度榨干 GPU 性能】",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "GPU推理性能优化",
+    "keywords_snippet": "LLM,推理,NVIDIA,GPU"
+  },
+  {
+    "module": "10",
+    "date": "2026-07-25",
+    "topic": "Nango API 集成平台",
+    "title": "【Nango：用统一接口打通 200+ 第三方 API 的产品集成平台】",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "统一产品集成与AI集成",
+    "keywords_snippet": "API集成,SaaS,AI Agent"
+  },
+  {
+    "module": "10",
+    "date": "2026-07-25",
+    "topic": "OpenDataLoader-PDF 文档解析",
+    "title": "【OpenDataLoader-PDF：把复杂 PDF 转成 AI-Ready 数据的解析器】",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "RAG文档摄入解析",
+    "keywords_snippet": "PDF解析,RAG,文档结构化"
+  },
+  {
+    "module": "10",
+    "date": "2026-07-25",
+    "topic": "Open-LLM-VTuber 本地语音助手",
+    "title": "【Open-LLM-VTuber：本地部署的语音交互 Live2D 虚拟 LLM 助手】",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "本地全模态语音助手",
+    "keywords_snippet": "本地AI,语音,Live2D"
   }
 ]
