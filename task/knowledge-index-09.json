@@ -1088,5 +1088,65 @@
     "depth": "概念层",
     "angle": "概念层",
     "keywords_snippet": "Julia,科学计算,TTFX,静态编译,2.0路线图"
+  },
+  {
+    "module": "09",
+    "date": "2026-07-26",
+    "topic": "Bun 运行时",
+    "title": "Bun 2026：Zig 编写的 JS 运行时把冷启动压到 Node 的 1/10，并原生兼容 TypeScript",
+    "level": "L1",
+    "depth": "900-1000字",
+    "angle": "运行时演进",
+    "keywords_snippet": "Bun Zig JavaScriptCore 冷启动 TypeScript 运行时"
+  },
+  {
+    "module": "09",
+    "date": "2026-07-26",
+    "topic": "Deno 运行时",
+    "title": "Deno 2026：Rust 重写的安全优先运行时与 Web 标准 API 路线",
+    "level": "L2",
+    "depth": "900-1000字",
+    "angle": "安全优先运行时",
+    "keywords_snippet": "Deno Rust 权限模型 Web标准 API 运行时"
+  },
+  {
+    "module": "09",
+    "date": "2026-07-26",
+    "topic": "JavaScript 现代语法",
+    "title": "JavaScript 2026 现代语法范式：可选链、空值合并与 structuredClone 取代旧写法",
+    "level": "L3",
+    "depth": "900-1000字",
+    "angle": "语法范式最佳实践",
+    "keywords_snippet": "JavaScript 可选链 空值合并 structuredClone 解构 现代语法"
+  },
+  {
+    "module": "09",
+    "date": "2026-07-26",
+    "topic": "编程语言排行榜",
+    "title": "2026 编程语言 TIOBE/PYPL 榜单：Python 五连冠，Go 以 18% 增速领跑云原生",
+    "level": "L4",
+    "depth": "900-1000字",
+    "angle": "生态榜单格局",
+    "keywords_snippet": "TIOBE PYPL 排行榜 Python Go Rust 语言趋势"
+  },
+  {
+    "module": "09",
+    "date": "2026-07-26",
+    "topic": "WebAssembly Wasmtime",
+    "title": "WebAssembly 2026 运行时跃迁：Wasmtime 47 默认启用 Wasm GC 与异常支持",
+    "level": "L1",
+    "depth": "900-1000字",
+    "angle": "多语言运行时",
+    "keywords_snippet": "WebAssembly Wasmtime Wasm GC 异常处理 运行时"
+  },
+  {
+    "module": "09",
+    "date": "2026-07-26",
+    "topic": "Python 类型语法",
+    "title": "Python 静态类型新语法演进：PEP 695 泛型参数与 PEP 701 f-string 重写落地",
+    "level": "L2",
+    "depth": "900-1000字",
+    "angle": "类型系统演进",
+    "keywords_snippet": "Python PEP 695 PEP 701 泛型 f-string 类型语法"
   }
 ]

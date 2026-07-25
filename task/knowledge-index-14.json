@@ -1478,5 +1478,65 @@
     "depth": "概念层",
     "angle": "内驱力激活",
     "keywords_snippet": "自我决定论 内驱力 自主感"
+  },
+  {
+    "module": "14",
+    "date": "2026-07-26",
+    "topic": "双重编码法",
+    "title": "双重编码法：用图像+语言双通道把抽象知识钉进长期记忆",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "图像+语言双通道编码提升记忆留存",
+    "keywords_snippet": "双重编码 记忆 图像 语言 Paivio"
+  },
+  {
+    "module": "14",
+    "date": "2026-07-26",
+    "topic": "执行意图法",
+    "title": "执行意图法：用如果—那么计划把目标变成自动触发",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "如果-那么计划把目标变自动触发",
+    "keywords_snippet": "执行意图 如果那么 Gollwitzer 目标触发"
+  },
+  {
+    "module": "14",
+    "date": "2026-07-26",
+    "topic": "WOOP心理对照法",
+    "title": "WOOP心理对照法：用愿望结果对照破解目标半途而废",
+    "level": "L3",
+    "depth": "实践层",
+    "angle": "愿望-结果-障碍-计划四步闭环破解半途而废",
+    "keywords_snippet": "WOOP 心理对照 Oettingen 目标坚持"
+  },
+  {
+    "module": "14",
+    "date": "2026-07-26",
+    "topic": "注意力残留效应",
+    "title": "注意力残留效应：用任务切换卫生把多线工作损耗降到最低",
+    "level": "L4",
+    "depth": "前沿层",
+    "angle": "切换卫生切断认知残留保深度工作",
+    "keywords_snippet": "注意力残留 认知切换 Leroy 曹立宏"
+  },
+  {
+    "module": "14",
+    "date": "2026-07-26",
+    "topic": "成长型思维",
+    "title": "成长型思维：用尚未思维把能力固化信念换成可成长叙事",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "尚未思维替换能力固化信念",
+    "keywords_snippet": "成长型思维 固定型 Dweck 尚未"
+  },
+  {
+    "module": "14",
+    "date": "2026-07-26",
+    "topic": "认知重评术",
+    "title": "认知重评术：用情绪再评估把压力事件变成可控资源",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "情绪再评估换框降低内耗",
+    "keywords_snippet": "认知重评 Gross 情绪标注 情绪调节"
   }
 ]

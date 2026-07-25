@@ -1738,5 +1738,65 @@
     "depth": "概念层",
     "angle": "语义向量与余弦相似度",
     "keywords_snippet": "Embeddings,词向量,语义检索,余弦相似度"
+  },
+  {
+    "module": "07",
+    "date": "2026-07-26",
+    "topic": "大模型对齐训练",
+    "title": "大模型对齐训练：从RLHF到DPO/GRPO让模型输出符合人类偏好",
+    "level": "L4",
+    "depth": "前沿层",
+    "angle": "2026对齐算法演进",
+    "keywords_snippet": "RLHF DPO GRPO 对齐 奖励模型 推理型模型"
+  },
+  {
+    "module": "07",
+    "date": "2026-07-26",
+    "topic": "LoRA低秩适配微调",
+    "title": "LoRA低秩适配微调：给大模型加小插件用消费级显卡学新技能",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "参数高效微调原理与配置",
+    "keywords_snippet": "LoRA PEFT 低秩 适配器 消费级显卡 微调"
+  },
+  {
+    "module": "07",
+    "date": "2026-07-26",
+    "topic": "对比学习CLIP",
+    "title": "对比学习CLIP：把图像和文字拉进同一语义空间的对齐术",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "多模态表示学习基础",
+    "keywords_snippet": "CLIP 对比学习 多模态 双编码器 向量空间"
+  },
+  {
+    "module": "07",
+    "date": "2026-07-26",
+    "topic": "Embedding与向量数据库",
+    "title": "Embedding与向量数据库：把文字变成可计算语义坐标的检索引擎",
+    "level": "L3",
+    "depth": "实践层",
+    "angle": "RAG检索底层引擎与生产数据",
+    "keywords_snippet": "Embedding 向量数据库 语义检索 RAG 余弦相似度"
+  },
+  {
+    "module": "07",
+    "date": "2026-07-26",
+    "topic": "位置编码RoPE与ALiBi",
+    "title": "位置编码RoPE与ALiBi：让Transformer记住词语先后顺序的两种方法",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "相对位置编码与外推",
+    "keywords_snippet": "RoPE ALiBi 位置编码 相对位置 长度外推"
+  },
+  {
+    "module": "07",
+    "date": "2026-07-26",
+    "topic": "分词Tokenization",
+    "title": "分词Tokenization：把人类文字切成模型能算的最小单元的底层逻辑",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "子词分词与词表",
+    "keywords_snippet": "Tokenization BPE WordPiece SentencePiece 子词 分词"
   }
 ]

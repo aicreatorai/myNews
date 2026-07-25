@@ -1366,5 +1366,65 @@
     "depth": "实战",
     "angle": "工具使用技巧与效率工作流",
     "keywords_snippet": "提示词工程,WPS AI,会议自动化,收件箱分流,AI绘画"
+  },
+  {
+    "module": "08",
+    "date": "2026-07-26",
+    "topic": "海螺AI语音克隆",
+    "title": "海螺AI语音克隆：文字转自然音色，短视频配音实战",
+    "level": "L1",
+    "depth": "概念",
+    "angle": "短视频/课程配音一键克隆个人音色",
+    "keywords_snippet": "海螺AI 语音克隆 TTS 配音 MiniMax 文字转语音"
+  },
+  {
+    "module": "08",
+    "date": "2026-07-26",
+    "topic": "Suno AI音乐生成",
+    "title": "Suno AI音乐生成：一句话写出带伴奏的完整歌曲",
+    "level": "L2",
+    "depth": "技术",
+    "angle": "提示词+结构标签生成带人声歌曲",
+    "keywords_snippet": "Suno AI音乐 生成 提示词 伴奏 BGM"
+  },
+  {
+    "module": "08",
+    "date": "2026-07-26",
+    "topic": "可灵AI视频生成",
+    "title": "可灵AI视频生成：文生视频运镜与时长控制技巧",
+    "level": "L3",
+    "depth": "实践",
+    "angle": "图生视频运镜与物体一致性实战",
+    "keywords_snippet": "可灵AI Kling 文生视频 运镜 图生视频"
+  },
+  {
+    "module": "08",
+    "date": "2026-07-26",
+    "topic": "n8n+AI自动化",
+    "title": "n8n+AI自动化：低代码把重复任务交给智能体",
+    "level": "L4",
+    "depth": "前沿",
+    "angle": "自托管工作流编排多Agent",
+    "keywords_snippet": "n8n 自动化 工作流 自托管 AI Agent"
+  },
+  {
+    "module": "08",
+    "date": "2026-07-26",
+    "topic": "WPS AI办公助手",
+    "title": "WPS AI办公助手：自然语言润色与生成文档表格",
+    "level": "L1",
+    "depth": "概念",
+    "angle": "文档/表格/PPT一站式自然语言处理",
+    "keywords_snippet": "WPS AI 办公 文档 表格 PPT 润色"
+  },
+  {
+    "module": "08",
+    "date": "2026-07-26",
+    "topic": "Midjourney提示词工程",
+    "title": "Midjourney提示词工程：用参数与后缀控制画面风格",
+    "level": "L2",
+    "depth": "技术",
+    "angle": "参数与权重语法控制出图风格",
+    "keywords_snippet": "Midjourney 提示词 参数 权重 风格 出图"
   }
 ]

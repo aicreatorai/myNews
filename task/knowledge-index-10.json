@@ -1328,5 +1328,65 @@
     "depth": "概念层",
     "angle": "本地全模态语音助手",
     "keywords_snippet": "本地AI,语音,Live2D"
+  },
+  {
+    "module": "10",
+    "date": "2026-07-26",
+    "topic": "ai-job-search 本地求职自动化",
+    "title": "ai-job-search：基于 Claude Code 的 AI 求职自动化框架",
+    "level": "L2",
+    "depth": "900+字深度",
+    "angle": "基于Claude Code的本地求职流水线(简历/求职信/面试模拟)",
+    "keywords_snippet": "求职 自动化 Claude Code Agent 简历"
+  },
+  {
+    "module": "10",
+    "date": "2026-07-26",
+    "topic": "awesome-llm-apps 可运行AI应用清单",
+    "title": "awesome-llm-apps：119k Star 的 100+ AI Agent 与 RAG 可运行应用精选库",
+    "level": "L1",
+    "depth": "900+字深度",
+    "angle": "100+可运行Agent/RAG应用精选库, 实战地图",
+    "keywords_snippet": "awesome RAG Agent 应用 可运行"
+  },
+  {
+    "module": "10",
+    "date": "2026-07-26",
+    "topic": "DojoAgents 自主金融决策Agent",
+    "title": "DojoAgents：深涌智能开源的自主金融决策 Agent",
+    "level": "L2",
+    "depth": "900+字深度",
+    "angle": "金融研究Agent Loop与可审计推理链路",
+    "keywords_snippet": "金融 Agent 决策 研究 投资"
+  },
+  {
+    "module": "10",
+    "date": "2026-07-26",
+    "topic": "OmniRoute 多模型AI网关",
+    "title": "OmniRoute：聚合 290+ 提供商的免费 AI 网关",
+    "level": "L2",
+    "depth": "900+字深度",
+    "angle": "290+提供商统一端点与配额感知自动降级",
+    "keywords_snippet": "AI网关 多模型 路由 统一端点"
+  },
+  {
+    "module": "10",
+    "date": "2026-07-26",
+    "topic": "Prefect 工作流编排框架",
+    "title": "Prefect：用 Python 构建弹性数据管道的工作流编排框架",
+    "level": "L2",
+    "depth": "900+字深度",
+    "angle": "Python原生数据管道编排与可观测性",
+    "keywords_snippet": "工作流 编排 数据管道 Python"
+  },
+  {
+    "module": "10",
+    "date": "2026-07-26",
+    "topic": "CubeSandbox AI Agent安全沙箱",
+    "title": "CubeSandbox：面向 AI Agent 的轻量安全沙箱",
+    "level": "L2",
+    "depth": "900+字深度",
+    "angle": "Rust轻量隔离执行环境守护Agent",
+    "keywords_snippet": "沙箱 Agent 安全 隔离 Rust"
   }
 ]

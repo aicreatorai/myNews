@@ -668,5 +668,55 @@
     "depth": "概念层",
     "angle": "图文音混合降低认知负荷",
     "keywords_snippet": "多模态/认知负荷/双重编码"
+  },
+  {
+    "module": "13",
+    "date": "2026-07-26",
+    "topic": "高校AI助教规模化",
+    "title": "清华大学440门课程配AI助教清小搭：高校如何规模化落地AI赋能教学",
+    "level": "L1",
+    "depth": "深稿",
+    "angle": "高教AI助教落地与思维训练",
+    "keywords_snippet": "清华 清小搭 440门课 AI助教 复旦 干细胞式"
+  },
+  {
+    "module": "13",
+    "date": "2026-07-26",
+    "topic": "AI+科学教育多智能体",
+    "title": "科大讯飞多智能体协同科学教育助手：从单智能辅教到多Agent协作",
+    "level": "L2",
+    "depth": "深稿",
+    "angle": "探究式科学教育+多Agent协同",
+    "keywords_snippet": "科大讯飞 多智能体 科学教育 工作流 科学领杭"
+  },
+  {
+    "module": "13",
+    "date": "2026-07-26",
+    "topic": "K12 AI美术与跨学科创作",
+    "title": "杭州七中与春晖小学：AI美术与数学创作把主导权还给学生",
+    "level": "L3",
+    "depth": "深稿",
+    "angle": "自我决定论+多模态学习 创作主导权",
+    "keywords_snippet": "杭州七中 七彩AI 春晖小学 蓝染 数学纹样"
+  },
+  {
+    "module": "13",
+    "date": "2026-07-26",
+    "topic": "国际高教公平AI案例",
+    "title": "普渡PeteChat与加拿大Contact North：AI做大范围个性化与高教公平",
+    "level": "L4",
+    "depth": "深稿",
+    "angle": "国际公共品思路+国内落地可行性",
+    "keywords_snippet": "普渡 PeteChat Contact North 免费AI套件 高教公平"
+  },
+  {
+    "module": "13",
+    "date": "2026-07-26",
+    "topic": "AI教育伦理治理框架",
+    "title": "《人工智能教育伦理：参考框架》发布：界定禁止准入与鼓励使用边界",
+    "level": "L1",
+    "depth": "深稿",
+    "angle": "三类行为界限+素养标准体系",
+    "keywords_snippet": "人工智能教育伦理 参考框架 禁止准入 鼓励使用 素养标准"
   }
 ]
