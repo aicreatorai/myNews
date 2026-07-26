@@ -1488,5 +1488,65 @@
     "depth": "深稿",
     "angle": "信任校准研究动作",
     "keywords_snippet": "信任校准 过度信任 用户研究 Koji"
+  },
+  {
+    "module": "15",
+    "date": "2026-07-27",
+    "topic": "AI产品激活漏斗与Aha Moment设计",
+    "title": "AI产品激活漏斗与Aha Moment设计：用首次价值时刻锁定早期留存",
+    "level": "L2",
+    "depth": "深稿",
+    "angle": "用户运营与留存",
+    "keywords_snippet": "激活漏斗 Aha Moment 早期留存"
+  },
+  {
+    "module": "15",
+    "date": "2026-07-27",
+    "topic": "RAG产品化的召回与准确率权衡",
+    "title": "RAG产品化的召回与准确率权衡：把知识库问答做成可靠功能",
+    "level": "L3",
+    "depth": "深稿",
+    "angle": "技术产品化RAG",
+    "keywords_snippet": "RAG 召回率 准确率 知识库"
+  },
+  {
+    "module": "15",
+    "date": "2026-07-27",
+    "topic": "AI产品混合定价模型",
+    "title": "AI产品混合定价模型：用量化价值取代席位订阅的收费逻辑",
+    "level": "L2",
+    "depth": "深稿",
+    "angle": "商业化与定价",
+    "keywords_snippet": "混合定价 结果付费 席位订阅"
+  },
+  {
+    "module": "15",
+    "date": "2026-07-27",
+    "topic": "AI产品出海本地化策略",
+    "title": "AI产品出海本地化策略：多语言适配与文化语境的双重校验",
+    "level": "L2",
+    "depth": "深稿",
+    "angle": "出海与本地化",
+    "keywords_snippet": "出海 本地化 多语言 文化语境"
+  },
+  {
+    "module": "15",
+    "date": "2026-07-27",
+    "topic": "AI产品偏见检测与公平性治理",
+    "title": "AI产品偏见检测与公平性治理：把负责任的AI做成可验收模块",
+    "level": "L3",
+    "depth": "深稿",
+    "angle": "伦理与责任",
+    "keywords_snippet": "偏见检测 公平性 负责任AI"
+  },
+  {
+    "module": "15",
+    "date": "2026-07-27",
+    "topic": "AI PM能力评估与转型路径",
+    "title": "AI PM能力评估与转型路径：从需求翻译到智能体系统编排",
+    "level": "L1",
+    "depth": "深稿",
+    "angle": "职业发展",
+    "keywords_snippet": "AI PM 能力模型 转型 系统编排"
   }
 ]

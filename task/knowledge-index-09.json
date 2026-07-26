@@ -1148,5 +1148,65 @@
     "depth": "900-1000字",
     "angle": "类型系统演进",
     "keywords_snippet": "Python PEP 695 PEP 701 泛型 f-string 类型语法"
+  },
+  {
+    "module": "09",
+    "date": "2026-07-27",
+    "topic": "TypeScript 7.0 原生编译器",
+    "title": "TypeScript 7.0 原生编译器落地：Go 重写带来十倍提速",
+    "level": "L1",
+    "depth": "深",
+    "angle": "编译器架构重写",
+    "keywords_snippet": "TypeScript 7.0 Go 原生编译器 性能"
+  },
+  {
+    "module": "09",
+    "date": "2026-07-27",
+    "topic": "Swift 6.3 C互操作安卓",
+    "title": "Swift 6.3 打通 C 互操作与安卓 SDK：跨平台再下一城",
+    "level": "L2",
+    "depth": "深",
+    "angle": "跨平台互操作",
+    "keywords_snippet": "Swift 6.3 C互操作 Android SDK"
+  },
+  {
+    "module": "09",
+    "date": "2026-07-27",
+    "topic": "C++26 合约与静态反射",
+    "title": "C++26 合约与静态反射入标准：自 C++11 最大变革",
+    "level": "L3",
+    "depth": "深",
+    "angle": "标准演进",
+    "keywords_snippet": "C++26 合约 静态反射 标准"
+  },
+  {
+    "module": "09",
+    "date": "2026-07-27",
+    "topic": "Rust 1.96 Range 类型",
+    "title": "Rust 1.96 重构 Range 类型体系：迭代语义迎来修正",
+    "level": "L4",
+    "depth": "深",
+    "angle": "标准库重构",
+    "keywords_snippet": "Rust 1.96 Range core::range"
+  },
+  {
+    "module": "09",
+    "date": "2026-07-27",
+    "topic": "Scala 3 类型级宏",
+    "title": "Scala 3 类型级宏与擦除参数：JVM 函数式再进阶",
+    "level": "L1",
+    "depth": "深",
+    "angle": "类型级编程",
+    "keywords_snippet": "Scala 3 宏 erased 类型级"
+  },
+  {
+    "module": "09",
+    "date": "2026-07-27",
+    "topic": "Ruby 3.4 Prism YJIT",
+    "title": "Ruby 3.4 Prism 解析器与 YJIT：脚本跑出编译型性能",
+    "level": "L2",
+    "depth": "深",
+    "angle": "性能与工具链",
+    "keywords_snippet": "Ruby 3.4 Prism YJIT 解析器"
   }
 ]

@@ -1388,5 +1388,65 @@
     "depth": "深",
     "angle": "PLG自下而上与企业销售选型",
     "keywords_snippet": "PLG 企业销售 增长引擎 选型"
+  },
+  {
+    "module": "12",
+    "date": "2026-07-27",
+    "topic": "Vibe Coding走量模式",
+    "title": "单人工具App批量走量：Vibe Coding 走量模式拆解",
+    "level": "L1",
+    "depth": "深稿",
+    "angle": "单人工具App批量走量",
+    "keywords_snippet": "vibe coding 工具app 批量走量 自然语言编程"
+  },
+  {
+    "module": "12",
+    "date": "2026-07-27",
+    "topic": "单人AI短剧工厂",
+    "title": "单人AI短剧工厂：一人包揽全链路影视生产",
+    "level": "L2",
+    "depth": "深稿",
+    "angle": "全链路影视生产",
+    "keywords_snippet": "ai短剧 单人 全链路 即梦 小云雀"
+  },
+  {
+    "module": "12",
+    "date": "2026-07-27",
+    "topic": "单人小游戏AI美术降本",
+    "title": "单人小游戏AI美术降本：15天一款的轻资产路径",
+    "level": "L3",
+    "depth": "深稿",
+    "angle": "轻资产游戏开发",
+    "keywords_snippet": "小游戏 ai美术 15天 独立游戏 降本"
+  },
+  {
+    "module": "12",
+    "date": "2026-07-27",
+    "topic": "知识付费升单闭环",
+    "title": "知识付费升单闭环：一份课程撬动百万营收",
+    "level": "L4",
+    "depth": "深稿",
+    "angle": "课程到咨询升单",
+    "keywords_snippet": "知识付费 升单 课程 咨询 陪跑 小红书"
+  },
+  {
+    "module": "12",
+    "date": "2026-07-27",
+    "topic": "AI微SaaS寄生变现",
+    "title": "AI微SaaS寄生变现：浏览器插件与API封装躺赚法",
+    "level": "L1",
+    "depth": "深稿",
+    "angle": "浏览器插件API封装",
+    "keywords_snippet": "微saas 浏览器插件 api封装 寄生 分发渠道"
+  },
+  {
+    "module": "12",
+    "date": "2026-07-27",
+    "topic": "六周分销优先剧本",
+    "title": "六周拿到首付费：独立开发者分销优先剧本",
+    "level": "L2",
+    "depth": "深稿",
+    "angle": "独立开发者从0到1",
+    "keywords_snippet": "六周 首付费 分销优先 验证前置 独立开发者"
   }
 ]

@@ -1798,5 +1798,45 @@
     "depth": "概念层",
     "angle": "子词分词与词表",
     "keywords_snippet": "Tokenization BPE WordPiece SentencePiece 子词 分词"
+  },
+  {
+    "module": "07",
+    "date": "2026-07-27",
+    "topic": "语音大模型TTS与ASR",
+    "title": "语音大模型TTS与ASR：让机器听清人话也说出人话",
+    "level": "L1",
+    "depth": "基础层",
+    "angle": "端到端语音统一建模",
+    "keywords_snippet": "ASR TTS Whisper 端到端"
+  },
+  {
+    "module": "07",
+    "date": "2026-07-27",
+    "topic": "MCP模型上下文协议",
+    "title": "MCP模型上下文协议：给AI统一插上工具接口的标准插头",
+    "level": "L2",
+    "depth": "原理层",
+    "angle": "标准化工具调用协议",
+    "keywords_snippet": "MCP Function Calling JSON-RPC"
+  },
+  {
+    "module": "07",
+    "date": "2026-07-27",
+    "topic": "AI安全对齐与越狱防御",
+    "title": "AI安全对齐与越狱防御：把大模型调教成既聪明又守规矩的助手",
+    "level": "L4",
+    "depth": "前沿层",
+    "angle": "对齐与越狱防御攻防",
+    "keywords_snippet": "对齐 越狱 宪法AI 红队"
+  },
+  {
+    "module": "07",
+    "date": "2026-07-27",
+    "topic": "DSPy自动提示优化",
+    "title": "DSPy自动提示优化：用编译思想替代手工调Prompt",
+    "level": "L2",
+    "depth": "原理层",
+    "angle": "提示编译优化",
+    "keywords_snippet": "DSPy 提示工程 编译"
   }
 ]

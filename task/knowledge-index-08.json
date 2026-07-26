@@ -1426,5 +1426,65 @@
     "depth": "技术",
     "angle": "参数与权重语法控制出图风格",
     "keywords_snippet": "Midjourney 提示词 参数 权重 风格 出图"
+  },
+  {
+    "module": "08",
+    "date": "2026-07-27",
+    "topic": "Perplexity AI搜索",
+    "title": "Perplexity AI：用对话式搜索把信息检索升级为答案生成",
+    "level": "L2",
+    "depth": "实操",
+    "angle": "AI搜索带出处",
+    "keywords_snippet": "Perplexity 答案引擎 引用"
+  },
+  {
+    "module": "08",
+    "date": "2026-07-27",
+    "topic": "ElevenLabs语音克隆",
+    "title": "ElevenLabs：用AI语音克隆把文字变成有温度的有声内容",
+    "level": "L3",
+    "depth": "实操",
+    "angle": "拟真配音",
+    "keywords_snippet": "ElevenLabs TTS 克隆"
+  },
+  {
+    "module": "08",
+    "date": "2026-07-27",
+    "topic": "秘塔AI搜索",
+    "title": "秘塔AI搜索：用无广告中文AI搜索把网页变成带出处的答案",
+    "level": "L1",
+    "depth": "实操",
+    "angle": "中文无广告搜索",
+    "keywords_snippet": "秘塔 中文搜索 出处"
+  },
+  {
+    "module": "08",
+    "date": "2026-07-27",
+    "topic": "通义万相",
+    "title": "通义万相：用中文提示词把创意变成高精度AI画作",
+    "level": "L4",
+    "depth": "实操",
+    "angle": "国风AI绘画",
+    "keywords_snippet": "通义万相 中文生图"
+  },
+  {
+    "module": "08",
+    "date": "2026-07-27",
+    "topic": "Kimi长文解析",
+    "title": "Kimi：用超长上下文把百页文档变成可追问的知识库",
+    "level": "L2",
+    "depth": "实操",
+    "angle": "长上下文文档问答",
+    "keywords_snippet": "Kimi 长上下文 文档"
+  },
+  {
+    "module": "08",
+    "date": "2026-07-27",
+    "topic": "橙篇长文写作",
+    "title": "橙篇：用AI把零散长文资料一键整理成结构化报告",
+    "level": "L3",
+    "depth": "实操",
+    "angle": "资料成稿",
+    "keywords_snippet": "橙篇 长文写作 报告"
   }
 ]
