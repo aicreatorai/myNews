@@ -1486,5 +1486,65 @@
     "depth": "实操",
     "angle": "资料成稿",
     "keywords_snippet": "橙篇 长文写作 报告"
+  },
+  {
+    "module": "08",
+    "date": "2026-07-28",
+    "topic": "DeepSeek深度思考",
+    "title": "DeepSeek：用深度思考做推理与数据分析",
+    "level": "L2",
+    "depth": "逻辑推理实战",
+    "angle": "深度思考模式做竞品与数据解读",
+    "keywords_snippet": "DeepSeek 深度思考 数据分析 推理"
+  },
+  {
+    "module": "08",
+    "date": "2026-07-28",
+    "topic": "WorkBuddy办公智能体",
+    "title": "WorkBuddy：把办公任务交给AI专家出成品",
+    "level": "L3",
+    "depth": "多Agent交付",
+    "angle": "多专家并行产出办公文档",
+    "keywords_snippet": "WorkBuddy 腾讯 办公Agent 多专家"
+  },
+  {
+    "module": "08",
+    "date": "2026-07-28",
+    "topic": "通义千问办公全家桶",
+    "title": "通义千问：用通义PPT与文档对话搞定办公",
+    "level": "L1",
+    "depth": "办公入门",
+    "angle": "通义效率/PPT/阅读一条龙",
+    "keywords_snippet": "通义千问 通义PPT 通义效率 办公"
+  },
+  {
+    "module": "08",
+    "date": "2026-07-28",
+    "topic": "Raycast AI命令台",
+    "title": "Raycast AI：用快捷键唤起AI的统一命令台",
+    "level": "L4",
+    "depth": "系统级效率",
+    "angle": "快捷键唤起AI与Glaze生成Mac小工具",
+    "keywords_snippet": "Raycast AI Glaze Mac 命令台 自动化"
+  },
+  {
+    "module": "08",
+    "date": "2026-07-28",
+    "topic": "Leonardo AI可控出图",
+    "title": "Leonardo AI：用画布与重绘控制AI出图一致性",
+    "level": "L2",
+    "depth": "可控生成",
+    "angle": "画布/in-painting保持视觉一致",
+    "keywords_snippet": "Leonardo AI 画布 in-painting 一致性"
+  },
+  {
+    "module": "08",
+    "date": "2026-07-28",
+    "topic": "Replit AI在线编程",
+    "title": "Replit AI：浏览器里用AI结对写代码跑程序",
+    "level": "L3",
+    "depth": "零环境编程",
+    "angle": "浏览器IDE+AI结对与报错自救",
+    "keywords_snippet": "Replit AI 在线IDE 结对编程 零环境"
   }
 ]

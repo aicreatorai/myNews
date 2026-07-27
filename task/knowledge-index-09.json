@@ -1208,5 +1208,65 @@
     "depth": "深",
     "angle": "性能与工具链",
     "keywords_snippet": "Ruby 3.4 Prism YJIT 解析器"
+  },
+  {
+    "module": "09",
+    "date": "2026-07-28",
+    "topic": "Go 1.25 发布 Green Tea GC 与 json v2",
+    "title": "Go 1.25 发布：实验性 Green Tea GC 与 encoding/json v2 重塑标准库",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "运行时/标准库新特性深解",
+    "keywords_snippet": "Go,Green Tea GC,json v2,GOMAXPROCS,TypeAssert,synctest,wasip1"
+  },
+  {
+    "module": "09",
+    "date": "2026-07-28",
+    "topic": "Dart 3.13 Primary Constructors 转正",
+    "title": "Dart 3.13 发布：Primary Constructors 转正与私有命名参数精简样板",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "语言语法新特性入门",
+    "keywords_snippet": "Dart,Primary Constructors,私有命名参数,Flutter"
+  },
+  {
+    "module": "09",
+    "date": "2026-07-28",
+    "topic": "Zig 0.14 编译期内存分配",
+    "title": "Zig 0.14 发布：编译期内存分配与无隐藏控制流的务实系统编程",
+    "level": "L3",
+    "depth": "实践层",
+    "angle": "系统编程实战与 comptime 解析",
+    "keywords_snippet": "Zig,comptime_alloc,无隐藏控制流,交叉编译,57架构"
+  },
+  {
+    "module": "09",
+    "date": "2026-07-28",
+    "topic": "PHP 8.6 与 9.0 破坏性清理预备",
+    "title": "PHP 8.6 与 9.0 预备：错误处理从警告升级为异常及破坏性清理",
+    "level": "L4",
+    "depth": "前沿层",
+    "angle": "版本演进与迁移前瞻",
+    "keywords_snippet": "PHP,8.6,9.0,错误处理,破坏性变更,deprecation"
+  },
+  {
+    "module": "09",
+    "date": "2026-07-28",
+    "topic": "Python 2026 工程化最佳实践",
+    "title": "Python 2026 工程化最佳实践：pyproject 与 Ruff 重塑生产级工作流",
+    "level": "L3",
+    "depth": "实践层",
+    "angle": "生产级工程化落地实践",
+    "keywords_snippet": "Python,pyproject,Ruff,类型检查,uv,pytest,工程化"
+  },
+  {
+    "module": "09",
+    "date": "2026-07-28",
+    "topic": "2026 编译器 native 重写潮",
+    "title": "2026 编译器 native 重写潮：TypeScript 用 Go、Astro 与 Vite 用 Rust",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "工具链 native 化趋势分析",
+    "keywords_snippet": "TypeScript,Go,Rust,Vite,Rolldown,编译器重写"
   }
 ]

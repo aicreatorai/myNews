@@ -1838,5 +1838,65 @@
     "depth": "原理层",
     "angle": "提示编译优化",
     "keywords_snippet": "DSPy 提示工程 编译"
+  },
+  {
+    "module": "07",
+    "date": "2026-07-28",
+    "topic": "模型服务化部署",
+    "title": "模型服务化部署：用ONNX与FastAPI把模型搬上生产线",
+    "level": "L3",
+    "depth": "实践层",
+    "angle": "ONNX/FastAPI/K8s生产部署",
+    "keywords_snippet": "ONNX FastAPI 模型服务化 部署 MLOps"
+  },
+  {
+    "module": "07",
+    "date": "2026-07-28",
+    "topic": "向量数据库与混合检索",
+    "title": "向量数据库与混合检索：让语义搜索真正可用",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "RAG语义检索与ANN索引",
+    "keywords_snippet": "向量数据库 混合检索 RAG Embedding 语义搜索"
+  },
+  {
+    "module": "07",
+    "date": "2026-07-28",
+    "topic": "多智能体编排",
+    "title": "多智能体编排：用规划执行校验三角色分工解题",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "规划-执行-校验三角色",
+    "keywords_snippet": "多智能体 Agent编排 规划者 校验者"
+  },
+  {
+    "module": "07",
+    "date": "2026-07-28",
+    "topic": "Tokenizer与BPE分词",
+    "title": "Tokenizer与BPE分词：把文字切成模型能懂的token",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "BPE/SentencePiece分词原理",
+    "keywords_snippet": "Tokenizer BPE SentencePiece 分词 子词"
+  },
+  {
+    "module": "07",
+    "date": "2026-07-28",
+    "topic": "原生多模态大模型",
+    "title": "原生多模态大模型：从拼接式到统一语义空间",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "原生融合vs拼接式多模态",
+    "keywords_snippet": "原生多模态 CLIP 统一语义空间 跨模态"
+  },
+  {
+    "module": "07",
+    "date": "2026-07-28",
+    "topic": "模型权重量化",
+    "title": "模型权重量化：用INT4与GPTQ把大模型压进显存",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "INT4/GPTQ/AWQ权重量化",
+    "keywords_snippet": "权重量化 INT4 GPTQ AWQ QLoRA"
   }
 ]

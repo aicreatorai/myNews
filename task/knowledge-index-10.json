@@ -1388,5 +1388,65 @@
     "depth": "900+字深度",
     "angle": "Rust轻量隔离执行环境守护Agent",
     "keywords_snippet": "沙箱 Agent 安全 隔离 Rust"
+  },
+  {
+    "module": "10",
+    "date": "2026-07-28",
+    "topic": "bitchat",
+    "title": "【bitchat：基于蓝牙 Mesh 的离线 IRC 式聊天，断网也能发消息】",
+    "level": "L1",
+    "depth": "基础介绍",
+    "angle": "蓝牙Mesh去中心化离线聊天、无需服务器账号",
+    "keywords_snippet": "蓝牙Mesh,离线通信,去中心化,Swift"
+  },
+  {
+    "module": "10",
+    "date": "2026-07-28",
+    "topic": "herdr",
+    "title": "【herdr：常驻终端的 Agent 多路复用器，统一管理多个编码智能体】",
+    "level": "L1",
+    "depth": "基础介绍",
+    "angle": "终端Agent多路复用器、统一调度多编码智能体",
+    "keywords_snippet": "Agent复用,Rust,终端,多模型"
+  },
+  {
+    "module": "10",
+    "date": "2026-07-28",
+    "topic": "openwiki",
+    "title": "【openwiki：用 Agent 自动维护项目文档的开源 CLI】",
+    "level": "L2",
+    "depth": "原理解析",
+    "angle": "Agent自动维护文档、差异驱动文档养护",
+    "keywords_snippet": "文档自动化,Agent,CLI,LangChain"
+  },
+  {
+    "module": "10",
+    "date": "2026-07-28",
+    "topic": "chrome-devtools-mcp",
+    "title": "【chrome-devtools-mcp：把 Chrome 开发者工具变成 Agent 可调用 MCP 服务】",
+    "level": "L2",
+    "depth": "原理解析",
+    "angle": "Chrome DevTools Protocol封装为MCP服务",
+    "keywords_snippet": "MCP,Chrome,调试,自动化"
+  },
+  {
+    "module": "10",
+    "date": "2026-07-28",
+    "topic": "open-code-review",
+    "title": "【open-code-review：阿里开源的混合架构代码审查工具】",
+    "level": "L1",
+    "depth": "基础介绍",
+    "angle": "确定性管线加LLM Agent的混合代码审查",
+    "keywords_snippet": "代码审查,混合架构,阿里,LLM"
+  },
+  {
+    "module": "10",
+    "date": "2026-07-28",
+    "topic": "milvus",
+    "title": "【milvus：云原生高性能向量数据库，为 RAG 提供毫秒级检索】",
+    "level": "L1",
+    "depth": "基础介绍",
+    "angle": "云原生向量数据库、亿级向量毫秒检索",
+    "keywords_snippet": "向量数据库,RAG,ANN,Milvus"
   }
 ]

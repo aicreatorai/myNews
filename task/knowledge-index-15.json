@@ -1548,5 +1548,65 @@
     "depth": "深稿",
     "angle": "职业发展",
     "keywords_snippet": "AI PM 能力模型 转型 系统编排"
+  },
+  {
+    "module": "15",
+    "date": "2026-07-28",
+    "topic": "深度研究非线性需求分析法",
+    "title": "深度研究产品的非线性需求分析法：用冰山模型与前置澄清锁定真实意图",
+    "level": "L3",
+    "depth": "主",
+    "angle": "用户研究与需求挖掘/冰山模型+前置澄清",
+    "keywords_snippet": "深度研究 非线性需求 冰山模型 前置澄清 真实意图 Agent"
+  },
+  {
+    "module": "15",
+    "date": "2026-07-28",
+    "topic": "AI原生思维重构产品定义",
+    "title": "AI原生思维重构产品定义：从给功能加AI到没有AI产品就不存在",
+    "level": "L1",
+    "depth": "主",
+    "angle": "产品思维与方法论/AI Native范式",
+    "keywords_snippet": "AI原生思维 AI Native 重新设计 能力商品化 范式重构"
+  },
+  {
+    "module": "15",
+    "date": "2026-07-28",
+    "topic": "执行型AI助手架构设计(支付宝阿宝)",
+    "title": "执行型AI助手架构设计：支付宝阿宝的CUIGUI分层与风险分层自动化",
+    "level": "L4",
+    "depth": "主",
+    "angle": "国内AI产品案例拆解/CUI+GUI分层与风险分层",
+    "keywords_snippet": "执行型AI助手 支付宝阿宝 CUI GUI 风险分层 自动化 对话入口"
+  },
+  {
+    "module": "15",
+    "date": "2026-07-28",
+    "topic": "AI产品UX降门槛三策略",
+    "title": "AI产品UX降门槛三策略：熟悉化界面黑盒可视化与首痛路径最短化",
+    "level": "L2",
+    "depth": "主",
+    "angle": "AI产品UX设计/降认知负荷促adoption",
+    "keywords_snippet": "AI产品 UX 降门槛 熟悉化界面 黑盒可视化 首痛路径"
+  },
+  {
+    "module": "15",
+    "date": "2026-07-28",
+    "topic": "AI PM问题驱动需求验证三问法",
+    "title": "AI PM的问题驱动需求验证：三问法筛选真需求与数据闭环迭代",
+    "level": "L1",
+    "depth": "主",
+    "angle": "产品思维与方法论/问题驱动与数据闭环",
+    "keywords_snippet": "问题驱动 三问法 真需求 数据闭环 边际价值 成本"
+  },
+  {
+    "module": "15",
+    "date": "2026-07-28",
+    "topic": "最小可行AI三阶段验证法MVA",
+    "title": "最小可行AI三阶段验证法：需求存在体验可行到商业价值的MVP拆解",
+    "level": "L3",
+    "depth": "主",
+    "angle": "AI PM方法论/MVP三阶段验证阈值",
+    "keywords_snippet": "最小可行AI MVA MVP 三阶段 需求存在 体验可行 商业价值"
   }
 ]
