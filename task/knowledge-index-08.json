@@ -1546,5 +1546,65 @@
     "depth": "零环境编程",
     "angle": "浏览器IDE+AI结对与报错自救",
     "keywords_snippet": "Replit AI 在线IDE 结对编程 零环境"
+  },
+  {
+    "module": "08",
+    "date": "2026-07-29",
+    "topic": "ChatGPT自定义GPT",
+    "title": "【ChatGPT自定义GPT搭建：用Actions把私有数据接成专属助手】",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "零代码造专属助手+Actions接API",
+    "keywords_snippet": "Custom GPT Actions 知识库"
+  },
+  {
+    "module": "08",
+    "date": "2026-07-29",
+    "topic": "Claude Artifacts",
+    "title": "【Claude Artifacts实战：让对话直接产出可交互网页与图表】",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "对话即开发环境可交互产物",
+    "keywords_snippet": "Artifacts React SVG Mermaid"
+  },
+  {
+    "module": "08",
+    "date": "2026-07-29",
+    "topic": "智谱清言智能体",
+    "title": "【智谱清言智能体：长文档问答与自建Agent工作流】",
+    "level": "L3",
+    "depth": "实践层",
+    "angle": "长文档解析+多步Agent",
+    "keywords_snippet": "智谱清言 GLM Agent 长文档"
+  },
+  {
+    "module": "08",
+    "date": "2026-07-29",
+    "topic": "钉钉AI办公助理",
+    "title": "【钉钉AI办公助理：审批日报与群聊总结一键自动化】",
+    "level": "L4",
+    "depth": "前沿层",
+    "angle": "原生办公集成自动化",
+    "keywords_snippet": "钉钉AI 群聊总结 审批"
+  },
+  {
+    "module": "08",
+    "date": "2026-07-29",
+    "topic": "Gemini Workspace",
+    "title": "【Gemini联动Google Workspace：邮件文档表格一句话贯通】",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "生态贯通就地操作",
+    "keywords_snippet": "Gemini Workspace Gmail Docs Sheets"
+  },
+  {
+    "module": "08",
+    "date": "2026-07-29",
+    "topic": "讯飞星火",
+    "title": "【讯飞星火一体办公：语音转写会议纪要到文案生成】",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "语音+大模型开会即出稿",
+    "keywords_snippet": "讯飞星火 语音转写 纪要 文案"
   }
 ]

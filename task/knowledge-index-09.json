@@ -1268,5 +1268,65 @@
     "depth": "技术层",
     "angle": "工具链 native 化趋势分析",
     "keywords_snippet": "TypeScript,Go,Rust,Vite,Rolldown,编译器重写"
+  },
+  {
+    "module": "09",
+    "date": "2026-07-29",
+    "topic": "Java JDK 26 HTTP/3 与结构化并发",
+    "title": "Java JDK 26 发布：HTTP/3 与结构化并发预览转正",
+    "level": "L3",
+    "depth": "标准库/并发深解",
+    "angle": "HttpClient HTTP/3、StructuredTaskScope、模块导入",
+    "keywords_snippet": "Java JDK 26 HTTP/3 Structured Concurrency"
+  },
+  {
+    "module": "09",
+    "date": "2026-07-29",
+    "topic": "ECMAScript 2026 新特性",
+    "title": "ECMAScript 2026 定稿：Array.fromAsync 与 Float16Array 入标准",
+    "level": "L2",
+    "depth": "语法范式",
+    "angle": "Array.fromAsync、RegExp.escape、Float16Array",
+    "keywords_snippet": "ECMAScript 2026 Array.fromAsync RegExp.escape"
+  },
+  {
+    "module": "09",
+    "date": "2026-07-29",
+    "topic": "Bun 1.4.0 Zig 迁 Rust",
+    "title": "Bun 1.4.0 发布：11 天将 78 万行代码从 Zig 迁至 Rust",
+    "level": "L2",
+    "depth": "运行时演进",
+    "angle": "AI 辅助语言迁移、换芯不换脸",
+    "keywords_snippet": "Bun 1.4.0 Rust Zig migration"
+  },
+  {
+    "module": "09",
+    "date": "2026-07-29",
+    "topic": "Raku Rakudo #195 RakuAST",
+    "title": "Raku Rakudo #195 发布：RakuAST 性能优化与 6.e 预研",
+    "level": "L3",
+    "depth": "元编程深解",
+    "angle": "编译期 AST、宏、6.e pragma",
+    "keywords_snippet": "Raku Rakudo RakuAST macro"
+  },
+  {
+    "module": "09",
+    "date": "2026-07-29",
+    "topic": "Elixir 1.18 集合论类型",
+    "title": "Elixir 1.18 类型系统：集合论类型推导落地 BEAM 生态",
+    "level": "L3",
+    "depth": "类型系统",
+    "angle": "set-theoretic types、typed struct、mix type",
+    "keywords_snippet": "Elixir 1.18 set-theoretic types"
+  },
+  {
+    "module": "09",
+    "date": "2026-07-29",
+    "topic": "Scala 3.6 函数式特性定型",
+    "title": "Scala 3.6 发布：scala-cli 默认化与 3.x 函数式特性定型",
+    "level": "L3",
+    "depth": "类型/函数式",
+    "angle": "given/using、opaque type、scala-cli",
+    "keywords_snippet": "Scala 3.6 given using opaque scala-cli"
   }
 ]

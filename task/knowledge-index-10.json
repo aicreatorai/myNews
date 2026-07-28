@@ -1448,5 +1448,65 @@
     "depth": "基础介绍",
     "angle": "云原生向量数据库、亿级向量毫秒检索",
     "keywords_snippet": "向量数据库,RAG,ANN,Milvus"
+  },
+  {
+    "module": "10",
+    "date": "2026-07-29",
+    "topic": "OpenMontage",
+    "title": "开源 Agent 视频制作系统",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "GitHub Trending 新项目",
+    "keywords_snippet": "12流水线100+工具700+Agent技能的视频生产系统"
+  },
+  {
+    "module": "10",
+    "date": "2026-07-29",
+    "topic": "harper",
+    "title": "离线隐私优先语法检查器",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "GitHub Trending 新项目",
+    "keywords_snippet": "Rust本地英文校对零数据外泄"
+  },
+  {
+    "module": "10",
+    "date": "2026-07-29",
+    "topic": "HKUDS DeepTutor",
+    "title": "终身个性化辅导智能体",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "GitHub Trending 新项目",
+    "keywords_snippet": "个性化辅导Agent长期画像"
+  },
+  {
+    "module": "10",
+    "date": "2026-07-29",
+    "topic": "strix",
+    "title": "AI 渗透测试工具",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "GitHub Trending 新项目",
+    "keywords_snippet": "AI红队渗透PoC验证"
+  },
+  {
+    "module": "10",
+    "date": "2026-07-29",
+    "topic": "codebase-memory-mcp",
+    "title": "代码知识图谱 MCP 服务器",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "GitHub Trending 新项目",
+    "keywords_snippet": "MCP代码索引token降99%"
+  },
+  {
+    "module": "10",
+    "date": "2026-07-29",
+    "topic": "HKUDS Vibe-Trading",
+    "title": "自然语言个人交易智能体",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "GitHub Trending 新项目",
+    "keywords_snippet": "量化交易Agent自然语言回测"
   }
 ]

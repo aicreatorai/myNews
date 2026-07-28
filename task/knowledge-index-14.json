@@ -1608,5 +1608,65 @@
     "depth": 1,
     "angle": "知识方法论",
     "keywords_snippet": "渐进式摘要 提取练习 事前验尸 出声思维 环境提示 SCAMPER"
+  },
+  {
+    "module": "14",
+    "date": "2026-07-29",
+    "topic": "费曼技巧",
+    "title": "费曼技巧：用教给外行逼出盲点把理解焊成长期记忆",
+    "level": "L2",
+    "depth": "技术层 - 内部机制、关键参数、优化策略",
+    "angle": "记忆与学习科学",
+    "keywords_snippet": "费曼 自我解释 生成效应 必要难度 输出倒逼输入"
+  },
+  {
+    "module": "14",
+    "date": "2026-07-29",
+    "topic": "压缩学习机制",
+    "title": "压缩学习机制：用知识骨架做短暂预学习让大脑连点成线",
+    "level": "L1",
+    "depth": "概念层 - 是什么、解决什么问题、与什么不同",
+    "angle": "科学学习方法",
+    "keywords_snippet": "压缩学习 知识骨架 Nature Communications 高阶结构 预学习"
+  },
+  {
+    "module": "14",
+    "date": "2026-07-29",
+    "topic": "目标设定与进度反馈",
+    "title": "目标设定与进度反馈：用定位速效法把模糊努力变可量化冲刺",
+    "level": "L3",
+    "depth": "实践层 - 生产级方案、踩坑经验、数据对比",
+    "angle": "目标与动机",
+    "keywords_snippet": "定位速效法 目标设定理论 进度反馈 Locke Latham 路牌"
+  },
+  {
+    "module": "14",
+    "date": "2026-07-29",
+    "topic": "精细加工追问法",
+    "title": "精细加工追问法：每学一个新知就逼问为什么建多条记忆提取路径",
+    "level": "L2",
+    "depth": "技术层 - 内部机制、关键参数、优化策略",
+    "angle": "记忆与学习科学",
+    "keywords_snippet": "精细加工追问 elaborative interrogation 联想编码 因果 提取路径 Pressley"
+  },
+  {
+    "module": "14",
+    "date": "2026-07-29",
+    "topic": "个性化生产力匹配",
+    "title": "个性化生产力匹配：按大五人格与执行功能选对你的效率系统",
+    "level": "L4",
+    "depth": "前沿层 - 最新演进、与传统方案的融合",
+    "angle": "效率与专注",
+    "keywords_snippet": "个性化生产力 大五人格 执行功能 特质策略契合 Awowale 2026"
+  },
+  {
+    "module": "14",
+    "date": "2026-07-29",
+    "topic": "正念训练与认知效率",
+    "title": "正念训练与认知效率：用CEM框架砍掉走神与情绪的认知干扰",
+    "level": "L3",
+    "depth": "实践层 - 生产级方案、踩坑经验、数据对比",
+    "angle": "情绪与心理健康",
+    "keywords_snippet": "正念 CEM框架 认知效率 走神 工作记忆 干扰 Nature Reviews Psychology"
   }
 ]

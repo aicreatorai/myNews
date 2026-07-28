@@ -1898,5 +1898,65 @@
     "depth": "技术层",
     "angle": "INT4/GPTQ/AWQ权重量化",
     "keywords_snippet": "权重量化 INT4 GPTQ AWQ QLoRA"
+  },
+  {
+    "module": "07",
+    "date": "2026-07-29",
+    "topic": "混合专家MoE架构",
+    "title": "混合专家MoE架构：用多个专精子网络把大模型拆成可调度专家团",
+    "level": "L1",
+    "depth": "原理+选型",
+    "angle": "路由门控与负载均衡",
+    "keywords_snippet": "MoE 混合专家 路由 专家网络"
+  },
+  {
+    "module": "07",
+    "date": "2026-07-29",
+    "topic": "GRPO群体相对策略优化",
+    "title": "GRPO群体相对策略优化：让推理模型在自我验证中学会一步步思考",
+    "level": "L2",
+    "depth": "原理+实战",
+    "angle": "组内相对奖励替代Critic",
+    "keywords_snippet": "GRPO 强化学习 推理 对齐"
+  },
+  {
+    "module": "07",
+    "date": "2026-07-29",
+    "topic": "语音AI双引擎ASR与TTS",
+    "title": "语音AI双引擎：ASR语音识别与TTS语音合成如何听懂又会说",
+    "level": "L1",
+    "depth": "原理+选型",
+    "angle": "端到端语音统一建模",
+    "keywords_snippet": "ASR TTS 语音识别 语音合成 Whisper"
+  },
+  {
+    "module": "07",
+    "date": "2026-07-29",
+    "topic": "KV Cache与PagedAttention",
+    "title": "KV Cache与PagedAttention：用分页显存管理让长文本推理不再爆显存",
+    "level": "L3",
+    "depth": "原理+工程",
+    "angle": "分页显存管理提升吞吐",
+    "keywords_snippet": "KV Cache PagedAttention vLLM 推理显存"
+  },
+  {
+    "module": "07",
+    "date": "2026-07-29",
+    "topic": "合成数据工程",
+    "title": "合成数据工程：用模型生成训练语料缓解高质量数据枯竭",
+    "level": "L2",
+    "depth": "原理+风险",
+    "angle": "模型生成语料缓解枯竭",
+    "keywords_snippet": "合成数据 训练语料 模型坍塌"
+  },
+  {
+    "module": "07",
+    "date": "2026-07-29",
+    "topic": "AI越狱与防御",
+    "title": "AI越狱与防御：红蓝对抗如何守住大模型的安全护栏",
+    "level": "L4",
+    "depth": "攻防对抗",
+    "angle": "红蓝对抗守住安全护栏",
+    "keywords_snippet": "越狱 防御 安全对齐 红队"
   }
 ]

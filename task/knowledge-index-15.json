@@ -1608,5 +1608,65 @@
     "depth": "主",
     "angle": "AI PM方法论/MVP三阶段验证阈值",
     "keywords_snippet": "最小可行AI MVA MVP 三阶段 需求存在 体验可行 商业价值"
+  },
+  {
+    "module": "15",
+    "date": "2026-07-29",
+    "topic": "人机协作甜区",
+    "title": "人机协作甜区：AI初稿+人类精修把采纳率拉到80%的设计边界",
+    "level": "L2",
+    "depth": "方法论",
+    "angle": "AI初稿+人类精修采纳率60-80%优于全AI生成",
+    "keywords_snippet": "人机协作 采纳率 AI初稿 人类精修"
+  },
+  {
+    "module": "15",
+    "date": "2026-07-29",
+    "topic": "单点切入验证法",
+    "title": "单点切入验证法：选痛点强重复多场景打AI功能首战",
+    "level": "L2",
+    "depth": "方法论",
+    "angle": "5人测试法与小切口场景验证",
+    "keywords_snippet": "单点切入 5人测试 痛点 重复"
+  },
+  {
+    "module": "15",
+    "date": "2026-07-29",
+    "topic": "AI伦理前置",
+    "title": "AI伦理前置：把误用偏见隐私风险写进PRD硬约束",
+    "level": "L3",
+    "depth": "方法论",
+    "angle": "PRD增设偏见隐私误用硬约束章节",
+    "keywords_snippet": "AI伦理 PRD 偏见 隐私 误用"
+  },
+  {
+    "module": "15",
+    "date": "2026-07-29",
+    "topic": "AI指标不可能三角",
+    "title": "AI指标不可能三角：准确性速度体验权衡下的PM取舍",
+    "level": "L3",
+    "depth": "方法论",
+    "angle": "准确性速度体验三角冲突与分阶段加权",
+    "keywords_snippet": "AI指标 准确性 速度 体验 权衡"
+  },
+  {
+    "module": "15",
+    "date": "2026-07-29",
+    "topic": "AI功能灵魂拷问",
+    "title": "AI功能灵魂拷问：去掉AI模块这个功能还成立吗",
+    "level": "L2",
+    "depth": "方法论",
+    "angle": "反事实立项评审过滤伪需求",
+    "keywords_snippet": "灵魂拷问 去掉AI 伪需求 评审"
+  },
+  {
+    "module": "15",
+    "date": "2026-07-29",
+    "topic": "Agent系统做减法",
+    "title": "Agent系统做减法：最优秀的AI PM擅长精简而非堆功能",
+    "level": "L3",
+    "depth": "方法论",
+    "angle": "脑手分离三层架构与精简harness",
+    "keywords_snippet": "Agent 做减法 脑手分离 精简"
   }
 ]
