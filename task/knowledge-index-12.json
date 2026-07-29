@@ -1568,5 +1568,65 @@
     "depth": "进阶层",
     "angle": "PH冷启动Micro-SaaS获客",
     "keywords_snippet": "Product Hunt 冷启动 一人公司 Micro-SaaS"
+  },
+  {
+    "module": "12",
+    "date": "2026-07-30",
+    "topic": "AI优先代运营",
+    "title": "AI优先代运营：一人交付五人产出的高毛利接单模型",
+    "level": "L3",
+    "depth": "深",
+    "angle": "一人公司代运营毛利模型",
+    "keywords_snippet": "AI代运营,一人公司,高毛利,接单"
+  },
+  {
+    "module": "12",
+    "date": "2026-07-30",
+    "topic": "垂直AI SaaS利润模型",
+    "title": "单点垂直SaaS利润模型：用AI把交付成本压到收入一成",
+    "level": "L2",
+    "depth": "深",
+    "angle": "垂直SaaS毛利结构",
+    "keywords_snippet": "垂直SaaS,毛利,API成本"
+  },
+  {
+    "module": "12",
+    "date": "2026-07-30",
+    "topic": "AI内容媒体自动化",
+    "title": "AI内容媒体自动化：一人运营媒体公司的机器化生产",
+    "level": "L3",
+    "depth": "深",
+    "angle": "内容裂变变现",
+    "keywords_snippet": "内容媒体,自动化,一人媒体公司"
+  },
+  {
+    "module": "12",
+    "date": "2026-07-30",
+    "topic": "AI API中间件转售",
+    "title": "AI API中间件转售：在模型厂商与用户间赚差价的中间层",
+    "level": "L3",
+    "depth": "深",
+    "angle": "API中间层差价",
+    "keywords_snippet": "API中间件,路由,转售"
+  },
+  {
+    "module": "12",
+    "date": "2026-07-30",
+    "topic": "2026 AI融资分层节奏",
+    "title": "资本重注成长期：2026上半年AI融资的分层节奏与逻辑",
+    "level": "L4",
+    "depth": "深",
+    "angle": "融资分层逻辑",
+    "keywords_snippet": "AI融资,分层,资本节奏"
+  },
+  {
+    "module": "12",
+    "date": "2026-07-30",
+    "topic": "中国AI出海硬件算力",
+    "title": "中国AI出海：硬件加本地算力服务的数智外贸路径",
+    "level": "L4",
+    "depth": "深",
+    "angle": "硬件+本地算力出海",
+    "keywords_snippet": "AI出海,硬件,本地算力,词元"
   }
 ]

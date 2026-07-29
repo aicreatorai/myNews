@@ -1606,5 +1606,65 @@
     "depth": "技术层",
     "angle": "语音+大模型开会即出稿",
     "keywords_snippet": "讯飞星火 语音转写 纪要 文案"
+  },
+  {
+    "module": "08",
+    "date": "2026-07-30",
+    "topic": "ChatGPT 高级语音模式 口语对话 起草 头脑风暴",
+    "title": "【ChatGPT 高级语音模式：用口语对话完成起草与头脑风暴】",
+    "level": "L2",
+    "depth": "约980字",
+    "angle": "语音交互替代打字的起草与头脑风暴实战",
+    "keywords_snippet": "chatgpt 高级语音 语音模式 口语 起草"
+  },
+  {
+    "module": "08",
+    "date": "2026-07-30",
+    "topic": "Claude Projects 项目空间 持久工作区 资料规范",
+    "title": "【Claude Projects 项目空间：把资料与规范收进持久工作区】",
+    "level": "L2",
+    "depth": "约925字",
+    "angle": "持久工作区收资料与规范减少重复背景",
+    "keywords_snippet": "claude projects 项目空间 持久 资料 规范"
+  },
+  {
+    "module": "08",
+    "date": "2026-07-30",
+    "topic": "Cursor 规则文件 .cursorrules 团队代码风格",
+    "title": "【Cursor 规则文件实战：用 .cursorrules 统一团队代码风格】",
+    "level": "L3",
+    "depth": "约940字",
+    "angle": "规则文件统一团队编码规范与多文件重构",
+    "keywords_snippet": "cursor cursorrules 规则文件 代码风格 重构"
+  },
+  {
+    "module": "08",
+    "date": "2026-07-30",
+    "topic": "文心一言 图表生成 文档问答 中文出图",
+    "title": "【文心一言：用一句话生成图表与做文档智能问答】",
+    "level": "L1",
+    "depth": "约930字",
+    "angle": "一句话出图与文档问答的零门槛可视化",
+    "keywords_snippet": "文心一言 ernie 图表 文档问答 出图"
+  },
+  {
+    "module": "08",
+    "date": "2026-07-30",
+    "topic": "剪映 图文成片 文案转视频 字幕短视频",
+    "title": "【剪映图文成片：AI 把文案一键变成带字幕短视频】",
+    "level": "L2",
+    "depth": "约940字",
+    "angle": "图文成片把口播稿一键变带字幕短视频",
+    "keywords_snippet": "剪映 图文成片 文案转视频 字幕 短视频"
+  },
+  {
+    "module": "08",
+    "date": "2026-07-30",
+    "topic": "Dify 低代码 知识库 私有问答 RAG",
+    "title": "【Dify 低代码搭建：用私有资料做会思考的问答助手】",
+    "level": "L3",
+    "depth": "约965字",
+    "angle": "开源低代码用私有资料搭有出处的问答助手",
+    "keywords_snippet": "dify 低代码 知识库 私有问答 rag"
   }
 ]

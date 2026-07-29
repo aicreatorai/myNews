@@ -1668,5 +1668,65 @@
     "depth": "方法论",
     "angle": "脑手分离三层架构与精简harness",
     "keywords_snippet": "Agent 做减法 脑手分离 精简"
+  },
+  {
+    "module": "15",
+    "date": "2026-07-30",
+    "topic": "需求澄清四问法",
+    "title": "需求澄清四问法：在模型能力快速迭代期锁定真实用户痛点",
+    "level": "L2",
+    "depth": "深稿",
+    "angle": "需求挖掘",
+    "keywords_snippet": "四问法 真实痛点 模型边界 用户研究"
+  },
+  {
+    "module": "15",
+    "date": "2026-07-30",
+    "topic": "AI产品灰度与A/B实验",
+    "title": "AI产品灰度发布与A/B实验：当模型版本成为变量时如何科学验证效果",
+    "level": "L3",
+    "depth": "深稿",
+    "angle": "评估/落地验证",
+    "keywords_snippet": "灰度发布 模型变量 A/B实验 回滚阈值"
+  },
+  {
+    "module": "15",
+    "date": "2026-07-30",
+    "topic": "AI需求优先级排序",
+    "title": "AI需求优先级排序：用机会评估与ICE框架在不确定性下做资源取舍",
+    "level": "L1",
+    "depth": "深稿",
+    "angle": "PM方法论/需求优先级",
+    "keywords_snippet": "ICE框架 机会评估 不确定性 资源取舍"
+  },
+  {
+    "module": "15",
+    "date": "2026-07-30",
+    "topic": "LLM能力边界与降级预案",
+    "title": "LLM能力边界与降级预案：AI PM如何定义选型标准并设计fallback",
+    "level": "L4",
+    "depth": "深稿",
+    "angle": "技术选型/评估",
+    "keywords_snippet": "模型选型 约束匹配 fallback 降级预案"
+  },
+  {
+    "module": "15",
+    "date": "2026-07-30",
+    "topic": "AI产品用户研究新范式",
+    "title": "AI产品用户研究新范式：用情境走查替代传统访谈挖掘真实需求",
+    "level": "L1",
+    "depth": "深稿",
+    "angle": "用户研究/需求",
+    "keywords_snippet": "情境走查 行为观察 需求挖掘 用户研究"
+  },
+  {
+    "module": "15",
+    "date": "2026-07-30",
+    "topic": "B端AI工程化落地四步法",
+    "title": "B端AI工程化落地四步法：从模型焦虑转向场景嵌入的可交付实践",
+    "level": "L3",
+    "depth": "深稿",
+    "angle": "落地方向/工程化",
+    "keywords_snippet": "工程化四步法 场景对齐 专家结构化 Agent化"
   }
 ]

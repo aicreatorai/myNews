@@ -1958,5 +1958,65 @@
     "depth": "攻防对抗",
     "angle": "红蓝对抗守住安全护栏",
     "keywords_snippet": "越狱 防御 安全对齐 红队"
+  },
+  {
+    "module": "07",
+    "date": "2026-07-30",
+    "topic": "模型量化与KV Cache优化",
+    "title": "【模型量化与KV Cache优化：把大模型压进显存、让推理又快又便宜】",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "权重量化与显存优化降本",
+    "keywords_snippet": "量化 INT8 INT4 KV Cache 显存"
+  },
+  {
+    "module": "07",
+    "date": "2026-07-30",
+    "topic": "混合检索与重排序",
+    "title": "【混合检索与重排序：用关键词加向量双路召回把RAG答案变得更准】",
+    "level": "L3",
+    "depth": "实践层",
+    "angle": "双路召回+重排序提升RAG准确率",
+    "keywords_snippet": "RAG 混合检索 Hybrid Search Rerank 重排序"
+  },
+  {
+    "module": "07",
+    "date": "2026-07-30",
+    "topic": "GQA与MLA注意力",
+    "title": "【分组查询与多头潜在注意力GQA与MLA：把长文本KV Cache压进低秩潜空间】",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "KV Cache压缩的两种注意力变体",
+    "keywords_snippet": "GQA MLA 注意力 KV Cache 低秩"
+  },
+  {
+    "module": "07",
+    "date": "2026-07-30",
+    "topic": "PD分离与以存换算",
+    "title": "【PD分离与以存换算：把预填充和生成拆到不同硬件榨干每张GPU】",
+    "level": "L3",
+    "depth": "实践层",
+    "angle": "Prefill-Decode分离的系统级优化",
+    "keywords_snippet": "PD分离 Prefill Decode Mooncake 以存换算"
+  },
+  {
+    "module": "07",
+    "date": "2026-07-30",
+    "topic": "Function Calling工具调用",
+    "title": "【Function Calling工具调用：让大模型学会自己调计算器查网页跑代码】",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "模型输出结构化工具调用协议",
+    "keywords_snippet": "Function Calling 工具调用 Agent OpenAI"
+  },
+  {
+    "module": "07",
+    "date": "2026-07-30",
+    "topic": "RMSNorm与SwiGLU",
+    "title": "【RMSNorm与SwiGLU：现代大模型替换LayerNorm与ReLU的底层设计革新】",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "归一化与激活的工业级替换",
+    "keywords_snippet": "RMSNorm SwiGLU LayerNorm ReLU 归一化"
   }
 ]

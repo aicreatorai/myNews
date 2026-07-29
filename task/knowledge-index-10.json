@@ -1508,5 +1508,65 @@
     "depth": "概念层",
     "angle": "GitHub Trending 新项目",
     "keywords_snippet": "量化交易Agent自然语言回测"
+  },
+  {
+    "module": "10",
+    "date": "2026-07-30",
+    "topic": "GitHub 堆叠 PR（Stacked PRs）：用 gh-stack 把大型代码变更拆成可审查的小单元",
+    "title": "GitHub 堆叠 PR（Stacked PRs）：用 gh-stack 把大型代码变更拆成可审查的小单元",
+    "level": "L2",
+    "depth": "应用",
+    "angle": "GitHub新功能",
+    "keywords_snippet": "堆叠PR gh-stack 代码审查 monorepo"
+  },
+  {
+    "module": "10",
+    "date": "2026-07-30",
+    "topic": "GitHub Copilot CLI 终端界面正式可用：在命令行直接调度 AI 编程代理",
+    "title": "GitHub Copilot CLI 终端界面正式可用：在命令行直接调度 AI 编程代理",
+    "level": "L2",
+    "depth": "应用",
+    "angle": "GitHub新功能",
+    "keywords_snippet": "Copilot CLI 终端 Agent HQ AI代理"
+  },
+  {
+    "module": "10",
+    "date": "2026-07-30",
+    "topic": "GitHub Actions 可复用工作流与最小权限治理：把 CI 当平台产品统一管控",
+    "title": "GitHub Actions 可复用工作流与最小权限治理：把 CI 当平台产品统一管控",
+    "level": "L3",
+    "depth": "实践",
+    "angle": "GitHub Actions",
+    "keywords_snippet": "可复用工作流 最小权限 SHA固定 OIDC"
+  },
+  {
+    "module": "10",
+    "date": "2026-07-30",
+    "topic": "GitHub Actions 依赖缓存与并发取消：把构建耗时砍掉 50% 到 70%",
+    "title": "GitHub Actions 依赖缓存与并发取消：把构建耗时砍掉 50% 到 70%",
+    "level": "L2",
+    "depth": "实践",
+    "angle": "GitHub Actions",
+    "keywords_snippet": "缓存 concurrency matrix 构建提速"
+  },
+  {
+    "module": "10",
+    "date": "2026-07-30",
+    "topic": "GitHub CLI 远程读库与子议题管理：用 gh 在终端完成日常协作",
+    "title": "GitHub CLI 远程读库与子议题管理：用 gh 在终端完成日常协作",
+    "level": "L2",
+    "depth": "应用",
+    "angle": "GitHub CLI",
+    "keywords_snippet": "gh CLI 远程读库 子议题 讨论"
+  },
+  {
+    "module": "10",
+    "date": "2026-07-30",
+    "topic": "2026 开发者协作最佳实践：用 AI 自动摘要、评审派对与 cycle time 取代冗长会议",
+    "title": "2026 开发者协作最佳实践：用 AI 自动摘要、评审派对与 cycle time 取代冗长会议",
+    "level": "L3",
+    "depth": "实践",
+    "angle": "协作工作流",
+    "keywords_snippet": "协作 AI摘要 评审派对 cycle time 文档即代码"
   }
 ]

@@ -1328,5 +1328,65 @@
     "depth": "类型/函数式",
     "angle": "given/using、opaque type、scala-cli",
     "keywords_snippet": "Scala 3.6 given using opaque scala-cli"
+  },
+  {
+    "module": "09",
+    "date": "2026-07-30",
+    "topic": "Python 3.13 新特性",
+    "title": "【Python 3.13 发布：异步IO提速35%与模式匹配增强】",
+    "level": "L3",
+    "depth": "深",
+    "angle": "语言版本发布",
+    "keywords_snippet": "Python 3.13 异步IO 模式匹配"
+  },
+  {
+    "module": "09",
+    "date": "2026-07-30",
+    "topic": "Go 1.26 新特性",
+    "title": "【Go 1.26 发布：Green Tea GC 默认启用与泛型递归放宽】",
+    "level": "L3",
+    "depth": "深",
+    "angle": "语言版本发布",
+    "keywords_snippet": "Go 1.26 Green Tea GC 泛型"
+  },
+  {
+    "module": "09",
+    "date": "2026-07-30",
+    "topic": "Rust Go Python 性能对比",
+    "title": "【Rust vs Go vs Python 2026 性能对比与分层选型】",
+    "level": "L2",
+    "depth": "深",
+    "angle": "跨语言性能对比",
+    "keywords_snippet": "Rust Go Python 2026 性能对比"
+  },
+  {
+    "module": "09",
+    "date": "2026-07-30",
+    "topic": "Java 21+ 现代语法",
+    "title": "【Java 21+ 现代语法实战：record 与模式匹配削减样板】",
+    "level": "L2",
+    "depth": "深",
+    "angle": "实战技巧",
+    "keywords_snippet": "Java 21 record 模式匹配 虚拟线程"
+  },
+  {
+    "module": "09",
+    "date": "2026-07-30",
+    "topic": "TypeScript 6.0 发布",
+    "title": "【TypeScript 6.0 发布：5.9 到 7.0 的桥梁与类型检查调整】",
+    "level": "L3",
+    "depth": "深",
+    "angle": "语言版本发布",
+    "keywords_snippet": "TypeScript 6.0 类型检查"
+  },
+  {
+    "module": "09",
+    "date": "2026-07-30",
+    "topic": "Rust 2024 异步",
+    "title": "【Rust 2024 版异步实战：async fn in trait 稳定与 gen 块语法提效】",
+    "level": "L3",
+    "depth": "深",
+    "angle": "实战技巧",
+    "keywords_snippet": "Rust async fn in trait gen块"
   }
 ]
