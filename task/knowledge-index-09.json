@@ -1388,5 +1388,17 @@
     "depth": "深",
     "angle": "实战技巧",
     "keywords_snippet": "Rust async fn in trait gen块"
+  },
+  {
+    "module": "09",
+    "date": "2026-07-31",
+    "topic": "JavaScript 标准装饰器 Decorator",
+    "title": "JavaScript 装饰器 Decorator 2026 稳定",
+    "level": "L2",
+    "depth": "中",
+    "angle": "框架元编程与依赖注入",
+    "keywords_snippet": "JS Decorator ES2026"
   }
+]  }
+] }
 ]

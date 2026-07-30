@@ -1728,5 +1728,55 @@
     "depth": "深稿",
     "angle": "落地方向/工程化",
     "keywords_snippet": "工程化四步法 场景对齐 专家结构化 Agent化"
+  },
+  {
+    "module": "15",
+    "date": "2026-07-31",
+    "topic": "AI产品经理机会评估画布",
+    "title": "AI产品经理方法论：用机会评估画布在立项前验证价值假设",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "立项前用五维画布验证价值假设与数据/经济可行性",
+    "keywords_snippet": "机会评估画布 价值假设 价值流图 自动化断点 五维打分"
+  },
+  {
+    "module": "15",
+    "date": "2026-07-31",
+    "topic": "LLM合成用户早期研究",
+    "title": "AI需求分析新范式：用LLM合成用户做低成本的早期用户研究",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "用大模型模拟画像做低成本需求试探，锚定真实调研",
+    "keywords_snippet": "合成用户 synthetic users 早期用户研究 画像库 需求试探"
+  },
+  {
+    "module": "15",
+    "date": "2026-07-31",
+    "topic": "LLM产品Prompt-as-Interface范式",
+    "title": "LLM产品设计：把提示词当作产品界面来打磨的Prompt-as-Interface范式",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "把提示词当产品界面打磨，配生成式UI与引用溯源",
+    "keywords_snippet": "Prompt-as-Interface 模型即接口 PES 生成式UI 意图动作反馈 引用溯源"
+  },
+  {
+    "module": "15",
+    "date": "2026-07-31",
+    "topic": "智能体产品人机交接设计",
+    "title": "智能体产品的人机交接设计：把不确定的任务平稳移交给人类专家",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "按后果分级的HITL阈值、透明规划与渐进式授权",
+    "keywords_snippet": "人机交接 HITL 透明规划 渐进式授权 撤销率 交接边界"
+  },
+  {
+    "module": "15",
+    "date": "2026-07-31",
+    "topic": "AI产品冷启动策略",
+    "title": "AI产品冷启动策略：用种子数据与专家标注突破模型能力空窗",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "专家种子数据与标注突破模型能力空窗，接力数据飞轮",
+    "keywords_snippet": "冷启动 种子数据 专家标注 黄金集 主动学习 能力空窗"
   }
 ]

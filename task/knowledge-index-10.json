@@ -1568,5 +1568,65 @@
     "depth": "实践",
     "angle": "协作工作流",
     "keywords_snippet": "协作 AI摘要 评审派对 cycle time 文档即代码"
+  },
+  {
+    "module": "10",
+    "date": "2026-07-31",
+    "topic": "Dev Container 标准化开发环境",
+    "title": "Dev Container 标准化开发环境：一次配置让全团队环境完全一致",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "环境即代码一次配置全团队一致",
+    "keywords_snippet": "dev container devcontainer.json 环境即代码"
+  },
+  {
+    "module": "10",
+    "date": "2026-07-31",
+    "topic": "GitHub Copilot 编码智能体",
+    "title": "GitHub Copilot 编码智能体：把 Issue 直接变成可合并 PR 的 Coding Agent",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "Issue 转 PR 的异步自主交付",
+    "keywords_snippet": "copilot coding agent issue pr 异步"
+  },
+  {
+    "module": "10",
+    "date": "2026-07-31",
+    "topic": "OpenHands 自主软件工程智能体",
+    "title": "OpenHands 自主软件工程智能体：开源版让 AI 端到端修 Bug 写功能",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "开源端到端交付与组织级自动化",
+    "keywords_snippet": "openhands 自主软件工程 agent 开源"
+  },
+  {
+    "module": "10",
+    "date": "2026-07-31",
+    "topic": "GitHub Models 退役与迁移",
+    "title": "GitHub Models 退役与迁移：从托管推理转向 Azure AI Foundry 与 Copilot",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "托管推理退场转向 Foundry 与 Copilot",
+    "keywords_snippet": "github models 退役 迁移 foundry copilot"
+  },
+  {
+    "module": "10",
+    "date": "2026-07-31",
+    "topic": "Roo Code 开源编程智能体",
+    "title": "Roo Code 开源自主编程智能体：VS Code 里可换模型的本地 Coding Agent",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "VS Code 多角色可换模型的本地 Agent",
+    "keywords_snippet": "roo code 开源 多角色 本地 agent"
+  },
+  {
+    "module": "10",
+    "date": "2026-07-31",
+    "topic": "Claude Code 接入 GitHub MCP",
+    "title": "Claude Code 接入 GitHub MCP：让 AI 在本地读写仓库与 PR 的客户端实践",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "本地智能体读写仓库与 PR 的客户端实践",
+    "keywords_snippet": "claude code github mcp 协议 客户端"
   }
 ]

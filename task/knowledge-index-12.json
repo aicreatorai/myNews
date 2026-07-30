@@ -1628,5 +1628,65 @@
     "depth": "深",
     "angle": "硬件+本地算力出海",
     "keywords_snippet": "AI出海,硬件,本地算力,词元"
+  },
+  {
+    "module": "12",
+    "date": "2026-07-31",
+    "topic": "大模型创业商业化",
+    "title": "大模型创业商业化落地战：十种主流模式与算力成本困局",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "十种主流模式与算力成本困局",
+    "keywords_snippet": "大模型 商业化 MaaS 算力成本 定价"
+  },
+  {
+    "module": "12",
+    "date": "2026-07-31",
+    "topic": "垂直行业AI Agent创业",
+    "title": "垂直行业AI Agent创业潮：法务与制造业垂类如何建立护城河",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "法务与制造业垂类护城河",
+    "keywords_snippet": "AI Agent 垂类 法务 制造业 护城河 MCP"
+  },
+  {
+    "module": "12",
+    "date": "2026-07-31",
+    "topic": "一人公司OPC",
+    "title": "一人公司OPC崛起：智能体如何把单人变成超级个体",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "智能体把单人变成超级个体",
+    "keywords_snippet": "OPC 一人公司 智能体 超级个体"
+  },
+  {
+    "module": "12",
+    "date": "2026-07-31",
+    "topic": "AI初创公司估值",
+    "title": "AI初创公司估值风向：H1 2026独角兽版图与应用层领跑逻辑",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "H1 2026独角兽与应用层领跑逻辑",
+    "keywords_snippet": "AI 估值 独角兽 应用层 ARR"
+  },
+  {
+    "module": "12",
+    "date": "2026-07-31",
+    "topic": "产业+AI创业",
+    "title": "产业+AI创业方向：垂直场景落地优于通用大模型复刻",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "垂直场景落地优于通用大模型复刻",
+    "keywords_snippet": "产业+AI 垂直场景 应用层 创业"
+  },
+  {
+    "module": "12",
+    "date": "2026-07-31",
+    "topic": "AI创业拿锤找钉幻觉",
+    "title": "AI创业的拿锤找钉幻觉：用100个付费用户验证真需求",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "用100个付费用户验证真需求",
+    "keywords_snippet": "拿锤找钉 PMF 付费用户 真需求"
   }
 ]

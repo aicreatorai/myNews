@@ -1666,5 +1666,55 @@
     "depth": "约965字",
     "angle": "开源低代码用私有资料搭有出处的问答助手",
     "keywords_snippet": "dify 低代码 知识库 私有问答 rag"
+  },
+  {
+    "module": "08",
+    "date": "2026-07-31",
+    "topic": "豆包智能体编排与无人值守办公",
+    "title": "豆包进阶实战：用智能体编排与无人值守把日常办公自动化",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "三元指令固化+零代码自定义助手",
+    "keywords_snippet": "豆包 智能体编排 无人值守 办公自动化 三元指令"
+  },
+  {
+    "module": "08",
+    "date": "2026-07-31",
+    "topic": "智谱清言长文档问答与代码解释器",
+    "title": "智谱清言使用技巧：用长文档问答与代码解释器搞定研究与开发",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "读文献-写代码-做验证链路",
+    "keywords_snippet": "智谱清言 长文档问答 代码解释器 研究 开发"
+  },
+  {
+    "module": "08",
+    "date": "2026-07-31",
+    "topic": "ChatGPT自定义指令与记忆持久化",
+    "title": "ChatGPT 自定义指令与记忆实战：用持久化人设省去每次重复交代背景",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "常驻人设省去重复交代背景",
+    "keywords_snippet": "ChatGPT 自定义指令 Custom Instructions Memory 记忆 人设"
+  },
+  {
+    "module": "08",
+    "date": "2026-07-31",
+    "topic": "即梦AI文生图与图生视频一致性控制",
+    "title": "即梦AI 使用教程：文生图与图生视频的一致性控制技巧",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "参考图+种子参数锁角色风格",
+    "keywords_snippet": "即梦AI 文生图 图生视频 一致性 参考图 种子参数"
+  },
+  {
+    "module": "08",
+    "date": "2026-07-31",
+    "topic": "Copy.ai与Jasper模板化内容批量产出",
+    "title": "Copy.ai 与 Jasper 实战：用模板化提示词批量产出社媒与博客文案",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "模板+变量提示词工程流水线",
+    "keywords_snippet": "Copy.ai Jasper 模板化提示词 社媒 博客 批量产出"
   }
 ]

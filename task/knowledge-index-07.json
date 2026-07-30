@@ -2018,5 +2018,65 @@
     "depth": "技术层",
     "angle": "归一化与激活的工业级替换",
     "keywords_snippet": "RMSNorm SwiGLU LayerNorm ReLU 归一化"
+  },
+  {
+    "module": "07",
+    "date": "2026-07-31",
+    "topic": "MoE混合专家路由机制",
+    "title": "MoE混合专家路由机制：Top-K门控如何让专家各司其职",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "Top-K门控与共享专家",
+    "keywords_snippet": "路由 gating top-k 共享专家"
+  },
+  {
+    "module": "07",
+    "date": "2026-07-31",
+    "topic": "MoE负载均衡损失",
+    "title": "MoE负载均衡损失：用辅助损失与无辅助损失路由解决专家塌缩",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "辅助损失与无辅助损失路由",
+    "keywords_snippet": "负载均衡 辅助损失 路由坍缩 bias"
+  },
+  {
+    "module": "07",
+    "date": "2026-07-31",
+    "topic": "MoE专家容量与Buffer",
+    "title": "MoE专家容量与Buffer：用容量因子把长尾token装进有限专家",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "容量因子与长尾token分桶",
+    "keywords_snippet": "专家容量 容量因子 capacity buffer"
+  },
+  {
+    "module": "07",
+    "date": "2026-07-31",
+    "topic": "多Agent编排模式",
+    "title": "多Agent编排模式：从中心化调度到去中心化对话的三种拓扑",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "中心化/角色链/去中心化三拓扑",
+    "keywords_snippet": "编排 orchestration langgraph crewai autogen"
+  },
+  {
+    "module": "07",
+    "date": "2026-07-31",
+    "topic": "多Agent通信协议",
+    "title": "多Agent通信协议：用消息总线与共享黑板打通智能体协作",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "消息总线与共享黑板/A2A+MCP",
+    "keywords_snippet": "通信 a2a mcp 消息总线 共享黑板"
+  },
+  {
+    "module": "07",
+    "date": "2026-07-31",
+    "topic": "多Agent状态与记忆",
+    "title": "多Agent状态与记忆：用短期工作记忆加长期存储让智能体连续作战",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "短期工作记忆与长期存储分层",
+    "keywords_snippet": "状态 记忆 checkpoint 长期记忆"
   }
 ]
