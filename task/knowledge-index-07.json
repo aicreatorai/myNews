@@ -2078,5 +2078,65 @@
     "depth": "技术层",
     "angle": "短期工作记忆与长期存储分层",
     "keywords_snippet": "状态 记忆 checkpoint 长期记忆"
+  },
+  {
+    "module": "07",
+    "date": "2026-08-01",
+    "topic": "自注意力与多头注意力",
+    "title": "注意力分数与 QKV 投影：从零推导 Self-Attention 矩阵的计算全过程",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "QKV投影与缩放点积注意力的计算推导",
+    "keywords_snippet": "自注意力 多头 QKV 缩放点积 注意力矩阵"
+  },
+  {
+    "module": "07",
+    "date": "2026-08-01",
+    "topic": "RLHF与DPO偏好对齐",
+    "title": "RLHF 与 DPO 偏好对齐：从人类反馈强化学习到直接偏好优化的进阶",
+    "level": "L3",
+    "depth": "实践层",
+    "angle": "奖励模型到DPO直接偏好优化的演进与落地",
+    "keywords_snippet": "RLHF DPO 偏好对齐 奖励模型 PPO"
+  },
+  {
+    "module": "07",
+    "date": "2026-08-01",
+    "topic": "扩散模型DDPM去噪原理",
+    "title": "扩散模型 DDPM 去噪原理：一步步把噪声还原成图像的数学",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "前向加噪与反向去噪的噪声预测目标",
+    "keywords_snippet": "扩散模型 DDPM 去噪 噪声预测 变分下界"
+  },
+  {
+    "module": "07",
+    "date": "2026-08-01",
+    "topic": "知识蒸馏Teacher-Student",
+    "title": "知识蒸馏 Teacher-Student：用 Logits 与特征蒸馏把大模型教给小模型",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "软标签温度与暗知识、特征蒸馏主线",
+    "keywords_snippet": "知识蒸馏 软标签 温度 暗知识 特征蒸馏"
+  },
+  {
+    "module": "07",
+    "date": "2026-08-01",
+    "topic": "混合专家MoE路由与负载均衡",
+    "title": "专家路由与辅助负载损失：MoE 如何在稀疏激活下训稳万亿参数",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "Top-K路由、辅助负载损失与专家容量",
+    "keywords_snippet": "MoE 混合专家 路由 负载均衡 稀疏激活"
+  },
+  {
+    "module": "07",
+    "date": "2026-08-01",
+    "topic": "长上下文与位置插值",
+    "title": "位置插值 Position Interpolation 与 NTK 缩放：RoPE 外推扩展上下文长度",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "PI与NTK-aware缩放扩展RoPE上下文窗口",
+    "keywords_snippet": "长上下文 位置插值 NTK RoPE 外推"
   }
 ]

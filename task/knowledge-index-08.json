@@ -1716,5 +1716,65 @@
     "depth": "技术层",
     "angle": "模板+变量提示词工程流水线",
     "keywords_snippet": "Copy.ai Jasper 模板化提示词 社媒 博客 批量产出"
+  },
+  {
+    "module": "08",
+    "date": "2026-08-01",
+    "topic": "Cursor AI编程助手",
+    "title": "【Cursor AI编程助手：2026新功能与实战教程】",
+    "level": "L1",
+    "depth": "概念层 - 是什么、解决什么问题、与什么不同",
+    "angle": "AI代码编辑器实战教程",
+    "keywords_snippet": "Cursor, AI编程助手, Tab补全, Composer, Agent模式"
+  },
+  {
+    "module": "08",
+    "date": "2026-08-01",
+    "topic": "Midjourney 2026",
+    "title": "【Midjourney 2026新版本：绘画功能全面解析】",
+    "level": "L2",
+    "depth": "技术层 - 内部机制、关键参数、优化策略",
+    "angle": "V8.2版本参数与绘画功能",
+    "keywords_snippet": "Midjourney, V8.2, Draft Mode, Personalization, 绘画"
+  },
+  {
+    "module": "08",
+    "date": "2026-08-01",
+    "topic": "Gamma AI PPT",
+    "title": "【Gamma AI PPT生成：2026高效演示制作】",
+    "level": "L3",
+    "depth": "实践层 - 生产级方案、踩坑经验、数据对比",
+    "angle": "PPT生成工具实践",
+    "keywords_snippet": "Gamma, AI PPT, cards, Claude Opus 4.7"
+  },
+  {
+    "module": "08",
+    "date": "2026-08-01",
+    "topic": "Figma AI设计",
+    "title": "【Figma AI设计：2026智能功能详解】",
+    "level": "L4",
+    "depth": "前沿层 - 最新演进、与传统方案的融合",
+    "angle": "设计工具AI能力前沿",
+    "keywords_snippet": "Figma, Figma Make, Figma Agent, MCP, Weave"
+  },
+  {
+    "module": "08",
+    "date": "2026-08-01",
+    "topic": "Runway AI视频",
+    "title": "【Runway AI视频生成：2026创作实战】",
+    "level": "L1",
+    "depth": "概念层 - 是什么、解决什么问题、与什么不同",
+    "angle": "视频生成工具实战",
+    "keywords_snippet": "Runway, Gen-4.5, Motion Brush, Aleph"
+  },
+  {
+    "module": "08",
+    "date": "2026-08-01",
+    "topic": "剪映 CapCut AI",
+    "title": "【剪映 CapCut AI：2026一键成片与智能剪辑实战】",
+    "level": "L2",
+    "depth": "技术层 - 内部机制、关键参数、优化策略",
+    "angle": "智能剪辑与一键成片",
+    "keywords_snippet": "剪映, CapCut, AI一键成片, 数字人, 智能字幕"
   }
 ]

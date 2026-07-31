@@ -1628,5 +1628,65 @@
     "depth": "技术层",
     "angle": "本地智能体读写仓库与 PR 的客户端实践",
     "keywords_snippet": "claude code github mcp 协议 客户端"
+  },
+  {
+    "module": "10",
+    "date": "2026-08-01",
+    "topic": "context7 MCP 实时文档服务器",
+    "title": "【context7：给 AI 编程助手喂上实时官方文档的 MCP 服务器】",
+    "level": "L2",
+    "depth": "知识模块",
+    "angle": "MCP 生态/文档检索",
+    "keywords_snippet": "MCP server 实时官方文档"
+  },
+  {
+    "module": "10",
+    "date": "2026-08-01",
+    "topic": "Svelte 编译型前端框架",
+    "title": "【Svelte：用编译思维替代运行时，重写前端框架的性能逻辑】",
+    "level": "L3",
+    "depth": "知识模块",
+    "angle": "前端框架/编译期响应式",
+    "keywords_snippet": "Svelte 编译器前端"
+  },
+  {
+    "module": "10",
+    "date": "2026-08-01",
+    "topic": "Hono 轻量跨端 Web 框架",
+    "title": "【Hono：以 Web 标准为底、超轻量跨端的全新 Web 框架】",
+    "level": "L1",
+    "depth": "知识模块",
+    "angle": "Web 框架/边缘优先",
+    "keywords_snippet": "Hono 边缘 Web 框架"
+  },
+  {
+    "module": "10",
+    "date": "2026-08-01",
+    "topic": "FastAPI Python Web 框架",
+    "title": "【FastAPI：用类型提示把 Python Web 接口写快写稳的高性能框架】",
+    "level": "L4",
+    "depth": "知识模块",
+    "angle": "Python Web/类型驱动",
+    "keywords_snippet": "FastAPI 高性能框架"
+  },
+  {
+    "module": "10",
+    "date": "2026-08-01",
+    "topic": "Astro 岛屿架构前端框架",
+    "title": "【Astro：用岛屿架构把内容站做成秒开的高性能前端框架】",
+    "level": "L2",
+    "depth": "知识模块",
+    "angle": "前端框架/内容驱动",
+    "keywords_snippet": "Astro 岛屿架构"
+  },
+  {
+    "module": "10",
+    "date": "2026-08-01",
+    "topic": "pgvector Postgres 向量扩展",
+    "title": "【pgvector：把向量检索直接装进 PostgreSQL 的扩展】",
+    "level": "L3",
+    "depth": "知识模块",
+    "angle": "向量数据库/Postgres 扩展",
+    "keywords_snippet": "pgvector 向量扩展"
   }
 ]

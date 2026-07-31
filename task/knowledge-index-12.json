@@ -1688,5 +1688,65 @@
     "depth": "技术层",
     "angle": "用100个付费用户验证真需求",
     "keywords_snippet": "拿锤找钉 PMF 付费用户 真需求"
+  },
+  {
+    "module": "12",
+    "date": "2026-08-01",
+    "topic": "AI咨询服务一人公司变现",
+    "title": "【AI咨询服务：一人公司如何用AI顾问变现】",
+    "level": "L3",
+    "depth": "实践层",
+    "angle": "一人公司AI顾问诊断+实施变现",
+    "keywords_snippet": "AI咨询,一人公司,中小企业数字化转型,AI降本诊断"
+  },
+  {
+    "module": "12",
+    "date": "2026-08-01",
+    "topic": "AI私域运营自动化",
+    "title": "【AI私域运营自动化：把复购做成无人流水线】",
+    "level": "L4",
+    "depth": "前沿层",
+    "angle": "SCRM AI模块把复购做成无人流水线",
+    "keywords_snippet": "AI私域,SCRM,企微,自动化流程,复购"
+  },
+  {
+    "module": "12",
+    "date": "2026-08-01",
+    "topic": "AI简历优化求职服务",
+    "title": "【AI简历优化：求职季的万字定制服务】",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "ATS通过率+模拟面试定制服务",
+    "keywords_snippet": "AI简历,求职服务,ATS,模拟面试"
+  },
+  {
+    "module": "12",
+    "date": "2026-08-01",
+    "topic": "AI法律合同审查工具",
+    "title": "【AI法律合同审查工具：中小微企业的合规省钱法】",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "法律大模型合同审查降本避险",
+    "keywords_snippet": "AI法律,合同审查,合规体检,中小微企业"
+  },
+  {
+    "module": "12",
+    "date": "2026-08-01",
+    "topic": "AI自媒体内容矩阵",
+    "title": "【AI自媒体内容矩阵：一人管理百个账号的打法】",
+    "level": "L3",
+    "depth": "实践层",
+    "angle": "AI混剪+多账号矩阵分发",
+    "keywords_snippet": "AI自媒体,内容矩阵,多账号,AI混剪"
+  },
+  {
+    "module": "12",
+    "date": "2026-08-01",
+    "topic": "AI知识库搭建企业服务",
+    "title": "【AI知识库搭建：面向中小企业的企业服务新赛道】",
+    "level": "L4",
+    "depth": "前沿层",
+    "angle": "开源模型自托管企业内部知识库",
+    "keywords_snippet": "AI知识库,企业服务,中小企业,Qwen3-VL"
   }
 ]

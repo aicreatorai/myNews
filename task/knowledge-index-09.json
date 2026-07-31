@@ -1398,5 +1398,65 @@
     "depth": "中",
     "angle": "框架元编程与依赖注入",
     "keywords_snippet": "JS Decorator ES2026"
+  },
+  {
+    "module": "09",
+    "date": "2026-08-01",
+    "topic": "Java 25",
+    "title": "【Java 25 正式发布：分代 Shenandoah 转正与精简源文件落地】",
+    "level": "L2",
+    "depth": "开发语言/2026",
+    "angle": "新版本特性解读、原理与动手验证",
+    "keywords_snippet": "Java 25 Shenandoah 紧凑对象头 模块导入 JEP 521"
+  },
+  {
+    "module": "09",
+    "date": "2026-08-01",
+    "topic": "Lua 5.5",
+    "title": "【Lua 5.5 正式发布：增量 GC 与紧凑数组重塑轻量脚本引擎】",
+    "level": "L3",
+    "depth": "开发语言/2026",
+    "angle": "新版本特性解读、原理与动手验证",
+    "keywords_snippet": "Lua 5.5 增量GC 紧凑数组 外部字符串 全局声明"
+  },
+  {
+    "module": "09",
+    "date": "2026-08-01",
+    "topic": "Haskell GHC 9.14",
+    "title": "【Haskell GHC 9.14：线性类型与 SPECIALISE 表达式推进类型系统】",
+    "level": "L1",
+    "depth": "开发语言/2026",
+    "angle": "新版本特性解读、原理与动手验证",
+    "keywords_snippet": "Haskell GHC 9.14 线性类型 SPECIALISE coerce"
+  },
+  {
+    "module": "09",
+    "date": "2026-08-01",
+    "topic": "OCaml 5.4",
+    "title": "【OCaml 5.4：不可变数组、原子记录字段与标记元组落地多核时代】",
+    "level": "L4",
+    "depth": "开发语言/2026",
+    "angle": "新版本特性解读、原理与动手验证",
+    "keywords_snippet": "OCaml 5.4 不可变数组 原子记录 标记元组 多核"
+  },
+  {
+    "module": "09",
+    "date": "2026-08-01",
+    "topic": "Erlang/OTP 28",
+    "title": "【Erlang/OTP 28：严格推导、zip 生成器与抗量子密钥交换】",
+    "level": "L2",
+    "depth": "开发语言/2026",
+    "angle": "新版本特性解读、原理与动手验证",
+    "keywords_snippet": "Erlang OTP 28 严格生成器 zip 名义类型 抗量子"
+  },
+  {
+    "module": "09",
+    "date": "2026-08-01",
+    "topic": "F# 9",
+    "title": "【F# 9 正式随 .NET 9 交付：可空类型、.Is* 属性与推导性能飞跃】",
+    "level": "L3",
+    "depth": "开发语言/2026",
+    "angle": "新版本特性解读、原理与动手验证",
+    "keywords_snippet": "F# 9 可空引用 判别联合 推导性能 .NET 9"
   }
 ]

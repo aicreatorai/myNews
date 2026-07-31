@@ -1788,5 +1788,65 @@
     "depth": "技术层-信任资产",
     "angle": "内容复利加清晰定位建立信任资产",
     "keywords_snippet": "个人品牌 副业 内容复利 定位 信任"
+  },
+  {
+    "module": "14",
+    "date": "2026-08-01",
+    "topic": "数字极简主义",
+    "title": "【数字极简主义：用少即是多夺回被偷走的注意力】",
+    "level": "L1",
+    "depth": "知识模块-深度",
+    "angle": "注意力管理哲学与30天断舍离",
+    "keywords_snippet": "数字极简主义 注意力管理 Cal Newport 少即是多 断舍离"
+  },
+  {
+    "module": "14",
+    "date": "2026-08-01",
+    "topic": "心流触发机制",
+    "title": "【心流触发机制：如何快速进入无人之境的专注状态】",
+    "level": "L2",
+    "depth": "知识模块-深度",
+    "angle": "挑战技能平衡与即时反馈触发",
+    "keywords_snippet": "心流 flow Csikszentmihalyi 触发条件 专注 挑战技能匹配"
+  },
+  {
+    "module": "14",
+    "date": "2026-08-01",
+    "topic": "周复盘系统",
+    "title": "【周复盘系统：用七天一次回顾驱动持续成长】",
+    "level": "L1",
+    "depth": "知识模块-深度",
+    "angle": "GRAI/AAR 结构化回顾与模式识别",
+    "keywords_snippet": "周复盘 GRAI AAR 复盘 个人成长 模式识别"
+  },
+  {
+    "module": "14",
+    "date": "2026-08-01",
+    "topic": "番茄工作法",
+    "title": "【番茄工作法与时间盒：用25分钟单元把专注变成可调度资源】",
+    "level": "L1",
+    "depth": "知识模块-深度",
+    "angle": "25分钟时间盒与孵化效应",
+    "keywords_snippet": "番茄工作法 pomodoro 时间盒 25分钟 专注"
+  },
+  {
+    "module": "14",
+    "date": "2026-08-01",
+    "topic": "习惯叠加法",
+    "title": "【习惯叠加法：用已有习惯锚定新行为的无痛养成术】",
+    "level": "L2",
+    "depth": "知识模块-深度",
+    "angle": "habit stacking 锚习惯与执行意图",
+    "keywords_snippet": "习惯叠加 habit stacking BJ Fogg James Clear 锚习惯"
+  },
+  {
+    "module": "14",
+    "date": "2026-08-01",
+    "topic": "间隔重复记忆法",
+    "title": "【间隔重复记忆法：用遗忘曲线对抗把知识存进长期记忆】",
+    "level": "L2",
+    "depth": "知识模块-深度",
+    "angle": "spaced repetition 遗忘曲线与提取练习",
+    "keywords_snippet": "间隔重复 spaced repetition Ebbinghaus 遗忘曲线 提取练习"
   }
 ]
