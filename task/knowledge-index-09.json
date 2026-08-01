@@ -1458,5 +1458,17 @@
     "depth": "开发语言/2026",
     "angle": "新版本特性解读、原理与动手验证",
     "keywords_snippet": "F# 9 可空引用 判别联合 推导性能 .NET 9"
+  },
+  {
+    "module": "09",
+    "date": "2026-08-02",
+    "topic": "Node.js 26 运行时",
+    "title": "Node.js 26 默认启用 Temporal 与 V8 14.6",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "Temporal默认启用/V8升级/移除旧API/LTS节奏",
+    "keywords_snippet": "Node.js 26 Temporal V8 14.6 Undici NODE_MODULE_VERSION"
+  }
+]61 PEP686 JIT"
   }
 ]

@@ -1748,5 +1748,65 @@
     "depth": "前沿层",
     "angle": "开源模型自托管企业内部知识库",
     "keywords_snippet": "AI知识库,企业服务,中小企业,Qwen3-VL"
+  },
+  {
+    "module": "12",
+    "date": "2026-08-02",
+    "topic": "AI自动化工作流代搭建",
+    "title": "【AI自动化工作流代搭建：帮企业省人力月入3万】",
+    "level": "L3",
+    "depth": "实践层",
+    "angle": "用n8n/Dify帮企业把重复流程自动化按项目收费的副业",
+    "keywords_snippet": "n8n Dify 工作流自动化 企业提效 代搭建"
+  },
+  {
+    "module": "12",
+    "date": "2026-08-02",
+    "topic": "AI简历优化接单",
+    "title": "【AI简历优化接单：普通人副业两周赚6800元】",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "用AI帮求职者改简历做面试辅导的低门槛副业",
+    "keywords_snippet": "AI简历优化 求职辅导 副业 接单"
+  },
+  {
+    "module": "12",
+    "date": "2026-08-02",
+    "topic": "AI音乐版权资产化",
+    "title": "【AI音乐版权资产化：批量发歌靠版税建养老金】",
+    "level": "L3",
+    "depth": "实践层",
+    "angle": "把AI生成音乐注册原创版权靠版税建长期现金流",
+    "keywords_snippet": "AI音乐 版权 版税 资产化 养老金"
+  },
+  {
+    "module": "12",
+    "date": "2026-08-02",
+    "topic": "AI漫剧短剧制作接单",
+    "title": "【AI漫剧短剧制作接单：闲鱼订单同比涨14倍】",
+    "level": "L3",
+    "depth": "实践层",
+    "angle": "用AI把文字做成动态漫剧接单并卖教程的双变现",
+    "keywords_snippet": "AI漫剧 短剧 闲鱼 接单 教程"
+  },
+  {
+    "module": "12",
+    "date": "2026-08-02",
+    "topic": "AI技能训练营变现",
+    "title": "【AI技能训练营变现：3天营首期收入3.2万元】",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "把AI技能打包成短期训练营与付费社群的知识变现",
+    "keywords_snippet": "AI训练营 知识付费 社群 副业变现"
+  },
+  {
+    "module": "12",
+    "date": "2026-08-02",
+    "topic": "AI出海合规收款代办",
+    "title": "【AI出海合规收款代办：破解超级个体最后一公里】",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "帮超级个体解决跨境收款与VAT/OSS合规的代办服务",
+    "keywords_snippet": "出海 合规 跨境收款 OSS VAT 一人公司"
   }
 ]

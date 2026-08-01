@@ -1688,5 +1688,65 @@
     "depth": "知识模块",
     "angle": "向量数据库/Postgres 扩展",
     "keywords_snippet": "pgvector 向量扩展"
+  },
+  {
+    "module": "10",
+    "date": "2026-08-02",
+    "topic": "worldmonitor 实时全球情报仪表盘",
+    "title": "【worldmonitor：AI 驱动的实时全球情报仪表盘】",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "开源态势感知应用与本地AI简报",
+    "keywords_snippet": "worldmonitor,情报仪表盘,AI简报,3D地球,Tauri"
+  },
+  {
+    "module": "10",
+    "date": "2026-08-02",
+    "topic": "OmniRoute 免费AI网关",
+    "title": "【OmniRoute：内置 MCP 与 Token 压缩的免费 AI 网关】",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "多模型统一路由与Token压缩能力",
+    "keywords_snippet": "OmniRoute,AI网关,MCP,Token压缩,auto路由"
+  },
+  {
+    "module": "10",
+    "date": "2026-08-02",
+    "topic": "code-review-graph 代码智能图谱",
+    "title": "【code-review-graph：给 AI 审查建代码图谱省 8 倍 Token】",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "Tree-sitter建图与爆炸半径分析原理",
+    "keywords_snippet": "code-review-graph,Tree-sitter,爆炸半径,token缩减,MCP"
+  },
+  {
+    "module": "10",
+    "date": "2026-08-02",
+    "topic": "aisuite 大模型统一接口",
+    "title": "【aisuite：吴恩达开源的大模型统一调用接口库】",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "统一调用层与Agents API/MCP",
+    "keywords_snippet": "aisuite,统一接口,Agents API,MCP,吴恩达"
+  },
+  {
+    "module": "10",
+    "date": "2026-08-02",
+    "topic": "RuView WiFi人体感知",
+    "title": "【RuView：用 WiFi 信号做无摄像头人体姿态感知】",
+    "level": "L4",
+    "depth": "前沿层",
+    "angle": "CSI非接触式感知与边缘AI部署",
+    "keywords_snippet": "RuView,WiFi CSI,姿态估计,无摄像头,ESP32"
+  },
+  {
+    "module": "10",
+    "date": "2026-08-02",
+    "topic": "croc 安全文件传输",
+    "title": "【croc：一行命令实现端到端加密的跨设备文件传输】",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "PAKE端到端加密的点对点传输",
+    "keywords_snippet": "croc,PAKE,端到端加密,文件传输,中继"
   }
 ]

@@ -2138,5 +2138,65 @@
     "depth": "技术层",
     "angle": "PI与NTK-aware缩放扩展RoPE上下文窗口",
     "keywords_snippet": "长上下文 位置插值 NTK RoPE 外推"
+  },
+  {
+    "module": "07",
+    "date": "2026-08-02",
+    "topic": "长上下文技术",
+    "title": "长上下文窗口：大模型一次读懂百万字的底气",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "窗口概念与价值",
+    "keywords_snippet": "context window 百万token KV Cache"
+  },
+  {
+    "module": "07",
+    "date": "2026-08-02",
+    "topic": "长上下文技术(位置编码)",
+    "title": "RoPE旋转位置编码：长上下文外推的底层原理",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "RoPE原理与外推扩展",
+    "keywords_snippet": "RoPE NTK YaRN 位置编码外推"
+  },
+  {
+    "module": "07",
+    "date": "2026-08-02",
+    "topic": "长上下文技术",
+    "title": "长上下文vs RAG：超长文档该全文喂还是先检索",
+    "level": "L3",
+    "depth": "实践层",
+    "angle": "长上下文与RAG工程权衡",
+    "keywords_snippet": "长上下文 RAG 混合检索 Lost in the Middle"
+  },
+  {
+    "module": "07",
+    "date": "2026-08-02",
+    "topic": "图像生成范式",
+    "title": "AI生成图像三条路线：GAN扩散与自回归怎么选",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "三大生成范式对比",
+    "keywords_snippet": "GAN 扩散模型 自回归 图像生成"
+  },
+  {
+    "module": "07",
+    "date": "2026-08-02",
+    "topic": "视频生成(DiT)",
+    "title": "视频扩散Transformer DiT：撑起文生视频的骨干网络",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "DiT架构与视频生成",
+    "keywords_snippet": "DiT 扩散Transformer 文生视频"
+  },
+  {
+    "module": "07",
+    "date": "2026-08-02",
+    "topic": "物理一致视频生成",
+    "title": "物理一致视频生成：用代码当思维链约束AI不穿模",
+    "level": "L4",
+    "depth": "前沿层",
+    "angle": "物理约束与Code-as-CoT",
+    "keywords_snippet": "物理一致视频 VideoCoCo HDR code-as-CoT"
   }
 ]

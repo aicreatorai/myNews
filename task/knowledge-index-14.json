@@ -1848,5 +1848,15 @@
     "depth": "知识模块-深度",
     "angle": "spaced repetition 遗忘曲线与提取练习",
     "keywords_snippet": "间隔重复 spaced repetition Ebbinghaus 遗忘曲线 提取练习"
+  },
+  {
+    "module": "14",
+    "date": "2026-08-02",
+    "topic": "卡片盒笔记法",
+    "title": "卡片盒笔记法：用原子化卡片把笔记变成会思考的第二大脑",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "原子化卡片与双向连接的思考机制",
+    "keywords_snippet": "Zettelkasten 卢曼 永久笔记 1-1-1 第二大脑"
   }
 ]

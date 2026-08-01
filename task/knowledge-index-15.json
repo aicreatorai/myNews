@@ -1828,5 +1828,65 @@
     "depth": "实践层",
     "angle": "A/B与漏斗归因决策",
     "keywords_snippet": "数据驱动 A/B测试 漏斗 北极星 幻觉率"
+  },
+  {
+    "module": "15",
+    "date": "2026-08-02",
+    "topic": "AI产品Eval评测体系",
+    "title": "【AI产品Eval评测体系：把\"好\"变成可量化指标】",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "用测试集+评分器+通过线把模糊的好变可量化",
+    "keywords_snippet": "Eval 评测体系 评分器 数据集 LLM-as-judge"
+  },
+  {
+    "module": "15",
+    "date": "2026-08-02",
+    "topic": "AI产品PLG增长飞轮",
+    "title": "【AI产品PLG增长飞轮：用Aha Moment设计转化点】",
+    "level": "L3",
+    "depth": "实践层",
+    "angle": "用预设Prompt与积分墙设计激活与付费转化",
+    "keywords_snippet": "PLG 增长飞轮 Aha Moment 倒置试用 积分墙 Token经济学"
+  },
+  {
+    "module": "15",
+    "date": "2026-08-02",
+    "topic": "AI化四层判断框架",
+    "title": "【AI化四层判断框架：先判场景适配再谈模型能力】",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "场景-能力-业务-产品四层判断是否该做AI",
+    "keywords_snippet": "AI化 四层判断 场景适配 模型能力 适不适合AI"
+  },
+  {
+    "module": "15",
+    "date": "2026-08-02",
+    "topic": "AI产品成果交付思维",
+    "title": "【AI产品成果交付思维：跨越能力到体验的鸿沟】",
+    "level": "L4",
+    "depth": "前沿层",
+    "angle": "从强模型到好产品，Agent Teams交付完整结果",
+    "keywords_snippet": "成果交付 目标驱动 Agent Teams 美图 体验好用"
+  },
+  {
+    "module": "15",
+    "date": "2026-08-02",
+    "topic": "垂直行业AI落地实践",
+    "title": "【垂直行业AI落地实践：用私域数据重构真实工作流】",
+    "level": "L3",
+    "depth": "实践层",
+    "angle": "私域数据+工作流嵌入，效果图变生产指令",
+    "keywords_snippet": "垂直行业AI 私域数据 工作流 苏豪智尚云 生产指令"
+  },
+  {
+    "module": "15",
+    "date": "2026-08-02",
+    "topic": "AI PM能力重构",
+    "title": "【AI PM能力重构：从功能设计者到AI能力架构师】",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "PM从功能设计者到AI能力架构师的能力拼图",
+    "keywords_snippet": "AI PM 能力重构 不确定性管理 Prompt模板库 人机协作"
   }
 ]
