@@ -1748,5 +1748,15 @@
     "depth": "概念层",
     "angle": "PAKE端到端加密的点对点传输",
     "keywords_snippet": "croc,PAKE,端到端加密,文件传输,中继"
+  },
+  {
+    "module": "10",
+    "date": "2026-08-03",
+    "topic": "开源AI编程与智能体工具",
+    "title": "10_GitHubSkills 2026-08-03",
+    "level": "L2",
+    "depth": "实战",
+    "angle": "开源项目",
+    "keywords_snippet": "Continue,SWE-agent,Composio,Sweep,OpenCLAW,Kilo Code"
   }
 ]

@@ -1468,5 +1468,15 @@
     "depth": "技术层",
     "angle": "Temporal默认启用/V8升级/移除旧API/LTS节奏",
     "keywords_snippet": "Node.js 26 Temporal V8 14.6 Undici NODE_MODULE_VERSION"
+  },
+  {
+    "module": "09",
+    "date": "2026-08-03",
+    "topic": "开发语言版本发布与新特性",
+    "title": "09_开发语言 2026-08-03",
+    "level": "L2",
+    "depth": "特性",
+    "angle": "版本更新",
+    "keywords_snippet": "Go1.27,TypeScript7.0,Rust1.97,Julia1.12,Kotlin2.2,Swift6"
   }
 ]

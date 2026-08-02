@@ -2198,5 +2198,15 @@
     "depth": "前沿层",
     "angle": "物理约束与Code-as-CoT",
     "keywords_snippet": "物理一致视频 VideoCoCo HDR code-as-CoT"
+  },
+  {
+    "module": "07",
+    "date": "2026-08-03",
+    "topic": "AI核心概念与模型技术（剪枝/对比学习/测试时计算/图神经网络/课程学习/思维链）",
+    "title": "07_AI知识点 2026-08-03",
+    "level": "L2",
+    "depth": "原理",
+    "angle": "最新研究",
+    "keywords_snippet": "模型剪枝,对比学习,测试时计算,图神经网络,思维链"
   }
 ]
