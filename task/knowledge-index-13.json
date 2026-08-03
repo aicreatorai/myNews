@@ -1078,5 +1078,55 @@
     "depth": "应用",
     "angle": "教育应用",
     "keywords_snippet": "AI职业教育,AI编程教育,AI教育评测,虚拟仿真实训,科研智能体"
+  },
+  {
+    "module": "13",
+    "date": "2026-08-04",
+    "topic": "学习科学与教育前沿",
+    "title": "【AI教师课前闲聊】港科大Neuron研究：8分钟对话让大脑同步学得更好",
+    "level": "L4",
+    "depth": "深度",
+    "angle": "神经科学实证，课前社会互动提升脑间同步，AI教师媲美真人",
+    "keywords_snippet": "Neuron,神经对齐,课前互动,眼脑行为,李平"
+  },
+  {
+    "module": "13",
+    "date": "2026-08-04",
+    "topic": "学习科学与教育前沿",
+    "title": "【AI学习红绿灯】脑电与RCT双证据：六种交互模式决定AI助学还是废功",
+    "level": "L2",
+    "depth": "深度",
+    "angle": "脑电Beta波+Anthropic RCT，交互模式分层与最近发展区",
+    "keywords_snippet": "红绿灯原则,认知卸载,技能退化,渐进撤离,苏格拉底提问"
+  },
+  {
+    "module": "13",
+    "date": "2026-08-04",
+    "topic": "K12与高等教育案例",
+    "title": "【中医经典AI教学】轩岐问对与ATD三阶模式：思维链让辨证过程可追溯",
+    "level": "L2",
+    "depth": "深度",
+    "angle": "高校学科大模型，思维链推理可视化+认知学徒制",
+    "keywords_snippet": "轩岐问对,ATD模式,知识图谱,溯源,浙江中医药大学"
+  },
+  {
+    "module": "13",
+    "date": "2026-08-04",
+    "topic": "AI职业教育与技能",
+    "title": "【中职智慧课堂】三维闭环AI教学：备课省六成互动率从65%升到95%",
+    "level": "L1",
+    "depth": "深度",
+    "angle": "中职课前课中课后全流程闭环，无感采集与掌握学习",
+    "keywords_snippet": "三维闭环,无感采集,分层任务,听评课,烟台临港"
+  },
+  {
+    "module": "13",
+    "date": "2026-08-04",
+    "topic": "教育企业与国际案例",
+    "title": "【课程级AI助教】PeteChat第三条路：在禁用与放任之间设课堂边界",
+    "level": "L3",
+    "depth": "深度",
+    "angle": "世界数字教育联盟十大最佳实践，课程级机器人与建构一致性",
+    "keywords_snippet": "PeteChat,普渡大学,Contact North,Mindspark,课程级助教"
   }
 ]

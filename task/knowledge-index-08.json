@@ -1796,5 +1796,65 @@
     "depth": "实战",
     "angle": "工具教程",
     "keywords_snippet": "可灵,豆包,海螺AI,Notion AI,Gamma,v0"
+  },
+  {
+    "module": "08",
+    "date": "2026-08-04",
+    "topic": "Windsurf Cascade 跨文件智能体编程",
+    "title": "【Windsurf Cascade：用一句话让AI跨多文件改完整个功能】",
+    "level": "L3",
+    "depth": "实操教程",
+    "angle": "仓库索引+工具调用循环+差异化编辑",
+    "keywords_snippet": "Windsurf,Cascade,AI IDE,跨文件重构"
+  },
+  {
+    "module": "08",
+    "date": "2026-08-04",
+    "topic": "Continue+Ollama 本地离线编程助手",
+    "title": "【Continue配Ollama：在自己电脑跑离线免费的编程助手】",
+    "level": "L3",
+    "depth": "实操教程",
+    "angle": "FIM补全+本地量化模型+代码不出本机",
+    "keywords_snippet": "Continue,Ollama,本地大模型,离线编程"
+  },
+  {
+    "module": "08",
+    "date": "2026-08-04",
+    "topic": "飞书多维表格 AI 字段自动化",
+    "title": "【飞书多维表格AI字段：让表格自动分类打标签写摘要】",
+    "level": "L2",
+    "depth": "实操教程",
+    "angle": "按行触发的结构化生成与受限解码分类",
+    "keywords_snippet": "飞书,多维表格,AI字段,自动分类"
+  },
+  {
+    "module": "08",
+    "date": "2026-08-04",
+    "topic": "扣子 Coze 工作流内容分发流水线",
+    "title": "【扣子Coze工作流：把选题到多平台分发串成一条流水线】",
+    "level": "L3",
+    "depth": "实操教程",
+    "angle": "DAG变量传递+结构化输出+定时触发器",
+    "keywords_snippet": "Coze,扣子,工作流,智能体,多平台分发"
+  },
+  {
+    "module": "08",
+    "date": "2026-08-04",
+    "topic": "通义听悟 会议转写与待办抽取",
+    "title": "【通义听悟：把会议录音变成带负责人的待办清单】",
+    "level": "L2",
+    "depth": "实操教程",
+    "angle": "ASR热词+说话人分离+层次化摘要与三元组抽取",
+    "keywords_snippet": "通义听悟,会议纪要,转写,待办抽取"
+  },
+  {
+    "module": "08",
+    "date": "2026-08-04",
+    "topic": "Wispr Flow 系统级语音输入",
+    "title": "【Wispr Flow语音输入：说一句话直接落成排好版的文字】",
+    "level": "L2",
+    "depth": "实操教程",
+    "angle": "端点检测+ASR+轻量模型后处理+上下文适配",
+    "keywords_snippet": "Wispr Flow,语音输入,听写,提示词输入"
   }
 ]

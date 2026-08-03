@@ -1478,5 +1478,65 @@
     "depth": "特性",
     "angle": "版本更新",
     "keywords_snippet": "Go1.27,TypeScript7.0,Rust1.97,Julia1.12,Kotlin2.2,Swift6"
+  },
+  {
+    "module": "09",
+    "date": "2026-08-04",
+    "topic": "C23 标准与 GCC 15 默认方言",
+    "title": "C23 成 GCC 15 默认方言：#embed 与 _BitInt 重塑 C 工程",
+    "level": "L3",
+    "depth": "进阶层",
+    "angle": "标准落地与破坏性变化",
+    "keywords_snippet": "#embed/_BitInt/nullptr/constexpr/stdbit.h/gnu23"
+  },
+  {
+    "module": "09",
+    "date": "2026-08-04",
+    "topic": "Kotlin 2.3.20 互操作",
+    "title": "Kotlin 2.3.20 打通 C 与 TypeScript：按名解构与构建工具同步升级",
+    "level": "L2",
+    "depth": "基础层",
+    "angle": "版本新特性与多平台互操作",
+    "keywords_snippet": "按名解构/cinterop/TypeScript声明/Maven/Gradle"
+  },
+  {
+    "module": "09",
+    "date": "2026-08-04",
+    "topic": "Python 工具链 uv 与 ruff",
+    "title": "uv 与 ruff 收编 OpenAI：Python 打包与静态检查工具链重新洗牌",
+    "level": "L2",
+    "depth": "基础层",
+    "angle": "生态治理与工具链变迁",
+    "keywords_snippet": "Astral/uv/ruff/uv.lock/PubGrub/内容寻址缓存"
+  },
+  {
+    "module": "09",
+    "date": "2026-08-04",
+    "topic": "Go 高并发性能调优",
+    "title": "Go 高并发压榨实战：Worker Pool 与逃逸分析把 QPS 从 8k 推到 42k",
+    "level": "L4",
+    "depth": "前沿层",
+    "angle": "生产调优实战",
+    "keywords_snippet": "WorkerPool/逃逸分析/NUMA绑核/go:build裁剪/gctrace"
+  },
+  {
+    "module": "09",
+    "date": "2026-08-04",
+    "topic": "Ruby YJIT 调优",
+    "title": "Ruby YJIT 生产调优实录：类型稳定与热点改写换来三成提速",
+    "level": "L3",
+    "depth": "进阶层",
+    "angle": "JIT 运维与代码适配",
+    "keywords_snippet": "YJIT/LBBV/side_exit_count/exec-mem-size/类型稳定"
+  },
+  {
+    "module": "09",
+    "date": "2026-08-04",
+    "topic": "PGO 与 LTO 编译优化",
+    "title": "PGO 与 LTO 工程化：跨 C++ Rust Go 的编译期性能红利",
+    "level": "L4",
+    "depth": "前沿层",
+    "angle": "跨语言编译期优化工程化",
+    "keywords_snippet": "ThinLTO/PGO/profile-generate/default.pgo/march陷阱"
   }
 ]

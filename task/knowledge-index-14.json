@@ -1868,5 +1868,65 @@
     "depth": "方法",
     "angle": "自我提升",
     "keywords_snippet": "GTD,第二大脑PARA,复盘AAR,个人OKR,SCARF,晨间日记"
+  },
+  {
+    "module": "14",
+    "date": "2026-08-04",
+    "topic": "决策预算",
+    "title": "【决策预算：用上午省油法破解下午三点的认知崩溃】",
+    "level": "L2",
+    "depth": "深度",
+    "angle": "精力管理/认知资源排程",
+    "keywords_snippet": "决策疲劳 昼夜节律 前额叶 低决策区 注意力残留"
+  },
+  {
+    "module": "14",
+    "date": "2026-08-04",
+    "topic": "学习敏捷度",
+    "title": "【学习敏捷度：用五维指标衡量你进入陌生领域的上手速度】",
+    "level": "L2",
+    "depth": "深度",
+    "angle": "学习科学/迁移能力",
+    "keywords_snippet": "Learning Agility 五维模型 自我觉察 能力错觉 迁移"
+  },
+  {
+    "module": "14",
+    "date": "2026-08-04",
+    "topic": "时间盒Timeboxing",
+    "title": "【时间盒Timeboxing：用固定时长上限逼出够用的八十分方案】",
+    "level": "L2",
+    "depth": "深度",
+    "angle": "效率方法/完美主义对抗",
+    "keywords_snippet": "帕金森定律 预设截止 硬停 边际收益 估时校准"
+  },
+  {
+    "module": "14",
+    "date": "2026-08-04",
+    "topic": "个人看板WIP上限",
+    "title": "【个人看板WIP上限：用在制品限额终结任务切换税】",
+    "level": "L2",
+    "depth": "深度",
+    "angle": "工作流管理/多任务治理",
+    "keywords_snippet": "Personal Kanban 小定律 在制品限额 切换税 可视化"
+  },
+  {
+    "module": "14",
+    "date": "2026-08-04",
+    "topic": "可迁移能力三维模型",
+    "title": "【可迁移能力三维模型：用能带走的资本对冲职业断崖】",
+    "level": "L3",
+    "depth": "深度",
+    "angle": "职业发展/职业资本",
+    "keywords_snippet": "可迁移能力 心理资本 社会资本 弱关系 目标弹性"
+  },
+  {
+    "module": "14",
+    "date": "2026-08-04",
+    "topic": "心理边界四维滤网",
+    "title": "【心理边界四维滤网：用可调节边界阻断隐性精力透支】",
+    "level": "L2",
+    "depth": "深度",
+    "angle": "情绪管理/边界设定",
+    "keywords_snippet": "时间边界 情绪边界 任务边界 情绪劳动 自我决定理论"
   }
 ]

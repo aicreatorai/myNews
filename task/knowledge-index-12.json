@@ -1818,5 +1818,65 @@
     "depth": "模式",
     "angle": "创业方向",
     "keywords_snippet": "AI硬件,农业机器人,合规检测,服装供应链,跨境直播,研发基础设施"
+  },
+  {
+    "module": "12",
+    "date": "2026-08-04",
+    "topic": "Agent产品定价模型选型",
+    "title": "【Agent产品定价三选一：结果计费与容量分层如何守住毛利】",
+    "level": "L3",
+    "depth": "结果计费/用量计费/容量分层三模型与50-60%毛利守卫",
+    "angle": "定价模型选型",
+    "keywords_snippet": "Agent产品定价模型选型 定价模型选型"
+  },
+  {
+    "module": "12",
+    "date": "2026-08-04",
+    "topic": "AI产品留存与结果性流失",
+    "title": "【AI产品的结果性流失：用高价档筛出七成留存的反常识打法】",
+    "level": "L3",
+    "depth": "高价档筛选带来七成GRR与outcome churn应对",
+    "angle": "留存与流失治理",
+    "keywords_snippet": "AI产品留存与结果性流失 留存与流失治理"
+  },
+  {
+    "module": "12",
+    "date": "2026-08-04",
+    "topic": "独立SaaS九十天冷启动",
+    "title": "【独立SaaS九十天破千美元月经常性收入：先收钱再写代码】",
+    "level": "L1",
+    "depth": "先收预付款再写代码的90天冷启动路径",
+    "angle": "冷启动与验证",
+    "keywords_snippet": "独立SaaS九十天冷启动 冷启动与验证"
+  },
+  {
+    "module": "12",
+    "date": "2026-08-04",
+    "topic": "按需AI高管服务变现",
+    "title": "【按需AI高管：从卖AI课升级为嵌进业务流程的高价服务】",
+    "level": "L2",
+    "depth": "把AI培训升级为嵌入业务流程的按月续费高管服务",
+    "angle": "咨询服务变现",
+    "keywords_snippet": "按需AI高管服务变现 咨询服务变现"
+  },
+  {
+    "module": "12",
+    "date": "2026-08-04",
+    "topic": "分发先行的Vibe Coding打法",
+    "title": "【分发先行的Vibe Coding打法：五十天做到月流水六位数人民币】",
+    "level": "L2",
+    "depth": "先定分发与变现再做产品的消费级App增长三板斧",
+    "angle": "增长与分发",
+    "keywords_snippet": "分发先行的Vibe Coding打法 增长与分发"
+  },
+  {
+    "module": "12",
+    "date": "2026-08-04",
+    "topic": "出海收款与税务选型",
+    "title": "【出海收款选型：结算服务商与自建收单的税务分水岭】",
+    "level": "L2",
+    "depth": "记录商户与自建收单的费率、税务责任与切换时点",
+    "angle": "出海收款合规",
+    "keywords_snippet": "出海收款与税务选型 出海收款合规"
   }
 ]

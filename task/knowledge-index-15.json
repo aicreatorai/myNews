@@ -1898,5 +1898,65 @@
     "depth": "方法",
     "angle": "产品方法论",
     "keywords_snippet": "AI PRD写作,RARE需求分析,AI竞品拆解,AI商业化定价,AI路线图规划"
+  },
+  {
+    "module": "15",
+    "date": "2026-08-04",
+    "topic": "AI产品分层评测体系",
+    "title": "AI产品分层评测：技术产品业务三层指标加基线对比",
+    "level": "L2",
+    "depth": "评估体系",
+    "angle": "技术/产品/业务三层指标+Baseline基线对比+EDD评测驱动迭代",
+    "keywords_snippet": "分层评测 Baseline 任务完成率 幻觉率 会话放弃率 EDD"
+  },
+  {
+    "module": "15",
+    "date": "2026-08-04",
+    "topic": "最小可行AI MVP三级验证",
+    "title": "最小可行AI：用MVP三级验证给AI需求逐层证伪",
+    "level": "L2",
+    "depth": "需求验证",
+    "angle": "三问法筛需求+MVP1/2/3三级量化关卡逐层证伪",
+    "keywords_snippet": "最小可行AI MVP三级 需求三问法 使用率20% 满意度4.0 留存10%"
+  },
+  {
+    "module": "15",
+    "date": "2026-08-04",
+    "topic": "Intent UI意图界面范式",
+    "title": "Intent UI意图界面：AI产品交互从找功能到表达意图",
+    "level": "L3",
+    "depth": "交互范式",
+    "angle": "Google IO 2026 Generative UI/状态层/确认梯度，Function UI到Intent UI",
+    "keywords_snippet": "Intent UI Generative UI Android Halo 状态层 确认梯度 意图界面"
+  },
+  {
+    "module": "15",
+    "date": "2026-08-04",
+    "topic": "AI交互模式库四阶段",
+    "title": "AI交互模式库：用引导输入输出学习四阶段选对UX模式",
+    "level": "L2",
+    "depth": "交互设计",
+    "angle": "37种AI UX模式按引导/输入/输出/学习四阶段选型+纠错测试+反模式",
+    "keywords_snippet": "AI UX模式库 37种模式 引导输入输出学习 纠错测试 反模式 置信度指标"
+  },
+  {
+    "module": "15",
+    "date": "2026-08-04",
+    "topic": "AI等待体验设计",
+    "title": "AI等待体验设计：流式输出与骨架屏砍掉一半感知等待",
+    "level": "L2",
+    "depth": "体验优化",
+    "angle": "流式输出降感知等待55-70%、骨架屏降40%、失败态与降级设计",
+    "keywords_snippet": "流式输出 骨架屏 首字响应时间 TTFT 感知等待 优雅降级 拒答"
+  },
+  {
+    "module": "15",
+    "date": "2026-08-04",
+    "topic": "AI系统三道护栏",
+    "title": "AI系统三道护栏：输入收束过程透明输出降级的兜底设计",
+    "level": "L2",
+    "depth": "落地规范",
+    "angle": "输入意图收束/过程透明度/输出优雅降级与人类确认+四核心指标",
+    "keywords_snippet": "Guardrails 三道护栏 意图收束 过程透明 human-in-the-loop 人工接管率"
   }
 ]

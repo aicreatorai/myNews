@@ -2208,5 +2208,65 @@
     "depth": "原理",
     "angle": "最新研究",
     "keywords_snippet": "模型剪枝,对比学习,测试时计算,图神经网络,思维链"
+  },
+  {
+    "module": "07",
+    "date": "2026-08-04",
+    "topic": "Muon优化器",
+    "title": "Muon优化器：用矩阵正交化改写大模型预训练的更新方向",
+    "level": "L3",
+    "depth": "原理层 - 牛顿-舒尔茨正交化、谱范数信任域、规模化补丁",
+    "angle": "预训练优化器从AdamW到矩阵型方法的路线切换",
+    "keywords_snippet": "Muon,牛顿舒尔茨,正交化,AdamW,MuonClip,Kimi K2"
+  },
+  {
+    "module": "07",
+    "date": "2026-08-04",
+    "topic": "稀疏自编码器SAE",
+    "title": "稀疏自编码器SAE：把大模型神经元拆成人能读懂的特征",
+    "level": "L4",
+    "depth": "原理层 - 叠加现象、字典学习、TopK与JumpReLU变体",
+    "angle": "机制可解释性从单神经元转向特征字典",
+    "keywords_snippet": "SAE,稀疏自编码器,可解释性,叠加现象,Gemma Scope,单义性"
+  },
+  {
+    "module": "07",
+    "date": "2026-08-04",
+    "topic": "约束解码与结构化输出",
+    "title": "约束解码：用有限状态机逼大模型只吐合法JSON",
+    "level": "L3",
+    "depth": "原理层 - 文法编译为状态机、logits掩码、截断重归一化",
+    "angle": "Agent工具调用可靠性的解码层地基",
+    "keywords_snippet": "约束解码,结构化输出,Outlines,XGrammar,JSON Schema,状态机"
+  },
+  {
+    "module": "07",
+    "date": "2026-08-04",
+    "topic": "语义熵幻觉检测",
+    "title": "语义熵：用意义层面的不确定性抓出大模型胡编乱造",
+    "level": "L3",
+    "depth": "原理层 - 语义等价聚类、簇级香农熵、置信度校准",
+    "angle": "幻觉检测从token概率推进到语义层不确定性量化",
+    "keywords_snippet": "语义熵,幻觉检测,不确定性,NLI聚类,置信度校准,C3RL"
+  },
+  {
+    "module": "07",
+    "date": "2026-08-04",
+    "topic": "模型合并Model Merging",
+    "title": "模型合并Model Merging：不重训就把多个微调模型缝成一个",
+    "level": "L2",
+    "depth": "原理层 - 任务向量算术、符号冲突消解、DARE稀疏化",
+    "angle": "零训练成本的能力融合与权重空间编辑",
+    "keywords_snippet": "模型合并,任务向量,TIES,DARE,MergeKit,SLERP"
+  },
+  {
+    "module": "07",
+    "date": "2026-08-04",
+    "topic": "上下文工程",
+    "title": "上下文工程：把Agent的有限注意力预算当资源来调度",
+    "level": "L3",
+    "depth": "原理层 - 上下文腐烂、分层组织、压缩交接与子代理隔离",
+    "angle": "长程Agent稳定作业的上下文资源调度方法论",
+    "keywords_snippet": "上下文工程,上下文腐烂,压缩,外置记忆,子代理,注意力预算"
   }
 ]

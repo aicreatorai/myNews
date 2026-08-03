@@ -1758,5 +1758,65 @@
     "depth": "实战",
     "angle": "开源项目",
     "keywords_snippet": "Continue,SWE-agent,Composio,Sweep,OpenCLAW,Kilo Code"
+  },
+  {
+    "module": "10",
+    "date": "2026-08-04",
+    "topic": "Cognee",
+    "title": "Cognee：给AI智能体装上跨会话记忆的开源知识图谱层",
+    "level": "L2",
+    "depth": "deep",
+    "angle": "图谱+向量双通路的Agent记忆层原理与选型",
+    "keywords_snippet": "Cognee,AI memory,知识图谱,RAG,ECL管线"
+  },
+  {
+    "module": "10",
+    "date": "2026-08-04",
+    "topic": "KTransformers",
+    "title": "KTransformers：把MoE专家卸到CPU让消费级显卡跑起超大模型",
+    "level": "L3",
+    "depth": "deep",
+    "angle": "CPU-GPU异构卸载突破显存墙的工程实践",
+    "keywords_snippet": "KTransformers,MoE,CPU卸载,本地推理,异构计算"
+  },
+  {
+    "module": "10",
+    "date": "2026-08-04",
+    "topic": "Native SDK",
+    "title": "Native SDK：不塞浏览器内核用TypeScript与Zig写原生桌面应用",
+    "level": "L2",
+    "depth": "deep",
+    "angle": "自绘引擎替代WebView的桌面技术栈取舍",
+    "keywords_snippet": "Native SDK,Vercel Labs,桌面应用,Zig,Electron替代"
+  },
+  {
+    "module": "10",
+    "date": "2026-08-04",
+    "topic": "Moonshine",
+    "title": "Moonshine：不用API Key在设备上跑实时语音识别与意图理解",
+    "level": "L2",
+    "depth": "deep",
+    "angle": "端侧ASR+意图+TTS全链路与变长推理低延迟",
+    "keywords_snippet": "Moonshine,端侧语音,ASR,意图识别,TTS"
+  },
+  {
+    "module": "10",
+    "date": "2026-08-04",
+    "topic": "Openship",
+    "title": "Openship：一条命令把项目部署到自己的服务器还能让智能体代劳",
+    "level": "L3",
+    "depth": "deep",
+    "angle": "自托管部署平台与MCP驱动的对话式运维",
+    "keywords_snippet": "Openship,自托管部署,CI/CD,MCP,Coolify对比"
+  },
+  {
+    "module": "10",
+    "date": "2026-08-04",
+    "topic": "Agent技能集",
+    "title": "mattpocock/skills：用小而可组合的技能集替代僵化Agent框架",
+    "level": "L4",
+    "depth": "deep",
+    "angle": "技能范式对Agent框架的替代与渐进加载机制",
+    "keywords_snippet": "skills,Agent技能,渐进披露,工程规范,Markdown"
   }
 ]
