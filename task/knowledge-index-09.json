@@ -1538,5 +1538,65 @@
     "depth": "前沿层",
     "angle": "跨语言编译期优化工程化",
     "keywords_snippet": "ThinLTO/PGO/profile-generate/default.pgo/march陷阱"
+  },
+  {
+    "module": "09",
+    "date": "2026-08-05",
+    "topic": "JDK 27 紧凑对象头与 G1 默认",
+    "title": "JDK 27 紧凑对象头转正与 G1 成为全平台默认回收器",
+    "level": "L2",
+    "depth": "概念层",
+    "angle": "运行时默认值变更与堆内存布局",
+    "keywords_snippet": "CompactObjectHeaders,G1,JEP450,Lilliput,markword"
+  },
+  {
+    "module": "09",
+    "date": "2026-08-05",
+    "topic": "JDK 28 值对象 JEP 401",
+    "title": "JDK 28 值对象 JEP 401：没有身份的对象如何被 JVM 压扁",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "Valhalla 值语义与字段扁平化",
+    "keywords_snippet": "JEP401,ValueObjects,JEP539,Valhalla,identity"
+  },
+  {
+    "module": "09",
+    "date": "2026-08-05",
+    "topic": "Rust extern custom ABI",
+    "title": "Rust extern custom ABI 稳定化：自定义调用约定进入语言",
+    "level": "L3",
+    "depth": "原理层",
+    "angle": "调用约定与裸函数系统编程",
+    "keywords_snippet": "externcustom,naked_asm,c-variadic,ABI,no_mangle"
+  },
+  {
+    "module": "09",
+    "date": "2026-08-05",
+    "topic": "Python PEP 751 pylock.toml",
+    "title": "Python PEP 751 pylock.toml：跨工具统一的锁文件标准",
+    "level": "L2",
+    "depth": "概念层",
+    "angle": "打包规范与依赖可复现性",
+    "keywords_snippet": "PEP751,pylock.toml,pip lock,uv export,hashes"
+  },
+  {
+    "module": "09",
+    "date": "2026-08-05",
+    "topic": "Go 零大小类型与 Swiss Table",
+    "title": "Go 空结构体末尾填充与 Swiss Table：集合惯用法的内存真相",
+    "level": "L3",
+    "depth": "原理层",
+    "angle": "内存布局与 map 底层实现更替",
+    "keywords_snippet": "struct{},zerobase,SwissTable,padding,map集合"
+  },
+  {
+    "module": "09",
+    "date": "2026-08-05",
+    "topic": "PHP 8.5 管道运算符",
+    "title": "PHP 8.5 管道运算符：把嵌套函数调用拉平成数据流",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "语法糖与可读性工程实践",
+    "keywords_snippet": "pipe-operator,|>,first-class-callable,NoDiscard,array_first"
   }
 ]

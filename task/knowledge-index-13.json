@@ -1128,5 +1128,55 @@
     "depth": "深度",
     "angle": "世界数字教育联盟十大最佳实践，课程级机器人与建构一致性",
     "keywords_snippet": "PeteChat,普渡大学,Contact North,Mindspark,课程级助教"
+  },
+  {
+    "module": "13",
+    "date": "2026-08-05",
+    "topic": "AI自学路径与平台",
+    "title": "间隔重复×生成式AI：AI生成主动回忆卡片与个性复习节奏",
+    "level": "L2",
+    "depth": "L2",
+    "angle": "测试效应/间隔效应/遗忘曲线与ZPD节奏化",
+    "keywords_snippet": "间隔重复 主动回忆 遗忘曲线 个性化排程"
+  },
+  {
+    "module": "13",
+    "date": "2026-08-05",
+    "topic": "AI自学路径与平台",
+    "title": "概念网络×AI：把零散笔记织成知识图谱的AI辅助建构法",
+    "level": "L2",
+    "depth": "L2",
+    "angle": "图式建构/双重编码/生成效应与动态学习者模型",
+    "keywords_snippet": "概念网络 知识图谱 图式 语义标记知识库"
+  },
+  {
+    "module": "13",
+    "date": "2026-08-05",
+    "topic": "学习科学与教育前沿",
+    "title": "元认知脚手架×AI：用AI追问逼出学习监控与自我解释",
+    "level": "L3",
+    "depth": "L3",
+    "angle": "自我解释效应/元认知监控/支架渐进撤离",
+    "keywords_snippet": "元认知 自我解释 追问脚手架 监控"
+  },
+  {
+    "module": "13",
+    "date": "2026-08-05",
+    "topic": "学习科学与教育前沿",
+    "title": "费曼×AI：让AI当爱提问的学生逼你把知识讲清楚",
+    "level": "L2",
+    "depth": "L2",
+    "angle": "门生效应/生成效应/自我解释外化与低风险环境",
+    "keywords_snippet": "费曼 门生效应 生成效应 AI学生"
+  },
+  {
+    "module": "13",
+    "date": "2026-08-05",
+    "topic": "AI理科与编程教学",
+    "title": "多模态降负荷×AI：用AI把抽象文本转成类比图示与讲解",
+    "level": "L1",
+    "depth": "L1",
+    "angle": "认知负荷理论/多重表征/双重编码与类比迁移",
+    "keywords_snippet": "多模态 认知负荷 类比 图示 知识可视化"
   }
 ]

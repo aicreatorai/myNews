@@ -1856,5 +1856,65 @@
     "depth": "实操教程",
     "angle": "端点检测+ASR+轻量模型后处理+上下文适配",
     "keywords_snippet": "Wispr Flow,语音输入,听写,提示词输入"
+  },
+  {
+    "module": "08",
+    "date": "2026-08-05",
+    "topic": "任务规格式提示词六段结构",
+    "title": "【任务规格式提示词：用六段结构把改好点变成可验收的契约】",
+    "level": "L2",
+    "depth": "实操教程",
+    "angle": "Context/Goal/Constraints/References/Verification/Receipt六段契约",
+    "keywords_snippet": "提示词,任务规格,编码智能体,约束,验收命令"
+  },
+  {
+    "module": "08",
+    "date": "2026-08-05",
+    "topic": "AGENTS.md 分层项目记忆文件",
+    "title": "【AGENTS.md分层记忆：把反复交代的项目规矩写进文件一次生效】",
+    "level": "L2",
+    "depth": "实操教程",
+    "angle": "全局/项目/子目录三层优先级+失败驱动迭代+上下文缓存",
+    "keywords_snippet": "AGENTS.md,CLAUDE.md,约定文件,分层记忆,上下文"
+  },
+  {
+    "module": "08",
+    "date": "2026-08-05",
+    "topic": "子智能体并行与工作树隔离",
+    "title": "【子智能体并行：用独立上下文与工作树让多任务同时开工】",
+    "level": "L3",
+    "depth": "实操教程",
+    "angle": "独立上下文+摘要回传+git worktree隔离+并行度受评审带宽限制",
+    "keywords_snippet": "子智能体,subagent,并行,工作树,上下文隔离"
+  },
+  {
+    "module": "08",
+    "date": "2026-08-05",
+    "topic": "AI输出验证闸门Hooks与输出契约",
+    "title": "【输出验证闸门：让AI用命令结果证明完成而不是自己说完成】",
+    "level": "L3",
+    "depth": "实操教程",
+    "angle": "生成与校验分离+退出码裁决+三类触发点+错误回灌",
+    "keywords_snippet": "Hooks,钩子,验证闸门,输出契约,禁用词检查"
+  },
+  {
+    "module": "08",
+    "date": "2026-08-05",
+    "topic": "DeepSeek+Kimi 周报素材聚合流水线",
+    "title": "【DeepSeek配Kimi写周报：把一周碎片素材压成三段式初稿】",
+    "level": "L2",
+    "depth": "实操教程",
+    "angle": "素材抑制幻觉+三段式槽位约束+留白划定人机边界",
+    "keywords_snippet": "DeepSeek,Kimi,周报,提示词模板,职场效率"
+  },
+  {
+    "module": "08",
+    "date": "2026-08-05",
+    "topic": "WorkBuddy 桌面AI工作台表格批处理",
+    "title": "【WorkBuddy处理表格：让AI直接读文件出新表而不是丢给你公式】",
+    "level": "L2",
+    "depth": "实操教程",
+    "angle": "读结构生成脚本本地执行+表头识别+字段对齐+输出新文件",
+    "keywords_snippet": "WorkBuddy,Excel,表格,多表合并,数据清洗,本地文件"
   }
 ]

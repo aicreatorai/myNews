@@ -1818,5 +1818,65 @@
     "depth": "deep",
     "angle": "技能范式对Agent框架的替代与渐进加载机制",
     "keywords_snippet": "skills,Agent技能,渐进披露,工程规范,Markdown"
+  },
+  {
+    "module": "10",
+    "date": "2026-08-05",
+    "topic": "pdf-inspector",
+    "title": "pdf-inspector：给 RAG 流水线加一道 PDF 分诊闸门的 Rust 库",
+    "level": "L2",
+    "depth": "原理",
+    "angle": "PDF页级分类分流降低OCR成本",
+    "keywords_snippet": "Rust PDF 分类 扫描件 RAG 预处理 firecrawl"
+  },
+  {
+    "module": "10",
+    "date": "2026-08-05",
+    "topic": "orca ADE",
+    "title": "orca：把并行智能体舰队装进一个可视工作台的开源 ADE",
+    "level": "L2",
+    "depth": "原理",
+    "angle": "工作区隔离与人类接管的多Agent编排",
+    "keywords_snippet": "ADE 并行智能体 worktree隔离 观测 接管 VPS"
+  },
+  {
+    "module": "10",
+    "date": "2026-08-05",
+    "topic": "DesktopCommanderMCP",
+    "title": "DesktopCommanderMCP：把终端、文件搜索与差分编辑打包成一个 MCP 服务器",
+    "level": "L2",
+    "depth": "原理",
+    "angle": "差分编辑替代整文件重写的MCP能力聚合",
+    "keywords_snippet": "MCP 终端控制 文件搜索 diff编辑 严格匹配"
+  },
+  {
+    "module": "10",
+    "date": "2026-08-05",
+    "topic": "ds4 本地推理引擎",
+    "title": "ds4：用一份纯 C 代码把 DeepSeek 跑在 Metal、CUDA 与 ROCm 上",
+    "level": "L3",
+    "depth": "实践",
+    "angle": "专用引擎mmap加载与预填充解码分离",
+    "keywords_snippet": "C语言 推理引擎 Metal CUDA ROCm KV缓存 antirez"
+  },
+  {
+    "module": "10",
+    "date": "2026-08-05",
+    "topic": "kaneo 项目管理",
+    "title": "kaneo：只留必需功能的自托管开源项目管理系统",
+    "level": "L1",
+    "depth": "概念",
+    "angle": "够用即可的自托管看板与排序权重设计",
+    "keywords_snippet": "自托管 项目管理 看板 排序权重 WebSocket 小团队"
+  },
+  {
+    "module": "10",
+    "date": "2026-08-05",
+    "topic": "topcoat Rust Web框架",
+    "title": "topcoat：Tokio 团队给 Rust 补上的开箱即用 Web 框架",
+    "level": "L2",
+    "depth": "原理",
+    "angle": "约定优于配置消解Rust选型过载",
+    "keywords_snippet": "Rust Web框架 batteries-included tokio Axum 脚手架"
   }
 ]

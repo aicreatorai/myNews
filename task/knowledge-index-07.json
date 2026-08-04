@@ -2268,5 +2268,65 @@
     "depth": "原理层 - 上下文腐烂、分层组织、压缩交接与子代理隔离",
     "angle": "长程Agent稳定作业的上下文资源调度方法论",
     "keywords_snippet": "上下文工程,上下文腐烂,压缩,外置记忆,子代理,注意力预算"
+  },
+  {
+    "module": "07",
+    "date": "2026-08-05",
+    "topic": "线性注意力与混合架构",
+    "title": "线性注意力与混合架构：把Transformer的二次方成本压成线性",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "固定状态递推与混合层的长上下文降本路线",
+    "keywords_snippet": "线性注意力,Mamba,DeltaNet,混合架构,MiniMax-01,Qwen3-Next,Nemotron-H,O(n)"
+  },
+  {
+    "module": "07",
+    "date": "2026-08-05",
+    "topic": "扩散语言模型dLLM",
+    "title": "扩散语言模型dLLM：让文本像图像一样并行去噪生成",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "并行去噪替代自回归的生成范式",
+    "keywords_snippet": "扩散语言模型,LLaDA,Mercury,Gemini Diffusion,掩码去噪,半自回归"
+  },
+  {
+    "module": "07",
+    "date": "2026-08-05",
+    "topic": "RLVR可验证奖励强化学习",
+    "title": "RLVR可验证奖励强化学习：用自动判分把推理能力练出来",
+    "level": "L3",
+    "depth": "实践层",
+    "angle": "验证器奖励与GRPO组内优势的后训练配方",
+    "keywords_snippet": "RLVR,可验证奖励,GRPO,DeepSeek-R1,Tulu3,熵坍缩,奖励作弊"
+  },
+  {
+    "module": "07",
+    "date": "2026-08-05",
+    "topic": "FP8与FP4低精度训练",
+    "title": "FP8与FP4低精度训练：把预训练算力成本砍到四比特",
+    "level": "L3",
+    "depth": "实践层",
+    "angle": "微块缩放与两级缩放支撑的低精度预训练",
+    "keywords_snippet": "FP8,NVFP4,低精度训练,微块缩放,DeepSeek-V3,TransformerEngine,MX格式"
+  },
+  {
+    "module": "07",
+    "date": "2026-08-05",
+    "topic": "推测解码",
+    "title": "推测解码：用小模型起草大模型验证把生成提速两三倍",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "接受拒绝采样无损加速与EAGLE树形草稿",
+    "keywords_snippet": "推测解码,EAGLE-3,Medusa,树形草稿,接受长度,vLLM,内存带宽瓶颈"
+  },
+  {
+    "module": "07",
+    "date": "2026-08-05",
+    "topic": "评测数据污染与动态评测",
+    "title": "评测数据污染：榜单分数为何失真与动态评测的解法",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "污染检测方法与活体评测治理路径",
+    "keywords_snippet": "数据污染,GSM1k,LiveBench,LiveCodeBench,Min-K%,n-gram重叠,成员推断"
   }
 ]

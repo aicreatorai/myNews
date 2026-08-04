@@ -1928,5 +1928,65 @@
     "depth": "深度",
     "angle": "情绪管理/边界设定",
     "keywords_snippet": "时间边界 情绪边界 任务边界 情绪劳动 自我决定理论"
+  },
+  {
+    "module": "14",
+    "date": "2026-08-05",
+    "topic": "恢复起点",
+    "title": "恢复起点：用下班后前五小时的曲线改写第二天的精力余额",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "精力管理/下班后恢复轨迹",
+    "keywords_snippet": "recovery onset 心理脱离 放松 掌控感 成长体验 Journal of Applied Psychology 延迟恢复"
+  },
+  {
+    "module": "14",
+    "date": "2026-08-05",
+    "topic": "认知解离",
+    "title": "认知解离：用旁观念头的视角切断反刍思维的内耗循环",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "情绪调节/反刍思维干预",
+    "keywords_snippet": "cognitive defusion ACT 反刍思维 rumination 认知融合 默认模式网络 内耗"
+  },
+  {
+    "module": "14",
+    "date": "2026-08-05",
+    "topic": "决策日志",
+    "title": "决策日志：用事前预测与三月回看校准自己的判断力",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "决策与元认知/判断力校准",
+    "keywords_snippet": "decision journal 后见之明偏差 Tetlock 超预测 概率预测 贝叶斯校准 事前验尸"
+  },
+  {
+    "module": "14",
+    "date": "2026-08-05",
+    "topic": "认知带宽与稀缺隧道",
+    "title": "认知带宽：用稀缺隧道模型看懂越缺什么越做错什么",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "认知偏差/稀缺与心智带宽",
+    "keywords_snippet": "mental bandwidth scarcity 管窥效应 tunneling 带宽税 余裕 slack 印度蔗农实验"
+  },
+  {
+    "module": "14",
+    "date": "2026-08-05",
+    "topic": "认知卸载与AI依赖",
+    "title": "认知卸载：AI替你思考后如何守住不可外包的判断力",
+    "level": "L3",
+    "depth": "实践层",
+    "angle": "AI时代个体竞争力/分层卸载",
+    "keywords_snippet": "cognitive offloading 谷歌效应 流畅性错觉 深度工作下降 三稿制 先答后问 验证成本"
+  },
+  {
+    "module": "14",
+    "date": "2026-08-05",
+    "topic": "发言配额",
+    "title": "发言配额：用U型曲线与三秒静默换取信任与决策质量",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "沟通协作/会议轮次均衡",
+    "keywords_snippet": "集体智慧因子 conversational turn-taking 心理安全感 Edmondson Woolley 三秒静默 邀请式发言"
   }
 ]
