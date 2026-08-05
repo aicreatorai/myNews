@@ -1916,5 +1916,65 @@
     "depth": "实操教程",
     "angle": "读结构生成脚本本地执行+表头识别+字段对齐+输出新文件",
     "keywords_snippet": "WorkBuddy,Excel,表格,多表合并,数据清洗,本地文件"
+  },
+  {
+    "module": "08",
+    "date": "2026-08-06",
+    "topic": "夸克AI浏览器 侧边栏调研工作流",
+    "title": "【夸克AI浏览器：把搜集、阅读与整理压缩成一条侧边栏工作流】",
+    "level": "L2",
+    "depth": "tool-workflow",
+    "angle": "正文抽取+上下文自动注入+带引用的检索增强",
+    "keywords_snippet": "AI浏览器,侧边栏助手,信源锁定,引用核查"
+  },
+  {
+    "module": "08",
+    "date": "2026-08-06",
+    "topic": "MCP 模型上下文协议客户端接入",
+    "title": "【MCP 实操：给 AI 客户端挂上本地文件与数据库的通用接口】",
+    "level": "L3",
+    "depth": "protocol-integration",
+    "angle": "三原语资源工具提示+stdio本地传输+权限白名单",
+    "keywords_snippet": "MCP,JSON-RPC,服务端配置,本地数据不出网"
+  },
+  {
+    "module": "08",
+    "date": "2026-08-06",
+    "topic": "RAGFlow 自托管私有知识库",
+    "title": "【RAGFlow：用文档解析加引用溯源搭一套自托管私有知识库】",
+    "level": "L3",
+    "depth": "rag-engineering",
+    "angle": "深度文档解析+模板化切块+混合检索重排+引用回填",
+    "keywords_snippet": "RAGFlow,DeepDoc,切块模板,混合检索,自托管"
+  },
+  {
+    "module": "08",
+    "date": "2026-08-06",
+    "topic": "ComfyUI 节点式生图产线",
+    "title": "【ComfyUI 节点工作流：把 AI 出图从抽卡变成可复用产线】",
+    "level": "L3",
+    "depth": "image-pipeline",
+    "angle": "DAG算子编排+惰性缓存+种子固定+FLUX双编码器",
+    "keywords_snippet": "ComfyUI,FLUX,工作流复现,批量出图,接口调用"
+  },
+  {
+    "module": "08",
+    "date": "2026-08-06",
+    "topic": "AutoGLM 手机GUI智能体",
+    "title": "【AutoGLM 手机智能体：让 AI 代替你点开 App 完成一整套操作】",
+    "level": "L3",
+    "depth": "gui-agent",
+    "angle": "截图与无障碍元素树融合感知+走一步看一步规划+每步校验纠错",
+    "keywords_snippet": "AutoGLM,手机智能体,无障碍服务,指令模板,不可逆动作确认"
+  },
+  {
+    "module": "08",
+    "date": "2026-08-06",
+    "topic": "Shortwave AI 邮件分诊工作流",
+    "title": "【Shortwave AI 邮件：用自动分类与草稿生成三分钟清空收件箱】",
+    "level": "L2",
+    "depth": "email-triage",
+    "angle": "邮件向量化语义搜索+分层线程摘要+规则与模型混合分类+风格少样本草稿",
+    "keywords_snippet": "AI邮件客户端,收件箱分诊,线程摘要,草稿约束模板"
   }
 ]

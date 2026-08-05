@@ -1598,5 +1598,65 @@
     "depth": "概念层",
     "angle": "语法糖与可读性工程实践",
     "keywords_snippet": "pipe-operator,|>,first-class-callable,NoDiscard,array_first"
+  },
+  {
+    "module": "09",
+    "date": "2026-08-06",
+    "topic": "Java 26 结构化并发",
+    "title": "Java 26 结构化并发第六次预览：用作用域终结线程泄漏与取消延迟",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "并发模型与任务生命周期作用域化",
+    "keywords_snippet": "JEP525,StructuredTaskScope,Joiner,virtual-threads,cancellation-propagation"
+  },
+  {
+    "module": "09",
+    "date": "2026-08-06",
+    "topic": "Swift 所有权与借用访问器",
+    "title": "Swift 6.4 所有权下沉：borrow/mutate 访问器让零拷贝走出 unsafe",
+    "level": "L3",
+    "depth": "实践层",
+    "angle": "内存所有权系统进入安全子集",
+    "keywords_snippet": "borrow,mutate,Iterable,Span,InlineArray,noncopyable,SE-0493"
+  },
+  {
+    "module": "09",
+    "date": "2026-08-06",
+    "topic": "Rust Sized 层级重构",
+    "title": "Rust Only Bounds：Sized 三级体系重构撬动 SVE 与 extern type",
+    "level": "L4",
+    "depth": "前沿层",
+    "angle": "类型系统底层分层与可伸缩向量支持",
+    "keywords_snippet": "OnlyBounds,MetadataSized,MaybeSized,extern-type,Arm-SVE,babysteps"
+  },
+  {
+    "module": "09",
+    "date": "2026-08-06",
+    "topic": "Dart 主构造函数",
+    "title": "Dart 3.12 主构造函数实验上线：一行声明取代样板类体",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "语法糖脱糖机制与样板消除",
+    "keywords_snippet": "primary-constructors,private-named-parameters,desugaring,freezed,Dart3.12"
+  },
+  {
+    "module": "09",
+    "date": "2026-08-06",
+    "topic": "Mojo 异构编程",
+    "title": "Mojo 1.x 落地：Python 超集与 MLIR 把 SIMD 和 GPU 内核写进同一语言",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "MLIR 多级下降与双语言问题弥合",
+    "keywords_snippet": "Mojo,MLIR,fn-def,SIMD,simdwidthof,vectorize,two-language-problem"
+  },
+  {
+    "module": "09",
+    "date": "2026-08-06",
+    "topic": "包管理器性能重写",
+    "title": "包管理器重写浪潮：uv 与 Bun 用 Rust 和 Zig 重建依赖解析",
+    "level": "L3",
+    "depth": "实践层",
+    "angle": "依赖解析算法与缓存布局工具链优化",
+    "keywords_snippet": "uv,Bun,pnpm,PubGrub,PEP751,hardlink,content-addressable-store,HTTP-Range"
   }
 ]

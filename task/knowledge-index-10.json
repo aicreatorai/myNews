@@ -1878,5 +1878,65 @@
     "depth": "原理",
     "angle": "约定优于配置消解Rust选型过载",
     "keywords_snippet": "Rust Web框架 batteries-included tokio Axum 脚手架"
+  },
+  {
+    "module": "10",
+    "date": "2026-08-06",
+    "topic": "PenguinHarness 自进化Agent Harness",
+    "title": "PenguinHarness：让 Agent 自己造 Agent，两毛钱跑通一次自进化",
+    "level": "L4",
+    "depth": "前沿层",
+    "angle": "构建-评测-归因-改配置的自进化闭环与成本帕累托",
+    "keywords_snippet": "PenguinHarness LlamaFactory 郑耀威 自进化 Agent Harness 轨迹观测"
+  },
+  {
+    "module": "10",
+    "date": "2026-08-06",
+    "topic": "turbo-fieldfare 端侧MoE推理",
+    "title": "turbo-fieldfare：在 M 系列 MacBook 上用 2GB 内存跑 Gemma 4 26B",
+    "level": "L3",
+    "depth": "进阶层",
+    "angle": "MoE专家按需映射+Metal统一内存把常驻内存压到2GB",
+    "keywords_snippet": "turbo-fieldfare Gemma4 26B-A4B Apple Silicon MoE 流式加载"
+  },
+  {
+    "module": "10",
+    "date": "2026-08-06",
+    "topic": "codex-security 代码安全扫描",
+    "title": "codex-security：OpenAI 开源的安全扫描 SDK 与命令行",
+    "level": "L2",
+    "depth": "应用层",
+    "angle": "污点追踪+结构化JSON输出让Agent自查自改",
+    "keywords_snippet": "codex-security OpenAI SAST 静态分析 污点追踪 CI门禁"
+  },
+  {
+    "module": "10",
+    "date": "2026-08-06",
+    "topic": "astryx 面向智能体的设计系统",
+    "title": "astryx：Meta 开源的全可定制、面向智能体的设计系统",
+    "level": "L2",
+    "depth": "应用层",
+    "angle": "令牌单一事实来源+行为外观解耦引导AI生成合规UI",
+    "keywords_snippet": "astryx Meta 设计系统 Design Token agent ready 可访问性"
+  },
+  {
+    "module": "10",
+    "date": "2026-08-06",
+    "topic": "floci AWS本地模拟器",
+    "title": "floci：轻量免费的 AWS 本地模拟器替代品",
+    "level": "L1",
+    "depth": "入门层",
+    "angle": "协议兼容而非行为等价，本地跑集成测试的边界",
+    "keywords_snippet": "floci LocalStack AWS 本地模拟器 S3 SQS 集成测试 CI"
+  },
+  {
+    "module": "10",
+    "date": "2026-08-06",
+    "topic": "Outlines LLM结构化输出",
+    "title": "Outlines：给大模型输出套上有限状态机，让 JSON 一次成型",
+    "level": "L3",
+    "depth": "进阶层",
+    "angle": "预编译FSM在解码期做logits掩码实现结构确定性",
+    "keywords_snippet": "Outlines dottxt 结构化生成 有限状态机 logits掩码 Pydantic"
   }
 ]

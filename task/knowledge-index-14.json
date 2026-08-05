@@ -1988,5 +1988,65 @@
     "depth": "技术层",
     "angle": "沟通协作/会议轮次均衡",
     "keywords_snippet": "集体智慧因子 conversational turn-taking 心理安全感 Edmondson Woolley 三秒静默 邀请式发言"
+  },
+  {
+    "module": "14",
+    "date": "2026-08-06",
+    "topic": "刺激基线重置",
+    "title": "刺激基线重置：用部分数字断连把注意力阈值调回来",
+    "level": "L2",
+    "depth": "应用层",
+    "angle": "注意力管理/数字环境摩擦设计",
+    "keywords_snippet": "刺激基线 数字断连 手机在场耗损 自我打断 摩擦力 注意力阈值"
+  },
+  {
+    "module": "14",
+    "date": "2026-08-06",
+    "topic": "参照类预测",
+    "title": "参照类预测：用外部视角治好总也估不准的时间预算",
+    "level": "L2",
+    "depth": "应用层",
+    "angle": "决策与预测/规划谬误校准",
+    "keywords_snippet": "规划谬误 外部视角 参照类预测 个人校准系数 时间估算"
+  },
+  {
+    "module": "14",
+    "date": "2026-08-06",
+    "topic": "情绪粒度",
+    "title": "情绪粒度：用更精确的情绪词把内耗变成可操作信息",
+    "level": "L2",
+    "depth": "应用层",
+    "angle": "情绪调节/情绪分化与情感标记",
+    "keywords_snippet": "情绪粒度 情绪分化 情感标记 杏仁核 命名即驯服"
+  },
+  {
+    "module": "14",
+    "date": "2026-08-06",
+    "topic": "时型对齐",
+    "title": "时型对齐：按个人生物钟黄金窗口重排一天任务难度",
+    "level": "L3",
+    "depth": "深度层",
+    "angle": "精力与睡眠/昼夜节律与超昼夜周期",
+    "keywords_snippet": "时型 chronotype 社会时差 BRAC 超昼夜节律 皮质醇觉醒反应 微休息"
+  },
+  {
+    "module": "14",
+    "date": "2026-08-06",
+    "topic": "结构洞与弱连接",
+    "title": "结构洞与弱连接：用桥接位置扩大机会与信息来源",
+    "level": "L3",
+    "depth": "深度层",
+    "angle": "人际网络/社会资本与信息多样性",
+    "keywords_snippet": "弱连接 结构洞 三元闭包 网络约束度 中等强度连接 桥接"
+  },
+  {
+    "module": "14",
+    "date": "2026-08-06",
+    "topic": "探索利用权衡",
+    "title": "探索利用权衡：用37%法则决定什么时候停止试错",
+    "level": "L3",
+    "depth": "深度层",
+    "angle": "职业规划/最优停止与试错预算",
+    "keywords_snippet": "explore-exploit 37%法则 最优停止 秘书问题 侦察期 阈值决断"
   }
 ]

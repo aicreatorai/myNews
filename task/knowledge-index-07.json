@@ -2328,5 +2328,65 @@
     "depth": "技术层",
     "angle": "污染检测方法与活体评测治理路径",
     "keywords_snippet": "数据污染,GSM1k,LiveBench,LiveCodeBench,Min-K%,n-gram重叠,成员推断"
+  },
+  {
+    "module": "07",
+    "date": "2026-08-06",
+    "topic": "持续学习与灾难性遗忘",
+    "title": "灾难性遗忘与持续学习：给上线模型加新知识而不忘旧本事",
+    "level": "L1",
+    "depth": "基础层",
+    "angle": "参数级知识覆盖成因与四类缓解手段",
+    "keywords_snippet": "EWC Fisher LoRA 重放 稳定性可塑性 SPEE"
+  },
+  {
+    "module": "07",
+    "date": "2026-08-06",
+    "topic": "提示压缩Prompt Compression",
+    "title": "提示压缩：把两万字上下文砍掉一半Token还不掉分",
+    "level": "L2",
+    "depth": "应用层",
+    "angle": "输入侧token削减的困惑度筛选与token分类范式",
+    "keywords_snippet": "LLMLingua 对比困惑度 自信息 软压缩 RAG降本"
+  },
+  {
+    "module": "07",
+    "date": "2026-08-06",
+    "topic": "LLM可观测性与追踪",
+    "title": "LLM可观测性：用OpenTelemetry给Agent装上黑匣子",
+    "level": "L2",
+    "depth": "应用层",
+    "angle": "GenAI语义约定下的span树、采样与成本归因",
+    "keywords_snippet": "OpenTelemetry gen_ai属性 尾部采样 trace Phoenix"
+  },
+  {
+    "module": "07",
+    "date": "2026-08-06",
+    "topic": "VLA视觉-语言-动作模型",
+    "title": "VLA模型：让大模型不止会说，还能直接输出机器人动作",
+    "level": "L3",
+    "depth": "深化层",
+    "angle": "动作离散化与动作分块的端到端具身控制",
+    "keywords_snippet": "OpenVLA RT-2 pi0 流匹配 Open X-Embodiment"
+  },
+  {
+    "module": "07",
+    "date": "2026-08-06",
+    "topic": "联邦学习与差分隐私",
+    "title": "联邦学习与差分隐私：数据不出域也能训出可用模型",
+    "level": "L3",
+    "depth": "深化层",
+    "angle": "FedAvg聚合与DP-SGD隐私预算的组合落地",
+    "keywords_snippet": "FedAvg 梯度裁剪 高斯噪声 epsilon 联邦LoRA Opacus"
+  },
+  {
+    "module": "07",
+    "date": "2026-08-06",
+    "topic": "LLM-as-a-Judge评测",
+    "title": "LLM-as-a-Judge：用模型当裁判前必须校准的四种偏差",
+    "level": "L4",
+    "depth": "前沿层",
+    "angle": "位置/冗长/自我偏好/分数坍塌的偏差校准方法",
+    "keywords_snippet": "MT-Bench G-Eval Cohen kappa pairwise Bradley-Terry"
   }
 ]
