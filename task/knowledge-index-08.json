@@ -1976,5 +1976,65 @@
     "depth": "email-triage",
     "angle": "邮件向量化语义搜索+分层线程摘要+规则与模型混合分类+风格少样本草稿",
     "keywords_snippet": "AI邮件客户端,收件箱分诊,线程摘要,草稿约束模板"
+  },
+  {
+    "module": "08",
+    "date": "2026-08-07",
+    "topic": "n8n 自动化工作流",
+    "title": "n8n 自托管自动化：用节点画布把跨系统重复劳动交给机器",
+    "level": "L3",
+    "depth": "实践层",
+    "angle": "自托管部署与节点数据流实操",
+    "keywords_snippet": "n8n, 自托管, 节点画布, 条目数组, 队列模式, 智能体节点, 定时触发, 去重"
+  },
+  {
+    "module": "08",
+    "date": "2026-08-07",
+    "topic": "WPS AI 灵犀表格",
+    "title": "WPS AI 灵犀表格：用自然语言把杂乱数据表变成可交付分析",
+    "level": "L3",
+    "depth": "实践层",
+    "angle": "表格清洗透视与结论生成工作流",
+    "keywords_snippet": "WPS灵犀, 表格AI, 公式生成, 数据清洗, 透视表, 结构摘要, 采样, 复核"
+  },
+  {
+    "module": "08",
+    "date": "2026-08-07",
+    "topic": "剪映专业版 AI 剪辑",
+    "title": "剪映专业版 AI 剪辑：用智能成片与图文成片压缩后期工时",
+    "level": "L3",
+    "depth": "实践层",
+    "angle": "长视频后期自动化全流程",
+    "keywords_snippet": "剪映专业版, 智能字幕, 文稿匹配剪辑, 智能剪口播, 节拍检测, 抠像, 多尺寸导出"
+  },
+  {
+    "module": "08",
+    "date": "2026-08-07",
+    "topic": "Xmind AI 思维导图",
+    "title": "Xmind AI 思维导图：把一段杂乱笔记一键结构化成可汇报的框架",
+    "level": "L3",
+    "depth": "实践层",
+    "angle": "长文本降维与多维度框架生成",
+    "keywords_snippet": "Xmind AI, 思维导图, 层级文本, 分类维度, 定向扩展, 剪枝, 汇报框架"
+  },
+  {
+    "module": "08",
+    "date": "2026-08-07",
+    "topic": "Zotero 加 AI 插件",
+    "title": "Zotero 加 AI 插件：把文献管理变成能追问原文的研究台",
+    "level": "L3",
+    "depth": "实践层",
+    "angle": "本地文献库问答与引用溯源工作流",
+    "keywords_snippet": "Zotero 7, 插件生态, 全文索引, 检索增强, 页码溯源, 跨篇提问, 引文格式"
+  },
+  {
+    "module": "08",
+    "date": "2026-08-07",
+    "topic": "Langfuse 提示词工程化",
+    "title": "Langfuse 提示词工程化：把 Prompt 当代码做版本管理与离线评测",
+    "level": "L4",
+    "depth": "工程层",
+    "angle": "提示词版本标签与离线回归评测",
+    "keywords_snippet": "Langfuse, 提示词版本, 标签灰度, 链路追踪, 数据集, 模型裁判, 程序化断言, 自托管"
   }
 ]

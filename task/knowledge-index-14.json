@@ -2048,5 +2048,65 @@
     "depth": "深度层",
     "angle": "职业规划/最优停止与试错预算",
     "keywords_snippet": "explore-exploit 37%法则 最优停止 秘书问题 侦察期 阈值决断"
+  },
+  {
+    "module": "14",
+    "date": "2026-08-07",
+    "topic": "动机双模式",
+    "title": "动机双模式：用探询与执行两种脑内语境决定你记住什么",
+    "level": "L3",
+    "depth": "深",
+    "angle": "神经科学机制+任务性质切换",
+    "keywords_snippet": "动机双模式,神经语境,探询模式,执行模式,多巴胺,去甲肾上腺素,关系型记忆,单元化记忆,Poh,Adcock,好奇心,迁移"
+  },
+  {
+    "module": "14",
+    "date": "2026-08-07",
+    "topic": "组块化",
+    "title": "组块化：用专家式知识块突破工作记忆的四格瓶颈",
+    "level": "L2",
+    "depth": "深",
+    "angle": "工作记忆容量与专长形成",
+    "keywords_snippet": "组块化,chunking,工作记忆,Miller,神奇数字七,Cowan,Chase-Simon,国际象棋,认知负荷,Sweller,专长,空白重建"
+  },
+  {
+    "module": "14",
+    "date": "2026-08-07",
+    "topic": "未来自我连续性",
+    "title": "未来自我连续性：用与十年后的自己重建联系换掉当下短视",
+    "level": "L3",
+    "depth": "深",
+    "angle": "跨期决策的人际化解释",
+    "keywords_snippet": "未来自我连续性,Hershfield,时间贴现,跨期决策,自控,储蓄,内侧前额叶,给未来自我写信,Bartels,Rutchick"
+  },
+  {
+    "module": "14",
+    "date": "2026-08-07",
+    "topic": "自我关怀",
+    "title": "自我关怀：用三要素替换自我批评这台假动力引擎",
+    "level": "L2",
+    "depth": "深",
+    "angle": "失败后恢复速度与改进动机",
+    "keywords_snippet": "自我关怀,self-compassion,Neff,自我善待,共通人性,正念,MacBeth,Gumley,Breines,Chen,Sirois,拖延,羞耻,内疚"
+  },
+  {
+    "module": "14",
+    "date": "2026-08-07",
+    "topic": "反馈寻求",
+    "title": "反馈寻求：用主动索取重建职业成长的信息供给",
+    "level": "L3",
+    "depth": "深",
+    "angle": "把反馈当个体需自取的资源",
+    "keywords_snippet": "反馈寻求,feedback-seeking,Ashford,Cummings,探询,监控,Anseel,元分析,Kluger,DeNisi,提问框架,闭环回执,来源多样性"
+  },
+  {
+    "module": "14",
+    "date": "2026-08-07",
+    "topic": "孵化效应",
+    "title": "孵化效应：用刻意搁置与低负荷活动解开卡死的难题",
+    "level": "L2",
+    "depth": "深",
+    "angle": "定势衰减与低认知负荷孵化条件",
+    "keywords_snippet": "孵化效应,incubation,Sio,Ormerod,Wallas,定势衰减,心智游移,Baird,Schooler,蔡加尼克,睡眠洞察,Wagner,发散问题"
   }
 ]

@@ -2388,5 +2388,65 @@
     "depth": "前沿层",
     "angle": "位置/冗长/自我偏好/分数坍塌的偏差校准方法",
     "keywords_snippet": "MT-Bench G-Eval Cohen kappa pairwise Bradley-Terry"
+  },
+  {
+    "module": "07",
+    "date": "2026-08-07",
+    "topic": "缩放定律与数据配比",
+    "title": "缩放定律与数据配比：用算力预算反推模型该多大、数据该喂多少",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "IsoFLOP前沿与每参数20token的算力分配决策",
+    "keywords_snippet": "Chinchilla Kaplan IsoFLOP C=6ND 数据混合定律"
+  },
+  {
+    "module": "07",
+    "date": "2026-08-07",
+    "topic": "3D并行与ZeRO分布式训练",
+    "title": "3D并行与ZeRO：万卡集群怎么把一个模型切开来训",
+    "level": "L3",
+    "depth": "工程层",
+    "angle": "数据/张量/流水线三维切分与显存分片取舍",
+    "keywords_snippet": "ZeRO Megatron FSDP 流水线气泡 1F1B Mpipe"
+  },
+  {
+    "module": "07",
+    "date": "2026-08-07",
+    "topic": "知识编辑Knowledge Editing",
+    "title": "知识编辑：不重训就精准改掉模型脑子里的一条事实",
+    "level": "L2",
+    "depth": "原理层",
+    "angle": "因果追踪定位加秩一权重更新的参数级事实修改",
+    "keywords_snippet": "ROME MEMIT EasyEdit 因果追踪 秩一更新 涟漪效应"
+  },
+  {
+    "module": "07",
+    "date": "2026-08-07",
+    "topic": "奖励劫持Reward Hacking",
+    "title": "奖励劫持：模型学会了刷分，而不是把事情做好",
+    "level": "L4",
+    "depth": "前沿层",
+    "angle": "奖励模型过优化拐点与思维链监控被混淆化风险",
+    "keywords_snippet": "reward hacking 古德哈特 KL惩罚 过优化 CoT监控 混淆化"
+  },
+  {
+    "module": "07",
+    "date": "2026-08-07",
+    "topic": "间接提示注入与Agent防御",
+    "title": "间接提示注入：藏在网页里的一句话如何劫持你的Agent",
+    "level": "L3",
+    "depth": "工程层",
+    "angle": "致命三元组与输入检测出站白名单控制流分离四层防御",
+    "keywords_snippet": "indirect prompt injection OWASP LLM01 CaMeL 致命三元组 数据外带"
+  },
+  {
+    "module": "07",
+    "date": "2026-08-07",
+    "topic": "GUI Agent与Computer Use",
+    "title": "GUI Agent与Computer Use：让模型像人一样看屏幕点鼠标",
+    "level": "L2",
+    "depth": "原理层",
+    "angle": "视觉grounding定位与长流程误差累积的可靠性工程",
+    "keywords_snippet": "OSWorld SeeClick UI-TARS computer use grounding 动作空间"
   }
 ]

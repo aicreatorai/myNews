@@ -1658,5 +1658,65 @@
     "depth": "实践层",
     "angle": "依赖解析算法与缓存布局工具链优化",
     "keywords_snippet": "uv,Bun,pnpm,PubGrub,PEP751,hardlink,content-addressable-store,HTTP-Range"
+  },
+  {
+    "module": "09",
+    "date": "2026-08-07",
+    "topic": "模板字符串与注入防护",
+    "title": "PEP 750 模板字符串 t-string：把字符串拼接从注入温床变成结构化数据",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "语法层区分可信静态片段与不可信插值实现上下文感知转义",
+    "keywords_snippet": "PEP750,t-string,Template,Interpolation,string.templatelib,injection,tagged-template"
+  },
+  {
+    "module": "09",
+    "date": "2026-08-07",
+    "topic": "Rust 特化与编译期元编程",
+    "title": "元单态化特化：不改编译器用宏给 Rust 补上零成本 specialization",
+    "level": "L4",
+    "depth": "前沿层",
+    "angle": "用标记类型把特化谓词编码进类型结构在保住一致性前提下做编译期分派",
+    "keywords_snippet": "meta-monomorphization,specialization,RFC1210,coherence,TypeId,autoref,marker-type,arXiv2602.12973"
+  },
+  {
+    "module": "09",
+    "date": "2026-08-07",
+    "topic": "Go 编译器与运行时演进路线",
+    "title": "Go 2026 路线图：原生 SIMD 与 runtime.free 打破 GC 铁律",
+    "level": "L4",
+    "depth": "前沿层",
+    "angle": "编译器自动插入内存释放与可伸缩向量高层API的设计难点",
+    "keywords_snippet": "Go2026,SIMD,SVE,GOEXPERIMENT,runtime.freegc,sync.Sharded,false-sharing,memory-regions,generic-methods"
+  },
+  {
+    "module": "09",
+    "date": "2026-08-07",
+    "topic": "动态语言原生编译与中间表示",
+    "title": "jank 自定义 IR：Clojure 原生编译器 48 倍反超 JVM",
+    "level": "L3",
+    "depth": "实践层",
+    "angle": "在LLVM之上加语言级IR保住var语义换来CSE与拆箱机会",
+    "keywords_snippet": "jank,Clojure,custom-IR,LLVM,var-deref,CSE,unboxing,devirtualize,SIL,MIR,babashka"
+  },
+  {
+    "module": "09",
+    "date": "2026-08-07",
+    "topic": "算子编程语言分层设计",
+    "title": "Triton 语言扩展 TLE：三层 DSL 重写算子编程语言",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "用Lite/Struct/Raw三层抽象化解易用性与极致性能的矛盾",
+    "keywords_snippet": "Triton,TLE,FlagOS,FlagTree,FlagGems,DSA,ttgir,DLCompiler,Triton-Distributed,KernelGen"
+  },
+  {
+    "module": "09",
+    "date": "2026-08-07",
+    "topic": "跨语言运行时互操作",
+    "title": "Oracle Project Detroit：Java 与 Python JavaScript 同堆互操作",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "从对象模型阻抗GC协同GIL与封送四层拆解跨语言调用成本",
+    "keywords_snippet": "Project-Detroit,GraalVM,Truffle,Polyglot,FFM,Panama,GIL,refcount,GraalPy,marshalling"
   }
 ]

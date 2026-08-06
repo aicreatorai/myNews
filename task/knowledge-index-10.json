@@ -1938,5 +1938,65 @@
     "depth": "进阶层",
     "angle": "预编译FSM在解码期做logits掩码实现结构确定性",
     "keywords_snippet": "Outlines dottxt 结构化生成 有限状态机 logits掩码 Pydantic"
+  },
+  {
+    "module": "10",
+    "date": "2026-08-07",
+    "topic": "TencentCloud/TencentDB-Agent-Memory Agent记忆层",
+    "title": "腾讯云开源Agent记忆数据库，跨会话记住上下文",
+    "level": "L3",
+    "depth": "实践层",
+    "angle": "外置记忆库解决上下文amnesia",
+    "keywords_snippet": "agent memory 记忆 跨会话 腾讯云 数据库"
+  },
+  {
+    "module": "10",
+    "date": "2026-08-07",
+    "topic": "microsoft/agent-governance-toolkit Agent治理",
+    "title": "微软开源Agent治理工具包：策略零信任沙箱",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "执行层硬约束对抗提示注入",
+    "keywords_snippet": "agent governance 治理 沙箱 OWASP 零信任 策略"
+  },
+  {
+    "module": "10",
+    "date": "2026-08-07",
+    "topic": "huggingface/speech-to-speech 本地语音Agent",
+    "title": "HF开源本地语音Agent：ASR+LLM+TTS全本地",
+    "level": "L3",
+    "depth": "实践层",
+    "angle": "本地流式语音链路与打断管理",
+    "keywords_snippet": "speech voice agent 本地 语音识别 合成 huggingface"
+  },
+  {
+    "module": "10",
+    "date": "2026-08-07",
+    "topic": "calesthio/OpenMontage 智能体视频制片",
+    "title": "OpenMontage开源智能体视频生产系统",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "管线即技能组合的端到端制片",
+    "keywords_snippet": "video agent openmontage 视频生产 管线 自动化"
+  },
+  {
+    "module": "10",
+    "date": "2026-08-07",
+    "topic": "iOfficeAI/OfficeCLI Agent办公文档",
+    "title": "OfficeCLI给Agent的零依赖Office读写工具",
+    "level": "L3",
+    "depth": "实践层",
+    "angle": "单一二进制无Office在场的OOXML读写",
+    "keywords_snippet": "office word excel ppt agent 文档 officecli"
+  },
+  {
+    "module": "10",
+    "date": "2026-08-07",
+    "topic": "nektos/act 本地跑GitHub Actions",
+    "title": "act用Docker本地跑通GitHub Actions工作流",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "本地先验证CI再上线缩短反馈环",
+    "keywords_snippet": "act github actions ci cd docker 本地调试"
   }
 ]
