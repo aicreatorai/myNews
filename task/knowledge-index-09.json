@@ -1718,5 +1718,65 @@
     "depth": "技术层",
     "angle": "从对象模型阻抗GC协同GIL与封送四层拆解跨语言调用成本",
     "keywords_snippet": "Project-Detroit,GraalVM,Truffle,Polyglot,FFM,Panama,GIL,refcount,GraalPy,marshalling"
+  },
+  {
+    "module": "09",
+    "date": "2026-08-08",
+    "topic": "Zig Io 接口与无颜色异步",
+    "title": "Zig 新 Io 接口：把异步与阻塞的选择权从库交还给调用者",
+    "level": "L3",
+    "depth": "实践层",
+    "angle": "把I/O能力作为参数注入消除函数染色与运行时绑定",
+    "keywords_snippet": "Zig Io Writergate 无颜色异步"
+  },
+  {
+    "module": "09",
+    "date": "2026-08-08",
+    "topic": "ECMAScript 显式资源管理 using",
+    "title": "JavaScript/TypeScript 的 using 声明：用 DisposableStack 把清理逻辑编进作用域",
+    "level": "L3",
+    "depth": "实践层",
+    "angle": "using 声明与逆序释放让资源清理成为语言一等公民",
+    "keywords_snippet": "using DisposableStack SuppressedError TC39"
+  },
+  {
+    "module": "09",
+    "date": "2026-08-08",
+    "topic": "Embedded Swift 无运行时子集",
+    "title": "Embedded Swift：砍掉运行时元数据把 Swift 塞进 MCU",
+    "level": "L3",
+    "depth": "实践层",
+    "angle": "泛型全量特化与禁用存在类型实现无运行时嵌入式开发",
+    "keywords_snippet": "Embedded Swift 无运行时 ARC 嵌入式"
+  },
+  {
+    "module": "09",
+    "date": "2026-08-08",
+    "topic": "Ada SPARK 契约式设计与形式化验证",
+    "title": "Ada/SPARK：用契约与 SMT 证明把缺陷消灭在编译前",
+    "level": "L3",
+    "depth": "原理层",
+    "angle": "契约式设计与保障级别让关键系统获得数学级正确性保证",
+    "keywords_snippet": "SPARK 契约 形式化验证 SMT 保障级别"
+  },
+  {
+    "module": "09",
+    "date": "2026-08-08",
+    "topic": "Gleam 类型安全 BEAM 语言",
+    "title": "Gleam：在 BEAM 与 JS 双后端上做类型安全的函数式编程",
+    "level": "L3",
+    "depth": "实践层",
+    "angle": "Hindley-Milner 全推断与代数数据类型穷尽检查兼顾安全与并发",
+    "keywords_snippet": "Gleam BEAM 类型安全 use 表达式"
+  },
+  {
+    "module": "09",
+    "date": "2026-08-08",
+    "topic": "Lean 4 依赖类型与宏系统",
+    "title": "Lean 4：当证明辅助器同时成为一门通用编程语言",
+    "level": "L3",
+    "depth": "原理层",
+    "angle": "依赖类型与分层卫生宏让程序与证明共享同一个类型系统",
+    "keywords_snippet": "Lean 4 依赖类型 宏卫生 自举"
   }
 ]

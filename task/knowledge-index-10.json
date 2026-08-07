@@ -1998,5 +1998,55 @@
     "depth": "技术层",
     "angle": "本地先验证CI再上线缩短反馈环",
     "keywords_snippet": "act github actions ci cd docker 本地调试"
+  },
+  {
+    "module": "10",
+    "date": "2026-08-08",
+    "topic": "jcode Rust编码Harness",
+    "title": "jcode：号称最省内存的 Rust 编码 Harness，把 AI 编程跑进轻量终端",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "Rust实现轻量编码harness内置文件Shell代码图谱工具",
+    "keywords_snippet": "jcode rust harness 编码 agent 轻量 内存"
+  },
+  {
+    "module": "10",
+    "date": "2026-08-08",
+    "topic": "DeepSeek-Reasonix Go深度推理封装",
+    "title": "DeepSeek-Reasonix：用 Go 写的深度推理封装，把推理链拆成可调用接口",
+    "level": "L3",
+    "depth": "实践层",
+    "angle": "Go封装深度推理链为可调用接口并暴露轨迹",
+    "keywords_snippet": "DeepSeek-Reasonix go 推理 封装 可调用 轨迹"
+  },
+  {
+    "module": "10",
+    "date": "2026-08-08",
+    "topic": "github/copilot-sdk 官方SDK",
+    "title": "github/copilot-sdk：用官方 SDK 把 GitHub Copilot 的能力嵌进你自己的应用与智能体",
+    "level": "L4",
+    "depth": "前沿层",
+    "angle": "官方SDK把Copilot编码能力下沉为可调用的接口",
+    "keywords_snippet": "copilot-sdk github 官方 sdk 嵌入 编码能力"
+  },
+  {
+    "module": "10",
+    "date": "2026-08-08",
+    "topic": "k6 2.0 AI辅助性能测试",
+    "title": "k6 2.0：用 k6 x agent 把 AI 助手接进性能测试，自动生成可扩展脚本",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "k6 x agent用AI自动生成符合规范的性能测试脚本",
+    "keywords_snippet": "k6 2.0 性能测试 ai agent 自动生成 脚本"
+  },
+  {
+    "module": "10",
+    "date": "2026-08-08",
+    "topic": "hallmark 反AI套话设计技能",
+    "title": "hallmark：给 Claude Code、Cursor 与 Codex 用的反 AI 套话设计技能包",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "设计技能包在生成时施加反套话审美护栏",
+    "keywords_snippet": "hallmark anti-ai-slop 设计 skill 反套话 界面"
   }
 ]

@@ -2036,5 +2036,65 @@
     "depth": "工程层",
     "angle": "提示词版本标签与离线回归评测",
     "keywords_snippet": "Langfuse, 提示词版本, 标签灰度, 链路追踪, 数据集, 模型裁判, 程序化断言, 自托管"
+  },
+  {
+    "module": "08",
+    "date": "2026-08-08",
+    "topic": "腾讯 ima 个人知识库",
+    "title": "腾讯 ima：把微信里刷到的资料变成能反问的个人知识库",
+    "level": "L2",
+    "depth": "工具定位与微信生态收集、知识库问答与引用回溯",
+    "angle": "微信内收藏转个人知识库、答案可回溯到原文",
+    "keywords_snippet": "ima 腾讯 个人知识库 微信 收藏 问答 引用 回溯"
+  },
+  {
+    "module": "08",
+    "date": "2026-08-08",
+    "topic": "MinerU PDF解析",
+    "title": "MinerU：把PDF论文与研报解析成大模型能吃的Markdown",
+    "level": "L2",
+    "depth": "PDF→Markdown 解析流程、双栏顺序与表格公式处理",
+    "angle": "论文研报结构化提取、公式表格还原",
+    "keywords_snippet": "MinerU PDF 解析 Markdown 论文 研报 表格 公式"
+  },
+  {
+    "module": "08",
+    "date": "2026-08-08",
+    "topic": "FunASR WhisperX 语音识别",
+    "title": "FunASR与WhisperX：把几小时录音批量转成带时间戳的可搜文稿",
+    "level": "L2",
+    "depth": "本地语音识别、非自回归模型与词级时间戳",
+    "angle": "录音批量转写、时间戳检索、说话人区分",
+    "keywords_snippet": "FunASR WhisperX 语音识别 转写 时间戳 说话人 本地"
+  },
+  {
+    "module": "08",
+    "date": "2026-08-08",
+    "topic": "Napkin AI 文字转图",
+    "title": "Napkin AI：把一段文字直接变成能改的示意图与流程图",
+    "level": "L1",
+    "depth": "文字生成可编辑矢量示意图与流程图",
+    "angle": "自然语言生成流程图、矢量可编辑",
+    "keywords_snippet": "Napkin AI 文字转图 流程图 示意图 矢量 可编辑"
+  },
+  {
+    "module": "08",
+    "date": "2026-08-08",
+    "topic": "Trae AI IDE SOLO",
+    "title": "Trae：国产AI原生IDE用SOLO模式从需求直接跑到可运行应用",
+    "level": "L3",
+    "depth": "AI原生IDE与SOLO自主编码模式实操",
+    "angle": "国产AI IDE、SOLO模式需求到可运行应用",
+    "keywords_snippet": "Trae AI IDE SOLO 自主编码 国产 需求 应用"
+  },
+  {
+    "module": "08",
+    "date": "2026-08-08",
+    "topic": "Chat2DB 自然语言SQL",
+    "title": "Chat2DB：用一句中文查数据库并让AI把慢SQL改快",
+    "level": "L3",
+    "depth": "自然语言转SQL与慢SQL诊断优化",
+    "angle": "中文查库、AI改写慢SQL、执行计划诊断",
+    "keywords_snippet": "Chat2DB 自然语言 SQL 慢SQL 优化 中文查库 诊断"
   }
 ]

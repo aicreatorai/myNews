@@ -2448,5 +2448,65 @@
     "depth": "原理层",
     "angle": "视觉grounding定位与长流程误差累积的可靠性工程",
     "keywords_snippet": "OSWorld SeeClick UI-TARS computer use grounding 动作空间"
+  },
+  {
+    "module": "07",
+    "date": "2026-08-08",
+    "topic": "分词器与BBPE",
+    "title": "分词器与BBPE：为什么同一句话中文比英文更贵三倍",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "从词表大小与压缩率看token成本与数学能力的根因",
+    "keywords_snippet": "BPE BBPE SentencePiece Unigram WordPiece 词表 压缩率 single-digit tiktoken"
+  },
+  {
+    "module": "07",
+    "date": "2026-08-08",
+    "topic": "RoPE与位置编码外推",
+    "title": "RoPE与YaRN：模型靠旋转角度记住词序，又靠插值撑开上下文",
+    "level": "L2",
+    "depth": "原理层",
+    "angle": "从旋转恒等式推导相对位置，再拆解PI/NTK/YaRN三种外推取舍",
+    "keywords_snippet": "RoPE 旋转位置编码 YaRN 位置插值 NTK-aware base 长上下文 ALiBi"
+  },
+  {
+    "module": "07",
+    "date": "2026-08-08",
+    "topic": "稀疏注意力",
+    "title": "稀疏注意力：把百万Token长文的单位算力成本砍到二十分之一",
+    "level": "L3",
+    "depth": "实践层",
+    "angle": "块稀疏、混合线性与状态矩阵三条路线的成本-精度权衡",
+    "keywords_snippet": "MSA LSA KDA MLA 块稀疏 滑动窗口 attention sink FlexAttention LongCat Ling-3.0"
+  },
+  {
+    "module": "07",
+    "date": "2026-08-08",
+    "topic": "Flow Matching与整流流",
+    "title": "Flow Matching与整流流：把50步扩散采样拉直成4步直线",
+    "level": "L2",
+    "depth": "原理层",
+    "angle": "用ODE速度场替代反向SDE，条件流匹配等价性与reflow拉直机制",
+    "keywords_snippet": "Flow Matching Rectified Flow CFM ODE 速度场 reflow SD3 FLUX DiT Euler Heun"
+  },
+  {
+    "module": "07",
+    "date": "2026-08-08",
+    "topic": "有效阶ED与简单性偏置",
+    "title": "有效阶ED：给神经网络的简单性偏置装上一把可优化的标尺",
+    "level": "L4",
+    "depth": "前沿层",
+    "angle": "把泛化理论里的简单性偏置变成可计算可训练的标量指标",
+    "keywords_snippet": "Effective Degree 简单性偏置 Fourier-Walsh Hermite 谱分解 世界模型 LeJEPA 可辨识性"
+  },
+  {
+    "module": "07",
+    "date": "2026-08-08",
+    "topic": "RLVR训练预算分配",
+    "title": "RLVR训练预算分配：用树形rollout把有效样本比例从27%拉到61%",
+    "level": "L3",
+    "depth": "实践层",
+    "angle": "从GRPO零梯度样本出发，按方差把rollout预算投到轨迹前缀",
+    "keywords_snippet": "RLVR GRPO rollout TRACE GPS 有效样本 树形分配 难度预测 ICML2026 腾讯混元"
   }
 ]

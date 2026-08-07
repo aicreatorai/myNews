@@ -2108,5 +2108,65 @@
     "depth": "深",
     "angle": "定势衰减与低认知负荷孵化条件",
     "keywords_snippet": "孵化效应,incubation,Sio,Ormerod,Wallas,定势衰减,心智游移,Baird,Schooler,蔡加尼克,睡眠洞察,Wagner,发散问题"
+  },
+  {
+    "module": "14",
+    "date": "2026-08-08",
+    "topic": "注意力残留",
+    "title": "注意力残留：用就绪计划切断上一件事对下一件事的侵占",
+    "level": "L2",
+    "depth": "方法层",
+    "angle": "任务切换的认知残留与就绪计划干预",
+    "keywords_snippet": "attention residue/Leroy 2009/ready-to-resume/切换税/ActivTrak 2026"
+  },
+  {
+    "module": "14",
+    "date": "2026-08-08",
+    "topic": "错误生成",
+    "title": "错误生成：先猜后学，用猜错换取更深的记忆通道",
+    "level": "L3",
+    "depth": "原理层",
+    "angle": "学前失败提取与预测误差编码",
+    "keywords_snippet": "errorful generation/pretesting effect/Kornell 2009/desirable difficulties/超纠正效应"
+  },
+  {
+    "module": "14",
+    "date": "2026-08-08",
+    "topic": "自我参照效应",
+    "title": "自我参照效应：把新知识挂到自己身上完成深加工",
+    "level": "L3",
+    "depth": "原理层",
+    "angle": "加工水平理论与自我图式编码",
+    "keywords_snippet": "self-reference effect/Rogers 1977/Symons Johnson 1997/levels of processing/内侧前额叶"
+  },
+  {
+    "module": "14",
+    "date": "2026-08-08",
+    "topic": "协作过载",
+    "title": "协作过载：用请求分级夺回被顺手消耗的时间",
+    "level": "L2",
+    "depth": "方法层",
+    "angle": "三类协作资源再分配与复用资产",
+    "keywords_snippet": "collaborative overload/Cross Rebele Grant 2016/信息社会时间三类资源/work about work"
+  },
+  {
+    "module": "14",
+    "date": "2026-08-08",
+    "topic": "选项收敛",
+    "title": "选项收敛：用限项法破解职业路径的选择瘫痪",
+    "level": "L3",
+    "depth": "原理层",
+    "angle": "选择过载调节变量与满意化终止规则",
+    "keywords_snippet": "choice overload/Iyengar Lepper 2000/Chernev 2015元分析/satisficing/maximizer"
+  },
+  {
+    "module": "14",
+    "date": "2026-08-08",
+    "topic": "AI使用剂量",
+    "title": "AI使用剂量：把工具时间控制在一成工时的甜点区",
+    "level": "L3",
+    "depth": "原理层",
+    "angle": "AI用量倒U曲线与判断折旧防护",
+    "keywords_snippet": "ActivTrak 2026/7-10%甜点区/Ironies of Automation/自动化偏见/手工区"
   }
 ]
