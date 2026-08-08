@@ -2168,5 +2168,65 @@
     "depth": "原理层",
     "angle": "AI用量倒U曲线与判断折旧防护",
     "keywords_snippet": "ActivTrak 2026/7-10%甜点区/Ironies of Automation/自动化偏见/手工区"
+  },
+  {
+    "module": "14",
+    "date": "2026-08-09",
+    "topic": "压缩学习与知识骨架",
+    "title": "知识骨架：用压缩学习让碎片信息连点成线",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "用网络高阶结构替代碎片堆量",
+    "keywords_snippet": "压缩学习,无标度网络,枢纽节点,图式同化,Nature Communications 2026"
+  },
+  {
+    "module": "14",
+    "date": "2026-08-09",
+    "topic": "言语接收带宽与语速阈限",
+    "title": "语速阈限：找到你大脑能听懂的输入速度上限",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "用alpha节律给倍速播放定上限",
+    "keywords_snippet": "语速阈限,alpha峰值频率,神经包络跟踪,倍速学习,北大2026"
+  },
+  {
+    "module": "14",
+    "date": "2026-08-09",
+    "topic": "情感预测偏差",
+    "title": "情感预测偏差：你高估了坏事对自己的打击",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "用预测记账校准心理免疫系统的高估倍数",
+    "keywords_snippet": "影响力偏误,免疫忽视,焦点主义,区域beta悖论,AREA模型"
+  },
+  {
+    "module": "14",
+    "date": "2026-08-09",
+    "topic": "目标梯度与进度感设计",
+    "title": "目标梯度：用人造进度感把半途而废挡回去",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "用赋予进度与参照点切换堵住中段流失",
+    "keywords_snippet": "目标梯度,赋予进度效应,中段塌陷,小区域假说,进展原则"
+  },
+  {
+    "module": "14",
+    "date": "2026-08-09",
+    "topic": "追问行为与关系收益",
+    "title": "追问密度：用连续追问同时换到信息与好感",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "用不可伪造的追问同时推进信息与关系两轴",
+    "keywords_snippet": "follow-up question,响应性,自我表露奖励,对话环状模型,过浅预期偏差"
+  },
+  {
+    "module": "14",
+    "date": "2026-08-09",
+    "topic": "学习迁移距离与惰性知识",
+    "title": "远迁移幻觉：为什么练了通用能力却用不上",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "用双例抽象与触发条件卡解决检索失败",
+    "keywords_snippet": "远迁移,惰性知识,Barnett-Ceci六维,脑训练无泛化,类比迁移"
   }
 ]

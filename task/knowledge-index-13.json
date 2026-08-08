@@ -1328,5 +1328,55 @@
     "depth": "前沿层",
     "angle": "用先备知识×错误模式替代风格分型，标签必须可干预",
     "keywords_snippet": "学习风格 匹配假说 Gregorc ANN-WSM Troussas 先备知识 错误模式 校准准确性 专长逆转 奥苏贝尔 梅耶多媒体 标签自我设限 诊断性前测 错因标注"
+  },
+  {
+    "module": "13",
+    "date": "2026-08-09",
+    "topic": "有效失败与先练后教",
+    "title": "【有效失败】先死磕再求助：把AI介入点后移到失败之后",
+    "level": "L2",
+    "depth": "原理层",
+    "angle": "把AI介入点后移到一次有界失败之后",
+    "keywords_snippet": "有效失败,Productive Failure,先练后教,赵斌,Manu Kapur,认知卸载,内容背书"
+  },
+  {
+    "module": "13",
+    "date": "2026-08-09",
+    "topic": "学习的神经机制与人机协同状态",
+    "title": "【AI参与的学习】神经可塑性、注意反馈与记忆重构：三机制重看人机协同",
+    "level": "L2",
+    "depth": "原理层",
+    "angle": "用三条生理层机制判断AI学习方案能否成立",
+    "keywords_snippet": "张治,神经可塑性,BTSP,注意与反馈,记忆重构,合成智商,上海基础教育论坛"
+  },
+  {
+    "module": "13",
+    "date": "2026-08-09",
+    "topic": "AI时代学习内容三层素养",
+    "title": "【三层素养架构】AI时代学什么：知识基础、数字素养与内核能力",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "用三层架构裁决AI时代学什么这一上游问题",
+    "keywords_snippet": "尚俊杰,三层素养,知识基础层,数字素养层,内核能力层,元认知知识,布鲁姆,社会情感能力"
+  },
+  {
+    "module": "13",
+    "date": "2026-08-09",
+    "topic": "K12人工智能素养课程纵向设计",
+    "title": "【K12素养螺旋上升】澳门培正十四年：以数学为底的三层分轨培养",
+    "level": "L2",
+    "depth": "实践层",
+    "angle": "用螺旋上升与三层分轨解决AI课程孤岛化",
+    "keywords_snippet": "澳门培正中学,高锦辉,螺旋上升,K12,三层分轨,以数学为底,具身认知,建构主义,STEAM"
+  },
+  {
+    "module": "13",
+    "date": "2026-08-09",
+    "topic": "源锚定AI学习工具栈",
+    "title": "【源锚定学习栈】把AI锁进自己的讲义：从摘要模式切到出题模式",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "用语料约束与出题模式替代摘要模式",
+    "keywords_snippet": "源锚定,source-grounded,NotebookLM,RAND,提取练习,HEPI,Digital Education Council,引用核验"
   }
 ]

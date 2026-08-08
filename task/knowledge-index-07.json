@@ -2508,5 +2508,65 @@
     "depth": "实践层",
     "angle": "从GRPO零梯度样本出发，按方差把rollout预算投到轨迹前缀",
     "keywords_snippet": "RLVR GRPO rollout TRACE GPS 有效样本 树形分配 难度预测 ICML2026 腾讯混元"
+  },
+  {
+    "module": "07",
+    "date": "2026-08-09",
+    "topic": "推理部署",
+    "title": "PagedAttention与连续批处理：用操作系统分页思路把推理吞吐做上去",
+    "level": "L2",
+    "depth": "原理+工程",
+    "angle": "显存管理与调度",
+    "keywords_snippet": "PagedAttention,连续批处理,KV Cache,vLLM,前缀共享"
+  },
+  {
+    "module": "07",
+    "date": "2026-08-09",
+    "topic": "模型压缩",
+    "title": "1-bit极限量化：27B模型压到3.9GB塞进手机的代价与边界",
+    "level": "L2",
+    "depth": "原理+实测",
+    "angle": "极低比特量化边界",
+    "keywords_snippet": "1-bit量化,QAT,GPTQ,AWQ,Bonsai27B,IQ1_M"
+  },
+  {
+    "module": "07",
+    "date": "2026-08-09",
+    "topic": "知识检索",
+    "title": "Reranker与后期交互：召回之后靠什么把对的那条排到第一",
+    "level": "L2",
+    "depth": "原理+选型",
+    "angle": "级联检索精排",
+    "keywords_snippet": "Reranker,CrossEncoder,ColBERT,后期交互,RRF,BEIR"
+  },
+  {
+    "module": "07",
+    "date": "2026-08-09",
+    "topic": "奖励模型",
+    "title": "E-GRM动态CoT触发：让奖励模型学会该快则快该深则深",
+    "level": "L2",
+    "depth": "原理+机制",
+    "angle": "自适应推理预算",
+    "keywords_snippet": "E-GRM,生成式奖励模型,动态CoT,自洽性,不确定性"
+  },
+  {
+    "module": "07",
+    "date": "2026-08-09",
+    "topic": "多模态",
+    "title": "视觉Token压缩：一张图凭什么吃掉大模型几千个token",
+    "level": "L2",
+    "depth": "原理+选型",
+    "angle": "视觉token冗余压缩",
+    "keywords_snippet": "视觉token,PixelShuffle,QFormer,FastV,动态分辨率"
+  },
+  {
+    "module": "07",
+    "date": "2026-08-09",
+    "topic": "微调技术",
+    "title": "LoRA之后：DoRA、PiSSA与LoRA+各修好了低秩微调的哪一处",
+    "level": "L2",
+    "depth": "原理+对比",
+    "angle": "低秩微调优化动力学",
+    "keywords_snippet": "LoRA,DoRA,PiSSA,LoRA+,rsLoRA,QLoRA"
   }
 ]

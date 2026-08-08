@@ -2048,5 +2048,65 @@
     "depth": "技术层",
     "angle": "设计技能包在生成时施加反套话审美护栏",
     "keywords_snippet": "hallmark anti-ai-slop 设计 skill 反套话 界面"
+  },
+  {
+    "module": "10",
+    "date": "2026-08-09",
+    "topic": "airllm 单层加载低显存推理",
+    "title": "airllm：单层加载推理让 4GB 显卡也能跑 70B 大模型",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "逐层加载把显存峰值从整模型压到单层量级",
+    "keywords_snippet": "airllm 分层加载 推理 低显存 70B 4GB"
+  },
+  {
+    "module": "10",
+    "date": "2026-08-09",
+    "topic": "i-have-adhd 智能体输出风格插件",
+    "title": "i-have-adhd：给编码智能体加一个先说下一步的输出风格插件",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "用输出风格规则前置约束把长回答逼成可执行清单",
+    "keywords_snippet": "i-have-adhd 输出风格 插件 skill.md 编码智能体"
+  },
+  {
+    "module": "10",
+    "date": "2026-08-09",
+    "topic": "reverse-skill 安全技能路由包",
+    "title": "reverse-skill：把逆向与授权安全测试拆成有顺序的智能体技能路由包",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "工具索引前置与四段式证据链让安全分析可复核",
+    "keywords_snippet": "reverse-skill 逆向 授权渗透 ctf 技能路由 证据链"
+  },
+  {
+    "module": "10",
+    "date": "2026-08-09",
+    "topic": "OpenLogi Rust本地优先外设控制",
+    "title": "OpenLogi：用 Rust 做本地优先的罗技外设控制，不要账号也不带遥测",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "HID++直写设备让配置断网可验证且无账号无遥测",
+    "keywords_snippet": "openlogi rust hid++ 罗技 options+ 本地优先 遥测"
+  },
+  {
+    "module": "10",
+    "date": "2026-08-09",
+    "topic": "GitHub Actions 供应链加固三道闸",
+    "title": "GitHub Actions 供应链加固：SHA 钉死、OIDC 免密与最小权限三道闸",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "权限最小化加OIDC免密加SHA钉死堵住CI供应链缺口",
+    "keywords_snippet": "github actions oidc sha钉死 permissions 最小权限 供应链"
+  },
+  {
+    "module": "10",
+    "date": "2026-08-09",
+    "topic": "GitHub Actions 可复用工作流与提速",
+    "title": "GitHub Actions 可复用工作流：用 workflow_call 把五十个仓库的 CI 收成一份",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "workflow_call收敛漂移并用缓存并发组矩阵砍构建时间",
+    "keywords_snippet": "workflow_call 可复用工作流 composite action 缓存 并发组 矩阵"
   }
 ]

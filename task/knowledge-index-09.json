@@ -1778,5 +1778,65 @@
     "depth": "原理层",
     "angle": "依赖类型与分层卫生宏让程序与证明共享同一个类型系统",
     "keywords_snippet": "Lean 4 依赖类型 宏卫生 自举"
+  },
+  {
+    "module": "09",
+    "date": "2026-08-09",
+    "topic": "Julia 类型稳定性",
+    "title": "Julia 的类型稳定性：动态语言靠特化拿到静态语言的机器码",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "内部机制/特化",
+    "keywords_snippet": "Julia,类型稳定性,特化,多重分派"
+  },
+  {
+    "module": "09",
+    "date": "2026-08-09",
+    "topic": "Python 自由线程",
+    "title": "Python 自由线程模式：移除 GIL 之后真并行的收益与新账单",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "运行时/GIL移除",
+    "keywords_snippet": "Python,自由线程,GIL,PEP 703"
+  },
+  {
+    "module": "09",
+    "date": "2026-08-09",
+    "topic": "OCaml 5 效应处理器",
+    "title": "OCaml 5 效应处理器：不用 async 关键字也能写出可组合的并发",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "控制流抽象/效应",
+    "keywords_snippet": "OCaml,效应处理器,continuation,Eio"
+  },
+  {
+    "module": "09",
+    "date": "2026-08-09",
+    "topic": "GraalVM Native Image",
+    "title": "GraalVM Native Image 的闭世界假设：JVM 语言提前编译要付出的三笔代价",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "提前编译/闭世界",
+    "keywords_snippet": "GraalVM,Native Image,闭世界,Substrate VM"
+  },
+  {
+    "module": "09",
+    "date": "2026-08-09",
+    "topic": "Rust Polonius",
+    "title": "Rust Polonius 借用检查器：从位置敏感到起源分析的别名判定重写",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "别名分析/借用检查",
+    "keywords_snippet": "Rust,Polonius,借用检查,别名分析"
+  },
+  {
+    "module": "09",
+    "date": "2026-08-09",
+    "topic": "WasmGC",
+    "title": "WasmGC 提案落地：让带垃圾回收的语言不再自带回收器编译到 Wasm",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "跨语言运行时/GC集成",
+    "keywords_snippet": "WasmGC,垃圾回收,Wasm,名义子类型"
   }
 ]

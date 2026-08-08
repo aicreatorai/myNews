@@ -2096,5 +2096,65 @@
     "depth": "自然语言转SQL与慢SQL诊断优化",
     "angle": "中文查库、AI改写慢SQL、执行计划诊断",
     "keywords_snippet": "Chat2DB 自然语言 SQL 慢SQL 优化 中文查库 诊断"
+  },
+  {
+    "module": "08",
+    "date": "2026-08-09",
+    "topic": "Playwright MCP 浏览器自动化",
+    "title": "Playwright MCP：用一句中文指挥浏览器跑完重复网页操作",
+    "level": "L2",
+    "depth": "原理与实操",
+    "angle": "用可访问性树驱动AI操作浏览器，探路用AI长跑用脚本",
+    "keywords_snippet": "Playwright MCP,浏览器自动化,可访问性树,Codegen"
+  },
+  {
+    "module": "08",
+    "date": "2026-08-09",
+    "topic": "Dify 零代码智能体搭建",
+    "title": "Dify 零代码智能体：十五分钟搭出每天自动推送的日报机器人",
+    "level": "L2",
+    "depth": "原理与实操",
+    "angle": "工作流变量传递与模型节点不确定性，最小可用版本先行",
+    "keywords_snippet": "Dify,零代码智能体,工作流编排,知识库检索,定时触发"
+  },
+  {
+    "module": "08",
+    "date": "2026-08-09",
+    "topic": "QClaw 本地智能体操控电脑",
+    "title": "QClaw本地智能体：用微信发一句话让家里的电脑把活干完",
+    "level": "L2",
+    "depth": "原理与实操",
+    "angle": "本地执行的权限作用域与不可逆风险，先出计划再动手",
+    "keywords_snippet": "QClaw,本地智能体,文件自动整理,微信远程,权限作用域"
+  },
+  {
+    "module": "08",
+    "date": "2026-08-09",
+    "topic": "ChatPPT 中文演示文稿生成",
+    "title": "ChatPPT：中文语义直出成稿与保持原文不改词的排版模式",
+    "level": "L2",
+    "depth": "原理与实操",
+    "angle": "结构解析决定出稿上限，保持原文模式守住精确措辞",
+    "keywords_snippet": "ChatPPT,AI生成PPT,保持原文模式,版式匹配,大纲驱动"
+  },
+  {
+    "module": "08",
+    "date": "2026-08-09",
+    "topic": "n8n 自动化流水线",
+    "title": "n8n 定时流水线：把AI与业务系统串成不用人催的自动化",
+    "level": "L2",
+    "depth": "原理与实操",
+    "angle": "数据形状与失败通知是流程存活关键，流程不是越长越好",
+    "keywords_snippet": "n8n,工作流自动化,定时触发,失败通知,自托管"
+  },
+  {
+    "module": "08",
+    "date": "2026-08-09",
+    "topic": "AI编辑器改造成资料工作台",
+    "title": "Cursor 配 Obsidian：把AI编程工具改造成资料工作台",
+    "level": "L2",
+    "depth": "原理与实操",
+    "angle": "本地文件为存储让编辑器与智能体协同，文件夹结构决定检索精度",
+    "keywords_snippet": "Cursor,Obsidian,资料工作台,批量摘要,模型分工"
   }
 ]
