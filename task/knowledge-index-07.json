@@ -2568,5 +2568,65 @@
     "depth": "原理+对比",
     "angle": "低秩微调优化动力学",
     "keywords_snippet": "LoRA,DoRA,PiSSA,LoRA+,rsLoRA,QLoRA"
+  },
+  {
+    "module": "07",
+    "date": "2026-08-10",
+    "topic": "长上下文技术",
+    "title": "RoPE旋转位置编码与长度外推：从NTK插值到YaRN的完整脉络",
+    "level": "L2",
+    "depth": "原理+对比",
+    "angle": "按频段拆解外推方案演进与有效长度陷阱",
+    "keywords_snippet": "RoPE,YaRN,NTK-aware,位置插值,LongRoPE"
+  },
+  {
+    "module": "07",
+    "date": "2026-08-10",
+    "topic": "Agent记忆与规划",
+    "title": "Agent记忆层设计：MemGPT分层记忆如何突破上下文墙",
+    "level": "L2",
+    "depth": "原理+对比",
+    "angle": "以操作系统虚拟内存类比拆解三大记忆流派",
+    "keywords_snippet": "MemGPT,Letta,Mem0,Zep,分层记忆"
+  },
+  {
+    "module": "07",
+    "date": "2026-08-10",
+    "topic": "GraphRAG/知识图谱",
+    "title": "社区摘要与全局问答：图索引75%的成本花在哪一步",
+    "level": "L2",
+    "depth": "原理+对比",
+    "angle": "从成本结构切入拆解Local与Global两种检索模式",
+    "keywords_snippet": "GraphRAG,社区摘要,Leiden,全局搜索,索引成本"
+  },
+  {
+    "module": "07",
+    "date": "2026-08-10",
+    "topic": "图像/视频生成",
+    "title": "从U-Net到DiT：2026生成模型主干为何集体倒向流匹配",
+    "level": "L2",
+    "depth": "原理+对比",
+    "angle": "主干架构与训练目标两条线为何同时切换",
+    "keywords_snippet": "Flow Matching,DiT,FLUX.2,OT路径,adaLN-Zero"
+  },
+  {
+    "module": "07",
+    "date": "2026-08-10",
+    "topic": "Prompt工程技术",
+    "title": "DSPy编译式提示工程：把提示词当程序来优化",
+    "level": "L2",
+    "depth": "原理+对比",
+    "angle": "以编译器类比拆解签名模块优化器三层抽象",
+    "keywords_snippet": "DSPy,BootstrapFewShot,MIPROv2,Signature,提示优化"
+  },
+  {
+    "module": "07",
+    "date": "2026-08-10",
+    "topic": "合成数据/数据工程",
+    "title": "模型坍缩与拒绝采样：合成语料怎么筛才不会越训越差",
+    "level": "L2",
+    "depth": "原理+对比",
+    "angle": "用信息增益不等式解释坍缩触发条件与筛选破解",
+    "keywords_snippet": "模型坍缩,拒绝采样,RFT,STaR,难度分层"
   }
 ]

@@ -1838,5 +1838,65 @@
     "depth": "技术层",
     "angle": "跨语言运行时/GC集成",
     "keywords_snippet": "WasmGC,垃圾回收,Wasm,名义子类型"
+  },
+  {
+    "module": "09",
+    "date": "2026-08-10",
+    "topic": "编译期元编程",
+    "title": "Zig comptime：把泛型、反射与条件编译统一成同一个编译期执行",
+    "level": "L2",
+    "depth": "原理+实操",
+    "angle": "用单一编译期执行机制取代宏与模板子语言",
+    "keywords_snippet": "Zig,comptime,typeInfo,inline for,单态化"
+  },
+  {
+    "module": "09",
+    "date": "2026-08-10",
+    "topic": "泛型实现策略",
+    "title": "Go 泛型的 GC Shape 单态化：字典传递为何让泛型不总是更快",
+    "level": "L2",
+    "depth": "原理+实操",
+    "angle": "从字典间接调用解释泛型性能反直觉",
+    "keywords_snippet": "Go,泛型,GC Shape,字典,单态化,内联"
+  },
+  {
+    "module": "09",
+    "date": "2026-08-10",
+    "topic": "静态反射",
+    "title": "C++26 静态反射 P2996：编译期自省把宏与模板黑魔法请出代码库",
+    "level": "L2",
+    "depth": "原理+实操",
+    "angle": "以反射运算符与接合器消除序列化样板",
+    "keywords_snippet": "C++26,P2996,反射,std::meta,template for,consteval"
+  },
+  {
+    "module": "09",
+    "date": "2026-08-10",
+    "topic": "协程编译原理",
+    "title": "Kotlin suspend 的 CPS 变换：协程如何被编译成一个状态机",
+    "level": "L2",
+    "depth": "原理+实操",
+    "angle": "从字节码状态机解释染色、廉价与取消",
+    "keywords_snippet": "Kotlin,协程,suspend,CPS,Continuation,状态机"
+  },
+  {
+    "module": "09",
+    "date": "2026-08-10",
+    "topic": "资源管理",
+    "title": "JavaScript using 声明：显式资源管理给 JS 补上确定性析构",
+    "level": "L2",
+    "depth": "原理+实操",
+    "angle": "用块作用域逆序释放取代 try finally 嵌套",
+    "keywords_snippet": "JavaScript,using,Symbol.dispose,DisposableStack,TC39"
+  },
+  {
+    "module": "09",
+    "date": "2026-08-10",
+    "topic": "内存与引用安全",
+    "title": "C# ref struct 与 Span：把零拷贝解析的安全性交给编译器",
+    "level": "L2",
+    "depth": "原理+实操",
+    "angle": "用方法级逃逸分析把悬垂引用变成编译错误",
+    "keywords_snippet": "C#,Span,ref struct,scoped,零拷贝,ref safety"
   }
 ]

@@ -2156,5 +2156,65 @@
     "depth": "原理与实操",
     "angle": "本地文件为存储让编辑器与智能体协同，文件夹结构决定检索精度",
     "keywords_snippet": "Cursor,Obsidian,资料工作台,批量摘要,模型分工"
+  },
+  {
+    "module": "08",
+    "date": "2026-08-10",
+    "topic": "AI编程CLI",
+    "title": "AI 命令行技能封装：把反复敲的提示词做成一条斜杠命令",
+    "level": "L2",
+    "depth": "实操+对比",
+    "angle": "斜杠命令/技能包/记忆文件三者分工与参数化封装",
+    "keywords_snippet": "斜杠命令,Skills,无头模式,权限允许清单,CLAUDE.md"
+  },
+  {
+    "module": "08",
+    "date": "2026-08-10",
+    "topic": "AI阅读翻译",
+    "title": "沉浸式翻译加术语表：把外文资料读成可引用的双语底稿",
+    "level": "L2",
+    "depth": "实操+对比",
+    "angle": "自定义引擎+领域提示词+术语表三件套配置",
+    "keywords_snippet": "沉浸式翻译,术语表,双语对照,自定义接口,速率限制"
+  },
+  {
+    "module": "08",
+    "date": "2026-08-10",
+    "topic": "本地大模型",
+    "title": "Ollama 与 LM Studio：把开源模型装进本机让敏感资料不出网",
+    "level": "L2",
+    "depth": "实操+对比",
+    "angle": "量化与内存换算+OpenAI兼容接口做工作流切换",
+    "keywords_snippet": "Ollama,LM Studio,Modelfile,量化,本地接口,断网验证"
+  },
+  {
+    "module": "08",
+    "date": "2026-08-10",
+    "topic": "AI会议纪要",
+    "title": "通义听悟做会议纪要：从一段录音到可指派的待办清单",
+    "level": "L2",
+    "depth": "实操+对比",
+    "angle": "热词表+说话人分离+已决与讨论分离的纪要模板",
+    "keywords_snippet": "通义听悟,讯飞听见,飞书妙记,说话人分离,热词表,待办提取"
+  },
+  {
+    "module": "08",
+    "date": "2026-08-10",
+    "topic": "AI代码评审",
+    "title": "CodeRabbit 代码评审：让 AI 在合并前把问题拦在 PR 里",
+    "level": "L2",
+    "depth": "实操+对比",
+    "angle": "收窄评审范围治噪音+托管与自建CLI两条路取舍",
+    "keywords_snippet": "CodeRabbit,coderabbit.yaml,path_instructions,PR评审,静态检查"
+  },
+  {
+    "module": "08",
+    "date": "2026-08-10",
+    "topic": "AI图像编辑",
+    "title": "即梦 AI 指令式修图：把抽卡出图变成一句话精确改图",
+    "level": "L2",
+    "depth": "实操+对比",
+    "angle": "局部重绘上下文填充+名词式指令与参考图维度指定",
+    "keywords_snippet": "即梦,局部重绘,智能扩图,参考图控制,智能画布,分步修改"
   }
 ]

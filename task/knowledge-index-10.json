@@ -2108,5 +2108,65 @@
     "depth": "技术层",
     "angle": "workflow_call收敛漂移并用缓存并发组矩阵砍构建时间",
     "keywords_snippet": "workflow_call 可复用工作流 composite action 缓存 并发组 矩阵"
+  },
+  {
+    "module": "10",
+    "date": "2026-08-10",
+    "topic": "Agent浏览器自动化",
+    "title": "ego-lite：给 Agent 一个复用你登录态、又不打扰你干活的专属浏览器",
+    "level": "L2",
+    "depth": "实操+对比",
+    "angle": "登录态复用与运行隔离的取舍",
+    "keywords_snippet": "ego-lite,浏览器自动化,登录态复用,CDP,Agent"
+  },
+  {
+    "module": "10",
+    "date": "2026-08-10",
+    "topic": "计算机视觉工具库",
+    "title": "roboflow/supervision：把计算机视觉里那堆重复胶水代码收进一个库",
+    "level": "L2",
+    "depth": "实操+对比",
+    "angle": "统一Detections结构切断模型与业务耦合",
+    "keywords_snippet": "supervision,目标检测,ByteTrack,PolygonZone,标注器"
+  },
+  {
+    "module": "10",
+    "date": "2026-08-10",
+    "topic": "C++日志库",
+    "title": "spdlog：header-only 的 C++ 日志库，为什么它仍是多数项目的默认选择",
+    "level": "L2",
+    "depth": "实操+对比",
+    "angle": "级别前置过滤与异步队列的性能账",
+    "keywords_snippet": "spdlog,C++日志,header-only,异步日志,轮转文件"
+  },
+  {
+    "module": "10",
+    "date": "2026-08-10",
+    "topic": "AI智能体安全",
+    "title": "uber/ADR：Uber 开源的 AI 智能体安全系统，把 EDR 那一套搬到 Agent 上",
+    "level": "L2",
+    "depth": "实操+对比",
+    "angle": "行为层检测替代提示词防护并可度量",
+    "keywords_snippet": "uber ADR,Agent安全,提示注入,行为基线,可观测性"
+  },
+  {
+    "module": "10",
+    "date": "2026-08-10",
+    "topic": "端到端测试框架",
+    "title": "cypress：在浏览器里跑测试，用时间旅行调试和自动等待干掉 sleep(3)",
+    "level": "L2",
+    "depth": "实操+对比",
+    "angle": "命令级重试消灭flaky test",
+    "keywords_snippet": "cypress,E2E测试,自动等待,时间旅行,cy.intercept"
+  },
+  {
+    "module": "10",
+    "date": "2026-08-10",
+    "topic": "知识工程与文档转换",
+    "title": "book-to-skill：把一本技术书 PDF 压成编码智能体能按需检索的技能包",
+    "level": "L2",
+    "depth": "实操+对比",
+    "angle": "结构化Skill对比塞上下文与自建RAG",
+    "keywords_snippet": "book-to-skill,PDF解析,Claude Skill,RAG,知识组织"
   }
 ]

@@ -1378,5 +1378,55 @@
     "depth": "概念层",
     "angle": "用语料约束与出题模式替代摘要模式",
     "keywords_snippet": "源锚定,source-grounded,NotebookLM,RAND,提取练习,HEPI,Digital Education Council,引用核验"
+  },
+  {
+    "module": "13",
+    "date": "2026-08-10",
+    "topic": "教学评价与反馈设计",
+    "title": "【反馈四层级】把AI批改从打分改成下一步动作：任务、过程与自我调节",
+    "level": "L2",
+    "depth": "原理+实践",
+    "angle": "用Hattie四层级框架约束AI批改输出配比，把评语改成可执行的下一步动作",
+    "keywords_snippet": "反馈四层级,形成性评价,Hattie,AI批改,评语字数比,自我调节"
+  },
+  {
+    "module": "13",
+    "date": "2026-08-10",
+    "topic": "理科解题与辅导",
+    "title": "【提示阶梯】数学解题别直接给答案：用五级提示让AI只推一把",
+    "level": "L2",
+    "depth": "原理+实践",
+    "angle": "把智能辅导系统的hint ladder拆成五级并记账，用消耗级数量化启发式",
+    "keywords_snippet": "提示阶梯,hint ladder,脚手架渐隐,帮助滥用,完成型问题,消耗级数"
+  },
+  {
+    "module": "13",
+    "date": "2026-08-10",
+    "topic": "特殊教育与融合教育",
+    "title": "【UDL三原则×AI】读写障碍与ADHD：随班就读里的个别化支持",
+    "level": "L2",
+    "depth": "原理+实践",
+    "angle": "用UDL三原则给AI派活做三通道材料改造，只供给通路不做诊断",
+    "keywords_snippet": "UDL,读写障碍,ADHD,随班就读,简单阅读观,执行功能外部化"
+  },
+  {
+    "module": "13",
+    "date": "2026-08-10",
+    "topic": "阅读素养与学习方法",
+    "title": "【抵抗式阅读】AI摘要吃掉了理解：给长文阅读加三道人工闸门",
+    "level": "L2",
+    "depth": "原理+实践",
+    "angle": "用Kintsch三层表征区分摘要能给与不能给的，把摘要降级为读后对照物",
+    "keywords_snippet": "抵抗式阅读,情境模型,Kintsch,流畅性错觉,预测激活,差异检测"
+  },
+  {
+    "module": "13",
+    "date": "2026-08-10",
+    "topic": "教师专业发展",
+    "title": "【教师AI素养四级】从会用到会教：数字素养标准落进校本教研",
+    "level": "L2",
+    "depth": "原理+实践",
+    "angle": "合并教育部教师数字素养标准与UNESCO教师AI框架为四级阶梯，配90分钟校本教研流程",
+    "keywords_snippet": "教师数字素养,UNESCO教师AI框架,TPACK,校本教研,覆写率,学生使用规则"
   }
 ]
