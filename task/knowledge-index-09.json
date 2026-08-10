@@ -1898,5 +1898,65 @@
     "depth": "原理+实操",
     "angle": "用方法级逃逸分析把悬垂引用变成编译错误",
     "keywords_snippet": "C#,Span,ref struct,scoped,零拷贝,ref safety"
+  },
+  {
+    "module": "09",
+    "date": "2026-08-11",
+    "topic": "Go泛型方法",
+    "title": "Go 1.27 泛型方法：为什么它能进结构体却进不了接口",
+    "level": "L2",
+    "depth": "中级",
+    "angle": "原理拆解",
+    "keywords_snippet": "泛型方法,方法集,动态派发,静态链接,reflect"
+  },
+  {
+    "module": "09",
+    "date": "2026-08-11",
+    "topic": "Python默认编码",
+    "title": "Python 3.15 默认 UTF-8：PEP 686 终结了二十年的平台依赖编码",
+    "level": "L2",
+    "depth": "中级",
+    "angle": "原理拆解",
+    "keywords_snippet": "PEP686,UTF-8模式,EncodingWarning,locale,默认值翻转"
+  },
+  {
+    "module": "09",
+    "date": "2026-08-11",
+    "topic": "Kotlin上下文参数",
+    "title": "Kotlin 2.4 上下文参数转正：用编译期作用域替掉七层参数透传",
+    "level": "L2",
+    "depth": "中级",
+    "angle": "原理拆解",
+    "keywords_snippet": "context parameters,上下文接收者,参数透传,编译期解析,KEEP"
+  },
+  {
+    "module": "09",
+    "date": "2026-08-11",
+    "topic": "JS迭代器辅助方法",
+    "title": "JavaScript 迭代器辅助方法：把惰性求值写进语言，而不是装一个库",
+    "level": "L2",
+    "depth": "中级",
+    "angle": "原理拆解",
+    "keywords_snippet": "Iterator Helpers,惰性求值,迭代器关闭,early stop,ES2025"
+  },
+  {
+    "module": "09",
+    "date": "2026-08-11",
+    "topic": "Rust错误体系",
+    "title": "Rust 错误体系工程化：问号运算符背后的三层契约",
+    "level": "L2",
+    "depth": "中级",
+    "angle": "原理拆解",
+    "keywords_snippet": "Result,问号运算符,From转换,source错误链,thiserror,anyhow"
+  },
+  {
+    "module": "09",
+    "date": "2026-08-11",
+    "topic": "Wasm组件模型",
+    "title": "WebAssembly 组件模型与 WIT：给跨语言调用补上一套类型系统",
+    "level": "L2",
+    "depth": "中级",
+    "angle": "原理拆解",
+    "keywords_snippet": "Component Model,WIT,canonical ABI,resource句柄,WASI 0.2"
   }
 ]

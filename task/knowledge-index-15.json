@@ -2318,5 +2318,65 @@
     "depth": "方法+案例",
     "angle": "模型层/编排层/嵌入层三层归位加可复制难度与失效触发两轴，输出候删清单",
     "keywords_snippet": "能力边界地图,harness,候删清单,生态位,稳定性对照"
+  },
+  {
+    "module": "15",
+    "date": "2026-08-11",
+    "topic": "AI能力成熟度分层",
+    "title": "AI能力成熟度四层判定：用四个问题把项目清单换成升级路线图",
+    "level": "L3",
+    "depth": "中级",
+    "angle": "产品方法",
+    "keywords_snippet": "L1-L4判层,阶段门,分层指标,回写通道,自动触发"
+  },
+  {
+    "module": "15",
+    "date": "2026-08-11",
+    "topic": "自动化边界设计",
+    "title": "自动化边界四档：可生成、可推荐、必确认、须阻断怎么划",
+    "level": "L3",
+    "depth": "中级",
+    "angle": "产品方法",
+    "keywords_snippet": "四档分级,Planner-Generator-Evaluator,输出契约,越权阻断,自主性阶梯"
+  },
+  {
+    "module": "15",
+    "date": "2026-08-11",
+    "topic": "Demo可行性验证",
+    "title": "立项前的Demo可行性验证：五十条真实样本决定砍还是做",
+    "level": "L3",
+    "depth": "中级",
+    "angle": "产品方法",
+    "keywords_snippet": "50条真实样本,最小链路,kill-iterate-build,边界case覆盖率,验证报告"
+  },
+  {
+    "module": "15",
+    "date": "2026-08-11",
+    "topic": "幻觉三层护栏",
+    "title": "幻觉三层护栏：入口强制调用、生成层证据锚定、出口置信守卫",
+    "level": "L3",
+    "depth": "中级",
+    "angle": "产品方法",
+    "keywords_snippet": "强制工具调用,证据锚定,置信度守卫,错误成本分级,边界退出评审"
+  },
+  {
+    "module": "15",
+    "date": "2026-08-11",
+    "topic": "提示词资产管理",
+    "title": "提示词当资产管：版本号、渲染哈希与一键回滚的可复现日志",
+    "level": "L3",
+    "depth": "中级",
+    "angle": "产品方法",
+    "keywords_snippet": "prompt_version,render_hash,可复现日志,一键回滚,成本归因"
+  },
+  {
+    "module": "15",
+    "date": "2026-08-11",
+    "topic": "AI监控看板收敛",
+    "title": "AI监控看板做减法：十个指标、两侧分层与告警到人的响应链",
+    "level": "L3",
+    "depth": "中级",
+    "angle": "产品方法",
+    "keywords_snippet": "十指标看板,质量熔断,降级频率5%,Badcase闭环SLA,分层归因动线"
   }
 ]

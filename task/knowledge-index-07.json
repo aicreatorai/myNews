@@ -2628,5 +2628,65 @@
     "depth": "原理+对比",
     "angle": "用信息增益不等式解释坍缩触发条件与筛选破解",
     "keywords_snippet": "模型坍缩,拒绝采样,RFT,STaR,难度分层"
+  },
+  {
+    "module": "07",
+    "date": "2026-08-11",
+    "topic": "线性注意力",
+    "title": "【线性注意力与DeltaNet：把无限增长的KV Cache压成一块固定状态矩阵】",
+    "level": "L3",
+    "depth": "高级",
+    "angle": "原理拆解",
+    "keywords_snippet": "线性注意力,DeltaNet,KV Cache,状态矩阵,Gated DeltaNet"
+  },
+  {
+    "module": "07",
+    "date": "2026-08-11",
+    "topic": "推测解码",
+    "title": "【推测解码与MTP：让大模型一次吐出多个token的自投机机制】",
+    "level": "L3",
+    "depth": "高级",
+    "angle": "原理拆解",
+    "keywords_snippet": "推测解码,MTP,Medusa,EAGLE,接受拒绝采样"
+  },
+  {
+    "module": "07",
+    "date": "2026-08-11",
+    "topic": "RL训推一致性",
+    "title": "【RL训推一致性：累加不保序如何让同一份权重算出不同logprob】",
+    "level": "L4",
+    "depth": "专家",
+    "angle": "工程排障",
+    "keywords_snippet": "训推一致,logdiff,累加不保序,重要性采样,昇腾"
+  },
+  {
+    "module": "07",
+    "date": "2026-08-11",
+    "topic": "偏好对齐算法",
+    "title": "【GRPO与DPO：从PPO到无价值网络的偏好对齐路线图】",
+    "level": "L3",
+    "depth": "高级",
+    "angle": "对比选型",
+    "keywords_snippet": "GRPO,DPO,PPO,组内优势,似然位移,DAPO"
+  },
+  {
+    "module": "07",
+    "date": "2026-08-11",
+    "topic": "训练后量化",
+    "title": "【训练后量化AWQ与GPTQ：4-bit权重为什么还能保住精度】",
+    "level": "L2",
+    "depth": "中级",
+    "angle": "原理拆解",
+    "keywords_snippet": "AWQ,GPTQ,4bit量化,激活离群点,SmoothQuant"
+  },
+  {
+    "module": "07",
+    "date": "2026-08-11",
+    "topic": "Agent技能库",
+    "title": "【技能库膨胀：Agent攒下的技能为什么越攒越拖后腿】",
+    "level": "L2",
+    "depth": "中级",
+    "angle": "失效分析",
+    "keywords_snippet": "技能库,技能膨胀,检索困惑,ContinualSkillBench,SKILL-KD"
   }
 ]

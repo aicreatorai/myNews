@@ -2216,5 +2216,65 @@
     "depth": "实操+对比",
     "angle": "局部重绘上下文填充+名词式指令与参考图维度指定",
     "keywords_snippet": "即梦,局部重绘,智能扩图,参考图控制,智能画布,分步修改"
+  },
+  {
+    "module": "08",
+    "date": "2026-08-11",
+    "topic": "千问办公定时任务",
+    "title": "【千问办公定时任务：让Agent按点自动跑完重复流程】",
+    "level": "L2",
+    "depth": "中级",
+    "angle": "实战工作流",
+    "keywords_snippet": "千问办公,定时任务,办公助理,Qwen3.8-MAX,Agent"
+  },
+  {
+    "module": "08",
+    "date": "2026-08-11",
+    "topic": "Copilot五步工序",
+    "title": "【GitHub Copilot Plan模式：把AI编码固定成五步工序】",
+    "level": "L2",
+    "depth": "中级",
+    "angle": "实战工作流",
+    "keywords_snippet": "GitHub Copilot,Plan Mode,Autopilot,子代理,代码审查"
+  },
+  {
+    "module": "08",
+    "date": "2026-08-11",
+    "topic": "秘塔AI搜索学术模式",
+    "title": "【秘塔AI搜索学术模式：把资料调研压成带出处的结构化答案】",
+    "level": "L2",
+    "depth": "中级",
+    "angle": "实战工作流",
+    "keywords_snippet": "秘塔AI搜索,学术模式,来源标注,素材骨架,检索式"
+  },
+  {
+    "module": "08",
+    "date": "2026-08-11",
+    "topic": "Codex子代理分层",
+    "title": "【Codex子代理分层：用便宜模型干活贵模型验收】",
+    "level": "L2",
+    "depth": "中级",
+    "angle": "实战工作流",
+    "keywords_snippet": "Codex,子代理,模型分层,额度优化,代码审查"
+  },
+  {
+    "module": "08",
+    "date": "2026-08-11",
+    "topic": "Gemini文件直出",
+    "title": "【Gemini文件直出：把对话结果一键导成Excel与PDF】",
+    "level": "L2",
+    "depth": "中级",
+    "angle": "实战工作流",
+    "keywords_snippet": "Gemini,导出11种格式,xlsx,PDF,手写OCR"
+  },
+  {
+    "module": "08",
+    "date": "2026-08-11",
+    "topic": "Kimi分步引导写作",
+    "title": "【Kimi分步引导写作：用大纲先行避免AI写出流水账】",
+    "level": "L2",
+    "depth": "中级",
+    "angle": "实战工作流",
+    "keywords_snippet": "Kimi,分步引导,大纲先行,长上下文,润色"
   }
 ]

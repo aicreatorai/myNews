@@ -2168,5 +2168,65 @@
     "depth": "实操+对比",
     "angle": "结构化Skill对比塞上下文与自建RAG",
     "keywords_snippet": "book-to-skill,PDF解析,Claude Skill,RAG,知识组织"
+  },
+  {
+    "module": "10",
+    "date": "2026-08-11",
+    "topic": "AI代码溯源",
+    "title": "git-ai：给 AI 写过的每一行代码，在 Git 里留下一条可查的出处",
+    "level": "L2",
+    "depth": "中级",
+    "angle": "工具实践",
+    "keywords_snippet": "git-ai,Git Notes,行级归属,AI代码返工率,attribution"
+  },
+  {
+    "module": "10",
+    "date": "2026-08-11",
+    "topic": "企业身份认证",
+    "title": "authentik：把散落在十几个内部系统里的登录，收进一层能自己托管的身份代理",
+    "level": "L2",
+    "depth": "中级",
+    "angle": "工具实践",
+    "keywords_snippet": "authentik,SSO,OIDC,SAML,Outpost,forward auth,Flow Stage Policy"
+  },
+  {
+    "module": "10",
+    "date": "2026-08-11",
+    "topic": "自托管监控",
+    "title": "Uptime Kuma：把服务是不是挂了从偶尔打开看看，变成 20 秒一次的状态曲线",
+    "level": "L2",
+    "depth": "中级",
+    "angle": "工具实践",
+    "keywords_snippet": "Uptime Kuma,可用性监控,Push模式,告警渠道,SQLite,状态页"
+  },
+  {
+    "module": "10",
+    "date": "2026-08-11",
+    "topic": "终端补全",
+    "title": "IRIS：给终端装一层幽灵补全，让我记得有条命令不再需要翻半天历史",
+    "level": "L2",
+    "depth": "中级",
+    "angle": "工具实践",
+    "keywords_snippet": "IRIS,ghost text,TTY补全,shell history,alias索引,Ollama"
+  },
+  {
+    "module": "10",
+    "date": "2026-08-11",
+    "topic": "短信网关",
+    "title": "httpSMS：把一部闲置安卓手机变成可编程的短信网关，告警走蜂窝网而不走互联网",
+    "level": "L2",
+    "depth": "中级",
+    "angle": "工具实践",
+    "keywords_snippet": "httpSMS,SMS Gateway,FCM推送,webhook,告警兜底通道,AES-256"
+  },
+  {
+    "module": "10",
+    "date": "2026-08-11",
+    "topic": "嵌入式协议实验",
+    "title": "ESP32-Bit-Pirate：把一块几十块的开发板刷成十几种协议通吃的实验台",
+    "level": "L2",
+    "depth": "中级",
+    "angle": "工具实践",
+    "keywords_snippet": "ESP32-Bit-Pirate,I2C扫描,GPIO Matrix,逻辑分析仪,bit-banging,Web CLI"
   }
 ]
