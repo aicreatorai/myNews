@@ -2328,5 +2328,65 @@
     "depth": "中级",
     "angle": "商业拆解",
     "keywords_snippet": "人审后行,三档自治度,抽样审批,审批日志计价"
+  },
+  {
+    "module": "12",
+    "date": "2026-08-18",
+    "topic": "AI代理成为新客户/CLI分发",
+    "title": "把AI代理变成你的新客户：分发渠道从人变成一支CLI",
+    "level": "L4",
+    "depth": "深",
+    "angle": "把AI代理当成新客户、分发渠道变成CLI的agent-facing分发逻辑",
+    "keywords_snippet": "AI代理 新客户 CLI 分发 社媒调度 Postiz agent-facing"
+  },
+  {
+    "module": "12",
+    "date": "2026-08-18",
+    "topic": "垂直AI SaaS护城河",
+    "title": "垂直AI SaaS的护城河：用行业理解加Agent编排做窄而深的监控服务",
+    "level": "L3",
+    "depth": "深",
+    "angle": "用行业know-how加Agent编排做窄边界垂直SaaS的护城河",
+    "keywords_snippet": "垂直AI SaaS 护城河 Agent编排 合规监控 行业理解 一人公司"
+  },
+  {
+    "module": "12",
+    "date": "2026-08-18",
+    "topic": "把功能卖成结果",
+    "title": "把功能卖成结果：AI副业从月收150美元到8600美元的改造方法论",
+    "level": "L2",
+    "depth": "深",
+    "angle": "把交付结果而非能力作为产品与定价单位的改造方法",
+    "keywords_snippet": "功能卖成结果 交付结果 建筑效果图 订阅 高意图SEO 副业"
+  },
+  {
+    "module": "12",
+    "date": "2026-08-18",
+    "topic": "开源AI商业模式",
+    "title": "开源AI赚钱的七种模式：工具免费、专业付费的变现漏斗",
+    "level": "L1",
+    "depth": "中",
+    "angle": "开源AI七种模式与工具免费专业付费的核心逻辑",
+    "keywords_snippet": "开源AI 商业模式 部署服务 垂直工具 自动化代理 工具免费专业付费"
+  },
+  {
+    "module": "12",
+    "date": "2026-08-18",
+    "topic": "AI自动化代理公司",
+    "title": "AI自动化代理公司：用browser-use卖结果不卖工具",
+    "level": "L3",
+    "depth": "深",
+    "angle": "用browser-use等做自动化代理公司、卖结果不卖工具的路径",
+    "keywords_snippet": "AI自动化代理公司 browser-use 卖结果 Upwork Lancer 托管费"
+  },
+  {
+    "module": "12",
+    "date": "2026-08-18",
+    "topic": "AI内容工厂与短剧成本",
+    "title": "AI内容工厂：批量短视频与短剧的成本结构与回款逻辑",
+    "level": "L2",
+    "depth": "深",
+    "angle": "AI短剧量产的成本结构与分账回款逻辑及工业化护城河",
+    "keywords_snippet": "AI内容工厂 AI短剧 成本结构 分账 回款 工业化"
   }
 ]

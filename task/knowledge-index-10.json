@@ -2228,5 +2228,65 @@
     "depth": "中级",
     "angle": "工具实践",
     "keywords_snippet": "ESP32-Bit-Pirate,I2C扫描,GPIO Matrix,逻辑分析仪,bit-banging,Web CLI"
+  },
+  {
+    "module": "10",
+    "date": "2026-08-18",
+    "topic": "TencentDB-Agent-Memory 团队级 Agent 记忆中枢",
+    "title": "TencentDB-Agent-Memory：把对话沉淀成可复用资产的团队级 Agent 记忆中枢",
+    "level": "L3",
+    "depth": "深",
+    "angle": "从 PersonaMem 基准 48%→76% 看 Agent 记忆的分层沉淀与混合检索",
+    "keywords_snippet": "Agent Memory / BM25+向量+RRF / L0-L3 分层 / Chat Memory / Skill / LLM-Wiki / Code-Graph"
+  },
+  {
+    "module": "10",
+    "date": "2026-08-18",
+    "topic": "OpenWork Claude Cowork 开源替代",
+    "title": "OpenWork：把技能与 MCP 打包成可携带能力的 Claude Cowork 开源替代",
+    "level": "L2",
+    "depth": "中",
+    "angle": "把技能与 MCP 打包成可携带能力，跨 Agent 跨机器复用配置",
+    "keywords_snippet": "OpenWork / OpenCode / Skills / MCP / 本地优先 / 权限审批 / 沙箱 / 审计日志"
+  },
+  {
+    "module": "10",
+    "date": "2026-08-18",
+    "topic": "last30days-skill 跨平台调研技能",
+    "title": "last30days-skill：聚合 Reddit/X/YouTube 等多平台信号并排序的开源调研技能",
+    "level": "L1",
+    "depth": "中",
+    "angle": "聚合多平台信号按投票与金钱权重排序的 grounded 调研",
+    "keywords_snippet": "last30days-skill / 跨平台调研 / Polymarket / Reddit / 信号聚合排序 / grounded summary"
+  },
+  {
+    "module": "10",
+    "date": "2026-08-18",
+    "topic": "Nutanix ntnx-api-mcp-server 混合云 MCP",
+    "title": "Nutanix ntnx-api-mcp-server：把混合云 API 变成 Agent 可调工具的开源 MCP 服务器",
+    "level": "L2",
+    "depth": "中",
+    "angle": "把 Prism v4 的 1000+ API 暴露为 MCP 工具且默认只读、审计可控",
+    "keywords_snippet": "Nutanix / MCP / Prism v4 API / read-only / RBAC / 审计 / 混合云"
+  },
+  {
+    "module": "10",
+    "date": "2026-08-18",
+    "topic": "qwen-audio-agent 实时语音 Agent 运行时",
+    "title": "qwen-audio-agent：用 ACP 解耦前台语音与后台任务的全双工实时语音 Agent 运行时",
+    "level": "L3",
+    "depth": "深",
+    "angle": "用 ACP 解耦前台语音与后台任务，实现全双工持续在场",
+    "keywords_snippet": "qwen-audio-agent / ACP / 全双工 / 实时语音 / 前台语音+后台任务解耦 / DashScope"
+  },
+  {
+    "module": "10",
+    "date": "2026-08-18",
+    "topic": "deer-flow 字节 SuperAgent harness",
+    "title": "deer-flow：用子 Agent + 协议化 Skills + 沙箱把长时程任务编排成流水线的字节 SuperAgent harness",
+    "level": "L4",
+    "depth": "深",
+    "angle": "用子 Agent + 协议化 Skills + 沙箱把长时程任务编排成可观测流水线",
+    "keywords_snippet": "deer-flow / SuperAgent / LangGraph / sub-agents / Skills / 沙箱 / 长期记忆 / IM 渠道"
   }
 ]

@@ -2378,5 +2378,65 @@
     "depth": "中级",
     "angle": "产品方法",
     "keywords_snippet": "十指标看板,质量熔断,降级频率5%,Badcase闭环SLA,分层归因动线"
+  },
+  {
+    "module": "15",
+    "date": "2026-08-18",
+    "topic": "模型分层与路由",
+    "title": "模型分层与路由：用高频执行、复杂推理、专业多模态、确定性工具四层取代一个最强模型",
+    "level": "L1",
+    "depth": "深",
+    "angle": "技术选型与成本治理",
+    "keywords_snippet": "模型分层 路由 成本账本 高频执行 复杂推理 确定性工具"
+  },
+  {
+    "module": "15",
+    "date": "2026-08-18",
+    "topic": "RAG 知识库产品化",
+    "title": "RAG 知识库产品化：把检索质量当成产品指标，用分块、重排与知识隔离治理幻觉源",
+    "level": "L2",
+    "depth": "深",
+    "angle": "知识工程与检索质量",
+    "keywords_snippet": "RAG 知识库 检索质量 分块 重排 知识隔离 grounding"
+  },
+  {
+    "module": "15",
+    "date": "2026-08-18",
+    "topic": "AI Agent 评估体系",
+    "title": "AI Agent 评估体系：基础能力、任务执行、业务效果三层指标加归因闭环",
+    "level": "L3",
+    "depth": "深",
+    "angle": "质量评估与归因闭环",
+    "keywords_snippet": "Agent 评估 基础能力 任务执行 业务效果 归因 回归测试"
+  },
+  {
+    "module": "15",
+    "date": "2026-08-18",
+    "topic": "AX 智能体体验设计",
+    "title": "AX（智能体体验）设计：当 Agent 成为产品的新用户，PM 如何重画授权与责任边界",
+    "level": "L4",
+    "depth": "中",
+    "angle": "前沿体验与授权责任",
+    "keywords_snippet": "AX Agent Experience 智能体体验 授权 责任 自主等级 信任栈"
+  },
+  {
+    "module": "15",
+    "date": "2026-08-18",
+    "topic": "人机信任与自主权设计",
+    "title": "人机信任与自主权设计：用好奇窗口与自我决定理论破解 AI 产品的被替代感",
+    "level": "L1",
+    "depth": "中",
+    "angle": "用户心理与信任自主权",
+    "keywords_snippet": "人机信任 自主权 好奇窗口 自我决定理论 被替代感"
+  },
+  {
+    "module": "15",
+    "date": "2026-08-18",
+    "topic": "AI 工具重塑 PM 工作流",
+    "title": "AI 工具重塑 PM 工作流：从信息收集到决策共识，用研究、决策、沟通三类工具提效",
+    "level": "L2",
+    "depth": "中",
+    "angle": "效能工具与工作流重组",
+    "keywords_snippet": "AI 工具 PM 工作流 研究 决策 沟通 原型工具"
   }
 ]

@@ -1958,5 +1958,65 @@
     "depth": "中级",
     "angle": "原理拆解",
     "keywords_snippet": "Component Model,WIT,canonical ABI,resource句柄,WASI 0.2"
+  },
+  {
+    "module": "09",
+    "date": "2026-08-18",
+    "topic": "Python 自由线程",
+    "title": "Python 自由线程转正：GIL 可关之后线程安全责任落回开发者",
+    "level": "L1",
+    "depth": "深",
+    "angle": "GIL 关闭后线程安全与性能责任回归开发者",
+    "keywords_snippet": "PEP 703, PEP 779, python3.14t, biased reference counting, sys._is_gil_enabled"
+  },
+  {
+    "module": "09",
+    "date": "2026-08-18",
+    "topic": "Java 结构化并发",
+    "title": "Java 26 结构化并发：把并发任务的生命周期绑回代码块",
+    "level": "L2",
+    "depth": "深",
+    "angle": "StructuredTaskScope 把任务生命周期绑定到代码块",
+    "keywords_snippet": "JEP 525, StructuredTaskScope.open, Joiner, allSuccessfulOrThrow, onTimeout"
+  },
+  {
+    "module": "09",
+    "date": "2026-08-18",
+    "topic": "Swift 可接近并发",
+    "title": "Swift 6.2 可接近并发：nonisolated async 不再默认跳线程",
+    "level": "L3",
+    "depth": "深",
+    "angle": "NonisolatedNonsendingByDefault 减少隐式线程跳跃",
+    "keywords_snippet": "Swift 6.2, NonisolatedNonsendingByDefault, nonisolated(nonsending), SE-0461"
+  },
+  {
+    "module": "09",
+    "date": "2026-08-18",
+    "topic": "Go Green Tea GC",
+    "title": "Go 1.26 Green Tea GC：把标记单位从对象换成内存页",
+    "level": "L1",
+    "depth": "深",
+    "angle": "span-level marking 降低 GC 标记成本",
+    "keywords_snippet": "Go 1.26, Green Tea GC, span-level marking, GOEXPERIMENT=greenteagc"
+  },
+  {
+    "module": "09",
+    "date": "2026-08-18",
+    "topic": "C# 扩展成员",
+    "title": "C# 14 扩展成员：extension 块把属性与运算符挂到别人的类型上",
+    "level": "L2",
+    "depth": "深",
+    "angle": "extension 块支持实例属性与运算符扩展",
+    "keywords_snippet": "C# 14, extension members, extension block, 扩展属性运算符"
+  },
+  {
+    "module": "09",
+    "date": "2026-08-18",
+    "topic": "Zig std.Io 重构",
+    "title": "Zig Writergate：删掉泛型 Writer 之后 std.Io 变成了依赖注入",
+    "level": "L3",
+    "depth": "深",
+    "angle": "泛型 Writer 移除后改为 vtable 加调用方缓冲",
+    "keywords_snippet": "Zig 0.15, std.Io.Writer, Writergate, @fieldParentPtr, Io backend"
   }
 ]

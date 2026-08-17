@@ -2688,5 +2688,65 @@
     "depth": "中级",
     "angle": "失效分析",
     "keywords_snippet": "技能库,技能膨胀,检索困惑,ContinualSkillBench,SKILL-KD"
+  },
+  {
+    "module": "07",
+    "date": "2026-08-18",
+    "topic": "LoRA与QLoRA微调",
+    "title": "LoRA与QLoRA：冻结主干只训低秩矩阵的微调法",
+    "level": "L2",
+    "depth": "深",
+    "angle": "低秩分解+NF4量化让单卡微调百亿模型",
+    "keywords_snippet": "LoRA QLoRA 低秩适配 量化微调 PEFT"
+  },
+  {
+    "module": "07",
+    "date": "2026-08-18",
+    "topic": "Diffusion扩散模型",
+    "title": "Diffusion扩散模型：从纯噪声里降噪出一张图",
+    "level": "L1",
+    "depth": "中",
+    "angle": "前向加噪固定、反向去噪可学的两阶段生成",
+    "keywords_snippet": "Diffusion DDPM 扩散模型 去噪 文生图"
+  },
+  {
+    "module": "07",
+    "date": "2026-08-18",
+    "topic": "Embedding与Reranker语义搜索",
+    "title": "Embedding与Reranker：语义搜索的双阶段引擎",
+    "level": "L2",
+    "depth": "中",
+    "angle": "双塔召回+交叉编码精排的两段式检索",
+    "keywords_snippet": "Embedding Reranker 向量检索 语义搜索 重排"
+  },
+  {
+    "module": "07",
+    "date": "2026-08-18",
+    "topic": "合成数据",
+    "title": "合成数据：用模型生成的数据反哺模型训练",
+    "level": "L3",
+    "depth": "中",
+    "angle": "LLM驱动合成+过滤锚定防模型坍塌",
+    "keywords_snippet": "合成数据 synthetic data Self-Instruct 模型坍塌 数据工程"
+  },
+  {
+    "module": "07",
+    "date": "2026-08-18",
+    "topic": "语音合成TTS",
+    "title": "语音合成TTS：从文本生成自然语音的技术",
+    "level": "L4",
+    "depth": "中",
+    "angle": "离散Token自回归vs连续扩散两条TTS主线",
+    "keywords_snippet": "TTS 语音合成 扩散 Luna-TTS dots.tts 声音克隆"
+  },
+  {
+    "module": "07",
+    "date": "2026-08-18",
+    "topic": "量化感知训练QAT",
+    "title": "量化感知训练QAT：在训练中就模拟低比特以保精度",
+    "level": "L3",
+    "depth": "深",
+    "angle": "伪量化+直通估计让低比特精度可恢复",
+    "keywords_snippet": "QAT 量化感知训练 低比特 STE 训练后量化"
   }
 ]

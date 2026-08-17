@@ -2276,5 +2276,65 @@
     "depth": "中级",
     "angle": "实战工作流",
     "keywords_snippet": "Kimi,分步引导,大纲先行,长上下文,润色"
+  },
+  {
+    "module": "08",
+    "date": "2026-08-18",
+    "topic": "Cursor 项目规则固化",
+    "title": "Cursor 项目规则固化：用 .cursor/rules 把团队编码规范写进 AI 上下文",
+    "level": "L3",
+    "depth": "中",
+    "angle": "用 .cursor/rules 目录把团队编码规范固化为 AI 自动加载的配置文件",
+    "keywords_snippet": "Cursor, .cursor/rules, mdc, 项目规则, globs, 团队规范"
+  },
+  {
+    "module": "08",
+    "date": "2026-08-18",
+    "topic": "n8n AI 工作流自动化",
+    "title": "n8n AI 工作流自动化：用可视化节点把重复任务串成自动流水线",
+    "level": "L3",
+    "depth": "中",
+    "angle": "用可视化节点与 AI Agent 节点搭建跨系统自动流水线",
+    "keywords_snippet": "n8n, AI Agent, ReAct, 工作流, 自动化, 低代码"
+  },
+  {
+    "module": "08",
+    "date": "2026-08-18",
+    "topic": "Coze 扣子知识库问答",
+    "title": "Coze 扣子知识库问答：零代码把私有文档变成可对话助手",
+    "level": "L1",
+    "depth": "浅",
+    "angle": "零代码上传私有文档构建 RAG 知识库问答助手",
+    "keywords_snippet": "Coze, 扣子, 知识库, RAG, 零代码, 智能体"
+  },
+  {
+    "module": "08",
+    "date": "2026-08-18",
+    "topic": "可灵图生视频",
+    "title": "可灵图生视频：用一张静图加运镜提示词生成短视频",
+    "level": "L1",
+    "depth": "浅",
+    "angle": "用图生视频把静态图转成可控运镜的短视频",
+    "keywords_snippet": "可灵, 图生视频, 运镜, 首尾帧, 短视频"
+  },
+  {
+    "module": "08",
+    "date": "2026-08-18",
+    "topic": "WPS AI 办公实战",
+    "title": "WPS AI 办公实战：用智能助手做总结、改写与表格处理",
+    "level": "L2",
+    "depth": "中",
+    "angle": "用嵌入式 AI 助手做总结改写与表格数据分析",
+    "keywords_snippet": "WPS AI, 办公, 总结, 改写, 表格分析, AI伴写"
+  },
+  {
+    "module": "08",
+    "date": "2026-08-18",
+    "topic": "即梦 AI 绘画",
+    "title": "即梦 AI 绘画：国产文生图工具的提示词与风格控制",
+    "level": "L2",
+    "depth": "中",
+    "angle": "用六要素提示词公式与权重控制国产文生图风格",
+    "keywords_snippet": "即梦, Seedream, 提示词, 文生图, 风格控制, 反向提示词"
   }
 ]
