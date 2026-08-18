@@ -2408,5 +2408,65 @@
     "depth": "中",
     "angle": "四条信心来源中掌握经验最强，重塑能力信念",
     "keywords_snippet": "自我效能 班杜拉 掌握经验 信心 能力信念"
+  },
+  {
+    "module": "14",
+    "date": "2026-08-19",
+    "topic": "心流",
+    "title": "心流：把专注锻造成挑战与技能刚好匹配的沉浸状态",
+    "level": "L2",
+    "depth": 2,
+    "angle": "个人成长",
+    "keywords_snippet": "心流,挑战技能匹配,即时反馈,契克森米哈伊"
+  },
+  {
+    "module": "14",
+    "date": "2026-08-19",
+    "topic": "两分钟启动法",
+    "title": "两分钟启动法：用最小行动骗过拖延的启动阻力",
+    "level": "L2",
+    "depth": 2,
+    "angle": "个人成长",
+    "keywords_snippet": "两分钟法则,启动阻力,拖延方程,蔡加尼克效应"
+  },
+  {
+    "module": "14",
+    "date": "2026-08-19",
+    "topic": "AAR复盘",
+    "title": "AAR复盘法：把每次经历榨成可复用的经验资产",
+    "level": "L2",
+    "depth": 2,
+    "angle": "个人成长",
+    "keywords_snippet": "AAR,复盘,预期实际归因,经验学习圈"
+  },
+  {
+    "module": "14",
+    "date": "2026-08-19",
+    "topic": "睡眠精力管理",
+    "title": "睡眠精力管理：顺着昼夜节律给一天的高能时段排班",
+    "level": "L2",
+    "depth": 2,
+    "angle": "个人成长",
+    "keywords_snippet": "90分钟睡眠周期,昼夜节律,NSDR,精力管理"
+  },
+  {
+    "module": "14",
+    "date": "2026-08-19",
+    "topic": "SQ3R阅读法",
+    "title": "SQ3R高效阅读法：把读得快升级成记得住用得上",
+    "level": "L2",
+    "depth": 2,
+    "angle": "个人成长",
+    "keywords_snippet": "SQ3R,主动检索,生成效应,间隔重复"
+  },
+  {
+    "module": "14",
+    "date": "2026-08-19",
+    "topic": "番茄工作法进阶",
+    "title": "番茄工作法进阶：用中断记录和番茄比诊断你的专注漏点",
+    "level": "L2",
+    "depth": 2,
+    "angle": "个人成长",
+    "keywords_snippet": "番茄工作法,中断记录,番茄比,内外中断"
   }
 ]

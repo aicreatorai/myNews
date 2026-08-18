@@ -2748,5 +2748,65 @@
     "depth": "深",
     "angle": "伪量化+直通估计让低比特精度可恢复",
     "keywords_snippet": "QAT 量化感知训练 低比特 STE 训练后量化"
+  },
+  {
+    "module": "07",
+    "date": "2026-08-19",
+    "topic": "Transformer注意力机制",
+    "title": "Transformer注意力机制：让每个词直接看见彼此",
+    "level": "L2",
+    "depth": 2,
+    "angle": "技术原理",
+    "keywords_snippet": "自注意力,QKV,多头注意力,缩放点积"
+  },
+  {
+    "module": "07",
+    "date": "2026-08-19",
+    "topic": "RLHF人类反馈强化学习",
+    "title": "RLHF人类反馈强化学习：把人类偏好注入模型",
+    "level": "L2",
+    "depth": 2,
+    "angle": "技术原理",
+    "keywords_snippet": "RLHF,SFT,奖励模型,PPO,偏好对齐"
+  },
+  {
+    "module": "07",
+    "date": "2026-08-19",
+    "topic": "向量数据库ANN近似最近邻",
+    "title": "向量数据库ANN近似最近邻：毫秒级语义检索",
+    "level": "L2",
+    "depth": 2,
+    "angle": "技术原理",
+    "keywords_snippet": "ANN,HNSW,IVF,PQ,向量检索"
+  },
+  {
+    "module": "07",
+    "date": "2026-08-19",
+    "topic": "知识蒸馏",
+    "title": "师生模型与软目标：让端侧小模型复刻大模型本领",
+    "level": "L2",
+    "depth": 2,
+    "angle": "技术原理",
+    "keywords_snippet": "知识蒸馏,软标签,温度参数,师生模型"
+  },
+  {
+    "module": "07",
+    "date": "2026-08-19",
+    "topic": "MoE混合专家",
+    "title": "MoE路由门控：总参数与激活参数为何差出二十倍",
+    "level": "L2",
+    "depth": 2,
+    "angle": "技术原理",
+    "keywords_snippet": "MoE,路由门控,专家,条件计算,负载均衡"
+  },
+  {
+    "module": "07",
+    "date": "2026-08-19",
+    "topic": "多模态融合跨模态对齐",
+    "title": "多模态融合与跨模态对齐：打通图文音视频",
+    "level": "L2",
+    "depth": 2,
+    "angle": "技术原理",
+    "keywords_snippet": "多模态,跨模态对齐,融合,CLIP,对比学习"
   }
 ]

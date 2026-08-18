@@ -2018,5 +2018,65 @@
     "depth": "深",
     "angle": "泛型 Writer 移除后改为 vtable 加调用方缓冲",
     "keywords_snippet": "Zig 0.15, std.Io.Writer, Writergate, @fieldParentPtr, Io backend"
+  },
+  {
+    "module": "09",
+    "date": "2026-08-19",
+    "topic": "Rust 2024 Edition 异步闭包",
+    "title": "Rust 2024 edition 落地：async闭包与无生命周期借用检查的重大升级",
+    "level": "L2",
+    "depth": 2,
+    "angle": "语言特性",
+    "keywords_snippet": "Rust 2024,async闭包,AsyncFn,use生命周期"
+  },
+  {
+    "module": "09",
+    "date": "2026-08-19",
+    "topic": "Kotlin 2.0 K2 编译器",
+    "title": "Kotlin 2.0 稳定化：K2编译器全面铺开与多平台能力的2026进展",
+    "level": "L2",
+    "depth": 2,
+    "angle": "语言特性",
+    "keywords_snippet": "Kotlin 2.0,K2编译器,context parameters,Compose Multiplatform"
+  },
+  {
+    "module": "09",
+    "date": "2026-08-19",
+    "topic": "TypeScript 5.9 类型工程",
+    "title": "TS 5.9 类型工程：strictInference 默认开启与构建缓存的编译期提速",
+    "level": "L2",
+    "depth": 2,
+    "angle": "语言特性",
+    "keywords_snippet": "TypeScript 5.9,strictInference,构建缓存,node20"
+  },
+  {
+    "module": "09",
+    "date": "2026-08-19",
+    "topic": "C++26 执行框架",
+    "title": "C++26 并发与执行框架：std::execution sender/receiver 与 SIMD 并行入标准",
+    "level": "L2",
+    "depth": 2,
+    "angle": "语言特性",
+    "keywords_snippet": "C++26,std::execution,sender/receiver,SIMD"
+  },
+  {
+    "module": "09",
+    "date": "2026-08-19",
+    "topic": "Mojo 1.0 编程语言",
+    "title": "Mojo 编程语言 2026：AI时代的系统级语言如何补齐Python互操作",
+    "level": "L2",
+    "depth": 2,
+    "angle": "语言特性",
+    "keywords_snippet": "Mojo,Python互操作,GPU跨厂商,所有权"
+  },
+  {
+    "module": "09",
+    "date": "2026-08-19",
+    "topic": "Scala 3 给定实例与元编程",
+    "title": "Scala 3 持续演进：给定实例与元编程在2026年的能力补强",
+    "level": "L2",
+    "depth": 2,
+    "angle": "语言特性",
+    "keywords_snippet": "Scala 3,given实例,inline元编程,safe mode"
   }
 ]

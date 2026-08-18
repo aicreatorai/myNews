@@ -6,7 +6,7 @@
     'use strict';
 
     // --- 缓存版本号：修改此值会使所有 localStorage 缓存失效 ---
-    const CACHE_VERSION = 'v61';
+    const CACHE_VERSION = 'v62';
 
     // --- State ---
     let indexData = null;

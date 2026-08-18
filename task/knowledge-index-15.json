@@ -2438,5 +2438,65 @@
     "depth": "中",
     "angle": "效能工具与工作流重组",
     "keywords_snippet": "AI 工具 PM 工作流 研究 决策 沟通 原型工具"
+  },
+  {
+    "module": "15",
+    "date": "2026-08-19",
+    "topic": "需求优先级 RICE-AI",
+    "title": "需求优先级：用RICE与AI信号把该做什么从政治斗争变成可复盘的打分表",
+    "level": "L2",
+    "depth": 2,
+    "angle": "AI产品经理",
+    "keywords_snippet": "需求优先级,RICE,AI信号"
+  },
+  {
+    "module": "15",
+    "date": "2026-08-19",
+    "topic": "AI用户研究",
+    "title": "用户研究：用AI做规模化访谈与洞察综合把质性研究周期从周压到天",
+    "level": "L2",
+    "depth": 2,
+    "angle": "AI产品经理",
+    "keywords_snippet": "用户研究,AI访谈,洞察综合"
+  },
+  {
+    "module": "15",
+    "date": "2026-08-19",
+    "topic": "AI原生应用设计",
+    "title": "AI原生应用设计：从套壳Chatbot到任务型原生体验的产品重构",
+    "level": "L2",
+    "depth": 2,
+    "angle": "AI产品经理",
+    "keywords_snippet": "AI原生,任务型体验,四阶闭环"
+  },
+  {
+    "module": "15",
+    "date": "2026-08-19",
+    "topic": "AI产品指标体系",
+    "title": "产品指标体系：用北极星与AI异常监测把模型质量当成可量化产品指标",
+    "level": "L2",
+    "depth": 2,
+    "angle": "AI产品经理",
+    "keywords_snippet": "产品指标,CPST,信任留存率"
+  },
+  {
+    "module": "15",
+    "date": "2026-08-19",
+    "topic": "AI原型设计工具",
+    "title": "AI原型设计工具：从需求到可运行Demo非技术PM也能一天交付",
+    "level": "L2",
+    "depth": 2,
+    "angle": "AI产品经理",
+    "keywords_snippet": "AI原型,可运行Demo,全栈应用"
+  },
+  {
+    "module": "15",
+    "date": "2026-08-19",
+    "topic": "AI增长策略",
+    "title": "AI增长策略：用产品市场模型三位一体打法做低成本获客与激活",
+    "level": "L2",
+    "depth": 2,
+    "angle": "AI产品经理",
+    "keywords_snippet": "AI增长,三位一体,GEO"
   }
 ]

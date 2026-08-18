@@ -2336,5 +2336,65 @@
     "depth": "中",
     "angle": "用六要素提示词公式与权重控制国产文生图风格",
     "keywords_snippet": "即梦, Seedream, 提示词, 文生图, 风格控制, 反向提示词"
+  },
+  {
+    "module": "08",
+    "date": "2026-08-19",
+    "topic": "Claude Code",
+    "title": "【终端并行编程实战：Claude Code 多 worktree 与 Skills 复用】",
+    "level": "L2",
+    "depth": 2,
+    "angle": "工具实战",
+    "keywords_snippet": "worktree,CLAUDE.md,Skills"
+  },
+  {
+    "module": "08",
+    "date": "2026-08-19",
+    "topic": "GitHub Copilot",
+    "title": "【GitHub Copilot 2026：Sessions 并行会话与 /worktree 隔离工作区实战】",
+    "level": "L2",
+    "depth": 2,
+    "angle": "工具实战",
+    "keywords_snippet": "Sessions,worktree,代码审查"
+  },
+  {
+    "module": "08",
+    "date": "2026-08-19",
+    "topic": "Perplexity AI",
+    "title": "【带引用的答案引擎：Perplexity AI 的 Focus 与 Spaces 用法】",
+    "level": "L2",
+    "depth": 2,
+    "angle": "工具实战",
+    "keywords_snippet": "Focus模式,Spaces,引用搜索"
+  },
+  {
+    "module": "08",
+    "date": "2026-08-19",
+    "topic": "Ollama",
+    "title": "【私有硬件跑编码代理：Ollama 本地大模型部署实战】",
+    "level": "L2",
+    "depth": 2,
+    "angle": "工具实战",
+    "keywords_snippet": "本地大模型,ollama launch,Muse Glimmer"
+  },
+  {
+    "module": "08",
+    "date": "2026-08-19",
+    "topic": "Suno AI",
+    "title": "【文本生成完整歌曲：Suno AI 的 Custom 模式与声音克隆】",
+    "level": "L2",
+    "depth": 2,
+    "angle": "工具实战",
+    "keywords_snippet": "Custom模式,声音克隆,文本生成音乐"
+  },
+  {
+    "module": "08",
+    "date": "2026-08-19",
+    "topic": "Midjourney",
+    "title": "【Midjourney 2026 提示词：六要素公式加 --sref/--cref 锁定风格与角色】",
+    "level": "L2",
+    "depth": 2,
+    "angle": "工具实战",
+    "keywords_snippet": "提示词,--sref,--cref"
   }
 ]

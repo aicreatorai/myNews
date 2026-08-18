@@ -2288,5 +2288,65 @@
     "depth": "深",
     "angle": "用子 Agent + 协议化 Skills + 沙箱把长时程任务编排成可观测流水线",
     "keywords_snippet": "deer-flow / SuperAgent / LangGraph / sub-agents / Skills / 沙箱 / 长期记忆 / IM 渠道"
+  },
+  {
+    "module": "10",
+    "date": "2026-08-19",
+    "topic": "Context7",
+    "title": "Context7：把版本锁定的库文档实时注入 LLM 上下文",
+    "level": "L2",
+    "depth": 2,
+    "angle": "开源项目",
+    "keywords_snippet": "MCP,库文档,版本锁定"
+  },
+  {
+    "module": "10",
+    "date": "2026-08-19",
+    "topic": "agent-skills",
+    "title": "agent-skills：面向 AI 编程 Agent 的生产级工程技能库",
+    "level": "L2",
+    "depth": 2,
+    "angle": "开源项目",
+    "keywords_snippet": "工程技能,编程Agent,AddyOsmani"
+  },
+  {
+    "module": "10",
+    "date": "2026-08-19",
+    "topic": "Browser-Use",
+    "title": "Browser-Use：教 AI Agent 像人一样操作网页",
+    "level": "L2",
+    "depth": 2,
+    "angle": "开源项目",
+    "keywords_snippet": "网页操作,浏览器自动化,Agent"
+  },
+  {
+    "module": "10",
+    "date": "2026-08-19",
+    "topic": "Scrapling",
+    "title": "Scrapling：自适应反检测网页抓取框架",
+    "level": "L2",
+    "depth": 2,
+    "angle": "开源项目",
+    "keywords_snippet": "网页抓取,反检测,自适应解析"
+  },
+  {
+    "module": "10",
+    "date": "2026-08-19",
+    "topic": "Claude Task Master",
+    "title": "Claude Task Master：把 PRD 拆解成可自治执行的子任务",
+    "level": "L2",
+    "depth": 2,
+    "angle": "开源项目",
+    "keywords_snippet": "PRD,任务编排,子任务"
+  },
+  {
+    "module": "10",
+    "date": "2026-08-19",
+    "topic": "ECC",
+    "title": "ECC：为编程 Agent 做性能优化的开源 Harness",
+    "level": "L2",
+    "depth": 2,
+    "angle": "开源项目",
+    "keywords_snippet": "Agent优化,skills,research-first"
   }
 ]

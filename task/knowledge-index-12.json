@@ -2388,5 +2388,65 @@
     "depth": "深",
     "angle": "AI短剧量产的成本结构与分账回款逻辑及工业化护城河",
     "keywords_snippet": "AI内容工厂 AI短剧 成本结构 分账 回款 工业化"
+  },
+  {
+    "module": "12",
+    "date": "2026-08-19",
+    "topic": "AI应用层融资",
+    "title": "AI创业融资2026：应用层融资升温与一人公司拿钱逻辑",
+    "level": "L2",
+    "depth": 2,
+    "angle": "AI创业",
+    "keywords_snippet": "融资,ARR,应用层"
+  },
+  {
+    "module": "12",
+    "date": "2026-08-19",
+    "topic": "AI独立开发者变现",
+    "title": "AI独立开发者变现：把小工具做成月经常性收入的四类路径",
+    "level": "L2",
+    "depth": 2,
+    "angle": "AI创业",
+    "keywords_snippet": "独立开发者,MicroSaaS,变现"
+  },
+  {
+    "module": "12",
+    "date": "2026-08-19",
+    "topic": "垂直AI客服创业",
+    "title": "AI客服创业：垂直行业智能客服公司的获客与定价模型",
+    "level": "L2",
+    "depth": 2,
+    "angle": "AI创业",
+    "keywords_snippet": "AI客服,垂直行业,结果定价"
+  },
+  {
+    "module": "12",
+    "date": "2026-08-19",
+    "topic": "AI营销自动化",
+    "title": "AI营销自动化创业：用Agent编排替代投放专员的生意",
+    "level": "L2",
+    "depth": 2,
+    "angle": "AI创业",
+    "keywords_snippet": "营销自动化,Agent编排,单人创始人"
+  },
+  {
+    "module": "12",
+    "date": "2026-08-19",
+    "topic": "AI出海独立开发者",
+    "title": "AI出海独立开发者：海外订阅收款与合规的一套打法",
+    "level": "L2",
+    "depth": 2,
+    "angle": "AI创业",
+    "keywords_snippet": "出海,海外收款,合规"
+  },
+  {
+    "module": "12",
+    "date": "2026-08-19",
+    "topic": "AI编程一人公司",
+    "title": "AI编程一人公司：用AI编码代理把想法两周变成付费产品的路径",
+    "level": "L2",
+    "depth": 2,
+    "angle": "AI创业",
+    "keywords_snippet": "一人公司,AI编码代理,MicroSaaS"
   }
 ]

@@ -1528,5 +1528,55 @@
     "depth": "深",
     "angle": "职教AI底座与多智能体训练环境",
     "keywords_snippet": "职教AI 人才培养方案智能体 邮百工 虚拟工程社会"
+  },
+  {
+    "module": "13",
+    "date": "2026-08-19",
+    "topic": "苏格拉底式AI导师",
+    "title": "苏格拉底式AI导师：用Persona框架把通用大模型调成会追问、敢纠错的导师，并跳出谄媚陷阱",
+    "level": "L2",
+    "depth": 2,
+    "angle": "AI教育",
+    "keywords_snippet": "AI导师,个性化学习,苏格拉底,谄媚陷阱"
+  },
+  {
+    "module": "13",
+    "date": "2026-08-19",
+    "topic": "计算机化自适应测验",
+    "title": "计算机化自适应测验：从GRE/GMAT到中小学，用题目反应理论让试卷跟着学生能力走",
+    "level": "L3",
+    "depth": 3,
+    "angle": "AI教育",
+    "keywords_snippet": "自适应学习,自适应考试,IRT,题目反应理论"
+  },
+  {
+    "module": "13",
+    "date": "2026-08-19",
+    "topic": "AI编程导师",
+    "title": "AI编程导师：从语法记忆到AI思维，靠实时反馈与代码脚手架重写编程学习",
+    "level": "L2",
+    "depth": 2,
+    "angle": "AI教育",
+    "keywords_snippet": "AI编程教育,实时反馈,代码脚手架,AI思维"
+  },
+  {
+    "module": "13",
+    "date": "2026-08-19",
+    "topic": "AI论文写作研究助手链",
+    "title": "AI论文写作研究助手链：从文献抓取到终稿润色，看Elicit类助手与学术写作工具分工",
+    "level": "L2",
+    "depth": 2,
+    "angle": "AI教育",
+    "keywords_snippet": "AI论文写作,研究助手,Elicit,学术写作"
+  },
+  {
+    "module": "13",
+    "date": "2026-08-19",
+    "topic": "自适应难度引擎",
+    "title": "自适应难度引擎：认知风格匹配与实时难度调节，让AI读懂每个学生的节奏",
+    "level": "L3",
+    "depth": 3,
+    "angle": "AI教育",
+    "keywords_snippet": "自适应学习,认知风格,难度引擎,知识图谱"
   }
 ]
