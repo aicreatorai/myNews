@@ -2078,5 +2078,65 @@
     "depth": 2,
     "angle": "语言特性",
     "keywords_snippet": "Scala 3,given实例,inline元编程,safe mode"
+  },
+  {
+    "module": "09",
+    "date": "2026-08-21",
+    "topic": "Deno",
+    "title": "Deno 2 运行时深度解析：权限沙箱与原生 TypeScript 重塑后端开发",
+    "level": "L2",
+    "depth": 900,
+    "angle": "运行时默认安全与原生TS工具链",
+    "keywords_snippet": "Deno 2 Rust V8 权限沙箱 原生TypeScript JSR npm兼容 内置工具链"
+  },
+  {
+    "module": "09",
+    "date": "2026-08-21",
+    "topic": "Bun",
+    "title": "Bun 全栈工具链：用 Zig 重写把 install、bundle、test 合一",
+    "level": "L2",
+    "depth": 900,
+    "angle": "全栈工具链合一与极致性能",
+    "keywords_snippet": "Bun Zig JavaScriptCore bun install 全工具链 兼容Node 启动快"
+  },
+  {
+    "module": "09",
+    "date": "2026-08-21",
+    "topic": "Elixir",
+    "title": "Elixir 与 BEAM 并发模型：OTP 与 LiveView 让十万连接不费力",
+    "level": "L2",
+    "depth": 900,
+    "angle": "BEAM并发容错与LiveView实时UI",
+    "keywords_snippet": "Elixir BEAM OTP 轻量进程 LiveView 消息传递 容错自愈"
+  },
+  {
+    "module": "09",
+    "date": "2026-08-21",
+    "topic": "Julia",
+    "title": "Julia 语言 1.x：JIT 编译与多重分派如何重写科学计算性能基线",
+    "level": "L2",
+    "depth": 900,
+    "angle": "多重分派与JIT科学计算性能",
+    "keywords_snippet": "Julia 多重分派 LLVM JIT 两语言问题 科学计算 类型稳定"
+  },
+  {
+    "module": "09",
+    "date": "2026-08-21",
+    "topic": "Haskell",
+    "title": "Haskell 纯函数式之道：惰性求值与 GHC 类型系统为何仍是天花板",
+    "level": "L2",
+    "depth": 900,
+    "angle": "纯函数式惰性求值与类型系统",
+    "keywords_snippet": "Haskell 纯函数式 惰性求值 GHC 类型类 单子 IO 编译期正确"
+  },
+  {
+    "module": "09",
+    "date": "2026-08-21",
+    "topic": "Gleam",
+    "title": "Gleam 语言 1.x：在 BEAM 上写出 Rust 手感的类型安全 Erlang",
+    "level": "L2",
+    "depth": 900,
+    "angle": "BEAM静态类型与双后端复用",
+    "keywords_snippet": "Gleam BEAM 静态类型 双后端 无空值 Result 模式匹配 穷尽"
   }
 ]

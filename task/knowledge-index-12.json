@@ -2448,5 +2448,65 @@
     "depth": 2,
     "angle": "AI创业",
     "keywords_snippet": "一人公司,AI编码代理,MicroSaaS"
+  },
+  {
+    "module": "12",
+    "date": "2026-08-21",
+    "topic": "AI数字分身",
+    "title": "AI数字分身创业：知识工作者的第二大脑生意（Twin1获2000万美金融资）",
+    "level": "L2",
+    "depth": 900,
+    "angle": "个人知识模型+权限网关+Agent执行，把专家经验变数字资产",
+    "keywords_snippet": "Twin1,2000万美金,知识工作者AI分身,六层权限,TwinNetwork"
+  },
+  {
+    "module": "12",
+    "date": "2026-08-21",
+    "topic": "AI软件+服务混合",
+    "title": "AI创业新范式：软件加服务混合，卖已解决的工作不卖工具",
+    "level": "L2",
+    "depth": 900,
+    "angle": "outcome-based，卖结果不卖工具，人工在环建信任",
+    "keywords_snippet": "AI原生运营公司,决策轨迹,AI Rollup,混合模式,结果定价"
+  },
+  {
+    "module": "12",
+    "date": "2026-08-21",
+    "topic": "AI Agent雇佣人类",
+    "title": "AI Agent雇佣人类：RentAHuman开启人机协作新分工",
+    "level": "L2",
+    "depth": 900,
+    "angle": "Agent人力补给层，为Agent经济修基础设施赚生态租金",
+    "keywords_snippet": "RentAHuman,Agent雇佣人类,任务赏金,人机分工,网络效应"
+  },
+  {
+    "module": "12",
+    "date": "2026-08-21",
+    "topic": "AI实时交互视频",
+    "title": "AI实时交互视频创业：SigmaZ的活画面新媒介窗口",
+    "level": "L2",
+    "depth": 900,
+    "angle": "像素+代码双模，实时交互视频成AI新媒介",
+    "keywords_snippet": "SigmaZ,Tap8,实时交互视频,扩散语言模型,活画面"
+  },
+  {
+    "module": "12",
+    "date": "2026-08-21",
+    "topic": "AI情感陪伴硬件",
+    "title": "AI情感陪伴硬件：实体IP加共情大模型的千亿蓝海",
+    "level": "L2",
+    "depth": 900,
+    "angle": "软件Agent+实体载体+原创IP，情绪价值溢价",
+    "keywords_snippet": "ANIMA,情感陪伴硬件,共情大模型,在场感,情感计算"
+  },
+  {
+    "module": "12",
+    "date": "2026-08-21",
+    "topic": "垂直AI Agent高痛赛道",
+    "title": "垂直AI Agent高痛赛道：从医疗预授权到律所合同审查",
+    "level": "L2",
+    "depth": 900,
+    "angle": "四重护城河（数据/工作流/监管/网络）切高痛垂直流程",
+    "keywords_snippet": "垂直AI Agent,医疗预授权,律所合同审查,建筑合规,四重护城河"
   }
 ]

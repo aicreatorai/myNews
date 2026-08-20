@@ -2396,5 +2396,65 @@
     "depth": 2,
     "angle": "工具实战",
     "keywords_snippet": "提示词,--sref,--cref"
+  },
+  {
+    "module": "08",
+    "date": "2026-08-21",
+    "topic": "Windsurf Cascade 代理编程",
+    "title": "用 Windsurf Cascade 把多文件重构交给代理",
+    "level": "L2",
+    "depth": 900,
+    "angle": "代理式重构闭环",
+    "keywords_snippet": "Cascade Plan模式 跨文件重构 自动跑测试 闭环验证"
+  },
+  {
+    "module": "08",
+    "date": "2026-08-21",
+    "topic": "Gamma AI PPT",
+    "title": "Gamma 一键把长文变成可演讲的 PPT",
+    "level": "L2",
+    "depth": 900,
+    "angle": "文本转演示",
+    "keywords_snippet": "图文生成 演讲备注 网页分发 自动版式"
+  },
+  {
+    "module": "08",
+    "date": "2026-08-21",
+    "topic": "Dify 工作流",
+    "title": "Dify 工作流搭建企业知识问答助手实战",
+    "level": "L2",
+    "depth": 900,
+    "angle": "可视化RAG问答",
+    "keywords_snippet": "知识库 工作流编排 私有部署 引用出处"
+  },
+  {
+    "module": "08",
+    "date": "2026-08-21",
+    "topic": "剪映 AI 成片",
+    "title": "剪映 AI 图文成片与一键成片剪辑流",
+    "level": "L2",
+    "depth": 900,
+    "angle": "文案转视频",
+    "keywords_snippet": "图文成片 AI配音 字幕对齐 素材匹配"
+  },
+  {
+    "module": "08",
+    "date": "2026-08-21",
+    "topic": "Runway 视频生成",
+    "title": "Runway Gen-4 与 Act-One 视频生成实战",
+    "level": "L2",
+    "depth": 900,
+    "angle": "生成式视频与表演迁移",
+    "keywords_snippet": "Gen-4 一致性 Act-One 表演迁移 种子控制"
+  },
+  {
+    "module": "08",
+    "date": "2026-08-21",
+    "topic": "腾讯文档 AI",
+    "title": "腾讯文档 AI 智能写作与表格处理实战",
+    "level": "L2",
+    "depth": 900,
+    "angle": "协作内嵌AI",
+    "keywords_snippet": "纪要总结 表格公式 智能图表 选区上下文"
   }
 ]

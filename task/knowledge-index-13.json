@@ -1578,5 +1578,55 @@
     "depth": 3,
     "angle": "AI教育",
     "keywords_snippet": "自适应学习,认知风格,难度引擎,知识图谱"
+  },
+  {
+    "module": "13",
+    "date": "2026-08-21",
+    "topic": "AI同事备课智能体",
+    "title": "AI同事进WPS：300个教育智能体重写教师备课节奏",
+    "level": "L2",
+    "depth": 900,
+    "angle": "智能体嵌入办公软件成为教师AI同事，降低使用门槛",
+    "keywords_snippet": "WPS 365教育版,之江智教,300智能体,备课减负,认知卸载"
+  },
+  {
+    "module": "13",
+    "date": "2026-08-21",
+    "topic": "AI跨学科PBL",
+    "title": "AI跨学科PBL三阶框架：调研-创作-展示让项目式学习落地",
+    "level": "L2",
+    "depth": 900,
+    "angle": "三阶框架把AI定位为认知伙伴，避免技术两张皮",
+    "keywords_snippet": "跨学科,项目式学习,PBL,调研创作展示,数学主导AI赋能"
+  },
+  {
+    "module": "13",
+    "date": "2026-08-21",
+    "topic": "AI错题诊断知识图谱",
+    "title": "AI错题诊断知识图谱：上传试卷还原错因并推送靶向练习",
+    "level": "L2",
+    "depth": 900,
+    "angle": "从题海战术到精准补缺，识别思维断点",
+    "keywords_snippet": "错题诊断,知识图谱,错因分析,靶向练习,MCM模型"
+  },
+  {
+    "module": "13",
+    "date": "2026-08-21",
+    "topic": "AI学习分析学业预警",
+    "title": "AI学习分析学业预警：用行为数据提前识别掉队风险",
+    "level": "L2",
+    "depth": 900,
+    "angle": "从经验观察到数据驱动预警，前置干预窗口",
+    "keywords_snippet": "学习分析,学业预警,形成性评价,行为数据,预测性分析"
+  },
+  {
+    "module": "13",
+    "date": "2026-08-21",
+    "topic": "AI间隔复习排程",
+    "title": "AI间隔复习排程引擎：用遗忘曲线定制每个人的复盘节奏",
+    "level": "L2",
+    "depth": 900,
+    "angle": "把遗忘曲线变成每日可执行复盘，对抗背了就忘",
+    "keywords_snippet": "间隔重复,遗忘曲线,Spaced Repetition,测试效应,Anki"
   }
 ]

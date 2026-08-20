@@ -2808,5 +2808,65 @@
     "depth": 2,
     "angle": "技术原理",
     "keywords_snippet": "多模态,跨模态对齐,融合,CLIP,对比学习"
+  },
+  {
+    "module": "07",
+    "date": "2026-08-21",
+    "topic": "投机解码",
+    "title": "投机解码 Speculative Decoding：用小模型猜、大模型一次验的提速术",
+    "level": "L2",
+    "depth": 900,
+    "angle": "草稿-验证并行解码与无损加速",
+    "keywords_snippet": "投机解码 Speculative Decoding 草稿模型 拒绝采样 无损加速 vLLM"
+  },
+  {
+    "module": "07",
+    "date": "2026-08-21",
+    "topic": "KV Cache",
+    "title": "KV Cache 与 PagedAttention：以显存换时间的解码加速器",
+    "level": "L2",
+    "depth": 900,
+    "angle": "分页显存管理与吞吐提升",
+    "keywords_snippet": "KV Cache PagedAttention 显存碎片 GQA prefix caching vLLM"
+  },
+  {
+    "module": "07",
+    "date": "2026-08-21",
+    "topic": "旋转位置编码 RoPE",
+    "title": "旋转位置编码 RoPE：让注意力只看相对距离的位置注入法",
+    "level": "L2",
+    "depth": 900,
+    "angle": "乘性旋转与相对位置不变性",
+    "keywords_snippet": "RoPE 旋转位置编码 相对位置 长度外推 YaRN Qwen"
+  },
+  {
+    "module": "07",
+    "date": "2026-08-21",
+    "topic": "智能体记忆机制",
+    "title": "智能体记忆机制：把上下文窗口变成可检索的分层记忆",
+    "level": "L2",
+    "depth": 900,
+    "angle": "分层记忆与跨会话持久化",
+    "keywords_snippet": "Agent 记忆 工作记忆 情景记忆 语义记忆 程序记忆 Mem0"
+  },
+  {
+    "module": "07",
+    "date": "2026-08-21",
+    "topic": "上下文工程",
+    "title": "上下文工程 Context Engineering：决定每步该往窗口里塞什么",
+    "level": "L2",
+    "depth": 900,
+    "angle": "运行时上下文裁剪与隔离",
+    "keywords_snippet": "上下文工程 Context Engineering 上下文窗口 压缩 隔离 子Agent"
+  },
+  {
+    "module": "07",
+    "date": "2026-08-21",
+    "topic": "GRPO",
+    "title": "GRPO 群体相对策略优化：不养 Critic 的轻量强化学习",
+    "level": "L2",
+    "depth": 900,
+    "angle": "组内相对优势替代价值网络",
+    "keywords_snippet": "GRPO PPO 强化学习 组内相对优势 DeepSeek-R1 思维链"
   }
 ]

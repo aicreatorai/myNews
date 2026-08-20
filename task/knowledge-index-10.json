@@ -2348,5 +2348,65 @@
     "depth": 2,
     "angle": "开源项目",
     "keywords_snippet": "Agent优化,skills,research-first"
+  },
+  {
+    "module": "10",
+    "date": "2026-08-21",
+    "topic": "mattpocock/skills 开源技能库",
+    "title": "mattpocock/skills：把资深工程师的 .agents 配置直接变成 22.6 万星的开源技能库",
+    "level": "L2",
+    "depth": 900,
+    "angle": "轻量可组合技能范式替代重框架",
+    "keywords_snippet": "skills Markdown 可组合 Agent 工程经验 .agents"
+  },
+  {
+    "module": "10",
+    "date": "2026-08-21",
+    "topic": "OpenViking Agent上下文数据库",
+    "title": "volcengine/OpenViking：会自我进化的 Agent 上下文数据库，统一记忆、RAG 与技能",
+    "level": "L2",
+    "depth": 900,
+    "angle": "记忆+RAG+技能三合一统一底座",
+    "keywords_snippet": "Agent Memory RAG Skills 自我进化 上下文数据库"
+  },
+  {
+    "module": "10",
+    "date": "2026-08-21",
+    "topic": "OpenLogi 键鼠重映射",
+    "title": "AprilNEA/OpenLogi：用 Rust 重写 Logitech Options+ 的本地优先键鼠重映射器",
+    "level": "L2",
+    "depth": 900,
+    "angle": "本地优先无遥测外设工具",
+    "keywords_snippet": "Rust HID++ 本地优先 无遥测 重映射 Logitech"
+  },
+  {
+    "module": "10",
+    "date": "2026-08-21",
+    "topic": "turbovec 向量索引",
+    "title": "turbovec：基于 TurboQuant 的 Rust 向量索引，给 Python 装上本地向量引擎",
+    "level": "L2",
+    "depth": 900,
+    "angle": "Rust向量索引+Python绑定的本地检索",
+    "keywords_snippet": "vector index Rust Python binding TurboQuant 量化"
+  },
+  {
+    "module": "10",
+    "date": "2026-08-21",
+    "topic": "MoneyPrinterTurbo 视频生成",
+    "title": "MoneyPrinterTurbo：一个主题自动生成高清短视频的 AI 工作流",
+    "level": "L2",
+    "depth": 900,
+    "angle": "主题到成片的自动化短视频流水线",
+    "keywords_snippet": "AI 短视频 自动化工作流 TTS 字幕 ffmpeg"
+  },
+  {
+    "module": "10",
+    "date": "2026-08-21",
+    "topic": "omlx 本地推理",
+    "title": "jundot/omlx：Apple Silicon 上的 LLM 推理服务器，带连续批处理与 SSD 缓存",
+    "level": "L2",
+    "depth": 900,
+    "angle": "Mac原生推理网关与连续批处理",
+    "keywords_snippet": "LLM inference Apple Silicon continuous batching SSD cache"
   }
 ]
