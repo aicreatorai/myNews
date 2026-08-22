@@ -2138,5 +2138,65 @@
     "depth": 900,
     "angle": "BEAM静态类型与双后端复用",
     "keywords_snippet": "Gleam BEAM 静态类型 双后端 无空值 Result 模式匹配 穷尽"
+  },
+  {
+    "module": "09",
+    "date": "2026-08-23",
+    "topic": "Python 3.14 模板字符串与JIT",
+    "title": "Python 3.14 模板字符串 t-strings 与实验性 JIT 编译器落地，注入防护与运行提速兼得",
+    "level": "L2",
+    "depth": "900",
+    "angle": "从 f-string 即时渲染到可拦截模板对象，以及解释器性能提升",
+    "keywords_snippet": "t-strings PEP750 JIT 延迟注解 注入防护"
+  },
+  {
+    "module": "09",
+    "date": "2026-08-23",
+    "topic": "Go 1.27 泛型方法",
+    "title": "Go 1.27 泛型方法终于落地，json/v2 与后量子加密入标准库",
+    "level": "L2",
+    "depth": "900",
+    "angle": "等待四年的泛型方法能力与标准库扩容",
+    "keywords_snippet": "Go1.27 泛型方法 json/v2 mldsa goroutine泄漏"
+  },
+  {
+    "module": "09",
+    "date": "2026-08-23",
+    "topic": "TypeScript 7 原生编译器",
+    "title": "TypeScript 7 用 Go 重写编译器，全量构建提速 8–12 倍但生态暂卡 6.x",
+    "level": "L2",
+    "depth": "900",
+    "angle": "Go 重写带来的构建提速与编程式 API 空窗期",
+    "keywords_snippet": "TypeScript7 Go编译器 构建提速 8-12倍 编程式API"
+  },
+  {
+    "module": "09",
+    "date": "2026-08-23",
+    "topic": "Rust 1.98 derive 快路径",
+    "title": "Rust 1.98 发布：derive 快路径变更或悄悄改变你的排序结果",
+    "level": "L2",
+    "depth": "900",
+    "angle": "派生宏行为微调导致的静默排序语义漂移",
+    "keywords_snippet": "Rust1.98 derive PartialOrd 排序 快路径"
+  },
+  {
+    "module": "09",
+    "date": "2026-08-23",
+    "topic": "Python 3.15 惰性导入与frozendict",
+    "title": "Python 3.15 RC1 带来惰性导入与 frozendict，自由线程 ABI 终于稳定",
+    "level": "L2",
+    "depth": "900",
+    "angle": "启动效率、不可变字典与自由线程轮子兼容性",
+    "keywords_snippet": "Python3.15 惰性导入 PEP810 frozendict PEP814 稳定ABI"
+  },
+  {
+    "module": "09",
+    "date": "2026-08-23",
+    "topic": "动态语言 AI 编程基准",
+    "title": "动态语言在 AI 编程基准中完胜：Ruby/Python/JS 比静态语言快 1.4–2.6 倍",
+    "level": "L2",
+    "depth": "900",
+    "angle": "600 次 Agent 编程基准揭示类型系统对迭代成本的影响",
+    "keywords_snippet": "动态语言 静态语言 AI编程基准 ClaudeCode 类型系统"
   }
 ]

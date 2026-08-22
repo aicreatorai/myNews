@@ -2456,5 +2456,65 @@
     "depth": 900,
     "angle": "协作内嵌AI",
     "keywords_snippet": "纪要总结 表格公式 智能图表 选区上下文"
+  },
+  {
+    "module": "08",
+    "date": "2026-08-23",
+    "topic": "ComfyUI",
+    "title": "ComfyUI：节点工作流精确控制AI绘画每一步",
+    "level": "L2",
+    "depth": "900",
+    "angle": "使用场景",
+    "keywords_snippet": "节点工作流 文生图 ControlNet LoRA"
+  },
+  {
+    "module": "08",
+    "date": "2026-08-23",
+    "topic": "Qwen-Image-3.0",
+    "title": "Qwen-Image-3.0：把图片里的文字渲染成生产力",
+    "level": "L2",
+    "depth": "900",
+    "angle": "使用场景",
+    "keywords_snippet": "生图模型 中文文字渲染 信息图 API"
+  },
+  {
+    "module": "08",
+    "date": "2026-08-23",
+    "topic": "HunyuanImage 3.0",
+    "title": "HunyuanImage 3.0：开源MoE生图模型理解即生成",
+    "level": "L2",
+    "depth": "900",
+    "angle": "使用场景",
+    "keywords_snippet": "腾讯混元 MoE 自回归 私有化"
+  },
+  {
+    "module": "08",
+    "date": "2026-08-23",
+    "topic": "PixVerse",
+    "title": "PixVerse：一张静图加运镜提示词秒出短视频",
+    "level": "L2",
+    "depth": "900",
+    "angle": "使用场景",
+    "keywords_snippet": "图生视频 image-to-video 运镜 社媒"
+  },
+  {
+    "module": "08",
+    "date": "2026-08-23",
+    "topic": "Windsurf",
+    "title": "Windsurf：可并行编程的多Agent工作台",
+    "level": "L2",
+    "depth": "900",
+    "angle": "使用场景",
+    "keywords_snippet": "AI IDE Cascade 编程Agent 多Agent"
+  },
+  {
+    "module": "08",
+    "date": "2026-08-23",
+    "topic": "度加",
+    "title": "度加：热点追踪与一键二创追爆款自媒体",
+    "level": "L2",
+    "depth": "900",
+    "angle": "使用场景",
+    "keywords_snippet": "百度 AI剪辑 热点预测 一键二创"
   }
 ]

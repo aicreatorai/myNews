@@ -1628,5 +1628,55 @@
     "depth": 900,
     "angle": "把遗忘曲线变成每日可执行复盘，对抗背了就忘",
     "keywords_snippet": "间隔重复,遗忘曲线,Spaced Repetition,测试效应,Anki"
+  },
+  {
+    "module": "13",
+    "date": "2026-08-23",
+    "topic": "AI学习伴侣产品设计",
+    "title": "AI学习伴侣产品设计：用伴学智能体重塑课后自主学习",
+    "level": "L2",
+    "depth": "900",
+    "angle": "教育视角",
+    "keywords_snippet": "伴学智能体 学情诊断 拒绝给答案 主动追问 最近发展区"
+  },
+  {
+    "module": "13",
+    "date": "2026-08-23",
+    "topic": "AI虚拟实验室",
+    "title": "AI虚拟实验室：用生成式仿真重构科学探究与实验课",
+    "level": "L2",
+    "depth": "900",
+    "angle": "教育视角",
+    "keywords_snippet": "生成式仿真 VR MR 科学探究 建构主义 知识保留率"
+  },
+  {
+    "module": "13",
+    "date": "2026-08-23",
+    "topic": "AI阅读素养新范式",
+    "title": "AI阅读素养新范式：用大模型做深度阅读与思辨训练",
+    "level": "L2",
+    "depth": "900",
+    "angle": "教育视角",
+    "keywords_snippet": "深度阅读教练 苏格拉底提问 深度加工 自我解释 批判思维"
+  },
+  {
+    "module": "13",
+    "date": "2026-08-23",
+    "topic": "AI教师数字人",
+    "title": "AI教师数字人：用虚拟形象把名师资源规模化下沉",
+    "level": "L2",
+    "depth": "900",
+    "angle": "教育视角",
+    "keywords_snippet": "数字人 双师 社会存在感 名师下沉 零代码自制"
+  },
+  {
+    "module": "13",
+    "date": "2026-08-23",
+    "topic": "AI教育公平与可及性",
+    "title": "AI教育公平与可及性：用国家平台把优质资源送到乡村",
+    "level": "L2",
+    "depth": "900",
+    "angle": "教育视角",
+    "keywords_snippet": "国家智慧教育平台 城乡结对 通识体系 规模经济 普惠"
   }
 ]

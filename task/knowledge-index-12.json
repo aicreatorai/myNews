@@ -2508,5 +2508,65 @@
     "depth": 900,
     "angle": "四重护城河（数据/工作流/监管/网络）切高痛垂直流程",
     "keywords_snippet": "垂直AI Agent,医疗预授权,律所合同审查,建筑合规,四重护城河"
+  },
+  {
+    "module": "12",
+    "date": "2026-08-23",
+    "topic": "AI法律科技创业",
+    "title": "AI法律科技创业：合同审查SaaS的收费与落地",
+    "level": "L2",
+    "depth": "900",
+    "angle": "创业视角",
+    "keywords_snippet": "法律AI SaaS 合同审查 Harvey 网信智盾"
+  },
+  {
+    "module": "12",
+    "date": "2026-08-23",
+    "topic": "AI金融科技创业",
+    "title": "AI金融科技创业：AI重做保险与支付的窗口",
+    "level": "L2",
+    "depth": "900",
+    "angle": "创业视角",
+    "keywords_snippet": "金融科技 AI保险 AI支付 Corgi Yuno"
+  },
+  {
+    "module": "12",
+    "date": "2026-08-23",
+    "topic": "AI设计创业",
+    "title": "AI设计创业：品牌视觉AI工具矩阵的变现",
+    "level": "L2",
+    "depth": "900",
+    "angle": "创业视角",
+    "keywords_snippet": "AI设计 品牌视觉 超级鹦鹉 武培文"
+  },
+  {
+    "module": "12",
+    "date": "2026-08-23",
+    "topic": "AI游戏创业",
+    "title": "AI游戏创业：生成式资产与剧情的内容工厂",
+    "level": "L2",
+    "depth": "900",
+    "angle": "创业视角",
+    "keywords_snippet": "AI游戏 生成式资产 代号玄枢 超级鹦鹉"
+  },
+  {
+    "module": "12",
+    "date": "2026-08-23",
+    "topic": "AI电商创业",
+    "title": "AI电商创业：跨境视频与轻量产品的打法",
+    "level": "L2",
+    "depth": "900",
+    "angle": "创业视角",
+    "keywords_snippet": "AI电商 跨境视频 vv-agent 小猫补光灯"
+  },
+  {
+    "module": "12",
+    "date": "2026-08-23",
+    "topic": "AI无人装备创业",
+    "title": "AI无人装备创业：水域与深海机器人的产业落地",
+    "level": "L2",
+    "depth": "900",
+    "angle": "创业视角",
+    "keywords_snippet": "无人装备 无人船 深海机器人 雪窦 深海智人"
   }
 ]

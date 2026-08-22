@@ -2868,5 +2868,65 @@
     "depth": 900,
     "angle": "组内相对优势替代价值网络",
     "keywords_snippet": "GRPO PPO 强化学习 组内相对优势 DeepSeek-R1 思维链"
+  },
+  {
+    "module": "07",
+    "date": "2026-08-23",
+    "topic": "MCP协议",
+    "title": "MCP协议让AI Agent标准化调用外部工具",
+    "level": "L2",
+    "depth": "900",
+    "angle": "开放标准协议统一工具调用",
+    "keywords_snippet": "MCP,工具调用,Agentic AI Foundation,SDK下载"
+  },
+  {
+    "module": "07",
+    "date": "2026-08-23",
+    "topic": "RAG检索增强生成",
+    "title": "RAG检索增强生成把大模型接上私有知识库",
+    "level": "L2",
+    "depth": "900",
+    "angle": "开卷考试式外部知识注入",
+    "keywords_snippet": "RAG,向量检索,企业落地,幻觉治理"
+  },
+  {
+    "module": "07",
+    "date": "2026-08-23",
+    "topic": "GraphRAG知识图谱",
+    "title": "GraphRAG用知识图谱补足RAG关系推理",
+    "level": "L2",
+    "depth": "900",
+    "angle": "图结构社区摘要补足多跳推理",
+    "keywords_snippet": "GraphRAG,知识图谱,社区摘要,多跳问答"
+  },
+  {
+    "module": "07",
+    "date": "2026-08-23",
+    "topic": "视觉语言模型VLM",
+    "title": "视觉语言模型VLM让AI看懂图片里的世界",
+    "level": "L2",
+    "depth": "900",
+    "angle": "视觉编码器+LLM联合推理与效率",
+    "keywords_snippet": "VLM,多模态,GOTS,视觉token压缩"
+  },
+  {
+    "module": "07",
+    "date": "2026-08-23",
+    "topic": "世界模型",
+    "title": "世界模型让AI在脑内模拟下一步",
+    "level": "L2",
+    "depth": "900",
+    "angle": "动作条件潜状态预测与可信规划",
+    "keywords_snippet": "世界模型,ELWM,WorldSimProbe,动作条件"
+  },
+  {
+    "module": "07",
+    "date": "2026-08-23",
+    "topic": "Prompt工程",
+    "title": "Prompt工程CoT与DSPy把提示词变成程序",
+    "level": "L2",
+    "depth": "900",
+    "angle": "CoT推理链与DSPy程序化编译",
+    "keywords_snippet": "Prompt工程,CoT,DSPy,提示注入"
   }
 ]

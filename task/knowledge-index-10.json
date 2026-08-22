@@ -2408,5 +2408,65 @@
     "depth": 900,
     "angle": "Mac原生推理网关与连续批处理",
     "keywords_snippet": "LLM inference Apple Silicon continuous batching SSD cache"
+  },
+  {
+    "module": "10",
+    "date": "2026-08-23",
+    "topic": "LangGraph",
+    "title": "LangGraph：把多步骤 AI 工作流编排成可控状态图的 Agent 框架",
+    "level": "L2",
+    "depth": "900",
+    "angle": "Agent 编排与可控流程",
+    "keywords_snippet": "状态图 循环 human-in-the-loop 持久化断点"
+  },
+  {
+    "module": "10",
+    "date": "2026-08-23",
+    "topic": "LiteLLM",
+    "title": "LiteLLM：一个网关统一调用 100+ 主流大模型 API 的开源代理",
+    "level": "L2",
+    "depth": "900",
+    "angle": "多模型统一网关与路由",
+    "keywords_snippet": "统一接口 fallback 负载均衡 成本统计 自托管"
+  },
+  {
+    "module": "10",
+    "date": "2026-08-23",
+    "topic": "Pydantic AI",
+    "title": "Pydantic AI：用类型系统把 LLM 输出锁成结构化数据的 Python Agent 框架",
+    "level": "L2",
+    "depth": "900",
+    "angle": "类型安全结构化输出",
+    "keywords_snippet": "Pydantic v2 强类型 输出校验 依赖注入 多模型"
+  },
+  {
+    "module": "10",
+    "date": "2026-08-23",
+    "topic": "Langfuse",
+    "title": "Langfuse：开源 LLM 应用可观测性与提示词评测平台",
+    "level": "L2",
+    "depth": "900",
+    "angle": "可观测性与评测",
+    "keywords_snippet": "trace span Prompt管理 评测 成本 自托管"
+  },
+  {
+    "module": "10",
+    "date": "2026-08-23",
+    "topic": "CrewAI",
+    "title": "CrewAI：用角色扮演让多个专属智能体协作完成复杂任务的框架",
+    "level": "L2",
+    "depth": "900",
+    "angle": "多智能体协作",
+    "keywords_snippet": "角色 任务 Crew 顺序 层级 上下文交接"
+  },
+  {
+    "module": "10",
+    "date": "2026-08-23",
+    "topic": "LlamaIndex",
+    "title": "LlamaIndex：把私有数据接进大模型、做 RAG 检索增强的数据框架",
+    "level": "L2",
+    "depth": "900",
+    "angle": "RAG 数据接入",
+    "keywords_snippet": "Reader Node 索引 检索 重排 RAG 持久化"
   }
 ]

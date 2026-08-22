@@ -2558,5 +2558,65 @@
     "depth": 1765,
     "angle": "三件套串行：分类框架防遗漏、四步漏斗防伪需求、包装陷阱过滤器防白干",
     "keywords_snippet": "Decide-Create-Move 痛感频率价值三维过滤 量变异度价值三轴 低成本MVP先人工 等待超5分钟重复提问超30% 数据就绪与组织采纳作闸门 能力扫描八成质量线 三种护城河取其二 14天验证冲刺"
+  },
+  {
+    "module": "15",
+    "date": "2026-08-23",
+    "topic": "AI需求洞察与JTBD",
+    "title": "AI 需求洞察与 JTBD：用待办任务重构 AI 产品的价值假设",
+    "level": "L2",
+    "depth": "900",
+    "angle": "产品视角",
+    "keywords_snippet": "JTBD 待办任务 价值假设 AI需求洞察"
+  },
+  {
+    "module": "15",
+    "date": "2026-08-23",
+    "topic": "AI产品失败模式复盘",
+    "title": "AI 产品的失败模式复盘：用预演式复盘提前排雷",
+    "level": "L2",
+    "depth": "900",
+    "angle": "产品视角",
+    "keywords_snippet": "失败模式复盘 pre-mortem 风险分类 发布门禁"
+  },
+  {
+    "module": "15",
+    "date": "2026-08-23",
+    "topic": "AI用户价值分层",
+    "title": "AI 用户分层与价值分层：按行为而非标签划分价值",
+    "level": "L2",
+    "depth": "900",
+    "angle": "产品视角",
+    "keywords_snippet": "用户分层 价值分层 任务完成率 行为矩阵"
+  },
+  {
+    "module": "15",
+    "date": "2026-08-23",
+    "topic": "AI功能优先级Kano",
+    "title": "AI 功能优先级 Kano 模型：区分惊艳型与基础型能力",
+    "level": "L2",
+    "depth": "900",
+    "angle": "产品视角",
+    "keywords_snippet": "Kano 模型 基本型 魅力型 RICE-AI 功能优先级"
+  },
+  {
+    "module": "15",
+    "date": "2026-08-23",
+    "topic": "AI产品叙事与定位",
+    "title": "AI 产品叙事与定位：在模型趋同时代讲清差异化",
+    "level": "L2",
+    "depth": "900",
+    "angle": "产品视角",
+    "keywords_snippet": "产品叙事 定位 AI-Only Moat 差异化 心智"
+  },
+  {
+    "module": "15",
+    "date": "2026-08-23",
+    "topic": "PM与算法协作机制",
+    "title": "PM 与算法协作机制：用 ML 产品规格书对齐需求与模型",
+    "level": "L2",
+    "depth": "900",
+    "angle": "产品视角",
+    "keywords_snippet": "ML产品规格书 Prompt as Code eval 跨职能对齐"
   }
 ]

@@ -2528,5 +2528,65 @@
     "depth": 900,
     "angle": "社交问责与承诺一致性",
     "keywords_snippet": "问责伙伴 公开记分牌 承诺一致性 ASTD95% 周check-in"
+  },
+  {
+    "module": "14",
+    "date": "2026-08-23",
+    "topic": "微习惯系统",
+    "title": "微习惯系统：把目标缩到不可能失败的尺寸",
+    "level": "L2",
+    "depth": "900",
+    "angle": "习惯养成/行为设计",
+    "keywords_snippet": "微习惯 不可能失败下限 66天习惯曲线 65%自动化行为 Guise"
+  },
+  {
+    "module": "14",
+    "date": "2026-08-23",
+    "topic": "刻意练习进阶",
+    "title": "刻意练习进阶：用反馈回路把练习变成技能复利",
+    "level": "L2",
+    "depth": "900",
+    "angle": "技能习得/反馈设计",
+    "keywords_snippet": "刻意练习 心理表征 70-85%成功率 即时反馈 Ericsson 1993"
+  },
+  {
+    "module": "14",
+    "date": "2026-08-23",
+    "topic": "认知重构ABC模型",
+    "title": "认知重构ABC模型：把焦虑念头改写成可行动判断",
+    "level": "L2",
+    "depth": "900",
+    "angle": "情绪调节/认知行为",
+    "keywords_snippet": "ABC模型 Ellis REBT 认知扭曲 默认模式网络 反刍 Beck Burns"
+  },
+  {
+    "module": "14",
+    "date": "2026-08-23",
+    "topic": "GTD五步工作流",
+    "title": "GTD五步工作流：用外部大脑清空脑内待办",
+    "level": "L2",
+    "depth": "900",
+    "angle": "任务系统/外部化",
+    "keywords_snippet": "GTD 捕捉理清组织回顾执行 下一步动作 蔡加尼克 每周回顾 Allen"
+  },
+  {
+    "module": "14",
+    "date": "2026-08-23",
+    "topic": "PARA第二大脑",
+    "title": "PARA第二大脑：用四层文件夹把笔记变成可调用外脑",
+    "level": "L2",
+    "depth": "900",
+    "angle": "知识管理/行动可达",
+    "keywords_snippet": "PARA Projects Areas Resources Archives 渐进式总结 认知卸载 Forte"
+  },
+  {
+    "module": "14",
+    "date": "2026-08-23",
+    "topic": "认知负荷理论",
+    "title": "认知负荷理论：把工作记忆带宽当成稀缺资源分配",
+    "level": "L2",
+    "depth": "900",
+    "angle": "学习科学/带宽预算",
+    "keywords_snippet": "认知负荷 内在外在有效负荷 工作记忆 专家反转效应 Sweller Mayer"
   }
 ]
