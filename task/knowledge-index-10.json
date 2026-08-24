@@ -2468,5 +2468,125 @@
     "depth": "900",
     "angle": "RAG 数据接入",
     "keywords_snippet": "Reader Node 索引 检索 重排 RAG 持久化"
+  },
+  {
+    "module": "10",
+    "date": "2026-08-24",
+    "topic": "ripgrep",
+    "title": "ripgrep：用 Rust 重写、快到离谱的递归搜索工具",
+    "level": "L2",
+    "depth": "进阶",
+    "angle": "开发效率CLI与代码搜索",
+    "keywords_snippet": "ripgrep,递归搜索,Rust,grep替代"
+  },
+  {
+    "module": "10",
+    "date": "2026-08-24",
+    "topic": "Starship",
+    "title": "Starship：一行配置、跨所有 Shell 的极速提示符",
+    "level": "L2",
+    "depth": "进阶",
+    "angle": "终端提示符与跨Shell可移植",
+    "keywords_snippet": "Starship,提示符,跨shell,Rust"
+  },
+  {
+    "module": "10",
+    "date": "2026-08-24",
+    "topic": "Uptime Kuma",
+    "title": "Uptime Kuma：自托管监控里最像 SaaS 的颜值担当",
+    "level": "L2",
+    "depth": "进阶",
+    "angle": "自托管监控与宕机告警",
+    "keywords_snippet": "Uptime Kuma,自托管监控,告警,Docker"
+  },
+  {
+    "module": "10",
+    "date": "2026-08-24",
+    "topic": "DuckDB",
+    "title": "DuckDB：能直接 SELECT 读 CSV/Parquet 的进程内分析数据库",
+    "level": "L2",
+    "depth": "进阶",
+    "angle": "嵌入式OLAP与本地数据分析",
+    "keywords_snippet": "DuckDB,进程内分析,CSV,Parquet,SQL"
+  },
+  {
+    "module": "10",
+    "date": "2026-08-24",
+    "topic": "FastAPI",
+    "title": "FastAPI：类型提示即文档、异步原生的 Python Web 框架",
+    "level": "L2",
+    "depth": "进阶",
+    "angle": "Python异步Web框架与自动文档",
+    "keywords_snippet": "FastAPI,Python,异步,OpenAPI"
+  },
+  {
+    "module": "10",
+    "date": "2026-08-24",
+    "topic": "Ollama",
+    "title": "Ollama：一条命令把开源大模型跑在本地的模型 Docker",
+    "level": "L2",
+    "depth": "进阶",
+    "angle": "本地大模型推理与自托管",
+    "keywords_snippet": "Ollama,本地大模型,量化推理,llama.cpp"
+  },
+  {
+    "module": "10",
+    "date": "2026-08-25",
+    "topic": "Roo Code",
+    "title": "Roo Code：把 AI 编程 Agent 装进 VS Code 的开源插件",
+    "level": "L2",
+    "depth": "中",
+    "angle": "开源AI编程/VS Code插件",
+    "keywords_snippet": "Roo Code, VS Code, AI Coding Agent, Custom Modes, Apache 2.0"
+  },
+  {
+    "module": "10",
+    "date": "2026-08-25",
+    "topic": "SGLang",
+    "title": "SGLang：把大模型推理吞吐拉满的高性能服务框架",
+    "level": "L3",
+    "depth": "深",
+    "angle": "大模型推理服务/RadixAttention",
+    "keywords_snippet": "SGLang, RadixAttention, 推理引擎, vLLM对比, LMSYS"
+  },
+  {
+    "module": "10",
+    "date": "2026-08-25",
+    "topic": "LLaMA-Factory",
+    "title": "LLaMA-Factory：零代码微调 100+ 大模型的低代码训练框架",
+    "level": "L1",
+    "depth": "中",
+    "angle": "低代码大模型微调框架",
+    "keywords_snippet": "LLaMA-Factory, LoRA, QLoRA, 微调, LlamaBoard"
+  },
+  {
+    "module": "10",
+    "date": "2026-08-25",
+    "topic": "Letta",
+    "title": "Letta（MemGPT）：让 Agent 真正记住跨会话状态的开源框架",
+    "level": "L4",
+    "depth": "中",
+    "angle": "有状态记忆Agent/MemGPT",
+    "keywords_snippet": "Letta, MemGPT, stateful agent, 记忆, core memory"
+  },
+  {
+    "module": "10",
+    "date": "2026-08-25",
+    "topic": "Chainlit",
+    "title": "Chainlit：用纯 Python 分钟级搭出类 ChatGPT 应用",
+    "level": "L2",
+    "depth": "中",
+    "angle": "Python对话式AI应用框架",
+    "keywords_snippet": "Chainlit, Python, 对话式AI, FastAPI, 前端自动生成"
+  },
+  {
+    "module": "10",
+    "date": "2026-08-25",
+    "topic": "Xinference",
+    "title": "Xinference：一行代码把 GPT 换成任意开源模型的分布式推理平台",
+    "level": "L3",
+    "depth": "深",
+    "angle": "分布式模型推理服务平台",
+    "keywords_snippet": "Xinference, 分布式推理, OpenAI兼容, 多引擎, Xoscar"
   }
 ]

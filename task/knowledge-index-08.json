@@ -2516,5 +2516,125 @@
     "depth": "900",
     "angle": "使用场景",
     "keywords_snippet": "百度 AI剪辑 热点预测 一键二创"
+  },
+  {
+    "module": "08",
+    "date": "2026-08-24",
+    "topic": "n8n",
+    "title": "n8n：把重复劳动连成一条可复用的自动化流水线",
+    "level": "L2",
+    "depth": "进阶",
+    "angle": "节点工作流自动化与自托管实战",
+    "keywords_snippet": "n8n,工作流,自动化,自托管,API编排"
+  },
+  {
+    "module": "08",
+    "date": "2026-08-24",
+    "topic": "NotebookLM",
+    "title": "NotebookLM：把一堆资料变成会开口讲解的私人助理",
+    "level": "L2",
+    "depth": "进阶",
+    "angle": "基于上传资料的RAG问答与音频概览",
+    "keywords_snippet": "NotebookLM,知识库,RAG,音频概览,谷歌"
+  },
+  {
+    "module": "08",
+    "date": "2026-08-24",
+    "topic": "Napkin AI",
+    "title": "Napkin AI：把一段文字自动变成能用的示意图",
+    "level": "L2",
+    "depth": "进阶",
+    "angle": "文字转可视化图表的低成本实践",
+    "keywords_snippet": "Napkin,文字转图,流程图,可视化,示意图"
+  },
+  {
+    "module": "08",
+    "date": "2026-08-24",
+    "topic": "LM Studio",
+    "title": "LM Studio：不懂命令行也能在电脑上跑大模型",
+    "level": "L2",
+    "depth": "进阶",
+    "angle": "本地大模型图形化部署与API",
+    "keywords_snippet": "LM Studio,本地部署,GGUF,llama.cpp,隐私推理"
+  },
+  {
+    "module": "08",
+    "date": "2026-08-24",
+    "topic": "Cline",
+    "title": "Cline：会自己读代码、跑命令的开源编程 Agent",
+    "level": "L2",
+    "depth": "进阶",
+    "angle": "VS Code开源编程智能体的工具调用循环",
+    "keywords_snippet": "Cline,编程Agent,VS Code,开源,工具调用"
+  },
+  {
+    "module": "08",
+    "date": "2026-08-24",
+    "topic": "Runway",
+    "title": "Runway：用文字和图片生成可剪辑的 AI 视频",
+    "level": "L2",
+    "depth": "进阶",
+    "angle": "文生视频与AI视频精修工具箱",
+    "keywords_snippet": "Runway,文生视频,AI视频,抠像,扩图"
+  },
+  {
+    "module": "08",
+    "date": "2026-08-25",
+    "topic": "Suno",
+    "title": "Suno：一句话生成带人声完整歌曲的 AI 音乐工具",
+    "level": "L1",
+    "depth": "中",
+    "angle": "一句话生成带人声完整歌",
+    "keywords_snippet": "AI音乐,端到端生成,V4,分轨"
+  },
+  {
+    "module": "08",
+    "date": "2026-08-25",
+    "topic": "HeyGen",
+    "title": "HeyGen：用照片生成会说话的 AI 数字人视频",
+    "level": "L2",
+    "depth": "中",
+    "angle": "照片生成会说话数字人",
+    "keywords_snippet": "数字人,唇形同步,多语翻译"
+  },
+  {
+    "module": "08",
+    "date": "2026-08-25",
+    "topic": "Krea AI",
+    "title": "Krea AI：实时 AI 绘画与高清放大增强工具",
+    "level": "L3",
+    "depth": "中",
+    "angle": "实时画布与高清放大",
+    "keywords_snippet": "实时生成,放大,Upscale,Enhance"
+  },
+  {
+    "module": "08",
+    "date": "2026-08-25",
+    "topic": "生数 Vidu",
+    "title": "生数 Vidu：国产 AI 视频生成与多镜头叙事",
+    "level": "L4",
+    "depth": "中",
+    "angle": "国产多主体一致视频",
+    "keywords_snippet": "U-ViT,多主体一致,文生视频"
+  },
+  {
+    "module": "08",
+    "date": "2026-08-25",
+    "topic": "讯飞星火",
+    "title": "讯飞星火：国产大模型对话与办公助手",
+    "level": "L2",
+    "depth": "中",
+    "angle": "国产多模态办公助手",
+    "keywords_snippet": "多模态,语音,办公,PPT"
+  },
+  {
+    "module": "08",
+    "date": "2026-08-25",
+    "topic": "稿定设计",
+    "title": "稿定设计：AI 电商海报一键生成",
+    "level": "L3",
+    "depth": "中",
+    "angle": "电商海报一键生成",
+    "keywords_snippet": "AI海报,电商,场景模板"
   }
 ]

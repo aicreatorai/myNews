@@ -2928,5 +2928,125 @@
     "depth": "900",
     "angle": "CoT推理链与DSPy程序化编译",
     "keywords_snippet": "Prompt工程,CoT,DSPy,提示注入"
+  },
+  {
+    "module": "07",
+    "date": "2026-08-24",
+    "topic": "FlashAttention",
+    "title": "FlashAttention：把注意力算得快又不爆显存的IO感知算法",
+    "level": "L3",
+    "depth": "深入",
+    "angle": "IO感知算子优化",
+    "keywords_snippet": "FlashAttention,注意力,显存,SRAM"
+  },
+  {
+    "module": "07",
+    "date": "2026-08-24",
+    "topic": "模型量化AWQ与FP8",
+    "title": "模型量化AWQ与FP8：用低精度把大模型塞进小显存",
+    "level": "L2",
+    "depth": "进阶",
+    "angle": "低比特量化部署",
+    "keywords_snippet": "AWQ,FP8,量化,INT4"
+  },
+  {
+    "module": "07",
+    "date": "2026-08-24",
+    "topic": "Constitutional AI",
+    "title": "Constitutional AI：用宪法式原则让模型自我批评对齐",
+    "level": "L2",
+    "depth": "进阶",
+    "angle": "宪法式自我对齐",
+    "keywords_snippet": "Constitutional AI,RLAIF,对齐,自我批评"
+  },
+  {
+    "module": "07",
+    "date": "2026-08-24",
+    "topic": "YaRN与长上下文外推",
+    "title": "YaRN与长上下文外推：让短训练模型读懂更长的文本",
+    "level": "L2",
+    "depth": "进阶",
+    "angle": "RoPE长上下文扩展",
+    "keywords_snippet": "YaRN,RoPE,长上下文,外推"
+  },
+  {
+    "module": "07",
+    "date": "2026-08-24",
+    "topic": "自回归与扩散",
+    "title": "自回归与扩散：两种生成范式到底差在哪",
+    "level": "L3",
+    "depth": "深入",
+    "angle": "生成范式对比",
+    "keywords_snippet": "自回归,扩散,Diffusion,生成模型"
+  },
+  {
+    "module": "07",
+    "date": "2026-08-24",
+    "topic": "函数调用与结构化输出",
+    "title": "函数调用与结构化输出：让大模型可靠地调用工具",
+    "level": "L2",
+    "depth": "进阶",
+    "angle": "工具调用接口层",
+    "keywords_snippet": "函数调用,结构化输出,Tool Use,JSON"
+  },
+  {
+    "module": "07",
+    "date": "2026-08-25",
+    "topic": "向量数据库与Embedding",
+    "title": "向量数据库与Embedding：RAG背后的语义搜索引擎",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "语义检索原理与工程落地",
+    "keywords_snippet": "Embedding 向量 语义检索 RAG 余弦相似度 HNSW"
+  },
+  {
+    "module": "07",
+    "date": "2026-08-25",
+    "topic": "RLHF与DPO",
+    "title": "人类反馈强化学习RLHF与DPO：让模型输出符合人类偏好",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "偏好对齐的两路方法（奖励模型vs直接优化）",
+    "keywords_snippet": "RLHF DPO 对齐 偏好 PPO 奖励模型 SFT"
+  },
+  {
+    "module": "07",
+    "date": "2026-08-25",
+    "topic": "机制可解释性",
+    "title": "机制可解释性Mechanistic Interpretability：逆向工程大模型内部",
+    "level": "L4",
+    "depth": "前沿层",
+    "angle": "逆向工程模型内部电路与特征",
+    "keywords_snippet": "机制可解释性 Mechanistic Interpretability 特征 电路 SAE 稀疏自编码器"
+  },
+  {
+    "module": "07",
+    "date": "2026-08-25",
+    "topic": "端侧小模型",
+    "title": "端侧小模型Phi与Gemma：跑在手机上的AI",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "手机本地推理与模型压缩（蒸馏/剪枝/量化）",
+    "keywords_snippet": "端侧小模型 SLM Phi Gemma 量化 蒸馏 本地推理"
+  },
+  {
+    "module": "07",
+    "date": "2026-08-25",
+    "topic": "MQA与GQA",
+    "title": "多查询注意力MQA与GQA：共享KV降低解码显存",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "KV Cache 显存压缩与推理吞吐",
+    "keywords_snippet": "MQA GQA 多查询注意力 KV Cache 显存 解码"
+  },
+  {
+    "module": "07",
+    "date": "2026-08-25",
+    "topic": "状态空间模型Mamba",
+    "title": "状态空间模型Mamba：用选择性扫描替代注意力的线性序列建模",
+    "level": "L3",
+    "depth": "实践层",
+    "angle": "选择性扫描替代注意力的线性序列建模与混合架构",
+    "keywords_snippet": "Mamba 状态空间模型 SSM 选择性扫描 线性复杂度 混合架构"
   }
 ]

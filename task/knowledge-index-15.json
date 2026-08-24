@@ -2618,5 +2618,125 @@
     "depth": "900",
     "angle": "产品视角",
     "keywords_snippet": "ML产品规格书 Prompt as Code eval 跨职能对齐"
+  },
+  {
+    "module": "15",
+    "date": "2026-08-24",
+    "topic": "置信度可视化",
+    "title": "置信度可视化：把模型的不确定性翻译成用户看得懂的界面信号",
+    "level": "L2",
+    "depth": "进阶",
+    "angle": "交互设计/不确定性界面表达",
+    "keywords_snippet": "置信度可视化,不确定性界面"
+  },
+  {
+    "module": "15",
+    "date": "2026-08-24",
+    "topic": "LLM-as-judge",
+    "title": "LLM-as-judge：用大模型给大模型打分的方法、陷阱与产品化改造",
+    "level": "L2",
+    "depth": "进阶",
+    "angle": "评测度量/自动评测",
+    "keywords_snippet": "LLM-as-judge,自动评测"
+  },
+  {
+    "module": "15",
+    "date": "2026-08-24",
+    "topic": "模型路由",
+    "title": "模型路由设计：用便宜模型分流降本、贵模型保质量的工程实践",
+    "level": "L2",
+    "depth": "进阶",
+    "angle": "成本运营/模型路由降本",
+    "keywords_snippet": "模型路由,成本运营"
+  },
+  {
+    "module": "15",
+    "date": "2026-08-24",
+    "topic": "幻觉缓解",
+    "title": "幻觉的产品级缓解：引用溯源、免责声明与兜底话术的组合拳",
+    "level": "L2",
+    "depth": "进阶",
+    "angle": "质量信任/幻觉缓解",
+    "keywords_snippet": "幻觉缓解,引用溯源"
+  },
+  {
+    "module": "15",
+    "date": "2026-08-24",
+    "topic": "灰度回滚",
+    "title": "AI 功能的灰度与回滚：生成式能力如何安全上线不翻车",
+    "level": "L2",
+    "depth": "进阶",
+    "angle": "上线治理/灰度回滚",
+    "keywords_snippet": "灰度回滚,上线治理"
+  },
+  {
+    "module": "15",
+    "date": "2026-08-24",
+    "topic": "验收标准",
+    "title": "AI 产品的验收标准怎么写：用可观测指标替代效果好的模糊验收",
+    "level": "L2",
+    "depth": "进阶",
+    "angle": "需求协作/验收标准",
+    "keywords_snippet": "验收标准,可观测指标"
+  },
+  {
+    "module": "15",
+    "date": "2026-08-25",
+    "topic": "AI数据飞轮",
+    "title": "AI 数据飞轮设计：把用户行为变成模型进化的燃料",
+    "level": "L2",
+    "depth": "中",
+    "angle": "用户行为反馈闭环驱动模型迭代",
+    "keywords_snippet": "数据飞轮/用户反馈/模型迭代/Harness/持续预训练"
+  },
+  {
+    "module": "15",
+    "date": "2026-08-25",
+    "topic": "AI出海本地化",
+    "title": "AI 应用出海本地化流水线：从 UI 翻译到行为本地化",
+    "level": "L2",
+    "depth": "中",
+    "angle": "六层行为本地化与合规治理",
+    "keywords_snippet": "出海本地化/多语言Prompt/数据驻留/文化校准"
+  },
+  {
+    "module": "15",
+    "date": "2026-08-25",
+    "topic": "AI冷启动",
+    "title": "AI 产品冷启动路线图：四步找到愿意付费的种子用户",
+    "level": "L2",
+    "depth": "中",
+    "angle": "0到1种子用户与PMF验证",
+    "keywords_snippet": "冷启动/种子用户/PMF/单位经济"
+  },
+  {
+    "module": "15",
+    "date": "2026-08-25",
+    "topic": "AI用户预期管理",
+    "title": "用户预期管理：化解 AI 能力幻觉带来的信任流失",
+    "level": "L2",
+    "depth": "中",
+    "angle": "承诺与交付落差治理",
+    "keywords_snippet": "信任危机/预期管理/过度承诺/可解释"
+  },
+  {
+    "module": "15",
+    "date": "2026-08-25",
+    "topic": "Perplexity案例",
+    "title": "案例拆解：Perplexity 答案引擎的产品架构与增长杠杆",
+    "level": "L2",
+    "depth": "中",
+    "angle": "答案引擎架构与Agent转型",
+    "keywords_snippet": "Perplexity/答案引擎/模型路由/Agent"
+  },
+  {
+    "module": "15",
+    "date": "2026-08-25",
+    "topic": "AI伦理护栏",
+    "title": "AI 产品伦理护栏：从负责任 AI 原则到可落地产品机制",
+    "level": "L2",
+    "depth": "中",
+    "angle": "可解释可控可审计落地",
+    "keywords_snippet": "伦理护栏/可解释/同意框架/审计轨迹"
   }
 ]

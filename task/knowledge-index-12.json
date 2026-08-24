@@ -2568,5 +2568,65 @@
     "depth": "900",
     "angle": "创业视角",
     "keywords_snippet": "无人装备 无人船 深海机器人 雪窦 深海智人"
+  },
+  {
+    "module": "12",
+    "date": "2026-08-25",
+    "topic": "独立开发者AI SaaS",
+    "title": "独立开发者AI SaaS：一人撑起付费工具",
+    "level": "L2",
+    "depth": "中",
+    "angle": "micro-SaaS单人付费工具商业模式与复制路径",
+    "keywords_snippet": "micro-SaaS 一人公司 MRR 独立开发 Stripe 订阅"
+  },
+  {
+    "module": "12",
+    "date": "2026-08-25",
+    "topic": "AI插件上架变现",
+    "title": "AI插件上架变现：把工作流封装成数字商品",
+    "level": "L3",
+    "depth": "中",
+    "angle": "GPTs与插件分层收费及平台分发红利",
+    "keywords_snippet": "GPTs Store 浏览器插件 插件变现 分层订阅 工作流封装"
+  },
+  {
+    "module": "12",
+    "date": "2026-08-25",
+    "topic": "Product Hunt冷启动获客",
+    "title": "Product Hunt冷启动：海外AI产品冲榜获客法",
+    "level": "L2",
+    "depth": "中",
+    "angle": "PH冲榜算法与冷启动获客打法",
+    "keywords_snippet": "Product Hunt 冷启动 冲榜 获客 AI工具 发布"
+  },
+  {
+    "module": "12",
+    "date": "2026-08-25",
+    "topic": "一人公司出海收款合规",
+    "title": "一人公司出海收款：Stripe跨境收钱合规链",
+    "level": "L3",
+    "depth": "中",
+    "angle": "海外公司注册与Stripe跨境收款合规闭环",
+    "keywords_snippet": "出海收款 Stripe 怀俄明LLC 跨境合规 海外公司"
+  },
+  {
+    "module": "12",
+    "date": "2026-08-25",
+    "topic": "AI代运营矩阵",
+    "title": "AI代运营矩阵：用AI接企业内容的代服务生意",
+    "level": "L2",
+    "depth": "中",
+    "angle": "AI内容代运营SOP与套餐定价",
+    "keywords_snippet": "AI代运营 短视频矩阵 数字人 代服务 SOP"
+  },
+  {
+    "module": "12",
+    "date": "2026-08-25",
+    "topic": "AI知识付费小报",
+    "title": "AI知识付费小报：围绕垂直人群做付费订阅",
+    "level": "L3",
+    "depth": "中",
+    "angle": "垂直newsletter付费订阅与混合变现",
+    "keywords_snippet": "AI newsletter 知识付费 付费订阅 Beehiiv 小报"
   }
 ]
