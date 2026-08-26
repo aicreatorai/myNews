@@ -2318,5 +2318,65 @@
     "depth": "中",
     "angle": "Mojo 1.0 稳定 API 与 Python 双向互操作",
     "keywords_snippet": "Mojo 1.0 AI 系统语言 Python 互操作 MLIR"
+  },
+  {
+    "module": "09",
+    "date": "2026-08-27",
+    "topic": "Rust async 状态机",
+    "title": "Rust async 状态机：async/await 如何被编译成 Future 与 Pin",
+    "level": "L3",
+    "depth": "进阶",
+    "angle": "编译器改写与运行时契约拆解",
+    "keywords_snippet": "Future poll Pin Waker 状态机 惰性 tokio"
+  },
+  {
+    "module": "09",
+    "date": "2026-08-27",
+    "topic": "LuaJIT 追踪 JIT 与 FFI",
+    "title": "LuaJIT 追踪编译与 FFI：嵌入式脚本为何仍是动态语言性能标杆",
+    "level": "L2",
+    "depth": "中阶",
+    "angle": "trace 成立与失效的性能画像",
+    "keywords_snippet": "tracing JIT trace abort guard FFI cdef OpenResty SciMark"
+  },
+  {
+    "module": "09",
+    "date": "2026-08-27",
+    "topic": "OCaml 5 效应处理器与域并行",
+    "title": "OCaml 5 效应处理器与域并行：函数式语言的多核破局",
+    "level": "L2",
+    "depth": "中阶",
+    "angle": "effect handlers 统一并发原语与 domain GC 模型",
+    "keywords_snippet": "OCaml 5.4 domain effect handlers Eio io_uring Switch Atomic"
+  },
+  {
+    "module": "09",
+    "date": "2026-08-27",
+    "topic": "Nim ORC 内存管理",
+    "title": "Nim 2.x 的 ORC 内存管理：编译到 C、没有 GC 停顿的系统语言",
+    "level": "L2",
+    "depth": "中阶",
+    "angle": "引用计数加试验删除的确定性析构",
+    "keywords_snippet": "Nim 2.2 mm:orc arc trial deletion acyclic expandArc 编译到C Nimony"
+  },
+  {
+    "module": "09",
+    "date": "2026-08-27",
+    "topic": "Ruby ZJIT 与 YJIT 架构对比",
+    "title": "Ruby 3.5 ZJIT 与 YJIT 并存：两种 JIT 架构的正面对撞",
+    "level": "L3",
+    "depth": "进阶",
+    "angle": "方法级SSA与惰性基本块版本化的编译哲学之争",
+    "keywords_snippet": "ZJIT HIR LIR SSA load-store YJIT LBBV Shopify 快速分配"
+  },
+  {
+    "module": "09",
+    "date": "2026-08-27",
+    "topic": "Carbon 语言与 C++ 迁移",
+    "title": "Carbon 语言实验进展：Google 给 C++ 准备的可双向互操作后继者",
+    "level": "L1",
+    "depth": "入门",
+    "angle": "后继语言范式与渐进内存安全路线评估",
+    "keywords_snippet": "Carbon 双向互操作 places place sets strict permissive 0.1 里程碑 TIOBE"
   }
 ]

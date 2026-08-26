@@ -2628,5 +2628,65 @@
     "depth": "中",
     "angle": "垂直newsletter付费订阅与混合变现",
     "keywords_snippet": "AI newsletter 知识付费 付费订阅 Beehiiv 小报"
+  },
+  {
+    "module": "12",
+    "date": "2026-08-27",
+    "topic": "AI工具按效果收费",
+    "title": "AI工具按效果收费：把计费单位从座位改成结果跑通毛利",
+    "level": "L2",
+    "depth": "中阶",
+    "angle": "AI产品定价模型",
+    "keywords_snippet": "按结果计费,混合订阅,usage-based"
+  },
+  {
+    "module": "12",
+    "date": "2026-08-27",
+    "topic": "垂直行业AI实施伙伴",
+    "title": "垂直行业AI实施伙伴：做企业落地的系统集成商",
+    "level": "L3",
+    "depth": "进阶",
+    "angle": "企业AI落地服务交付",
+    "keywords_snippet": "AI原生服务公司,系统集成,实施伙伴"
+  },
+  {
+    "module": "12",
+    "date": "2026-08-27",
+    "topic": "开源AI双轨商业化",
+    "title": "开源AI项目双轨商业化：在免费与付费间找平衡",
+    "level": "L2",
+    "depth": "中阶",
+    "angle": "开源项目变现",
+    "keywords_snippet": "open-core,分成协议,API收费"
+  },
+  {
+    "module": "12",
+    "date": "2026-08-27",
+    "topic": "AI陪跑咨询",
+    "title": "AI陪跑咨询：高客单落地服务如何收企业年费",
+    "level": "L3",
+    "depth": "进阶",
+    "angle": "高客单服务变现",
+    "keywords_snippet": "AI陪跑,年费,收益分成"
+  },
+  {
+    "module": "12",
+    "date": "2026-08-27",
+    "topic": "RAG企业知识库创业",
+    "title": "RAG企业知识库创业：把私有文档接进大模型变现",
+    "level": "L2",
+    "depth": "中阶",
+    "angle": "私有知识检索落地",
+    "keywords_snippet": "RAG,向量数据库,知识库创业"
+  },
+  {
+    "module": "12",
+    "date": "2026-08-27",
+    "topic": "AI消费硬件创业",
+    "title": "AI消费硬件创业：软硬一体从玩具到耳机的打法",
+    "level": "L3",
+    "depth": "进阶",
+    "angle": "软硬一体订阅变现",
+    "keywords_snippet": "AI玩具,硬件订阅,陪伴硬件"
   }
 ]

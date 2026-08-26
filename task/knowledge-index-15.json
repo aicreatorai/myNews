@@ -2738,5 +2738,65 @@
     "depth": "中",
     "angle": "可解释可控可审计落地",
     "keywords_snippet": "伦理护栏/可解释/同意框架/审计轨迹"
+  },
+  {
+    "module": "15",
+    "date": "2026-08-27",
+    "topic": "PM写prompt协作：把产品需求转译为可复用的提示词资产",
+    "title": "PM 写 prompt 的协作：把产品需求转译为可复用的提示词资产",
+    "level": "L2",
+    "depth": "中阶",
+    "angle": "提示词资产化与跨职能协作",
+    "keywords_snippet": "CRISP框架, Golden Prompts, Prompt Registry, 提示词版本化"
+  },
+  {
+    "module": "15",
+    "date": "2026-08-27",
+    "topic": "AI功能效果度量：用任务成功率TSR替代模糊好用",
+    "title": "AI 功能的效果度量：用任务成功率替代模糊的好用",
+    "level": "L2",
+    "depth": "中阶",
+    "angle": "任务成功率度量与lab-production鸿沟",
+    "keywords_snippet": "Task Success Rate, 首次解决率, 人类接管率, 回归指标"
+  },
+  {
+    "module": "15",
+    "date": "2026-08-27",
+    "topic": "AI评测集建设：用可复用评测集驱动验收与回归",
+    "title": "AI 评测集建设：用可复用评测集驱动模型验收与回归",
+    "level": "L2",
+    "depth": "中阶",
+    "angle": "评测集规模与持续评估",
+    "keywords_snippet": "golden set, 回归集, 对抗集, LLM-as-judge"
+  },
+  {
+    "module": "15",
+    "date": "2026-08-27",
+    "topic": "AI能力封装为API产品化：从内部功能到可调用服务",
+    "title": "AI 能力封装为 API 的产品化：从内部功能到可调用服务",
+    "level": "L3",
+    "depth": "中阶",
+    "angle": "AI API成熟度模型与网关治理",
+    "keywords_snippet": "AI API成熟度模型, LLM Gateway, 虚拟密钥, FinOps"
+  },
+  {
+    "module": "15",
+    "date": "2026-08-27",
+    "topic": "AI功能定价策略：token结果与席位三类产品化定价",
+    "title": "AI 功能的定价策略：token、结果与席位三类产品化定价",
+    "level": "L3",
+    "depth": "中阶",
+    "angle": "AI定价模式与单位经济",
+    "keywords_snippet": "按token计费, 按结果定价, 订阅席位, 混合定价"
+  },
+  {
+    "module": "15",
+    "date": "2026-08-27",
+    "topic": "AI原生交互范式：从点击GUI到意图驱动的自然语言交互",
+    "title": "AI 原生交互范式：从点击 GUI 到意图驱动的自然语言交互",
+    "level": "L2",
+    "depth": "中阶",
+    "angle": "意图驱动与生成式UI",
+    "keywords_snippet": "AI-native, Intent-as-an-Interface, 对话式UI, 生成式UI"
   }
 ]

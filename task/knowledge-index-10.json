@@ -2588,5 +2588,185 @@
     "depth": "深",
     "angle": "分布式模型推理服务平台",
     "keywords_snippet": "Xinference, 分布式推理, OpenAI兼容, 多引擎, Xoscar"
+  },
+  {
+    "module": "10",
+    "date": "2026-08-27",
+    "topic": "Gradio",
+    "title": "Gradio：Hugging Face 出品的机器学习演示 Web UI 框架",
+    "level": "L2",
+    "depth": "中阶",
+    "angle": "机器学习 Demo UI 与 MCP 化",
+    "keywords_snippet": "Gradio, Hugging Face, 机器学习演示, SSR, MCP Server"
+  },
+  {
+    "module": "10",
+    "date": "2026-08-27",
+    "topic": "Streamlit",
+    "title": "Streamlit：Snowflake 开源的 Python 数据应用框架",
+    "level": "L2",
+    "depth": "中阶",
+    "angle": "Python 数据应用与内部工具",
+    "keywords_snippet": "Streamlit, Snowflake, 数据应用, 脚本即应用, Community Cloud"
+  },
+  {
+    "module": "10",
+    "date": "2026-08-27",
+    "topic": "PostHog",
+    "title": "PostHog：开源产品分析平台",
+    "level": "L2",
+    "depth": "中阶",
+    "angle": "产品分析与会话回放一体化",
+    "keywords_snippet": "PostHog, 产品分析, 会话回放, 特性标志, self-driving"
+  },
+  {
+    "module": "10",
+    "date": "2026-08-27",
+    "topic": "Sentry",
+    "title": "Sentry：开源错误追踪与应用性能监控",
+    "level": "L2",
+    "depth": "中阶",
+    "angle": "错误聚合与 AI 排障",
+    "keywords_snippet": "Sentry, 错误追踪, APM, Seer, 面包屑"
+  },
+  {
+    "module": "10",
+    "date": "2026-08-27",
+    "topic": "uv",
+    "title": "uv：Astral 出品的 Rust Python 包管理器",
+    "level": "L2",
+    "depth": "中阶",
+    "angle": "Python 依赖管理与极速安装",
+    "keywords_snippet": "uv, Astral, Rust, Python 包管理, uv.lock"
+  },
+  {
+    "module": "10",
+    "date": "2026-08-27",
+    "topic": "Bun",
+    "title": "Bun：JavaScriptCore 驱动的 JS 运行时与包管理器",
+    "level": "L2",
+    "depth": "中阶",
+    "angle": "JS 全工具链一体化与提速",
+    "keywords_snippet": "Bun, JavaScriptCore, 运行时, 包管理器, Rust 重写"
+  },
+  {
+    "module": "10",
+    "date": "2026-08-27",
+    "topic": "vLLM 高性能大模型推理引擎",
+    "title": "vLLM：把大模型推理吞吐拉满的高性能引擎",
+    "level": "L2",
+    "depth": "中阶",
+    "angle": "推理性能与显存优化",
+    "keywords_snippet": "PagedAttention,连续批处理,OpenAI兼容API,张量并行"
+  },
+  {
+    "module": "10",
+    "date": "2026-08-27",
+    "topic": "Dify 开源 LLM 应用开发平台",
+    "title": "Dify：可视化编排的开源 LLM 应用开发平台",
+    "level": "L2",
+    "depth": "中阶",
+    "angle": "低代码与 LLMOps",
+    "keywords_snippet": "工作流画布,RAG管线,Agent框架,私有化部署"
+  },
+  {
+    "module": "10",
+    "date": "2026-08-27",
+    "topic": "Milvus 向量数据库",
+    "title": "Milvus：海量向量的高性能相似度检索引擎",
+    "level": "L2",
+    "depth": "中阶",
+    "angle": "向量检索与大规模",
+    "keywords_snippet": "ANN索引,HNSW,湖原生,混合检索"
+  },
+  {
+    "module": "10",
+    "date": "2026-08-27",
+    "topic": "AutoGen 多智能体框架",
+    "title": "AutoGen：微软出品的对话式多智能体框架",
+    "level": "L2",
+    "depth": "中阶",
+    "angle": "多智能体协作",
+    "keywords_snippet": "可对话Agent,GroupChat,代码执行沙箱,维护模式"
+  },
+  {
+    "module": "10",
+    "date": "2026-08-27",
+    "topic": "Open WebUI 自托管大模型界面",
+    "title": "Open WebUI：自托管的大模型私聊界面",
+    "level": "L1",
+    "depth": "入门",
+    "angle": "私有化UI与RAG",
+    "keywords_snippet": "自托管,多用户RBAC,RAG,MCP"
+  },
+  {
+    "module": "10",
+    "date": "2026-08-27",
+    "topic": "Bun JavaScript 工具链",
+    "title": "Bun：一把梭的 JavaScript 全栈工具链",
+    "level": "L2",
+    "depth": "中阶",
+    "angle": "运行时与性能",
+    "keywords_snippet": "JavaScriptCore,包管理器,打包器,极速启动"
+  },
+  {
+    "module": "10",
+    "date": "2026-08-27",
+    "topic": "Gradio",
+    "title": "Gradio：Hugging Face 出品的机器学习演示 Web UI 框架",
+    "level": "L2 延展应用",
+    "depth": "中阶",
+    "angle": "用几行 Python 把模型变成可分享网页",
+    "keywords_snippet": "Gradio,机器学习演示,Web UI,Hugging Face"
+  },
+  {
+    "module": "10",
+    "date": "2026-08-27",
+    "topic": "Streamlit",
+    "title": "Streamlit：Snowflake 开源的 Python 数据应用框架",
+    "level": "L2 延展应用",
+    "depth": "中阶",
+    "angle": "脚本即应用的低代码数据 App",
+    "keywords_snippet": "Streamlit,数据应用,Python,Snowflake"
+  },
+  {
+    "module": "10",
+    "date": "2026-08-27",
+    "topic": "PostHog",
+    "title": "PostHog：开源产品分析平台",
+    "level": "L2 延展应用",
+    "depth": "中阶",
+    "angle": "自托管替代商业分析",
+    "keywords_snippet": "PostHog,产品分析,开源,自托管"
+  },
+  {
+    "module": "10",
+    "date": "2026-08-27",
+    "topic": "Sentry",
+    "title": "Sentry：开源错误追踪与应用性能监控",
+    "level": "L2 延展应用",
+    "depth": "中阶",
+    "angle": "异常聚合与性能溯源",
+    "keywords_snippet": "Sentry,错误追踪,APM,监控"
+  },
+  {
+    "module": "10",
+    "date": "2026-08-27",
+    "topic": "uv",
+    "title": "uv：Astral 出品的 Rust Python 包管理器",
+    "level": "L2 延展应用",
+    "depth": "中阶",
+    "angle": "Rust 重写的极速依赖管理",
+    "keywords_snippet": "uv,Rust,Python 包管理,Astral"
+  },
+  {
+    "module": "10",
+    "date": "2026-08-27",
+    "topic": "Bun",
+    "title": "Bun：JavaScriptCore 驱动的 JS 运行时与包管理器",
+    "level": "L2 延展应用",
+    "depth": "中阶",
+    "angle": "一体化 JS 运行时提速",
+    "keywords_snippet": "Bun,JS 运行时,JavaScriptCore,包管理"
   }
 ]

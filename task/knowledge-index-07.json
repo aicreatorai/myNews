@@ -3048,5 +3048,125 @@
     "depth": "实践层",
     "angle": "选择性扫描替代注意力的线性序列建模与混合架构",
     "keywords_snippet": "Mamba 状态空间模型 SSM 选择性扫描 线性复杂度 混合架构"
+  },
+  {
+    "module": "07",
+    "date": "2026-08-26",
+    "topic": "采样解码策略",
+    "title": "采样与解码策略：温度、Top-p 与 min-p 如何选定下一个词",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "从logits到token选择的截断判据对比",
+    "keywords_snippet": "temperature top-p min-p 核采样 贪心 多项式抽样"
+  },
+  {
+    "module": "07",
+    "date": "2026-08-26",
+    "topic": "Mixture-of-Depths自适应计算",
+    "title": "Mixture-of-Depths 与早退机制：让简单 token 少花算力",
+    "level": "L3",
+    "depth": "实践层",
+    "angle": "深度方向稀疏与逐token算力分配",
+    "keywords_snippet": "MoD 早退 early exit 容量因子 路由器 自投机"
+  },
+  {
+    "module": "07",
+    "date": "2026-08-26",
+    "topic": "Triton算子融合",
+    "title": "Triton 与算子融合：用 Python 写出接近手工 CUDA 的 GPU 内核",
+    "level": "L3",
+    "depth": "实践层",
+    "angle": "从算术强度与分块理解带宽受限优化",
+    "keywords_snippet": "Triton 算子融合 kernel 分块 算术强度 TorchInductor"
+  },
+  {
+    "module": "07",
+    "date": "2026-08-26",
+    "topic": "梯度检查点激活重计算",
+    "title": "梯度检查点与激活重计算：用重算换显存把大模型训起来",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "时间空间权衡与根号n分段最优",
+    "keywords_snippet": "gradient checkpointing 激活重计算 use_reentrant 显存峰值"
+  },
+  {
+    "module": "07",
+    "date": "2026-08-26",
+    "topic": "生成内容水印SynthID",
+    "title": "生成内容水印 SynthID：把不可见标记嵌进模型输出的采样过程",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "锦标赛采样与可检测性对分布保真的权衡",
+    "keywords_snippet": "SynthID 水印 锦标赛采样 红绿名单 ngram_len 贝叶斯检测器"
+  },
+  {
+    "module": "07",
+    "date": "2026-08-26",
+    "topic": "muP超参迁移",
+    "title": "muP 最大更新参数化：小模型上调好的超参直接迁到大模型",
+    "level": "L4",
+    "depth": "前沿层",
+    "angle": "按宽度缩放让最优学习率零样本迁移",
+    "keywords_snippet": "muP 最大更新参数化 coord check base shapes 注意力1/d缩放"
+  },
+  {
+    "module": "07",
+    "date": "2026-08-27",
+    "topic": "混合专家MoE路由",
+    "title": "混合专家MoE路由：每个token只唤醒少数专家子网络",
+    "level": "L2 技术层",
+    "depth": "中阶",
+    "angle": "稀疏激活架构与负载均衡",
+    "keywords_snippet": "MoE 混合专家 路由 稀疏激活 负载均衡 专家坍塌 top-k"
+  },
+  {
+    "module": "07",
+    "date": "2026-08-27",
+    "topic": "LoRA与QLoRA参数高效微调",
+    "title": "LoRA与QLoRA参数高效微调：用低秩适配给大模型打补丁",
+    "level": "L2 技术层",
+    "depth": "中阶",
+    "angle": "参数高效微调与低秩适配",
+    "keywords_snippet": "LoRA QLoRA 低秩适配 PEFT 4bit量化 NF4 适配器"
+  },
+  {
+    "module": "07",
+    "date": "2026-08-27",
+    "topic": "知识蒸馏软标签",
+    "title": "知识蒸馏软标签：用teacher的概率分布训练student",
+    "level": "L2 技术层",
+    "depth": "中阶",
+    "angle": "师生蒸馏与暗知识迁移",
+    "keywords_snippet": "知识蒸馏 软标签 暗知识 Hinton DeepSeek-R1 温度蒸馏"
+  },
+  {
+    "module": "07",
+    "date": "2026-08-27",
+    "topic": "模型剪枝",
+    "title": "模型剪枝：砍掉冗余连接把大模型瘦下来",
+    "level": "L2 技术层",
+    "depth": "中阶",
+    "angle": "模型压缩与免训练稀疏化",
+    "keywords_snippet": "模型剪枝 稀疏 非结构化 结构化 SparseGPT Wanda 幅度剪枝"
+  },
+  {
+    "module": "07",
+    "date": "2026-08-27",
+    "topic": "测试时计算TTC",
+    "title": "测试时计算TTC：推理阶段多想一会儿反而更准",
+    "level": "L3 实践层",
+    "depth": "中阶",
+    "angle": "推理时缩放与思考预算",
+    "keywords_snippet": "测试时计算 TTC 推理时缩放 o1 自一致性 best-of-N 验证器"
+  },
+  {
+    "module": "07",
+    "date": "2026-08-27",
+    "topic": "Agent记忆",
+    "title": "Agent记忆：让智能体跨会话记住长期上下文",
+    "level": "L3 实践层",
+    "depth": "中阶",
+    "angle": "智能体长期记忆与分层架构",
+    "keywords_snippet": "Agent记忆 MemGPT Letta 长期记忆 分层 睡眠计算 归档"
   }
 ]
