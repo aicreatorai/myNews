@@ -2636,5 +2636,65 @@
     "depth": "中",
     "angle": "电商海报一键生成",
     "keywords_snippet": "AI海报,电商,场景模板"
+  },
+  {
+    "module": "08",
+    "date": "2026-08-28",
+    "topic": "终端编程 Agent",
+    "title": "Claude Code：在终端里派一个会自己跑任务的编程搭档",
+    "level": "L2",
+    "depth": 900,
+    "angle": "终端优先的自主编程 Agent 与实战工作流",
+    "keywords_snippet": "Claude Code 终端 Agent Skills Subagents Plan Mode Memory"
+  },
+  {
+    "module": "08",
+    "date": "2026-08-28",
+    "topic": "文生视频",
+    "title": "Sora：用一句话生成电影级连贯短视频",
+    "level": "L2",
+    "depth": 900,
+    "angle": "长镜头连贯叙事与四要素提示词工作流",
+    "keywords_snippet": "Sora 文生视频 长镜头 四要素提示词 概念层叙事层感官层"
+  },
+  {
+    "module": "08",
+    "date": "2026-08-28",
+    "topic": "国产图像视频",
+    "title": "即梦 AI：字节出品的国产文生图与图生视频一体机",
+    "level": "L2",
+    "depth": 900,
+    "angle": "中文原生国风出图与图生视频流水线",
+    "keywords_snippet": "即梦 AI 文生图 图生视频 国风 中文提示词 剪映生态"
+  },
+  {
+    "module": "08",
+    "date": "2026-08-28",
+    "topic": "国产全能助手",
+    "title": "豆包：字节系国产全能 AI 助手，零门槛提效",
+    "level": "L2",
+    "depth": 900,
+    "angle": "生活创作与短视频脚本的零门槛用法",
+    "keywords_snippet": "豆包 Seed 全能助手 小红书文案 短视频脚本 修图 生态互通"
+  },
+  {
+    "module": "08",
+    "date": "2026-08-28",
+    "topic": "办公文档 AI",
+    "title": "WPS AI：把文档、表格、PPT 一站式变聪明的办公助手",
+    "level": "L2",
+    "depth": 900,
+    "angle": "文档进PPT出的办公自动化闭环",
+    "keywords_snippet": "WPS AI 办公 PPT 大纲生成 智能美化 文档解析 本土化"
+  },
+  {
+    "module": "08",
+    "date": "2026-08-28",
+    "topic": "国产企业办公",
+    "title": "通义千问：阿里系国产 AI，长文档与企业办公一把抓",
+    "level": "L2",
+    "depth": 900,
+    "angle": "本土知识与企业生态集成的办公用法",
+    "keywords_snippet": "通义千问 Qwen 长文档 钉钉 电商文案 政务办事 阿里生态"
   }
 ]

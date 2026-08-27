@@ -2378,5 +2378,65 @@
     "depth": "入门",
     "angle": "后继语言范式与渐进内存安全路线评估",
     "keywords_snippet": "Carbon 双向互操作 places place sets strict permissive 0.1 里程碑 TIOBE"
+  },
+  {
+    "module": "09",
+    "date": "2026-08-28",
+    "topic": "Bun 1.4 运行时与包管理器",
+    "title": "Bun 1.4 发布：用 Rust 重写、从 Zig 迁移 9000 行的 JS 运行时与包管理器一体化",
+    "level": "L2",
+    "depth": 900,
+    "angle": "AI 辅助下的供应链护栏与一体化工具链",
+    "keywords_snippet": "Bun Rust 重写 包管理器 pm diff audit fix SHA-512"
+  },
+  {
+    "module": "09",
+    "date": "2026-08-28",
+    "topic": "Go 与 AI 辅助编程",
+    "title": "Google 为何称 Go 是 AI 辅助编程的标准答案：可读性与编译期护栏",
+    "level": "L2",
+    "depth": 900,
+    "angle": "静态类型降低 AI 生成代码的总拥有成本",
+    "keywords_snippet": "Go AI 辅助编程 可读性 fuzzing 编译期护栏"
+  },
+  {
+    "module": "09",
+    "date": "2026-08-28",
+    "topic": "JIT 编译的能耗效率",
+    "title": "JIT 编译的能耗账单：七语言实测执行快 65%、DRAM 能耗降 57%",
+    "level": "L2",
+    "depth": 900,
+    "angle": "JIT 不止提速还显著降低能耗",
+    "keywords_snippet": "JIT 能耗 SLE 26 RAPL CPU DRAM"
+  },
+  {
+    "module": "09",
+    "date": "2026-08-28",
+    "topic": "TrueJIT 集中式 WASM JIT",
+    "title": "TrueJIT：用 LSTM 预测编译序列，把集中式 WASM JIT 延迟压低 1–2 个数量级",
+    "level": "L2",
+    "depth": 900,
+    "angle": "机器学习预测编译序列以隐藏 JIT 延迟",
+    "keywords_snippet": "TrueJIT LSTM 集中式 JIT WASM MPLR"
+  },
+  {
+    "module": "09",
+    "date": "2026-08-28",
+    "topic": "语言级内存安全",
+    "title": "语言级内存安全的两大维度：语法约束与语义校验如何分工（2026 SoK 综述）",
+    "level": "L2",
+    "depth": 900,
+    "angle": "语法约束与语义校验两维度分工",
+    "keywords_snippet": "内存安全 语法约束 语义校验 SoK Rust unsafe SoftBound"
+  },
+  {
+    "module": "09",
+    "date": "2026-08-28",
+    "topic": "2026 语言四大力量",
+    "title": "2026 语言四大力量：内存安全、全类型化、WASM、AI 共写如何重塑选型",
+    "level": "L2",
+    "depth": 900,
+    "angle": "四股力量重塑语言选型决策",
+    "keywords_snippet": "内存安全 类型化 WASM AI 共写 选型"
   }
 ]

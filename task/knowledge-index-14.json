@@ -2718,5 +2718,65 @@
     "depth": "中阶",
     "angle": "行为改变与身份层",
     "keywords_snippet": "identity-based habits, Atomic Habits, 自我知觉, 认知失调"
+  },
+  {
+    "module": "14",
+    "date": "2026-08-28",
+    "topic": "主动回忆与间隔重复",
+    "title": "主动回忆与间隔重复：用测试效应把遗忘掰成记忆优势",
+    "level": "L2",
+    "depth": 900,
+    "angle": "测试效应与间隔巩固的循证学习技术",
+    "keywords_snippet": "主动回忆 间隔重复 测试效应 提取练习 遗忘曲线"
+  },
+  {
+    "module": "14",
+    "date": "2026-08-28",
+    "topic": "福格行为模型",
+    "title": "福格行为模型：用动机×能力×提示三要素让好习惯自动发生",
+    "level": "L2",
+    "depth": 900,
+    "angle": "行为设计三要素与微习惯养成",
+    "keywords_snippet": "福格行为模型 动机 能力 提示 微习惯 行为设计 Fogg"
+  },
+  {
+    "module": "14",
+    "date": "2026-08-28",
+    "topic": "五秒法则",
+    "title": "五秒法则：用倒数计时截断过度思考直接行动",
+    "level": "L2",
+    "depth": 900,
+    "angle": "倒数打断犹豫的行动启动术",
+    "keywords_snippet": "五秒法则 行动启动 打断习惯回路 倒数 Mel Robbins"
+  },
+  {
+    "module": "14",
+    "date": "2026-08-28",
+    "topic": "WOOP与执行意图",
+    "title": "WOOP心理对照与执行意图：用如果-那么接上自动行动",
+    "level": "L2",
+    "depth": 900,
+    "angle": "如果-那么预编程缩窄意图行为鸿沟",
+    "keywords_snippet": "WOOP 执行意图 心理对照 如果-那么 Gollwitzer Oettingen"
+  },
+  {
+    "module": "14",
+    "date": "2026-08-28",
+    "topic": "帕金森定律",
+    "title": "帕金森定律：用压缩时限逼出真实效率",
+    "level": "L2",
+    "depth": 900,
+    "angle": "压缩时限挤掉工作注水的效率原则",
+    "keywords_snippet": "帕金森定律 时间盒 截止期 预承诺 效率"
+  },
+  {
+    "module": "14",
+    "date": "2026-08-28",
+    "topic": "反思性复盘",
+    "title": "反思性复盘：用战后复盘把经历提炼成能力资产",
+    "level": "L2",
+    "depth": 900,
+    "angle": "AAR式复盘把经历转成可复用能力",
+    "keywords_snippet": "反思性复盘 战后复盘 AAR 体验学习循环 舍恩 Kolb"
   }
 ]

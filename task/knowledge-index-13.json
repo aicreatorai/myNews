@@ -1738,5 +1738,55 @@
     "depth": "入门",
     "angle": "对话式阅读与屏幕红线",
     "keywords_snippet": "对话式阅读 文本外话语 去情境化语言 成人回路 屏幕时间"
+  },
+  {
+    "module": "13",
+    "date": "2026-08-28",
+    "topic": "AI课本学习智能体",
+    "title": "AI课本学习智能体：把静态教材变成可交互的个性化学习服务",
+    "level": "L2",
+    "depth": 900,
+    "angle": "教材对齐与内容安全底线",
+    "keywords_snippet": "课本智能体/教材对齐/知识幻觉/个性化导学"
+  },
+  {
+    "module": "13",
+    "date": "2026-08-28",
+    "topic": "AI因材施教评估体系",
+    "title": "AI因材施教评估体系：用铁路路线图模型追踪每个学生的学习站台",
+    "level": "L2",
+    "depth": 900,
+    "angle": "铁路路线图模型与后设认知",
+    "keywords_snippet": "EASE/因材施教/自适应难度/后设认知"
+  },
+  {
+    "module": "13",
+    "date": "2026-08-28",
+    "topic": "人工智能全学段进课堂",
+    "title": "人工智能全学段进课堂：十五五课时落地与韩国全民战略",
+    "level": "L2",
+    "depth": 900,
+    "angle": "全学段课时落地与中外路径",
+    "keywords_snippet": "十五五/AI通识课/工艺导师/韩国全民AI"
+  },
+  {
+    "module": "13",
+    "date": "2026-08-28",
+    "topic": "AI编程导师范式转移",
+    "title": "AI编程导师范式转移：从替你补全到引导你写",
+    "level": "L2",
+    "depth": 900,
+    "angle": "导师vs补全与生成效应",
+    "keywords_snippet": "编程导师/Learn Mode/Cognition Palette/生成效应"
+  },
+  {
+    "module": "13",
+    "date": "2026-08-28",
+    "topic": "AI教育循证评价",
+    "title": "AI教育循证评价：用语义分析与情感计算重塑思政等场景的评价",
+    "level": "L2",
+    "depth": 900,
+    "angle": "多模态循证评价与伦理护栏",
+    "keywords_snippet": "循证评价/语义分析/情感计算/知识图谱/算法审计"
   }
 ]

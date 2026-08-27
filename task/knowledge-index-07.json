@@ -3168,5 +3168,65 @@
     "depth": "中阶",
     "angle": "智能体长期记忆与分层架构",
     "keywords_snippet": "Agent记忆 MemGPT Letta 长期记忆 分层 睡眠计算 归档"
+  },
+  {
+    "module": "07",
+    "date": "2026-08-28",
+    "topic": "线性注意力",
+    "title": "线性注意力Linear Attention：用核技巧把注意力的平方复杂度降到线性",
+    "level": "L1",
+    "depth": 900,
+    "angle": "用核函数与矩阵结合律把O(n²)降到O(n)，并连接RNN/状态空间模型",
+    "keywords_snippet": "linear attention, kernel trick, O(n), Mamba, RetNet, 长上下文"
+  },
+  {
+    "module": "07",
+    "date": "2026-08-28",
+    "topic": "稀疏注意力NSA",
+    "title": "Native Sparse Attention 稀疏注意力：硬件对齐的分块稀疏逼近全注意力",
+    "level": "L2",
+    "depth": 900,
+    "angle": "DeepSeek的分块稀疏+端到端可训练，硬件对齐实现训练推理加速",
+    "keywords_snippet": "native sparse attention, NSA, blockwise, hardware-aligned, 长文本"
+  },
+  {
+    "module": "07",
+    "date": "2026-08-28",
+    "topic": "高级RAG",
+    "title": "高级RAG：混合检索与重排序Reranker提升召回精度",
+    "level": "L3",
+    "depth": 900,
+    "angle": "从朴素RAG到混合检索+Cross-Encoder重排+上下文压缩的生产级管线",
+    "keywords_snippet": "advanced RAG, hybrid search, BM25, reranker, cross-encoder, RAGAS"
+  },
+  {
+    "module": "07",
+    "date": "2026-08-28",
+    "topic": "多智能体协作",
+    "title": "多智能体协作框架：图状态编排与角色扮演式分工",
+    "level": "L4",
+    "depth": 900,
+    "angle": "图编排/监督式/群聊式/辩论式四种协作范式与生产落地权衡",
+    "keywords_snippet": "multi-agent, orchestration, LangGraph, CrewAI, supervisor, debate"
+  },
+  {
+    "module": "07",
+    "date": "2026-08-28",
+    "topic": "连续批处理",
+    "title": "连续批处理Continuous Batching：迭代级调度榨干GPU利用率",
+    "level": "L1",
+    "depth": 900,
+    "angle": "迭代级调度替代静态批处理，动态插入/移除请求提升吞吐",
+    "keywords_snippet": "continuous batching, iteration-level scheduling, Orca, vLLM, throughput"
+  },
+  {
+    "module": "07",
+    "date": "2026-08-28",
+    "topic": "提示缓存",
+    "title": "Prefix Caching 提示缓存：复用公共前缀省去重复计算",
+    "level": "L2",
+    "depth": 900,
+    "angle": "RadixAttention/自动前缀缓存复用相同系统提示与多轮前缀",
+    "keywords_snippet": "prefix caching, RadixAttention, SGLang, vLLM, KV reuse"
   }
 ]

@@ -2688,5 +2688,65 @@
     "depth": "进阶",
     "angle": "软硬一体订阅变现",
     "keywords_snippet": "AI玩具,硬件订阅,陪伴硬件"
+  },
+  {
+    "module": "12",
+    "date": "2026-08-28",
+    "topic": "AI医疗影像创业",
+    "title": "AI医疗影像创业：把辅助诊断做成可收费的To B服务",
+    "level": "L2",
+    "depth": 900,
+    "angle": "医疗AI To B 变现与合规准入",
+    "keywords_snippet": "医疗影像 辅助诊断 三类证 按例分润 SaaS"
+  },
+  {
+    "module": "12",
+    "date": "2026-08-28",
+    "topic": "AI数据服务创业",
+    "title": "AI数据服务创业：把行业语料做成可卖的合规数据集",
+    "level": "L2",
+    "depth": 900,
+    "angle": "数据标注与合规数据集授权变现",
+    "keywords_snippet": "数据标注 合规数据集 语料授权 RAG数据治理"
+  },
+  {
+    "module": "12",
+    "date": "2026-08-28",
+    "topic": "AI垂直模型微调交付",
+    "title": "AI垂直模型微调交付：给中小企业做私有小模型",
+    "level": "L2",
+    "depth": 900,
+    "angle": "开源模型微调与蒸馏私有交付",
+    "keywords_snippet": "模型微调 LoRA 私有部署 行业语料 蒸馏"
+  },
+  {
+    "module": "12",
+    "date": "2026-08-28",
+    "topic": "AI招聘HR SaaS",
+    "title": "AI招聘HR SaaS：用AI做简历筛选与面试安排",
+    "level": "L2",
+    "depth": 900,
+    "angle": "招聘工作流AI化与按结果收费",
+    "keywords_snippet": "招聘SaaS 简历筛选 人岗匹配 按结果收费"
+  },
+  {
+    "module": "12",
+    "date": "2026-08-28",
+    "topic": "AI编程工具出海",
+    "title": "AI编程工具出海：一人公司用自然语言做产品矩阵",
+    "level": "L2",
+    "depth": 900,
+    "angle": "一人公司AI编程产品矩阵出海变现",
+    "keywords_snippet": "AI编程 Cursor Lovable 一人公司 出海 SaaS"
+  },
+  {
+    "module": "12",
+    "date": "2026-08-28",
+    "topic": "AI工业智能体创业",
+    "title": "AI工业智能体创业：质检与预测维护的To B SaaS",
+    "level": "L2",
+    "depth": 900,
+    "angle": "工业Agent质检与预测维护To B变现",
+    "keywords_snippet": "工业智能体 视觉质检 预测维护 工艺优化 年费"
   }
 ]

@@ -2798,5 +2798,65 @@
     "depth": "中阶",
     "angle": "意图驱动与生成式UI",
     "keywords_snippet": "AI-native, Intent-as-an-Interface, 对话式UI, 生成式UI"
+  },
+  {
+    "module": "15",
+    "date": "2026-08-28",
+    "topic": "AI 产品需求验证",
+    "title": "AI 产品需求验证与 MVP 三层验证法",
+    "level": "L2",
+    "depth": 900,
+    "angle": "用结构化关卡在写代码前证明该用 AI",
+    "keywords_snippet": "需求验证/MVP/三问法/最小可行AI"
+  },
+  {
+    "module": "15",
+    "date": "2026-08-28",
+    "topic": "AI Agent 人在回路",
+    "title": "AI Agent 的“人在回路”护栏设计",
+    "level": "L2",
+    "depth": 900,
+    "angle": "高风险操作锁进人类确认环",
+    "keywords_snippet": "人在回路/HITL/护栏/确认环"
+  },
+  {
+    "module": "15",
+    "date": "2026-08-28",
+    "topic": "AI 产品可观测性",
+    "title": "AI 产品的可观测性：全量交互日志与追踪",
+    "level": "L2",
+    "depth": 900,
+    "angle": "用全量日志驱动迭代与归因",
+    "keywords_snippet": "可观测性/全量日志/Tracing/归因"
+  },
+  {
+    "module": "15",
+    "date": "2026-08-28",
+    "topic": "RAG 工程化落地",
+    "title": "RAG 应用的工程化落地避坑",
+    "level": "L2",
+    "depth": 900,
+    "angle": "从数据清洗到混合检索的产品化",
+    "keywords_snippet": "RAG/混合检索/语义切块/归因"
+  },
+  {
+    "module": "15",
+    "date": "2026-08-28",
+    "topic": "AI 数据飞轮",
+    "title": "AI 产品的数据飞轮：反馈闭环",
+    "level": "L2",
+    "depth": 900,
+    "angle": "把用户行为变成模型燃料",
+    "keywords_snippet": "数据飞轮/反馈闭环/困难样本/回流"
+  },
+  {
+    "module": "15",
+    "date": "2026-08-28",
+    "topic": "AI 产品经理能力模型",
+    "title": "AI 产品经理的能力模型",
+    "level": "L2",
+    "depth": 900,
+    "angle": "模型策略、评估设计与成本意识复合技能栈",
+    "keywords_snippet": "AI PM/能力模型/评估设计/成本数学"
   }
 ]

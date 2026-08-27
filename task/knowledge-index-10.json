@@ -2768,5 +2768,65 @@
     "depth": "中阶",
     "angle": "一体化 JS 运行时提速",
     "keywords_snippet": "Bun,JS 运行时,JavaScriptCore,包管理"
+  },
+  {
+    "module": "10",
+    "date": "2026-08-28",
+    "topic": "SGLang 推理框架",
+    "title": "SGLang：用 RadixAttention 把多轮对话与 Few-shot 前缀缓存到极致的推理框架",
+    "level": "L2",
+    "depth": 900,
+    "angle": "高吞吐推理与共享前缀缓存优化",
+    "keywords_snippet": "SGLang RadixAttention 推理框架 前缀缓存 约束解码"
+  },
+  {
+    "module": "10",
+    "date": "2026-08-28",
+    "topic": "llama.cpp 端侧推理",
+    "title": "llama.cpp：一块 CPU 和量化权重就能跑起大模型的端侧推理引擎",
+    "level": "L2",
+    "depth": 900,
+    "angle": "端侧/CPU 量化推理与 GGUF",
+    "keywords_snippet": "llama.cpp GGUF 量化 端侧推理 llama-server"
+  },
+  {
+    "module": "10",
+    "date": "2026-08-28",
+    "topic": "Haystack RAG 框架",
+    "title": "Haystack：把 RAG 与 Agent 流水线拆成可拼装组件的 production 级框架",
+    "level": "L2",
+    "depth": 900,
+    "angle": "组件化 RAG 编排与生产落地",
+    "keywords_snippet": "Haystack RAG Pipeline 组件 检索 评估"
+  },
+  {
+    "module": "10",
+    "date": "2026-08-28",
+    "topic": "RAGFlow 深度文档理解",
+    "title": "RAGFlow：靠深度文档理解把扫描件表格排版复杂 PDF 也能喂进 RAG 的引擎",
+    "level": "L2",
+    "depth": 900,
+    "angle": "复杂文档解析与可溯源 RAG",
+    "keywords_snippet": "RAGFlow DeepDoc 深度文档理解 表格识别 RAG"
+  },
+  {
+    "module": "10",
+    "date": "2026-08-28",
+    "topic": "FastMCP MCP Server",
+    "title": "FastMCP：十几行 Python 就把任意函数变成标准 MCP Server 的易用封装",
+    "level": "L2",
+    "depth": 900,
+    "angle": "MCP 协议与工具即插即用",
+    "keywords_snippet": "FastMCP MCP Server 工具 协议 Agent"
+  },
+  {
+    "module": "10",
+    "date": "2026-08-28",
+    "topic": "Agent Skills 技能包",
+    "title": "Agent Skills：用一份 SKILL.md 给 Copilot/Claude 写可复用、可跨工具发现的技能包",
+    "level": "L2",
+    "depth": 900,
+    "angle": "开放规范与团队流程固化",
+    "keywords_snippet": "Agent Skills SKILL.md Copilot Claude 技能包"
   }
 ]
