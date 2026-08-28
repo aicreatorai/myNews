@@ -2438,5 +2438,125 @@
     "depth": 900,
     "angle": "四股力量重塑语言选型决策",
     "keywords_snippet": "内存安全 类型化 WASM AI 共写 选型"
+  },
+  {
+    "module": "09",
+    "date": "2026-08-29",
+    "topic": "Swift 6.4 Embedded Swift",
+    "title": "Swift 6.4 Embedded：any 存在类型与非类型化 throws 进入嵌入式",
+    "level": "L2",
+    "depth": 900,
+    "angle": "嵌入式 Swift 表达力扩展",
+    "keywords_snippet": "Embedded Swift, any, untyped throws, metatype, Doug Gregor"
+  },
+  {
+    "module": "09",
+    "date": "2026-08-29",
+    "topic": "Rust RFC 3323 Restrictions",
+    "title": "Rust RFC 3323 Restrictions：impl 与 mut 限制进入 nightly",
+    "level": "L2",
+    "depth": 900,
+    "angle": "语言级封装与 sealed trait 一等化",
+    "keywords_snippet": "RFC 3323, impl_restriction, mut_restriction, sealed trait, nightly"
+  },
+  {
+    "module": "09",
+    "date": "2026-08-29",
+    "topic": "TIOBE 2026年8月排行榜",
+    "title": "TIOBE 2026年8月榜：Python 居首但份额下滑、Rust 首入前十",
+    "level": "L2",
+    "depth": 900,
+    "angle": "语言流行度与生态趋势",
+    "keywords_snippet": "TIOBE, Python, Rust, MATLAB, 流行度指数"
+  },
+  {
+    "module": "09",
+    "date": "2026-08-29",
+    "topic": "Swift 6.4 标准库与并发",
+    "title": "Swift 6.4 标准库与并发：Subprocess 1.0 与任务取消护盾",
+    "level": "L2",
+    "depth": 900,
+    "angle": "并发取消隔离与子进程 API",
+    "keywords_snippet": "Subprocess 1.0, cancellation shield, async defer, Borrowing Iterable"
+  },
+  {
+    "module": "09",
+    "date": "2026-08-29",
+    "topic": "Rust 供应链安全",
+    "title": "Rust 供应链警报：arrayref 等 crate 遭朝鲜相关劫持 86 分钟",
+    "level": "L2",
+    "depth": 900,
+    "angle": "构建脚本与传递依赖投毒",
+    "keywords_snippet": "supply chain, arrayref, typosquat, cargo audit, build script"
+  },
+  {
+    "module": "09",
+    "date": "2026-08-29",
+    "topic": "Swift 并发可观测性",
+    "title": "Swift 并发可观测性：TaskRegistry 让 60 万任务可回溯",
+    "level": "L2",
+    "depth": 900,
+    "angle": "并发运行时任务追踪",
+    "keywords_snippet": "TaskRegistry, Task ID, GSoC 2026, 并发可观测性"
+  },
+  {
+    "module": "09",
+    "date": "2026-08-29",
+    "topic": "Swift 6.4 Embedded",
+    "title": "any 存在类型与非类型化 throws 进入嵌入式",
+    "level": "L2",
+    "depth": 900,
+    "angle": "嵌入式 Swift 表达力提升",
+    "keywords_snippet": "Embedded Swift, any, untyped throws"
+  },
+  {
+    "module": "09",
+    "date": "2026-08-29",
+    "topic": "Rust RFC 3323",
+    "title": "impl 与 mut 限制进入 nightly",
+    "level": "L2",
+    "depth": 900,
+    "angle": "封装与 API 演进一等化",
+    "keywords_snippet": "restrictions, impl_restriction, mut_restriction"
+  },
+  {
+    "module": "09",
+    "date": "2026-08-29",
+    "topic": "TIOBE 2026年8月",
+    "title": "Python 居首但份额下滑、Rust 首入前十",
+    "level": "L2",
+    "depth": 900,
+    "angle": "语言流行度趋势",
+    "keywords_snippet": "TIOBE, Python, Rust, MATLAB"
+  },
+  {
+    "module": "09",
+    "date": "2026-08-29",
+    "topic": "Swift 6.4 标准库与并发",
+    "title": "Subprocess 1.0 与任务取消护盾",
+    "level": "L2",
+    "depth": 900,
+    "angle": "日常并发正确性",
+    "keywords_snippet": "Subprocess, cancellation shield, async defer"
+  },
+  {
+    "module": "09",
+    "date": "2026-08-29",
+    "topic": "Rust 供应链安全",
+    "title": "arrayref 等 crate 遭劫持 86 分钟",
+    "level": "L2",
+    "depth": 900,
+    "angle": "构建期依赖投毒",
+    "keywords_snippet": "crates.io, supply chain, typosquat"
+  },
+  {
+    "module": "09",
+    "date": "2026-08-29",
+    "topic": "Swift 并发可观测性",
+    "title": "TaskRegistry 让 60 万任务可回溯",
+    "level": "L2",
+    "depth": 900,
+    "angle": "任务级可观测性",
+    "keywords_snippet": "TaskRegistry, concurrency, LLDB"
   }
 ]

@@ -2696,5 +2696,65 @@
     "depth": 900,
     "angle": "本土知识与企业生态集成的办公用法",
     "keywords_snippet": "通义千问 Qwen 长文档 钉钉 电商文案 政务办事 阿里生态"
+  },
+  {
+    "module": "08",
+    "date": "2026-08-29",
+    "topic": "Cursor AI 编程实战工作流",
+    "title": "【Cursor AI：Agent 帮你从空目录到可运行应用】",
+    "level": "L2",
+    "depth": 1032,
+    "angle": "终端优先 AI 编程编辑器的规划-规则-脚手架-检查点流水线",
+    "keywords_snippet": "Cursor Agent Plan Ask Composer .cursor/rules Auto-Run"
+  },
+  {
+    "module": "08",
+    "date": "2026-08-29",
+    "topic": "ComfyUI 节点式 AI 绘画工作流",
+    "title": "【ComfyUI：把 AI 绘画变成可复用节点生产线】",
+    "level": "L2",
+    "depth": 1123,
+    "angle": "可视化节点把出图从抽卡变可控生产线",
+    "keywords_snippet": "ComfyUI 节点 ControlNet LoRA FaceDetailer 高清修复 JSON"
+  },
+  {
+    "module": "08",
+    "date": "2026-08-29",
+    "topic": "Perplexity AI 搜索与溯源实战",
+    "title": "【Perplexity：带可点击出处的 AI 答案引擎】",
+    "level": "L2",
+    "depth": 1118,
+    "angle": "检索增强生成加内联引用让每个数据可回溯",
+    "keywords_snippet": "Perplexity 答案引擎 引用 检索增强 Pro Search 溯源"
+  },
+  {
+    "module": "08",
+    "date": "2026-08-29",
+    "topic": "Gamma AI 一键生成演示文稿",
+    "title": "【Gamma：AI 原生演示工具，对话即出 PPT】",
+    "level": "L2",
+    "depth": 1002,
+    "angle": "对话式出稿加大纲优先的演示生成闭环",
+    "keywords_snippet": "Gamma AI 演示 PPT 大纲 导出 主题"
+  },
+  {
+    "module": "08",
+    "date": "2026-08-29",
+    "topic": "智谱清言 GLM-5.3 国产全能助手",
+    "title": "【智谱清言 GLM-5.3：国产全能模型一把抓】",
+    "level": "L2",
+    "depth": 1165,
+    "angle": "反向免费加多模态文档图表编程的国产性价比",
+    "keywords_snippet": "智谱清言 GLM-5.3 多模态 文档 编程 免费入口"
+  },
+  {
+    "module": "08",
+    "date": "2026-08-29",
+    "topic": "Kimi 长文档处理实战",
+    "title": "【Kimi：超长上下文把上百页 PDF 读成报告】",
+    "level": "L2",
+    "depth": 1053,
+    "angle": "2M 上下文加三轮提问法的长文档分析",
+    "keywords_snippet": "Kimi 长上下文 长文档 PDF 三轮提问 证据"
   }
 ]

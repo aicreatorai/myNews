@@ -3228,5 +3228,65 @@
     "depth": 900,
     "angle": "RadixAttention/自动前缀缓存复用相同系统提示与多轮前缀",
     "keywords_snippet": "prefix caching, RadixAttention, SGLang, vLLM, KV reuse"
+  },
+  {
+    "module": "07",
+    "date": "2026-08-29",
+    "topic": "参数高效微调",
+    "title": "LoRA参数高效微调：冻结基座只训低秩适配器，消费级显卡也能定制大模型",
+    "level": "L3",
+    "depth": 900,
+    "angle": "低秩适配器/消费级微调",
+    "keywords_snippet": "LoRA 低秩适配 适配器 消费级显卡"
+  },
+  {
+    "module": "07",
+    "date": "2026-08-29",
+    "topic": "模型压缩",
+    "title": "知识蒸馏：让小模型模仿大模型的软标签，用更少算力继承大部分能力",
+    "level": "L4",
+    "depth": 900,
+    "angle": "软标签/暗知识迁移",
+    "keywords_snippet": "知识蒸馏 软标签 教师模型 端侧"
+  },
+  {
+    "module": "07",
+    "date": "2026-08-29",
+    "topic": "并行训练推理",
+    "title": "专家并行训练：把MoE的不同专家分到不同GPU，专治稀疏模型通信难题",
+    "level": "L1",
+    "depth": 900,
+    "angle": "MoE all-to-all 通信/EP",
+    "keywords_snippet": "专家并行 MoE EP all-to-all"
+  },
+  {
+    "module": "07",
+    "date": "2026-08-29",
+    "topic": "模型结构激活",
+    "title": "门控线性单元GLU与SwiGLU：用乘法阀门替代单一激活，撑起现代大模型FFN",
+    "level": "L2",
+    "depth": 900,
+    "angle": "门控FFN/SwiGLU",
+    "keywords_snippet": "GLU SwiGLU 门控 FFN 激活"
+  },
+  {
+    "module": "07",
+    "date": "2026-08-29",
+    "topic": "模型融合",
+    "title": "模型合并Model Soup：不训练只加权平均，把多个微调模型合成一个多面手",
+    "level": "L3",
+    "depth": 900,
+    "angle": "权重平均/免训练融合",
+    "keywords_snippet": "模型合并 Model Soup TIES DARE"
+  },
+  {
+    "module": "07",
+    "date": "2026-08-29",
+    "topic": "多模态对齐",
+    "title": "多模态对比学习CLIP：把图像和文本塞进同一向量空间，开启零样本视觉",
+    "level": "L4",
+    "depth": 900,
+    "angle": "图文对比学习/零样本",
+    "keywords_snippet": "CLIP 对比学习 图文对齐 零样本"
   }
 ]

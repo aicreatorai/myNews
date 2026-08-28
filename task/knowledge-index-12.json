@@ -2748,5 +2748,65 @@
     "depth": 900,
     "angle": "工业Agent质检与预测维护To B变现",
     "keywords_snippet": "工业智能体 视觉质检 预测维护 工艺优化 年费"
+  },
+  {
+    "module": "12",
+    "date": "2026-08-29",
+    "topic": "AI智能客服工单SaaS",
+    "title": "【AI智能客服工单：接入工单系统按张计费变现】",
+    "level": "L2",
+    "depth": 900,
+    "angle": "嵌入式AI副驾按工单量计费",
+    "keywords_snippet": "Eesel AI, $0.40/工单, ARR $85万, 工单系统轻集成"
+  },
+  {
+    "module": "12",
+    "date": "2026-08-29",
+    "topic": "AI数据分析聊天式BI",
+    "title": "【AI数据分析BI：自然语言查表年入1500万】",
+    "level": "L2",
+    "depth": 900,
+    "angle": "自然语言查表聊天式BI订阅",
+    "keywords_snippet": "Julius AI, $1500万ARR, 200万用户, function calling"
+  },
+  {
+    "module": "12",
+    "date": "2026-08-29",
+    "topic": "AI长视频转短视频矩阵",
+    "title": "【AI长视频切片：一键转短视频矩阵变现】",
+    "level": "L2",
+    "depth": 900,
+    "angle": "长视频自动切片内容工厂",
+    "keywords_snippet": "Opus Clip $500万ARR, Castmagic $3万MRR, 多模态切片"
+  },
+  {
+    "module": "12",
+    "date": "2026-08-29",
+    "topic": "AI销售情报GTM工具",
+    "title": "【AI销售情报GTM：2人团队月入数十万】",
+    "level": "L2",
+    "depth": 900,
+    "angle": "2人团队销售情报订阅",
+    "keywords_snippet": "Persana AI, 月入数十万, 线索评分, 个性化触达"
+  },
+  {
+    "module": "12",
+    "date": "2026-08-29",
+    "topic": "AI出海本地化翻译",
+    "title": "【AI出海本地化：3人8个月月入52万欧元】",
+    "level": "L2",
+    "depth": 900,
+    "angle": "AI+母语译员混合本地化",
+    "keywords_snippet": "Qorrvio 52万欧元/月, Immersive 1000万用户, 出海本地化"
+  },
+  {
+    "module": "12",
+    "date": "2026-08-29",
+    "topic": "AI会议转写笔记SaaS",
+    "title": "【AI会议转写笔记：订阅制月费8美元起】",
+    "level": "L2",
+    "depth": 900,
+    "angle": "会议摘要订阅制SaaS",
+    "keywords_snippet": "Fireflies $10M+ARR, Tactiq $8/人/月, 会议摘要"
   }
 ]

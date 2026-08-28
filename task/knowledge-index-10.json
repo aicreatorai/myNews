@@ -2828,5 +2828,65 @@
     "depth": 900,
     "angle": "开放规范与团队流程固化",
     "keywords_snippet": "Agent Skills SKILL.md Copilot Claude 技能包"
+  },
+  {
+    "module": "10",
+    "date": "2026-08-29",
+    "topic": "uv Python 包管理器",
+    "title": "uv：用 Rust 重写的极速 Python 包与项目管理器",
+    "level": "L2",
+    "depth": 900,
+    "angle": "从 pip 安装慢与工程碎片化的痛点切入",
+    "keywords_snippet": "uv, Rust, Python, 包管理, 虚拟环境, 锁文件"
+  },
+  {
+    "module": "10",
+    "date": "2026-08-29",
+    "topic": "TGI 大模型推理部署",
+    "title": "TGI：HuggingFace 工业级文本生成推理服务",
+    "level": "L2",
+    "depth": 900,
+    "angle": "从 model.generate 到生产 API 的部署鸿沟切入",
+    "keywords_snippet": "TGI, text-generation-inference, 推理服务, 连续批处理, 量化"
+  },
+  {
+    "module": "10",
+    "date": "2026-08-29",
+    "topic": "Hono Web 框架",
+    "title": "Hono：基于 Web 标准的跨运行时 TypeScript 框架",
+    "level": "L2",
+    "depth": 900,
+    "angle": "从运行时碎片化痛点切入的可移植性",
+    "keywords_snippet": "Hono, TypeScript, Web标准, 边缘计算, 跨运行时"
+  },
+  {
+    "module": "10",
+    "date": "2026-08-29",
+    "topic": "shadcn/ui 组件库",
+    "title": "shadcn/ui：可复制粘贴、完全可控的 React 组件集合",
+    "level": "L2",
+    "depth": 900,
+    "angle": "从黑盒组件库定制痛点切入的源码分发模式",
+    "keywords_snippet": "shadcn/ui, React, Tailwind, Radix, 设计系统"
+  },
+  {
+    "module": "10",
+    "date": "2026-08-29",
+    "topic": "Zed 代码编辑器",
+    "title": "Zed：Rust 写的极速多人协作代码编辑器",
+    "level": "L2",
+    "depth": 900,
+    "angle": "从编辑器慢与孤立痛点切入的性能与协作",
+    "keywords_snippet": "Zed, Rust, 代码编辑器, CRDT, 协作, AI"
+  },
+  {
+    "module": "10",
+    "date": "2026-08-29",
+    "topic": "Perplexica AI 搜索",
+    "title": "Perplexica：开源自托管的 AI 搜索问答引擎",
+    "level": "L2",
+    "depth": 900,
+    "angle": "从闭源 AI 搜索数据隐私痛点切入的 RAG 搜索",
+    "keywords_snippet": "Perplexica, AI搜索, SearxNG, RAG, 自托管"
   }
 ]

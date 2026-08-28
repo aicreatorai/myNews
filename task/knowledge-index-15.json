@@ -2858,5 +2858,65 @@
     "depth": 900,
     "angle": "模型策略、评估设计与成本意识复合技能栈",
     "keywords_snippet": "AI PM/能力模型/评估设计/成本数学"
+  },
+  {
+    "module": "15",
+    "date": "2026-08-29",
+    "topic": "AI功能开关式渐进发布与信任校准",
+    "title": "AI 功能的开关式渐进发布与信任校准：用可选开关替代强制替换守住用户信任",
+    "level": "L2",
+    "depth": 900,
+    "angle": "产品交付与信任校准",
+    "keywords_snippet": "Airbnb toggle, Apple iOS27, NN/g PROVE, 信任校准"
+  },
+  {
+    "module": "15",
+    "date": "2026-08-29",
+    "topic": "AI Agent 工具调用产品化",
+    "title": "AI Agent 工具调用（Tool Use）产品化设计：把会调用工具做成可控可审计的产品能力",
+    "level": "L2",
+    "depth": 900,
+    "angle": "Agent架构与可控可审计",
+    "keywords_snippet": "MCP, BFCL v4, Cloudflare Wallets, 工具调用"
+  },
+  {
+    "module": "15",
+    "date": "2026-08-29",
+    "topic": "AI 生成式UI与组件契约",
+    "title": "AI 产品生成式 UI（GenUI）与组件契约：用结构化约束把 AI 生成界面从 69 分拉到 100 分",
+    "level": "L2",
+    "depth": 900,
+    "angle": "生成式UI与设计系统治理",
+    "keywords_snippet": "GenUI, 组件契约, OJO, 设计漂移"
+  },
+  {
+    "module": "15",
+    "date": "2026-08-29",
+    "topic": "AI 北极星指标与单位经济",
+    "title": "AI 产品北极星指标与单位经济模型：用第二笔钱和 NRR 替代虚荣的推理量",
+    "level": "L2",
+    "depth": 900,
+    "angle": "增长指标与单位经济",
+    "keywords_snippet": "NRR, 激活, 第二笔钱, 单位经济"
+  },
+  {
+    "module": "15",
+    "date": "2026-08-29",
+    "topic": "AI 上下文工程",
+    "title": "AI 产品上下文工程（Context Engineering）核心能力：在 150 万 token 窗口里管住有效 token 率",
+    "level": "L2",
+    "depth": 900,
+    "angle": "上下文管理与成本控制",
+    "keywords_snippet": "上下文工程, 有效token率, GPT-5.6, 缓存"
+  },
+  {
+    "module": "15",
+    "date": "2026-08-29",
+    "topic": "AI 企业级提示词模板",
+    "title": "AI 产品企业级提示词模板（Prompt Template）四级架构与 Prompt-as-Code",
+    "level": "L2",
+    "depth": 900,
+    "angle": "提示词工程化与资产治理",
+    "keywords_snippet": "四级Prompt架构, Prompt as Code, 技能包"
   }
 ]
