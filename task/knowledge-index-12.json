@@ -2808,5 +2808,65 @@
     "depth": 900,
     "angle": "会议摘要订阅制SaaS",
     "keywords_snippet": "Fireflies $10M+ARR, Tactiq $8/人/月, 会议摘要"
+  },
+  {
+    "module": "12",
+    "date": "2026-09-03",
+    "topic": "数字人本地生活代运营",
+    "title": "数字人本地生活代运营：软件费叠加GMV抽佣的B端变现",
+    "level": "L2",
+    "depth": "商业层",
+    "angle": "方法论",
+    "keywords_snippet": "数字人,本地生活,GMV抽佣,代运营"
+  },
+  {
+    "module": "12",
+    "date": "2026-09-03",
+    "topic": "AI开源自部署服务",
+    "title": "AI开源自部署服务：把免费模型栈变成付费交付能力",
+    "level": "L2",
+    "depth": "商业层",
+    "angle": "方法论",
+    "keywords_snippet": "开源,自部署,Ollama,RAGflow,交付"
+  },
+  {
+    "module": "12",
+    "date": "2026-09-03",
+    "topic": "一人公司窄痛点SaaS",
+    "title": "一人公司窄痛点SaaS：用垂直wedge替代大而全平台",
+    "level": "L2",
+    "depth": "商业层",
+    "angle": "方法论",
+    "keywords_snippet": "窄痛点,SaaS,wedge,独立开发"
+  },
+  {
+    "module": "12",
+    "date": "2026-09-03",
+    "topic": "AI超级个体内容创业",
+    "title": "AI超级个体内容创业：知识付费加企业代运营双轨",
+    "level": "L2",
+    "depth": "商业层",
+    "angle": "方法论",
+    "keywords_snippet": "超级个体,知识付费,代运营,内容创业"
+  },
+  {
+    "module": "12",
+    "date": "2026-09-03",
+    "topic": "AI Agent运维监控工具",
+    "title": "AI Agent运维监控工具：切入Agent落地的后台缺口",
+    "level": "L2",
+    "depth": "商业层",
+    "angle": "方法论",
+    "keywords_snippet": "Agent,运维,监控,可观测性"
+  },
+  {
+    "module": "12",
+    "date": "2026-09-03",
+    "topic": "AI手搓应用变现",
+    "title": "AI手搓应用变现：零代码用自然语言搓出可售小程序",
+    "level": "L2",
+    "depth": "商业层",
+    "angle": "方法论",
+    "keywords_snippet": "手搓经济,零代码,自然语言,小应用"
   }
 ]

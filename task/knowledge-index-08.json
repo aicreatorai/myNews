@@ -2756,5 +2756,27 @@
     "depth": 1053,
     "angle": "2M 上下文加三轮提问法的长文档分析",
     "keywords_snippet": "Kimi 长上下文 长文档 PDF 三轮提问 证据"
+  },
+  {
+    "module": "08",
+    "date": "2026-09-03",
+    "topic": "Midjourney V7/Niji 7",
+    "title": "Midjourney V7 / Niji 7：提示词公式加参考图锁风格出可控好图",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "用法",
+    "keywords_snippet": "提示词公式 参考图 --sref --cref --stylize 参数"
+  },
+  {
+    "module": "08",
+    "date": "2026-09-03",
+    "topic": "钉钉 AI",
+    "title": "钉钉 AI：工作台 AI 助理一句话生成纪要周报与图表",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "用法",
+    "keywords_snippet": "AI会议纪要素材 文档创作 表格分析 审批流"
+  }
+]�化"
   }
 ]

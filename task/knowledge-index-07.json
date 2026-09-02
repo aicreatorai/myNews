@@ -3288,5 +3288,65 @@
     "depth": 900,
     "angle": "图文对比学习/零样本",
     "keywords_snippet": "CLIP 对比学习 图文对齐 零样本"
+  },
+  {
+    "module": "07",
+    "date": "2026-09-03",
+    "topic": "模型训练与对齐",
+    "title": "【循环深度：把思维链搬进激活值，省算力但难监控】",
+    "level": "L3",
+    "depth": "技术层",
+    "angle": "原理",
+    "keywords_snippet": "循环深度 潜空间推理 Huginn 可监控性"
+  },
+  {
+    "module": "07",
+    "date": "2026-09-03",
+    "topic": "推理优化与量化",
+    "title": "【后训练量化损伤弥散：全局细粒度优于保护关键层】",
+    "level": "L3",
+    "depth": "技术层",
+    "angle": "原理",
+    "keywords_snippet": "PTQ group_size 混合精度 W4A16"
+  },
+  {
+    "module": "07",
+    "date": "2026-09-03",
+    "topic": "RAG检索增强生成",
+    "title": "【关键Token感知检索：只在代码岔路口去查仓库上下文】",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "原理",
+    "keywords_snippet": "ACToR 关键token 熵触发 仓库级检索"
+  },
+  {
+    "module": "07",
+    "date": "2026-09-03",
+    "topic": "Agent记忆与规划",
+    "title": "【执行状态运行时层：给长程Agent一本可查的施工账本】",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "原理",
+    "keywords_snippet": "Ledger 执行状态 SWE-bench 缓存失效"
+  },
+  {
+    "module": "07",
+    "date": "2026-09-03",
+    "topic": "AI安全与对齐",
+    "title": "【表示层引导对齐：推理时改激活方向不动模型权重】",
+    "level": "L3",
+    "depth": "技术层",
+    "angle": "原理",
+    "keywords_snippet": "表示引导 CAA 残差流 推理时对齐"
+  },
+  {
+    "module": "07",
+    "date": "2026-09-03",
+    "topic": "端侧AI/小模型",
+    "title": "【端侧小语言模型：19种语言离线翻译跑在手机上】",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "原理",
+    "keywords_snippet": "SLM GGUF 内存带宽 MoE磁盘流式"
   }
 ]

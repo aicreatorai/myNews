@@ -2888,5 +2888,65 @@
     "depth": 900,
     "angle": "从闭源 AI 搜索数据隐私痛点切入的 RAG 搜索",
     "keywords_snippet": "Perplexica, AI搜索, SearxNG, RAG, 自托管"
+  },
+  {
+    "module": "10",
+    "date": "2026-09-03",
+    "topic": "Mem0",
+    "title": "Mem0：给 AI Agent 装上一层会进化的长期记忆",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "用法",
+    "keywords_snippet": "agent memory layer 长期记忆 融合去重"
+  },
+  {
+    "module": "10",
+    "date": "2026-09-03",
+    "topic": "Crawl4AI",
+    "title": "Crawl4AI：把任意网页一键转成 LLM 友好的 Markdown",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "用法",
+    "keywords_snippet": "LLM web crawler Markdown BM25 自适应爬取"
+  },
+  {
+    "module": "10",
+    "date": "2026-09-03",
+    "topic": "E2B",
+    "title": "E2B：用 Firecracker 微虚拟机给 AI 跑代码上沙箱",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "用法",
+    "keywords_snippet": "code execution sandbox Firecracker microVM 代码解释器"
+  },
+  {
+    "module": "10",
+    "date": "2026-09-03",
+    "topic": "DSPy",
+    "title": "DSPy：用声明式编程让提示词可优化可迭代",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "用法",
+    "keywords_snippet": "declarative LM programming optimizer GEPA 提示优化"
+  },
+  {
+    "module": "10",
+    "date": "2026-09-03",
+    "topic": "Instructor",
+    "title": "Instructor：用 Pydantic 模型让大模型稳定吐结构化 JSON",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "用法",
+    "keywords_snippet": "Pydantic structured output response_model 校验重试"
+  },
+  {
+    "module": "10",
+    "date": "2026-09-03",
+    "topic": "Guidance",
+    "title": "Guidance：用模板语言把大模型生成过程牢牢控住",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "用法",
+    "keywords_snippet": "controlled generation templating regex CFG token healing"
   }
 ]

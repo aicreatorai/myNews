@@ -2838,5 +2838,55 @@
     "depth": 900,
     "angle": "用行动窗口对抗意图衰减与拖延",
     "keywords_snippet": "48小时定律/意图衰减/纯粹紧迫感/启动动量"
+  },
+  {
+    "module": "14",
+    "date": "2026-09-03",
+    "topic": "执行意向",
+    "title": "执行意向：用若则计划把新习惯锁进具体时空",
+    "level": "L2",
+    "depth": "行为层",
+    "angle": "方法",
+    "keywords_snippet": "执行意向,若则计划,习惯养成,implementation intention"
+  },
+  {
+    "module": "14",
+    "date": "2026-09-03",
+    "topic": "第一性原理",
+    "title": "第一性原理：把问题拆到不可再分的真命题",
+    "level": "L2",
+    "depth": "思维层",
+    "angle": "方法",
+    "keywords_snippet": "第一性原理,思维模型,决策,拆解"
+  },
+  {
+    "module": "14",
+    "date": "2026-09-03",
+    "topic": "积极倾听",
+    "title": "积极倾听：用复述与确认让对方感到被真正听见",
+    "level": "L2",
+    "depth": "沟通层",
+    "angle": "方法",
+    "keywords_snippet": "积极倾听,复述确认,沟通,共情"
+  },
+  {
+    "module": "14",
+    "date": "2026-09-03",
+    "topic": "心理韧性",
+    "title": "心理韧性：把逆境当成可练习的回弹肌肉",
+    "level": "L2",
+    "depth": "心理层",
+    "angle": "方法",
+    "keywords_snippet": "心理韧性,复原力,抗压,情绪调节"
+  },
+  {
+    "module": "14",
+    "date": "2026-09-03",
+    "topic": "元认知训练",
+    "title": "元认知训练：每天十分钟的观察自己怎么想",
+    "level": "L2",
+    "depth": "认知层",
+    "angle": "方法",
+    "keywords_snippet": "元认知,批判性思维,复盘,认知偏差"
   }
 ]

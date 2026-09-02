@@ -2918,5 +2918,65 @@
     "depth": 900,
     "angle": "提示词工程化与资产治理",
     "keywords_snippet": "四级Prompt架构, Prompt as Code, 技能包"
+  },
+  {
+    "module": "15",
+    "date": "2026-09-03",
+    "topic": "人在回路设计",
+    "title": "【人在回路设计：用置信度阈值把AI不可信输出交人审】",
+    "level": "L2",
+    "depth": "方法层",
+    "angle": "方法",
+    "keywords_snippet": "人在回路,置信度阈值,人类审批,分层授权"
+  },
+  {
+    "module": "15",
+    "date": "2026-09-03",
+    "topic": "有界自治设计",
+    "title": "【有界自治设计：为Agent配权限边界与可审计动作链】",
+    "level": "L2",
+    "depth": "方法层",
+    "angle": "方法",
+    "keywords_snippet": "有界自治,权限边界,短时令牌,可审计动作链"
+  },
+  {
+    "module": "15",
+    "date": "2026-09-03",
+    "topic": "评估驱动产品",
+    "title": "【评估驱动产品：把模型Evals做成可复用验收能力】",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "方法",
+    "keywords_snippet": "Evals,评估体系,回归测试,ACE透镜"
+  },
+  {
+    "module": "15",
+    "date": "2026-09-03",
+    "topic": "原型先行迭代",
+    "title": "【原型先行迭代：AI先用HTML原型验结构再开发】",
+    "level": "L2",
+    "depth": "方法层",
+    "angle": "方法",
+    "keywords_snippet": "原型先行,HTML原型,AI迭代,功能导向提示词"
+  },
+  {
+    "module": "15",
+    "date": "2026-09-03",
+    "topic": "设计思维伙伴",
+    "title": "【设计思维伙伴：让AI参与发散批评与战略三角验证】",
+    "level": "L2",
+    "depth": "方法层",
+    "angle": "方法",
+    "keywords_snippet": "设计思维,AI伙伴,多角色批评,三角验证"
+  },
+  {
+    "module": "15",
+    "date": "2026-09-03",
+    "topic": "长期记忆个性化",
+    "title": "【长期记忆个性化：让AI记住偏好从一次性对话到持续关系】",
+    "level": "L2",
+    "depth": "方法层",
+    "angle": "方法",
+    "keywords_snippet": "长期记忆,个性化,用户偏好,跨会话"
   }
 ]

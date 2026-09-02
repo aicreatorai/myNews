@@ -2558,5 +2558,65 @@
     "depth": 900,
     "angle": "任务级可观测性",
     "keywords_snippet": "TaskRegistry, concurrency, LLDB"
+  },
+  {
+    "module": "09",
+    "date": "2026-09-03",
+    "topic": "Python 延迟注解",
+    "title": "Python 3.14 延迟注解：from __future__ 终于退役",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "原理",
+    "keywords_snippet": "PEP 649 PEP 749 annotationlib 前向引用"
+  },
+  {
+    "module": "09",
+    "date": "2026-09-03",
+    "topic": "Python t-strings",
+    "title": "Python 3.14 模板字符串 t-strings 落地：安全渲染告别裸拼接",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "原理",
+    "keywords_snippet": "PEP 750 Template 安全渲染 注入"
+  },
+  {
+    "module": "09",
+    "date": "2026-09-03",
+    "topic": "Java 虚拟线程",
+    "title": "Java 25 虚拟线程解绑 synchronized：JEP 491 终结钉住",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "原理",
+    "keywords_snippet": "JEP 491 JEP 505 JEP 506 pinning ScopedValue"
+  },
+  {
+    "module": "09",
+    "date": "2026-09-03",
+    "topic": "GraalVM Native Image",
+    "title": "GraalVM 25.1.3 原生镜像缩至 6.5MB：AOT 再进化",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "原理",
+    "keywords_snippet": "GraalVM 25.1.3 Native Image AOT G1 GC JIT"
+  },
+  {
+    "module": "09",
+    "date": "2026-09-03",
+    "topic": "Kotlin K2 KMP",
+    "title": "Kotlin 2.x K2 默认编译器与 KMP 稳定落地",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "原理",
+    "keywords_snippet": "K2 KMP FIR expect actual 编译提速"
+  },
+  {
+    "module": "09",
+    "date": "2026-09-03",
+    "topic": "Java FFM API",
+    "title": "Java 25 Panama FFM API 转正：原生调用告别 JNI 胶水",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "原理",
+    "keywords_snippet": "JEP 454 Foreign Function Memory Linker Arena"
   }
 ]
