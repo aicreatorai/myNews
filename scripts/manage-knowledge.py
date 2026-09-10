@@ -95,8 +95,12 @@ def check(module_id, query_topic, threshold=0.6):
         # 1. 检查 topic 字段的相似度
         sim = topic_similarity(entry["topic"].lower(), query_topic.lower())
 
-        # 2. 检查关键词片段是否包含查询词
-        kw = entry.get("keywords_snippet", "").lower()
+        # 2. 检查关键词片段是否包含查询词（兼容 list/str 历史脏数据）
+        kw_raw = entry.get("keywords_snippet", "")
+        if isinstance(kw_raw, list):
+            kw = " ".join(str(x) for x in kw_raw).lower()
+        else:
+            kw = str(kw_raw).lower()
         kw_hit = sum(1 for k in query_keywords if k in kw and len(k) > 1)
 
         # 3. 检查主题名是否包含查询词的关键词
