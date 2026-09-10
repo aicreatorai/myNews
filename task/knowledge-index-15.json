@@ -2978,5 +2978,65 @@
     "depth": "方法层",
     "angle": "方法",
     "keywords_snippet": "长期记忆,个性化,用户偏好,跨会话"
+  },
+  {
+    "module": "15",
+    "date": "2026-09-11",
+    "topic": "AI产品三维效能评测",
+    "title": "AI产品三维效能评测：用任务完成率替代DAU",
+    "level": "L2",
+    "depth": "评测",
+    "angle": "从流量指标转向效能罗盘",
+    "keywords_snippet": "任务完成率 人工干预率 幻觉率"
+  },
+  {
+    "module": "15",
+    "date": "2026-09-11",
+    "topic": "AI Agent架构选型",
+    "title": "AI Agent架构选型：用第一性原理做减法",
+    "level": "L2",
+    "depth": "架构",
+    "angle": "Single vs Multi workflow vs agent",
+    "keywords_snippet": "Agent Swarm 工作流 第一性原理"
+  },
+  {
+    "module": "15",
+    "date": "2026-09-11",
+    "topic": "企业级AI规模化",
+    "title": "企业级AI规模化：从试点到生产的落地陷阱",
+    "level": "L3",
+    "depth": "落地",
+    "angle": "试点到生产的成本与治理",
+    "keywords_snippet": "规模化 试点 生产 治理"
+  },
+  {
+    "module": "15",
+    "date": "2026-09-11",
+    "topic": "AI原生设计四原则",
+    "title": "AI原生设计四原则：让智能自我解释",
+    "level": "L1",
+    "depth": "设计",
+    "angle": "清晰连续深度共创",
+    "keywords_snippet": "AI原生 设计原则 McKinsey"
+  },
+  {
+    "module": "15",
+    "date": "2026-09-11",
+    "topic": "AI Agent权限阶梯",
+    "title": "AI Agent权限阶梯：渐进式授权的产品护栏",
+    "level": "L3",
+    "depth": "安全",
+    "angle": "渐进授权与工具安全评级",
+    "keywords_snippet": "权限阶梯 护栏 工具安全评级"
+  },
+  {
+    "module": "15",
+    "date": "2026-09-11",
+    "topic": "垂直场景MVP",
+    "title": "垂直场景MVP：把AI需求拆到可验收指标",
+    "level": "L2",
+    "depth": "需求",
+    "angle": "垂直场景可验收指标拆解",
+    "keywords_snippet": "垂直场景 MVP 可验收指标"
   }
 ]

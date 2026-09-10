@@ -2948,5 +2948,175 @@
     "depth": "技术层",
     "angle": "用法",
     "keywords_snippet": "controlled generation templating regex CFG token healing"
+  },
+  {
+    "module": "10",
+    "date": "2026-09-06",
+    "topic": "Gemini CLI 终端Agent",
+    "title": "Gemini CLI：Google 官方开源的终端 AI 智能体",
+    "level": "L1",
+    "depth": "浅",
+    "angle": "官方终端Agent的ReAct+MCP+百万上下文定位",
+    "keywords_snippet": "Gemini CLI, ReAct, MCP, 1M context, 终端 Agent"
+  },
+  {
+    "module": "10",
+    "date": "2026-09-06",
+    "topic": "Impeccable AI前端设计语言",
+    "title": "Impeccable：给 AI 生成前端的设计语言与确定性规则 CLI",
+    "level": "L1",
+    "depth": "浅",
+    "angle": "用确定性规则约束AI生成UI的可复现设计",
+    "keywords_snippet": "Impeccable, 设计令牌, 45规则, AI前端, 实时预览"
+  },
+  {
+    "module": "10",
+    "date": "2026-09-06",
+    "topic": "magnitude 本地优先推理服务器",
+    "title": "magnitude：本地优先的开源推理服务器，按你的硬件跑最佳模型",
+    "level": "L2",
+    "depth": "中",
+    "angle": "硬件感知路由与Agent插件化本地推理",
+    "keywords_snippet": "magnitude, local-first, 硬件感知, 离线推理, Agent插件"
+  },
+  {
+    "module": "10",
+    "date": "2026-09-06",
+    "topic": "Humanizer 消除AI写作痕迹技能",
+    "title": "Humanizer：消除 AI 写作痕迹的代理技能包",
+    "level": "L2",
+    "depth": "中",
+    "angle": "35模式保真去AI腔的Agent技能",
+    "keywords_snippet": "Humanizer, AI写作痕迹, 35模式, 保真改写, Agent技能"
+  },
+  {
+    "module": "10",
+    "date": "2026-09-06",
+    "topic": "agency-agents 一键安装代理人格",
+    "title": "agency-agents：可一键安装到编程工具的专业代理人格集",
+    "level": "L2",
+    "depth": "中",
+    "angle": "角色工程产品化与跨工具人格分发",
+    "keywords_snippet": "agency-agents, 代理人格, 角色工程, 一键安装, Claude Code"
+  },
+  {
+    "module": "10",
+    "date": "2026-09-06",
+    "topic": "AG2 多智能体框架 MCP2.0",
+    "title": "AG2：全面迁移 MCP 2.0 并内置确定性提示注入防护的代理框架",
+    "level": "L4",
+    "depth": "深",
+    "angle": "MCP2.0迁移与确定性提示注入防护的生产化演进",
+    "keywords_snippet": "AG2, MCP 2.0, TealTigerMiddleware, 提示注入防护, 多智能体"
+  },
+  {
+    "module": "10",
+    "date": "2026-09-07",
+    "topic": "OpenViking 智能体上下文数据库",
+    "title": "OpenViking：把智能体记忆与技能存进虚拟文件系统的上下文库",
+    "level": "L3",
+    "depth": "实践层",
+    "angle": "虚拟文件系统的Agent记忆与技能",
+    "keywords_snippet": "OpenViking 上下文数据库 记忆 技能"
+  },
+  {
+    "module": "10",
+    "date": "2026-09-07",
+    "topic": "CopilotKit OpenBot AI coworker框架",
+    "title": "OpenBot：给每个AI同事独立电脑的框架",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "AG-UI协议与可审计AI同事",
+    "keywords_snippet": "OpenBot CopilotKit AG-UI AI coworker"
+  },
+  {
+    "module": "10",
+    "date": "2026-09-07",
+    "topic": "opencode 开源终端编程智能体",
+    "title": "opencode：星标超Claude Code的开源编程智能体",
+    "level": "L3",
+    "depth": "实践层",
+    "angle": "开源替代Claude Code的可自托管",
+    "keywords_snippet": "opencode 编程智能体 自托管"
+  },
+  {
+    "module": "10",
+    "date": "2026-09-07",
+    "topic": "Google ADK Python智能体开发套件",
+    "title": "Google ADK：代码优先的Python智能体开发套件",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "代码优先的多Agent编排与eval",
+    "keywords_snippet": "Google ADK 代码优先 多Agent eval"
+  },
+  {
+    "module": "10",
+    "date": "2026-09-07",
+    "topic": "anything-llm 本地优先文档对话应用",
+    "title": "anything-llm：本地优先的一站式文档对话AI应用",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "零配置私有知识库问答",
+    "keywords_snippet": "anything-llm 本地优先 RAG 文档对话"
+  },
+  {
+    "module": "10",
+    "date": "2026-09-11",
+    "topic": "Marimo 反应式Python笔记本",
+    "title": "Marimo：可 Git 版本化的反应式 Python 笔记本",
+    "level": "L2",
+    "depth": "实用",
+    "angle": "纯Python存储与反应式重算消除Jupyter隐藏状态",
+    "keywords_snippet": "反应式笔记本 Git可版本化"
+  },
+  {
+    "module": "10",
+    "date": "2026-09-11",
+    "topic": "Biome JS工具链",
+    "title": "Biome：用 Rust 重写 JS 工具链的一体化 Lint 与格式化",
+    "level": "L2",
+    "depth": "实用",
+    "angle": "Rust单次解析合并lint与format消灭配置冲突",
+    "keywords_snippet": "Biome Rust ESLint Prettier"
+  },
+  {
+    "module": "10",
+    "date": "2026-09-11",
+    "topic": "Haystack 3.0 RAG编排",
+    "title": "Haystack 3.0：把 Agent 放在中心的 production 级 RAG 编排框架",
+    "level": "L3",
+    "depth": "深入",
+    "angle": "Agent居中与生产可审计RAG流水线",
+    "keywords_snippet": "Haystack 3.0 RAG Agent"
+  },
+  {
+    "module": "10",
+    "date": "2026-09-11",
+    "topic": "Temporal 持久化执行",
+    "title": "Temporal：用持久化执行消灭分布式工作流的失败重试",
+    "level": "L3",
+    "depth": "深入",
+    "angle": "持久化执行与精确到步的失败恢复",
+    "keywords_snippet": "Temporal Durable Execution 工作流"
+  },
+  {
+    "module": "10",
+    "date": "2026-09-11",
+    "topic": "Supabase 开源后端平台",
+    "title": "Supabase：基于 Postgres 的开源后端即服务平台",
+    "level": "L2",
+    "depth": "实用",
+    "angle": "Postgres内核的可退出后端即服务",
+    "keywords_snippet": "Supabase Postgres 后端 Firebase"
+  },
+  {
+    "module": "10",
+    "date": "2026-09-11",
+    "topic": "GenericAgent 自主智能体",
+    "title": "GenericAgent：靠自我进化长出技能树的极简自主智能体",
+    "level": "L3",
+    "depth": "深入",
+    "angle": "3K行极简架构与技能树自我进化",
+    "keywords_snippet": "GenericAgent 自我进化 技能树"
   }
 ]

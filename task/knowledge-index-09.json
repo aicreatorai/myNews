@@ -2618,5 +2618,115 @@
     "depth": "技术层",
     "angle": "原理",
     "keywords_snippet": "JEP 454 Foreign Function Memory Linker Arena"
+  },
+  {
+    "module": "09",
+    "date": "2026-09-06",
+    "topic": "C# 14 / .NET 10",
+    "title": "C# 14 落地 field 关键字与扩展属性：样板代码再减半",
+    "level": "L1",
+    "depth": "浅",
+    "angle": "field 关键字与扩展属性削减样板、原生 AOT 转正",
+    "keywords_snippet": "C# 14 field keyword extension property .NET 10 AOT union types"
+  },
+  {
+    "module": "09",
+    "date": "2026-09-06",
+    "topic": "Scala 4 能力类型",
+    "title": "Scala 4 实验性能力类型：给智能体细粒度权限的安全模型",
+    "level": "L1",
+    "depth": "浅",
+    "angle": "用能力类型把权限安全搬进 JVM 类型系统",
+    "keywords_snippet": "Scala 4 capabilities Odersky agentic safety"
+  },
+  {
+    "module": "09",
+    "date": "2026-09-06",
+    "topic": "Mojo 1.0 MLIR",
+    "title": "Mojo 1.0 把 Python 语法搬上 MLIR：AI 算子用同一语言写前后端",
+    "level": "L4",
+    "depth": "深",
+    "angle": "CPython 互操作 + MLIR 编译实现 Python 写法 C 级性能",
+    "keywords_snippet": "Mojo 1.0 MLIR CPython interop fn static compilation"
+  },
+  {
+    "module": "09",
+    "date": "2026-09-06",
+    "topic": "Zig 0.16 指针稳定 ArrayList",
+    "title": "Zig 0.16 指针稳定 ArrayList：补上 C 缺失的内存安全网",
+    "level": "L4",
+    "depth": "深",
+    "angle": "ArrayList 指针稳定性作为 C 缺失运行时安全网的前沿演进",
+    "keywords_snippet": "Zig 0.16 pointer-stable ArrayList memory safety devlog"
+  },
+  {
+    "module": "09",
+    "date": "2026-09-07",
+    "topic": "Python免GIL自由线程",
+    "title": "Python免GIL自由线程多核并行实测",
+    "level": "L3",
+    "depth": "实践层",
+    "angle": "多核并行性能实测与迁移决策",
+    "keywords_snippet": "Python free-threading PEP703 PEP779 3.14t GIL"
+  },
+  {
+    "module": "09",
+    "date": "2026-09-07",
+    "topic": "Python类型语法PEP695",
+    "title": "Python类型语法PEP695泛型新写法",
+    "level": "L3",
+    "depth": "实践层",
+    "angle": "泛型与类型别名新语法迁移",
+    "keywords_snippet": "PEP 695 type parameter syntax type statement generics 3.12"
+  },
+  {
+    "module": "09",
+    "date": "2026-09-07",
+    "topic": "Python match-case模式匹配",
+    "title": "Python match-case结构化模式匹配实战",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "结构化模式匹配语法与适用场景",
+    "keywords_snippet": "Python match case PEP 634 structural pattern matching 3.10"
+  },
+  {
+    "module": "09",
+    "date": "2026-09-07",
+    "topic": "Java 25结构化并发",
+    "title": "Java 25结构化并发StructuredTaskScope",
+    "level": "L3",
+    "depth": "实践层",
+    "angle": "StructuredTaskScope 作用域并发实战",
+    "keywords_snippet": "Java 25 StructuredTaskScope JEP 499 JEP 505 structured concurrency"
+  },
+  {
+    "module": "09",
+    "date": "2026-09-07",
+    "topic": "Java 25 简化源文件模块导入",
+    "title": "Java 25简化源文件与模块导入",
+    "level": "L3",
+    "depth": "实践层",
+    "angle": "紧凑源文件与模块导入声明落地",
+    "keywords_snippet": "Java 25 JEP 512 compact source files JEP 511 module import"
+  },
+  {
+    "module": "09",
+    "date": "2026-09-07",
+    "topic": "Scala 3.6 3.7新特性",
+    "title": "Scala 3.6/3.7新特性与JVM生态",
+    "level": "L4",
+    "depth": "前沿层",
+    "angle": "命名元组与参数子句交错等SIP演进",
+    "keywords_snippet": "Scala 3.6 3.7 named tuples clause interleaving SIP 58 52"
+  },
+  {
+    "module": "09",
+    "date": "2026-09-11",
+    "topic": "开发语言 2026 新版本特性",
+    "title": "TypeScript 7.0 / Go 1.27 / Rust 1.97 / Kotlin 2.4 / C++26 / Java 26 新特性综述",
+    "level": "L2",
+    "depth": "深",
+    "angle": "版本发布与语法/性能演进",
+    "keywords_snippet": "TypeScript7 Go1.27 Rust1.97 Kotlin2.4 C++26 Java26"
   }
 ]

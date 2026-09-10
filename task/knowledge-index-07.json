@@ -3348,5 +3348,135 @@
     "depth": "技术层",
     "angle": "原理",
     "keywords_snippet": "SLM GGUF 内存带宽 MoE磁盘流式"
+  },
+  {
+    "module": "07",
+    "date": "2026-09-04",
+    "topic": "RAG检索增强生成",
+    "title": "RAG基础架构：用外挂知识库给大模型装上可更新的记忆",
+    "level": "L2",
+    "depth": "900-1100",
+    "angle": "外挂知识库与开卷考试类比",
+    "keywords_snippet": "RAG 检索增强 向量库 溯源 agentic"
+  },
+  {
+    "module": "07",
+    "date": "2026-09-06",
+    "topic": "长上下文技术",
+    "title": "长上下文技术：百万Token下放到端侧，位置编码才是真开关",
+    "level": "L4",
+    "depth": "前沿层",
+    "angle": "端侧百万上下文与位置编码RoPE的核心作用",
+    "keywords_snippet": "长上下文,RoPE,混合注意力,百万Token,星火X2.5"
+  },
+  {
+    "module": "07",
+    "date": "2026-09-06",
+    "topic": "vLLM推理引擎",
+    "title": "vLLM推理引擎：PagedAttention如何让一块GPU喂饱上千并发",
+    "level": "L4",
+    "depth": "前沿层",
+    "angle": "PagedAttention与连续批处理的推理吞吐原理",
+    "keywords_snippet": "vLLM,PagedAttention,continuous batching,推理部署,投机解码"
+  },
+  {
+    "module": "07",
+    "date": "2026-09-06",
+    "topic": "语音AI流式说话人分离",
+    "title": "语音AI新边界：流式说话人分离与上下文感知TTS落地",
+    "level": "L3",
+    "depth": "实践层",
+    "angle": "流式说话人归属与上下文感知TTS的产品化",
+    "keywords_snippet": "VibeVoice,ASR-Streaming,Inworld TTS-2,说话人分离,上下文TTS"
+  },
+  {
+    "module": "07",
+    "date": "2026-09-06",
+    "topic": "稀疏与线性注意力",
+    "title": "稀疏与线性注意力：四类架构如何摆脱自注意力的O(L²)代价",
+    "level": "L3",
+    "depth": "实践层",
+    "angle": "NSA/MoBA/DSA/SSM/混合架构的效率权衡",
+    "keywords_snippet": "稀疏注意力,线性注意力,SSA,Mamba,SSE,MLA"
+  },
+  {
+    "module": "07",
+    "date": "2026-09-06",
+    "topic": "Prompt注入防御",
+    "title": "Prompt注入防御：给Agent装上不可绕过的安全护栏",
+    "level": "L3",
+    "depth": "实践层",
+    "angle": "间接注入与纵深防御的Agent安全",
+    "keywords_snippet": "Prompt注入,间接注入,DualView,AgentArmor,OWASP"
+  },
+  {
+    "module": "07",
+    "date": "2026-09-06",
+    "topic": "KV Cache与投机解码",
+    "title": "KV Cache与投机解码：让大模型生成加速的两把工程钥匙",
+    "level": "L3",
+    "depth": "实践层",
+    "angle": "先猜后验的拒绝采样加速原理与四代方案",
+    "keywords_snippet": "投机解码,EAGLE-3,MTP,DFlash,DSpark,拒绝采样"
+  },
+  {
+    "module": "07",
+    "date": "2026-09-11",
+    "topic": "大模型预训练与下一词预测",
+    "title": "大模型预训练与预测下一个词：AI 如何从海量文本学会说话",
+    "level": "L1",
+    "depth": "核心原理",
+    "angle": "预训练范式与自监督学习",
+    "keywords_snippet": "预训练 下一词预测 自监督 transformer"
+  },
+  {
+    "module": "07",
+    "date": "2026-09-11",
+    "topic": "分词与词嵌入",
+    "title": "分词与词嵌入：大模型把文字变成数字向量的第一步",
+    "level": "L1",
+    "depth": "核心原理",
+    "angle": "tokenizer与embedding入门",
+    "keywords_snippet": "tokenization 分词 embedding 词向量"
+  },
+  {
+    "module": "07",
+    "date": "2026-09-11",
+    "topic": "模型对齐 RLHF 与 DPO",
+    "title": "模型对齐 RLHF 与 DPO：让博学的大模型变得可靠可用",
+    "level": "L2",
+    "depth": "训练流程",
+    "angle": "对齐与偏好优化",
+    "keywords_snippet": "RLHF DPO 对齐 偏好优化 SFT"
+  },
+  {
+    "module": "07",
+    "date": "2026-09-11",
+    "topic": "LoRA 参数高效微调",
+    "title": "LoRA 微调：用不到 1% 的参数定制专属大模型",
+    "level": "L2",
+    "depth": "工程实践",
+    "angle": "参数高效微调与适配器",
+    "keywords_snippet": "LoRA QLoRA 微调 PEFT 适配器"
+  },
+  {
+    "module": "07",
+    "date": "2026-09-11",
+    "topic": "模型量化",
+    "title": "模型量化：把大模型压进手机与显卡的低位宽魔法",
+    "level": "L2",
+    "depth": "推理优化",
+    "angle": "低位宽压缩部署",
+    "keywords_snippet": "量化 INT8 INT4 AWQ SmoothQuant 部署"
+  },
+  {
+    "module": "07",
+    "date": "2026-09-11",
+    "topic": "结构化剪枝与稀疏化",
+    "title": "结构化剪枝与稀疏化：删掉冗余参数给大模型瘦身",
+    "level": "L3",
+    "depth": "模型压缩",
+    "angle": "剪枝稀疏化瘦身",
+    "keywords_snippet": "剪枝 稀疏化 结构化剪枝 模型压缩"
   }
 ]

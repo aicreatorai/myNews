@@ -2776,5 +2776,195 @@
     "depth": "技术层",
     "angle": "用法",
     "keywords_snippet": "AI会议纪要素材 文档创作 表格分析 审批流"
+  },
+  {
+    "module": "08",
+    "date": "2026-09-04",
+    "topic": "AI 编程 IDE 实战工作流",
+    "title": "Cursor AI：用 .cursorrules + 计划模式把陌生代码库改出新功能",
+    "level": "L2",
+    "depth": "900-1100",
+    "angle": "用规则文件与计划模式把 AI 原生 IDE 用于陌生代码库改造",
+    "keywords_snippet": "Cursor, .cursorrules, Plan Mode, 计划模式, 实战工作流"
+  },
+  {
+    "module": "08",
+    "date": "2026-09-06",
+    "topic": "海绵音乐",
+    "title": "海绵音乐：用主题加曲风标签一键生成可商用短视频BGM",
+    "level": "L2",
+    "depth": "中",
+    "angle": "主题+曲风+情绪提示词与自定义歌词工作流",
+    "keywords_snippet": "海绵音乐 字节 AI音乐 曲风 情绪 自定义歌词 短视频BGM"
+  },
+  {
+    "module": "08",
+    "date": "2026-09-06",
+    "topic": "创客贴 AI",
+    "title": "创客贴 AI：用模板加智能排版批量产出社媒图",
+    "level": "L1",
+    "depth": "浅",
+    "angle": "模板+一句话智能设计+智能排版批量出图",
+    "keywords_snippet": "创客贴 AI 智能设计 智能排版 智能抠图 AI商品图 社媒图"
+  },
+  {
+    "module": "08",
+    "date": "2026-09-06",
+    "topic": "网易有道 AI",
+    "title": "网易有道 AI：用拍照答疑与作文批改做学习辅助",
+    "level": "L2",
+    "depth": "中",
+    "angle": "拍照作文批改OCR+多模型流水线+学段适配",
+    "keywords_snippet": "网易有道 AI 作文批改 拍照翻译 作业批改 简历翻译 学段适配"
+  },
+  {
+    "module": "08",
+    "date": "2026-09-06",
+    "topic": "多邻国 Duolingo",
+    "title": "多邻国 Duolingo：用 AI 角色对话练地道口语",
+    "level": "L1",
+    "depth": "浅",
+    "angle": "Roleplay与Video Call的GPT-4对话练习机制",
+    "keywords_snippet": "Duolingo Max Roleplay Video Call Lily GPT-4 口语练习 CEFR"
+  },
+  {
+    "module": "08",
+    "date": "2026-09-06",
+    "topic": "Framer AI",
+    "title": "Framer AI：用提示词加模板生成可上线响应式网站",
+    "level": "L4",
+    "depth": "深",
+    "angle": "Start with AI与Framer Agents文本到站点+分支发布",
+    "keywords_snippet": "Framer AI Start with AI Framer Agents 文本到站点 响应式 分支发布"
+  },
+  {
+    "module": "08",
+    "date": "2026-09-06",
+    "topic": "Make",
+    "title": "Make：用可视化场景把多工具串成自动同步流水线",
+    "level": "L3",
+    "depth": "深",
+    "angle": "场景/模块/字段映射/路由过滤/错误处理的实战搭建",
+    "keywords_snippet": "Make 自动化 scenario 模块 字段映射 Router Filter Error Handler 积分"
+  },
+  {
+    "module": "08",
+    "date": "2026-09-07",
+    "topic": "DeepSeek",
+    "title": "DeepSeek使用技巧：长上下文与提示词组合",
+    "level": "L3",
+    "depth": "实践层",
+    "angle": "长上下文与提示词组合实战",
+    "keywords_snippet": "DeepSeek V4 1M上下文 CO-STAR 模型路由"
+  },
+  {
+    "module": "08",
+    "date": "2026-09-07",
+    "topic": "剪映AI",
+    "title": "剪映AI剪辑：一键成片与智能字幕实战",
+    "level": "L3",
+    "depth": "实践层",
+    "angle": "AI成片与图文成片工作流",
+    "keywords_snippet": "剪映 AI成片 图文成片 智能字幕 数字人"
+  },
+  {
+    "module": "08",
+    "date": "2026-09-07",
+    "topic": "百川智能",
+    "title": "百川智能：百小应对话与文档问答入门",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "百小应是什么与怎么用",
+    "keywords_snippet": "百小应 Baichuan4 192K 搜索增强 循证"
+  },
+  {
+    "module": "08",
+    "date": "2026-09-07",
+    "topic": "Gemini",
+    "title": "Gemini使用技巧：长上下文与多模态实战",
+    "level": "L3",
+    "depth": "实践层",
+    "angle": "多模态长上下文提示词",
+    "keywords_snippet": "Gemini 1M上下文 多模态 实时搜索 前置指令"
+  },
+  {
+    "module": "08",
+    "date": "2026-09-07",
+    "topic": "GitHub Copilot",
+    "title": "GitHub Copilot新功能：并行Agent与代码审查",
+    "level": "L3",
+    "depth": "实践层",
+    "angle": "Copilot app 多agent指挥",
+    "keywords_snippet": "Copilot app worktree Canvases Agent Merge 沙箱"
+  },
+  {
+    "module": "08",
+    "date": "2026-09-07",
+    "topic": "Otter",
+    "title": "Otter会议转录：实时纪要自动生成",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "OtterPilot 实时转录与摘要",
+    "keywords_snippet": "Otter 实时转录 OtterPilot 行动项 说话人识别"
+  },
+  {
+    "module": "08",
+    "date": "2026-09-11",
+    "topic": "Claude 简报式提示词",
+    "title": "Claude：用简报式提示词把对话模型变成专用助手",
+    "level": "L2",
+    "depth": "实操",
+    "angle": "提示词工程/上下文工程",
+    "keywords_snippet": "Claude 提示词 重复 简报 上下文"
+  },
+  {
+    "module": "08",
+    "date": "2026-09-11",
+    "topic": "OpusClip 长视频转短视频",
+    "title": "OpusClip：把长视频自动切成可传播的短视频片段",
+    "level": "L2",
+    "depth": "实操",
+    "angle": "视频二创/剪辑自动化",
+    "keywords_snippet": "OpusClip 长视频 短视频 剪辑 拆条"
+  },
+  {
+    "module": "08",
+    "date": "2026-09-11",
+    "topic": "Udio AI 音乐生成",
+    "title": "Udio：用文字描述生成带人声的完整歌曲",
+    "level": "L2",
+    "depth": "实操",
+    "angle": "AI 音乐/配乐",
+    "keywords_snippet": "Udio AI音乐 文本生成歌曲 配乐"
+  },
+  {
+    "module": "08",
+    "date": "2026-09-11",
+    "topic": "讯飞智文 AI PPT",
+    "title": "讯飞智文：一句话生成可演讲的 AI PPT",
+    "level": "L2",
+    "depth": "实操",
+    "angle": "AI 演示/办公",
+    "keywords_snippet": "讯飞智文 AI PPT 演示 汇报"
+  },
+  {
+    "module": "08",
+    "date": "2026-09-11",
+    "topic": "百度文库 AI 助手",
+    "title": "百度文库 AI 助手：一站式文档生成与总结",
+    "level": "L2",
+    "depth": "实操",
+    "angle": "AI 文档/写作",
+    "keywords_snippet": "百度文库 AI 文档 总结 生成 文心"
+  },
+  {
+    "module": "08",
+    "date": "2026-09-11",
+    "topic": "即创 抖音智能创作",
+    "title": "即创：抖音一站式智能图文与视频创作",
+    "level": "L2",
+    "depth": "实操",
+    "angle": "短视频创作/电商",
+    "keywords_snippet": "即创 抖音 智能创作 短视频 图文"
   }
 ]

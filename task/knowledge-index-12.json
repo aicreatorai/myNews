@@ -2868,5 +2868,65 @@
     "depth": "商业层",
     "angle": "方法论",
     "keywords_snippet": "手搓经济,零代码,自然语言,小应用"
+  },
+  {
+    "module": "12",
+    "date": "2026-09-11",
+    "topic": "AI 400热线Voice Agent创业",
+    "title": "星语智能十人团队8个月盈利拆解",
+    "level": "L2",
+    "depth": "深稿",
+    "angle": "垂直Voice Agent变现",
+    "keywords_snippet": "AI 400热线, Voice Agent, 星语智能, 客服替代"
+  },
+  {
+    "module": "12",
+    "date": "2026-09-11",
+    "topic": "AI Agent垂直创业方法论",
+    "title": "四法则选决策密度高的场景",
+    "level": "L3",
+    "depth": "深稿",
+    "angle": "垂直Agent方法论",
+    "keywords_snippet": "AI Agent, 垂直场景, 数据飞轮, 按结果收费"
+  },
+  {
+    "module": "12",
+    "date": "2026-09-11",
+    "topic": "一人公司OPC AI创业",
+    "title": "中位ARR约24万美金的存活法则",
+    "level": "L1",
+    "depth": "深稿",
+    "angle": "一人公司路径",
+    "keywords_snippet": "一人公司, OPC, 独立开发者, AI杠杆"
+  },
+  {
+    "module": "12",
+    "date": "2026-09-11",
+    "topic": "垂直行业AI创业",
+    "title": "云知声医疗与明略工业账本",
+    "level": "L2",
+    "depth": "深稿",
+    "angle": "行业Agent落地",
+    "keywords_snippet": "垂直行业AI, 医疗Agent, 工业Agent, ROI"
+  },
+  {
+    "module": "12",
+    "date": "2026-09-11",
+    "topic": "AI内容工具赛道",
+    "title": "Midjourney 5亿美金收入样本",
+    "level": "L3",
+    "depth": "深稿",
+    "angle": "内容工具赚钱与陷阱",
+    "keywords_snippet": "AI内容工具, Midjourney, 产品矩阵, Jasper"
+  },
+  {
+    "module": "12",
+    "date": "2026-09-11",
+    "topic": "AI安全合规创业",
+    "title": "Agent审计单次5万美金新赛道",
+    "level": "L4",
+    "depth": "深稿",
+    "angle": "合规刚需赛道",
+    "keywords_snippet": "AI合规, Agent审计, 安全, 监管"
   }
 ]
