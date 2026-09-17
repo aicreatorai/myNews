@@ -3038,5 +3038,65 @@
     "depth": "需求",
     "angle": "垂直场景可验收指标拆解",
     "keywords_snippet": "垂直场景 MVP 可验收指标"
+  },
+  {
+    "module": "15",
+    "date": "2026-09-18",
+    "topic": "AI辅助用户访谈",
+    "title": "AI辅助用户访谈：用大模型把定性访谈变成需求洞察",
+    "level": "L2",
+    "depth": "用户研究方法",
+    "angle": "大模型聚类访谈实录提取需求洞察",
+    "keywords_snippet": "用户访谈 LLM聚类 需求洞察 三明治工作法"
+  },
+  {
+    "module": "15",
+    "date": "2026-09-18",
+    "topic": "AI产品指标迁移",
+    "title": "AI产品指标迁移：用护栏指标防止换了个好看的数陷阱",
+    "level": "L3",
+    "depth": "数据指标治理",
+    "angle": "北极星加护栏防口径污染",
+    "keywords_snippet": "北极星 周活跃使用率 护栏指标 口径污染"
+  },
+  {
+    "module": "15",
+    "date": "2026-09-18",
+    "topic": "AI Agent产品路线",
+    "title": "AI Agent三条产品路线拆解：超级App闭环、内容场景触发与开发者工具",
+    "level": "L4",
+    "depth": "案例拆解",
+    "angle": "通义豆包Kimi三条路线对比",
+    "keywords_snippet": "Agentic Commerce 内容场景触发 开发者工具 三条路线"
+  },
+  {
+    "module": "15",
+    "date": "2026-09-18",
+    "topic": "海外AI产品失败复盘",
+    "title": "海外AI产品失败复盘：被大平台吞并与算力拖垮的三类死法",
+    "level": "L2",
+    "depth": "失败复盘",
+    "angle": "平台吞并算力拖垮PMF缺失",
+    "keywords_snippet": "AI graveyard Relay Huxe Figgs 失败复盘"
+  },
+  {
+    "module": "15",
+    "date": "2026-09-18",
+    "topic": "AI产品定价",
+    "title": "AI产品定价六模式：从Token消耗到按结果付费的选型决策",
+    "level": "L3",
+    "depth": "商业化定价",
+    "angle": "六模式选型与五步定价法",
+    "keywords_snippet": "Token 订阅 按结果 Outcome-based 定价"
+  },
+  {
+    "module": "15",
+    "date": "2026-09-18",
+    "topic": "AI PM工作流",
+    "title": "AI产品经理工作流：用AI副驾把PRD与原型周期砍半",
+    "level": "L4",
+    "depth": "工具工作流",
+    "angle": "AI副驾重构PRD与原型",
+    "keywords_snippet": "PRD AI副驾 原型 工作流 采纳率"
   }
 ]

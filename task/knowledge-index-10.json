@@ -3118,5 +3118,65 @@
     "depth": "深入",
     "angle": "3K行极简架构与技能树自我进化",
     "keywords_snippet": "GenericAgent 自我进化 技能树"
+  },
+  {
+    "module": "10",
+    "date": "2026-09-18",
+    "topic": "reverify确定性验证",
+    "title": "reverify：把 AI 代码结论交给确定性工具验证的 MCP 验证网关",
+    "level": "L3",
+    "depth": "可信化机制",
+    "angle": "用模型之外的确定性闸门拦截幻觉",
+    "keywords_snippet": "reverify MCP 确定性验证 二进制逆向 幻觉拦截"
+  },
+  {
+    "module": "10",
+    "date": "2026-09-18",
+    "topic": "CodeGraph代码知识图谱MCP",
+    "title": "CodeGraph（codebase-memory-mcp）：覆盖 158 种语言的代码知识图谱 MCP 服务器",
+    "level": "L2",
+    "depth": "工具原理",
+    "angle": "用图谱检索替代全量读库喂料给编码代理",
+    "keywords_snippet": "codebase-memory-mcp tree-sitter AST 知识图谱 158语言 MCP"
+  },
+  {
+    "module": "10",
+    "date": "2026-09-18",
+    "topic": "Agency Agents代理人格分发",
+    "title": "Agency Agents：一键装进 Claude Code 的专业 AI 代理人格集合",
+    "level": "L1",
+    "depth": "上手实践",
+    "angle": "把技能打包成可一键装卸的代理人格目录",
+    "keywords_snippet": "agency-agents 代理人格 Claude Code Cursor 一键安装"
+  },
+  {
+    "module": "10",
+    "date": "2026-09-18",
+    "topic": "context-mode上下文优化",
+    "title": "context-mode：为编码 Agent 砍掉 98% 工具输出的上下文优化 MCP",
+    "level": "L2",
+    "depth": "长会话瘦身",
+    "angle": "沙箱压缩工具输出并持久化任务状态",
+    "keywords_snippet": "context-mode MCP 上下文压缩 315KB 5.4KB SQLite FTS5"
+  },
+  {
+    "module": "10",
+    "date": "2026-09-18",
+    "topic": "Tencent teamai-cli团队协同",
+    "title": "Tencent teamai-cli：让团队一步迈入 AI 原生的命令行工具",
+    "level": "L1",
+    "depth": "上手实践",
+    "angle": "把共享上下文前置到 CLI 实现团队级 AI 协同",
+    "keywords_snippet": "teamai-cli 腾讯 团队AI CLI 共享上下文 协同"
+  },
+  {
+    "module": "10",
+    "date": "2026-09-18",
+    "topic": "NVIDIA SkillSpector技能安全",
+    "title": "NVIDIA SkillSpector：为 AI Agent 技能做安全体检的开源扫描器",
+    "level": "L3",
+    "depth": "安全体检",
+    "angle": "对 Agent 技能做供应链漏洞扫描门禁",
+    "keywords_snippet": "SkillSpector NVIDIA 技能扫描 71漏洞模式 提示词注入 CVE"
   }
 ]

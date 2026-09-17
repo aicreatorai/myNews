@@ -2928,5 +2928,65 @@
     "depth": "深稿",
     "angle": "合规刚需赛道",
     "keywords_snippet": "AI合规, Agent审计, 安全, 监管"
+  },
+  {
+    "module": "12",
+    "date": "2026-09-18",
+    "topic": "企业AI落地咨询代运营",
+    "title": "企业AI落地咨询代运营：中小企业月付2000美元省下十人力的新生意",
+    "level": "L2",
+    "depth": "实践层",
+    "angle": "用现成AI工具为中小企业搭工作流按月或按项目收费的低门槛高毛利生意",
+    "keywords_snippet": "AI咨询 代运营 retainer 月费 工作流落地 中小企业"
+  },
+  {
+    "module": "12",
+    "date": "2026-09-18",
+    "topic": "AI自动化播客变现",
+    "title": "AI自动化播客变现：一人运营365集月入1200美元广告分成",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "Claude写稿加ElevenLabs配音加RSS自动广告的常青内容副业",
+    "keywords_snippet": "AI播客 自动化 广告分成 evergreen ElevenLabs RSS"
+  },
+  {
+    "module": "12",
+    "date": "2026-09-18",
+    "topic": "独立开发者出海收款",
+    "title": "独立开发者出海收款：美国LLC加Stripe三周跑通全球付款",
+    "level": "L3",
+    "depth": "实践层",
+    "angle": "怀俄明LLC加EIN加Mercury加Stripe加Wise合规收款全链路",
+    "keywords_snippet": "出海收款 Stripe 美国LLC Mercury Wise 合规"
+  },
+  {
+    "module": "12",
+    "date": "2026-09-18",
+    "topic": "一人公司AI编程",
+    "title": "一人公司AI编程：非技术者用Cursor和Bolt做出月入$3万产品",
+    "level": "L2",
+    "depth": "实践层",
+    "angle": "vibe coding让非技术者用自然语言做出月入数万产品",
+    "keywords_snippet": "Cursor Bolt Lovable vibe coding 一人公司 非技术"
+  },
+  {
+    "module": "12",
+    "date": "2026-09-18",
+    "topic": "AI产品定价策略",
+    "title": "AI产品定价三阶段：从按座位到按结果收费的毛利跃迁",
+    "level": "L4",
+    "depth": "前沿层",
+    "angle": "AI SaaS从seat到usage到outcome定价的毛利演进",
+    "keywords_snippet": "AI定价 按座位 按用量 按结果 outcome Intercom"
+  },
+  {
+    "module": "12",
+    "date": "2026-09-18",
+    "topic": "AI浏览器插件变现",
+    "title": "AI浏览器插件变现：200行代码Chrome扩展月入4700美元",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "借Chrome Web Store自然流量做AI扩展freemium订阅",
+    "keywords_snippet": "Chrome扩展 AI插件 Web Store freemium 订阅"
   }
 ]

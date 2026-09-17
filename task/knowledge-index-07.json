@@ -3478,5 +3478,15 @@
     "depth": "模型压缩",
     "angle": "剪枝稀疏化瘦身",
     "keywords_snippet": "剪枝 稀疏化 结构化剪枝 模型压缩"
+  },
+  {
+    "module": "07",
+    "date": "2026-09-18",
+    "topic": "循环神经网络RNN与LSTM",
+    "title": "循环神经网络RNN与LSTM：序列建模的奠基者",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "门控机制如何解决长序列依赖与梯度消失",
+    "keywords_snippet": "循环连接 隐藏状态 门控 GRU 梯度消失"
   }
 ]

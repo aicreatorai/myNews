@@ -2728,5 +2728,65 @@
     "depth": "深",
     "angle": "版本发布与语法/性能演进",
     "keywords_snippet": "TypeScript7 Go1.27 Rust1.97 Kotlin2.4 C++26 Java26"
+  },
+  {
+    "module": "09",
+    "date": "2026-09-18",
+    "topic": "Swift 并发模型",
+    "title": "Swift 6.2 发布：默认 MainActor 隔离与 @concurrent 重塑并发模型",
+    "level": "L2",
+    "depth": "语言并发特性",
+    "angle": "严格并发模型简化",
+    "keywords_snippet": "Swift 6.2, MainActor, @concurrent, Span"
+  },
+  {
+    "module": "09",
+    "date": "2026-09-18",
+    "topic": "WASI 组件模型",
+    "title": "WASI 0.3 预览版发布：组件模型原生异步，stream 与 future 写入 ABI",
+    "level": "L3",
+    "depth": "系统接口与组件模型",
+    "angle": "组件模型原生异步可组合并发",
+    "keywords_snippet": "WASI 0.3, Component Model, stream, future"
+  },
+  {
+    "module": "09",
+    "date": "2026-09-18",
+    "topic": "C# 14 语言",
+    "title": "C# 14 随 .NET 10 发布：扩展成员、field 关键字与一等 Span 支持",
+    "level": "L2",
+    "depth": "语言语法特性",
+    "angle": "扩展成员与一等 Span 转换",
+    "keywords_snippet": "C# 14, .NET 10, extension, field, Span"
+  },
+  {
+    "module": "09",
+    "date": "2026-09-18",
+    "topic": "Python 自由线程",
+    "title": "Python 3.14 自由线程落地：GIL 可选移除，单线程损耗降至 5-10%",
+    "level": "L2",
+    "depth": "语言运行时特性",
+    "angle": "GIL 可选移除与多核并行",
+    "keywords_snippet": "Python 3.14, free-threaded, PEP 779, GIL"
+  },
+  {
+    "module": "09",
+    "date": "2026-09-18",
+    "topic": "ECMAScript 2026",
+    "title": "ES2026 标准固化：Iterator Helpers 与 Set 运算等八项提案落地",
+    "level": "L2",
+    "depth": "语言标准特性",
+    "angle": "TC39 Stage 4 提案落地",
+    "keywords_snippet": "ES2026, Iterator Helpers, Set, Temporal"
+  },
+  {
+    "module": "09",
+    "date": "2026-09-18",
+    "topic": "Bun 运行时",
+    "title": "Bun 2.0 正式版发布：Zig 内核加内置 SQL/S3，Node 兼容性达 99.4%",
+    "level": "L2",
+    "depth": "运行时与工具链",
+    "angle": "全工具链一体化运行时",
+    "keywords_snippet": "Bun 2.0, Zig, JavaScriptCore, SQL/S3"
   }
 ]

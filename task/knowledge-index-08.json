@@ -2966,5 +2966,15 @@
     "depth": "实操",
     "angle": "短视频创作/电商",
     "keywords_snippet": "即创 抖音 智能创作 短视频 图文"
+  },
+  {
+    "module": "08",
+    "date": "2026-09-18",
+    "topic": "天工 AI 搜索",
+    "title": "天工 AI 搜索：国产长文与多模态搜索实战",
+    "level": "L1",
+    "depth": "AI 搜索入门",
+    "angle": "长文解析与多模态产出",
+    "keywords_snippet": "天工/AI搜索/R1/长文档"
   }
 ]
