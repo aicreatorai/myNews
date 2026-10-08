@@ -2788,5 +2788,125 @@
     "depth": "运行时与工具链",
     "angle": "全工具链一体化运行时",
     "keywords_snippet": "Bun 2.0, Zig, JavaScriptCore, SQL/S3"
+  },
+  {
+    "module": "09",
+    "date": "2026-09-19",
+    "topic": "Java 27 后量子 紧凑对象头 G1默认",
+    "title": "Java 27 发布：后量子混合密钥交换与紧凑对象头默认化重塑企业级安全与堆内存",
+    "level": "L1",
+    "depth": "中",
+    "angle": "JDK27 GA 后量子TLS与紧凑对象头默认化",
+    "keywords_snippet": "Java 27 G1 CompactObjectHeaders 后量子 TLS JEP527"
+  },
+  {
+    "module": "09",
+    "date": "2026-09-19",
+    "topic": "Kotlin 命名解构 按名拆解",
+    "title": "Kotlin 命名解构登场：按属性名而非位置拆解对象，重构安全再升一档",
+    "level": "L2",
+    "depth": "中",
+    "angle": "命名解构替代位置解构提升重构安全",
+    "keywords_snippet": "Kotlin name-based destructuring 2.5.0 component"
+  },
+  {
+    "module": "09",
+    "date": "2026-09-19",
+    "topic": "Go 1.28 路线图 Cgo 泛型集合",
+    "title": "Go 1.28 路线图曝光：Cgo 免 C 工具链与泛型集合库补上十年空白",
+    "level": "L3",
+    "depth": "中",
+    "angle": "Pure Go Cgo 与标准泛型集合草案前瞻",
+    "keywords_snippet": "Go 1.28 PureGoCgo set.Set GreenTeaGC issue43930"
+  },
+  {
+    "module": "09",
+    "date": "2026-09-19",
+    "topic": "Rust 1.92.0 Never Type raw指针",
+    "title": "Rust 1.92.0 发布：Never Type 稳定化前哨与 &raw 指针解锁安全代码新写法",
+    "level": "L4",
+    "depth": "中",
+    "angle": "Never Type deny lint 与 raw 指针稳定",
+    "keywords_snippet": "Rust 1.92.0 never_type raw Box::new_zeroed panic=abort"
+  },
+  {
+    "module": "09",
+    "date": "2026-09-19",
+    "topic": "Python uv ruff 工具链",
+    "title": "Python 工具链双线更新：uv 0.12 加固哈希校验，ruff 0.16 拥抱 PEP 728",
+    "level": "L1",
+    "depth": "中",
+    "angle": "uv 哈希校验与 ruff PEP728 识别",
+    "keywords_snippet": "uv 0.12 ruff 0.16 PEP658 PEP751 PEP728"
+  },
+  {
+    "module": "09",
+    "date": "2026-09-19",
+    "topic": "JDK 28 Value Objects Simple JSON",
+    "title": "JDK 28 前瞻：Value Objects 值对象预览与 Simple JSON API 补上标准库短板",
+    "level": "L2",
+    "depth": "中",
+    "angle": "Valhalla 值对象预览与标准JSON API前瞻",
+    "keywords_snippet": "JDK 28 ValueObjects JEP401 SimpleJSON JEP540 StrictFieldInit"
+  },
+  {
+    "module": "09",
+    "date": "2026-10-09",
+    "topic": "Deno 2.9",
+    "title": "Deno 2.9：deno desktop 原生桌面应用与 Node 26 兼容",
+    "level": "L2",
+    "depth": 950,
+    "angle": "JS 运行时桌面分发与 Node 兼容",
+    "keywords_snippet": "Deno,deno desktop,Node 26,原生二进制,运行时"
+  },
+  {
+    "module": "09",
+    "date": "2026-10-09",
+    "topic": "WebAssembly 运行时",
+    "title": "WebAssembly 运行时三强：V8 / Wasmtime / WAMR 性能与场景选型",
+    "level": "L2",
+    "depth": 950,
+    "angle": "三大 Wasm 运行时性能与选型对比",
+    "keywords_snippet": "WebAssembly,V8,Wasmtime,WAMR,冷启动,内存密度"
+  },
+  {
+    "module": "09",
+    "date": "2026-10-09",
+    "topic": "Node.js 23 / V8",
+    "title": "Node.js 23 与 V8 v12.4：Promise 解析提速与 Wasm SIMD 多线程",
+    "level": "L2",
+    "depth": 950,
+    "angle": "V8 引擎优化与 Wasm 向量化线程",
+    "keywords_snippet": "Node.js 23,V8 v12.4,Promise,async_hooks,Wasm SIMD"
+  },
+  {
+    "module": "09",
+    "date": "2026-10-09",
+    "topic": "Go 1.27 标准库",
+    "title": "Go 1.27 标准库强化：JSON v2 引擎、后量子签名 ML-DSA 与 goroutine 泄漏剖析",
+    "level": "L2",
+    "depth": 950,
+    "angle": "标准库生产级加固与后量子密码",
+    "keywords_snippet": "Go 1.27,encoding/json/v2,ML-DSA,goroutine leak,后量子"
+  },
+  {
+    "module": "09",
+    "date": "2026-10-09",
+    "topic": "Ada/SPARK",
+    "title": "Ada/SPARK 形式化验证：安全关键系统内存安全的数学证明路线",
+    "level": "L2",
+    "depth": 950,
+    "angle": "形式化验证与内存安全保证分层",
+    "keywords_snippet": "Ada,SPARK,形式化验证,内存安全,安全关键"
+  },
+  {
+    "module": "09",
+    "date": "2026-10-09",
+    "topic": "Mojo",
+    "title": "Mojo 2026 进展：MLIR 内核与 Python 互操作打造 AI 系统编程语言",
+    "level": "L2",
+    "depth": 950,
+    "angle": "AI 原生系统编程语言与 MLIR 内核",
+    "keywords_snippet": "Mojo,Modular,MLIR,Python 超集,AI 语言"
   }
 ]

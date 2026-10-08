@@ -3098,5 +3098,125 @@
     "depth": "工具工作流",
     "angle": "AI副驾重构PRD与原型",
     "keywords_snippet": "PRD AI副驾 原型 工作流 采纳率"
+  },
+  {
+    "module": "15",
+    "date": "2026-09-19",
+    "topic": "AI需求优先级RICE",
+    "title": "【AI 需求优先级：用 RICE 给模型能力和用户痛点称重】",
+    "level": "L1",
+    "depth": "中",
+    "angle": "含模型信心维度",
+    "keywords_snippet": "RICE 优先级 AI需求"
+  },
+  {
+    "module": "15",
+    "date": "2026-09-19",
+    "topic": "Agent评测体系",
+    "title": "【Agent 评测体系：给会自己行动的功能装上仪表盘】",
+    "level": "L2",
+    "depth": "中",
+    "angle": "Eval集防翻车",
+    "keywords_snippet": "Agent 评测 Eval 漏斗"
+  },
+  {
+    "module": "15",
+    "date": "2026-09-19",
+    "topic": "AI用户画像场景切片",
+    "title": "【AI 用户画像：从人口属性升级到意图与场景切片】",
+    "level": "L3",
+    "depth": "中",
+    "angle": "动态场景切片",
+    "keywords_snippet": "用户画像 场景 意图 切片"
+  },
+  {
+    "module": "15",
+    "date": "2026-09-19",
+    "topic": "AI可用性测试",
+    "title": "【AI 可用性测试：在没有标准答案的产品里找卡点】",
+    "level": "L4",
+    "depth": "中",
+    "angle": "信任校准三件套",
+    "keywords_snippet": "可用性 测试 信任 校准"
+  },
+  {
+    "module": "15",
+    "date": "2026-09-19",
+    "topic": "AI增长漏斗",
+    "title": "【AI 增长漏斗：在激活这一步重新定义啊哈时刻】",
+    "level": "L1",
+    "depth": "中",
+    "angle": "首问即惊艳",
+    "keywords_snippet": "增长 漏斗 激活 首问"
+  },
+  {
+    "module": "15",
+    "date": "2026-09-19",
+    "topic": "AI竞品分析",
+    "title": "【AI 竞品分析：从功能清单到能力边界与失误画像】",
+    "level": "L2",
+    "depth": "中",
+    "angle": "失误画像定位",
+    "keywords_snippet": "竞品分析 失误画像 差异化"
+  },
+  {
+    "module": "15",
+    "date": "2026-10-09",
+    "topic": "需求信号聚类",
+    "title": "需求信号聚类：用无监督学习从工单日志挖出产品隐性痛点",
+    "level": "L2",
+    "depth": 950,
+    "angle": "需求洞察新方法",
+    "keywords_snippet": "无监督聚类 工单日志 隐性痛点 机会发现"
+  },
+  {
+    "module": "15",
+    "date": "2026-10-09",
+    "topic": "AI产品评测七维框架",
+    "title": "AI 产品评测七维框架：用黄金测试集把模型表现量化成业务指标",
+    "level": "L2",
+    "depth": 950,
+    "angle": "评测指标体系",
+    "keywords_snippet": "七维评测 黄金测试集 金丝雀 自动回滚"
+  },
+  {
+    "module": "15",
+    "date": "2026-10-09",
+    "topic": "AI产品信任设计",
+    "title": "AI 产品信任设计：用置信度信号与可解释记忆建立用户安全感",
+    "level": "L2",
+    "depth": 950,
+    "angle": "用户体验信任",
+    "keywords_snippet": "置信度评分 记忆可读 信任遥测 可控感"
+  },
+  {
+    "module": "15",
+    "date": "2026-10-09",
+    "topic": "AI灰度发布",
+    "title": "AI 灰度发布与影子模式：用金丝雀回滚给模型上线加护栏",
+    "level": "L2",
+    "depth": 950,
+    "angle": "上线评估护栏",
+    "keywords_snippet": "金丝雀 影子模式 自动回滚 灰度"
+  },
+  {
+    "module": "15",
+    "date": "2026-10-09",
+    "topic": "内容安全护栏产品化",
+    "title": "内容安全护栏产品化：把审核从封禁开关做成可配置策略层",
+    "level": "L2",
+    "depth": 950,
+    "angle": "合规产品化",
+    "keywords_snippet": "可配置策略层 可解释拒绝 公平性 偏见披露"
+  },
+  {
+    "module": "15",
+    "date": "2026-10-09",
+    "topic": "AI产品习惯回路",
+    "title": "AI 产品习惯回路：用工作流嵌入与自然分享构建自增长飞轮",
+    "level": "L2",
+    "depth": 950,
+    "angle": "增长留存",
+    "keywords_snippet": "习惯回路 工作流嵌入 可分享产出 留存"
   }
 ]

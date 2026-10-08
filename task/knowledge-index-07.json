@@ -3488,5 +3488,125 @@
     "depth": "概念层",
     "angle": "门控机制如何解决长序列依赖与梯度消失",
     "keywords_snippet": "循环连接 隐藏状态 门控 GRU 梯度消失"
+  },
+  {
+    "module": "07",
+    "date": "2026-09-19",
+    "topic": "混合专家MoE",
+    "title": "【混合专家架构MoE：让万亿参数模型按任务动态分配计算资源】",
+    "level": "L1",
+    "depth": "中",
+    "angle": "万亿参数下按任务路由激活专家以降低计算成本",
+    "keywords_snippet": "MoE,路由,专家,条件计算,共享专家"
+  },
+  {
+    "module": "07",
+    "date": "2026-09-19",
+    "topic": "投机解码",
+    "title": "【投机解码：用草稿模型把大模型推理延迟砍掉三分之二】",
+    "level": "L2",
+    "depth": "中",
+    "angle": "草稿模型先猜后验并行验证实现无损加速",
+    "keywords_snippet": "投机解码,草稿模型,并行验证,接受率,EAGLE"
+  },
+  {
+    "module": "07",
+    "date": "2026-09-19",
+    "topic": "长度外推与位置编码",
+    "title": "【长度外推与位置编码：让模型读得下百万字长文】",
+    "level": "L3",
+    "depth": "中",
+    "angle": "RoPE缩放让训练短窗口模型用得更长",
+    "keywords_snippet": "RoPE,NTK,YaRN,位置编码,长度外推"
+  },
+  {
+    "module": "07",
+    "date": "2026-09-19",
+    "topic": "MoE负载均衡",
+    "title": "【负载均衡辅助损失：MoE路由不均时如何让专家各司其职】",
+    "level": "L4",
+    "depth": "中",
+    "angle": "辅助损失防止路由塌缩让专家均衡工作",
+    "keywords_snippet": "辅助损失,负载均衡,路由塌缩,容量因子"
+  },
+  {
+    "module": "07",
+    "date": "2026-09-19",
+    "topic": "KV缓存压缩",
+    "title": "【KV缓存压缩：在长对话里把显存账单降下来】",
+    "level": "L1",
+    "depth": "中",
+    "angle": "长上下文下压缩KV缓存缓解显存瓶颈",
+    "keywords_snippet": "KV缓存,量化,驱逐,CompressKV,显存"
+  },
+  {
+    "module": "07",
+    "date": "2026-09-19",
+    "topic": "长上下文评测",
+    "title": "【长上下文评测：用大海捞针测试揭穿模型记忆幻觉】",
+    "level": "L2",
+    "depth": "中",
+    "angle": "大海捞针测试区分容量声明与有效上下文",
+    "keywords_snippet": "NIAH,大海捞针,多针,有效上下文,评测"
+  },
+  {
+    "module": "07",
+    "date": "2026-10-09",
+    "topic": "注意力机制2026变体",
+    "title": "2026注意力机制变体全景：GQA MLA与线性注意力如何破解KV缓存瓶颈",
+    "level": "L2",
+    "depth": 950,
+    "angle": "从KV缓存瓶颈出发讲解GQA/MLA/线性循环等2026注意力变体",
+    "keywords_snippet": "GQA MLA 线性注意力 KV缓存 The Extender HydraAttn"
+  },
+  {
+    "module": "07",
+    "date": "2026-10-09",
+    "topic": "MCP协议2026无状态化",
+    "title": "MCP 2026无状态化重构：从工具调用协议迈向Agent互联",
+    "level": "L2",
+    "depth": 950,
+    "angle": "讲解2026-07-28 MCP无状态修订、扩展框架及A2A互补",
+    "keywords_snippet": "MCP 无状态 Tasks MCP Apps A2A 工具调用"
+  },
+  {
+    "module": "07",
+    "date": "2026-10-09",
+    "topic": "RAG八大架构模式",
+    "title": "2026年RAG八大架构模式：从朴素检索到Agentic与图谱增强",
+    "level": "L2",
+    "depth": 950,
+    "angle": "讲解RAG从朴素到Agentic/GraphRAG的八档复杂度阶梯与选型",
+    "keywords_snippet": "RAG 混合检索 重排 GraphRAG Agentic Self-RAG"
+  },
+  {
+    "module": "07",
+    "date": "2026-10-09",
+    "topic": "多Agent编排架构",
+    "title": "多Agent编排架构：用分工协作把复杂任务拆给一队AI",
+    "level": "L2",
+    "depth": 950,
+    "angle": "讲解集中/对等/混合三种模式及六种编排范式与选型",
+    "keywords_snippet": "多Agent 编排 集中编排 层级 路由 A2A MCP"
+  },
+  {
+    "module": "07",
+    "date": "2026-10-09",
+    "topic": "Agent记忆与规划",
+    "title": "Agent记忆与规划：让AI拥有短时记忆长期经验与行动蓝图",
+    "level": "L2",
+    "depth": 950,
+    "angle": "讲解三级记忆分层、Planner-Executor规划与Payload-by-Reference",
+    "keywords_snippet": "Agent 记忆 规划 短期 长期 Planner-Executor Mem0"
+  },
+  {
+    "module": "07",
+    "date": "2026-10-09",
+    "topic": "视觉语言模型VLM 2026",
+    "title": "视觉语言模型VLM 2026：从看图说话到嵌入工作流的多模态代理",
+    "level": "L2",
+    "depth": 950,
+    "angle": "讲解VLM三类架构、2026新进展与生产落地挑战",
+    "keywords_snippet": "VLM 多模态 MoT GLM-5V-Turbo 视觉语言模型 具身"
   }
 ]

@@ -3178,5 +3178,125 @@
     "depth": "安全体检",
     "angle": "对 Agent 技能做供应链漏洞扫描门禁",
     "keywords_snippet": "SkillSpector NVIDIA 技能扫描 71漏洞模式 提示词注入 CVE"
+  },
+  {
+    "module": "10",
+    "date": "2026-09-19",
+    "topic": "supermemory 本地 AI 记忆引擎",
+    "title": "【supermemory：在你本机跑起来、可无限扩展的 AI 记忆与上下文引擎】",
+    "level": "L1",
+    "depth": "中",
+    "angle": "本地优先的 AI 记忆与上下文引擎，给 Agent 持久化长期记忆",
+    "keywords_snippet": "supermemory memory context engine local Rust MCP Agent"
+  },
+  {
+    "module": "10",
+    "date": "2026-09-19",
+    "topic": "rtk token 代理 CLI",
+    "title": "【rtk：把常见开发命令的 LLM token 消耗砍掉 60%-90% 的 CLI 代理】",
+    "level": "L2",
+    "depth": "中",
+    "angle": "用命令输出节流把 LLM token 消耗砍掉六到九成",
+    "keywords_snippet": "rtk token proxy Rust CLI claude-code agentic-coding"
+  },
+  {
+    "module": "10",
+    "date": "2026-09-19",
+    "topic": "Worktrunk 并行 worktree",
+    "title": "【Worktrunk：让多个 AI 编码 Agent 并行跑在隔离 Git worktree 上的 Rust CLI】",
+    "level": "L3",
+    "depth": "中",
+    "angle": "面向并行 AI Agent 的 Git worktree 隔离管理 CLI",
+    "keywords_snippet": "Worktrunk git worktree parallel agent Rust CLI"
+  },
+  {
+    "module": "10",
+    "date": "2026-09-19",
+    "topic": "Firstmate agent distro",
+    "title": "【Firstmate：用船长-船员层级把一队自主 Agent 编排起来的开源 agent distro】",
+    "level": "L4",
+    "depth": "中",
+    "angle": "用大副-船员层级编排一队自主 Agent 的开源 distro",
+    "keywords_snippet": "Firstmate agent distro orchestration crewmate tmux"
+  },
+  {
+    "module": "10",
+    "date": "2026-09-19",
+    "topic": "hexstrike-ai 安全 MCP",
+    "title": "【hexstrike-ai：把 150 多个网络安全工具暴露给 AI Agent 的 MCP 服务器】",
+    "level": "L1",
+    "depth": "中",
+    "angle": "暴露 150+ 网络安全工具的 MCP 服务器，驱动自动化渗透",
+    "keywords_snippet": "hexstrike-ai MCP cybersecurity pentest agent 150 tools"
+  },
+  {
+    "module": "10",
+    "date": "2026-09-19",
+    "topic": "Agent-Reach 联网 CLI",
+    "title": "【Agent-Reach：让 AI Agent 一个 CLI 免费读遍全网社媒与代码平台的联网工具】",
+    "level": "L2",
+    "depth": "中",
+    "angle": "零费跨平台联网取数的 Agent CLI，支持 MCP",
+    "keywords_snippet": "Agent-Reach web scraper MCP Twitter Reddit YouTube GitHub"
+  },
+  {
+    "module": "10",
+    "date": "2026-10-09",
+    "topic": "OpenCode",
+    "title": "【OpenCode：可读取分叉、支持 75+ 模型的开源终端编码 Agent】",
+    "level": "L2",
+    "depth": 950,
+    "angle": "开源终端编码Agent运行时",
+    "keywords_snippet": "开源编码Agent,终端,多模型,Ollama,LSP"
+  },
+  {
+    "module": "10",
+    "date": "2026-10-09",
+    "topic": "Superpowers",
+    "title": "【Superpowers：把搜索-规划-编辑-验证写成方法论的开源 Agentic 技能框架】",
+    "level": "L2",
+    "depth": 950,
+    "angle": "Agentic技能方法论与TDD",
+    "keywords_snippet": "Agentic技能,TDD,方法论,SKILL.md"
+  },
+  {
+    "module": "10",
+    "date": "2026-10-09",
+    "topic": "PageIndex",
+    "title": "【PageIndex：砍掉向量库与分块、靠目录树加 LLM 推理做无嵌入 RAG】",
+    "level": "L2",
+    "depth": 950,
+    "angle": "无向量推理式RAG",
+    "keywords_snippet": "无向量RAG,目录树,LLM推理,FinanceBench"
+  },
+  {
+    "module": "10",
+    "date": "2026-10-09",
+    "topic": "fastmcp",
+    "title": "【fastmcp：用 Pythonic 方式几行代码搭起 MCP 服务器与客户端的开源框架】",
+    "level": "L2",
+    "depth": 950,
+    "angle": "Python构建MCP框架",
+    "keywords_snippet": "MCP,Python,装饰器,工具服务器"
+  },
+  {
+    "module": "10",
+    "date": "2026-10-09",
+    "topic": "PixelRAG",
+    "title": "【PixelRAG：用网页截图代替纯文本做视觉检索增强生成的开源框架】",
+    "level": "L2",
+    "depth": 950,
+    "angle": "视觉RAG截图检索",
+    "keywords_snippet": "视觉RAG,截图,视觉嵌入,排版"
+  },
+  {
+    "module": "10",
+    "date": "2026-10-09",
+    "topic": "Mastra",
+    "title": "【Mastra：把 Agent、工作流、记忆、评测与 MCP 装进 JS/TS 产品的开源框架】",
+    "level": "L2",
+    "depth": 950,
+    "angle": "TS产品Agent框架",
+    "keywords_snippet": "TypeScript,Agent,工作流,记忆,评测,MCP"
   }
 ]

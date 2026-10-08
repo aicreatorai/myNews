@@ -2976,5 +2976,125 @@
     "depth": "AI 搜索入门",
     "angle": "长文解析与多模态产出",
     "keywords_snippet": "天工/AI搜索/R1/长文档"
+  },
+  {
+    "module": "08",
+    "date": "2026-09-19",
+    "topic": "Claude Code 终端AI编程代理",
+    "title": "Claude Code 项目实战：把需求文档变成可运行代码的 Agent 工作流",
+    "level": "L1",
+    "depth": "中",
+    "angle": "用四件套派单法与Plan Mode把需求变可运行代码",
+    "keywords_snippet": "Claude Code Plan Mode CLAUDE.md 四件套"
+  },
+  {
+    "module": "08",
+    "date": "2026-09-19",
+    "topic": "Windsurf Cascade 代理",
+    "title": "Windsurf AI 编程实战：Cascade 代理把多文件改动一次做完",
+    "level": "L4",
+    "depth": "中",
+    "angle": "VS Code分支编辑器Cascade跨文件改动与额度优化",
+    "keywords_snippet": "Windsurf Cascade Tab内联 额度"
+  },
+  {
+    "module": "08",
+    "date": "2026-09-19",
+    "topic": "秘塔 AI 搜索",
+    "title": "秘塔 AI 搜索使用指南：中文长文与学术溯源的高效检索",
+    "level": "L2",
+    "depth": "中",
+    "angle": "中文AI搜索学术模式与溯源证据链工作流",
+    "keywords_snippet": "秘塔 学术模式 深入模式 溯源"
+  },
+  {
+    "module": "08",
+    "date": "2026-09-19",
+    "topic": "Genspark 超级Agent",
+    "title": "Genspark AI 搜索实战：多引擎聚合与超级 Agent 生成可溯源报告",
+    "level": "L3",
+    "depth": "中",
+    "angle": "多智能体研究平台Sparkpage报告与提示词技巧",
+    "keywords_snippet": "Genspark Sparkpage 多智能体 深度调研"
+  },
+  {
+    "module": "08",
+    "date": "2026-09-19",
+    "topic": "Suno 文生音乐",
+    "title": "Suno AI 音乐生成上手教程：从一句描述到完整编曲",
+    "level": "L1",
+    "depth": "中",
+    "angle": "六要素提示词与Extend延展工作流",
+    "keywords_snippet": "Suno 提示词 Extend 配乐"
+  },
+  {
+    "module": "08",
+    "date": "2026-09-19",
+    "topic": "Gamma AI 演示稿",
+    "title": "Gamma AI PPT 生成实战：一句话主题秒出可编辑演示稿",
+    "level": "L2",
+    "depth": "中",
+    "angle": "先改大纲省额度法与多格式导出",
+    "keywords_snippet": "Gamma 演示稿 大纲 导出"
+  },
+  {
+    "module": "08",
+    "date": "2026-10-09",
+    "topic": "可灵AI 3.0",
+    "title": "【可灵AI 3.0+图生视频与多镜头故事板实战】",
+    "level": "L2",
+    "depth": 950,
+    "angle": "图生视频与多镜头故事板实战",
+    "keywords_snippet": "可灵AI 图生视频 多镜头故事板 国产视频生成"
+  },
+  {
+    "module": "08",
+    "date": "2026-10-09",
+    "topic": "豆包专业版任务模式",
+    "title": "【豆包专业版任务模式+把对话变成可执行工作流】",
+    "level": "L2",
+    "depth": 950,
+    "angle": "任务模式把对话变工作流",
+    "keywords_snippet": "豆包 任务模式 办公执行 字节"
+  },
+  {
+    "module": "08",
+    "date": "2026-10-09",
+    "topic": "WPS AI",
+    "title": "【WPS AI+在文档里直接写完周报方案与PDF摘要】",
+    "level": "L2",
+    "depth": 950,
+    "angle": "文档内写作润色与PDF摘要",
+    "keywords_snippet": "WPS AI 周报 PDF摘要 中文办公"
+  },
+  {
+    "module": "08",
+    "date": "2026-10-09",
+    "topic": "HeyGen",
+    "title": "【HeyGen+一句话生成多语种数字人口播视频】",
+    "level": "L2",
+    "depth": 950,
+    "angle": "数字人口播与多语翻译",
+    "keywords_snippet": "HeyGen 数字人 口播视频 多语种"
+  },
+  {
+    "module": "08",
+    "date": "2026-10-09",
+    "topic": "Notion AI 自定义Agent",
+    "title": "【Notion AI 自定义Agent+把知识库变成自动执行助手】",
+    "level": "L2",
+    "depth": 950,
+    "angle": "自定义Agent编排知识库",
+    "keywords_snippet": "Notion AI 自定义Agent 知识库 自动化"
+  },
+  {
+    "module": "08",
+    "date": "2026-10-09",
+    "topic": "Zapier AI",
+    "title": "【Zapier AI+用自然语言搭出跨应用自动化流程】",
+    "level": "L2",
+    "depth": 950,
+    "angle": "自然语言搭跨应用自动化",
+    "keywords_snippet": "Zapier AI 无代码 自动化 工作流"
   }
 ]

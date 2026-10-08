@@ -3008,5 +3008,125 @@
     "depth": "高阶认知",
     "angle": "用苏格拉底提问与偏差清单监控并解构思考",
     "keywords_snippet": "元认知 批判性思维 苏格拉底提问 认知偏差 双系统"
+  },
+  {
+    "module": "14",
+    "date": "2026-09-19",
+    "topic": "复盘方法论KPT",
+    "title": "【复盘方法论：用 KPT 把发生了什么变成下次怎么办】",
+    "level": "L1",
+    "depth": "中",
+    "angle": "结构化经验沉淀",
+    "keywords_snippet": "复盘 KPT 经验"
+  },
+  {
+    "module": "14",
+    "date": "2026-09-19",
+    "topic": "费曼学习法",
+    "title": "【费曼学习法：用讲给小白听逼出真理解】",
+    "level": "L2",
+    "depth": "中",
+    "angle": "以教代学检验真懂",
+    "keywords_snippet": "费曼 学习 输出"
+  },
+  {
+    "module": "14",
+    "date": "2026-09-19",
+    "topic": "刻意练习",
+    "title": "【刻意练习：在舒适区外做有反馈的高强度训练】",
+    "level": "L3",
+    "depth": "中",
+    "angle": "最近发展区+反馈",
+    "keywords_snippet": "刻意练习 反馈 专注"
+  },
+  {
+    "module": "14",
+    "date": "2026-09-19",
+    "topic": "第二大脑PARA",
+    "title": "【第二大脑：用 PARA 把信息存对地方而非存更多】",
+    "level": "L4",
+    "depth": "中",
+    "angle": "外部记忆延伸",
+    "keywords_snippet": "第二大脑 PARA 知识管理"
+  },
+  {
+    "module": "14",
+    "date": "2026-09-19",
+    "topic": "WOOP目标法",
+    "title": "【WOOP 目标法：用如果就把愿望钉进现实】",
+    "level": "L1",
+    "depth": "中",
+    "angle": "心理比对触发器",
+    "keywords_snippet": "WOOP 目标 如果就"
+  },
+  {
+    "module": "14",
+    "date": "2026-09-19",
+    "topic": "睡眠卫生",
+    "title": "【睡眠卫生：用光照温度节律三杠杆修复被偷走的精力】",
+    "level": "L2",
+    "depth": "中",
+    "angle": "睡眠质量非时长",
+    "keywords_snippet": "睡眠 光照 体温 节律"
+  },
+  {
+    "module": "14",
+    "date": "2026-10-09",
+    "topic": "信息节食法",
+    "title": "信息节食法：用数字极简给大脑腾出思考空间",
+    "level": "L2",
+    "depth": 1928,
+    "angle": "实践角度",
+    "keywords_snippet": "信息节食,数字极简,注意力残留,认知带宽"
+  },
+  {
+    "module": "14",
+    "date": "2026-10-09",
+    "topic": "二阶思维法",
+    "title": "二阶思维法：用然后呢追问做不后悔的决策",
+    "level": "L2",
+    "depth": 1666,
+    "angle": "实践角度",
+    "keywords_snippet": "二阶思维,决策框架,10-10-10,双曲线贴现"
+  },
+  {
+    "module": "14",
+    "date": "2026-10-09",
+    "topic": "认知重评法",
+    "title": "认知重评法：用重新解读把压力转化为燃料",
+    "level": "L2",
+    "depth": 1698,
+    "angle": "实践角度",
+    "keywords_snippet": "认知重评,情绪调节,前额叶,杏仁核"
+  },
+  {
+    "module": "14",
+    "date": "2026-10-09",
+    "topic": "每日复盘法",
+    "title": "每日复盘法：用结构化回顾把日子变成资产",
+    "level": "L2",
+    "depth": 1557,
+    "angle": "实践角度",
+    "keywords_snippet": "复盘,AAR,双环学习,元认知"
+  },
+  {
+    "module": "14",
+    "date": "2026-10-09",
+    "topic": "选择架构法",
+    "title": "选择架构法：用环境助推让好选择自动发生",
+    "level": "L2",
+    "depth": 1513,
+    "angle": "实践角度",
+    "keywords_snippet": "选择架构,助推,默认选项,现状偏差"
+  },
+  {
+    "module": "14",
+    "date": "2026-10-09",
+    "topic": "单任务法",
+    "title": "单任务法：用注意力残留理论终结多工伪高效",
+    "level": "L2",
+    "depth": 1532,
+    "angle": "实践角度",
+    "keywords_snippet": "单任务,注意力残留,任务切换,深度专注"
   }
 ]

@@ -2988,5 +2988,125 @@
     "depth": "概念层",
     "angle": "借Chrome Web Store自然流量做AI扩展freemium订阅",
     "keywords_snippet": "Chrome扩展 AI插件 Web Store freemium 订阅"
+  },
+  {
+    "module": "12",
+    "date": "2026-09-19",
+    "topic": "AI数字人直播带货",
+    "title": "【AI数字人直播带货：把 7×24 小时卖货变成接近零边际成本】",
+    "level": "L1",
+    "depth": "中",
+    "angle": "电商无人化低成本切入",
+    "keywords_snippet": "数字人 直播带货 无人化"
+  },
+  {
+    "module": "12",
+    "date": "2026-09-19",
+    "topic": "AI Agent外包接单",
+    "title": "【AI Agent 外包接单：个人开发者把写代码卖成按需服务】",
+    "level": "L2",
+    "depth": "中",
+    "angle": "个体开发者AI增强外包",
+    "keywords_snippet": "Agent 外包 接单 按需服务"
+  },
+  {
+    "module": "12",
+    "date": "2026-09-19",
+    "topic": "AI自媒体内容矩阵",
+    "title": "【AI 自媒体内容矩阵：一人运营十几个号的工业化流水线】",
+    "level": "L3",
+    "depth": "中",
+    "angle": "矩阵化内容创业",
+    "keywords_snippet": "自媒体 矩阵 AI改写 分发"
+  },
+  {
+    "module": "12",
+    "date": "2026-09-19",
+    "topic": "AI合同审查SaaS",
+    "title": "【AI 合同审查 SaaS：把律师的看合同做成按页付费的工具】",
+    "level": "L4",
+    "depth": "中",
+    "angle": "B端法律AI轻资产",
+    "keywords_snippet": "合同审查 SaaS 法律AI"
+  },
+  {
+    "module": "12",
+    "date": "2026-09-19",
+    "topic": "AI求职辅导",
+    "title": "【AI 求职辅导：把简历优化与模拟面试做成订阅制小生意】",
+    "level": "L1",
+    "depth": "中",
+    "angle": "教育+职业订阅制",
+    "keywords_snippet": "求职 简历 模拟面试 订阅"
+  },
+  {
+    "module": "12",
+    "date": "2026-09-19",
+    "topic": "AI室内设计出图",
+    "title": "【AI 室内设计出图：把找设计师前置成自助可视化】",
+    "level": "L2",
+    "depth": "中",
+    "angle": "离交易最近的设计AI",
+    "keywords_snippet": "室内设计 出图 自助"
+  },
+  {
+    "module": "12",
+    "date": "2026-10-09",
+    "topic": "AI+服务层原生公司",
+    "title": "【AI+服务层原生公司：靠人工服务包住模型跑通垂直工作流订阅】",
+    "level": "L2",
+    "depth": 950,
+    "angle": "AI原生运营公司商业模式",
+    "keywords_snippet": "AI原生运营公司,垂直工作流,服务层,混合模式"
+  },
+  {
+    "module": "12",
+    "date": "2026-10-09",
+    "topic": "中小企业AI后端办公代理",
+    "title": "【中小企业AI后端办公代理：发票对账供应商跟进自动化月费】",
+    "level": "L2",
+    "depth": 950,
+    "angle": "SMB后端办公自动化订阅",
+    "keywords_snippet": "后端办公代理,发票处理,自动化,SaaS订阅"
+  },
+  {
+    "module": "12",
+    "date": "2026-10-09",
+    "topic": "AI销售开发代理SDR",
+    "title": "【AI销售开发代理SDR：公开数据挖潜客加个性化外联月费变现】",
+    "level": "L2",
+    "depth": 950,
+    "angle": "AI销售开发代理变现",
+    "keywords_snippet": "SDR,潜客生成,外联自动化,月费"
+  },
+  {
+    "module": "12",
+    "date": "2026-10-09",
+    "topic": "无代码AI SaaS",
+    "title": "【无代码AI SaaS：非技术者用Bubble做出月入过万订阅产品】",
+    "level": "L2",
+    "depth": 950,
+    "angle": "无代码AI SaaS创业",
+    "keywords_snippet": "无代码,Bubble,订阅制,独立开发"
+  },
+  {
+    "module": "12",
+    "date": "2026-10-09",
+    "topic": "AI文本客服解决代理",
+    "title": "【AI文本客服解决代理：按成功解决量计费砍掉人工客服成本】",
+    "level": "L2",
+    "depth": 950,
+    "angle": "按结果计费客服",
+    "keywords_snippet": "客服代理,按结果付费,工单解决,Fin"
+  },
+  {
+    "module": "12",
+    "date": "2026-10-09",
+    "topic": "AI技能商店开发",
+    "title": "【AI技能商店开发：垂直技能上架平台分成被动收入玩法】",
+    "level": "L2",
+    "depth": 950,
+    "angle": "技能商店被动收入",
+    "keywords_snippet": "技能商店,ClawHub,分成,被动收入"
   }
 ]
