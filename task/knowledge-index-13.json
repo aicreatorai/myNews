@@ -2008,5 +2008,55 @@
     "depth": 1000,
     "angle": "种子教师+师训师机制的师训新范式",
     "keywords_snippet": "种子教师 师训师 70-20-10 情境学习 返岗转化"
+  },
+  {
+    "module": "13",
+    "date": "2026-10-11",
+    "topic": "少儿编程",
+    "title": "图形化到代码：AI配对编程带孩子跨越编程悬崖",
+    "level": "L2",
+    "depth": "中",
+    "angle": "从Scratch到Python的过渡脚手架",
+    "keywords_snippet": "Scratch,Python,AI配对编程,生成效应,脚手架"
+  },
+  {
+    "module": "13",
+    "date": "2026-10-11",
+    "topic": "AI错题本智能组卷",
+    "title": "告别题海：AI错题本加智能组卷做精准提分",
+    "level": "L2",
+    "depth": "中",
+    "angle": "个性化备考闭环",
+    "keywords_snippet": "错题本,智能组卷,间隔重复,知识图谱,遗忘曲线"
+  },
+  {
+    "module": "13",
+    "date": "2026-10-11",
+    "topic": "AI美育助教",
+    "title": "AI助教进美育：让每个孩子都敢创作会表达",
+    "level": "L2",
+    "depth": "中",
+    "angle": "降低表达门槛的留白式创作",
+    "keywords_snippet": "AI美育,图像生成,智能伴奏,留白式教学,具身认知"
+  },
+  {
+    "module": "13",
+    "date": "2026-10-11",
+    "topic": "AI口语练习",
+    "title": "AI口语练习新范式：可汗导师智能体引导不代答",
+    "level": "L2",
+    "depth": "中",
+    "angle": "苏格拉底式引导与自适应",
+    "keywords_snippet": "Khanmigo,苏格拉底式,自适应,口语练习,元认知"
+  },
+  {
+    "module": "13",
+    "date": "2026-10-11",
+    "topic": "AI特殊教育",
+    "title": "AI辅助特殊教育：为ADHD与阅读障碍搭学习脚手架",
+    "level": "L2",
+    "depth": "中",
+    "angle": "神经多样学习者的执行功能脚手架",
+    "keywords_snippet": "ADHD,阅读障碍,语音转写,执行功能,生物反馈"
   }
 ]

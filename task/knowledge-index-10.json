@@ -3298,5 +3298,65 @@
     "depth": 950,
     "angle": "TS产品Agent框架",
     "keywords_snippet": "TypeScript,Agent,工作流,记忆,评测,MCP"
+  },
+  {
+    "module": "10",
+    "date": "2026-10-11",
+    "topic": "Agno 多模态Agent框架",
+    "title": "【Agno：把多模态与记忆装进一个运行时的高性能 Agent 框架】",
+    "level": "L2",
+    "depth": "中",
+    "angle": "高性能多模态Agent运行时与MCP记忆",
+    "keywords_snippet": "Agno Phidata agent runtime multimodal memory MCP"
+  },
+  {
+    "module": "10",
+    "date": "2026-10-11",
+    "topic": "Aider 终端结对编程",
+    "title": "【Aider：活在终端里、每步自动提交 Git 的开源结对编程 Agent】",
+    "level": "L2",
+    "depth": "中",
+    "angle": "Git原生终端结对编程Agent",
+    "keywords_snippet": "Aider terminal git pair-programming coding agent"
+  },
+  {
+    "module": "10",
+    "date": "2026-10-11",
+    "topic": "Firecrawl 网页抓取",
+    "title": "【Firecrawl：把任意网页变成 LLM 可吃结构化数据的开源抓取 API】",
+    "level": "L2",
+    "depth": "中",
+    "angle": "RAG网页数据抓取结构化",
+    "keywords_snippet": "Firecrawl web scrape markdown JSON RAG"
+  },
+  {
+    "module": "10",
+    "date": "2026-10-11",
+    "topic": "RagFlow RAG引擎",
+    "title": "【RagFlow：融合深度文档解析的开源 RAG 引擎】",
+    "level": "L2",
+    "depth": "中",
+    "angle": "深度文档解析RAG引擎",
+    "keywords_snippet": "RagFlow RAG engine document parsing"
+  },
+  {
+    "module": "10",
+    "date": "2026-10-11",
+    "topic": "Unsloth 微调",
+    "title": "【Unsloth：把大模型微调速度翻倍、显存砍半的开源训练库】",
+    "level": "L2",
+    "depth": "中",
+    "angle": "大模型高效微调训练",
+    "keywords_snippet": "Unsloth fine-tuning LoRA memory speed"
+  },
+  {
+    "module": "10",
+    "date": "2026-10-11",
+    "topic": "Qdrant 向量数据库",
+    "title": "【Qdrant：用 Rust 写就的高性能向量数据库与语义检索引擎】",
+    "level": "L2",
+    "depth": "中",
+    "angle": "Rust向量数据库语义检索",
+    "keywords_snippet": "Qdrant vector database Rust semantic search"
   }
 ]

@@ -3128,5 +3128,35 @@
     "depth": 1532,
     "angle": "实践角度",
     "keywords_snippet": "单任务,注意力残留,任务切换,深度专注"
+  },
+  {
+    "module": "14",
+    "date": "2026-10-11",
+    "topic": "习惯堆叠",
+    "title": "习惯堆叠法：把新习惯绑在旧习惯上自动发生",
+    "level": "L2",
+    "depth": "中",
+    "angle": "行为设计/线索-惯例-奖励循环",
+    "keywords_snippet": "习惯堆叠 原子习惯 实施意图 环境设计"
+  },
+  {
+    "module": "14",
+    "date": "2026-10-11",
+    "topic": "心理韧性",
+    "title": "心理韧性训练：用可控挑战把压力炼成抗挫力",
+    "level": "L2",
+    "depth": "中",
+    "angle": "压力接种 认知重评 控制感",
+    "keywords_snippet": "心理韧性 复原力 resilience 压力接种"
+  },
+  {
+    "module": "14",
+    "date": "2026-10-11",
+    "topic": "拖延情绪调节",
+    "title": "拖延情绪调节法：用十分钟起步破解行动瘫痪",
+    "level": "L2",
+    "depth": "中",
+    "angle": "情绪调节失败 命名情绪 五分钟启动",
+    "keywords_snippet": "拖延症 procrastination 情绪调节 Pychyl"
   }
 ]

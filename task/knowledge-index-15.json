@@ -3218,5 +3218,65 @@
     "depth": 950,
     "angle": "增长留存",
     "keywords_snippet": "习惯回路 工作流嵌入 可分享产出 留存"
+  },
+  {
+    "module": "15",
+    "date": "2026-10-11",
+    "topic": "分层订阅定价",
+    "title": "AI产品分层订阅定价：用价值锚点把免费用户转化付费",
+    "level": "L2",
+    "depth": "中",
+    "angle": "价值锚点变现",
+    "keywords_snippet": "订阅 定价 免费 会员 转化"
+  },
+  {
+    "module": "15",
+    "date": "2026-10-11",
+    "topic": "首用价值事件激活",
+    "title": "AI产品激活优化：用首用价值事件压缩时间到价值路径",
+    "level": "L2",
+    "depth": "中",
+    "angle": "时间到价值压缩",
+    "keywords_snippet": "激活 首用 价值事件 TTV 引导"
+  },
+  {
+    "module": "15",
+    "date": "2026-10-11",
+    "topic": "AI北极星指标",
+    "title": "AI产品北极星指标：用分层指标体系替代单一日活",
+    "level": "L2",
+    "depth": "中",
+    "angle": "分层指标体系",
+    "keywords_snippet": "北极星 指标 留存 单位经济"
+  },
+  {
+    "module": "15",
+    "date": "2026-10-11",
+    "topic": "AI单位经济ROI",
+    "title": "AI产品ROI失效复盘：用单位经济模型堵住烧钱黑洞",
+    "level": "L2",
+    "depth": "中",
+    "angle": "成本测算防线",
+    "keywords_snippet": "ROI 单位经济 LCOAI 成本"
+  },
+  {
+    "module": "15",
+    "date": "2026-10-11",
+    "topic": "Agentic Commerce",
+    "title": "通义Agentic Commerce拆解：把对话入口做成交易闭环",
+    "level": "L2",
+    "depth": "中",
+    "angle": "对话交易闭环",
+    "keywords_snippet": "通义 Agentic Commerce 交易 闭环"
+  },
+  {
+    "module": "15",
+    "date": "2026-10-11",
+    "topic": "可证伪假设决策",
+    "title": "AI产品不确定性决策：用可证伪假设管理模型能力边界",
+    "level": "L2",
+    "depth": "中",
+    "angle": "模型能力边界管理",
+    "keywords_snippet": "不确定性 可证伪 假设 实验"
   }
 ]

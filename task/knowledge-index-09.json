@@ -2908,5 +2908,65 @@
     "depth": 950,
     "angle": "AI 原生系统编程语言与 MLIR 内核",
     "keywords_snippet": "Mojo,Modular,MLIR,Python 超集,AI 语言"
+  },
+  {
+    "module": "09",
+    "date": "2026-10-11",
+    "topic": "Python 3.14 自由线程",
+    "title": "Python 3.14 自由线程转正：无GIL并行走入生产可用",
+    "level": "L2",
+    "depth": "中",
+    "angle": "无GIL自由线程从实验到支持的工程意义与迁移",
+    "keywords_snippet": "Python3.14,自由线程,PEP703,PEP779,JIT"
+  },
+  {
+    "module": "09",
+    "date": "2026-10-11",
+    "topic": "Java 25 LTS 值类型",
+    "title": "Java 25 LTS 落地：值类型与结构化并发重塑后端栈",
+    "level": "L2",
+    "depth": "中",
+    "angle": "Valhalla值类型与Loom结构化并发对后端工程影响",
+    "keywords_snippet": "Java25,值类型,StringTemplates,StructuredConcurrency,ScopedValue"
+  },
+  {
+    "module": "09",
+    "date": "2026-10-11",
+    "topic": "TypeScript 6.0",
+    "title": "TypeScript 6.0 桥接版：为Go原生编译器重写铺路",
+    "level": "L2",
+    "depth": "中",
+    "angle": "6.0作为JS版最后发布与Go重写迁移准备",
+    "keywords_snippet": "TypeScript6.0,Go重写,es2025,stableTypeOrdering"
+  },
+  {
+    "module": "09",
+    "date": "2026-10-11",
+    "topic": "Rust 1.85 async trait",
+    "title": "Rust 1.85 与2024版：async trait原生落地告别宏",
+    "level": "L2",
+    "depth": "中",
+    "angle": "2024版async fn in trait稳定与零成本异步",
+    "keywords_snippet": "Rust1.85,2024edition,async trait,async closure"
+  },
+  {
+    "module": "09",
+    "date": "2026-10-11",
+    "topic": "C# 14 .NET 10",
+    "title": "C# 14 携.NET 10：扩展成员与Native AOT提速",
+    "level": "L2",
+    "depth": "中",
+    "angle": "扩展成员与field关键字及Native AOT运行时增益",
+    "keywords_snippet": "C#14,.NET10,extension members,field,NativeAOT"
+  },
+  {
+    "module": "09",
+    "date": "2026-10-11",
+    "topic": "Zig 0.14 0.15",
+    "title": "Zig 0.14/0.15 演进：comptime与显式分配器哲学",
+    "level": "L2",
+    "depth": "中",
+    "angle": "comptime与显式分配器模型及Bun TigerBeetle生态",
+    "keywords_snippet": "Zig0.14,Zig0.15,comptime,allocator,Bun"
   }
 ]

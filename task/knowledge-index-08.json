@@ -3096,5 +3096,65 @@
     "depth": 950,
     "angle": "自然语言搭跨应用自动化",
     "keywords_snippet": "Zapier AI 无代码 自动化 工作流"
+  },
+  {
+    "module": "08",
+    "date": "2026-10-11",
+    "topic": "DeepSeek提示词",
+    "title": "DeepSeek提示词工程与多轮对话工作流实战",
+    "level": "L2",
+    "depth": "中",
+    "angle": "提示词工程与多轮工作流模板化",
+    "keywords_snippet": "系统提示词/多轮追问/工作流SOP"
+  },
+  {
+    "module": "08",
+    "date": "2026-10-11",
+    "topic": "即梦AI创作",
+    "title": "即梦AI文生图与首尾帧视频创作实战",
+    "level": "L2",
+    "depth": "中",
+    "angle": "提示词公式与首尾帧可控视频",
+    "keywords_snippet": "文生图/首尾帧/Seedream/Seedance"
+  },
+  {
+    "module": "08",
+    "date": "2026-10-11",
+    "topic": "秘塔AI搜索",
+    "title": "秘塔AI搜索深度检索与资料溯源实战",
+    "level": "L2",
+    "depth": "中",
+    "angle": "规划式检索与带引用溯源",
+    "keywords_snippet": "深度检索/学术模式/溯源/研究框架"
+  },
+  {
+    "module": "08",
+    "date": "2026-10-11",
+    "topic": "Cursor编程",
+    "title": "Cursor智能体模式与Plan规划工作流实战",
+    "level": "L2",
+    "depth": "中",
+    "angle": "Plan规划模式与Rules固化规范",
+    "keywords_snippet": "Agent/Plan模式/Rules/@codebase"
+  },
+  {
+    "module": "08",
+    "date": "2026-10-11",
+    "topic": "Coze扣子",
+    "title": "Coze扣子零代码搭建自动客服Agent实战",
+    "level": "L2",
+    "depth": "中",
+    "angle": "零代码人设加知识库加工作流",
+    "keywords_snippet": "零代码/Bot/知识库/工作流节点"
+  },
+  {
+    "module": "08",
+    "date": "2026-10-11",
+    "topic": "沉浸式翻译",
+    "title": "沉浸式翻译双语对照阅读与论文精读实战",
+    "level": "L2",
+    "depth": "中",
+    "angle": "双语对照与渐进式阅读训练",
+    "keywords_snippet": "双语对照/术语库/分层阅读/PDF"
   }
 ]

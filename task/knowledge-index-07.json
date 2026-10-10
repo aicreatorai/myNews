@@ -3608,5 +3608,65 @@
     "depth": 950,
     "angle": "讲解VLM三类架构、2026新进展与生产落地挑战",
     "keywords_snippet": "VLM 多模态 MoT GLM-5V-Turbo 视觉语言模型 具身"
+  },
+  {
+    "module": "07",
+    "date": "2026-10-11",
+    "topic": "硬件原生量化",
+    "title": "FP8与NVFP4硬件原生量化：Blackwell时代近无损推理加速",
+    "level": "L3",
+    "depth": "中",
+    "angle": "硬件格式与软件量化的本质区别与选型",
+    "keywords_snippet": "FP8 NVFP4 Blackwell 张量核 近无损"
+  },
+  {
+    "module": "07",
+    "date": "2026-10-11",
+    "topic": "训练后量化",
+    "title": "训练后量化AWQ与GPTQ：把大模型压进消费级显卡",
+    "level": "L2",
+    "depth": "中",
+    "angle": "激活感知与二阶统计两种保护信号对比",
+    "keywords_snippet": "AWQ GPTQ INT4 训练后量化 校准"
+  },
+  {
+    "module": "07",
+    "date": "2026-10-11",
+    "topic": "MoE混合专家",
+    "title": "MoE混合专家架构：用稀疏激活把万亿参数塞进有限算力",
+    "level": "L4",
+    "depth": "深",
+    "angle": "稀疏激活如何解耦容量与算力",
+    "keywords_snippet": "MoE 稀疏激活 路由器 负载均衡"
+  },
+  {
+    "module": "07",
+    "date": "2026-10-11",
+    "topic": "细粒度MoE",
+    "title": "细粒度MoE与共享专家：DeepSeek如何用256个微型专家分工",
+    "level": "L3",
+    "depth": "中",
+    "angle": "多而小专家与共享专家的分工机制",
+    "keywords_snippet": "细粒度MoE 共享专家 DeepSeek 路由粒度"
+  },
+  {
+    "module": "07",
+    "date": "2026-10-11",
+    "topic": "对齐方法演进",
+    "title": "从RLHF到GRPO：大模型对齐方法三年演进路线",
+    "level": "L2",
+    "depth": "中",
+    "angle": "从奖励模型到可验证奖励的简化路径",
+    "keywords_snippet": "RLHF GRPO 对齐 可验证奖励"
+  },
+  {
+    "module": "07",
+    "date": "2026-10-11",
+    "topic": "直接偏好优化",
+    "title": "直接偏好优化DPO：无需奖励模型也能对齐大模型",
+    "level": "L1",
+    "depth": "浅",
+    "angle": "免奖励模型的对齐简化与局限",
+    "keywords_snippet": "DPO 偏好优化 免奖励模型 对齐"
   }
 ]
