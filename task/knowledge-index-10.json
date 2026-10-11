@@ -3358,5 +3358,65 @@
     "depth": "中",
     "angle": "Rust向量数据库语义检索",
     "keywords_snippet": "Qdrant vector database Rust semantic search"
+  },
+  {
+    "module": "10",
+    "date": "2026-10-12",
+    "topic": "向量数据库",
+    "title": "Chroma：轻量嵌入式向量数据库与语义检索库",
+    "level": "L2",
+    "depth": "deep",
+    "angle": "入门级嵌入式向量库自动向量化降低RAG原型门槛",
+    "keywords_snippet": "Chroma 向量数据库 语义检索 2026 使用 教程"
+  },
+  {
+    "module": "10",
+    "date": "2026-10-12",
+    "topic": "向量数据库",
+    "title": "Weaviate：云原生向量数据库与混合检索引擎",
+    "level": "L2",
+    "depth": "deep",
+    "angle": "原生混合检索与多租户适合生产级语义搜索",
+    "keywords_snippet": "Weaviate 向量数据库 混合检索 HNSW 2026"
+  },
+  {
+    "module": "10",
+    "date": "2026-10-12",
+    "topic": "Agent编排SDK",
+    "title": "SemanticKernel：把AI编排进企业应用的SDK",
+    "level": "L2",
+    "depth": "deep",
+    "angle": "微软企业级SDK用插件把存量函数变Agent工具",
+    "keywords_snippet": "Semantic Kernel 微软 Agent 编排 SDK 2026 使用"
+  },
+  {
+    "module": "10",
+    "date": "2026-10-12",
+    "topic": "本地推理",
+    "title": "LocalAI：用OpenAI兼容接口在本地跑模型",
+    "level": "L2",
+    "depth": "deep",
+    "angle": "OpenAI兼容全模态本地推理保护数据隐私",
+    "keywords_snippet": "LocalAI 本地大模型 OpenAI兼容 API 部署 2026"
+  },
+  {
+    "module": "10",
+    "date": "2026-10-12",
+    "topic": "LLM应用框架",
+    "title": "LangChain：用链式调用把大模型拼成应用的框架",
+    "level": "L2",
+    "depth": "deep",
+    "angle": "LCEL管道符组合Runnable构建可流式生产链",
+    "keywords_snippet": "LangChain 2026 更新 应用框架 教程 LCEL"
+  },
+  {
+    "module": "10",
+    "date": "2026-10-12",
+    "topic": "IDE编程助手",
+    "title": "Continue：把开源大模型接进IDE的编程助手",
+    "level": "L2",
+    "depth": "deep",
+    "angle": "开源IDE助手自带模型支持本地与多模型切换",
+    "keywords_snippet": "Continue 开源 AI 编程助手 IDE 2026 接入大模型"
   }
 ]

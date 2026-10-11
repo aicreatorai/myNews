@@ -2058,5 +2058,45 @@
     "depth": "中",
     "angle": "神经多样学习者的执行功能脚手架",
     "keywords_snippet": "ADHD,阅读障碍,语音转写,执行功能,生物反馈"
+  },
+  {
+    "module": "13",
+    "date": "2026-10-12",
+    "topic": "AI数学辅导",
+    "title": "【中小学数学解题：AI可视化推导练思维】",
+    "level": "L2",
+    "depth": "deep",
+    "angle": "引导式AI数学辅导用知识图谱定位思维漏洞替代直接给答案",
+    "keywords_snippet": "AI 数学 辅导 中小学 解题 2026"
+  },
+  {
+    "module": "13",
+    "date": "2026-10-12",
+    "topic": "AI职业教育",
+    "title": "【职教技能速成：AI陪练加项目实战】",
+    "level": "L2",
+    "depth": "deep",
+    "angle": "政府补贴性AI职培用微认证与一人一机实操打通就业",
+    "keywords_snippet": "AI 职业教育 技能培训 认证 2026"
+  },
+  {
+    "module": "13",
+    "date": "2026-10-12",
+    "topic": "AI家庭教育",
+    "title": "【家庭教育新帮手：AI亲子共学规划师】",
+    "level": "L2",
+    "depth": "deep",
+    "angle": "家庭用AI规划师做目标拆解与复盘把陪伴还给孩子",
+    "keywords_snippet": "AI 家庭教育 亲子 辅导 学习规划 2026"
+  },
+  {
+    "module": "13",
+    "date": "2026-10-12",
+    "topic": "学习科学",
+    "title": "【学习科学新发现：间隔检索加生成效应】",
+    "level": "L2",
+    "depth": "deep",
+    "angle": "2026研究证实生成与检索双做加反馈优于纠结顺序",
+    "keywords_snippet": "学习科学 认知 研究 新发现 间隔检索 生成效应 2026"
   }
 ]

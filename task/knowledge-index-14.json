@@ -3158,5 +3158,65 @@
     "depth": "中",
     "angle": "情绪调节失败 命名情绪 五分钟启动",
     "keywords_snippet": "拖延症 procrastination 情绪调节 Pychyl"
+  },
+  {
+    "module": "14",
+    "date": "2026-10-12",
+    "topic": "番茄工作法",
+    "title": "【番茄工作法：用25分钟专注块终结意志力耗散】",
+    "level": "L2",
+    "depth": "deep",
+    "angle": "用25分钟专注块降低启动门槛对抗拖延",
+    "keywords_snippet": "番茄工作法 原理 实践 专注 2026"
+  },
+  {
+    "module": "14",
+    "date": "2026-10-12",
+    "topic": "GTD工作法",
+    "title": "【GTD工作法：用收集清空大脑把注意力留给执行】",
+    "level": "L2",
+    "depth": "deep",
+    "angle": "用收集外部化与下一步动作清空大脑减轻焦虑",
+    "keywords_snippet": "GTD工作法 时间管理 收集 执行 2026"
+  },
+  {
+    "module": "14",
+    "date": "2026-10-12",
+    "topic": "精力管理",
+    "title": "【精力管理：用能量周期替代时间管理重燃专注】",
+    "level": "L2",
+    "depth": "deep",
+    "angle": "用能量周期替代时间管理重燃高质量专注",
+    "keywords_snippet": "精力管理 能量周期 睡眠 效率 方法 2026"
+  },
+  {
+    "module": "14",
+    "date": "2026-10-12",
+    "topic": "深度工作",
+    "title": "【深度工作：用屏蔽干扰的高价值时段炼出稀缺专注力】",
+    "level": "L2",
+    "depth": "deep",
+    "angle": "用屏蔽干扰的高价值时段炼出稀缺专注力",
+    "keywords_snippet": "深度工作 专注力 屏蔽干扰 高价值 2026"
+  },
+  {
+    "module": "14",
+    "date": "2026-10-12",
+    "topic": "成长型思维",
+    "title": "【成长型思维：用暂未掌握改写大脑的能力剧本】",
+    "level": "L2",
+    "depth": "deep",
+    "angle": "用还不会语言框架与神经可塑性改写能力剧本",
+    "keywords_snippet": "成长型思维 德韦克 神经可塑性 教育 2026"
+  },
+  {
+    "module": "14",
+    "date": "2026-10-12",
+    "topic": "正念冥想",
+    "title": "【正念冥想：用呼吸锚定把大脑从自动化反应里夺回】",
+    "level": "L2",
+    "depth": "deep",
+    "angle": "用呼吸锚定激活前额叶调控杏仁核夺回情绪主动权",
+    "keywords_snippet": "正念冥想 注意力 压力 脑科学 研究 2026"
   }
 ]

@@ -3668,5 +3668,65 @@
     "depth": "浅",
     "angle": "免奖励模型的对齐简化与局限",
     "keywords_snippet": "DPO 偏好优化 免奖励模型 对齐"
+  },
+  {
+    "module": "07",
+    "date": "2026-10-12",
+    "topic": "扩散模型图像生成",
+    "title": "【扩散模型图像生成：从随机噪声到高清图的逐步降噪魔法】",
+    "level": "L2",
+    "depth": "deep",
+    "angle": "从加噪到去噪的逐步生成范式与2026架构演进",
+    "keywords_snippet": "扩散模型 图像生成 2026"
+  },
+  {
+    "module": "07",
+    "date": "2026-10-12",
+    "topic": "vLLM推理部署",
+    "title": "【vLLM推理部署：用PagedAttention把GPU吞吐翻数倍】",
+    "level": "L2",
+    "depth": "deep",
+    "angle": "PagedAttention分页KV缓存与连续批处理提升吞吐",
+    "keywords_snippet": "vLLM 推理部署 2026"
+  },
+  {
+    "module": "07",
+    "date": "2026-10-12",
+    "topic": "合成数据工程",
+    "title": "【合成数据工程：用模型生成训练数据补真实语料缺口】",
+    "level": "L2",
+    "depth": "deep",
+    "angle": "Teacher-Student合成与验证过滤防模型崩塌",
+    "keywords_snippet": "合成数据 大模型 训练 2026"
+  },
+  {
+    "module": "07",
+    "date": "2026-10-12",
+    "topic": "嵌入向量与向量数据库",
+    "title": "【嵌入向量与向量数据库：语义检索的底层引擎】",
+    "level": "L2",
+    "depth": "deep",
+    "angle": "Embedding与ANN索引支撑语义检索与RAG",
+    "keywords_snippet": "Embedding 向量数据库 语义检索 2026"
+  },
+  {
+    "module": "07",
+    "date": "2026-10-12",
+    "topic": "语音大模型ASR与TTS",
+    "title": "【语音大模型ASR与TTS：端到端语音生成新范式】",
+    "level": "L2",
+    "depth": "deep",
+    "angle": "原生端到端音频进音频出替代ASR-LLM-TTS级联",
+    "keywords_snippet": "语音大模型 ASR TTS 2026"
+  },
+  {
+    "module": "07",
+    "date": "2026-10-12",
+    "topic": "Agent应用落地评测",
+    "title": "【Agent应用落地评测：从Demo到生产的最后一公里】",
+    "level": "L2",
+    "depth": "deep",
+    "angle": "五维评测与80%成功率生存线决定能否上线",
+    "keywords_snippet": "Agent 应用落地 评测 2026"
   }
 ]

@@ -3156,5 +3156,65 @@
     "depth": "中",
     "angle": "双语对照与渐进式阅读训练",
     "keywords_snippet": "双语对照/术语库/分层阅读/PDF"
+  },
+  {
+    "module": "08",
+    "date": "2026-10-12",
+    "topic": "ElevenLabs语音克隆配音",
+    "title": "1. 【ElevenLabs：一句话克隆声音生成逼真配音】",
+    "level": "L2",
+    "depth": "deep",
+    "angle": "用1-2分钟样本即时克隆音色做批量配音",
+    "keywords_snippet": "ElevenLabs 语音 克隆 配音 使用 教程 2026"
+  },
+  {
+    "module": "08",
+    "date": "2026-10-12",
+    "topic": "Suno AI音乐生成",
+    "title": "2. 【Suno：一句话生成带人声的完整歌曲】",
+    "level": "L2",
+    "depth": "deep",
+    "angle": "文本生成带人声完整歌曲并做音轨分离商用",
+    "keywords_snippet": "Suno AI 音乐 生成 教程 2026 人声 歌曲"
+  },
+  {
+    "module": "08",
+    "date": "2026-10-12",
+    "topic": "剪映AI成片视频剪辑",
+    "title": "3. 【剪映AI成片：素材自动剪成带字幕短视频】",
+    "level": "L2",
+    "depth": "deep",
+    "angle": "导入素材一键自动卡点配乐字幕成片",
+    "keywords_snippet": "剪映 AI 成片 视频 剪辑 字幕 教程 2026"
+  },
+  {
+    "module": "08",
+    "date": "2026-10-12",
+    "topic": "Dify低代码搭Agent",
+    "title": "4. 【Dify：可视化拖拽搭出自己的AI智能体】",
+    "level": "L2",
+    "depth": "deep",
+    "angle": "零代码拖拽加知识库工具调用搭业务智能体",
+    "keywords_snippet": "Dify AI Agent 搭建 使用 教程 2026 低代码"
+  },
+  {
+    "module": "08",
+    "date": "2026-10-12",
+    "topic": "飞书AI智能伙伴",
+    "title": "5. 【飞书AI：在协作空间里自动跑文档表格】",
+    "level": "L2",
+    "depth": "deep",
+    "angle": "智能伙伴读企业数据自动写周报并批量打标签",
+    "keywords_snippet": "飞书 AI 智能伙伴 多维表格 使用 教程 2026"
+  },
+  {
+    "module": "08",
+    "date": "2026-10-12",
+    "topic": "Gamma AI幻灯片生成",
+    "title": "6. 【Gamma：用一句话生成可演示的AI幻灯片】",
+    "level": "L2",
+    "depth": "deep",
+    "angle": "先出大纲再一键生成带图排版PPT并导出",
+    "keywords_snippet": "Gamma AI PPT 生成 演示 教程 2026"
   }
 ]

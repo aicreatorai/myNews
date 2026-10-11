@@ -2968,5 +2968,65 @@
     "depth": "中",
     "angle": "comptime与显式分配器模型及Bun TigerBeetle生态",
     "keywords_snippet": "Zig0.14,Zig0.15,comptime,allocator,Bun"
+  },
+  {
+    "module": "09",
+    "date": "2026-10-12",
+    "topic": "C++26",
+    "title": "【C++26标准落地：编译期反射与契约重塑系统编程】",
+    "level": "L2",
+    "depth": "deep",
+    "angle": "编译期反射与契约让系统编程默认安全",
+    "keywords_snippet": "C++26 标准 新特性 进展 2026"
+  },
+  {
+    "module": "09",
+    "date": "2026-10-12",
+    "topic": "Julia 1.13",
+    "title": "【Julia 1.13发布：预编译提速30%攻克延迟顽疾】",
+    "level": "L2",
+    "depth": "deep",
+    "angle": "TTFX成为发布硬指标直击科学计算交互痛点",
+    "keywords_snippet": "Julia 语言 新版本 性能 2026"
+  },
+  {
+    "module": "09",
+    "date": "2026-10-12",
+    "topic": "Scala 3.8",
+    "title": "【Scala 3.8成熟：自举编译与JDK17强制升级】",
+    "level": "L2",
+    "depth": "deep",
+    "angle": "标准库自举编译标志Scala 3真正独立",
+    "keywords_snippet": "Scala 3 新特性 2026 演进"
+  },
+  {
+    "module": "09",
+    "date": "2026-10-12",
+    "topic": "Ruby 4.0",
+    "title": "【Ruby 4.0发布：ZJIT编译器与Ruby Box隔离】",
+    "level": "L2",
+    "depth": "deep",
+    "angle": "ZJIT与Ruby Box指向多租户隔离与可预测运行时",
+    "keywords_snippet": "Ruby 4.0 新特性 2026 发布"
+  },
+  {
+    "module": "09",
+    "date": "2026-10-12",
+    "topic": "Elixir 1.20",
+    "title": "【Elixir 1.20：无需注解的渐进式集合论类型系统】",
+    "level": "L2",
+    "depth": "deep",
+    "angle": "零注解全程序类型推断让Dialyzer可被弃用",
+    "keywords_snippet": "Elixir 语言 新版本 2026 特性"
+  },
+  {
+    "module": "09",
+    "date": "2026-10-12",
+    "topic": "PHP 9.0",
+    "title": "【PHP 9.0发布：throw表达式与性能跃升38%】",
+    "level": "L2",
+    "depth": "deep",
+    "angle": "throw表达式化与JIT重写带来类型化与性能双跃迁",
+    "keywords_snippet": "PHP 9.0 新特性 2026 性能"
   }
 ]

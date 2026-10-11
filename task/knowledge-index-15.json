@@ -3278,5 +3278,65 @@
     "depth": "中",
     "angle": "模型能力边界管理",
     "keywords_snippet": "不确定性 可证伪 假设 实验"
+  },
+  {
+    "module": "15",
+    "date": "2026-10-12",
+    "topic": "AI产品PRD需求文档",
+    "title": "【AI产品PRD：用结构化文档对齐模型能力与业务目标】",
+    "level": "L2",
+    "depth": "deep",
+    "angle": "用评测集代替用户故事树把不确定模型能力锁定为可验收契约",
+    "keywords_snippet": "AI 产品 PRD 需求文档 方法 写法 2026"
+  },
+  {
+    "module": "15",
+    "date": "2026-10-12",
+    "topic": "AI产品用户访谈",
+    "title": "【用户访谈法：用深度对话挖出AI产品的隐性需求】",
+    "level": "L2",
+    "depth": "deep",
+    "angle": "访谈具体案例而非抽象期待用AI放大分析而非替代判断",
+    "keywords_snippet": "AI 产品 用户访谈 方法 挖掘需求 2026"
+  },
+  {
+    "module": "15",
+    "date": "2026-10-12",
+    "topic": "AI产品MVP冷启动",
+    "title": "【MVP冷启动：用最小可行产品快速验证AI核心价值】",
+    "level": "L2",
+    "depth": "deep",
+    "angle": "先预售再构建用最薄版本验证核心工作流把前10客户当老师",
+    "keywords_snippet": "AI 产品 MVP 冷启动 最小可行产品 验证 2026"
+  },
+  {
+    "module": "15",
+    "date": "2026-10-12",
+    "topic": "AI产品A/B测试",
+    "title": "【A/B测试：用受控实验为AI产品迭代提供因果证据】",
+    "level": "L2",
+    "depth": "deep",
+    "angle": "把每次prompt模型改动当假设用稳态哈希分桶加护栏指标",
+    "keywords_snippet": "AI 产品 A/B 测试 受控实验 迭代 2026"
+  },
+  {
+    "module": "15",
+    "date": "2026-10-12",
+    "topic": "AI产品PMF产品市场匹配",
+    "title": "【PMF产品市场匹配：用信号密度判断AI产品是否找到市场】",
+    "level": "L2",
+    "depth": "deep",
+    "angle": "在用户回访之外加模型质量轴双轴同正才算真PMF",
+    "keywords_snippet": "AI 产品 PMF 产品市场匹配 信号 2026"
+  },
+  {
+    "module": "15",
+    "date": "2026-10-12",
+    "topic": "AI产品用户画像",
+    "title": "【用户画像：用分层标签把AI产品的模糊用户变清晰】",
+    "level": "L2",
+    "depth": "deep",
+    "angle": "用无监督聚类从行为价值意图实时细分替代静态人口段",
+    "keywords_snippet": "AI 产品 用户画像 分层 标签 设计 2026"
   }
 ]
