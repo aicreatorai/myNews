@@ -3216,5 +3216,65 @@
     "depth": "deep",
     "angle": "先出大纲再一键生成带图排版PPT并导出",
     "keywords_snippet": "Gamma AI PPT 生成 演示 教程 2026"
+  },
+  {
+    "module": "08",
+    "date": "2026-10-14",
+    "topic": "Google Workspace Skills",
+    "title": "【Google Workspace Skills：用可复用指令让Gemini自动跑重复工作】",
+    "level": "L2",
+    "depth": "medium",
+    "angle": "可复用工作指令与SKILL.md实践",
+    "keywords_snippet": "Workspace Skills Gemini SKILL.md 指令复用"
+  },
+  {
+    "module": "08",
+    "date": "2026-10-14",
+    "topic": "Suno Speech",
+    "title": "【Suno Speech：一句话生成带原创配乐的AI语音旁白】",
+    "level": "L3",
+    "depth": "high",
+    "angle": "语音与音乐联合生成原理",
+    "keywords_snippet": "Suno Speech 语音生成 原创配乐 联合建模"
+  },
+  {
+    "module": "08",
+    "date": "2026-10-14",
+    "topic": "Comfy Agent",
+    "title": "【Comfy Agent：用自然语言在画布搭出可编辑的AI视觉工作流】",
+    "level": "L1",
+    "depth": "low",
+    "angle": "自然语言编排节点工作流",
+    "keywords_snippet": "Comfy Agent ComfyUI 节点流 可视化"
+  },
+  {
+    "module": "08",
+    "date": "2026-10-14",
+    "topic": "Lovable",
+    "title": "【Lovable：用一句话生成可部署的全栈AI应用】",
+    "level": "L2",
+    "depth": "medium",
+    "angle": "对话驱动全栈应用生成",
+    "keywords_snippet": "Lovable 全栈应用 对话生成 部署"
+  },
+  {
+    "module": "08",
+    "date": "2026-10-14",
+    "topic": "Qodo",
+    "title": "【Qodo：让AI在合并前自动审查PR并起草修改草稿】",
+    "level": "L3",
+    "depth": "high",
+    "angle": "PR差异审查与草稿修改",
+    "keywords_snippet": "Qodo 代码审查 PR 草稿修改"
+  },
+  {
+    "module": "08",
+    "date": "2026-10-14",
+    "topic": "Capacities",
+    "title": "【Capacities：用对象化结构搭建会自我连接的AI知识库】",
+    "level": "L4",
+    "depth": "high",
+    "angle": "对象化知识管理与AI检索",
+    "keywords_snippet": "Capacities 对象化 知识管理 链接图谱"
   }
 ]

@@ -3218,5 +3218,65 @@
     "depth": "deep",
     "angle": "用呼吸锚定激活前额叶调控杏仁核夺回情绪主动权",
     "keywords_snippet": "正念冥想 注意力 压力 脑科学 研究 2026"
+  },
+  {
+    "module": "14",
+    "date": "2026-10-14",
+    "topic": "执行意图",
+    "title": "执行意图：用如果-就计划把目标自动绑定到具体情境",
+    "level": "L2",
+    "depth": "medium",
+    "angle": "行为设计与目标达成",
+    "keywords_snippet": "执行意图;如果-那么;WOOP;自动化触发"
+  },
+  {
+    "module": "14",
+    "date": "2026-10-14",
+    "topic": "微习惯",
+    "title": "微习惯：用小到不可能失败的行动击穿启动阻力",
+    "level": "L3",
+    "depth": "high",
+    "angle": "习惯养成与启动阻力",
+    "keywords_snippet": "微习惯;极小行动;连续性;胜利螺旋"
+  },
+  {
+    "module": "14",
+    "date": "2026-10-14",
+    "topic": "睡眠优化",
+    "title": "睡眠优化：用卫生与节律重置给白天认知充能",
+    "level": "L1",
+    "depth": "low",
+    "angle": "睡眠卫生与昼夜节律",
+    "keywords_snippet": "睡眠优化;睡眠卫生;昼夜节律;认知充能"
+  },
+  {
+    "module": "14",
+    "date": "2026-10-14",
+    "topic": "感恩练习",
+    "title": "感恩练习：用主动记录把注意偏向拨向积极面",
+    "level": "L2",
+    "depth": "medium",
+    "angle": "积极心理与情绪调节",
+    "keywords_snippet": "感恩练习;注意偏向;小确幸;主观幸福感"
+  },
+  {
+    "module": "14",
+    "date": "2026-10-14",
+    "topic": "自我同情",
+    "title": "自我同情：用善待失败替代自我批判的心理韧性工具",
+    "level": "L3",
+    "depth": "high",
+    "angle": "心理韧性与自我接纳",
+    "keywords_snippet": "自我同情;善待失败;共通人性;羞耻"
+  },
+  {
+    "module": "14",
+    "date": "2026-10-14",
+    "topic": "费曼技巧",
+    "title": "费曼技巧：用教给别人逼出自己真正的知识盲点",
+    "level": "L4",
+    "depth": "high",
+    "angle": "主动学习与知识迁移",
+    "keywords_snippet": "费曼技巧;提取练习;生成效应;流畅性错觉"
   }
 ]

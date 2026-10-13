@@ -2108,5 +2108,55 @@
     "depth": "deep",
     "angle": "AI实时注意力与互动反馈提升课堂管理效率",
     "keywords_snippet": "AI 课堂 管理 实时 注意力 互动 2026"
+  },
+  {
+    "module": "13",
+    "date": "2026-10-14",
+    "topic": "教师AI素养培育",
+    "title": "教师AI素养全覆盖：国家平台专区与万名先锋计划",
+    "level": "L2",
+    "depth": "medium",
+    "angle": "国家平台AI素养专区+万名先锋计划如何规模化提升教师AI能力",
+    "keywords_snippet": "教师AI素养,国家智慧教育平台,万名先锋计划,人机协同"
+  },
+  {
+    "module": "13",
+    "date": "2026-10-14",
+    "topic": "高校AI学伴",
+    "title": "高校全场景AI学伴：大连理工连小理智能体平台",
+    "level": "L3",
+    "depth": "high",
+    "angle": "校本知识库+多智能体协同如何做全场景学生陪伴",
+    "keywords_snippet": "连小理,AI学伴,智能体平台,校本知识库,RAG"
+  },
+  {
+    "module": "13",
+    "date": "2026-10-14",
+    "topic": "AI导师实证",
+    "title": "AI导师学习效果实证：Khanmigo两年随机对照试验",
+    "level": "L1",
+    "depth": "low",
+    "angle": "随机对照试验揭示访问不等于影响、参与是瓶颈",
+    "keywords_snippet": "Khanmigo,随机对照试验,学习成效,参与设计"
+  },
+  {
+    "module": "13",
+    "date": "2026-10-14",
+    "topic": "学生AI素养必修",
+    "title": "学生AI素养必修课：从科普启蒙到智能体设计",
+    "level": "L2",
+    "depth": "medium",
+    "angle": "AI素养从兴趣课变必修课的培养体系与学段分层",
+    "keywords_snippet": "AI素养,必修课程,科普启蒙,智能体设计,计算思维"
+  },
+  {
+    "module": "13",
+    "date": "2026-10-14",
+    "topic": "AI学习机决策",
+    "title": "AI学习机进教学决策层：松鼠Ai多模态智适应大模型",
+    "level": "L4",
+    "depth": "high",
+    "angle": "学习机从答题工具到AI老师的教学决策与MCM维度",
+    "keywords_snippet": "松鼠Ai,智适应大模型,MCM,教学决策,错因分析"
   }
 ]

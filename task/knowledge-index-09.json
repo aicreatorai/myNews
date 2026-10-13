@@ -3028,5 +3028,65 @@
     "depth": "deep",
     "angle": "throw表达式化与JIT重写带来类型化与性能双跃迁",
     "keywords_snippet": "PHP 9.0 新特性 2026 性能"
+  },
+  {
+    "module": "09",
+    "date": "2026-10-14",
+    "topic": "Python 3.15",
+    "title": "Python 3.15：实验性 JIT 与 frozendict 改写性能与写法",
+    "level": "L1",
+    "depth": "low",
+    "angle": "新版本发布解读：tracing JIT、frozendict/sentinel、懒加载导入与 UTF-8 默认编码的实用价值",
+    "keywords_snippet": "Python 3.15, JIT, frozendict, sentinel, lazy import, UTF-8"
+  },
+  {
+    "module": "09",
+    "date": "2026-10-14",
+    "topic": "Rust 1.99.0",
+    "title": "Rust 1.99.0：C 兼容可变参数与裸指针布局查询",
+    "level": "L2",
+    "depth": "medium",
+    "angle": "系统级 FFI 与底层内存操作从 unsafe 黑魔法走向标准接口",
+    "keywords_snippet": "Rust 1.99, C variadic, VaList, raw pointer layout, Box::into_non_null"
+  },
+  {
+    "module": "09",
+    "date": "2026-10-14",
+    "topic": "TypeScript 7",
+    "title": "TypeScript 7 原生编译器与 7.1 稳定 API 解冻前端生态",
+    "level": "L3",
+    "depth": "high",
+    "angle": "Go 原生编译器重写带来的 8-12 倍提速与生态 API 缺口修复",
+    "keywords_snippet": "TypeScript 7, Go native compiler, checkers, 7.1 stable API, source phase import"
+  },
+  {
+    "module": "09",
+    "date": "2026-10-14",
+    "topic": "tsc-rs",
+    "title": "tsc-rs：用 Rust 重写的 TypeScript 编译器快 1.61 倍",
+    "level": "L4",
+    "depth": "high",
+    "angle": "AI 辅助将复杂编译器移植到 Rust 的工程实证与性能边界",
+    "keywords_snippet": "tsc-rs, Rust TypeScript compiler, Theo, AI porting, 1.61x"
+  },
+  {
+    "module": "09",
+    "date": "2026-10-14",
+    "topic": "Erlang BEAM Actor",
+    "title": "Erlang BEAM 与 Actor 模型：电信级容错并发范式",
+    "level": "L1",
+    "depth": "low",
+    "angle": "进程隔离、消息传递与 let it crash 的容错并发范式重读",
+    "keywords_snippet": "Erlang, BEAM, Actor model, message passing, supervisor, fault tolerance"
+  },
+  {
+    "module": "09",
+    "date": "2026-10-14",
+    "topic": "WASI 0.2",
+    "title": "WASI 0.2 组件模型：让 Wasm 模块跨语言安全互操作",
+    "level": "L2",
+    "depth": "medium",
+    "angle": "组件模型与 WIT 接口如何实现轻量沙箱跨语言微服务",
+    "keywords_snippet": "WASI 0.2, Component Model, WIT, SpinKube, wasmtime, sandbox"
   }
 ]

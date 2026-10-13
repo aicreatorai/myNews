@@ -3728,5 +3728,65 @@
     "depth": "deep",
     "angle": "五维评测与80%成功率生存线决定能否上线",
     "keywords_snippet": "Agent 应用落地 评测 2026"
+  },
+  {
+    "module": "07",
+    "date": "2026-10-14",
+    "topic": "测试时计算",
+    "title": "测试时计算：让模型推理时多想几步换取更高准确率",
+    "level": "L2",
+    "depth": "medium",
+    "angle": "推理阶段分配更多算力换取准确率",
+    "keywords_snippet": "测试时计算/最佳of-N/过程奖励模型"
+  },
+  {
+    "module": "07",
+    "date": "2026-10-14",
+    "topic": "连续批处理与分页注意力",
+    "title": "连续批处理与分页注意力：让GPU喂满把请求吞吐翻倍",
+    "level": "L3",
+    "depth": "high",
+    "angle": "推理系统动态调度与显存分页",
+    "keywords_snippet": "连续批处理/PagedAttention/vLLM/显存分页"
+  },
+  {
+    "module": "07",
+    "date": "2026-10-14",
+    "topic": "提示词缓存",
+    "title": "提示词缓存与KV复用：把重复前缀变成免费算力",
+    "level": "L1",
+    "depth": "low",
+    "angle": "长上下文共享前缀KV复用降本",
+    "keywords_snippet": "提示词缓存/Prompt Caching/KV复用"
+  },
+  {
+    "module": "07",
+    "date": "2026-10-14",
+    "topic": "Orthros相位感知异构注意力",
+    "title": "Orthros相位感知异构注意力：预填线性解码全注意力",
+    "level": "L2",
+    "depth": "medium",
+    "angle": "按相位切换注意力计算模式",
+    "keywords_snippet": "Orthros/线性预填/全注意力解码"
+  },
+  {
+    "module": "07",
+    "date": "2026-10-14",
+    "topic": "MiTA混合Top-k注意力",
+    "title": "MiTA混合Top-k注意力：从快权重视角统一高效注意力",
+    "level": "L3",
+    "depth": "high",
+    "angle": "快权重统一框架下的Top-k路由",
+    "keywords_snippet": "MiTA/快权重/Top-k注意力"
+  },
+  {
+    "module": "07",
+    "date": "2026-10-14",
+    "topic": "Attention Manifolds",
+    "title": "Attention Manifolds注意力流形：零成本操控模型行为",
+    "level": "L4",
+    "depth": "high",
+    "angle": "注意力值流B样条曲面轻量干预",
+    "keywords_snippet": "Attention Manifolds/B样条/注意力墙"
   }
 ]

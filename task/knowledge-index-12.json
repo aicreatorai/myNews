@@ -3228,5 +3228,65 @@
     "depth": "deep",
     "angle": "一人AI设计机构卖结果不卖时间成品定价",
     "keywords_snippet": "AI 设计 工作室 创业 案例 2026"
+  },
+  {
+    "module": "12",
+    "date": "2026-10-14",
+    "topic": "AI代理交易清算层",
+    "title": "AI代理交易清算层：Monid把机器对机器消费做成基础设施",
+    "level": "L2",
+    "depth": "medium",
+    "angle": "基础设施商业模式",
+    "keywords_snippet": "AI代理,支付清算,Monid,机器对机器交易"
+  },
+  {
+    "module": "12",
+    "date": "2026-10-14",
+    "topic": "免费个人AI代理抽佣",
+    "title": "免费个人AI代理抽佣：Eden Labs把智能体变支付入口",
+    "level": "L3",
+    "depth": "high",
+    "angle": "交易抽佣变现",
+    "keywords_snippet": "个人AI代理,交易抽佣,Eden Labs,支付入口"
+  },
+  {
+    "module": "12",
+    "date": "2026-10-14",
+    "topic": "AI隐私可穿戴",
+    "title": "AI隐私可穿戴：19岁创始人的硬件加助手超级入口",
+    "level": "L1",
+    "depth": "low",
+    "angle": "硬件+助手入口",
+    "keywords_snippet": "AI硬件,隐私可穿戴,Persona,超级入口"
+  },
+  {
+    "module": "12",
+    "date": "2026-10-14",
+    "topic": "国产大模型出海通路",
+    "title": "国产大模型出海三分通路：从自营API到收入出海质变",
+    "level": "L2",
+    "depth": "medium",
+    "angle": "出海商业模式",
+    "keywords_snippet": "大模型出海,云托管,推理中转,收入分成"
+  },
+  {
+    "module": "12",
+    "date": "2026-10-14",
+    "topic": "无聊垂直AI",
+    "title": "无聊垂直AI：监管护城河型小众SaaS的闷声赚钱法",
+    "level": "L3",
+    "depth": "high",
+    "angle": "垂直SaaS护城河",
+    "keywords_snippet": "垂直AI,监管护城河,小众SaaS,单位经济"
+  },
+  {
+    "module": "12",
+    "date": "2026-10-14",
+    "topic": "县域下沉产业AI",
+    "title": "县域下沉产业AI：苗绣蛋鸡酱酒里的垂直创业样本",
+    "level": "L4",
+    "depth": "high",
+    "angle": "下沉产业落地",
+    "keywords_snippet": "县域AI,苗绣,蛋鸡养殖,酱酒,垂直落地"
   }
 ]

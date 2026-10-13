@@ -3418,5 +3418,65 @@
     "depth": "deep",
     "angle": "开源IDE助手自带模型支持本地与多模型切换",
     "keywords_snippet": "Continue 开源 AI 编程助手 IDE 2026 接入大模型"
+  },
+  {
+    "module": "10",
+    "date": "2026-10-14",
+    "topic": "REA (Reverse Engineer Anything)",
+    "title": "REA：让 AI 编程智能体拥有反编译任意二进制的 MCP 能力",
+    "level": "L2",
+    "depth": "medium",
+    "angle": "Agent 驱动的反编译三步走工作流与跨工具状态保持",
+    "keywords_snippet": "REA, MCP, 反编译, Ghidra, 逆向工程, 二进制"
+  },
+  {
+    "module": "10",
+    "date": "2026-10-14",
+    "topic": "codebase-memory-mcp",
+    "title": "codebase-memory-mcp：用 AST 加知识图谱替代向量库的代码库记忆 MCP 服务器",
+    "level": "L3",
+    "depth": "high",
+    "angle": "AST 解析加知识图谱的精确代码检索替代语义向量 RAG",
+    "keywords_snippet": "codebase-memory-mcp, AST, 知识图谱, tree-sitter, Cypher, 代码检索"
+  },
+  {
+    "module": "10",
+    "date": "2026-10-14",
+    "topic": "Appwrite (Agent Cloud)",
+    "title": "Appwrite：从开发者后端转型为面向 AI Agent 的开源云（MCP 接口）",
+    "level": "L1",
+    "depth": "low",
+    "angle": "后端基础设施 MCP 化让 Agent 直接调用服务能力",
+    "keywords_snippet": "Appwrite, BaaS, MCP, Agent 云, 后端即服务"
+  },
+  {
+    "module": "10",
+    "date": "2026-10-14",
+    "topic": "oh-my-claudecode",
+    "title": "oh-my-claudecode：为 Claude Code 加装多智能体团队编排层",
+    "level": "L2",
+    "depth": "medium",
+    "angle": "teams-first 模型把任务拆分给并行子代理并汇总",
+    "keywords_snippet": "oh-my-claudecode, Claude Code, 多智能体, 团队编排, subagent"
+  },
+  {
+    "module": "10",
+    "date": "2026-10-14",
+    "topic": "CopilotKit OpenIntelligentUI",
+    "title": "CopilotKit OpenIntelligentUI：开源生成式 UI 框架，让 AI 直接产出可交互界面",
+    "level": "L3",
+    "depth": "high",
+    "angle": "生成式 UI 把模型输出从文本升级为可交互组件",
+    "keywords_snippet": "CopilotKit, OpenIntelligentUI, 生成式 UI, Generative UI, React"
+  },
+  {
+    "module": "10",
+    "date": "2026-10-14",
+    "topic": "QuantumNous new-api",
+    "title": "QuantumNous new-api：把多家大模型统一转成 OpenAI 兼容接口的 AI 模型网关",
+    "level": "L4",
+    "depth": "high",
+    "angle": "多模型协议归一网关做格式翻译与路由抽象",
+    "keywords_snippet": "new-api, 模型网关, 协议归一, OpenAI 兼容, 多模型路由"
   }
 ]
