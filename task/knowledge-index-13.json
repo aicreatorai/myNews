@@ -2158,5 +2158,55 @@
     "depth": "high",
     "angle": "学习机从答题工具到AI老师的教学决策与MCM维度",
     "keywords_snippet": "松鼠Ai,智适应大模型,MCM,教学决策,错因分析"
+  },
+  {
+    "module": "13",
+    "date": "2026-10-15",
+    "topic": "学科专属AI知识库",
+    "title": "AI历史助教：教师自建27万份资料知识库定制复习",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "RAG检索增强生成赋能学科复习",
+    "keywords_snippet": "AI知识库 历史助教 RAG 学科复习 周建定"
+  },
+  {
+    "module": "13",
+    "date": "2026-10-15",
+    "topic": "课程智能体自动制课",
+    "title": "课程智能体：一句话全自动制课与数字人答疑",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "第三代AI教育平台任务编排",
+    "keywords_snippet": "课程智能体 数字人 自动制课 GKK 豆包"
+  },
+  {
+    "module": "13",
+    "date": "2026-10-15",
+    "topic": "AI个性化分级阅读教练",
+    "title": "AI阅读教练：个性化分级阅读与即时纠音",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "分级匹配与过程性阅读反馈",
+    "keywords_snippet": "AI阅读教练 分级阅读 Reading Coach 纠音"
+  },
+  {
+    "module": "13",
+    "date": "2026-10-15",
+    "topic": "AI习作与作业智能反馈",
+    "title": "AI习作与作业：从等批改到即时反馈闭环",
+    "level": "L3",
+    "depth": "实践层",
+    "angle": "过程性评测与自适应反馈",
+    "keywords_snippet": "AI习作 智能反馈 作业评价 习作平台"
+  },
+  {
+    "module": "13",
+    "date": "2026-10-15",
+    "topic": "青少年AI开发者项目实战",
+    "title": "青少年AI开发者：从学编程到做项目实战",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "分龄项目制与Vibe Coding启蒙",
+    "keywords_snippet": "青少年AI 项目制 Vibe Coding 开发者大赛"
   }
 ]

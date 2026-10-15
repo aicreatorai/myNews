@@ -3398,5 +3398,65 @@
     "depth": "high",
     "angle": "先修价值回路与队列停滞再放量的AI增长序列",
     "keywords_snippet": "留存优先,价值回路,队列诊断,有界干预,增长序列"
+  },
+  {
+    "module": "15",
+    "date": "2026-10-15",
+    "topic": "提示词资产管理",
+    "title": "提示词资产管理：把提示词当产品资产做版本化治理",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "版本化注册与评测回归",
+    "keywords_snippet": "提示词注册表 版本控制 可复用模板 复评周期"
+  },
+  {
+    "module": "15",
+    "date": "2026-10-15",
+    "topic": "安全护栏设计",
+    "title": "安全护栏设计：用约束层把AI产品风险关进笼子",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "前后置约束层拦截风险",
+    "keywords_snippet": "护栏 越权 提示注入 毒性扫描 不安全动作"
+  },
+  {
+    "module": "15",
+    "date": "2026-10-15",
+    "topic": "评测集驱动开发",
+    "title": "评测集驱动开发：用Eval数据集给AI产品设质量基准",
+    "level": "L3",
+    "depth": "实践层",
+    "angle": "离线评测集与回归发布门",
+    "keywords_snippet": "评测集 golden set LLM-as-judge F1 回归"
+  },
+  {
+    "module": "15",
+    "date": "2026-10-15",
+    "topic": "概率性体验设计",
+    "title": "概率性体验设计：为AI的随机输出设计可预期的容错交互",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "容错闭环与置信度提示",
+    "keywords_snippet": "概率性UX 容错 置信度 反馈闭环"
+  },
+  {
+    "module": "15",
+    "date": "2026-10-15",
+    "topic": "上下文工程",
+    "title": "上下文工程：为AI智能体装配恰到好处的记忆与背景",
+    "level": "L3",
+    "depth": "实践层",
+    "angle": "动态组装记忆知识与工具",
+    "keywords_snippet": "上下文工程 Agent 记忆 检索增强 MCP"
+  },
+  {
+    "module": "15",
+    "date": "2026-10-15",
+    "topic": "可解释性设计",
+    "title": "可解释性设计：用透明推理链重建用户对AI的信任",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "溯源引用与推理可见",
+    "keywords_snippet": "可解释性 溯源 置信度 透明度 信任"
   }
 ]

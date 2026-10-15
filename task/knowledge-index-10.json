@@ -3478,5 +3478,65 @@
     "depth": "high",
     "angle": "多模型协议归一网关做格式翻译与路由抽象",
     "keywords_snippet": "new-api, 模型网关, 协议归一, OpenAI 兼容, 多模型路由"
+  },
+  {
+    "module": "10",
+    "date": "2026-10-15",
+    "topic": "DeepSeek Harness",
+    "title": "【DeepSeek Harness：一切皆插件的开源 Agent 运行时】",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "harness与framework范式差异",
+    "keywords_snippet": "DeepSeek Harness,插件化,Agent运行时,可移植性"
+  },
+  {
+    "module": "10",
+    "date": "2026-10-15",
+    "topic": "OpenAI Agents SDK",
+    "title": "【OpenAI Agents SDK：轻量多 Agent 编排与 handoff 运行时】",
+    "level": "L3",
+    "depth": "实践层",
+    "angle": "handoff与tracing落地",
+    "keywords_snippet": "OpenAI Agents SDK,handoff,tracing,多Agent"
+  },
+  {
+    "module": "10",
+    "date": "2026-10-15",
+    "topic": "MLX",
+    "title": "【MLX：Apple Silicon 原生的机器学习与微调框架】",
+    "level": "L4",
+    "depth": "前沿层",
+    "angle": "Apple Silicon统一内存推理微调",
+    "keywords_snippet": "MLX,Apple Silicon,统一内存,LoRA微调"
+  },
+  {
+    "module": "10",
+    "date": "2026-10-15",
+    "topic": "Langflow",
+    "title": "【Langflow：拖拽式可视化搭建 AI 智能体与 RAG 流程】",
+    "level": "L3",
+    "depth": "实践层",
+    "angle": "拖拽式可视化编排",
+    "keywords_snippet": "Langflow,可视化,低代码,RAG流程"
+  },
+  {
+    "module": "10",
+    "date": "2026-10-15",
+    "topic": "AutoGPT",
+    "title": "【AutoGPT：让自主 Agent 自己拆解目标执行任务的框架】",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "自主Agent目标自驱",
+    "keywords_snippet": "AutoGPT,自主智能体,目标分解,自主执行"
+  },
+  {
+    "module": "10",
+    "date": "2026-10-15",
+    "topic": "AnythingLLM",
+    "title": "【AnythingLLM：开箱即用的私有化全栈知识库】",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "私有化全栈知识库架构",
+    "keywords_snippet": "AnythingLLM,私有知识库,RAG,自托管"
   }
 ]

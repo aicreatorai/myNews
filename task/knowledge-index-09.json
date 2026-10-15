@@ -3088,5 +3088,65 @@
     "depth": "medium",
     "angle": "组件模型与 WIT 接口如何实现轻量沙箱跨语言微服务",
     "keywords_snippet": "WASI 0.2, Component Model, WIT, SpinKube, wasmtime, sandbox"
+  },
+  {
+    "module": "09",
+    "date": "2026-10-15",
+    "topic": "Rust 工具链周36",
+    "title": "Rust 工具链周报 W36：Wasmi 2.0 提速 2.2 倍与 cargo-lints 稳定化",
+    "level": "L3",
+    "depth": "实践层",
+    "angle": "工具链生态更新（编译器/标准库/Cargo）",
+    "keywords_snippet": "Wasmi 2.0 cargo-lints rustup target tuple feature-metadata"
+  },
+  {
+    "module": "09",
+    "date": "2026-10-15",
+    "topic": "类型系统与内存安全",
+    "title": "类型系统与内存安全四象限：为何 Rust 在后端安全断层领先",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "四维框架+后端实测对比",
+    "keywords_snippet": "类型系统 内存安全 四象限 Rust Go Java PHP"
+  },
+  {
+    "module": "09",
+    "date": "2026-10-15",
+    "topic": "分层 JIT 与 OSR",
+    "title": "分层 JIT 与栈上替换 OSR：运行时如何兼顾快启动与峰值性能",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "分层编译+栈上替换+推测执行原理",
+    "keywords_snippet": "JIT OSR 栈上替换 推测执行 分层编译"
+  },
+  {
+    "module": "09",
+    "date": "2026-10-15",
+    "topic": "方舟编译器 ArkCompiler",
+    "title": "方舟编译器 ArkCompiler：多语言统一 IR 与混合编译优化移动端性能",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "统一IR+混合编译+移动端优化",
+    "keywords_snippet": "ArkCompiler 方舟编译器 统一IR AOT JIT 向量化"
+  },
+  {
+    "module": "09",
+    "date": "2026-10-15",
+    "topic": "AOT 提前编译 Tiling",
+    "title": "AOT 提前编译优化：用 Tiling 常量化把运行时参数移到编译期",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "Tiling 常量化空间换时间",
+    "keywords_snippet": "AOT Tiling 常量化 提前编译 Ascend C"
+  },
+  {
+    "module": "09",
+    "date": "2026-10-15",
+    "topic": "PGO 与自动向量化",
+    "title": "PGO 与自动向量化：用运行时反馈和 SIMD 指令指导编译器激进优化",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "PGO 反馈优化+SIMD 向量化",
+    "keywords_snippet": "PGO 自动向量化 SIMD 性能分析反馈"
   }
 ]

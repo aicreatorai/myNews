@@ -3788,5 +3788,65 @@
     "depth": "high",
     "angle": "注意力值流B样条曲面轻量干预",
     "keywords_snippet": "Attention Manifolds/B样条/注意力墙"
+  },
+  {
+    "module": "07",
+    "date": "2026-10-15",
+    "topic": "推测解码",
+    "title": "推测解码投机解码：用小模型草稿把大模型推理提速数倍",
+    "level": "L4",
+    "depth": "技术层",
+    "angle": "用小模型草稿并行验证加速自回归生成",
+    "keywords_snippet": "推测解码 草稿模型 并行验证 SpecTr-GBV 加速"
+  },
+  {
+    "module": "07",
+    "date": "2026-10-15",
+    "topic": "PD分离",
+    "title": "PD分离预填充解码分离：把大模型推理的两个阶段拆开调度",
+    "level": "L3",
+    "depth": "系统层",
+    "angle": "预填充与解码阶段解耦独立调度",
+    "keywords_snippet": "PD分离 预填充 解码 分离 DistServe 推理架构"
+  },
+  {
+    "module": "07",
+    "date": "2026-10-15",
+    "topic": "GraphRAG",
+    "title": "GraphRAG图谱增强检索：从向量相似走向关系推理",
+    "level": "L3",
+    "depth": "技术层",
+    "angle": "知识图谱约束检索生成可溯源",
+    "keywords_snippet": "GraphRAG 知识图谱 社区检测 图遍历 可溯源"
+  },
+  {
+    "module": "07",
+    "date": "2026-10-15",
+    "topic": "OneSearch-VL",
+    "title": "OneSearch-VL多模态深度研究智能体：用视觉证据图锚定溯源",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "视觉证据图锚定多模态溯源",
+    "keywords_snippet": "OneSearch-VL 视觉证据图 VGEG 多模态深研 溯源"
+  },
+  {
+    "module": "07",
+    "date": "2026-10-15",
+    "topic": "VISTA",
+    "title": "何恺明VISTA视觉原生Harness：给多模态模型装上可回看的视觉记忆",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "视觉原生记忆脚手架",
+    "keywords_snippet": "VISTA 视觉原生 Harness 视觉记忆 何恺明"
+  },
+  {
+    "module": "07",
+    "date": "2026-10-15",
+    "topic": "上下文压缩",
+    "title": "上下文压缩与窗口管理：分层记忆让长程Agent不再被token淹没",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "分层记忆抑制上下文膨胀",
+    "keywords_snippet": "上下文压缩 窗口管理 分层记忆 长程Agent context bloat"
   }
 ]

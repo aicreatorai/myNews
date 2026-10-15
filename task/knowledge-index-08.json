@@ -3276,5 +3276,65 @@
     "depth": "high",
     "angle": "对象化知识管理与AI检索",
     "keywords_snippet": "Capacities 对象化 知识管理 链接图谱"
+  },
+  {
+    "module": "08",
+    "date": "2026-10-15",
+    "topic": "可灵AI",
+    "title": "【可灵AI：用文生视频把文字脚本变成高清短片】",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "文生视频实操工作流",
+    "keywords_snippet": "可灵AI 文生视频 图生视频 运动笔刷 短视频素材"
+  },
+  {
+    "module": "08",
+    "date": "2026-10-15",
+    "topic": "海螺AI",
+    "title": "【海螺AI：用MiniMax视频模型生成质感干净的低成片】",
+    "level": "L3",
+    "depth": "实践层",
+    "angle": "低成本批量视频素材流水线",
+    "keywords_snippet": "海螺AI MiniMax 视频生成 图生视频 局部重绘"
+  },
+  {
+    "module": "08",
+    "date": "2026-10-15",
+    "topic": "Copy.ai",
+    "title": "【Copy.ai：用链式工作流批量产出营销短文案】",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "提示词链批量营销文案",
+    "keywords_snippet": "Copy.ai 营销写作 工作流 品牌语调 批量文案"
+  },
+  {
+    "module": "08",
+    "date": "2026-10-15",
+    "topic": "蛙蛙写作",
+    "title": "【蛙蛙写作：用多Agent协同把网文创作拆成三个工序】",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "多Agent协同网文创作",
+    "keywords_snippet": "蛙蛙写作 多Agent 网文 长篇创作 情节构思"
+  },
+  {
+    "module": "08",
+    "date": "2026-10-15",
+    "topic": "Cody",
+    "title": "【Cody：用代码库语义检索给编辑器装上全仓库问答】",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "代码图谱增强编程问答",
+    "keywords_snippet": "Cody Sourcegraph 代码图谱 全仓库问答 跨文件编辑"
+  },
+  {
+    "module": "08",
+    "date": "2026-10-15",
+    "topic": "FlowiseAI",
+    "title": "【FlowiseAI：用拖拽节点搭出带记忆的研究型Agent】",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "可视化拖拽搭建研究Agent",
+    "keywords_snippet": "FlowiseAI 低代码 Agent 记忆节点 检索增强 自托管"
   }
 ]

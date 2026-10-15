@@ -3288,5 +3288,65 @@
     "depth": "high",
     "angle": "下沉产业落地",
     "keywords_snippet": "县域AI,苗绣,蛋鸡养殖,酱酒,垂直落地"
+  },
+  {
+    "module": "12",
+    "date": "2026-10-15",
+    "topic": "AI模型评测平台",
+    "title": "AI模型与智能体第三方评测平台：用独立基准成为算力时代的裁判",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "中立评测即基础设施",
+    "keywords_snippet": "LMArena,Arena,模型评测,对齐指数,独立基准"
+  },
+  {
+    "module": "12",
+    "date": "2026-10-15",
+    "topic": "因果智能机器人",
+    "title": "因果智能机器人：用因果世界模型让家用机器人0.2秒安全急停",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "因果安全兜底",
+    "keywords_snippet": "Aether,CRIS-0,因果世界模型,急停,具身智能"
+  },
+  {
+    "module": "12",
+    "date": "2026-10-15",
+    "topic": "零售物理智能RaaS",
+    "title": "零售物理智能RaaS：用零改造具身机器人接管24/7便利店",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "场景优先订阅变现",
+    "keywords_snippet": "正行创新,Physical AI,RaaS,具身机器人,24/7零售"
+  },
+  {
+    "module": "12",
+    "date": "2026-10-15",
+    "topic": "跨智能体记忆层",
+    "title": "跨智能体记忆层：用统一记忆库打通ChatGPT与Claude的上下文孤岛",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "中立记忆基础设施",
+    "keywords_snippet": "Make0 Brain,跨Agent记忆,MCP,上下文孤岛,Product Hunt"
+  },
+  {
+    "module": "12",
+    "date": "2026-10-15",
+    "topic": "短信交互AI智能体",
+    "title": "短信交互式AI智能体：零下载零营销用一条短信调用AI干活",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "极简入口普惠",
+    "keywords_snippet": "Instinct,短信Agent,零下载,轻量化,The Verge"
+  },
+  {
+    "module": "12",
+    "date": "2026-10-15",
+    "topic": "AI智能体运行时安全",
+    "title": "AI智能体运行时安全：为企业自主智能体装上行为护栏",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "运行时可控性",
+    "keywords_snippet": "Rein Security,Guardrail,运行时安全,Agent护栏,行为治理"
   }
 ]
