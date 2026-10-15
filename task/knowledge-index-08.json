@@ -3336,5 +3336,65 @@
     "depth": "概念层",
     "angle": "可视化拖拽搭建研究Agent",
     "keywords_snippet": "FlowiseAI 低代码 Agent 记忆节点 检索增强 自托管"
+  },
+  {
+    "module": "08",
+    "date": "2026-10-16",
+    "topic": "Perplexity",
+    "title": "Perplexity 实时联网答案引擎：用追问链把模糊问题收成一条答案",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "实时联网检索加逐句引用替代多标签页搜索",
+    "keywords_snippet": "Perplexity 实时联网 答案引擎 引用 追问 研究空间"
+  },
+  {
+    "module": "08",
+    "date": "2026-10-16",
+    "topic": "Claude Code / Codex CLI",
+    "title": "Claude Code 与 Codex CLI：活在终端里的编码智能体实战",
+    "level": "L3",
+    "depth": "实践层",
+    "angle": "双智能体互审工作流实现与只读审查",
+    "keywords_snippet": "Claude Code Codex CLI 终端编码 智能体 互审 AGENTS CLAUDE MCP"
+  },
+  {
+    "module": "08",
+    "date": "2026-10-16",
+    "topic": "v0 / Bolt.new",
+    "title": "v0 与 Bolt.new：描述界面需求即可生成可部署的全栈应用",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "自然语言建站 WebContainer 四要素需求解析",
+    "keywords_snippet": "v0 Bolt.new 文生应用 全栈 WebContainer 部署 自然语言"
+  },
+  {
+    "module": "08",
+    "date": "2026-10-16",
+    "topic": "Midjourney v7",
+    "title": "Midjourney v7：从文本提示到电影级图像的文生图实战",
+    "level": "L4",
+    "depth": "前沿层",
+    "angle": "V7 新特性 Draft Omni Reference 分层提示",
+    "keywords_snippet": "Midjourney v7 文生图 Draft Omni Reference 一致性 分层提示"
+  },
+  {
+    "module": "08",
+    "date": "2026-10-16",
+    "topic": "Runway / Pika",
+    "title": "Runway 与 Pika：用文字描述把脑中画面变成动态视频",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "文生视频分镜多版生成加剪辑拼接工作流",
+    "keywords_snippet": "Runway Pika 文生视频 Gen-3 镜头控制 Pikaffects 分镜"
+  },
+  {
+    "module": "08",
+    "date": "2026-10-16",
+    "topic": "Ollama / LM Studio",
+    "title": "Ollama 与 LM Studio：在本地电脑上跑开源大模型的零门槛方案",
+    "level": "L3",
+    "depth": "实践层",
+    "angle": "本地推理隐私离线 OpenAI兼容API GGUF量化",
+    "keywords_snippet": "Ollama LM Studio 本地大模型 GGUF 量化 隐私 离线 API"
   }
 ]

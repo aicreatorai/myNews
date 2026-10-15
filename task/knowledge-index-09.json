@@ -3148,5 +3148,65 @@
     "depth": "概念层",
     "angle": "PGO 反馈优化+SIMD 向量化",
     "keywords_snippet": "PGO 自动向量化 SIMD 性能分析反馈"
+  },
+  {
+    "module": "09",
+    "date": "2026-10-16",
+    "topic": "Go 1.24",
+    "title": "Go 1.24 泛型类型别名与原生工具链，运行时开销降2-3%",
+    "level": "L2",
+    "depth": "语言特性与工具链",
+    "angle": "泛型类型别名与go tool依赖管理",
+    "keywords_snippet": "Go 1.24 generic type aliases tool directive Swiss Tables runtime"
+  },
+  {
+    "module": "09",
+    "date": "2026-10-16",
+    "topic": "Kotlin 2.0",
+    "title": "Kotlin 2.0 K2编译器转正，多平台编译速度最高翻倍",
+    "level": "L3",
+    "depth": "编译器架构与多平台",
+    "angle": "K2编译器统一后端与KMP稳定",
+    "keywords_snippet": "Kotlin 2.0 K2 compiler stable KMP multiplatform compilation speed"
+  },
+  {
+    "module": "09",
+    "date": "2026-10-16",
+    "topic": "Swift 6",
+    "title": "Swift 6 严格并发模式，把数据竞争挡在编译期",
+    "level": "L2",
+    "depth": "并发安全与语言模式",
+    "angle": "数据竞争安全的编译期检查与结构化并发",
+    "keywords_snippet": "Swift 6 strict concurrency data race safety Sendable actor"
+  },
+  {
+    "module": "09",
+    "date": "2026-10-16",
+    "topic": "Dart 3",
+    "title": "Dart 3 记录类型与模式匹配，多返回值不再造类",
+    "level": "L3",
+    "depth": "语言特性与类型系统",
+    "angle": "记录类型、模式匹配与类修饰符",
+    "keywords_snippet": "Dart 3 records patterns class modifiers null safety"
+  },
+  {
+    "module": "09",
+    "date": "2026-10-16",
+    "topic": "Nim",
+    "title": "Nim 2.x 元编程与确定性内存管理，系统级性能比肩C",
+    "level": "L2",
+    "depth": "元编程与系统编程",
+    "angle": "AST宏与确定性内存管理ORC/ARC",
+    "keywords_snippet": "Nim metaprogramming macro AST deterministic memory ORC ARC"
+  },
+  {
+    "module": "09",
+    "date": "2026-10-16",
+    "topic": "Mojo",
+    "title": "Mojo 1.0 全面开源，AI原生系统语言打通异构硬件",
+    "level": "L3",
+    "depth": "AI原生系统与异构编译",
+    "angle": "MLIR编译器栈与Python互操作",
+    "keywords_snippet": "Mojo 1.0 MLIR AI native Python interop MAX open source"
   }
 ]

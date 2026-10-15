@@ -2208,5 +2208,55 @@
     "depth": "概念层",
     "angle": "分龄项目制与Vibe Coding启蒙",
     "keywords_snippet": "青少年AI 项目制 Vibe Coding 开发者大赛"
+  },
+  {
+    "module": "13",
+    "date": "2026-10-16",
+    "topic": "AI作业评估与智能批改",
+    "title": "AI作业智能批改：从符号识别到多模态反馈的精准评估",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "OCR多模态识别+知识图谱薄弱点定位+变式题干预闭环",
+    "keywords_snippet": "AI作业批改 多模态 OCR 知识图谱 薄弱点 学情看板"
+  },
+  {
+    "module": "13",
+    "date": "2026-10-16",
+    "topic": "AI职业规划与生涯教育",
+    "title": "AI职业规划助手：用兴趣能力画像重构生涯教育",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "RIASEC兴趣能力画像+劳动力市场数据+分阶段路线图，含国内落地",
+    "keywords_snippet": "AI职业规划 RIASEC O*NET 生涯教育 兴趣能力画像"
+  },
+  {
+    "module": "13",
+    "date": "2026-10-16",
+    "topic": "AI科研素养与论文助手",
+    "title": "AI科研助手：从文献综述到论文写作的科研素养赋能",
+    "level": "L3",
+    "depth": "方法层",
+    "angle": "语义检索+结构化综述+引用态度校验+AI使用日志守诚信",
+    "keywords_snippet": "AI科研助手 Elicit SemanticScholar Scite 文献综述 学术诚信"
+  },
+  {
+    "module": "13",
+    "date": "2026-10-16",
+    "topic": "AI语言学习写作阅读",
+    "title": "AI读写能力训练：从精读拆解到过程性写作的能力闭环",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "过程性写作双维评分+精读结构拆解+错误日志闭环，规避口语陪练",
+    "keywords_snippet": "AI读写 过程性写作 精读 CEFR NotebookLM Cathoven"
+  },
+  {
+    "module": "13",
+    "date": "2026-10-16",
+    "topic": "AI教师教研与培训赋能",
+    "title": "AI教研助手：从备课到同侪反思的教师专业成长引擎",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "备课知识库RAG+学情看板+循证教研复盘，教师为主体",
+    "keywords_snippet": "AI教研 备课搭子 循证教研 学情看板 教师发展"
   }
 ]

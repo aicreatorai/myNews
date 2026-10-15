@@ -3348,5 +3348,65 @@
     "depth": "技术层",
     "angle": "运行时可控性",
     "keywords_snippet": "Rein Security,Guardrail,运行时安全,Agent护栏,行为治理"
+  },
+  {
+    "module": "12",
+    "date": "2026-10-16",
+    "topic": "AI Agent代运营与智能客服外包",
+    "title": "Agent代运营跑通：帮中小企业养智能体月费3000到5000元",
+    "level": "L1",
+    "depth": "变现模式",
+    "angle": "代运营服务交付最后一公里",
+    "keywords_snippet": "Agent代运营、智能客服外包、月费、知识库、DeepSeek降价"
+  },
+  {
+    "module": "12",
+    "date": "2026-10-16",
+    "topic": "AI养老与健康管理创业",
+    "title": "AI养老陪护机器人融资升温：大白机器人德壹医疗扎进康养赛道",
+    "level": "L2",
+    "depth": "硬件+服务",
+    "angle": "康养陪护机器人落地",
+    "keywords_snippet": "AI养老、陪护机器人、康养、多模态感知、德壹医疗"
+  },
+  {
+    "module": "12",
+    "date": "2026-10-16",
+    "topic": "AI法律合同审查细分赛道",
+    "title": "AI合同审查细分赛道：从Harvey到智合中小企业法务提效80%",
+    "level": "L3",
+    "depth": "SaaS细分",
+    "angle": "合同审查自动化普惠",
+    "keywords_snippet": "合同审查、法律AI、Harvey、智合、提效80%"
+  },
+  {
+    "module": "12",
+    "date": "2026-10-16",
+    "topic": "AI电商智能选品与带货工具",
+    "title": "AI电商智能选品工具：从33元月预算到爆款决策的降本链路",
+    "level": "L4",
+    "depth": "工具栈",
+    "angle": "智能选品决策支持",
+    "keywords_snippet": "AI选品、Helium10、知衣、跨境、评论聚类"
+  },
+  {
+    "module": "12",
+    "date": "2026-10-16",
+    "topic": "AI编程教育少儿编程产品",
+    "title": "AI编程教育新叙事：imagi用Vibe-Coding重构K-12编程课",
+    "level": "L1",
+    "depth": "教育产品",
+    "angle": "Vibe-Coding护栏教学",
+    "keywords_snippet": "AI编程教育、imagi、Vibe-Coding、K-12、Lovable"
+  },
+  {
+    "module": "12",
+    "date": "2026-10-16",
+    "topic": "AI内容审核与合规服务",
+    "title": "AI内容审核与合规服务：大模型上线准入门票催生185亿元市场",
+    "level": "L2",
+    "depth": "合规服务",
+    "angle": "内容安全与模型安全",
+    "keywords_snippet": "内容审核、AI安全、合规、红队测试、185亿元"
   }
 ]

@@ -3538,5 +3538,65 @@
     "depth": "技术层",
     "angle": "私有化全栈知识库架构",
     "keywords_snippet": "AnythingLLM,私有知识库,RAG,自托管"
+  },
+  {
+    "module": "10",
+    "date": "2026-10-16",
+    "topic": "LlamaIndex",
+    "title": "用 LlamaIndex 托管索引与 Agentic RAG 把企业知识库推向生产",
+    "level": "L3",
+    "depth": "实践层",
+    "angle": "托管索引与 Agentic RAG 生产化",
+    "keywords_snippet": "LlamaIndex LlamaCloud 托管索引 Agentic RAG 生产 RAG"
+  },
+  {
+    "module": "10",
+    "date": "2026-10-16",
+    "topic": "Haystack",
+    "title": "用 Haystack Pipeline 与 Hayhooks 把 RAG 流水线部署成可观测服务",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "Pipeline 序列化与 Hayhooks 部署",
+    "keywords_snippet": "Haystack Pipeline Hayhooks 部署 RAG 可观测 序列化"
+  },
+  {
+    "module": "10",
+    "date": "2026-10-16",
+    "topic": "AutoGen",
+    "title": "AutoGen v0.4 事件驱动架构下的多智能体协作新范式",
+    "level": "L4",
+    "depth": "前沿层",
+    "angle": "事件驱动架构与 Teams 协作",
+    "keywords_snippet": "AutoGen v0.4 事件驱动 Actor Teams 多智能体"
+  },
+  {
+    "module": "10",
+    "date": "2026-10-16",
+    "topic": "CrewAI",
+    "title": "用 CrewAI Flow 与 Crew 复用打造可投产的多智能体流水线",
+    "level": "L3",
+    "depth": "实践层",
+    "angle": "Flow 编排与 Crew 复用",
+    "keywords_snippet": "CrewAI Flow Crew 多智能体 投产 编排"
+  },
+  {
+    "module": "10",
+    "date": "2026-10-16",
+    "topic": "LiteLLM",
+    "title": "用 LiteLLM 虚拟密钥与成本追踪构建可观测大模型网关",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "虚拟密钥与成本追踪治理",
+    "keywords_snippet": "LiteLLM 虚拟密钥 成本追踪 网关 可观测"
+  },
+  {
+    "module": "10",
+    "date": "2026-10-16",
+    "topic": "LangGraph",
+    "title": "用 LangGraph 持久化检查点与人机回圈把 Agent 编排成可恢复状态机",
+    "level": "L4",
+    "depth": "前沿层",
+    "angle": "持久化检查点与人机回圈",
+    "keywords_snippet": "LangGraph 检查点 人机回圈 状态机 持久化"
   }
 ]

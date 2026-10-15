@@ -3848,5 +3848,65 @@
     "depth": "技术层",
     "angle": "分层记忆抑制上下文膨胀",
     "keywords_snippet": "上下文压缩 窗口管理 分层记忆 长程Agent context bloat"
+  },
+  {
+    "module": "07",
+    "date": "2026-10-16",
+    "topic": "端侧AI与小模型",
+    "title": "端侧AI与小模型：把Phi-4与Gemma-3装进手机和笔记本的实战",
+    "level": "L1",
+    "depth": "入门实战",
+    "angle": "端侧部署量化实战",
+    "keywords_snippet": "端侧AI,Phi-4,Gemma 3,SLM,INT4量化,Ollama"
+  },
+  {
+    "module": "07",
+    "date": "2026-10-16",
+    "topic": "Agent上下文窗口管理与任务规划",
+    "title": "Agent上下文窗口管理与任务规划：用压缩与分层把长程目标装进有限Token",
+    "level": "L2",
+    "depth": "进阶",
+    "angle": "上下文压缩与分层规划",
+    "keywords_snippet": "上下文窗口,Context Folding,子代理,压缩,分层规划"
+  },
+  {
+    "module": "07",
+    "date": "2026-10-16",
+    "topic": "LoRA与QLoRA高效微调",
+    "title": "QLoRA与LoRA实战：在单张消费级显卡上微调并合并专属大模型",
+    "level": "L2",
+    "depth": "进阶实战",
+    "angle": "消费级显卡微调合并",
+    "keywords_snippet": "LoRA,QLoRA,NF4,低秩适配,合并权重,消费级显卡"
+  },
+  {
+    "module": "07",
+    "date": "2026-10-16",
+    "topic": "AI可解释性与联邦学习",
+    "title": "AI可解释性与联邦学习：在保护隐私前提下看懂模型决策",
+    "level": "L3",
+    "depth": "深入",
+    "angle": "隐私加可解释组合",
+    "keywords_snippet": "联邦学习,可解释AI,差分隐私,SHAP,Grad-CAM,FL-XAI"
+  },
+  {
+    "module": "07",
+    "date": "2026-10-16",
+    "topic": "世界模型与视频理解生成",
+    "title": "世界模型与视频理解生成：让AI建立对物理世界的常识",
+    "level": "L3",
+    "depth": "深入",
+    "angle": "物理常识与视频生成分野",
+    "keywords_snippet": "世界模型,Cosmos 3,Genie 3,V-JEPA,物理一致性,action-conditioned"
+  },
+  {
+    "module": "07",
+    "date": "2026-10-16",
+    "topic": "Prompt工程与DSPy自动优化",
+    "title": "DSPy提示词编译器与自动调优：用评估指标驱动搜索最优Prompt管线",
+    "level": "L2",
+    "depth": "进阶",
+    "angle": "程序化提示词自动优化",
+    "keywords_snippet": "DSPy,Signature,Teleprompter,MIPROv2,提示词编译,自动调优"
   }
 ]

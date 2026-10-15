@@ -3338,5 +3338,65 @@
     "depth": "实践层",
     "angle": "挑战技能匹配触发沉浸，把消耗转为充能",
     "keywords_snippet": "心流 最优体验 挑战技能平衡 专注 沉浸"
+  },
+  {
+    "module": "14",
+    "date": "2026-10-16",
+    "topic": "微习惯启动（行为模型）",
+    "title": "习惯启动的行为模型：用微小行动加即时庆祝固化神经回路",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "BJ Fogg行为模型+两分钟法则+即时庆祝固化神经回路",
+    "keywords_snippet": "微习惯 两分钟法则 行为模型 B=MAP 即时庆祝 身份认同"
+  },
+  {
+    "module": "14",
+    "date": "2026-10-16",
+    "topic": "艾森豪威尔矩阵",
+    "title": "艾森豪威尔矩阵：用四象限把忙乱变成有意识的取舍",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "重要×紧急四象限决策与第二象限杠杆",
+    "keywords_snippet": "艾森豪威尔矩阵 四象限 重要紧急 Covey 优先级 委派"
+  },
+  {
+    "module": "14",
+    "date": "2026-10-16",
+    "topic": "心流营造",
+    "title": "心流营造术：让技能与挑战平衡进入忘我专注区",
+    "level": "L3",
+    "depth": "实践层",
+    "angle": "挑战技能平衡通道+目标反馈环境控制三件套",
+    "keywords_snippet": "心流 Flow 挑战技能平衡 即时反馈 契克森米哈赖 忘我"
+  },
+  {
+    "module": "14",
+    "date": "2026-10-16",
+    "topic": "间隔重复算法",
+    "title": "间隔重复算法演进：从艾宾浩斯遗忘曲线到FSRS精准调度",
+    "level": "L3",
+    "depth": "实践层",
+    "angle": "遗忘曲线+SM-2+FSRS算法演进与测试效应搭档",
+    "keywords_snippet": "间隔重复 遗忘曲线 艾宾浩斯 SM-2 FSRS 主动回忆 测试效应"
+  },
+  {
+    "module": "14",
+    "date": "2026-10-16",
+    "topic": "第二大脑与PARA",
+    "title": "第二大脑与PARA法：用外部系统解放工作记忆带宽",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "PARA四维组织+CODE流程外置记忆解放带宽",
+    "keywords_snippet": "第二大脑 PARA CODE Tiago Forte 知识管理 渐进式摘要 工作记忆"
+  },
+  {
+    "module": "14",
+    "date": "2026-10-16",
+    "topic": "WOOP心理对照",
+    "title": "心理对照法WOOP：用障碍可视化激活动机而非空想成功",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "心理对照+if-then计划激活动机替代空想",
+    "keywords_snippet": "WOOP 心理对照 Oettingen 如果-就 实施意图 动机动员"
   }
 ]

@@ -3458,5 +3458,65 @@
     "depth": "技术层",
     "angle": "溯源引用与推理可见",
     "keywords_snippet": "可解释性 溯源 置信度 透明度 信任"
+  },
+  {
+    "module": "15",
+    "date": "2026-10-16",
+    "topic": "需求优先级框架RICE与KANO",
+    "title": "需求优先级双框架：RICE与KANO在AI产品中的落地取舍",
+    "level": "L1",
+    "depth": "概念层-是什么与解决什么问题",
+    "angle": "AI高决策成本下的量化优先级取舍",
+    "keywords_snippet": "RICE KANO 需求优先级 投入产出比 量化打分"
+  },
+  {
+    "module": "15",
+    "date": "2026-10-16",
+    "topic": "用户旅程地图与体验度量",
+    "title": "用户旅程地图与体验度量：用触点量化AI产品的体验断点",
+    "level": "L2",
+    "depth": "技术层-内部机制与关键指标",
+    "angle": "用触点与NPS量化AI体验断点",
+    "keywords_snippet": "用户旅程地图 体验度量 NPS CSAT 触点 闭环"
+  },
+  {
+    "module": "15",
+    "date": "2026-10-16",
+    "topic": "AI产品合规与伦理设计",
+    "title": "AI产品合规与伦理设计：把负责任AI嵌进产品决策闭环",
+    "level": "L3",
+    "depth": "实践层-生产级合规方案",
+    "angle": "把负责任AI嵌进产品决策闭环",
+    "keywords_snippet": "合规 伦理 负责任AI 模型卡 欧盟AI法案 熔断"
+  },
+  {
+    "module": "15",
+    "date": "2026-10-16",
+    "topic": "增长实验与漏斗分析",
+    "title": "增长实验与漏斗分析：用转化漏斗定位AI产品的增长卡点",
+    "level": "L4",
+    "depth": "前沿层-增长诊断与实验演进",
+    "angle": "用AARRR漏斗与ICE定位增长卡点",
+    "keywords_snippet": "增长实验 漏斗分析 AARRR ICE 获客 激活 留存"
+  },
+  {
+    "module": "15",
+    "date": "2026-10-16",
+    "topic": "产品定位与差异化叙事",
+    "title": "产品定位与差异化叙事：用一句话讲清AI产品的独特价值",
+    "level": "L1",
+    "depth": "概念层-定位与价值主张",
+    "angle": "用一句话讲清独特价值对抗同质化",
+    "keywords_snippet": "产品定位 差异化 价值主张 护城河 positioning"
+  },
+  {
+    "module": "15",
+    "date": "2026-10-16",
+    "topic": "数据驱动决策与指标体系",
+    "title": "数据驱动决策与指标体系：用决策仪表盘替代拍脑袋",
+    "level": "L2",
+    "depth": "技术层-分层指标与仪表盘",
+    "angle": "用分层指标体系与决策仪表盘替代拍脑袋",
+    "keywords_snippet": "数据驱动 北极星指标 指标体系 仪表盘 护栏指标"
   }
 ]
