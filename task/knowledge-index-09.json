@@ -3208,5 +3208,65 @@
     "depth": "AI原生系统与异构编译",
     "angle": "MLIR编译器栈与Python互操作",
     "keywords_snippet": "Mojo 1.0 MLIR AI native Python interop MAX open source"
+  },
+  {
+    "module": "09",
+    "date": "2026-10-21",
+    "topic": "Python 3.15",
+    "title": "Python 3.15 发布：默认 UTF-8、JIT 提速与 frozendict 落地",
+    "level": "L1",
+    "depth": 955,
+    "angle": "语言版本发布与特性",
+    "keywords_snippet": "Python 3.15 PEP 686 UTF-8 frozendict JIT 延迟导入 typing"
+  },
+  {
+    "module": "09",
+    "date": "2026-10-21",
+    "topic": "Rust 1.99",
+    "title": "Rust 1.99 支持 extern C 可变参数与裸指针布局查询",
+    "level": "L1",
+    "depth": 936,
+    "angle": "语言版本发布与 FFI",
+    "keywords_snippet": "Rust 1.99 extern C variadics VaList 裸指针 Layout Vec Box"
+  },
+  {
+    "module": "09",
+    "date": "2026-10-21",
+    "topic": "Go 1.27",
+    "title": "Go 1.27 引入泛型方法与 encoding/json/v2 新引擎",
+    "level": "L1",
+    "depth": 958,
+    "angle": "语言版本发布与标准库",
+    "keywords_snippet": "Go 1.27 泛型方法 encoding/json/v2 后量子加密"
+  },
+  {
+    "module": "09",
+    "date": "2026-10-21",
+    "topic": "TypeScript 7.0",
+    "title": "TypeScript 7.0 编译器用 Go 重写，类型检查提速约 10 倍",
+    "level": "L1",
+    "depth": 1040,
+    "angle": "编译器重写与性能",
+    "keywords_snippet": "TypeScript 7.0 Go 重写 Corsa 类型检查 提速 Node 类型剥离"
+  },
+  {
+    "module": "09",
+    "date": "2026-10-21",
+    "topic": "Java JDK 28",
+    "title": "Java JDK 28 结构化并发 JEP 543 转正，ZGC 自适应堆落地",
+    "level": "L1",
+    "depth": 924,
+    "angle": "语言标准 JEP 演进",
+    "keywords_snippet": "JDK 28 JEP 543 结构化并发 ZGC 自适应堆"
+  },
+  {
+    "module": "09",
+    "date": "2026-10-21",
+    "topic": "TIOBE 2026-10",
+    "title": "TIOBE 2026 年 10 月榜：Julia 重回前 20，R 与 Rust 上升",
+    "level": "L1",
+    "depth": 973,
+    "angle": "语言排名与趋势",
+    "keywords_snippet": "TIOBE 2026-10 Julia Rust R 排名 趋势 AI"
   }
 ]

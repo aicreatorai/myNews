@@ -3908,5 +3908,65 @@
     "depth": "进阶",
     "angle": "程序化提示词自动优化",
     "keywords_snippet": "DSPy,Signature,Teleprompter,MIPROv2,提示词编译,自动调优"
+  },
+  {
+    "module": "07",
+    "date": "2026-10-21",
+    "topic": "大模型低精度推理量化",
+    "title": "FP4量化训练与Rollout对齐：让强化学习在低精度下不丢性能",
+    "level": "L1",
+    "depth": 950,
+    "angle": "RL后训练中训练与Rollout量化路径对齐",
+    "keywords_snippet": "FP4,TRACE,MoE,量化对齐,强化学习"
+  },
+  {
+    "module": "07",
+    "date": "2026-10-21",
+    "topic": "大模型低精度推理量化",
+    "title": "分块对齐混合精度量化AlignQuant：把精度选择贴着GPU架构走",
+    "level": "L1",
+    "depth": 950,
+    "angle": "以GPU兼容瓦片为单元的混合精度PTQ",
+    "keywords_snippet": "AlignQuant,tile,混合精度,PTQ,GPU对齐"
+  },
+  {
+    "module": "07",
+    "date": "2026-10-21",
+    "topic": "大模型低精度推理量化",
+    "title": "分布鲁棒量化：为什么最小化重构损失反而害了低比特模型",
+    "level": "L1",
+    "depth": 950,
+    "angle": "重构损失陷阱与分布鲁棒优化",
+    "keywords_snippet": "分布鲁棒量化,DRO,重构损失,低比特,PTQ"
+  },
+  {
+    "module": "07",
+    "date": "2026-10-21",
+    "topic": "Agentic RAG多智能体检索",
+    "title": "多智能体RAG协作：检索、验证与编排的专业分工",
+    "level": "L1",
+    "depth": 950,
+    "angle": "职责分离的智能体工作流与编排",
+    "keywords_snippet": "Agentic RAG,多智能体,编排,检索,验证"
+  },
+  {
+    "module": "07",
+    "date": "2026-10-21",
+    "topic": "Agentic RAG多智能体检索",
+    "title": "角色分离的检索智能体KnowForge：用硬约束换可测量的质量增益",
+    "level": "L1",
+    "depth": 950,
+    "angle": "硬角色分离与确定性桥接裁判",
+    "keywords_snippet": "KnowForge,角色分离,Locator,Reader,多模态QA"
+  },
+  {
+    "module": "07",
+    "date": "2026-10-21",
+    "topic": "Agentic RAG多智能体检索",
+    "title": "单智能体、多智能体与层级式RAG：三种架构怎么选",
+    "level": "L1",
+    "depth": 950,
+    "angle": "三种RAG架构对照与选型",
+    "keywords_snippet": "单智能体,多智能体,层级式,Agent-RAG,选型"
   }
 ]

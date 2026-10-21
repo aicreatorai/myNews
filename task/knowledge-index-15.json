@@ -3518,5 +3518,65 @@
     "depth": "技术层-分层指标与仪表盘",
     "angle": "用分层指标体系与决策仪表盘替代拍脑袋",
     "keywords_snippet": "数据驱动 北极星指标 指标体系 仪表盘 护栏指标"
+  },
+  {
+    "module": "15",
+    "date": "2026-10-21",
+    "topic": "人机任务分配框架",
+    "title": "Human-AI任务分配框架：用错误成本×可验证性把AI功能拆成子任务做人机分工",
+    "level": "L1",
+    "depth": 950,
+    "angle": "PM按错误成本×可验证性把AI功能拆子任务做人机分工（WorkStep Retain案例）",
+    "keywords_snippet": "Human-AI Task Allocation, 错误成本, 可验证性, 人机分工, WorkStep Retain"
+  },
+  {
+    "module": "15",
+    "date": "2026-10-21",
+    "topic": "AI产品定价双引擎",
+    "title": "AI产品定价双引擎：可归因×自动化×可扩展如何把价值写进客户KPI",
+    "level": "L1",
+    "depth": 950,
+    "angle": "可归因×自动化×可扩展的价值绑定定价（Ramanujam/Stripe）",
+    "keywords_snippet": "AI定价, 双引擎, 可归因, 价值绑定, UBP/RaaS"
+  },
+  {
+    "module": "15",
+    "date": "2026-10-21",
+    "topic": "信任校准设计",
+    "title": "信任校准设计：给临床AI加推理透明层而非审批开关，采纳率如何逆转",
+    "level": "L1",
+    "depth": 950,
+    "angle": "用推理透明层替代审批开关提升AI采纳（ClyHealth案例）",
+    "keywords_snippet": "信任校准, 推理透明层, ClyHealth, 人机信任, 证据面板"
+  },
+  {
+    "module": "15",
+    "date": "2026-10-21",
+    "topic": "对话式界面实时预览",
+    "title": "对话式界面实时预览：Shopify Canvas用聊天驱动商店搭建的Intent Preview模式",
+    "level": "L1",
+    "depth": 950,
+    "angle": "聊天驱动+实时渲染消除指令结果信任鸿沟（Shopify Canvas）",
+    "keywords_snippet": "Intent Preview, Shopify Canvas, 对话式UI, 实时预览, Sidekick"
+  },
+  {
+    "module": "15",
+    "date": "2026-10-21",
+    "topic": "Zoom WARMTH设计法",
+    "title": "Zoom WARMTH六步设计法：把抽象的AI温度变成可评审的产品原则",
+    "level": "L1",
+    "depth": 950,
+    "angle": "把温度拆成可评审原则落地AI协作体验（Zoom Workplace）",
+    "keywords_snippet": "WARMTH, Zoom, 有温度AI, 设计原则, Continuous Meeting Chat"
+  },
+  {
+    "module": "15",
+    "date": "2026-10-21",
+    "topic": "AI原生重构与软件耗材化",
+    "title": "AI原生重构与软件耗材化：用Agent当数字员工，40美元顶替十万团队",
+    "level": "L1",
+    "depth": 950,
+    "angle": "用Agent当数字员工重构产品降本（OpenClaw/JustSayAI）",
+    "keywords_snippet": "AI原生重构, 软件耗材化, OpenClaw, 数字员工, Vibe Coding"
   }
 ]

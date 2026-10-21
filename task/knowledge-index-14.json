@@ -3398,5 +3398,65 @@
     "depth": "技术层",
     "angle": "心理对照+if-then计划激活动机替代空想",
     "keywords_snippet": "WOOP 心理对照 Oettingen 如果-就 实施意图 动机动员"
+  },
+  {
+    "module": "14",
+    "date": "2026-10-21",
+    "topic": "时间盒子法",
+    "title": "时间盒子法：用过程导向的时间块终结拖延与焦虑",
+    "level": "L1",
+    "depth": 950,
+    "angle": "过程导向时间分配对抗拖延焦虑",
+    "keywords_snippet": "Time Boxing 注意力残留 心流 认知卸载 截止日期悖论"
+  },
+  {
+    "module": "14",
+    "date": "2026-10-21",
+    "topic": "主动回忆",
+    "title": "主动回忆：用提取练习把遗忘曲线变成记忆钉子",
+    "level": "L1",
+    "depth": 950,
+    "angle": "提取练习与测试效应对抗熟练错觉",
+    "keywords_snippet": "Active Recall 测试效应 期望难度 生成效应 记忆再巩固 学习金字塔"
+  },
+  {
+    "module": "14",
+    "date": "2026-10-21",
+    "topic": "5分钟启动法",
+    "title": "5分钟启动法：用滑梯效应骗过大脑的拖延开关",
+    "level": "L1",
+    "depth": 950,
+    "angle": "滑梯效应与神经机制对抗启动阻力",
+    "keywords_snippet": "5分钟启动 滑梯效应 背外侧前额叶 多巴胺 时间折扣 预先承诺"
+  },
+  {
+    "module": "14",
+    "date": "2026-10-21",
+    "topic": "系统思维",
+    "title": "系统思维：用输入执行输出复盘闭环替代碎片努力",
+    "level": "L1",
+    "depth": 950,
+    "angle": "闭环复利替代点状努力",
+    "keywords_snippet": "系统思维 复利效应 反馈环路 双过程 控制论 系统动力学"
+  },
+  {
+    "module": "14",
+    "date": "2026-10-21",
+    "topic": "AI辅助知识管理",
+    "title": "AI辅助知识管理：用认知副驾驶把学习变成可复用系统",
+    "level": "L1",
+    "depth": 950,
+    "angle": "语义搜索与主动回忆自动化构建AI-PKM",
+    "keywords_snippet": "AI-PKM 认知副驾驶 语义搜索 生成效应 交互记忆 人in-the-loop"
+  },
+  {
+    "module": "14",
+    "date": "2026-10-21",
+    "topic": "费曼输出法",
+    "title": "费曼输出法：用教别人的方式把浅层阅读换成深层理解",
+    "level": "L1",
+    "depth": 950,
+    "angle": "以教促学暴露理解漏洞",
+    "keywords_snippet": "费曼技巧 以教促学 生成效应 自我解释 双重编码 流利错觉"
   }
 ]

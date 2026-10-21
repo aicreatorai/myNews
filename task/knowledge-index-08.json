@@ -3396,5 +3396,65 @@
     "depth": "实践层",
     "angle": "本地推理隐私离线 OpenAI兼容API GGUF量化",
     "keywords_snippet": "Ollama LM Studio 本地大模型 GGUF 量化 隐私 离线 API"
+  },
+  {
+    "module": "08",
+    "date": "2026-10-21",
+    "topic": "WorkBuddy 桌面 AI Agent",
+    "title": "WorkBuddy 桌面 AI Agent：把重复劳动做成技能与定时任务的实战工作流",
+    "level": "L1",
+    "depth": 950,
+    "angle": "桌面智能体把重复劳动固化为技能与定时任务",
+    "keywords_snippet": "WorkBuddy 桌面Agent 技能 定时任务 腾讯"
+  },
+  {
+    "module": "08",
+    "date": "2026-10-21",
+    "topic": "国产大模型分工",
+    "title": "国产大模型四选一分工法：豆包通义千问 Kimi DeepSeek 按场景编排工作流",
+    "level": "L1",
+    "depth": 950,
+    "angle": "按场景编排四款国产大模型工作流",
+    "keywords_snippet": "豆包 通义千问 Kimi DeepSeek 分工 国产大模型"
+  },
+  {
+    "module": "08",
+    "date": "2026-10-21",
+    "topic": "豆包通义联动",
+    "title": "豆包 AI 编程与通义办公联动：国产工具日常提效组合拳实战",
+    "level": "L1",
+    "depth": 950,
+    "angle": "豆包AI编程与通义办公组合提效",
+    "keywords_snippet": "豆包 AI编程 通义千问 办公联动 剪映"
+  },
+  {
+    "module": "08",
+    "date": "2026-10-21",
+    "topic": "AI编程三工具协同",
+    "title": "Cursor 与 Claude Code 与 Copilot 三工具协同：一个仓库三种用法的开发工作流",
+    "level": "L1",
+    "depth": 950,
+    "angle": "同一仓库三工具按场景协同开发",
+    "keywords_snippet": "Cursor Claude Code Copilot AGENTS.md 开发工作流"
+  },
+  {
+    "module": "08",
+    "date": "2026-10-21",
+    "topic": "Claude 产物全家桶",
+    "title": "Claude Docs Slides Design Motion：在对话框里直接产出可交付成品的实战",
+    "level": "L1",
+    "depth": 950,
+    "angle": "用Claude产物直接产出可交付成品",
+    "keywords_snippet": "Claude Docs Slides Design Motion Dashboards"
+  },
+  {
+    "module": "08",
+    "date": "2026-10-21",
+    "topic": "Comfy Agent与Synthesia",
+    "title": "Comfy Agent 与 Synthesia Sessions：用自然语言搭图像视频工作流实战",
+    "level": "L1",
+    "depth": 950,
+    "angle": "自然语言搭图像视频可编辑工作流",
+    "keywords_snippet": "Comfy Agent Synthesia Sessions 图像视频 工作流"
   }
 ]

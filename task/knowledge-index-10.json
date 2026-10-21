@@ -3598,5 +3598,65 @@
     "depth": "前沿层",
     "angle": "持久化检查点与人机回圈",
     "keywords_snippet": "LangGraph 检查点 人机回圈 状态机 持久化"
+  },
+  {
+    "module": "10",
+    "date": "2026-10-21",
+    "topic": "REA 逆向工程 MCP 智能体",
+    "title": "用 REA 把逆向任何软件变成一句话：MCP 驱动的逆向工程智能体",
+    "level": "L1",
+    "depth": 950,
+    "angle": "MCP 工具化逆向 + 证据链",
+    "keywords_snippet": "REA / 逆向工程 / MCP / 证据链 / 智能体"
+  },
+  {
+    "module": "10",
+    "date": "2026-10-21",
+    "topic": "Context-Mode 上下文压缩",
+    "title": "用 Context-Mode 砍掉 98% 冗余上下文：给 AI 编程智能体装上 Token 节流阀",
+    "level": "L1",
+    "depth": 950,
+    "angle": "工具输出压缩 + 会话记忆持久化",
+    "keywords_snippet": "Context-Mode / 上下文压缩 / Token / MCP / Hooks"
+  },
+  {
+    "module": "10",
+    "date": "2026-10-21",
+    "topic": "SGLang 推理框架",
+    "title": "用 SGLang 把 Agent 负载喂饱 GPU：为高并发推理而生的 serving 框架",
+    "level": "L1",
+    "depth": 950,
+    "angle": "RadixAttention + 程序化提示 + Agentic 负载",
+    "keywords_snippet": "SGLang / 推理框架 / RadixAttention / 连续批处理 / Agent"
+  },
+  {
+    "module": "10",
+    "date": "2026-10-21",
+    "topic": "XERJ 本地搜索引擎",
+    "title": "用 XERJ 给代码智能体装本地搜索引擎：告别 grep 全文件读入上下文",
+    "level": "L1",
+    "depth": 950,
+    "angle": "混合检索 + ES 兼容 + 智能体取片段",
+    "keywords_snippet": "XERJ / 本地搜索 / Elasticsearch / MCP / 代码检索"
+  },
+  {
+    "module": "10",
+    "date": "2026-10-21",
+    "topic": "DBX 数据库客户端",
+    "title": "用 DBX 一个客户端连 100+ 数据库：内置 AI 与 MCP 的轻量数据库工作台",
+    "level": "L1",
+    "depth": 950,
+    "angle": "统一驱动 + 内置 AI/MCP + 单二进制",
+    "keywords_snippet": "DBX / 数据库客户端 / MCP / 多数据库 / Rust"
+  },
+  {
+    "module": "10",
+    "date": "2026-10-21",
+    "topic": "VoiceStudio 本地语音工作室",
+    "title": "用 VoiceStudio 在本地复刻 ElevenLabs：646 种语言的开源语音工作室",
+    "level": "L1",
+    "depth": 950,
+    "angle": "本地语音克隆 + 多语配音 + 隐私",
+    "keywords_snippet": "VoiceStudio / 语音克隆 / ElevenLabs 替代 / 646 语言 / 本地"
   }
 ]

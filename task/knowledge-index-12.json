@@ -3408,5 +3408,65 @@
     "depth": "合规服务",
     "angle": "内容安全与模型安全",
     "keywords_snippet": "内容审核、AI安全、合规、红队测试、185亿元"
+  },
+  {
+    "module": "12",
+    "date": "2026-10-21",
+    "topic": "AI搜索优化GEO工具",
+    "title": "帮品牌在AI搜索露脸：Botric月入过千美元拆解",
+    "level": "L1",
+    "depth": 950,
+    "angle": "帮品牌在AI答案里露脸的B2B微型SaaS订阅模式",
+    "keywords_snippet": "GEO,AI搜索,品牌监测,Botric,订阅"
+  },
+  {
+    "module": "12",
+    "date": "2026-10-21",
+    "topic": "微型SaaS超细分痛点",
+    "title": "微型SaaS单人月入近三十万元：超细分痛点掘金法",
+    "level": "L1",
+    "depth": 950,
+    "angle": "用无代码+AI做单点工具靠订阅盈利的掘金路径",
+    "keywords_snippet": "Micro-SaaS,formulabot,订阅,无代码,超细分"
+  },
+  {
+    "module": "12",
+    "date": "2026-10-21",
+    "topic": "AI硬件订阅双引擎",
+    "title": "AI硬件加订阅双引擎：Flowtica四成用户转付费",
+    "level": "L1",
+    "depth": 950,
+    "angle": "硬件获客+软件订阅的AI实体产品变现模型",
+    "keywords_snippet": "Flowtica,硬件订阅,42%转化,Scribe,天使轮"
+  },
+  {
+    "module": "12",
+    "date": "2026-10-21",
+    "topic": "一人公司行业智能体",
+    "title": "一人公司做行业智能体：青岛OPC订阅变现实录",
+    "level": "L1",
+    "depth": 950,
+    "angle": "行业老手+AI做垂直订阅智能体的OPC模式",
+    "keywords_snippet": "OPC,一人公司,筷子AI,订阅,垂直行业"
+  },
+  {
+    "module": "12",
+    "date": "2026-10-21",
+    "topic": "AI Agent插件分成",
+    "title": "做AI Agent插件吃分成：嵌入大厂生态赚分润",
+    "level": "L1",
+    "depth": 950,
+    "angle": "嵌入OpenAI/DeepSeek生态做插件按使用量分润",
+    "keywords_snippet": "Agent插件,OpenAI Dots,DeepSeek Harness,收入分成,ChatCut"
+  },
+  {
+    "module": "12",
+    "date": "2026-10-21",
+    "topic": "AI内容工业化接单",
+    "title": "AI内容工业化接单：奶茶店短视频300元每条起",
+    "level": "L1",
+    "depth": 950,
+    "angle": "AI生成+人工优化接单变现的本地生活内容服务",
+    "keywords_snippet": "AI内容,代运营,短视频,300元,本地生活"
   }
 ]

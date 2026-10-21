@@ -2258,5 +2258,55 @@
     "depth": "概念层",
     "angle": "备课知识库RAG+学情看板+循证教研复盘，教师为主体",
     "keywords_snippet": "AI教研 备课搭子 循证教研 学情看板 教师发展"
+  },
+  {
+    "module": "13",
+    "date": "2026-10-21",
+    "topic": "AI双师班精准教学",
+    "title": "AI双师班精准教学：用学情诊断把凭经验转向看数据",
+    "level": "L1",
+    "depth": 950,
+    "angle": "学情诊断驱动的精准教学与数据反馈",
+    "keywords_snippet": "AI双师班 学情诊断 形成性评价 掌握学习 最近发展区"
+  },
+  {
+    "module": "13",
+    "date": "2026-10-21",
+    "topic": "AI备课搭子",
+    "title": "AI备课搭子：用智能助手把教师从翻资料中解放出来",
+    "level": "L1",
+    "depth": 950,
+    "angle": "认知负荷理论下的教师减负与备课增效",
+    "keywords_snippet": "AI备课 智能助手 认知负荷 教师减负 国家智慧教育平台"
+  },
+  {
+    "module": "13",
+    "date": "2026-10-21",
+    "topic": "AI中高考备考闭环",
+    "title": "AI中高考备考闭环：用测学练固汇把时间投向提分点",
+    "level": "L1",
+    "depth": 950,
+    "angle": "测试效应与生成效应驱动的备考闭环",
+    "keywords_snippet": "AI备考 测学练固汇 测试效应 错题本 中高考"
+  },
+  {
+    "module": "13",
+    "date": "2026-10-21",
+    "topic": "AI订单式职教培训",
+    "title": "AI订单式职教培训：用就业挂钩重构技能习得动机",
+    "level": "L1",
+    "depth": 950,
+    "angle": "情境学习与自我决定理论下的就业导向培训",
+    "keywords_snippet": "AI职教 订单式培训 情境学习 自我决定理论 就业挂钩"
+  },
+  {
+    "module": "13",
+    "date": "2026-10-21",
+    "topic": "Khanmigo苏格拉底式AI导师",
+    "title": "Khanmigo苏格拉底式AI导师：Socratic tutoring与国内落地可行性",
+    "level": "L1",
+    "depth": 950,
+    "angle": "苏格拉底式提问与国内合规落地可行性",
+    "keywords_snippet": "Khanmigo 苏格拉底式提问 元认知 脚手架 国内落地"
   }
 ]
