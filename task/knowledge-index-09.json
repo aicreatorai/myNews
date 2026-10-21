@@ -3268,5 +3268,65 @@
     "depth": 973,
     "angle": "语言排名与趋势",
     "keywords_snippet": "TIOBE 2026-10 Julia Rust R 排名 趋势 AI"
+  },
+  {
+    "module": "09",
+    "date": "2026-10-22",
+    "topic": "Zig 0.17 发布 自托管编译器",
+    "title": "Zig 0.17 发布：自托管编译器与构建系统革新",
+    "level": "L4",
+    "depth": "前沿层",
+    "angle": "Zig 构建系统与自托管编译器成熟度",
+    "keywords_snippet": "Zig 0.17 发布 自托管编译器 构建系统 Build Server Protocol"
+  },
+  {
+    "module": "09",
+    "date": "2026-10-22",
+    "topic": "Kotlin 2.5 Beta 名称解构 伴生扩展",
+    "title": "Kotlin 2.5 Beta：名称解构与伴生扩展落地",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "Kotlin 2.5 互操作与 K2 编译器特性",
+    "keywords_snippet": "Kotlin 2.5 Beta 名称解构 伴生扩展 K2编译器"
+  },
+  {
+    "module": "09",
+    "date": "2026-10-22",
+    "topic": ".NET 11 JIT 守护式去虚拟化 逃逸分析",
+    "title": ".NET 11 JIT 优化：守护式去虚拟化与逃逸分析",
+    "level": "L3",
+    "depth": "实践层",
+    "angle": ".NET 11 JIT 代码生成优化实践",
+    "keywords_snippet": ".NET 11 JIT 守护式去虚拟化 逃逸分析 泛型虚方法"
+  },
+  {
+    "module": "09",
+    "date": "2026-10-22",
+    "topic": "PYPL 2026 十月 编程语言排行榜 教程需求",
+    "title": "PYPL 2026 十月榜：用教程需求度量语言热度",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "编程语言排行榜方法论与学习需求度量",
+    "keywords_snippet": "PYPL 2026 十月 编程语言排行榜 教程搜索份额"
+  },
+  {
+    "module": "09",
+    "date": "2026-10-22",
+    "topic": "RedMonk 2026 双榜 GitHub StackOverflow 编程语言",
+    "title": "RedMonk 2026 双榜：GitHub 与 Stack Overflow 共绘偏好",
+    "level": "L3",
+    "depth": "实践层",
+    "angle": "编程语言排行榜双信号方法论与采用评估",
+    "keywords_snippet": "RedMonk 2026 双榜 GitHub StackOverflow 编程语言排名"
+  },
+  {
+    "module": "09",
+    "date": "2026-10-22",
+    "topic": "Deegen 自动生成 JIT 虚拟机 动态语言",
+    "title": "Deegen 自动生成 JIT 虚拟机：动态语言高性能新路径",
+    "level": "L4",
+    "depth": "前沿层",
+    "angle": "元编译器自动生成两层 VM 的研究突破",
+    "keywords_snippet": "Deegen 自动生成 JIT 虚拟机 动态语言 OOPSLA 2026"
   }
 ]

@@ -3968,5 +3968,65 @@
     "depth": 950,
     "angle": "三种RAG架构对照与选型",
     "keywords_snippet": "单智能体,多智能体,层级式,Agent-RAG,选型"
+  },
+  {
+    "module": "07",
+    "date": "2026-10-22",
+    "topic": "GRPO 与 GSPO 推理强化对齐",
+    "title": "GRPO与GSPO：推理模型强化学习的组内相对优化",
+    "level": "L3",
+    "depth": "技术层",
+    "angle": "组内相对优势与序列级更新缺陷及GSPO修复",
+    "keywords_snippet": "GRPO GSPO 组内相对优势 序列级优化 去Critic"
+  },
+  {
+    "module": "07",
+    "date": "2026-10-22",
+    "topic": "RLVR 可验证奖励强化学习",
+    "title": "RLVR可验证奖励：用验证器替代奖励模型的对齐新范式",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "可验证奖励替代奖励模型的对齐范式",
+    "keywords_snippet": "RLVR 可验证奖励 验证器 DeepSeek-R1 GRPO"
+  },
+  {
+    "module": "07",
+    "date": "2026-10-22",
+    "topic": "FlashAttention IO感知优化",
+    "title": "FlashAttention与CUDA Graphs：算子层的IO感知推理加速",
+    "level": "L3",
+    "depth": "技术层",
+    "angle": "IO感知算子与kernel启动开销优化",
+    "keywords_snippet": "FlashAttention CUDA Graphs IO感知 显存访问 算子融合"
+  },
+  {
+    "module": "07",
+    "date": "2026-10-22",
+    "topic": "前缀缓存 分块预填充 推理加速",
+    "title": "前缀缓存与分块预填充：不改动权重的TTFT砍半术",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "不改权重的运行时TTFT调度优化",
+    "keywords_snippet": "前缀缓存 分块预填充 Chunked Prefill TTFT RadixAttention"
+  },
+  {
+    "module": "07",
+    "date": "2026-10-22",
+    "topic": "混合检索 Reranker 重排序 RAG",
+    "title": "混合检索与Reranker：BM25加向量加重排序的生产级RAG",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "词法精确+语义灵活的生产级检索管线",
+    "keywords_snippet": "混合检索 BM25 向量 Reranker 重排序 RAG"
+  },
+  {
+    "module": "07",
+    "date": "2026-10-22",
+    "topic": "MCP 协议 工具调用 标准化",
+    "title": "用MCP协议把工具调用统一为智能体标准接口",
+    "level": "L3",
+    "depth": "技术层",
+    "angle": "工具调用标准化协议层与传输层演进",
+    "keywords_snippet": "MCP 模型上下文协议 工具调用 标准化 Streamable HTTP"
   }
 ]

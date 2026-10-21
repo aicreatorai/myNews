@@ -3456,5 +3456,65 @@
     "depth": 950,
     "angle": "自然语言搭图像视频可编辑工作流",
     "keywords_snippet": "Comfy Agent Synthesia Sessions 图像视频 工作流"
+  },
+  {
+    "module": "08",
+    "date": "2026-10-22",
+    "topic": "Trae AI IDE 编程",
+    "title": "Trae 国产 AI IDE：用自然语言写代码的实战工作流",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "Builder模式驱动全栈小项目实战",
+    "keywords_snippet": "Trae, AI原生IDE, Builder模式, 中文编程, 跨文件改写"
+  },
+  {
+    "module": "08",
+    "date": "2026-10-22",
+    "topic": "智谱清影 AI 视频生成",
+    "title": "智谱清影：用提示词生成高清 AI 视频的实操教程",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "图生视频起始帧与运动增量控制",
+    "keywords_snippet": "智谱清影, 图生视频, 文生视频, 起始帧, 运动增量"
+  },
+  {
+    "module": "08",
+    "date": "2026-10-22",
+    "topic": "通义万相 AI 图像生成",
+    "title": "通义万相：用文字生成品牌插画的实操教程",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "风格锚点加主体词批量出图",
+    "keywords_snippet": "通义万相, 文生图, 国风配图, 批量生成, 电商图"
+  },
+  {
+    "module": "08",
+    "date": "2026-10-22",
+    "topic": "Descript AI 视频剪辑",
+    "title": "Descript：用文字稿剪辑视频的 AI 剪辑实战",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "转写即剪辑与去口误工作流",
+    "keywords_snippet": "Descript, 文字剪辑, 转写, 去口误, 播客"
+  },
+  {
+    "module": "08",
+    "date": "2026-10-22",
+    "topic": "通义听悟 会议 转写",
+    "title": "通义听悟：用会议录音自动生成纪要与待办的实战",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "发言人区分与待办抽取",
+    "keywords_snippet": "通义听悟, 会议转写, 智能纪要, 待办抽取, 发言人"
+  },
+  {
+    "module": "08",
+    "date": "2026-10-22",
+    "topic": "Adobe Firefly 图像生成",
+    "title": "Adobe Firefly：用生成式填充做商用图的实战",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "生成式填充与扩展局部精修",
+    "keywords_snippet": "Adobe Firefly, 生成式填充, 生成式扩展, 商用版权, Photoshop"
   }
 ]

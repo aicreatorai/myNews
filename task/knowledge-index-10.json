@@ -3658,5 +3658,65 @@
     "depth": 950,
     "angle": "本地语音克隆 + 多语配音 + 隐私",
     "keywords_snippet": "VoiceStudio / 语音克隆 / ElevenLabs 替代 / 646 语言 / 本地"
+  },
+  {
+    "module": "10",
+    "date": "2026-10-22",
+    "topic": "OpenHands 软件开发智能体",
+    "title": "【OpenHands：自带沙箱闭环的开源软件开发智能体】",
+    "level": "L4",
+    "depth": "前沿层",
+    "angle": "沙箱闭环与自托管工程智能体",
+    "keywords_snippet": "OpenHands 沙箱 软件智能体 自托管"
+  },
+  {
+    "module": "10",
+    "date": "2026-10-22",
+    "topic": "Spec Kit 规格驱动开发",
+    "title": "【Spec Kit：GitHub 官方规格驱动开发工具包】",
+    "level": "L3",
+    "depth": "实践层",
+    "angle": "规格前置驱动 AI 协作开发",
+    "keywords_snippet": "Spec Kit GitHub 规格驱动 开发工具包"
+  },
+  {
+    "module": "10",
+    "date": "2026-10-22",
+    "topic": "Graphify 代码知识图谱",
+    "title": "【Graphify：把代码库变成可查询知识图谱】",
+    "level": "L3",
+    "depth": "实践层",
+    "angle": "AST 知识图谱替代向量检索",
+    "keywords_snippet": "Graphify 知识图谱 AST 代码库"
+  },
+  {
+    "module": "10",
+    "date": "2026-10-22",
+    "topic": "TurboVec 压缩向量搜索",
+    "title": "【TurboVec：用 TurboQuant 压缩的 Rust 向量搜索引擎】",
+    "level": "L3",
+    "depth": "实践层",
+    "angle": "TurboQuant 压缩向量检索",
+    "keywords_snippet": "TurboVec Rust 压缩向量 TurboQuant"
+  },
+  {
+    "module": "10",
+    "date": "2026-10-22",
+    "topic": "MCP 参考服务器 标准工具",
+    "title": "【MCP 参考服务器：让 LLM 即插即用的标准工具实现集】",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "MCP 协议与即插即用工具",
+    "keywords_snippet": "MCP 参考服务器 协议 工具"
+  },
+  {
+    "module": "10",
+    "date": "2026-10-22",
+    "topic": "ruflo 多智能体集群编排",
+    "title": "【ruflo：带自适应记忆的多智能体集群编排框架】",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "多智能体 swarm 编排与记忆",
+    "keywords_snippet": "ruflo 多智能体 集群 编排 记忆"
   }
 ]

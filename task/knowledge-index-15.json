@@ -3578,5 +3578,65 @@
     "depth": 950,
     "angle": "用Agent当数字员工重构产品降本（OpenClaw/JustSayAI）",
     "keywords_snippet": "AI原生重构, 软件耗材化, OpenClaw, 数字员工, Vibe Coding"
+  },
+  {
+    "module": "15",
+    "date": "2026-10-22",
+    "topic": "价值定价法",
+    "title": "价值定价法：用90天框架把AI价值写进客户预算",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "把价格锚定可证明的客户价值单位而非席位或Token",
+    "keywords_snippet": "value-based pricing 90天框架 可证明价值 计费单位"
+  },
+  {
+    "module": "15",
+    "date": "2026-10-22",
+    "topic": "用量混合计费",
+    "title": "用量混合计费模型：用P50/P90护住AI产品毛利",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "用真实推理成本建模加底座订阅封顶超额的混合结构锁毛利",
+    "keywords_snippet": "usage-based pricing P50 P90 毛利50-70% 混合计费 token成本"
+  },
+  {
+    "module": "15",
+    "date": "2026-10-22",
+    "topic": "人在回路界面",
+    "title": "人在回路界面模式：用accept/edit/reject守住审批权",
+    "level": "L3",
+    "depth": "实践层",
+    "angle": "内联建议加接受编辑拒绝三动作同等轻松把审批权留给人",
+    "keywords_snippet": "human-in-the-loop 内联建议 accept edit reject 置信度校准 分级自动化"
+  },
+  {
+    "module": "15",
+    "date": "2026-10-22",
+    "topic": "来源引用信任",
+    "title": "来源引用驱动信任：用可点击溯源替代盲目置信",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "用内联可点溯源与校准信任替代置信数字与盲信",
+    "keywords_snippet": "calibrated trust 来源引用 可点击溯源 确定性检查 三态"
+  },
+  {
+    "module": "15",
+    "date": "2026-10-22",
+    "topic": "渐进式披露对话式",
+    "title": "渐进式披露对话式界面：按需展开而非一次倾倒",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "默认极简加按需展开并把AI嵌进业务节点而非独立聊天窗",
+    "keywords_snippet": "progressive disclosure 对话式界面 calm design 嵌入工作流 披露保真度"
+  },
+  {
+    "module": "15",
+    "date": "2026-10-22",
+    "topic": "生成式UI意图驱动",
+    "title": "生成式UI与意图驱动：让界面随任务动态组装",
+    "level": "L3",
+    "depth": "实践层",
+    "angle": "用JSON Schema约束动态组件与光标级隐式上下文做AI原生重构",
+    "keywords_snippet": "generative UI 意图驱动 DESIGN.md JSON Schema 行内采纳率 四层阶梯"
   }
 ]

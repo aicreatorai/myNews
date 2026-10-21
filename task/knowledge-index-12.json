@@ -3468,5 +3468,65 @@
     "depth": 950,
     "angle": "AI生成+人工优化接单变现的本地生活内容服务",
     "keywords_snippet": "AI内容,代运营,短视频,300元,本地生活"
+  },
+  {
+    "module": "12",
+    "date": "2026-10-22",
+    "topic": "个人AI助理执行型",
+    "title": "个人AI助理执行型：替用户行动赚交易分成",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "交易抽佣终局/执行型入口",
+    "keywords_snippet": "个人AI助理 交易抽佣 执行型 Instinct"
+  },
+  {
+    "module": "12",
+    "date": "2026-10-22",
+    "topic": "托管式AI交付",
+    "title": "托管式AI交付：对结果负责的服务变SaaS",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "服务产品化/对结果负责",
+    "keywords_snippet": "托管式AI交付 Managed AI Execution RapidCanvas"
+  },
+  {
+    "module": "12",
+    "date": "2026-10-22",
+    "topic": "一人公司三层产品栈",
+    "title": "一人公司三层栈：内容站+工具站+SaaS",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "内容站工具站SaaS变现架构",
+    "keywords_snippet": "一人公司 三层产品栈 内容站工具站SaaS"
+  },
+  {
+    "module": "12",
+    "date": "2026-10-22",
+    "topic": "不融资SaaS飞轮",
+    "title": "不融资SaaS飞轮：Agent工作流压零开销",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "bootstrapped自造血/Agent运营",
+    "keywords_snippet": "不融资SaaS飞轮 自主Agent工作流 MRR"
+  },
+  {
+    "module": "12",
+    "date": "2026-10-22",
+    "topic": "AI出海独立开发",
+    "title": "AI出海独立开发：海外按月订阅闷声赚汇",
+    "level": "L3",
+    "depth": "实践层",
+    "angle": "海外美元订阅/抱怨驱动选题",
+    "keywords_snippet": "AI出海 独立开发 海外订阅"
+  },
+  {
+    "module": "12",
+    "date": "2026-10-22",
+    "topic": "隐私优先AI助手",
+    "title": "隐私优先AI助手：可穿戴硬件+订阅信任",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "隐私信任溢价/按需激活",
+    "keywords_snippet": "隐私优先AI助手 可穿戴硬件 订阅"
   }
 ]
