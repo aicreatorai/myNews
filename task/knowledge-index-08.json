@@ -3576,5 +3576,65 @@
     "depth": "前沿层",
     "angle": "文本生视频与运动笔刷控制",
     "keywords_snippet": "Runway 文本生视频 Motion Brush 运动笔刷 相机控制"
+  },
+  {
+    "module": "08",
+    "date": "2026-10-27",
+    "topic": "Cline",
+    "title": "Cline：把 VS Code 变成会自己改代码的自主编程智能体",
+    "level": "L3",
+    "depth": "实践层",
+    "angle": "开源自主编程智能体的规划-执行-回滚代理循环与自带模型",
+    "keywords_snippet": "Cline,VS Code,自主编程智能体,Plan Act,MCP,BYO模型"
+  },
+  {
+    "module": "08",
+    "date": "2026-10-27",
+    "topic": "NotebookLM",
+    "title": "NotebookLM：把你的资料变成会对话的播客式知识库",
+    "level": "L3",
+    "depth": "实践层",
+    "angle": "资料驱动RAG与强引用约束的播客式多模态产出",
+    "keywords_snippet": "NotebookLM,Gemini Notebook,音频概览,RAG,引用,知识库"
+  },
+  {
+    "module": "08",
+    "date": "2026-10-27",
+    "topic": "HeyGen",
+    "title": "HeyGen：用数字人 Avatar 批量生成多语种口播视频",
+    "level": "L3",
+    "depth": "实践层",
+    "angle": "数字人神经渲染与多语种口型同步的规模化视频生产",
+    "keywords_snippet": "HeyGen,Avatar,数字人,口型同步,Video Agent,本地化"
+  },
+  {
+    "module": "08",
+    "date": "2026-10-27",
+    "topic": "Ollama",
+    "title": "Ollama：一条命令在本地离线跑起大语言模型",
+    "level": "L3",
+    "depth": "实践层",
+    "angle": "本地离线大模型运行与OpenAI兼容API及私有部署",
+    "keywords_snippet": "Ollama,本地大模型,离线,GGUF,OpenAI兼容,私有化"
+  },
+  {
+    "module": "08",
+    "date": "2026-10-27",
+    "topic": "FastGPT",
+    "title": "FastGPT：拖拽式搭建私有化知识库问答智能体",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "积木式工作流与RAG构建企业私有知识助手",
+    "keywords_snippet": "FastGPT,知识库,RAG,工作流,私有化,智能体"
+  },
+  {
+    "module": "08",
+    "date": "2026-10-27",
+    "topic": "v0",
+    "title": "v0 by Vercel：用文字生成可部署的 React UI 界面",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "文字到生产级React UI与沙箱构建部署闭环",
+    "keywords_snippet": "v0,Vercel,React,UI生成,Next.js,shadcn"
   }
 ]

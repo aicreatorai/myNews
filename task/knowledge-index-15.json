@@ -3698,5 +3698,65 @@
     "depth": "实践层",
     "angle": "录屏式技能沉淀",
     "keywords_snippet": "屏幕录制 Agent技能 APA 科大讯飞"
+  },
+  {
+    "module": "15",
+    "date": "2026-10-27",
+    "topic": "AI写PRD需求文档生成",
+    "title": "AI写PRD：把会议纪要自动转成需求文档",
+    "level": "L3",
+    "depth": "实践层",
+    "angle": "上下文感知式PRD生成的原理与落地",
+    "keywords_snippet": "AI PRD生成 上下文感知 证据驱动 ChatPRD Figr"
+  },
+  {
+    "module": "15",
+    "date": "2026-10-27",
+    "topic": "用户反馈智能聚类",
+    "title": "用户反馈聚类：用AI把吐槽变成迭代清单",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "语义聚类替代关键词归并及边界",
+    "keywords_snippet": "用户反馈 语义聚类 Enterpret Gleap 主题树"
+  },
+  {
+    "module": "15",
+    "date": "2026-10-27",
+    "topic": "AI功能优先级排序",
+    "title": "AI功能优先级：用价值-复杂度矩阵替代拍脑袋",
+    "level": "L3",
+    "depth": "实践层",
+    "angle": "RICE与价值-可行性矩阵及AI验证访谈",
+    "keywords_snippet": "RICE ICE 优先级 价值可行性矩阵 合成访谈"
+  },
+  {
+    "module": "15",
+    "date": "2026-10-27",
+    "topic": "AI产品北极星指标",
+    "title": "AI北极星指标：从活跃到有用的度量重构",
+    "level": "L4",
+    "depth": "前沿层",
+    "angle": "工具/Agent/工作流三类北极星与护栏",
+    "keywords_snippet": "北极星指标 任务完成 护栏 QAJ 周活跃使用率"
+  },
+  {
+    "module": "15",
+    "date": "2026-10-27",
+    "topic": "AI产品安全红队设计",
+    "title": "AI产品安全设计：把红队对抗嵌入需求评审",
+    "level": "L2",
+    "depth": "框架层",
+    "angle": "OWASP ASI红队五阶段与威胁建模",
+    "keywords_snippet": "红队 OWASP ASI 威胁建模 Garak PyRIT 智能体安全"
+  },
+  {
+    "module": "15",
+    "date": "2026-10-27",
+    "topic": "Copilot与Autopilot交互范式",
+    "title": "Copilot还是Autopilot：AI交互范式选型",
+    "level": "L2",
+    "depth": "框架层",
+    "angle": "副驾与自驾的UX差异与选型框架",
+    "keywords_snippet": "Copilot Autopilot 交互范式 平静设计 信任校准"
   }
 ]

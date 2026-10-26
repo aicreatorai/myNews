@@ -4088,5 +4088,65 @@
     "depth": "概念层",
     "angle": "运行时分工与Q4_K_M量化标准",
     "keywords_snippet": "端侧推理,LiteRT-LM,llama.cpp,Q4_K_M,量化"
+  },
+  {
+    "module": "07",
+    "date": "2026-10-27",
+    "topic": "GraphRAG图检索增强",
+    "title": "GraphRAG图检索增强：用知识图谱给RAG装上关系推理",
+    "level": "L4",
+    "depth": "前沿层",
+    "angle": "知识图谱替代向量召回的多跳与可解释检索",
+    "keywords_snippet": "GraphRAG,知识图谱,混合检索,Agentic GraphRAG,多跳问答"
+  },
+  {
+    "module": "07",
+    "date": "2026-10-27",
+    "topic": "视觉语言模型VLM",
+    "title": "视觉语言模型VLM：让模型同时看懂图与文",
+    "level": "L3",
+    "depth": "实践层",
+    "angle": "双编码器+投影对齐与动态分辨率的落地权衡",
+    "keywords_snippet": "VLM,视觉编码器,投影层,动态分辨率,视觉推理"
+  },
+  {
+    "module": "07",
+    "date": "2026-10-27",
+    "topic": "扩散模型与DiT",
+    "title": "扩散模型与DiT：从噪声中雕刻图像与视频的生成术",
+    "level": "L3",
+    "depth": "实践层",
+    "angle": "U-Net到DiT主干替换与Flow Matching加速",
+    "keywords_snippet": "扩散模型,DiT,Flow Matching,潜空间,视频生成"
+  },
+  {
+    "module": "07",
+    "date": "2026-10-27",
+    "topic": "DSPy提示词自动优化",
+    "title": "DSPy提示词自动优化：把Prompt工程变成可编译程序",
+    "level": "L3",
+    "depth": "实践层",
+    "angle": "签名+优化器对着指标自动编译提示",
+    "keywords_snippet": "DSPy,提示优化,MIPROv2,签名,程序化"
+  },
+  {
+    "module": "07",
+    "date": "2026-10-27",
+    "topic": "对比学习CLIP",
+    "title": "对比学习CLIP：用图文配对把语义塞进同一向量空间",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "双编码器对比损失与零样本/模态鸿沟",
+    "keywords_snippet": "CLIP,对比学习,双编码器,零样本,模态鸿沟"
+  },
+  {
+    "module": "07",
+    "date": "2026-10-27",
+    "topic": "测试时训练TTT",
+    "title": "测试时训练TTT：把模型层变成可即时更新的快速权重",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "推理阶段更新快速权重vs冻结权重",
+    "keywords_snippet": "TTT,测试时训练,快速权重,In-Place TTT,持续学习"
   }
 ]

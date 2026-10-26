@@ -3388,5 +3388,65 @@
     "depth": "概念层",
     "angle": "Rust 作为开发者工具链首选语言的范式",
     "keywords_snippet": "Rust tsrs Oxc TypeScript port zero-runtime WebAssembly"
+  },
+  {
+    "module": "09",
+    "date": "2026-10-27",
+    "topic": "C++26 静态反射",
+    "title": "【C++26 静态反射与契约编程落地】",
+    "level": "L4",
+    "depth": "前沿层",
+    "angle": "编译期元编程与契约编程",
+    "keywords_snippet": "静态反射 契约编程 Contracts std::execution"
+  },
+  {
+    "module": "09",
+    "date": "2026-10-27",
+    "topic": "Julia 1.12 多派发",
+    "title": "【Julia 1.12 多派发提速科学计算】",
+    "level": "L3",
+    "depth": "实践层",
+    "angle": "多重分派与科学计算工程化",
+    "keywords_snippet": "多重分派 @atomic task-metrics --trim 科学计算"
+  },
+  {
+    "module": "09",
+    "date": "2026-10-27",
+    "topic": "Rust 2026 异步",
+    "title": "【Rust 2026 原生异步 Trait 与闭包】",
+    "level": "L4",
+    "depth": "前沿层",
+    "angle": "原生异步 Trait 与 Async 闭包落地",
+    "keywords_snippet": "async fn in trait 异步闭包 Tokio 2.0 工作窃取"
+  },
+  {
+    "module": "09",
+    "date": "2026-10-27",
+    "topic": "Carbon 语言",
+    "title": "【Carbon 语言 Google C++ 继任者】",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "C++ 继任者与双向互操作",
+    "keywords_snippet": "Carbon 双向互操作 受检泛型 内存安全 LLVM"
+  },
+  {
+    "module": "09",
+    "date": "2026-10-27",
+    "topic": "Scala 3.7",
+    "title": "【Scala 3.7 命名元组与二进制 API】",
+    "level": "L4",
+    "depth": "前沿层",
+    "angle": "命名元组与二进制兼容演进",
+    "keywords_snippet": "命名元组 @publicInBinary Better Fors given using"
+  },
+  {
+    "module": "09",
+    "date": "2026-10-27",
+    "topic": "Haskell GHC 10.0",
+    "title": "【Haskell GHC 10.0 函数式新进展】",
+    "level": "L3",
+    "depth": "实践层",
+    "angle": "GHC 10.0 类型与字符串扩展",
+    "keywords_snippet": "GHC2024 QualifiedStrings Type Constraint SIMD 静态链接"
   }
 ]

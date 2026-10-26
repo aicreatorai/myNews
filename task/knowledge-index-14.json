@@ -3578,5 +3578,65 @@
     "depth": "实践层",
     "angle": "反思提炼经验",
     "keywords_snippet": "元认知 复盘 反思 元认知监控"
+  },
+  {
+    "module": "14",
+    "date": "2026-10-27",
+    "topic": "番茄工作法变体",
+    "title": "【番茄工作法变体：用52/17节律榨干深度专注】",
+    "level": "L4",
+    "depth": "前沿层",
+    "angle": "BRAC节律与变体数据",
+    "keywords_snippet": "番茄工作法变体 52/17 90/20 BRAC 深度专注"
+  },
+  {
+    "module": "14",
+    "date": "2026-10-27",
+    "topic": "晨间仪式",
+    "title": "【晨间仪式：用固定序章锚定一天掌控感】",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "神经科学窗口与关键石习惯",
+    "keywords_snippet": "晨间仪式 光照 意志力 关键石习惯 皮质醇"
+  },
+  {
+    "module": "14",
+    "date": "2026-10-27",
+    "topic": "艾森豪威尔四象限",
+    "title": "【艾森豪威尔四象限：用重要紧急矩阵重排优先级】",
+    "level": "L3",
+    "depth": "实践层",
+    "angle": "Q2投资与减法思维",
+    "keywords_snippet": "艾森豪威尔矩阵 重要紧急 Q2 时间管理"
+  },
+  {
+    "module": "14",
+    "date": "2026-10-27",
+    "topic": "任务批处理",
+    "title": "【任务批处理：用同类聚类砍断切换税】",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "注意力残留与切换成本",
+    "keywords_snippet": "任务批处理 注意力残留 切换成本 时间块"
+  },
+  {
+    "module": "14",
+    "date": "2026-10-27",
+    "topic": "WOOP心理比对",
+    "title": "【WOOP心理比对：用障碍预演把愿望钉成计划】",
+    "level": "L4",
+    "depth": "前沿层",
+    "angle": "心理比对与执行意图",
+    "keywords_snippet": "WOOP 心理比对 执行意图 Oettingen 目标达成"
+  },
+  {
+    "module": "14",
+    "date": "2026-10-27",
+    "topic": "正念呼吸锚定",
+    "title": "【正念呼吸锚定：用三分钟落地把注意力拽回此刻】",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "迷走神经与神经可塑性",
+    "keywords_snippet": "正念呼吸 迷走神经 皮质醇 HRV 减压"
   }
 ]

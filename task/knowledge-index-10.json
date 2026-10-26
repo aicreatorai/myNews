@@ -3778,5 +3778,65 @@
     "depth": "概念层",
     "angle": "DevAx与LLM裁判驱动Agent评测的K8s平台",
     "keywords_snippet": "microsoft scope kubernetes DevAx agent评测 judge"
+  },
+  {
+    "module": "10",
+    "date": "2026-10-27",
+    "topic": "CrewAI",
+    "title": "CrewAI：角色扮演式多智能体协作编排开源框架",
+    "level": "L4",
+    "depth": "前沿层",
+    "angle": "角色团队式多智能体协作编排",
+    "keywords_snippet": "CrewAI 多智能体 角色团队 编排"
+  },
+  {
+    "module": "10",
+    "date": "2026-10-27",
+    "topic": "LlamaIndex",
+    "title": "LlamaIndex：把私有数据接入LLM的检索框架",
+    "level": "L4",
+    "depth": "前沿层",
+    "angle": "私有数据RAG检索框架",
+    "keywords_snippet": "LlamaIndex RAG 检索 数据框架"
+  },
+  {
+    "module": "10",
+    "date": "2026-10-27",
+    "topic": "Cline",
+    "title": "Cline：VS Code里可审阅计划的自主编程体",
+    "level": "L3",
+    "depth": "实践层",
+    "angle": "IDE内自主编程智能体",
+    "keywords_snippet": "Cline 编程智能体 VS Code Plan/Act"
+  },
+  {
+    "module": "10",
+    "date": "2026-10-27",
+    "topic": "Ollama",
+    "title": "Ollama：一条命令本地跑大模型的开源工具",
+    "level": "L4",
+    "depth": "前沿层",
+    "angle": "本地大模型运行工具",
+    "keywords_snippet": "Ollama 本地模型 运行 推理"
+  },
+  {
+    "module": "10",
+    "date": "2026-10-27",
+    "topic": "LiteLLM",
+    "title": "LiteLLM：一套接口路由100+大模型的开源网关",
+    "level": "L3",
+    "depth": "实践层",
+    "angle": "统一多模型路由网关",
+    "keywords_snippet": "LiteLLM 网关 路由 多模型 代理"
+  },
+  {
+    "module": "10",
+    "date": "2026-10-27",
+    "topic": "LMDeploy",
+    "title": "LMDeploy：高效压缩与量化的大模型部署箱",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "模型压缩部署工具箱",
+    "keywords_snippet": "LMDeploy 量化 部署 TurboMind 推理"
   }
 ]
