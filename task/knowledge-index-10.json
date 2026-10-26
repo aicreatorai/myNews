@@ -3718,5 +3718,65 @@
     "depth": "概念层",
     "angle": "多智能体 swarm 编排与记忆",
     "keywords_snippet": "ruflo 多智能体 集群 编排 记忆"
+  },
+  {
+    "module": "10",
+    "date": "2026-10-26",
+    "topic": "claude-mem",
+    "title": "claude-mem：让编程智能体跨会话记住一切的持久记忆层",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "自动捕获+AI压缩+按需注入的跨会话记忆机制",
+    "keywords_snippet": "agent记忆 跨会话 context injection sidecar"
+  },
+  {
+    "module": "10",
+    "date": "2026-10-26",
+    "topic": "OpenShell",
+    "title": "NVIDIA OpenShell：给自主智能体用的安全私密运行时沙箱",
+    "level": "L4",
+    "depth": "前沿层",
+    "angle": "最小权限运行时沙箱让Agent生产化",
+    "keywords_snippet": "agent沙箱 最小权限 runtime Rust NVIDIA"
+  },
+  {
+    "module": "10",
+    "date": "2026-10-26",
+    "topic": "deepagents",
+    "title": "deepagents：LangChain 出品的开箱即用智能体 Harness",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "电池全配齐的Agent harness与可替换内核模块",
+    "keywords_snippet": "langchain agent harness sub-agents skills"
+  },
+  {
+    "module": "10",
+    "date": "2026-10-26",
+    "topic": "kimi-code",
+    "title": "Kimi Code：月之暗面下场的终端编程智能体支持视频输入",
+    "level": "L3",
+    "depth": "实践层",
+    "angle": "视频即需求的多模态终端编程Agent",
+    "keywords_snippet": "kimi-code 视频输入 终端Agent ACP 免Node"
+  },
+  {
+    "module": "10",
+    "date": "2026-10-26",
+    "topic": "freellmapi",
+    "title": "freellmapi：一个 v1 端点聚合 34 家免费 LLM 的路由网关",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "统一OpenAI兼容网关聚合免费LLM与故障转移",
+    "keywords_snippet": "freellmapi 免费LLM 网关 路由 failover openai兼容"
+  },
+  {
+    "module": "10",
+    "date": "2026-10-26",
+    "topic": "Scope",
+    "title": "Microsoft Scope：基于 Kubernetes 的开源 AI 编程智能体评测平台",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "DevAx与LLM裁判驱动Agent评测的K8s平台",
+    "keywords_snippet": "microsoft scope kubernetes DevAx agent评测 judge"
   }
 ]

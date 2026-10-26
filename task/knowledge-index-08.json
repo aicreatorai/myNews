@@ -3516,5 +3516,65 @@
     "depth": "技术层",
     "angle": "生成式填充与扩展局部精修",
     "keywords_snippet": "Adobe Firefly, 生成式填充, 生成式扩展, 商用版权, Photoshop"
+  },
+  {
+    "module": "08",
+    "date": "2026-10-26",
+    "topic": "剪映AI视频剪辑",
+    "title": "【剪映AI：智能字幕与一键成片的短视频剪辑实战】",
+    "level": "L4",
+    "depth": "前沿层",
+    "angle": "智能字幕与一键成片工作流",
+    "keywords_snippet": "剪映 智能字幕 图文成片 AI配音 一键成片"
+  },
+  {
+    "module": "08",
+    "date": "2026-10-26",
+    "topic": "秘塔AI搜索写作",
+    "title": "【秘塔AI搜索：带溯源答案与去AI味的写作辅助】",
+    "level": "L3",
+    "depth": "实践层",
+    "angle": "带溯源搜索与去AI味写作辅助",
+    "keywords_snippet": "秘塔AI搜索 写作猫 去AI味 溯源 事实核查"
+  },
+  {
+    "module": "08",
+    "date": "2026-10-26",
+    "topic": "Bolt.new AI编程",
+    "title": "【Bolt.new：自然语言生成可上线Web应用的实战】",
+    "level": "L3",
+    "depth": "实践层",
+    "angle": "自然语言生成全栈Web应用",
+    "keywords_snippet": "Bolt.new Vibe Coding Supabase 浏览器 全栈 部署"
+  },
+  {
+    "module": "08",
+    "date": "2026-10-26",
+    "topic": "笔灵AI写作",
+    "title": "【笔灵AI：公众号与自媒体长文的结构化写作实战】",
+    "level": "L4",
+    "depth": "前沿层",
+    "angle": "200+场景模板与降AI痕迹",
+    "keywords_snippet": "笔灵AI 新媒体爆款 降AI痕迹 语气控制 模板"
+  },
+  {
+    "module": "08",
+    "date": "2026-10-26",
+    "topic": "文心一格AI绘画",
+    "title": "【文心一格：中文提示词生成品牌插画实战】",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "全中文AI绘画与国风审美",
+    "keywords_snippet": "文心一格 中文提示词 国风 局部重绘 品牌插画"
+  },
+  {
+    "module": "08",
+    "date": "2026-10-26",
+    "topic": "Runway视频生成",
+    "title": "【Runway：文本生成视频与运动笔刷的短片创作实战】",
+    "level": "L4",
+    "depth": "前沿层",
+    "angle": "文本生视频与运动笔刷控制",
+    "keywords_snippet": "Runway 文本生视频 Motion Brush 运动笔刷 相机控制"
   }
 ]

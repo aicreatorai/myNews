@@ -3328,5 +3328,65 @@
     "depth": "前沿层",
     "angle": "元编译器自动生成两层 VM 的研究突破",
     "keywords_snippet": "Deegen 自动生成 JIT 虚拟机 动态语言 OOPSLA 2026"
+  },
+  {
+    "module": "09",
+    "date": "2026-10-26",
+    "topic": "TypeScript 7.1 Beta 源码导入 编译器API",
+    "title": "TypeScript 7.1 Beta：源码导入与新编译器 API",
+    "level": "L4",
+    "depth": "前沿层",
+    "angle": "编译器架构开放与源码阶段导入",
+    "keywords_snippet": "TypeScript 7.1 Beta source phase imports programmatic API es2026"
+  },
+  {
+    "module": "09",
+    "date": "2026-10-26",
+    "topic": "TypeScript 7.1 内容映射器 Content Mappers",
+    "title": "TypeScript 7.1 内容映射器：Vue Svelte 原生类型检查",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "单文件组件官方类型检查机制",
+    "keywords_snippet": "TypeScript 7.1 content mappers Vue Svelte tsc runExternalCode"
+  },
+  {
+    "module": "09",
+    "date": "2026-10-26",
+    "topic": "Go 1.27.3 安全补丁 eMudhra 证书",
+    "title": "Go 1.27.3 紧急安全补丁：封堵 eMudhra 证书危机",
+    "level": "L3",
+    "depth": "实践层",
+    "angle": "crypto/x509 SPKI 黑名单与容器证书吊销",
+    "keywords_snippet": "Go 1.27.3 CVE-2026-111943 eMudhra x509 SPKI blocklist"
+  },
+  {
+    "module": "09",
+    "date": "2026-10-26",
+    "topic": "Go net/http 连接池重构 HTTP/2",
+    "title": "Go net/http 连接池重构：消除 HTTP/2 竞态与 LIFO 饥饿",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "clientConnPoolEntry 统一连接调度",
+    "keywords_snippet": "Go net/http clientConnPoolEntry HTTP/2 coalescing LIFO"
+  },
+  {
+    "module": "09",
+    "date": "2026-10-26",
+    "topic": "Java 虚拟线程 结构化并发 作用域值",
+    "title": "Java 虚拟线程落地：结构化并发与作用域值",
+    "level": "L4",
+    "depth": "前沿层",
+    "angle": "Project Loom 生产落地与 ThreadLocal 替代",
+    "keywords_snippet": "Java virtual threads structured concurrency ScopedValue Loom"
+  },
+  {
+    "module": "09",
+    "date": "2026-10-26",
+    "topic": "Rust tsrs 纯Rust重写TypeScript",
+    "title": "Rust 1.99.1 与 tsrs：纯 Rust 重写 TypeScript 提速 8 倍",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "Rust 作为开发者工具链首选语言的范式",
+    "keywords_snippet": "Rust tsrs Oxc TypeScript port zero-runtime WebAssembly"
   }
 ]

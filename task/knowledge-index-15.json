@@ -3638,5 +3638,65 @@
     "depth": "实践层",
     "angle": "用JSON Schema约束动态组件与光标级隐式上下文做AI原生重构",
     "keywords_snippet": "generative UI 意图驱动 DESIGN.md JSON Schema 行内采纳率 四层阶梯"
+  },
+  {
+    "module": "15",
+    "date": "2026-10-26",
+    "topic": "餐饮Agent经营助手商户落地",
+    "title": "美团AI店长免费开放：餐饮Agent如何把AI做成商户经营助手",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "行业Agent角色封装与经营闭环",
+    "keywords_snippet": "美团AI店长 袋鼠管家 餐饮Agent 经营助手"
+  },
+  {
+    "module": "15",
+    "date": "2026-10-26",
+    "topic": "AI出海交付模式客户留存",
+    "title": "中国AI出海换挡：API、SaaS与模型授权的客户留存之战",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "出海交付模式选型与留存",
+    "keywords_snippet": "AI出海 API SaaS 模型授权 客户留存"
+  },
+  {
+    "module": "15",
+    "date": "2026-10-26",
+    "topic": "拟人化Agent人格设计信任采纳",
+    "title": "拟人化Agent人格设计：常驻AI如何用可爱形象降低授权摩擦",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "常驻Agent拟人化人格降授权摩擦",
+    "keywords_snippet": "拟人化 Agent人格 Dots Muse 授权摩擦"
+  },
+  {
+    "module": "15",
+    "date": "2026-10-26",
+    "topic": "AI产品合规发布闸门可解释审计",
+    "title": "合规成为AI产品发布闸门：可解释审计如何重塑PM排期",
+    "level": "L3",
+    "depth": "实践层",
+    "angle": "合规前置为发布闸门",
+    "keywords_snippet": "合规 发布闸门 EU AI Act 可解释审计"
+  },
+  {
+    "module": "15",
+    "date": "2026-10-26",
+    "topic": "百度搭子企业Agent增长案例",
+    "title": "百度搭子增长拆解：企业Agent从办公提效走向业务闭环",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "企业Agent闭环增长",
+    "keywords_snippet": "百度搭子 企业Agent 闭环 增长"
+  },
+  {
+    "module": "15",
+    "date": "2026-10-26",
+    "topic": "屏幕录制式Agent技能工作流",
+    "title": "把重复工作录成技能：屏幕录制式Agent工作流设计",
+    "level": "L3",
+    "depth": "实践层",
+    "angle": "录屏式技能沉淀",
+    "keywords_snippet": "屏幕录制 Agent技能 APA 科大讯飞"
   }
 ]

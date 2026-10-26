@@ -4028,5 +4028,65 @@
     "depth": "技术层",
     "angle": "工具调用标准化协议层与传输层演进",
     "keywords_snippet": "MCP 模型上下文协议 工具调用 标准化 Streamable HTTP"
+  },
+  {
+    "module": "07",
+    "date": "2026-10-26",
+    "topic": "RoPE旋转位置编码",
+    "title": "RoPE旋转位置编码：让Transformer看懂词序与相对距离",
+    "level": "L3",
+    "depth": "实践层",
+    "angle": "位置编码原理与RoPE对齐KV压缩",
+    "keywords_snippet": "RoPE,旋转位置编码,相对位置,KV Cache压缩,RACE"
+  },
+  {
+    "module": "07",
+    "date": "2026-10-26",
+    "topic": "线性与稀疏注意力",
+    "title": "线性与稀疏注意力：突破Transformer二次复杂度瓶颈",
+    "level": "L4",
+    "depth": "前沿层",
+    "angle": "稀疏与线性注意力突破二次复杂度",
+    "keywords_snippet": "线性注意力,稀疏注意力,DSA,KDA,复杂度"
+  },
+  {
+    "module": "07",
+    "date": "2026-10-26",
+    "topic": "长上下文Lost in the Middle评测",
+    "title": "长上下文Lost in the Middle：百万Token为何读不懂中间信息",
+    "level": "L4",
+    "depth": "前沿层",
+    "angle": "长上下文失效与评测方法论",
+    "keywords_snippet": "Lost in the Middle,RULER,LURCH,Context Rot,长上下文评测"
+  },
+  {
+    "module": "07",
+    "date": "2026-10-26",
+    "topic": "长上下文位置编码扩展",
+    "title": "长上下文位置编码扩展：从8K到百万Token的窗口拉长术",
+    "level": "L3",
+    "depth": "实践层",
+    "angle": "RoPE缩放/YaRN/DCA拉长窗口",
+    "keywords_snippet": "长上下文,RoPE缩放,YaRN,DCA,LongRoPE"
+  },
+  {
+    "module": "07",
+    "date": "2026-10-26",
+    "topic": "端侧小模型部署",
+    "title": "端侧小模型部署：把大模型塞进手机本地离线跑",
+    "level": "L3",
+    "depth": "实践层",
+    "angle": "端侧小模型选型与离线部署",
+    "keywords_snippet": "端侧小模型,Phi-4 Mini,Gemma 3,Qwen3,离线"
+  },
+  {
+    "module": "07",
+    "date": "2026-10-26",
+    "topic": "端侧推理运行时与量化",
+    "title": "端侧推理运行时与量化：手机跑大模型的Q4_K_M标准",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "运行时分工与Q4_K_M量化标准",
+    "keywords_snippet": "端侧推理,LiteRT-LM,llama.cpp,Q4_K_M,量化"
   }
 ]

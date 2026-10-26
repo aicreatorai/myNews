@@ -3528,5 +3528,65 @@
     "depth": "概念层",
     "angle": "隐私信任溢价/按需激活",
     "keywords_snippet": "隐私优先AI助手 可穿戴硬件 订阅"
+  },
+  {
+    "module": "12",
+    "date": "2026-10-26",
+    "topic": "开源托管双引擎飞轮",
+    "title": "Postiz开源托管飞轮：月收冲到291,608美元",
+    "level": "L3",
+    "depth": "实践层",
+    "angle": "开源引流+云托管收费混合变现",
+    "keywords_snippet": "开源SaaS 云托管 Stripe MRR 有机增长"
+  },
+  {
+    "module": "12",
+    "date": "2026-10-26",
+    "topic": "按结果付费Personal Agent",
+    "title": "Moras按结果付费：季度GMV破10,000,000美元",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "CPS分佣按成交付费的垂直智能体",
+    "keywords_snippet": "Personal Commerce Agent CPS 分佣 TikTok 达人"
+  },
+  {
+    "module": "12",
+    "date": "2026-10-26",
+    "topic": "免费全功能单点付费飞轮",
+    "title": "Trendtrack免费养鱼：电商情报月收900,000美元",
+    "level": "L3",
+    "depth": "实践层",
+    "angle": "免费漏斗养鱼+单点深挖付费钩子",
+    "keywords_snippet": "免费层 单点付费 MCP 电商情报 留存"
+  },
+  {
+    "module": "12",
+    "date": "2026-10-26",
+    "topic": "卖铲子模板崩盘订阅制",
+    "title": "ShipFast崩盘：买断模板月入从126,000美元跌到2,000",
+    "level": "L4",
+    "depth": "前沿层",
+    "angle": "一次性买断被AI抹平vs订阅制存活教训",
+    "keywords_snippet": "ShipFast 买断 订阅制 价值锚 AI替代"
+  },
+  {
+    "module": "12",
+    "date": "2026-10-26",
+    "topic": "AI项目二手交易市场",
+    "title": "AI小项目二手市场：买ARR项目收租的定价逻辑",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "买现成小项目收租与倍数定价逻辑",
+    "keywords_snippet": "Microns 二手交易 ARR 收租 倍数定价"
+  },
+  {
+    "module": "12",
+    "date": "2026-10-26",
+    "topic": "语音输入窄门减法",
+    "title": "Voicy语音输入窄门：红海做减法月入17,700美元",
+    "level": "L3",
+    "depth": "实践层",
+    "angle": "红海做减法找缝隙的窄门SaaS",
+    "keywords_snippet": "Voicy 语音输入 减法 窄门 无感体验"
   }
 ]
