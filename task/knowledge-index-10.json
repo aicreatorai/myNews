@@ -3838,5 +3838,65 @@
     "depth": "概念层",
     "angle": "模型压缩部署工具箱",
     "keywords_snippet": "LMDeploy 量化 部署 TurboMind 推理"
+  },
+  {
+    "module": "10",
+    "date": "2026-10-30",
+    "topic": "VoiceStudio",
+    "title": "VoiceStudio：本地化开源语音克隆与646语种配音工作台",
+    "level": "L2",
+    "depth": "基础",
+    "angle": "本地语音工作台与云端服务替代",
+    "keywords_snippet": "VoiceStudio,语音克隆,配音,本地化,ElevenLabs替代"
+  },
+  {
+    "module": "10",
+    "date": "2026-10-30",
+    "topic": "Hindsight",
+    "title": "Hindsight：会学习的智能体长期记忆层",
+    "level": "L1",
+    "depth": "基础",
+    "angle": "可学习型智能体记忆基础设施",
+    "keywords_snippet": "Hindsight,Agent Memory,记忆层,冲突检测,向量库"
+  },
+  {
+    "module": "10",
+    "date": "2026-10-30",
+    "topic": "Context-Mode",
+    "title": "Context-Mode：给编程智能体省下98%上下文Token的沙箱路由",
+    "level": "L3",
+    "depth": "基础",
+    "angle": "工具输出沙箱化与上下文成本优化",
+    "keywords_snippet": "Context-Mode,MCP,hooks,上下文优化,Token压缩"
+  },
+  {
+    "module": "10",
+    "date": "2026-10-30",
+    "topic": "security-audit-skill",
+    "title": "Security-Audit-Skill：Cloudflare开源的智能体多阶段安全审计技能",
+    "level": "L1",
+    "depth": "基础",
+    "angle": "智能体安全审计方法论工程化",
+    "keywords_snippet": "security-audit-skill,Cloudflare,安全审计,Agent Skills,多阶段"
+  },
+  {
+    "module": "10",
+    "date": "2026-10-30",
+    "topic": "Orca",
+    "title": "Orca：一套订阅调度编程智能体舰队的指挥台",
+    "level": "L3",
+    "depth": "基础",
+    "angle": "多智能体舰队调度与订阅复用",
+    "keywords_snippet": "Orca,stablyai,智能体舰队,订阅调度,移动审批"
+  },
+  {
+    "module": "10",
+    "date": "2026-10-30",
+    "topic": "Hallmark",
+    "title": "Hallmark：给Claude Code与Cursor的反AI味设计技能",
+    "level": "L3",
+    "depth": "基础",
+    "angle": "设计规范注入矫正AI生成界面审美",
+    "keywords_snippet": "Hallmark,反AI味,设计技能,CSS,前端生成"
   }
 ]

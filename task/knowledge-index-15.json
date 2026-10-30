@@ -3758,5 +3758,65 @@
     "depth": "框架层",
     "angle": "副驾与自驾的UX差异与选型框架",
     "keywords_snippet": "Copilot Autopilot 交互范式 平静设计 信任校准"
+  },
+  {
+    "module": "15",
+    "date": "2026-10-30",
+    "topic": "AI评估集",
+    "title": "AI评估集Golden Set：上线前用百条真实案例给模型跑分验收",
+    "level": "L1",
+    "depth": "基础",
+    "angle": "验收工程化",
+    "keywords_snippet": "评估集,Golden Set,模型验收,回归测试,上线门禁"
+  },
+  {
+    "module": "15",
+    "date": "2026-10-30",
+    "topic": "Token单位经济学",
+    "title": "Token单位经济学：AI产品毛利测算与成本红线设计",
+    "level": "L2",
+    "depth": "基础",
+    "angle": "成本定价",
+    "keywords_snippet": "Token成本,单位经济,毛利测算,模型路由,定价策略"
+  },
+  {
+    "module": "15",
+    "date": "2026-10-30",
+    "topic": "影子模式",
+    "title": "影子模式Shadow Mode：AI功能上线前的静默验证与分级放量",
+    "level": "L3",
+    "depth": "实践",
+    "angle": "发布策略",
+    "keywords_snippet": "影子模式,灰度发布,分级放量,金丝雀,杀开关"
+  },
+  {
+    "module": "15",
+    "date": "2026-10-30",
+    "topic": "不确定性沟通",
+    "title": "不确定性沟通设计：置信度表达如何守住用户信任",
+    "level": "L2",
+    "depth": "进阶",
+    "angle": "信任设计",
+    "keywords_snippet": "置信度,不确定性,用户信任,版本可见性,转人工"
+  },
+  {
+    "module": "15",
+    "date": "2026-10-30",
+    "topic": "提示词管理",
+    "title": "Prompt资产化：提示词版本管理与回归门禁",
+    "level": "L3",
+    "depth": "实践",
+    "angle": "资产工程化",
+    "keywords_snippet": "Prompt资产,版本管理,回归门禁,LLM-as-judge,原子快照"
+  },
+  {
+    "module": "15",
+    "date": "2026-10-30",
+    "topic": "模型选型",
+    "title": "模型选型决策框架：从跑分榜单到业务证据的可复用评审",
+    "level": "L4",
+    "depth": "前沿",
+    "angle": "决策方法论",
+    "keywords_snippet": "模型选型,决策框架,同题对决,基线对比,可替换架构"
   }
 ]

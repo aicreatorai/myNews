@@ -3448,5 +3448,65 @@
     "depth": "实践层",
     "angle": "GHC 10.0 类型与字符串扩展",
     "keywords_snippet": "GHC2024 QualifiedStrings Type Constraint SIMD 静态链接"
+  },
+  {
+    "module": "09",
+    "date": "2026-10-30",
+    "topic": "PEP 827 类型操作",
+    "title": "PEP 827 类型操作：Python 3.16 布局后GIL时代的高阶并发",
+    "level": "L1",
+    "depth": "基础",
+    "angle": "语言设计与并发原语",
+    "keywords_snippet": "PEP 827,类型操作,free-threading,后GIL,Python 3.16,结构化并发"
+  },
+  {
+    "module": "09",
+    "date": "2026-10-30",
+    "topic": "Zig 0.17 ELF链接器",
+    "title": "Zig 0.17 新ELF链接器：增量编译驶入x86_64快车道",
+    "level": "L4",
+    "depth": "前沿",
+    "angle": "工具链底层与增量编译原理",
+    "keywords_snippet": "Zig 0.17,ELF链接器,增量编译,Build Server Protocol,构建系统"
+  },
+  {
+    "module": "09",
+    "date": "2026-10-30",
+    "topic": "Kotlin 2.5 预览",
+    "title": "Kotlin 2.5 预览：Companion扩展化与KMP编译分离",
+    "level": "L4",
+    "depth": "前沿",
+    "angle": "跨平台编译管线重构",
+    "keywords_snippet": "Kotlin 2.5,Companion扩展化,KMP编译分离,K2,跨平台"
+  },
+  {
+    "module": "09",
+    "date": "2026-10-30",
+    "topic": "Blazor AG-UI 协议",
+    "title": "C# Blazor AG-UI协议落地：AI组件化的.NET实践",
+    "level": "L1",
+    "depth": "基础",
+    "angle": "智能体前端协议与组件化",
+    "keywords_snippet": "AG-UI协议,Blazor,Agent事件流,NetWasm,SSE"
+  },
+  {
+    "module": "09",
+    "date": "2026-10-30",
+    "topic": "JDK 27 紧凑对象头",
+    "title": "JDK 27 紧凑对象头：20%内存节省的性能红利",
+    "level": "L3",
+    "depth": "实践",
+    "angle": "JVM内存布局优化与生产实践",
+    "keywords_snippet": "JEP 534,紧凑对象头,Project Lilliput,HotSpot,GC优化,JDK 27"
+  },
+  {
+    "module": "09",
+    "date": "2026-10-30",
+    "topic": "Pharo 14 发布",
+    "title": "Pharo 14 发布：RISC-V JIT底座与工具链换代",
+    "level": "L1",
+    "depth": "基础",
+    "angle": "动态语言运行时与活系统架构",
+    "keywords_snippet": "Pharo 14,RISC-V JIT,活镜像,Smalltalk,Spotter,SDL3"
   }
 ]

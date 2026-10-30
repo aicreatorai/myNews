@@ -3636,5 +3636,65 @@
     "depth": "概念层",
     "angle": "文字到生产级React UI与沙箱构建部署闭环",
     "keywords_snippet": "v0,Vercel,React,UI生成,Next.js,shadcn"
+  },
+  {
+    "module": "08",
+    "date": "2026-10-30",
+    "topic": "Manus 2.0 通用智能体",
+    "title": "Manus 2.0：Cascade 引擎让通用智能体自带云电脑与钱包",
+    "level": "L1",
+    "depth": "基础",
+    "angle": "从一次性任务到事件驱动与云端常驻的形态转变",
+    "keywords_snippet": "Cascade引擎 按需加载 Studio时间线 Automations事件触发 Computer Use 云电脑"
+  },
+  {
+    "module": "08",
+    "date": "2026-10-30",
+    "topic": "Lovart Arti 设计智能体",
+    "title": "Lovart 2.0 的 Arti：会记忆审美的常驻设计智能体",
+    "level": "L2",
+    "depth": "进阶",
+    "angle": "设计偏好沉淀与主动巡检如何改变改稿成本",
+    "keywords_snippet": "Arti 偏好记忆 画布巡检 设计委托 定时任务 反馈改稿"
+  },
+  {
+    "module": "08",
+    "date": "2026-10-30",
+    "topic": "Napkin AI 文字转图表",
+    "title": "Napkin AI：把一段文字铺成可编辑的流程图与信息图",
+    "level": "L3",
+    "depth": "实践",
+    "angle": "从结构抽取到图元化导出的完整链路与验收要点",
+    "keywords_snippet": "Generate Visual Customize 流程图 思维导图 SVG导出 结构抽取"
+  },
+  {
+    "module": "08",
+    "date": "2026-10-30",
+    "topic": "ComfyUI 节点工作流",
+    "title": "ComfyUI 节点工作流：显存档位分级与 API 批量出图",
+    "level": "L4",
+    "depth": "前沿",
+    "angle": "潜空间数据流与显存分级策略支撑生产化批量出图",
+    "keywords_snippet": "KSampler ControlNet strength 低显存 lowvram fp16 JSON工作流 8188接口"
+  },
+  {
+    "module": "08",
+    "date": "2026-10-30",
+    "topic": "Warp 智能体开发环境",
+    "title": "Warp 2.0：把终端变成多智能体调度台与云端工厂",
+    "level": "L2",
+    "depth": "进阶",
+    "angle": "块模型与pty复用层如何支撑多智能体并行与会话持久",
+    "keywords_snippet": "Agentic Development Environment 块模型 pty复用 Agent CLI 模型路由 Warp Factories Oz云沙箱"
+  },
+  {
+    "module": "08",
+    "date": "2026-10-30",
+    "topic": "whisper.cpp 本地语音转写",
+    "title": "whisper.cpp：在自己的机器上把录音转成字幕",
+    "level": "L3",
+    "depth": "实践",
+    "angle": "量化与解码参数调优实现离线词级时间戳字幕",
+    "keywords_snippet": "GGML量化 Metal加速 beam search 词级时间戳 提示词引导 VAD静音幻觉 本地HTTP服务"
   }
 ]

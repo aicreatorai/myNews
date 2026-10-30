@@ -3648,5 +3648,65 @@
     "depth": "实践层",
     "angle": "硬件获客加订阅续费闭环",
     "keywords_snippet": "AI原生硬件 墨水屏 Agent 订阅"
+  },
+  {
+    "module": "12",
+    "date": "2026-10-30",
+    "topic": "主动式个人智能体",
+    "title": "主动式个人智能体创业：Today AI七个月融资超2亿美元",
+    "level": "L1",
+    "depth": "基础",
+    "angle": "主动式个人Agent赛道与交互反转逻辑",
+    "keywords_snippet": "Today AI,汇翮智能,齐俊元,Personal Agent,主动式助手,天使轮2亿美元"
+  },
+  {
+    "module": "12",
+    "date": "2026-10-30",
+    "topic": "零营销增长",
+    "title": "零营销获客：Instinct病毒式Agent的PLG增长路径",
+    "level": "L2",
+    "depth": "进阶",
+    "angle": "产品驱动增长的病毒飞轮拆解",
+    "keywords_snippet": "Instinct,PLG,零营销,病毒式增长,任务Agent,10亿美元C轮"
+  },
+  {
+    "module": "12",
+    "date": "2026-10-30",
+    "topic": "扩散语言模型",
+    "title": "押注dLLM：DiffuSpace用非主流技术路线融资近5亿",
+    "level": "L1",
+    "depth": "基础",
+    "angle": "技术路线差异化的创业方法论",
+    "keywords_snippet": "DiffuSpace,扩散智能,dLLM,Dream 7B,扩散语言模型,港大团队"
+  },
+  {
+    "module": "12",
+    "date": "2026-10-30",
+    "topic": "数据即服务",
+    "title": "数据即服务：Snorkel AI一年增长18倍的卖铲子生意",
+    "level": "L3",
+    "depth": "实践",
+    "angle": "弱监督标注降本与AI产业链卖水逻辑",
+    "keywords_snippet": "Snorkel AI,数据即服务,弱监督学习,程序化标注,E轮3.5亿美元"
+  },
+  {
+    "module": "12",
+    "date": "2026-10-30",
+    "topic": "机器人基础模型",
+    "title": "机器人基础模型：FieldAI一年估值涨五倍的具身智能创业",
+    "level": "L1",
+    "depth": "基础",
+    "angle": "大脑与本体解耦的生态位卡位",
+    "keywords_snippet": "FieldAI,机器人基础模型,具身智能,数据飞轮,100亿美元估值"
+  },
+  {
+    "module": "12",
+    "date": "2026-10-30",
+    "topic": "语音AI",
+    "title": "语音AI规模化：ElevenLabs估值翻倍背后的变现结构",
+    "level": "L2",
+    "depth": "进阶",
+    "angle": "API加订阅双轨与能力外溢变现设计",
+    "keywords_snippet": "ElevenLabs,语音AI,员工要约收购,220亿美元估值,声音克隆,语音Agent"
   }
 ]

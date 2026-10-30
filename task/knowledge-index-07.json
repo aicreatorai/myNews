@@ -4148,5 +4148,65 @@
     "depth": "概念层",
     "angle": "推理阶段更新快速权重vs冻结权重",
     "keywords_snippet": "TTT,测试时训练,快速权重,In-Place TTT,持续学习"
+  },
+  {
+    "module": "07",
+    "date": "2026-10-30",
+    "topic": "大模型幻觉",
+    "title": "大模型幻觉：AI为什么一本正经地胡说八道",
+    "level": "L1",
+    "depth": "基础",
+    "angle": "概念辨析与成因统计机制",
+    "keywords_snippet": "事实性幻觉, 忠实性幻觉, 单例事实, 检测"
+  },
+  {
+    "module": "07",
+    "date": "2026-10-30",
+    "topic": "Tokenization与BPE分词",
+    "title": "Tokenization与BPE：大模型如何把文字切成Token",
+    "level": "L2",
+    "depth": "机制",
+    "angle": "分词算法流程与工程成本影响",
+    "keywords_snippet": "BPE, 词表, 字节级, token成本, glitch token"
+  },
+  {
+    "module": "07",
+    "date": "2026-10-30",
+    "topic": "世界模型",
+    "title": "世界模型：让AI在脑内预演物理世界的推演能力",
+    "level": "L3",
+    "depth": "实践",
+    "angle": "三大技术路线与应用落地",
+    "keywords_snippet": "Genie 3, V-JEPA 2, 空间智能, 世界动作模型, 仿真"
+  },
+  {
+    "module": "07",
+    "date": "2026-10-30",
+    "topic": "Embedding向量嵌入",
+    "title": "Embedding向量嵌入：让语义可以被计算的坐标系",
+    "level": "L1",
+    "depth": "基础",
+    "angle": "概念定义与语义检索工作流",
+    "keywords_snippet": "语义向量, 双塔编码, 混合检索, MTEB, Matryoshka"
+  },
+  {
+    "module": "07",
+    "date": "2026-10-30",
+    "topic": "Mamba状态空间模型",
+    "title": "Mamba与状态空间模型：线性复杂度挑战Transformer",
+    "level": "L4",
+    "depth": "前沿",
+    "angle": "架构演进与混合范式共识",
+    "keywords_snippet": "SSM, 线性复杂度, Mamba-3, 混合架构, KV缓存"
+  },
+  {
+    "module": "07",
+    "date": "2026-10-30",
+    "topic": "合成数据",
+    "title": "合成数据：用AI生成的数据训练更强的AI",
+    "level": "L3",
+    "depth": "实践",
+    "angle": "生成过滤闭环与风险控制",
+    "keywords_snippet": "自一致性过滤, 模型崩溃, 数据纯度, 幻觉遗传, 规则奖励"
   }
 ]

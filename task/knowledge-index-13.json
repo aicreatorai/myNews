@@ -2458,5 +2458,55 @@
     "depth": "技术层 - 内部机制、关键参数、优化策略",
     "angle": "线上名师+本地教师+AI助教三角色分工的轻量化均衡路径",
     "keywords_snippet": "AI双师课堂 同步课堂 名师 薄弱校 教育均衡 轻量化"
+  },
+  {
+    "module": "13",
+    "date": "2026-10-30",
+    "topic": "AI学伴智能体平台",
+    "title": "连小理AI学伴：大工与腾讯共建全场景智能体育人平台",
+    "level": "L4",
+    "depth": "前沿",
+    "angle": "多智能体协同与校本知识库融合的全周期育人",
+    "keywords_snippet": "连小理,AI学伴,多智能体协同,伯川AI知识库,校本知识融合,全周期画像"
+  },
+  {
+    "module": "13",
+    "date": "2026-10-30",
+    "topic": "以购代建AI教育普惠",
+    "title": "贵州以购代建AI教育普惠：乡村学校按量付费即接即用",
+    "level": "L1",
+    "depth": "基础",
+    "angle": "商业模式从CAPEX转向OPEX撬动教育公平",
+    "keywords_snippet": "以购代建,按量付费,三级平台架构,乡村振兴帮扶县,场景清单,孔智大模型"
+  },
+  {
+    "module": "13",
+    "date": "2026-10-30",
+    "topic": "AI导师教学时机",
+    "title": "TutorMoments基准：AI导师何时该帮忙何时该沉默",
+    "level": "L1",
+    "depth": "基础",
+    "angle": "脚手架与推动严格性的教学动作评测框架",
+    "keywords_snippet": "TutorMoments,教学时机,脚手架,过度脚手架,推动严格性,建设性挣扎"
+  },
+  {
+    "module": "13",
+    "date": "2026-10-30",
+    "topic": "离线AI编程导师",
+    "title": "离线优先AI编程导师：低配安卓也能跑的普及式辅导",
+    "level": "L3",
+    "depth": "实践",
+    "angle": "端侧推理与内容预置的弱网工程实践",
+    "keywords_snippet": "离线优先,端侧推理,4比特量化,增量同步,弱网地区,智能练习册"
+  },
+  {
+    "module": "13",
+    "date": "2026-10-30",
+    "topic": "AI自主学习知识库陪练",
+    "title": "LearnBuddy：把资料变知识库的AI自主学习陪练",
+    "level": "L1",
+    "depth": "基础",
+    "angle": "知识库RAG加自动出题与错题回溯的自学闭环",
+    "keywords_snippet": "LearnBuddy,个人知识库RAG,自动出题,错题归因,间隔重复,主动回忆"
   }
 ]
