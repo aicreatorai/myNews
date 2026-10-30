@@ -2508,5 +2508,55 @@
     "depth": "基础",
     "angle": "知识库RAG加自动出题与错题回溯的自学闭环",
     "keywords_snippet": "LearnBuddy,个人知识库RAG,自动出题,错题归因,间隔重复,主动回忆"
+  },
+  {
+    "module": "13",
+    "date": "2026-10-31",
+    "topic": "教育部扶光计划教师AI素养培训",
+    "title": "教育部扶光计划启动：北大腾讯培育AI素养种子教师",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "师资培训公益项目与种子教师扩散机制",
+    "keywords_snippet": "扶光计划 北大 腾讯 中小学AI素养 种子教师"
+  },
+  {
+    "module": "13",
+    "date": "2026-10-31",
+    "topic": "国办发29号AI全学段教育与就业培训",
+    "title": "国办发29号落地：人工智能全学段教育写入就业政策",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "国家级就业友好政策中的AI全学段教育与专项培训",
+    "keywords_snippet": "国办发29号 人工智能全学段教育 专项培训 就业友好"
+  },
+  {
+    "module": "13",
+    "date": "2026-10-31",
+    "topic": "作业帮AI进校方案与云思PAD家校闭环",
+    "title": "作业帮AI进校方案首秀：云思PAD打通家校学习闭环",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "端云协同进校方案与家校数据闭环",
+    "keywords_snippet": "作业帮 云思AI智慧教学PAD 进校 家校互通"
+  },
+  {
+    "module": "13",
+    "date": "2026-10-31",
+    "topic": "AI学习指南生成器横评",
+    "title": "AI学习指南生成器横评：10款工具把笔记变可练题库",
+    "level": "L3",
+    "depth": "实践层",
+    "angle": "笔记转可练题库工具对比与主动回忆原理",
+    "keywords_snippet": "AI study guide maker iWeaver Knowt Mindgrasp StudyFetch"
+  },
+  {
+    "module": "13",
+    "date": "2026-10-31",
+    "topic": "企业AI培训平台自适应推送对比",
+    "title": "企业AI培训九强对比：自适应推送如何做技能补位",
+    "level": "L3",
+    "depth": "实践层",
+    "angle": "企业LMS/LXP自适应推送与技能补位选型",
+    "keywords_snippet": "Degreed Axonify Disco Absorb 企业AI培训 自适应"
   }
 ]

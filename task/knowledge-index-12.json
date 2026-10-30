@@ -3708,5 +3708,65 @@
     "depth": "进阶",
     "angle": "API加订阅双轨与能力外溢变现设计",
     "keywords_snippet": "ElevenLabs,语音AI,员工要约收购,220亿美元估值,声音克隆,语音Agent"
+  },
+  {
+    "module": "12",
+    "date": "2026-10-31",
+    "topic": "Cohere企业级AI融资",
+    "title": "Cohere获50亿美元融资 估值205亿美元 企业AI逆袭",
+    "level": "L3",
+    "depth": "实践层",
+    "angle": "企业级AI重资本路线与护城河",
+    "keywords_snippet": "Cohere 融资 估值 企业AI"
+  },
+  {
+    "module": "12",
+    "date": "2026-10-31",
+    "topic": "Physical Intelligence通用机器人大脑",
+    "title": "Physical Intelligence洽谈200亿美元估值 通用机器人大脑",
+    "level": "L3",
+    "depth": "实践层",
+    "angle": "零营收高估值与平台逻辑",
+    "keywords_snippet": "Physical Intelligence 融资 机器人 估值"
+  },
+  {
+    "module": "12",
+    "date": "2026-10-31",
+    "topic": "Utopai Studios AI影视基础设施",
+    "title": "Utopai Studios成全球最大独立AI影视公司 估值10亿美元",
+    "level": "L3",
+    "depth": "实践层",
+    "angle": "AI+垂直产业链估值逻辑",
+    "keywords_snippet": "Utopai AI影视 融资 估值"
+  },
+  {
+    "module": "12",
+    "date": "2026-10-31",
+    "topic": "YC2026完整交付趋势",
+    "title": "YC 2026夏季：AI创业从卖工具走向完整交付",
+    "level": "L4",
+    "depth": "前沿层",
+    "angle": "从卖工具到交付整份工作",
+    "keywords_snippet": "YC 2026 AI创业 完整交付"
+  },
+  {
+    "module": "12",
+    "date": "2026-10-31",
+    "topic": "垂直行业智能体创业机会",
+    "title": "黄仁勋指路：垂直行业智能体的普通创业者机会",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "开源模型+垂直行业切入",
+    "keywords_snippet": "垂直行业 智能体 创业 黄仁勋"
+  },
+  {
+    "module": "12",
+    "date": "2026-10-31",
+    "topic": "Edge AI小团队创业",
+    "title": "Edge AI小团队创业机会浪潮 端侧AI落地",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "端侧结果订阅与改造套件",
+    "keywords_snippet": "Edge AI 端侧 创业 机会"
   }
 ]

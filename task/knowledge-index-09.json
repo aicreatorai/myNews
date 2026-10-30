@@ -3508,5 +3508,65 @@
     "depth": "基础",
     "angle": "动态语言运行时与活系统架构",
     "keywords_snippet": "Pharo 14,RISC-V JIT,活镜像,Smalltalk,Spotter,SDL3"
+  },
+  {
+    "module": "09",
+    "date": "2026-10-31",
+    "topic": "Node.js 27 发布模型 LTS",
+    "title": "Node.js 27 取消奇偶版本：所有版本线均进 LTS",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "Node.js 发布模型从奇偶分流改为全LTS",
+    "keywords_snippet": "Node.js 27 LTS 发布模型 奇偶版本"
+  },
+  {
+    "module": "09",
+    "date": "2026-10-31",
+    "topic": "Rust 1.100 never type Cargo 冷却",
+    "title": "Rust 1.100 前瞻：never type 稳定化与 Cargo 依赖冷却",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "Rust 类型系统与供应链稳定性",
+    "keywords_snippet": "Rust 1.100 never type Cargo 冷却"
+  },
+  {
+    "module": "09",
+    "date": "2026-10-31",
+    "topic": "Python Go 2026 选型对比",
+    "title": "Python 3.15 对决 Go 1.27：数据核心与性能边界的选型",
+    "level": "L3",
+    "depth": "实践层",
+    "angle": "Python 与 Go 分层选型方法论",
+    "keywords_snippet": "Python Go 选型 对比 3.15 1.27"
+  },
+  {
+    "module": "09",
+    "date": "2026-10-31",
+    "topic": "Python PEP 850 836 打包 JIT",
+    "title": "Python 打包与 JIT 路线：PEP 850 硬件加速轮子与 PEP 836 撤回",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "Python 打包规范与 JIT 战略调整",
+    "keywords_snippet": "Python PEP 850 PEP 836 硬件加速轮子 JIT"
+  },
+  {
+    "module": "09",
+    "date": "2026-10-31",
+    "topic": "2026 编程语言生态趋势 AI 分工",
+    "title": "2026 编程语言生态趋势：AI 基建重写与多语言分层格局",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "2026 多语言分层与 AI 影响",
+    "keywords_snippet": "2026 编程语言 生态趋势 AI 分层"
+  },
+  {
+    "module": "09",
+    "date": "2026-10-31",
+    "topic": "Go 1.27 SIMD 云原生",
+    "title": "Go 1.27 实验性 SIMD 与云原生性能演进",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "Go 实验性 SIMD 与云原生性能",
+    "keywords_snippet": "Go 1.27 SIMD amd64 arm64 WASM"
   }
 ]

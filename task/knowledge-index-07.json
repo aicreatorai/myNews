@@ -4208,5 +4208,65 @@
     "depth": "实践",
     "angle": "生成过滤闭环与风险控制",
     "keywords_snippet": "自一致性过滤, 模型崩溃, 数据纯度, 幻觉遗传, 规则奖励"
+  },
+  {
+    "module": "07",
+    "date": "2026-10-31",
+    "topic": "AI可解释性与隐私保护",
+    "title": "AI可解释性：给黑箱模型装上为什么的说明书",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "XAI概念与黑箱解释",
+    "keywords_snippet": "XAI SHAP LIME 可解释性 黑箱"
+  },
+  {
+    "module": "07",
+    "date": "2026-10-31",
+    "topic": "AI可解释性与隐私保护",
+    "title": "特征归因SHAP与LIME：把模型决策拆成每个特征的贡献",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "特征归因原理与对比",
+    "keywords_snippet": "SHAP LIME 特征归因 博弈论 局部解释"
+  },
+  {
+    "module": "07",
+    "date": "2026-10-31",
+    "topic": "AI可解释性与隐私保护",
+    "title": "联邦学习与差分隐私：数据不出门也能联合训练AI",
+    "level": "L3",
+    "depth": "实践层",
+    "angle": "FL+DP三防合一工程落地",
+    "keywords_snippet": "联邦学习 差分隐私 VBDPFL TEA-XFEL 安全聚合"
+  },
+  {
+    "module": "07",
+    "date": "2026-10-31",
+    "topic": "MCP协议工具调用",
+    "title": "MCP模型上下文协议：AI连接外部工具的统一插座",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "MCP概念与统一接口",
+    "keywords_snippet": "MCP Model Context Protocol 工具调用 JSON-RPC"
+  },
+  {
+    "module": "07",
+    "date": "2026-10-31",
+    "topic": "MCP协议工具调用",
+    "title": "MCP传输层与架构：stdio、Streamable HTTP与JSON-RPC怎么选",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "传输层与无状态架构选型",
+    "keywords_snippet": "MCP stdio Streamable HTTP SSE JSON-RPC 传输层"
+  },
+  {
+    "module": "07",
+    "date": "2026-10-31",
+    "topic": "MCP协议工具调用",
+    "title": "动手搭一个MCP Server：把本地工具交给AI智能体调用",
+    "level": "L3",
+    "depth": "实践层",
+    "angle": "生产级MCP Server模板与守卫",
+    "keywords_snippet": "MCP Server 生产级 鉴权 审计 限流 守卫"
   }
 ]

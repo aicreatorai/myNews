@@ -3818,5 +3818,65 @@
     "depth": "前沿",
     "angle": "决策方法论",
     "keywords_snippet": "模型选型,决策框架,同题对决,基线对比,可替换架构"
+  },
+  {
+    "module": "15",
+    "date": "2026-10-31",
+    "topic": "主动式AI产品设计",
+    "title": "主动式AI产品设计：从被动响应到主动管事的范式跃迁",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "目标-观察-提醒链路与渐进式委托",
+    "keywords_snippet": "主动式设计 Proactive Design 灵光2.0 Personal Agent"
+  },
+  {
+    "module": "15",
+    "date": "2026-10-31",
+    "topic": "意图澄清机制",
+    "title": "意图澄清机制：AI产品如何把模糊需求收敛为可执行任务",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "不确定性管理与置信度表达",
+    "keywords_snippet": "意图澄清 Intent Clarification 槽位补全 置信度"
+  },
+  {
+    "module": "15",
+    "date": "2026-10-31",
+    "topic": "评估驱动开发",
+    "title": "评估驱动开发：把评估做成AI产品的核心能力",
+    "level": "L3",
+    "depth": "实践层",
+    "angle": "评估集与黄金测试用例闭环",
+    "keywords_snippet": "Eval-Driven Development 评估集 rubric 红队"
+  },
+  {
+    "module": "15",
+    "date": "2026-10-31",
+    "topic": "AI产品定价与单位经济",
+    "title": "AI产品定价与单位经济：订阅、按量与结果付费选型",
+    "level": "L3",
+    "depth": "实践层",
+    "angle": "订阅按量结果付费与单位经济建模",
+    "keywords_snippet": "定价 单位经济 Unit Economics 订阅 按量"
+  },
+  {
+    "module": "15",
+    "date": "2026-10-31",
+    "topic": "场景卡方法论",
+    "title": "场景卡方法论：AI产品经理如何把模糊意图变成可执行需求",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "四要素需求定义替代PRD",
+    "keywords_snippet": "场景卡 Scenario Card 触发场景 成功标准"
+  },
+  {
+    "module": "15",
+    "date": "2026-10-31",
+    "topic": "AI原生产品设计",
+    "title": "AI原生产品设计：当大模型开始参与自己的界面设计",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "AI原生设计趋势与PM启示",
+    "keywords_snippet": "AI-native Design 生成式原型 设计系统智能化"
   }
 ]

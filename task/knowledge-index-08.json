@@ -3696,5 +3696,65 @@
     "depth": "实践",
     "angle": "量化与解码参数调优实现离线词级时间戳字幕",
     "keywords_snippet": "GGML量化 Metal加速 beam search 词级时间戳 提示词引导 VAD静音幻觉 本地HTTP服务"
+  },
+  {
+    "module": "08",
+    "date": "2026-10-31",
+    "topic": "GitHub Copilot Fusion",
+    "title": "GitHub Copilot Fusion：让AI自动选模型与级联路由",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "模型路由与草稿评审机制",
+    "keywords_snippet": "Copilot Fusion 模型路由 cascade draft-review"
+  },
+  {
+    "module": "08",
+    "date": "2026-10-31",
+    "topic": "通义灵码2.0",
+    "title": "通义灵码2.0：多文件自主编程与Diff审查实战",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "国产AI编程智能体入门",
+    "keywords_snippet": "通义灵码 编程智能体 多文件 Diff TestAgent"
+  },
+  {
+    "module": "08",
+    "date": "2026-10-31",
+    "topic": "Cursor桌面控制",
+    "title": "Cursor智能体：让AI操作桌面应用做端到端验证",
+    "level": "L3",
+    "depth": "实践层",
+    "angle": "agent操作iOS模拟器端到端验证",
+    "keywords_snippet": "Cursor agent desktop control iOS Simulator 验证"
+  },
+  {
+    "module": "08",
+    "date": "2026-10-31",
+    "topic": "讯飞星火会议纪要",
+    "title": "讯飞星火：AI会议纪要转写与待办自动抽取",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "录音转写待办抽取用法",
+    "keywords_snippet": "讯飞星火 会议纪要 ASR 待办抽取"
+  },
+  {
+    "module": "08",
+    "date": "2026-10-31",
+    "topic": "Kimi PPT助手",
+    "title": "Kimi PPT助手：上传文档一键生成汇报幻灯片",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "文档转PPT实操",
+    "keywords_snippet": "Kimi PPT slides 文档转PPT"
+  },
+  {
+    "module": "08",
+    "date": "2026-10-31",
+    "topic": "Claude Code hooks",
+    "title": "Claude Code hooks：用钩子做自动代码守护与路由",
+    "level": "L4",
+    "depth": "前沿层",
+    "angle": "hooks强制代码门禁与模型路由",
+    "keywords_snippet": "Claude Code hooks PreToolUse PostToolUse 门禁"
   }
 ]

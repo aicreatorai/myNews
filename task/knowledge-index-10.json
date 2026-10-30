@@ -3898,5 +3898,65 @@
     "depth": "基础",
     "angle": "设计规范注入矫正AI生成界面审美",
     "keywords_snippet": "Hallmark,反AI味,设计技能,CSS,前端生成"
+  },
+  {
+    "module": "10",
+    "date": "2026-10-31",
+    "topic": "LangGraph",
+    "title": "LangGraph：用状态图编排有记忆的多智能体工作流",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "状态图编排与人在环",
+    "keywords_snippet": "LangGraph StateGraph 多智能体 有状态编排"
+  },
+  {
+    "module": "10",
+    "date": "2026-10-31",
+    "topic": "shimmy",
+    "title": "shimmy：纯 Rust WebGPU 推理引擎，单二进制免 Python",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "WebGPU 单二进制推理",
+    "keywords_snippet": "shimmy Rust WebGPU 单二进制 推理"
+  },
+  {
+    "module": "10",
+    "date": "2026-10-31",
+    "topic": "GitButler",
+    "title": "GitButler：用虚拟分支重塑 Git 工作流的 AI 客户端",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "虚拟分支并行开发",
+    "keywords_snippet": "GitButler 虚拟分支 版本控制"
+  },
+  {
+    "module": "10",
+    "date": "2026-10-31",
+    "topic": "meetily",
+    "title": "meetily：100% 本地运行的隐私优先 AI 会议记录工具",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "本地隐私会议记录",
+    "keywords_snippet": "meetily 本地 隐私 会议记录"
+  },
+  {
+    "module": "10",
+    "date": "2026-10-31",
+    "topic": "soup",
+    "title": "soup：一个 YAML 文件搞定 8B 模型微调的 LLM 训练工具",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "声明式 YAML 微调",
+    "keywords_snippet": "soup YAML 微调 QLoRA 消费级"
+  },
+  {
+    "module": "10",
+    "date": "2026-10-31",
+    "topic": "Garnet",
+    "title": "Garnet：微软开源的 Redis 替代远程缓存与存储引擎",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "Redis 替代缓存存储",
+    "keywords_snippet": "Garnet 微软 Redis 缓存 存储"
   }
 ]
