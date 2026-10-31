@@ -3568,5 +3568,65 @@
     "depth": "技术层",
     "angle": "Go 实验性 SIMD 与云原生性能",
     "keywords_snippet": "Go 1.27 SIMD amd64 arm64 WASM"
+  },
+  {
+    "module": "09",
+    "date": "2026-11-01",
+    "topic": "TypeScript 原生编译器",
+    "title": "TypeScript 7.0 原生编译器重写提速构建",
+    "level": "L2",
+    "depth": "原理拆解",
+    "angle": "Rust 重写编译器后端与类型检查提速",
+    "keywords_snippet": "TypeScript 7.0 tsgo Rust 重写 原生编译器 类型检查"
+  },
+  {
+    "module": "09",
+    "date": "2026-11-01",
+    "topic": "Java 26 新特性",
+    "title": "Java 26 携 HTTP/3 与结构化并发落地",
+    "level": "L2",
+    "depth": "原理拆解",
+    "angle": "HTTP/3 与结构化并发第六次预览",
+    "keywords_snippet": "Java 26 JDK 26 HTTP/3 结构化并发 G1 WASI"
+  },
+  {
+    "module": "09",
+    "date": "2026-11-01",
+    "topic": "WebAssembly 组件模型",
+    "title": "WebAssembly 组件模型打通跨语言边界",
+    "level": "L2",
+    "depth": "原理拆解",
+    "angle": "组件模型与 WASI 能力模型",
+    "keywords_snippet": "WebAssembly 组件模型 WASI Wit 沙箱 capability"
+  },
+  {
+    "module": "09",
+    "date": "2026-11-01",
+    "topic": "Gleam 语言",
+    "title": "Gleam 以类型安全冲击 BEAM 函数式生态",
+    "level": "L2",
+    "depth": "原理拆解",
+    "angle": "静态类型补 BEAM 动态短板",
+    "keywords_snippet": "Gleam BEAM 静态类型 函数式 admire 70%"
+  },
+  {
+    "module": "09",
+    "date": "2026-11-01",
+    "topic": "Swift 6.3 C 互操作",
+    "title": "Swift 6.3 增强 C 互操作与跨平台构建",
+    "level": "L2",
+    "depth": "原理拆解",
+    "angle": "@c 属性双向暴露与统一构建引擎",
+    "keywords_snippet": "Swift 6.3 @c C 互操作 统一构建引擎 Android SDK"
+  },
+  {
+    "module": "09",
+    "date": "2026-11-01",
+    "topic": "Mojo 语言",
+    "title": "Mojo 以 Python 语法重写 AI 原生计算",
+    "level": "L2",
+    "depth": "原理拆解",
+    "angle": "Python 语法兼容与编译期并行",
+    "keywords_snippet": "Mojo Modular Python 语法 AI 原生 并行 SIMD"
   }
 ]

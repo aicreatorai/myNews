@@ -3756,5 +3756,65 @@
     "depth": "前沿层",
     "angle": "hooks强制代码门禁与模型路由",
     "keywords_snippet": "Claude Code hooks PreToolUse PostToolUse 门禁"
+  },
+  {
+    "module": "08",
+    "date": "2026-11-01",
+    "topic": "Qwen Code 开源终端编程Agent",
+    "title": "Qwen Code：通义开源的终端编程Agent接管你的工程",
+    "level": "L2",
+    "depth": "原理拆解(Agent循环/自动技能/MCP)",
+    "angle": "开发者用自然语言驱动Agent改代码并自测",
+    "keywords_snippet": "Qwen Code 终端编程Agent 自动记忆 MCP 子Agent 本地模型"
+  },
+  {
+    "module": "08",
+    "date": "2026-11-01",
+    "topic": "Vidu 多主体一致性AI视频",
+    "title": "Vidu：多主体参考生视频让角色在AI视频里始终如一",
+    "level": "L2",
+    "depth": "原理拆解(参考生视频/主体约束)",
+    "angle": "解决AI视频角色漂移实现连续叙事",
+    "keywords_snippet": "Vidu 参考生视频 多主体一致性 主体库 首尾帧"
+  },
+  {
+    "module": "08",
+    "date": "2026-11-01",
+    "topic": "即梦AI 图文创作",
+    "title": "即梦AI：字节的AI图文创作把灵感秒变海报与短片",
+    "level": "L2",
+    "depth": "原理拆解(文生图/图文转视频)",
+    "angle": "非设计人员快速出图出片的低门槛工作流",
+    "keywords_snippet": "即梦AI 字节 文生图 局部重绘 图文转视频"
+  },
+  {
+    "module": "08",
+    "date": "2026-11-01",
+    "topic": "天工AI音乐 生成",
+    "title": "天工AI音乐：一句话生成可商用原创歌曲与配乐",
+    "level": "L2",
+    "depth": "原理拆解(文本到音乐表征)",
+    "angle": "创作者按需生成贴合情绪的可商用配乐",
+    "keywords_snippet": "天工AI音乐 昆仑万维 文本生成音乐 商用授权 情绪贴合"
+  },
+  {
+    "module": "08",
+    "date": "2026-11-01",
+    "topic": "Perplexity 实时检索问答",
+    "title": "Perplexity：带出处链接的AI实时检索问答替代盲搜",
+    "level": "L2",
+    "depth": "原理拆解(RAG检索增强)",
+    "angle": "用带出处的实时检索替代盲搜与凭记忆作答",
+    "keywords_snippet": "Perplexity 检索增强生成 RAG 来源链接 实时联网"
+  },
+  {
+    "module": "08",
+    "date": "2026-11-01",
+    "topic": "Adobe Podcast 音频增强",
+    "title": "Adobe Podcast：用AI一键去除录音噪声让人声更清晰",
+    "level": "L2",
+    "depth": "原理拆解(人声噪声分离)",
+    "angle": "非专业环境录音一键降噪的零门槛工作流",
+    "keywords_snippet": "Adobe Podcast 增强语音 降噪 人声分离 转录"
   }
 ]

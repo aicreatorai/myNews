@@ -3878,5 +3878,65 @@
     "depth": "概念层",
     "angle": "AI原生设计趋势与PM启示",
     "keywords_snippet": "AI-native Design 生成式原型 设计系统智能化"
+  },
+  {
+    "module": "15",
+    "date": "2026-11-01",
+    "topic": "AI产品三层次指标",
+    "title": "AI产品三层次指标：分开看模型质量与业务价值",
+    "level": "L2",
+    "depth": "原理拆解",
+    "angle": "把模型质量、用户体验、业务价值分层度量",
+    "keywords_snippet": "三层次指标,模型质量,用户体验,业务影响,覆盖改写率"
+  },
+  {
+    "module": "15",
+    "date": "2026-11-01",
+    "topic": "自然语言驱动原型",
+    "title": "自然语言做原型：一句话生成可点击MVP验证需求",
+    "level": "L2",
+    "depth": "原理拆解",
+    "angle": "描述即设计把想法快速落成可点Demo",
+    "keywords_snippet": "自然语言原型,描述即设计,状态表,可复用提示库"
+  },
+  {
+    "module": "15",
+    "date": "2026-11-01",
+    "topic": "AI需求验证三问法",
+    "title": "AI需求验证三问法：先问该不该用AI再谈怎么做",
+    "level": "L2",
+    "depth": "原理拆解",
+    "angle": "立项前用三问法拦掉伪需求",
+    "keywords_snippet": "需求验证三问法,最小可行AI,机会成本"
+  },
+  {
+    "module": "15",
+    "date": "2026-11-01",
+    "topic": "AI产品从原型到生产",
+    "title": "AI产品从原型到生产：先验证最危险的AI交互",
+    "level": "L2",
+    "depth": "原理拆解",
+    "angle": "工作流优先先验证最危险AI交互",
+    "keywords_snippet": "原型到生产,工作流优先,灰度门禁"
+  },
+  {
+    "module": "15",
+    "date": "2026-11-01",
+    "topic": "人机协作分界线",
+    "title": "人机协作分界线：AI初稿加人类精修采纳率翻倍",
+    "level": "L2",
+    "depth": "原理拆解",
+    "angle": "AI初稿加人类精修提升采纳率",
+    "keywords_snippet": "人机协作,采纳率,AI初稿,判断权"
+  },
+  {
+    "module": "15",
+    "date": "2026-11-01",
+    "topic": "高可用RAG产品化",
+    "title": "高可用RAG产品化：混合检索与语义切块避坑",
+    "level": "L2",
+    "depth": "原理拆解",
+    "angle": "混合检索与语义切块提升RAG可用性",
+    "keywords_snippet": "RAG,混合检索,Rerank,语义切块"
   }
 ]

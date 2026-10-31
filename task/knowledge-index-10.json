@@ -3958,5 +3958,65 @@
     "depth": "概念层",
     "angle": "Redis 替代缓存存储",
     "keywords_snippet": "Garnet 微软 Redis 缓存 存储"
+  },
+  {
+    "module": "10",
+    "date": "2026-11-01",
+    "topic": "Python包与项目管理工具",
+    "title": "uv：一个工具取代pip与虚拟环境的Python管家",
+    "level": "L2",
+    "depth": "原理拆解",
+    "angle": "Rust重写工具链统一",
+    "keywords_snippet": "uv,astral,Python,包管理,虚拟环境,pip替代"
+  },
+  {
+    "module": "10",
+    "date": "2026-11-01",
+    "topic": "嵌入式分析型数据库",
+    "title": "DuckDB：直接在文件上跑分析型SQL的嵌入式引擎",
+    "level": "L2",
+    "depth": "原理拆解",
+    "angle": "进程内OLAP与文件直查",
+    "keywords_snippet": "DuckDB,OLAP,SQLite,CSV,Parquet,嵌入式SQL"
+  },
+  {
+    "module": "10",
+    "date": "2026-11-01",
+    "topic": "DataFrame数据处理库",
+    "title": "Polars：用Rust重写的极速DataFrame数据处理库",
+    "level": "L2",
+    "depth": "原理拆解",
+    "angle": "列式多线程惰性求值",
+    "keywords_snippet": "Polars,Rust,DataFrame,Apache Arrow,惰性求值,多线程"
+  },
+  {
+    "module": "10",
+    "date": "2026-11-01",
+    "topic": "Python代码质量工具",
+    "title": "Ruff：用Rust写的极速Python代码检查与格式化工具",
+    "level": "L2",
+    "depth": "原理拆解",
+    "angle": "单工具替代Flake8与Black",
+    "keywords_snippet": "Ruff,Astral,lint,format,Python,Rust"
+  },
+  {
+    "module": "10",
+    "date": "2026-11-01",
+    "topic": "多AI代理工作台",
+    "title": "openbot：本地优先的持久化AI队友桌面工作台",
+    "level": "L2",
+    "depth": "原理拆解",
+    "angle": "多代理隔离与协作",
+    "keywords_snippet": "openbot,AI队友,local-first,任务队列,工作区"
+  },
+  {
+    "module": "10",
+    "date": "2026-11-01",
+    "topic": "Agentic IDE",
+    "title": "thinkrail：JetBrains开源的pi智能体专用IDE",
+    "level": "L2",
+    "depth": "原理拆解",
+    "angle": "worktree隔离与SPEC沉淀",
+    "keywords_snippet": "thinkrail,JetBrains,pi,agentic IDE,worktree"
   }
 ]

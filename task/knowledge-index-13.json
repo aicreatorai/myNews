@@ -2558,5 +2558,55 @@
     "depth": "实践层",
     "angle": "企业LMS/LXP自适应推送与技能补位选型",
     "keywords_snippet": "Degreed Axonify Disco Absorb 企业AI培训 自适应"
+  },
+  {
+    "module": "13",
+    "date": "2026-11-01",
+    "topic": "教育部高校AI师资培训",
+    "title": "教育部2026高校AI师资培训：全员拿证计划",
+    "level": "L2",
+    "depth": "原理拆解",
+    "angle": "国家平台规模化教师AI培训闭环",
+    "keywords_snippet": "师资培训 素养测评 微证书 适应性推送"
+  },
+  {
+    "module": "13",
+    "date": "2026-11-01",
+    "topic": "国际中文教育AI",
+    "title": "水杉中文：用AI教汉语的国际中文平台",
+    "level": "L2",
+    "depth": "原理拆解",
+    "angle": "AI赋能汉语作为第二语教学",
+    "keywords_snippet": "国际中文 二语习得 汉字识别 语音评测"
+  },
+  {
+    "module": "13",
+    "date": "2026-11-01",
+    "topic": "AI陪伴学习硬件",
+    "title": "AI陪伴台灯：护眼学习终端的家庭辅导",
+    "level": "L2",
+    "depth": "原理拆解",
+    "angle": "轻陪伴形态的家庭书桌场景",
+    "keywords_snippet": "AI台灯 护眼 学习计划 行为设计"
+  },
+  {
+    "module": "13",
+    "date": "2026-11-01",
+    "topic": "教育垂类大模型校本落地",
+    "title": "教育垂类大模型：校本24智能体落地",
+    "level": "L2",
+    "depth": "原理拆解",
+    "angle": "校本数据微调加智能体分工",
+    "keywords_snippet": "垂类大模型 智能体 RAG 数据飞轮"
+  },
+  {
+    "module": "13",
+    "date": "2026-11-01",
+    "topic": "超拟人AI老师个性化辅导",
+    "title": "超拟人AI老师：分层引导从会教到教会",
+    "level": "L2",
+    "depth": "原理拆解",
+    "angle": "一科一策分层引导代替直接给答案",
+    "keywords_snippet": "超拟人AI老师 脚手架 最近发展区 生成效应"
   }
 ]

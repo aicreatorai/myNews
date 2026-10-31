@@ -4268,5 +4268,65 @@
     "depth": "实践层",
     "angle": "生产级MCP Server模板与守卫",
     "keywords_snippet": "MCP Server 生产级 鉴权 审计 限流 守卫"
+  },
+  {
+    "module": "07",
+    "date": "2026-11-01",
+    "topic": "知识蒸馏",
+    "title": "知识蒸馏：把大模型能力压缩进小模型的蒸馏术",
+    "level": "L2",
+    "depth": "原理拆解",
+    "angle": "模型压缩与能力迁移",
+    "keywords_snippet": "知识蒸馏/教师学生/软标签/温度/MOPD/SA-OPD"
+  },
+  {
+    "module": "07",
+    "date": "2026-11-01",
+    "topic": "函数调用与工具调用",
+    "title": "函数调用与工具调用：让大模型动手操作外部系统的接口",
+    "level": "L1",
+    "depth": "机制原理",
+    "angle": "工具调用接口与Agent原语",
+    "keywords_snippet": "Function Calling/工具调用/JSON Schema/MCP/多轮调用"
+  },
+  {
+    "module": "07",
+    "date": "2026-11-01",
+    "topic": "模型量化AWQ GPTQ",
+    "title": "模型量化AWQ与GPTQ：把权重压到4比特的部署术",
+    "level": "L2",
+    "depth": "部署压缩",
+    "angle": "4bit量化降本部署",
+    "keywords_snippet": "量化/AWQ/GPTQ/INT4/FP8/校准/显存"
+  },
+  {
+    "module": "07",
+    "date": "2026-11-01",
+    "topic": "RLHF与DPO对齐",
+    "title": "RLHF与DPO对齐：用人类偏好教会模型守规矩",
+    "level": "L3",
+    "depth": "训练对齐",
+    "angle": "人类偏好对齐与偏好优化",
+    "keywords_snippet": "RLHF/DPO/偏好优化/奖励模型/对齐/SFT"
+  },
+  {
+    "module": "07",
+    "date": "2026-11-01",
+    "topic": "投机解码与KV Cache",
+    "title": "投机解码与KVCache：草稿验证让大模型提速三倍",
+    "level": "L2",
+    "depth": "推理加速",
+    "angle": "无损推理加速",
+    "keywords_snippet": "投机解码/草稿模型/KV Cache/EAGLE/MTP/无损"
+  },
+  {
+    "module": "07",
+    "date": "2026-11-01",
+    "topic": "模型剪枝",
+    "title": "模型剪枝：删掉冗余参数给大模型瘦身的压缩术",
+    "level": "L1",
+    "depth": "模型压缩",
+    "angle": "参数稀疏化与压缩流水线",
+    "keywords_snippet": "剪枝/稀疏/结构化/非结构化/SparseGPT/Wanda/MixT"
   }
 ]
