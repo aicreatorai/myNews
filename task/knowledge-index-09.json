@@ -3628,5 +3628,65 @@
     "depth": "原理拆解",
     "angle": "Python 语法兼容与编译期并行",
     "keywords_snippet": "Mojo Modular Python 语法 AI 原生 并行 SIMD"
+  },
+  {
+    "module": "09",
+    "date": "2026-11-02",
+    "topic": "C# Final Initializers 与 Native AOT",
+    "title": "C# Final Initializers 复活与 Native AOT 逼近 C 性能",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "语言特性复活与AOT性能逼近C",
+    "keywords_snippet": "C# Final Initializers Native AOT VLC 视频滤镜"
+  },
+  {
+    "module": "09",
+    "date": "2026-11-02",
+    "topic": "Julia 重返 TIOBE 前二十",
+    "title": "Julia 时隔多年重返 TIOBE 前二十：科学计算语言回潮",
+    "level": "L4",
+    "depth": "前沿层",
+    "angle": "榜单趋势与科学计算语言回潮",
+    "keywords_snippet": "Julia TIOBE 前二十 科学计算 数值性能"
+  },
+  {
+    "module": "09",
+    "date": "2026-11-02",
+    "topic": "C 语言跃居 TIOBE 第二",
+    "title": "C 语言跃居 TIOBE 第二：嵌入式与系统编程逆周期回潮",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "系统编程与嵌入式需求回潮",
+    "keywords_snippet": "C 语言 TIOBE 第二 嵌入式 系统编程"
+  },
+  {
+    "module": "09",
+    "date": "2026-11-02",
+    "topic": "Rust 进入 systemd 与 tsrs 编译器",
+    "title": "Rust 进入 systemd 与 tsrs 编译器：系统层与工具链双线突破",
+    "level": "L4",
+    "depth": "前沿层",
+    "angle": "生态渗透系统层与工具链重写",
+    "keywords_snippet": "Rust systemd tsrs TypeScript 编译器 Oxc"
+  },
+  {
+    "module": "09",
+    "date": "2026-11-02",
+    "topic": "R 语言升至 TIOBE 第八",
+    "title": "R 语言升至 TIOBE 第八：数据科学语言在 AI 时代的价值回归",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "统计语言在AI时代的价值回归",
+    "keywords_snippet": "R 语言 TIOBE 第八 统计计算 数据科学"
+  },
+  {
+    "module": "09",
+    "date": "2026-11-02",
+    "topic": "C++ 稳居 TIOBE 第三",
+    "title": "C++ 稳居 TIOBE 第三：高性能计算与信奥竞赛的双锚点",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "高性能计算与信奥竞赛基本盘",
+    "keywords_snippet": "C++ TIOBE 第三 高性能 信奥 游戏引擎"
   }
 ]

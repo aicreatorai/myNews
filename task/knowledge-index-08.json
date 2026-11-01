@@ -3816,5 +3816,65 @@
     "depth": "原理拆解(人声噪声分离)",
     "angle": "非专业环境录音一键降噪的零门槛工作流",
     "keywords_snippet": "Adobe Podcast 增强语音 降噪 人声分离 转录"
+  },
+  {
+    "module": "08",
+    "date": "2026-11-02",
+    "topic": "Gemini 多模态对话",
+    "title": "Gemini 多模态实战：用浮层与文件对话提升日常生产力",
+    "level": "L2",
+    "depth": "技术/实践层",
+    "angle": "浮层与文件对话工作流",
+    "keywords_snippet": "Gemini 多模态 浮层 文件对话 提示词"
+  },
+  {
+    "module": "08",
+    "date": "2026-11-02",
+    "topic": "豆包 AI 助手",
+    "title": "豆包 AI 助手：一个工具搞定办公创作与多模态的日常用法",
+    "level": "L1",
+    "depth": "概念/入门层",
+    "angle": "日常办公创作多模态用法",
+    "keywords_snippet": "豆包 国产 办公 多模态 创作"
+  },
+  {
+    "module": "08",
+    "date": "2026-11-02",
+    "topic": "剪映图文成片",
+    "title": "剪映图文成片：10分钟把文章变成一条可发短视频",
+    "level": "L2",
+    "depth": "技术/实践层",
+    "angle": "图文转短视频流水线",
+    "keywords_snippet": "剪映 图文成片 短视频 AI字幕 配音"
+  },
+  {
+    "module": "08",
+    "date": "2026-11-02",
+    "topic": "扣子 Coze 智能体",
+    "title": "扣子 Coze 零代码：拖拽工作流30分钟搭出AI客服Bot",
+    "level": "L2",
+    "depth": "技术/实践层",
+    "angle": "零代码工作流搭建",
+    "keywords_snippet": "扣子 Coze 工作流 智能体 零代码"
+  },
+  {
+    "module": "08",
+    "date": "2026-11-02",
+    "topic": "Claude 项目提示词",
+    "title": "Claude 项目与提示词：用结构化指令管住长任务",
+    "level": "L2",
+    "depth": "技术/实践层",
+    "angle": "结构化指令管长任务",
+    "keywords_snippet": "Claude 提示词 项目 结构化 复述"
+  },
+  {
+    "module": "08",
+    "date": "2026-11-02",
+    "topic": "Dify 本地部署",
+    "title": "Dify 本地部署：上传资料搭建企业知识库问答",
+    "level": "L3",
+    "depth": "实践层",
+    "angle": "自托管知识库问答",
+    "keywords_snippet": "Dify 本地部署 RAG 知识库 自托管"
   }
 ]

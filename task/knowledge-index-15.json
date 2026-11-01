@@ -3938,5 +3938,65 @@
     "depth": "原理拆解",
     "angle": "混合检索与语义切块提升RAG可用性",
     "keywords_snippet": "RAG,混合检索,Rerank,语义切块"
+  },
+  {
+    "module": "15",
+    "date": "2026-11-02",
+    "topic": "数据飞轮",
+    "title": "数据飞轮：让AI产品从成本中心变利润中心",
+    "level": "L2",
+    "depth": "机制层",
+    "angle": "用反馈闭环把AI从成本中心变利润中心",
+    "keywords_snippet": "数据飞轮 反馈闭环 数据回路 利润中心"
+  },
+  {
+    "module": "15",
+    "date": "2026-11-02",
+    "topic": "三Pro设计框架",
+    "title": "三Pro设计框架：出海营销智能体如何持续赚钱",
+    "level": "L2",
+    "depth": "框架层",
+    "angle": "Professional/Proactive/Profitable重构Agent产品设计",
+    "keywords_snippet": "Pro Agent 三Pro 主动决策 结果校验"
+  },
+  {
+    "module": "15",
+    "date": "2026-11-02",
+    "topic": "企业AI使用可见性",
+    "title": "企业AI监控功能设计：Claude智能报告的产品启示",
+    "level": "L2",
+    "depth": "功能设计层",
+    "angle": "企业级AI监控功能的隐私与信任边界",
+    "keywords_snippet": "使用可见性 智能报告 监控 信任边界"
+  },
+  {
+    "module": "15",
+    "date": "2026-11-02",
+    "topic": "企业智能体成活逻辑",
+    "title": "企业智能体翻车实录：拦截用户而非解决问题",
+    "level": "L3",
+    "depth": "实践层",
+    "angle": "从失败案例提炼Agent成活检查清单",
+    "keywords_snippet": "智能体翻车 拦截用户 成活逻辑 失败复盘"
+  },
+  {
+    "module": "15",
+    "date": "2026-11-02",
+    "topic": "AI时代UX工作流",
+    "title": "AI时代UX工作流：把设计反馈环压到一天",
+    "level": "L3",
+    "depth": "实践层",
+    "angle": "压缩反馈环重构UX设计流程",
+    "keywords_snippet": "UX工作流 反馈环 设计系统MCP 原型"
+  },
+  {
+    "module": "15",
+    "date": "2026-11-02",
+    "topic": "功能vs产品生死线",
+    "title": "AI产品生死线：从功能到产品的差异化生存",
+    "level": "L2",
+    "depth": "方法论层",
+    "angle": "用三问筛掉伪需求避免进AI墓地",
+    "keywords_snippet": "AI墓地 功能vs产品 差异化 立项三问"
   }
 ]

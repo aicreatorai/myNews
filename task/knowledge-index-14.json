@@ -3818,5 +3818,65 @@
     "depth": "演绎拆解与白痴指数",
     "angle": "拆解假设与惯性成本",
     "keywords_snippet": "第一性原理 马斯克 白痴指数 类比推理 拆解假设"
+  },
+  {
+    "module": "14",
+    "date": "2026-11-02",
+    "topic": "减法工作法",
+    "title": "减法工作法：用ECRS砍掉八成无效忙碌",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "ECRS四法则删减低价值任务，注意力残留与决策疲劳支撑",
+    "keywords_snippet": "减法工作法 ECRS 八成减杂 注意力残留 决策疲劳 伪劳动"
+  },
+  {
+    "module": "14",
+    "date": "2026-11-02",
+    "topic": "心理灵活性",
+    "title": "心理灵活性：用规律作息训练大脑应变力",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "ACT框架，规律作息与心理灵活性相关性，认知重评",
+    "keywords_snippet": "心理灵活性 ACT 心理僵化 规律作息 认知重评 宾汉姆顿"
+  },
+  {
+    "module": "14",
+    "date": "2026-11-02",
+    "topic": "AI辅助CBT",
+    "title": "AI辅助CBT：社交焦虑的数字疗法新证据",
+    "level": "L3",
+    "depth": "实践层",
+    "angle": "随机对照试验证据，AI反馈vs人类治疗师疗效相当",
+    "keywords_snippet": "AI辅助CBT 社交焦虑 随机对照试验 Internet Interventions 认知重构"
+  },
+  {
+    "module": "14",
+    "date": "2026-11-02",
+    "topic": "时间感知悖论",
+    "title": "时间感知悖论：用新鲜体验对抗岁月加速",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "主观时间与记忆密度，新体验编码对抗时间加速感",
+    "keywords_snippet": "时间感知 主观时间 记忆密度 新体验 自传体记忆 反刍"
+  },
+  {
+    "module": "14",
+    "date": "2026-11-02",
+    "topic": "怀旧时间滤镜",
+    "title": "怀旧时间滤镜：用回忆重塑当下价值选择",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "怀旧前瞻性价值重塑，本质取向，决策校准",
+    "keywords_snippet": "怀旧 时间滤镜 价值重塑 本质取向 姜佟琳 持久价值"
+  },
+  {
+    "module": "14",
+    "date": "2026-11-02",
+    "topic": "元认知决策日记",
+    "title": "元认知决策日记：用记录拆穿思维盲区",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "元认知监控与双系统理论，决策日记外化思维盲区",
+    "keywords_snippet": "元认知 决策日记 双系统 确认偏误 思维盲区 Flavell"
   }
 ]

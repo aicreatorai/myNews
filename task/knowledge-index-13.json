@@ -2608,5 +2608,55 @@
     "depth": "原理拆解",
     "angle": "一科一策分层引导代替直接给答案",
     "keywords_snippet": "超拟人AI老师 脚手架 最近发展区 生成效应"
+  },
+  {
+    "module": "13",
+    "date": "2026-11-02",
+    "topic": "AI教育场景清单",
+    "title": "北京AI教育双清单发布：语言学习与智能答疑如何落地中小学课堂",
+    "level": "L3",
+    "depth": "实践层",
+    "angle": "市级场景框架落地",
+    "keywords_snippet": "双清单 语言学习 智能答疑 场景地图"
+  },
+  {
+    "module": "13",
+    "date": "2026-11-02",
+    "topic": "产教融合 AI实践实验室",
+    "title": "华为AIPL实践实验室：用真场景真数据重构高校AI人才培养",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "真场景真数据真算法育人",
+    "keywords_snippet": "AIPL 产教融合 慢科研 真实任务"
+  },
+  {
+    "module": "13",
+    "date": "2026-11-02",
+    "topic": "AI英语写作听说",
+    "title": "AI赋能初中英语写作与听说自适应练习：北京八十中实践路径",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "自适应练习反馈机制",
+    "keywords_snippet": "写作批改 听说自适应 过程写作 i+1"
+  },
+  {
+    "module": "13",
+    "date": "2026-11-02",
+    "topic": "AI备课 数学情境",
+    "title": "教师用AI备情境课：把数学算式变成学生熟悉的生活问题",
+    "level": "L3",
+    "depth": "实践层",
+    "angle": "教师三道工序选改补",
+    "keywords_snippet": "情境认知 锚定教学 认知负荷 乘加乘减"
+  },
+  {
+    "module": "13",
+    "date": "2026-11-02",
+    "topic": "数学游戏化 自适应练习",
+    "title": "数学游戏化平台Matiks获千万美元融资：AI把练习变闯关的启示",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "生成式关卡与心流",
+    "keywords_snippet": "Matiks 游戏化 心流 掌握学习 自适应"
   }
 ]

@@ -3828,5 +3828,65 @@
     "depth": "政策红利拆解",
     "angle": "政府搭台资本跟进场景落地",
     "keywords_snippet": "工信部 2026-2028 万家 小巨人 普惠算力 耐心资本 一人公司"
+  },
+  {
+    "module": "12",
+    "date": "2026-11-02",
+    "topic": "推理即服务",
+    "title": "把推理做成可计费服务：Baseten九月估值翻六倍",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "推理托管平台的商业模式与工程护城河",
+    "keywords_snippet": "推理即服务 Baseten 弹性扩缩容 按Token计费"
+  },
+  {
+    "module": "12",
+    "date": "2026-11-02",
+    "topic": "算力二房东",
+    "title": "算力二房东生意：租GPU卖Token月入超七百万元",
+    "level": "L3",
+    "depth": "实践层",
+    "angle": "租GPU部署开源模型按Token售卖的账本与价格战",
+    "keywords_snippet": "算力二房东 GPU租赁 DeepSeek Token套利"
+  },
+  {
+    "module": "12",
+    "date": "2026-11-02",
+    "topic": "大模型对话电商",
+    "title": "双11对话框挂价签：大模型导购佣金变现路径",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "对话框内嵌商品卡赚佣金的变现概念",
+    "keywords_snippet": "对话电商 导购佣金 双11 豆包千问"
+  },
+  {
+    "module": "12",
+    "date": "2026-11-02",
+    "topic": "营销倒推开发",
+    "title": "营销倒推开发：第45个APP月订阅破21万元",
+    "level": "L3",
+    "depth": "实践层",
+    "angle": "一人APP订阅的营销倒推开发实操",
+    "keywords_snippet": "独立开发 Snag 营销倒推 订阅制"
+  },
+  {
+    "module": "12",
+    "date": "2026-11-02",
+    "topic": "AI技能包",
+    "title": "给AI编程助手卖技能包：数字产品被动收入破万元",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "AI编程技能包数字产品的制作与上架路径",
+    "keywords_snippet": "技能包 Skillry Uizze 数字产品 被动收入"
+  },
+  {
+    "module": "12",
+    "date": "2026-11-02",
+    "topic": "AI出海合规即服务",
+    "title": "AI出海合规即服务：中小厂商自查清单变现金",
+    "level": "L4",
+    "depth": "前沿层",
+    "angle": "出海合规工程化与自查清单变现",
+    "keywords_snippet": "出海合规 技术目录 自查清单 Token订单"
   }
 ]

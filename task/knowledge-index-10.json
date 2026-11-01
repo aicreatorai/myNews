@@ -4018,5 +4018,65 @@
     "depth": "原理拆解",
     "angle": "worktree隔离与SPEC沉淀",
     "keywords_snippet": "thinkrail,JetBrains,pi,agentic IDE,worktree"
+  },
+  {
+    "module": "10",
+    "date": "2026-11-02",
+    "topic": "Prime Agent 递归语言模型自我改进",
+    "title": "Prime Agent：用递归语言模型自进化的编码研究智能体",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "RLM与Continual Harness可回滚状态机制",
+    "keywords_snippet": "RLM, Continual Harness, 可回滚状态, 子代理递归"
+  },
+  {
+    "module": "10",
+    "date": "2026-11-02",
+    "topic": "rea Agent逆向工程CLI",
+    "title": "rea：用 Agent 把任何应用与二进制逆向到原处的开源工具",
+    "level": "L3",
+    "depth": "实践层",
+    "angle": "逆向作为可调用工具的实战范式",
+    "keywords_snippet": "逆向工程, MCP, CLI, 证据归因"
+  },
+  {
+    "module": "10",
+    "date": "2026-11-02",
+    "topic": "React Bits 动画组件库",
+    "title": "React Bits：165+ 动画交互 React 组件的开源库",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "复制即用的动画组件素材库",
+    "keywords_snippet": "React, 动画组件, Tailwind, 复制即用"
+  },
+  {
+    "module": "10",
+    "date": "2026-11-02",
+    "topic": "Agensh 去中心化多智能体",
+    "title": "Agensh：无中央协调者即可扩展到 1024 个智能体的去中心化系统",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "无中央协调者的对等协商架构",
+    "keywords_snippet": "去中心化, 多智能体, 1024, 对等协商"
+  },
+  {
+    "module": "10",
+    "date": "2026-11-02",
+    "topic": "whatsapp-mcp 只读MCP",
+    "title": "whatsapp-mcp：把 WhatsApp 读取封装成只读 MCP Server 的隐私工具",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "隐私优先的最小权限数据接入",
+    "keywords_snippet": "MCP, 只读, 隐私边界, WhatsApp"
+  },
+  {
+    "module": "10",
+    "date": "2026-11-02",
+    "topic": "gemini-cli 终端AI Agent",
+    "title": "gemini-cli：把 Google Gemini 直接搬进终端的开源 AI 编程 Agent",
+    "level": "L3",
+    "depth": "实践层",
+    "angle": "终端原生与MCP桥接的无头环境实战",
+    "keywords_snippet": "gemini-cli, 终端Agent, MCP client, 无头环境"
   }
 ]

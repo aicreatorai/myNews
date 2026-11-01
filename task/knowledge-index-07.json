@@ -4328,5 +4328,65 @@
     "depth": "模型压缩",
     "angle": "参数稀疏化与压缩流水线",
     "keywords_snippet": "剪枝/稀疏/结构化/非结构化/SparseGPT/Wanda/MixT"
+  },
+  {
+    "module": "07",
+    "date": "2026-11-02",
+    "topic": "RAG检索增强生成",
+    "title": "RAG检索增强生成：给大模型外接可查证的知识库",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "RAG是什么/解决什么问题/外挂知识库",
+    "keywords_snippet": "RAG 检索增强生成 向量检索 重排序 知识库"
+  },
+  {
+    "module": "07",
+    "date": "2026-11-02",
+    "topic": "多智能体编排",
+    "title": "多智能体编排：把复杂任务拆给各司其职的AI团队",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "多Agent拓扑/调度/持久化编排",
+    "keywords_snippet": "多智能体 编排 拓扑 调度 LangGraph 持久化"
+  },
+  {
+    "module": "07",
+    "date": "2026-11-02",
+    "topic": "本地语音AI工作站",
+    "title": "本地语音AI工作站：把语音克隆与配音搬进个人电脑",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "本地语音工作站ASR/TTS/克隆/MCP",
+    "keywords_snippet": "本地语音 VoiceStudio ASR TTS 克隆 MCP 646语种"
+  },
+  {
+    "module": "07",
+    "date": "2026-11-02",
+    "topic": "生产级RAG检索与重排序",
+    "title": "生产级RAG检索与重排序：从搜得到到答得准",
+    "level": "L3",
+    "depth": "实践层",
+    "angle": "混合检索+Cross-Encoder精排+RRF",
+    "keywords_snippet": "RAG 重排序 Cross-Encoder RRF 混合检索 精排"
+  },
+  {
+    "module": "07",
+    "date": "2026-11-02",
+    "topic": "Spec-Driven开发",
+    "title": "Spec-Driven开发：先写规范再写代码的新范式",
+    "level": "L4",
+    "depth": "前沿层",
+    "angle": "规范驱动/独立上下文审查/Elephant-Goldfish",
+    "keywords_snippet": "Spec-Driven Elephant-Goldfish 规范驱动 独立审查 AI编程"
+  },
+  {
+    "module": "07",
+    "date": "2026-11-02",
+    "topic": "语音AI生产管线",
+    "title": "语音AI生产管线：从识别合成到克隆的端到端工程",
+    "level": "L3",
+    "depth": "实践层",
+    "angle": "ASR+TTS+克隆端到端管线/音色解耦",
+    "keywords_snippet": "语音管线 ASR TTS 克隆 音色解耦 强制对齐"
   }
 ]
