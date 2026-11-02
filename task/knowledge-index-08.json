@@ -3876,5 +3876,65 @@
     "depth": "实践层",
     "angle": "自托管知识库问答",
     "keywords_snippet": "Dify 本地部署 RAG 知识库 自托管"
+  },
+  {
+    "module": "08",
+    "date": "2026-11-03",
+    "topic": "Midjourney提示词",
+    "title": "Midjourney 提示词实战：结构化咒语出专业图",
+    "level": "L1",
+    "depth": "中",
+    "angle": "实操教程视角",
+    "keywords_snippet": "Midjourney,提示词,生图"
+  },
+  {
+    "module": "08",
+    "date": "2026-11-03",
+    "topic": "Gamma PPT生成",
+    "title": "Gamma 一键生成 PPT：文档秒变演示幻灯片",
+    "level": "L2",
+    "depth": "中",
+    "angle": "效率工作流视角",
+    "keywords_snippet": "Gamma,PPT,AI演示"
+  },
+  {
+    "module": "08",
+    "date": "2026-11-03",
+    "topic": "Obsidian知识管理",
+    "title": "Obsidian 加 AI 插件：把笔记库养成第二大脑",
+    "level": "L3",
+    "depth": "中",
+    "angle": "知识库搭建视角",
+    "keywords_snippet": "Obsidian,第二大脑,AI插件"
+  },
+  {
+    "module": "08",
+    "date": "2026-11-03",
+    "topic": "DeepSeek提示词",
+    "title": "DeepSeek 高级提示词：角色扮演与思维链提效",
+    "level": "L4",
+    "depth": "中",
+    "angle": "提示词工程视角",
+    "keywords_snippet": "DeepSeek,思维链,CRISPE"
+  },
+  {
+    "module": "08",
+    "date": "2026-11-03",
+    "topic": "n8n自动化",
+    "title": "n8n 零代码自动化：拖拽节点串起多工具流",
+    "level": "L1",
+    "depth": "中",
+    "angle": "工作流编排视角",
+    "keywords_snippet": "n8n,自动化,工作流"
+  },
+  {
+    "module": "08",
+    "date": "2026-11-03",
+    "topic": "ElevenLabs语音",
+    "title": "ElevenLabs 语音克隆：一段样本生成多语种配音",
+    "level": "L2",
+    "depth": "中",
+    "angle": "语音克隆视角",
+    "keywords_snippet": "ElevenLabs,语音克隆,配音"
   }
 ]

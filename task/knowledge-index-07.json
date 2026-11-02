@@ -4388,5 +4388,65 @@
     "depth": "实践层",
     "angle": "ASR+TTS+克隆端到端管线/音色解耦",
     "keywords_snippet": "语音管线 ASR TTS 克隆 音色解耦 强制对齐"
+  },
+  {
+    "module": "07",
+    "date": "2026-11-03",
+    "topic": "模型量化",
+    "title": "模型量化GPTQ与AWQ：把大模型压进消费级显卡的压缩术",
+    "level": "L1",
+    "depth": "中",
+    "angle": "工程落地视角",
+    "keywords_snippet": "GPTQ,AWQ"
+  },
+  {
+    "module": "07",
+    "date": "2026-11-03",
+    "topic": "参数高效微调",
+    "title": "LoRA与QLoRA微调：用低秩适配给大模型打轻量补丁",
+    "level": "L2",
+    "depth": "中",
+    "angle": "微调实践视角",
+    "keywords_snippet": "LoRA,QLoRA"
+  },
+  {
+    "module": "07",
+    "date": "2026-11-03",
+    "topic": "扩散模型",
+    "title": "扩散模型Diffusion：从噪声中雕刻图像的生成范式",
+    "level": "L3",
+    "depth": "中",
+    "angle": "生成范式视角",
+    "keywords_snippet": "Diffusion,去噪"
+  },
+  {
+    "module": "07",
+    "date": "2026-11-03",
+    "topic": "Prompt工程",
+    "title": "Prompt工程Chain-of-Thought：用思维链逼出大模型推理能力",
+    "level": "L1",
+    "depth": "中",
+    "angle": "提示工程视角",
+    "keywords_snippet": "思维链,CoT"
+  },
+  {
+    "module": "07",
+    "date": "2026-11-03",
+    "topic": "稀疏注意力",
+    "title": "稀疏注意力Sparse Attention：让长序列计算不再爆炸",
+    "level": "L2",
+    "depth": "中",
+    "angle": "架构效率视角",
+    "keywords_snippet": "稀疏注意力,长序列"
+  },
+  {
+    "module": "07",
+    "date": "2026-11-03",
+    "topic": "AI安全",
+    "title": "AI越狱与红队测试：主动攻击大模型安全边界",
+    "level": "L3",
+    "depth": "中",
+    "angle": "安全对抗视角",
+    "keywords_snippet": "越狱,红队"
   }
 ]

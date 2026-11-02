@@ -3688,5 +3688,65 @@
     "depth": "技术层",
     "angle": "高性能计算与信奥竞赛基本盘",
     "keywords_snippet": "C++ TIOBE 第三 高性能 信奥 游戏引擎"
+  },
+  {
+    "module": "09",
+    "date": "2026-11-03",
+    "topic": "Python 类型系统",
+    "title": "Python 类型系统 2026：PEP 695 泛型与 Protocol 实践",
+    "level": "L1",
+    "depth": "中",
+    "angle": "语法速成与优先级",
+    "keywords_snippet": "PEP 695,Protocol"
+  },
+  {
+    "module": "09",
+    "date": "2026-11-03",
+    "topic": "Python 包管理 uv",
+    "title": "Python 包管理器 uv 0.13：默认 3.15 与依赖安全",
+    "level": "L2",
+    "depth": "中",
+    "angle": "工程迁移与依赖安全",
+    "keywords_snippet": "uv,依赖安全"
+  },
+  {
+    "module": "09",
+    "date": "2026-11-03",
+    "topic": "Java 虚拟线程",
+    "title": "Java 虚拟线程实战：Loom 与结构化并发调优",
+    "level": "L3",
+    "depth": "深",
+    "angle": "生产调优实战",
+    "keywords_snippet": "虚拟线程,Loom"
+  },
+  {
+    "module": "09",
+    "date": "2026-11-03",
+    "topic": "Java Panama FFM",
+    "title": "Java Panama FFM API 与 Native Image 兼容演进",
+    "level": "L4",
+    "depth": "深",
+    "angle": "底层互操作原理",
+    "keywords_snippet": "Panama,FFM"
+  },
+  {
+    "module": "09",
+    "date": "2026-11-03",
+    "topic": "CPython 解释器性能",
+    "title": "CPython 3.14 解释器性能：尾调用与实验性 JIT",
+    "level": "L1",
+    "depth": "中",
+    "angle": "解释器性能内核",
+    "keywords_snippet": "尾调用,JIT"
+  },
+  {
+    "module": "09",
+    "date": "2026-11-03",
+    "topic": "GraalVM 原生镜像",
+    "title": "GraalVM 25 原生镜像与多语言运行时演进",
+    "level": "L2",
+    "depth": "中",
+    "angle": "原生部署与多语言",
+    "keywords_snippet": "GraalVM,原生镜像"
   }
 ]

@@ -3998,5 +3998,65 @@
     "depth": "方法论层",
     "angle": "用三问筛掉伪需求避免进AI墓地",
     "keywords_snippet": "AI墓地 功能vs产品 差异化 立项三问"
+  },
+  {
+    "module": "15",
+    "date": "2026-11-03",
+    "topic": "AI产品冷启动引导",
+    "title": "AI产品冷启动引导：用里程碑事件流替代功能清单",
+    "level": "L2",
+    "depth": "中",
+    "angle": "新手激活与里程碑事件流",
+    "keywords_snippet": "冷启动,里程碑事件流,激活率"
+  },
+  {
+    "module": "15",
+    "date": "2026-11-03",
+    "topic": "AI产品信任架构",
+    "title": "AI产品信任架构：可解释、可纠偏与人类接管设计",
+    "level": "L3",
+    "depth": "中",
+    "angle": "共享控制与可恢复性",
+    "keywords_snippet": "信任架构,共享控制,人类接管"
+  },
+  {
+    "module": "15",
+    "date": "2026-11-03",
+    "topic": "PM直交付工作流",
+    "title": "PM越过工程鸿沟：从Prompt到Pull Request直交付",
+    "level": "L1",
+    "depth": "中",
+    "angle": "非技术者代码库直交付",
+    "keywords_snippet": "Pull Request,代码库语义,审批闸门"
+  },
+  {
+    "module": "15",
+    "date": "2026-11-03",
+    "topic": "AI Native Born Global",
+    "title": "AI Native Born Global：围绕任务重组团队与一人公司",
+    "level": "L4",
+    "depth": "中",
+    "angle": "任务原子化与全球组织",
+    "keywords_snippet": "Born Global,任务重组,一人公司"
+  },
+  {
+    "module": "15",
+    "date": "2026-11-03",
+    "topic": "克制删减与贡献度量表",
+    "title": "AI时代删减即设计：克制与贡献度量表管控产出",
+    "level": "L2",
+    "depth": "中",
+    "angle": "以删代加与分级接管",
+    "keywords_snippet": "删减即设计,贡献度量表,克制"
+  },
+  {
+    "module": "15",
+    "date": "2026-11-03",
+    "topic": "中小企业AI小步快跑",
+    "title": "中小企业AI转型小步快跑：从最痛场景切入落地",
+    "level": "L3",
+    "depth": "中",
+    "angle": "单点切入与轻量普惠",
+    "keywords_snippet": "小步快跑,单点切入,中小企业"
   }
 ]

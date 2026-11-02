@@ -4078,5 +4078,65 @@
     "depth": "实践层",
     "angle": "终端原生与MCP桥接的无头环境实战",
     "keywords_snippet": "gemini-cli, 终端Agent, MCP client, 无头环境"
+  },
+  {
+    "module": "10",
+    "date": "2026-11-03",
+    "topic": "Pydantic AI",
+    "title": "Pydantic AI：把类型安全的FastAPI体验带到AI智能体开发",
+    "level": "L2",
+    "depth": "中",
+    "angle": "框架定位与成本治理",
+    "keywords_snippet": "Pydantic AI,类型安全,智能体框架"
+  },
+  {
+    "module": "10",
+    "date": "2026-11-03",
+    "topic": "Ollama",
+    "title": "ollama：把开放大模型一键跑在本机的命令行与API工具",
+    "level": "L1",
+    "depth": "浅",
+    "angle": "本地推理入门",
+    "keywords_snippet": "Ollama,本地大模型,llama.cpp"
+  },
+  {
+    "module": "10",
+    "date": "2026-11-03",
+    "topic": "ECC",
+    "title": "ECC：给编码智能体装上计划验证与技能沉淀的工程化工具箱",
+    "level": "L3",
+    "depth": "中",
+    "angle": "工程化纪律层",
+    "keywords_snippet": "ECC,编码智能体,技能沉淀"
+  },
+  {
+    "module": "10",
+    "date": "2026-11-03",
+    "topic": "code-review-graph",
+    "title": "code-review-graph：把代码库映射成可检索知识图谱的本地优先工具",
+    "level": "L2",
+    "depth": "中",
+    "angle": "代码图谱检索",
+    "keywords_snippet": "code-review-graph,代码图谱,上下文缩减"
+  },
+  {
+    "module": "10",
+    "date": "2026-11-03",
+    "topic": "open-code-review",
+    "title": "open-code-review：阿里巴巴开源的混合架构代码审查工具",
+    "level": "L3",
+    "depth": "中",
+    "angle": "混合架构审查",
+    "keywords_snippet": "open-code-review,代码审查,混合架构"
+  },
+  {
+    "module": "10",
+    "date": "2026-11-03",
+    "topic": "atlas",
+    "title": "atlas：为编码智能体记录每次会话检查点的源代码控制器",
+    "level": "L4",
+    "depth": "深",
+    "angle": "多智能体溯源治理",
+    "keywords_snippet": "atlas,检查点,多智能体治理"
   }
 ]

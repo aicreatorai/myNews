@@ -2658,5 +2658,55 @@
     "depth": "技术层",
     "angle": "生成式关卡与心流",
     "keywords_snippet": "Matiks 游戏化 心流 掌握学习 自适应"
+  },
+  {
+    "module": "13",
+    "date": "2026-11-03",
+    "topic": "AI写作教学与过程反馈",
+    "title": "AI写作教学：用生成式反馈培养学生的修改与元认知能力",
+    "level": "L2",
+    "depth": "中",
+    "angle": "语文写作过程性反馈与元认知训练",
+    "keywords_snippet": "AI写作,过程性反馈,元认知"
+  },
+  {
+    "module": "13",
+    "date": "2026-11-03",
+    "topic": "AI课堂设问审查",
+    "title": "AI给问题链体检：教师用AI审查课堂设问的设计法",
+    "level": "L3",
+    "depth": "深",
+    "angle": "教师备课问题链审查与最近发展区",
+    "keywords_snippet": "问题链,最近发展区,脚手架"
+  },
+  {
+    "module": "13",
+    "date": "2026-11-03",
+    "topic": "AI科普跨学科阅读",
+    "title": "AI科普与跨学科阅读：生成式多模态故事降低非虚构阅读门槛",
+    "level": "L1",
+    "depth": "浅",
+    "angle": "非虚构阅读情境化与多重表征",
+    "keywords_snippet": "科普阅读,情境认知,多模态"
+  },
+  {
+    "module": "13",
+    "date": "2026-11-03",
+    "topic": "AI美术创作教学",
+    "title": "AI美术创作教学：多模态生成激活学生视觉表达力",
+    "level": "L4",
+    "depth": "深",
+    "angle": "视觉表达与生成式认知",
+    "keywords_snippet": "AI美术,视觉表达,生成式认知"
+  },
+  {
+    "module": "13",
+    "date": "2026-11-03",
+    "topic": "学生AI学编程",
+    "title": "学生用AI学编程：自然语言生成代码降低计算思维门槛",
+    "level": "L2",
+    "depth": "中",
+    "angle": "计算思维入门与脚手架",
+    "keywords_snippet": "AI编程,计算思维,自然语言生成代码"
   }
 ]

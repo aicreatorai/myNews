@@ -3878,5 +3878,65 @@
     "depth": "概念层",
     "angle": "元认知监控与双系统理论，决策日记外化思维盲区",
     "keywords_snippet": "元认知 决策日记 双系统 确认偏误 思维盲区 Flavell"
+  },
+  {
+    "module": "14",
+    "date": "2026-11-03",
+    "topic": "知识管理系统",
+    "title": "PARA第二大脑法：用四类容器把碎片信息变成可调用知识",
+    "level": "L1",
+    "depth": "浅",
+    "angle": "知识管理",
+    "keywords_snippet": "PARA,第二大脑"
+  },
+  {
+    "module": "14",
+    "date": "2026-11-03",
+    "topic": "时间管理",
+    "title": "时间管理四象限：用紧迫重要矩阵把瞎忙变关键产出",
+    "level": "L2",
+    "depth": "中",
+    "angle": "优先级管理",
+    "keywords_snippet": "四象限,艾森豪威尔"
+  },
+  {
+    "module": "14",
+    "date": "2026-11-03",
+    "topic": "专注力培养",
+    "title": "心流状态培养法：用挑战与技能的动态平衡进入忘我专注",
+    "level": "L3",
+    "depth": "中",
+    "angle": "心流",
+    "keywords_snippet": "心流,挑战技能平衡"
+  },
+  {
+    "module": "14",
+    "date": "2026-11-03",
+    "topic": "认知偏差",
+    "title": "确认偏误陷阱：用反向证据清单拆穿自我验证幻觉",
+    "level": "L4",
+    "depth": "中",
+    "angle": "决策认知",
+    "keywords_snippet": "确认偏误,反向证据"
+  },
+  {
+    "module": "14",
+    "date": "2026-11-03",
+    "topic": "自控力",
+    "title": "多巴胺戒断：用延迟满足重置被短视频驯化的奖赏系统",
+    "level": "L1",
+    "depth": "浅",
+    "angle": "延迟满足",
+    "keywords_snippet": "多巴胺,延迟满足"
+  },
+  {
+    "module": "14",
+    "date": "2026-11-03",
+    "topic": "技能习得",
+    "title": "技能习得四阶段：用意识梯度定位你卡在能力爬坡哪一关",
+    "level": "L2",
+    "depth": "深",
+    "angle": "能力爬坡",
+    "keywords_snippet": "四阶段,程序性记忆"
   }
 ]
