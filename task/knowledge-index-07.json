@@ -4448,5 +4448,65 @@
     "depth": "中",
     "angle": "安全对抗视角",
     "keywords_snippet": "越狱,红队"
+  },
+  {
+    "module": "07",
+    "date": "2026-11-04",
+    "topic": "Flash Attention与稀疏注意力",
+    "title": "Flash Attention与稀疏注意力：用IO感知算法给注意力算法定制加速",
+    "level": "L1",
+    "depth": 2,
+    "angle": "原理拆解",
+    "keywords_snippet": "FlashAttention,稀疏注意力"
+  },
+  {
+    "module": "07",
+    "date": "2026-11-04",
+    "topic": "GraphRAG知识图谱检索",
+    "title": "GraphRAG知识图谱检索：把文档织成一张可推理的关系网",
+    "level": "L2",
+    "depth": 2,
+    "angle": "原理拆解",
+    "keywords_snippet": "GraphRAG,知识图谱"
+  },
+  {
+    "module": "07",
+    "date": "2026-11-04",
+    "topic": "Prompt工程与思维链CoT",
+    "title": "Prompt工程与思维链CoT：用提问的艺术激发大模型推理力",
+    "level": "L3",
+    "depth": 2,
+    "angle": "应用技巧",
+    "keywords_snippet": "Prompt工程,思维链"
+  },
+  {
+    "module": "07",
+    "date": "2026-11-04",
+    "topic": "AI安全越狱与防御",
+    "title": "AI安全越狱与防御：守住大模型不被恶意诱导的防线",
+    "level": "L4",
+    "depth": 2,
+    "angle": "攻防机制",
+    "keywords_snippet": "越狱,安全防御"
+  },
+  {
+    "module": "07",
+    "date": "2026-11-04",
+    "topic": "GRPO强化学习训练",
+    "title": "GRPO强化学习训练：用群体奖励让模型自己学会推理",
+    "level": "L1",
+    "depth": 2,
+    "angle": "训练机制",
+    "keywords_snippet": "GRPO,强化学习"
+  },
+  {
+    "module": "07",
+    "date": "2026-11-04",
+    "topic": "向量数据库与混合检索Reranker",
+    "title": "向量数据库与混合检索Reranker：让语义搜索又快又准",
+    "level": "L2",
+    "depth": 2,
+    "angle": "检索架构",
+    "keywords_snippet": "向量数据库,混合检索"
   }
 ]

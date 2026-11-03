@@ -2708,5 +2708,55 @@
     "depth": "中",
     "angle": "计算思维入门与脚手架",
     "keywords_snippet": "AI编程,计算思维,自然语言生成代码"
+  },
+  {
+    "module": "13",
+    "date": "2026-11-04",
+    "topic": "个人AI学习档案",
+    "title": "个人AI学习档案：用大模型沉淀能力成长轨迹与薄弱预警",
+    "level": "L1",
+    "depth": 2,
+    "angle": "应用实践",
+    "keywords_snippet": "个人AI学习档案,学习路径,能力诊断,薄弱预警,讯飞AI大学堂"
+  },
+  {
+    "module": "13",
+    "date": "2026-11-04",
+    "topic": "儿童AI素养启蒙",
+    "title": "儿童AI素养启蒙：家庭场景下的计算思维培养法",
+    "level": "L2",
+    "depth": 2,
+    "angle": "应用实践",
+    "keywords_snippet": "儿童AI素养,计算思维,家庭启蒙,批判性思维,亲子项目"
+  },
+  {
+    "module": "13",
+    "date": "2026-11-04",
+    "topic": "AI错题诊断",
+    "title": "AI错题诊断与薄弱点分析：家长零成本辅导神器",
+    "level": "L3",
+    "depth": 2,
+    "angle": "应用实践",
+    "keywords_snippet": "AI错题诊断,四维诊断,薄弱点分析,知识图谱,家长辅导"
+  },
+  {
+    "module": "13",
+    "date": "2026-11-04",
+    "topic": "零基础AI作曲",
+    "title": "零基础AI作曲工作流：用Suno加Udio产出可商用背景乐",
+    "level": "L4",
+    "depth": 2,
+    "angle": "应用实践",
+    "keywords_snippet": "AI作曲,Suno,Udio,文生音乐,背景乐"
+  },
+  {
+    "module": "13",
+    "date": "2026-11-04",
+    "topic": "AI与合意困难",
+    "title": "AI与合意困难：为何让模型直接给答案会削弱长期记忆",
+    "level": "L1",
+    "depth": 2,
+    "angle": "应用实践",
+    "keywords_snippet": "合意困难,主动回忆,检索练习,间隔重复,生成式AI"
   }
 ]

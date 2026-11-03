@@ -3748,5 +3748,65 @@
     "depth": "中",
     "angle": "原生部署与多语言",
     "keywords_snippet": "GraalVM,原生镜像"
+  },
+  {
+    "module": "09",
+    "date": "2026-11-04",
+    "topic": "C++26 静态反射与契约",
+    "title": "C++26 特性冻结：静态反射与契约式设计进入标准",
+    "level": "L1",
+    "depth": 2,
+    "angle": "原理拆解",
+    "keywords_snippet": "C++26,静态反射,契约,标准冻结"
+  },
+  {
+    "module": "09",
+    "date": "2026-11-04",
+    "topic": "Dart 3.14 augmentations",
+    "title": "Dart 3.14 增强（augmentations）重新定义代码生成范式",
+    "level": "L2",
+    "depth": 2,
+    "angle": "原理拆解",
+    "keywords_snippet": "Dart 3.14,augmentations,Flutter 3.50,代码生成"
+  },
+  {
+    "module": "09",
+    "date": "2026-11-04",
+    "topic": "Bun 1.4.3 bun check",
+    "title": "Bun 1.4.3 内置类型检查 bun check 比 tsc 快 6.4 倍",
+    "level": "L3",
+    "depth": 2,
+    "angle": "原理拆解",
+    "keywords_snippet": "Bun,bun check,类型检查,tsc"
+  },
+  {
+    "module": "09",
+    "date": "2026-11-04",
+    "topic": "Scala 3.10 Next",
+    "title": "Scala 3.10 开启 Next 系列：移除旧语法并稳定严格相等匹配",
+    "level": "L4",
+    "depth": 2,
+    "angle": "原理拆解",
+    "keywords_snippet": "Scala 3.10,Next,SIP-67,严格相等"
+  },
+  {
+    "module": "09",
+    "date": "2026-11-04",
+    "topic": "Wasmtime 50.0 WASI 0.3.2",
+    "title": "Wasmtime 50.0 与 WASI 0.3.2：组件模型异步语义落地",
+    "level": "L1",
+    "depth": 2,
+    "angle": "原理拆解",
+    "keywords_snippet": "Wasmtime 50.0,WASI 0.3.2,组件模型,异步"
+  },
+  {
+    "module": "09",
+    "date": "2026-11-04",
+    "topic": "Elixir 1.18 集合论类型",
+    "title": "Elixir 1.18 引入集合论类型与语言服务器编译协同",
+    "level": "L2",
+    "depth": 2,
+    "angle": "原理拆解",
+    "keywords_snippet": "Elixir 1.18,集合论类型,语言服务器,类型检查"
   }
 ]

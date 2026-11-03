@@ -3938,5 +3938,65 @@
     "depth": "深",
     "angle": "能力爬坡",
     "keywords_snippet": "四阶段,程序性记忆"
+  },
+  {
+    "module": "14",
+    "date": "2026-11-04",
+    "topic": "系统思考",
+    "title": "系统思考：用因果回路图看穿复杂问题的蝴蝶效应",
+    "level": "L1",
+    "depth": 2,
+    "angle": "实践方法",
+    "keywords_snippet": "系统思考,因果回路"
+  },
+  {
+    "module": "14",
+    "date": "2026-11-04",
+    "topic": "确认偏误与锚定效应",
+    "title": "确认偏误与锚定效应：识破决策中两套隐蔽的思维陷阱",
+    "level": "L2",
+    "depth": 2,
+    "angle": "实践方法",
+    "keywords_snippet": "确认偏误,锚定效应"
+  },
+  {
+    "module": "14",
+    "date": "2026-11-04",
+    "topic": "心理韧性",
+    "title": "心理韧性（复原力）：用抗逆力缓冲区扛住生活的不确定性暴击",
+    "level": "L3",
+    "depth": 2,
+    "angle": "实践方法",
+    "keywords_snippet": "心理韧性,复原力"
+  },
+  {
+    "module": "14",
+    "date": "2026-11-04",
+    "topic": "T型人才模型",
+    "title": "T型人才模型：用一专多能构建抗AI淘汰的复合竞争力",
+    "level": "L4",
+    "depth": 2,
+    "angle": "实践方法",
+    "keywords_snippet": "T型人才,复合能力"
+  },
+  {
+    "module": "14",
+    "date": "2026-11-04",
+    "topic": "GTD工作流",
+    "title": "GTD工作流：用收集箱与下一步行动清空大脑带宽",
+    "level": "L1",
+    "depth": 2,
+    "angle": "实践方法",
+    "keywords_snippet": "GTD,下一步行动"
+  },
+  {
+    "module": "14",
+    "date": "2026-11-04",
+    "topic": "习惯追踪不破链",
+    "title": "习惯追踪不破链：用可视化连胜把坚持变成不想断的游戏",
+    "level": "L2",
+    "depth": 2,
+    "angle": "实践方法",
+    "keywords_snippet": "习惯追踪,不破链"
   }
 ]

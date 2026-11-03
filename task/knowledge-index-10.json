@@ -4138,5 +4138,65 @@
     "depth": "深",
     "angle": "多智能体溯源治理",
     "keywords_snippet": "atlas,检查点,多智能体治理"
+  },
+  {
+    "module": "10",
+    "date": "2026-11-04",
+    "topic": "qwen-code",
+    "title": "Qwen Code：通义千问开源、多协议兼容的终端 AI 编程智能体",
+    "level": "L1",
+    "depth": 2,
+    "angle": "实战教程",
+    "keywords_snippet": "Qwen Code,终端编程智能体,多协议,MCP,本地部署"
+  },
+  {
+    "module": "10",
+    "date": "2026-11-04",
+    "topic": "agentic-awesome-skills",
+    "title": "Agentic Awesome Skills：给 Claude Code 与 Codex 装上 2700+ 可审查技能的控制平面",
+    "level": "L2",
+    "depth": 2,
+    "angle": "实战教程",
+    "keywords_snippet": "Agentic Awesome Skills,AAS Core,智能体技能,MCP,技能校验"
+  },
+  {
+    "module": "10",
+    "date": "2026-11-04",
+    "topic": "serena",
+    "title": "Serena：用符号级语义检索把 LLM 变成会读 IDE 的编程伙伴",
+    "level": "L3",
+    "depth": 2,
+    "angle": "实战教程",
+    "keywords_snippet": "Serena,MCP,LSP,符号级检索,语义重构"
+  },
+  {
+    "module": "10",
+    "date": "2026-11-04",
+    "topic": "kilocode",
+    "title": "Kilo Code：覆盖 IDE、CLI 与云端的全场景开源智能体工程平台",
+    "level": "L4",
+    "depth": 2,
+    "angle": "实战教程",
+    "keywords_snippet": "Kilo Code,开源编程智能体,零加价网关,IDE,云端评审"
+  },
+  {
+    "module": "10",
+    "date": "2026-11-04",
+    "topic": "claude-context",
+    "title": "Claude Context：把整个代码库变成任意编程智能体可语义搜索的上下文",
+    "level": "L1",
+    "depth": 2,
+    "angle": "实战教程",
+    "keywords_snippet": "Claude Context,语义代码搜索,MCP,向量数据库,代码库索引"
+  },
+  {
+    "module": "10",
+    "date": "2026-11-04",
+    "topic": "superpowers-zh",
+    "title": "superpowers-zh：把 20 个 AI 编程实战方法论汉化并加中国原创技能的开发者超能力包",
+    "level": "L2",
+    "depth": 2,
+    "angle": "实战教程",
+    "keywords_snippet": "superpowers-zh,AI编程技能,中文汉化,国产原创,npx安装"
   }
 ]

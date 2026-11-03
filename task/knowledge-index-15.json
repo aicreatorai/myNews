@@ -4058,5 +4058,65 @@
     "depth": "中",
     "angle": "单点切入与轻量普惠",
     "keywords_snippet": "小步快跑,单点切入,中小企业"
+  },
+  {
+    "module": "15",
+    "date": "2026-11-04",
+    "topic": "AI产品可观测性",
+    "title": "AI产品可观测性：把黑箱推理变成可监控可干预的生产线",
+    "level": "L1",
+    "depth": 2,
+    "angle": "产品实践",
+    "keywords_snippet": "LLM Observability,质量评分,Trace追踪,成本安全"
+  },
+  {
+    "module": "15",
+    "date": "2026-11-04",
+    "topic": "AI功能冷启动",
+    "title": "冷启动破局：新AI功能在没有数据时的种子策略",
+    "level": "L2",
+    "depth": 2,
+    "angle": "产品实践",
+    "keywords_snippet": "合成种子数据,种子用户,相邻信号迁移,Bandit"
+  },
+  {
+    "module": "15",
+    "date": "2026-11-04",
+    "topic": "非确定性实验",
+    "title": "非确定性实验：大模型时代A/B测试为什么不能照搬传统",
+    "level": "L3",
+    "depth": 2,
+    "angle": "产品实践",
+    "keywords_snippet": "LLM A/B测试,变量隔离,新鲜感效应,序贯推断"
+  },
+  {
+    "module": "15",
+    "date": "2026-11-04",
+    "topic": "AI优雅降级",
+    "title": "优雅降级：AI功能失败时如何保住用户体验的最后防线",
+    "level": "L4",
+    "depth": 2,
+    "angle": "产品实践",
+    "keywords_snippet": "优雅降级,置信门控,降级链,错误兜底"
+  },
+  {
+    "module": "15",
+    "date": "2026-11-04",
+    "topic": "长期记忆与个性化",
+    "title": "长期记忆与个性化：让AI产品越用越懂用户的底层机制",
+    "level": "L1",
+    "depth": 2,
+    "angle": "产品实践",
+    "keywords_snippet": "长期记忆,记忆生命周期,遗忘规则,可控记忆"
+  },
+  {
+    "module": "15",
+    "date": "2026-11-04",
+    "topic": "AI激活漏斗",
+    "title": "激活漏斗：把AI产品试用变成日常习惯的留存设计",
+    "level": "L2",
+    "depth": 2,
+    "angle": "产品实践",
+    "keywords_snippet": "72小时返回率,首输出保证,角色化引导,地板留存"
   }
 ]

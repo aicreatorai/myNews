@@ -3936,5 +3936,65 @@
     "depth": "中",
     "angle": "语音克隆视角",
     "keywords_snippet": "ElevenLabs,语音克隆,配音"
+  },
+  {
+    "module": "08",
+    "date": "2026-11-04",
+    "topic": "WPS AI",
+    "title": "WPS AI：用智能助手写公文、做表格与一键生成PPT",
+    "level": "L1",
+    "depth": 2,
+    "angle": "实操教程",
+    "keywords_snippet": "WPS AI,智能办公,AI写作,PPT生成"
+  },
+  {
+    "module": "08",
+    "date": "2026-11-04",
+    "topic": "豆包",
+    "title": "豆包：用多模态AI助手做对话写作与图片生成",
+    "level": "L2",
+    "depth": 2,
+    "angle": "实操教程",
+    "keywords_snippet": "豆包,AI生图,多模态,中文提示词"
+  },
+  {
+    "module": "08",
+    "date": "2026-11-04",
+    "topic": "通义千问",
+    "title": "通义千问：用国产大模型做长文总结与代码助手",
+    "level": "L3",
+    "depth": 2,
+    "angle": "实操教程",
+    "keywords_snippet": "通义千问,长文总结,代码助手,Agent"
+  },
+  {
+    "module": "08",
+    "date": "2026-11-04",
+    "topic": "智谱清言",
+    "title": "智谱清言：用GLM智能体做文档问答与PPT生成",
+    "level": "L4",
+    "depth": 2,
+    "angle": "实操教程",
+    "keywords_snippet": "智谱清言,GLM,智能体,知识库"
+  },
+  {
+    "module": "08",
+    "date": "2026-11-04",
+    "topic": "Sora",
+    "title": "Sora：用OpenAI文生视频把创意脚本变成动态短片",
+    "level": "L1",
+    "depth": 2,
+    "angle": "实操教程",
+    "keywords_snippet": "Sora,文生视频,OpenAI,镜头语言"
+  },
+  {
+    "module": "08",
+    "date": "2026-11-04",
+    "topic": "Canva AI",
+    "title": "Canva AI：用智能设计助手一键生成海报与演示文稿",
+    "level": "L2",
+    "depth": 2,
+    "angle": "实操教程",
+    "keywords_snippet": "Canva AI,智能设计,魔法设计,海报PPT"
   }
 ]
