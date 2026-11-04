@@ -3996,5 +3996,65 @@
     "depth": 2,
     "angle": "实操教程",
     "keywords_snippet": "Canva AI,智能设计,魔法设计,海报PPT"
+  },
+  {
+    "module": "08",
+    "date": "2026-11-05",
+    "topic": "Ollama 本地部署",
+    "title": "Ollama 本地大模型部署：一条命令把开源大模型跑在你自己的电脑上",
+    "level": "L1",
+    "depth": "入门",
+    "angle": "一条命令本地跑开源大模型与OpenAI兼容API",
+    "keywords_snippet": "Ollama 本地 大模型 部署 命令行 开源"
+  },
+  {
+    "module": "08",
+    "date": "2026-11-05",
+    "topic": "Midjourney 一致性出图",
+    "title": "商业配图一致性实战：以 Midjourney 的 --cref 与 --sref 锁定角色和画风",
+    "level": "L2",
+    "depth": "进阶",
+    "angle": "用角色与风格参考参数做品牌视觉系列",
+    "keywords_snippet": "Midjourney 图像生成 提示词 --cref --sref 一致性"
+  },
+  {
+    "module": "08",
+    "date": "2026-11-05",
+    "topic": "Suno AI 音乐生成",
+    "title": "Suno AI 音乐生成：一句话把灵感变成带人声的完整歌曲",
+    "level": "L3",
+    "depth": "实战",
+    "angle": "零基础一句话生成带人声完整歌曲与中文优化",
+    "keywords_snippet": "Suno AI 音乐 生成 创作 人声 中文"
+  },
+  {
+    "module": "08",
+    "date": "2026-11-05",
+    "topic": "ComfyUI 节点工作流",
+    "title": "ComfyUI 可视化编程：把模型采样与参数拆成可复用的节点图",
+    "level": "L4",
+    "depth": "高阶",
+    "angle": "节点图编排可控可复用可批量的图像生成管线",
+    "keywords_snippet": "ComfyUI 工作流 节点 图像 生成 可视化"
+  },
+  {
+    "module": "08",
+    "date": "2026-11-05",
+    "topic": "ElevenLabs 语音合成",
+    "title": "实时语音合成 API 实战：把低延迟真人嗓音接入你的应用",
+    "level": "L1",
+    "depth": "入门",
+    "angle": "文本转语音与低延迟真人嗓音API接入",
+    "keywords_snippet": "ElevenLabs 语音 合成 API 低延迟 克隆"
+  },
+  {
+    "module": "08",
+    "date": "2026-11-05",
+    "topic": "Gamma 多格式内容",
+    "title": "AI 内容中台实战：一个提示把同一份文案变成幻灯片、文档与网页",
+    "level": "L2",
+    "depth": "进阶",
+    "angle": "一次提示多格式产出演示文档网页的内容中台",
+    "keywords_snippet": "Gamma AI PPT 演示 文档 网页 多格式"
   }
 ]

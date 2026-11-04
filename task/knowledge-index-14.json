@@ -3998,5 +3998,65 @@
     "depth": 2,
     "angle": "实践方法",
     "keywords_snippet": "习惯追踪,不破链"
+  },
+  {
+    "module": "14",
+    "date": "2026-11-05",
+    "topic": "心流",
+    "title": "心流沉浸术：用无干扰窗口阻断碎片化分心",
+    "level": "L1",
+    "depth": "中",
+    "angle": "心流触发机制与无干扰窗口实操",
+    "keywords_snippet": "心流 flow 无干扰 注意力"
+  },
+  {
+    "module": "14",
+    "date": "2026-11-05",
+    "topic": "精力管理",
+    "title": "能量配置法：按精力曲线把深度工作放进能量峰值时段",
+    "level": "L2",
+    "depth": "中",
+    "angle": "四维度能量与精力曲线配置",
+    "keywords_snippet": "精力管理 能量配置 精力曲线"
+  },
+  {
+    "module": "14",
+    "date": "2026-11-05",
+    "topic": "复盘",
+    "title": "结构化复盘：用GRAI框架把经历提炼成能力",
+    "level": "L3",
+    "depth": "深",
+    "angle": "GRAI三级复盘矩阵",
+    "keywords_snippet": "复盘 GRAI 反思"
+  },
+  {
+    "module": "14",
+    "date": "2026-11-05",
+    "topic": "数字极简",
+    "title": "数字极简与信息节食：给注意力装上过滤器",
+    "level": "L4",
+    "depth": "中",
+    "angle": "信息节食与注意力过滤",
+    "keywords_snippet": "数字极简 信息节食 注意力"
+  },
+  {
+    "module": "14",
+    "date": "2026-11-05",
+    "topic": "习惯追踪",
+    "title": "习惯追踪系统：用不中断链条把打卡变成行为引擎",
+    "level": "L1",
+    "depth": "中",
+    "angle": "打卡链条与行为反馈系统",
+    "keywords_snippet": "习惯追踪 打卡 链式反应"
+  },
+  {
+    "module": "14",
+    "date": "2026-11-05",
+    "topic": "番茄工作法",
+    "title": "番茄工作法进阶：按认知负荷定制个性化专注节奏",
+    "level": "L2",
+    "depth": "中",
+    "angle": "按认知负荷定制专注周期",
+    "keywords_snippet": "番茄工作法 认知负荷 深度工作"
   }
 ]

@@ -4008,5 +4008,65 @@
     "depth": 2,
     "angle": "失败教训",
     "keywords_snippet": "一人公司退潮,商业闭环"
+  },
+  {
+    "module": "12",
+    "date": "2026-11-05",
+    "topic": "AI医疗影像创业",
+    "title": "【医疗影像AI创业：切入肺结节筛查的基层医疗赛道】",
+    "level": "L2",
+    "depth": "赛道打法",
+    "angle": "单病种基层筛查",
+    "keywords_snippet": "医疗影像 AI 肺结节 基层"
+  },
+  {
+    "module": "12",
+    "date": "2026-11-05",
+    "topic": "独立开发者变现",
+    "title": "【独立开发者变现：用AI套壳产品撬动睡后收入】",
+    "level": "L1",
+    "depth": "变现路径",
+    "angle": "AI套壳睡后收入",
+    "keywords_snippet": "独立开发者 AI 套壳 被动收入"
+  },
+  {
+    "module": "12",
+    "date": "2026-11-05",
+    "topic": "AI出海架构代办",
+    "title": "【AI企业出海架构代办：红筹ODI与数据跨境备案】",
+    "level": "L3",
+    "depth": "合规服务",
+    "angle": "红筹ODI数据出境",
+    "keywords_snippet": "出海 架构 ODI 数据跨境"
+  },
+  {
+    "module": "12",
+    "date": "2026-11-05",
+    "topic": "AI陪伴机器人创业",
+    "title": "【AI陪伴机器人创业：情感交互硬件的商业化落地】",
+    "level": "L2",
+    "depth": "硬件落地",
+    "angle": "情感交互商业化",
+    "keywords_snippet": "陪伴机器人 情感交互 硬件"
+  },
+  {
+    "module": "12",
+    "date": "2026-11-05",
+    "topic": "AI电商创业",
+    "title": "【AI电商创业：单人用AI军团跑通跨境选品到变现】",
+    "level": "L1",
+    "depth": "跨境操盘",
+    "angle": "AI军团全链路",
+    "keywords_snippet": "AI电商 跨境 选品 自动化"
+  },
+  {
+    "module": "12",
+    "date": "2026-11-05",
+    "topic": "AI合同审查创业",
+    "title": "【AI合同审查创业：把律师费压到千分之一的打法】",
+    "level": "L4",
+    "depth": "法律科技",
+    "angle": "千分之一律师费",
+    "keywords_snippet": "AI 合同审查 法律科技"
   }
 ]

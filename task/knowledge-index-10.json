@@ -4198,5 +4198,65 @@
     "depth": 2,
     "angle": "实战教程",
     "keywords_snippet": "superpowers-zh,AI编程技能,中文汉化,国产原创,npx安装"
+  },
+  {
+    "module": "10",
+    "date": "2026-11-05",
+    "topic": "aider 终端结对编程",
+    "title": "aider：把本地Ollama模型变成会提交Git的写码搭档",
+    "level": "L1",
+    "depth": "≥900字",
+    "angle": "本地Ollama结对编程",
+    "keywords_snippet": "aider,结对编程,git,repo map"
+  },
+  {
+    "module": "10",
+    "date": "2026-11-05",
+    "topic": "OpenHands Agent Canvas ACP",
+    "title": "OpenHands可视化工作台：用ACP并行驱动多个编程智能体",
+    "level": "L2",
+    "depth": "≥900字",
+    "angle": "ACP编排多智能体",
+    "keywords_snippet": "OpenHands,Agent Canvas,ACP,沙箱"
+  },
+  {
+    "module": "10",
+    "date": "2026-11-05",
+    "topic": "CrewAI Flows 事件驱动",
+    "title": "CrewAI Flows：用事件驱动流程给多智能体系统套骨架",
+    "level": "L2",
+    "depth": "≥900字",
+    "angle": "Flows确定性骨架",
+    "keywords_snippet": "CrewAI,Flows,多智能体,编排"
+  },
+  {
+    "module": "10",
+    "date": "2026-11-05",
+    "topic": "n8n AI工作流 MCP",
+    "title": "n8n 2026：用MCP与AI节点把自主智能体接进工作流",
+    "level": "L1",
+    "depth": "≥900字",
+    "angle": "MCP接入智能体",
+    "keywords_snippet": "n8n,工作流,自动化,MCP"
+  },
+  {
+    "module": "10",
+    "date": "2026-11-05",
+    "topic": "vLLM 推理部署 PagedAttention",
+    "title": "vLLM 2026：TGI退役后靠PagedAttention成默认推理引擎",
+    "level": "L3",
+    "depth": "≥900字",
+    "angle": "PagedAttention高吞吐",
+    "keywords_snippet": "vLLM,PagedAttention,推理,连续批处理"
+  },
+  {
+    "module": "10",
+    "date": "2026-11-05",
+    "topic": "Chroma serverless向量检索",
+    "title": "Chroma 2026：对象存储serverless架构的向量混合检索",
+    "level": "L2",
+    "depth": "≥900字",
+    "angle": "对象存储serverless混合检索",
+    "keywords_snippet": "Chroma,向量数据库,混合检索,serverless"
   }
 ]

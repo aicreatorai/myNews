@@ -2758,5 +2758,55 @@
     "depth": 2,
     "angle": "应用实践",
     "keywords_snippet": "合意困难,主动回忆,检索练习,间隔重复,生成式AI"
+  },
+  {
+    "module": "13",
+    "date": "2026-11-05",
+    "topic": "AI自适应学习平台：用知识追踪定制私人学习路径",
+    "title": "AI自适应学习平台：用知识追踪定制私人学习路径",
+    "level": "L1",
+    "depth": "概念层·用法实战",
+    "angle": "知识追踪与自适应平台如何为学习者定制私人路径",
+    "keywords_snippet": "AI自适应学习平台 知识追踪 个性化 自适应练习 可汗学院 Khanmigo Squirrel"
+  },
+  {
+    "module": "13",
+    "date": "2026-11-05",
+    "topic": "AI编程私教：少儿从Scratch到Python、成人零基础学AI",
+    "title": "AI编程私教：少儿从Scratch到Python、成人零基础学AI",
+    "level": "L1",
+    "depth": "概念层·用法实战",
+    "angle": "用对话式AI当编程私教，少儿与成人零基础学编程的实战路径",
+    "keywords_snippet": "AI编程教育 少儿Scratch Python 成人学AI fast.ai ChatGPT私教"
+  },
+  {
+    "module": "13",
+    "date": "2026-11-05",
+    "topic": "AI阅读写作辅导：LingQ、ReadLang与Grammarly提效",
+    "title": "AI阅读写作辅导：LingQ、ReadLang与Grammarly提效",
+    "level": "L1",
+    "depth": "概念层·用法实战",
+    "angle": "围绕阅读输入与写作输出的AI辅导工具链，非口语陪练",
+    "keywords_snippet": "AI语言学习 阅读 LingQ ReadLang Grammarly DeepL Write 写作辅导"
+  },
+  {
+    "module": "13",
+    "date": "2026-11-05",
+    "topic": "教育智能体新形态：对话式探究与仿真实训当助手",
+    "title": "教育智能体新形态：对话式探究与仿真实训当助手",
+    "level": "L1",
+    "depth": "概念层·用法实战",
+    "angle": "对话式探究与仿真实训智能体如何当学习助手",
+    "keywords_snippet": "教育智能体 学伴 对话式探究 仿真虚拟病人 智能体助手"
+  },
+  {
+    "module": "13",
+    "date": "2026-11-05",
+    "topic": "AI职业技能认证与夜校：办公提效与智能体开发变硬技能",
+    "title": "AI职业技能认证与夜校：办公提效与智能体开发变硬技能",
+    "level": "L1",
+    "depth": "概念层·用法实战",
+    "angle": "AI职业认证与夜校把办公提效与智能体开发变成可考硬技能",
+    "keywords_snippet": "AI职业教育 技能认证 CAIE AI夜校 智能体开发 办公提效"
   }
 ]

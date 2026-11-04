@@ -3808,5 +3808,65 @@
     "depth": 2,
     "angle": "原理拆解",
     "keywords_snippet": "Elixir 1.18,集合论类型,语言服务器,类型检查"
+  },
+  {
+    "module": "09",
+    "date": "2026-11-05",
+    "topic": "Kotlin 2.4 多平台",
+    "title": "【Kotlin 2.4 多平台成熟：Compose 稳定与 Swift Export 落地】",
+    "level": "L2",
+    "depth": "七块深度解析",
+    "angle": "跨端代码共享与Compose稳定",
+    "keywords_snippet": "Kotlin,KMP,Compose,Swift Export"
+  },
+  {
+    "module": "09",
+    "date": "2026-11-05",
+    "topic": "Julia 可微分编程",
+    "title": "【Julia 可微分编程：SciML 与 AI for Science 统一数值平台】",
+    "level": "L3",
+    "depth": "七块深度解析",
+    "angle": "SciML与可微分编程",
+    "keywords_snippet": "Julia,SciML,Zygote,AI for Science"
+  },
+  {
+    "module": "09",
+    "date": "2026-11-05",
+    "topic": "Zig 系统编程",
+    "title": "【Zig 系统编程崛起：Comptime 与无隐藏控制流重塑 C 替代】",
+    "level": "L2",
+    "depth": "七块深度解析",
+    "angle": "Comptime与内存可控",
+    "keywords_snippet": "Zig,Comptime,BEAM,系统编程"
+  },
+  {
+    "module": "09",
+    "date": "2026-11-05",
+    "topic": "Elixir Phoenix 实时",
+    "title": "【Elixir Phoenix 实时霸主：BEAM 进程支撑百万并发连接】",
+    "level": "L3",
+    "depth": "七块深度解析",
+    "angle": "BEAM并发与容错",
+    "keywords_snippet": "Elixir,Phoenix,BEAM,LiveView"
+  },
+  {
+    "module": "09",
+    "date": "2026-11-05",
+    "topic": "Dart Flutter 2026",
+    "title": "【Dart 3.12 与 Flutter 2026：GenUI 与全栈 Dart 新路线】",
+    "level": "L2",
+    "depth": "七块深度解析",
+    "angle": "GenUI与全栈Dart",
+    "keywords_snippet": "Dart,Flutter,GenUI,Wasm"
+  },
+  {
+    "module": "09",
+    "date": "2026-11-05",
+    "topic": "C# 14 .NET 10",
+    "title": "【C# 14 简化仪式代码：field 关键字、空条件赋值与文件型应用】",
+    "level": "L3",
+    "depth": "七块深度解析",
+    "angle": "field关键字与文件型应用",
+    "keywords_snippet": "C#,C#14,.NET10,field"
   }
 ]

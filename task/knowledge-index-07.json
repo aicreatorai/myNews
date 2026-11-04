@@ -4508,5 +4508,65 @@
     "depth": 2,
     "angle": "检索架构",
     "keywords_snippet": "向量数据库,混合检索"
+  },
+  {
+    "module": "07",
+    "date": "2026-11-05",
+    "topic": "注意力机制",
+    "title": "注意力机制效率革命：稀疏化与无键注意力破二次方",
+    "level": "L3",
+    "depth": "深度",
+    "angle": "原理解析",
+    "keywords_snippet": "注意力 稀疏 无键 KV缓存"
+  },
+  {
+    "module": "07",
+    "date": "2026-11-05",
+    "topic": "MoE混合专家",
+    "title": "MoE路由与负载均衡：无辅助损失偏置破解路由崩塌",
+    "level": "L4",
+    "depth": "深度",
+    "angle": "工程实战",
+    "keywords_snippet": "MoE 路由 负载均衡 偏置"
+  },
+  {
+    "module": "07",
+    "date": "2026-11-05",
+    "topic": "旋转位置编码",
+    "title": "旋转位置编码外推：PI与NTK缩放把窗口推向百万Token",
+    "level": "L1",
+    "depth": "基础",
+    "angle": "原理解析",
+    "keywords_snippet": "RoPE 位置插值 NTK YaRN"
+  },
+  {
+    "module": "07",
+    "date": "2026-11-05",
+    "topic": "端侧小模型",
+    "title": "移动端小模型选型：Llama Gemma Phi Qwen谁上手机",
+    "level": "L2",
+    "depth": "进阶",
+    "angle": "选型对比",
+    "keywords_snippet": "端侧 小模型 GGUF 手机"
+  },
+  {
+    "module": "07",
+    "date": "2026-11-05",
+    "topic": "视觉语言模型VLM",
+    "title": "VLM视觉幻觉治理：证据grounding让多模态不瞎编",
+    "level": "L3",
+    "depth": "深度",
+    "angle": "治理方法",
+    "keywords_snippet": "VLM 幻觉 grounding 证据"
+  },
+  {
+    "module": "07",
+    "date": "2026-11-05",
+    "topic": "合成数据工程",
+    "title": "合成数据工程：用大模型生成训练样本的全链路",
+    "level": "L4",
+    "depth": "深度",
+    "angle": "工程实战",
+    "keywords_snippet": "合成数据 数据工程 标注 增强"
   }
 ]
