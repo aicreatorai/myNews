@@ -4178,5 +4178,65 @@
     "depth": "技术层 - 内部机制、关键参数、优化策略",
     "angle": "AI MVP需同时验证需求信号与能力信号",
     "keywords_snippet": "MVP 双信号 需求 能力 验证 探针"
+  },
+  {
+    "module": "15",
+    "date": "2026-11-06",
+    "topic": "AI机会评估矩阵",
+    "title": "【AI机会评估矩阵：用九宫格筛掉伪需求】",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "价值-可行性九宫格与ROI优先级框架",
+    "keywords_snippet": "AI机会评估 九宫格 ROI优先级 MVP验证"
+  },
+  {
+    "module": "15",
+    "date": "2026-11-06",
+    "topic": "JTBD需求挖掘",
+    "title": "【JTBD需求挖掘：用雇用理论挖真实任务】",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "待办任务框架挖潜在需求",
+    "keywords_snippet": "JTBD 雇用理论 深度访谈 功能坟场"
+  },
+  {
+    "module": "15",
+    "date": "2026-11-06",
+    "topic": "办公Agent多模型",
+    "title": "【豆包工作多模型：办公Agent的Harness之争】",
+    "level": "L3",
+    "depth": "实践层",
+    "angle": "多模型聚合与Harness执行系统",
+    "keywords_snippet": "豆包工作 多模型 Harness 模型路由"
+  },
+  {
+    "module": "15",
+    "date": "2026-11-06",
+    "topic": "自治AI治理失败",
+    "title": "【印度Seva-Agent翻车：自治AI治理代价】",
+    "level": "L3",
+    "depth": "实践层",
+    "angle": "自治AI的问责与公平性教训",
+    "keywords_snippet": "Seva-Agent 自治AI 偏见 人类监督"
+  },
+  {
+    "module": "15",
+    "date": "2026-11-06",
+    "topic": "AI产品增长策略",
+    "title": "【AI增长新范式：从网红种草到Agent驱动】",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "病毒增长与Agent-led增长飞轮",
+    "keywords_snippet": "Cal AI 网红种草 Agent-led growth 魔法时刻"
+  },
+  {
+    "module": "15",
+    "date": "2026-11-06",
+    "topic": "出海AI本地化",
+    "title": "【新兴市场AI本地化：code-mixing与HITL】",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "code-mixing与HITL本地化管线",
+    "keywords_snippet": "新兴市场 本地化 code-mixing HITL 文化禁忌"
   }
 ]

@@ -3868,5 +3868,65 @@
     "depth": "七块深度解析",
     "angle": "field关键字与文件型应用",
     "keywords_snippet": "C#,C#14,.NET10,field"
+  },
+  {
+    "module": "09",
+    "date": "2026-11-06",
+    "topic": "Go 1.25 标准库与运行时更新",
+    "title": "Go 1.25发布：GC调优与math/rand/v2标准库",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "GC节奏优化与math/rand/v2/covdata工具链",
+    "keywords_snippet": "Go 1.25 GC math/rand/v2 covdata wasip1"
+  },
+  {
+    "module": "09",
+    "date": "2026-11-06",
+    "topic": "Rust 异步闭包",
+    "title": "Rust 1.85：异步闭包AsyncFn正式稳定",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "AsyncFn特质与异步回调一等公民",
+    "keywords_snippet": "Rust 1.85 async closures AsyncFn trait"
+  },
+  {
+    "module": "09",
+    "date": "2026-11-06",
+    "topic": "Kotlin 上下文参数",
+    "title": "Kotlin 2.2：上下文参数晋升稳定特性",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "context parameters 替代依赖注入样板",
+    "keywords_snippet": "Kotlin 2.2 context parameters K2 warning"
+  },
+  {
+    "module": "09",
+    "date": "2026-11-06",
+    "topic": "Node.js 显式资源管理",
+    "title": "Node.js 24 LTS：显式资源管理using加持",
+    "level": "L3",
+    "depth": "实践层",
+    "angle": "using/await using 资源清理与升级实践",
+    "keywords_snippet": "Node.js 24 Explicit Resource Management using V8 13.6"
+  },
+  {
+    "module": "09",
+    "date": "2026-11-06",
+    "topic": "Zig 自托管编译器",
+    "title": "Zig 0.14：自托管编译器与标准库稳定化",
+    "level": "L4",
+    "depth": "前沿层",
+    "angle": "comptime元编程与完整自托管编译器",
+    "keywords_snippet": "Zig 0.14 self-hosted comptime LLVM 18"
+  },
+  {
+    "module": "09",
+    "date": "2026-11-06",
+    "topic": "Scala 命名元组",
+    "title": "Scala 3.7：命名元组与Better Fors晋升稳定",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "Named Tuples与Better Fors稳定化",
+    "keywords_snippet": "Scala 3.7 Named Tuples Better Fors"
   }
 ]

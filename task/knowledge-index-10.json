@@ -4258,5 +4258,65 @@
     "depth": "≥900字",
     "angle": "对象存储serverless混合检索",
     "keywords_snippet": "Chroma,向量数据库,混合检索,serverless"
+  },
+  {
+    "module": "10",
+    "date": "2026-11-06",
+    "topic": "agent-desktop Computer Use CLI",
+    "title": "vercel-labs/agent-desktop：给 AI Agent 用的 Computer Use 命令行操控工具",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "Agent 直接操控真实计算机 GUI",
+    "keywords_snippet": "computer use, agent-desktop, 键鼠操控, 屏幕感知"
+  },
+  {
+    "module": "10",
+    "date": "2026-11-06",
+    "topic": "Model Context Protocol 协议",
+    "title": "Model Context Protocol：2026 年统一 AI 与外部工具连接的开源标准协议",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "MCP 架构原理与跨厂商生态",
+    "keywords_snippet": "MCP, USB-C for AI, JSON-RPC, Tools/Resources/Prompts, Linux 基金会"
+  },
+  {
+    "module": "10",
+    "date": "2026-11-06",
+    "topic": "mattpocock/skills 编码 Skill 合集",
+    "title": "mattpocock/skills：真工程师开源的 AI 编码 Skill 工作流合集",
+    "level": "L3",
+    "depth": "实践层",
+    "angle": "把团队工程规范沉淀为可复用 Skill",
+    "keywords_snippet": "skills, .agents, Claude Code, 工程规范, 复用"
+  },
+  {
+    "module": "10",
+    "date": "2026-11-06",
+    "topic": "deepseek-harness 插件化 Agent 框架",
+    "title": "deepseek-ai/deepseek-harness：一切皆插件的开源 Agent 调度框架",
+    "level": "L4",
+    "depth": "前沿层",
+    "angle": "成品 Harness 与插件化范式",
+    "keywords_snippet": "deepseek-harness, DSH, 插件, cordis, harness"
+  },
+  {
+    "module": "10",
+    "date": "2026-11-06",
+    "topic": "VoiceStudio 本地语音克隆",
+    "title": "debpalash/VoiceStudio：完全本地的开源 ElevenLabs 语音克隆替代",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "本地零成本语音生产替代闭源",
+    "keywords_snippet": "VoiceStudio, 语音克隆, 本地 TTS, 646 语言, ElevenLabs 替代"
+  },
+  {
+    "module": "10",
+    "date": "2026-11-06",
+    "topic": "Agent-Reach Agent 联网感知",
+    "title": "Panniantong/Agent-Reach：让 AI Agent 免费读遍全网的一站式 CLI",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "给 Agent 装上网眼读取实时互联网",
+    "keywords_snippet": "Agent-Reach, 联网搜索, 社交媒体, CLI, 零 API 费"
   }
 ]

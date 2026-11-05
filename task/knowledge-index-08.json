@@ -4056,5 +4056,65 @@
     "depth": "进阶",
     "angle": "一次提示多格式产出演示文档网页的内容中台",
     "keywords_snippet": "Gamma AI PPT 演示 文档 网页 多格式"
+  },
+  {
+    "module": "08",
+    "date": "2026-11-06",
+    "topic": "秘塔AI知识库搜索",
+    "title": "【秘塔AI：用带出处搜索搭建私人知识库】",
+    "level": "L4",
+    "depth": "前沿层",
+    "angle": "专题知识库+带出处检索+导出工作流",
+    "keywords_snippet": "秘塔AI metaso 专题知识库 带出处搜索 深度研究 思维导图 导出"
+  },
+  {
+    "module": "08",
+    "date": "2026-11-06",
+    "topic": "腾讯元宝混元Hy4",
+    "title": "【腾讯元宝：用混元大模型做文档问答搭子】",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "Hy4视觉理解+文档问答+Agent办任务",
+    "keywords_snippet": "腾讯元宝 混元Hy4 视觉理解 文档问答 长程任务 Agent 2026-11-04"
+  },
+  {
+    "module": "08",
+    "date": "2026-11-06",
+    "topic": "腾讯智影数字人播报",
+    "title": "【腾讯智影数字人：从文案到口型同步免拍摄】",
+    "level": "L4",
+    "depth": "前沿层",
+    "angle": "数字人播报+口型同步+免拍摄短视频流水线",
+    "keywords_snippet": "腾讯智影 数字人播报 口型同步 文本配音 智能配音 免拍摄"
+  },
+  {
+    "module": "08",
+    "date": "2026-11-06",
+    "topic": "Notion AI第二大脑",
+    "title": "【Notion AI：把笔记库变成会回答的第二大脑】",
+    "level": "L3",
+    "depth": "实践层",
+    "angle": "Ask AI问答+Custom Agents+MCP共享记忆",
+    "keywords_snippet": "Notion AI Ask AI Custom Agents MCP Auto 知识库问答 2026-10-19"
+  },
+  {
+    "module": "08",
+    "date": "2026-11-06",
+    "topic": "Grammarly英文写作助手",
+    "title": "【Grammarly：边写边改的AI语法与风格助手】",
+    "level": "L3",
+    "depth": "实践层",
+    "angle": "四色建议+GrammarlyGO改写+风格指南",
+    "keywords_snippet": "Grammarly 语法检查 语气检测 GrammarlyGO 风格指南 四色下划线"
+  },
+  {
+    "module": "08",
+    "date": "2026-11-06",
+    "topic": "Pika局部重绘视频",
+    "title": "【Pika AI视频：用局部修改与特效玩转短片】",
+    "level": "L3",
+    "depth": "实践层",
+    "angle": "Modify Region局部重绘+Lip Sync+画布扩展",
+    "keywords_snippet": "Pika Modify Region 局部重绘 Lip Sync Expand canvas 口型同步 视频"
   }
 ]

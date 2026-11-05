@@ -2808,5 +2808,55 @@
     "depth": "概念层·用法实战",
     "angle": "AI职业认证与夜校把办公提效与智能体开发变成可考硬技能",
     "keywords_snippet": "AI职业教育 技能认证 CAIE AI夜校 智能体开发 办公提效"
+  },
+  {
+    "module": "13",
+    "date": "2026-11-06",
+    "topic": "AI智能备课",
+    "title": "AI智能备课：云知师与飞象老师把教案初稿缩到10分钟",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "免费工具+教师个性化修改率",
+    "keywords_snippet": "云知师AI 飞象老师 MagicSchool 认知负荷 分层习题"
+  },
+  {
+    "module": "13",
+    "date": "2026-11-06",
+    "topic": "AI错题诊断",
+    "title": "AI错题诊断：四维分析法精准定位薄弱点告别题海",
+    "level": "L3",
+    "depth": "实践层",
+    "angle": "四维错因分析+靶向练习闭环",
+    "keywords_snippet": "错题侠 四维诊断 讯飞星火 腾讯元宝 无效刷题"
+  },
+  {
+    "module": "13",
+    "date": "2026-11-06",
+    "topic": "间隔重复与AI记忆",
+    "title": "间隔重复遇上AI：用记忆曲线算法把知识固化进长期记忆",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "主动回忆+SM-2记忆曲线",
+    "keywords_snippet": "间隔重复 主动回忆 SM-2 SuperKnowva Anki 遗忘曲线"
+  },
+  {
+    "module": "13",
+    "date": "2026-11-06",
+    "topic": "AI职教认证",
+    "title": "AI职教认证：杭州一试双证与SOAR计划打通技能人才链",
+    "level": "L3",
+    "depth": "实践层",
+    "angle": "一试双证+SOAR普惠技能",
+    "keywords_snippet": "人工智能训练师 一试双证 SOAR PMKVY 产匠智融"
+  },
+  {
+    "module": "13",
+    "date": "2026-11-06",
+    "topic": "区域普惠AI学伴",
+    "title": "区域普惠AI学伴：宁夏宁小宝与北京智小研自适应助学",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "脚手架理论+把问题还给学生",
+    "keywords_snippet": "宁小宝 智小研 自适应 脚手架 最近发展区"
   }
 ]

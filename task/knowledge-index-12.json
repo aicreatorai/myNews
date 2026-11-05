@@ -4068,5 +4068,65 @@
     "depth": "法律科技",
     "angle": "千分之一律师费",
     "keywords_snippet": "AI 合同审查 法律科技"
+  },
+  {
+    "module": "12",
+    "date": "2026-11-06",
+    "topic": "OPC单人公司组织范式",
+    "title": "OPC单人公司首设赛道：三类业务毛利80%起",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "一人+AI智能体商业闭环与三类适配业务",
+    "keywords_snippet": "OPC 单人公司 一人公司 AI智能体 垂直SaaS 毛利率"
+  },
+  {
+    "module": "12",
+    "date": "2026-11-06",
+    "topic": "结果计费商业模式",
+    "title": "结果计费崛起：AI客服按工单1.15美元收费",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "按成果计费原理与计费单元设计",
+    "keywords_snippet": "结果计费 outcome-based billing 按工单 净合约价值 校验护栏"
+  },
+  {
+    "module": "12",
+    "date": "2026-11-06",
+    "topic": "垂直AI Agent按件收费",
+    "title": "垂直AI Agent按件收费：地产检索14月ARR约1亿",
+    "level": "L3",
+    "depth": "实践层",
+    "angle": "垂直工作流封装为可计费交付物的变现路径",
+    "keywords_snippet": "垂直AI Agent 按件收费 产权检索 ARR 交付物 毛利率"
+  },
+  {
+    "module": "12",
+    "date": "2026-11-06",
+    "topic": "中国AI出海订阅收入图谱",
+    "title": "中国AI出海图谱：Manus年ARR约28亿元领跑",
+    "level": "L3",
+    "depth": "实践层",
+    "angle": "中国背景AI出海公司ARR数据与订阅变现模式",
+    "keywords_snippet": "AI出海 订阅收入 ARR Manus Genspark 中国初创 全球化"
+  },
+  {
+    "module": "12",
+    "date": "2026-11-06",
+    "topic": "一人卖Agent技巧包",
+    "title": "一人卖Agent技巧包：220订阅月入2170美元",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "面向builders的极窄工作流数字产品变现",
+    "keywords_snippet": "Agent技巧包 Skillry 数字产品 订阅 支付验证 一人公司"
+  },
+  {
+    "module": "12",
+    "date": "2026-11-06",
+    "topic": "无代码AI剪辑单人创业",
+    "title": "19岁无代码做AI剪辑：4月冲到11200美元MRR",
+    "level": "L3",
+    "depth": "实践层",
+    "angle": "氛围编程+内容获客的单人SaaS冷启动",
+    "keywords_snippet": "Vugola 无代码 vibe-coding AI剪辑 MRR 内容获客 19岁"
   }
 ]

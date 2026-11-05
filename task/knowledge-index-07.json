@@ -4568,5 +4568,65 @@
     "depth": "深度",
     "angle": "工程实战",
     "keywords_snippet": "合成数据 数据工程 标注 增强"
+  },
+  {
+    "module": "07",
+    "date": "2026-11-06",
+    "topic": "MLOps",
+    "title": "[L1] LLMOps：大模型从训练到上线的工程化体系",
+    "level": "L1",
+    "depth": "概念层 - 是什么、解决什么问题、与什么不同",
+    "angle": "LLMOps七大环节与评估即服务",
+    "keywords_snippet": "LLMOps,MLOps,评估即服务,提示词版本化,令牌成本治理"
+  },
+  {
+    "module": "07",
+    "date": "2026-11-06",
+    "topic": "推理服务",
+    "title": "[L2] 大模型推理服务架构：吞吐延迟与批处理拆解",
+    "level": "L2",
+    "depth": "技术层 - 内部机制、关键参数、优化策略",
+    "angle": "vLLM PagedAttention与连续批处理调度器",
+    "keywords_snippet": "vLLM,PagedAttention,连续批处理,KV缓存,吞吐延迟,调度器"
+  },
+  {
+    "module": "07",
+    "date": "2026-11-06",
+    "topic": "推理部署",
+    "title": "[L3] 推理部署生产实践：显存并发与成本三道坎",
+    "level": "L3",
+    "depth": "实践层 - 生产级方案、踩坑经验、数据对比",
+    "angle": "显存预留量化CPU卸载与混合架构降本",
+    "keywords_snippet": "推理部署,显存,KV Cache,量化,CPU卸载,混合架构,成本"
+  },
+  {
+    "module": "07",
+    "date": "2026-11-06",
+    "topic": "视频理解",
+    "title": "[L1] 视频理解：让AI真正看懂一段视频",
+    "level": "L1",
+    "depth": "概念层 - 是什么、解决什么问题、与什么不同",
+    "angle": "视频语言模型时序因果理解与实时交互",
+    "keywords_snippet": "视频理解,VLM,视频问答,时序动作定位,TempR1,JoyAI-VL"
+  },
+  {
+    "module": "07",
+    "date": "2026-11-06",
+    "topic": "视频基础模型",
+    "title": "[L1] 视频基础模型：统一预训练打通视频任务",
+    "level": "L1",
+    "depth": "概念层 - 是什么、解决什么问题、与什么不同",
+    "angle": "生成式与判别式双路协同预训练范式",
+    "keywords_snippet": "视频基础模型,InternVideo,VideoMAE,掩码视频建模,跨模型注意力,多任务"
+  },
+  {
+    "module": "07",
+    "date": "2026-11-06",
+    "topic": "生成式物理模拟",
+    "title": "[L1] 生成式物理模拟：让AI在脑中预演未来帧",
+    "level": "L1",
+    "depth": "概念层 - 是什么、解决什么问题、与什么不同",
+    "angle": "世界模型与物理一致生成、显式仿真双驱动",
+    "keywords_snippet": "生成式物理模拟,世界模型,Cosmos,PAIWorld,物理一致性,具身智能"
   }
 ]
