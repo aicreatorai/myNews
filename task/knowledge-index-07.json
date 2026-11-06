@@ -4628,5 +4628,65 @@
     "depth": "概念层 - 是什么、解决什么问题、与什么不同",
     "angle": "世界模型与物理一致生成、显式仿真双驱动",
     "keywords_snippet": "生成式物理模拟,世界模型,Cosmos,PAIWorld,物理一致性,具身智能"
+  },
+  {
+    "module": "07",
+    "date": "2026-11-07",
+    "topic": "端云协同推理",
+    "title": "端云协同推理：小模型本地跑、大模型云端补的混合架构",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "按复杂度分工的端侧+云端混合部署范式",
+    "keywords_snippet": "端云协同,端侧小模型,NPU,INT4,混合推理"
+  },
+  {
+    "module": "07",
+    "date": "2026-11-07",
+    "topic": "智能体记忆",
+    "title": "智能体上下文编辑与记忆工具：实测省84%Token的工程法",
+    "level": "L3",
+    "depth": "实践层",
+    "angle": "短期/长期分层与上下文编辑的生产级记忆工程",
+    "keywords_snippet": "Agent记忆,上下文编辑,Memory tool,短期长期记忆,Token节省"
+  },
+  {
+    "module": "07",
+    "date": "2026-11-07",
+    "topic": "多模态RAG",
+    "title": "多模态RAG：让AI同时检索图片与文档的混合检索",
+    "level": "L3",
+    "depth": "实践层",
+    "angle": "图文统一嵌入与跨模态联合召回的检索架构",
+    "keywords_snippet": "多模态RAG,统一嵌入,跨模态召回,图文检索,混合检索"
+  },
+  {
+    "module": "07",
+    "date": "2026-11-07",
+    "topic": "视觉推理",
+    "title": "视觉推理与反思机制：让多模态模型先看细再看准再答",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "低层视觉工具+反思验证的看-想-验证闭环",
+    "keywords_snippet": "视觉推理,反思机制,VLM,GRPO,ForeSight,VisPlay"
+  },
+  {
+    "module": "07",
+    "date": "2026-11-07",
+    "topic": "世界模型",
+    "title": "世界模型World Model：给AI一个能推演未来的内部沙盘",
+    "level": "L4",
+    "depth": "前沿层",
+    "angle": "潜空间预测与生成式/抽象预测/空间智能三路线",
+    "keywords_snippet": "世界模型,World Model,JEPA,Genie,Dreamer,物理模拟"
+  },
+  {
+    "module": "07",
+    "date": "2026-11-07",
+    "topic": "MCP工具调用",
+    "title": "MCP协议与工具调用：让大模型安全调用外部工具的开放标准",
+    "level": "L4",
+    "depth": "前沿层",
+    "angle": "三原语+2026无状态规范与中立治理",
+    "keywords_snippet": "MCP,Model Context Protocol,工具调用,JSON-RPC,三原语"
   }
 ]

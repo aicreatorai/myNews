@@ -3928,5 +3928,65 @@
     "depth": "技术层",
     "angle": "Named Tuples与Better Fors稳定化",
     "keywords_snippet": "Scala 3.7 Named Tuples Better Fors"
+  },
+  {
+    "module": "09",
+    "date": "2026-11-07",
+    "topic": "Go 1.27 泛型方法",
+    "title": "Go 1.27 发布：泛型方法落地，encoding/json/v2 与 uuid 标准库补全",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "语言特性演进与标准库补全",
+    "keywords_snippet": "Go 1.27,泛型方法,encoding/json/v2,uuid,小对象分配"
+  },
+  {
+    "module": "09",
+    "date": "2026-11-07",
+    "topic": "TypeScript 7.0 Go 重写",
+    "title": "TypeScript 6.0 收官 JavaScript 编译器，7.0 用 Go 重写冲击十倍提速",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "编译器原生重写与类型检查提速",
+    "keywords_snippet": "TypeScript 7.0,Go重写,tsgo,类型检查,10x"
+  },
+  {
+    "module": "09",
+    "date": "2026-11-07",
+    "topic": "PHP 8.6 PFA",
+    "title": "PHP 8.6 发布：部分函数应用、clamp 与 Time\\Duration 值对象",
+    "level": "L3",
+    "depth": "应用层",
+    "angle": "常用样板收编标准库",
+    "keywords_snippet": "PHP 8.6,部分函数应用,clamp,Time\\Duration,管道运算符"
+  },
+  {
+    "module": "09",
+    "date": "2026-11-07",
+    "topic": "Kotlin 2.4 K2",
+    "title": "Kotlin 2.4 发布：Context Parameters 与显式支持字段转正，K1 编译器退役",
+    "level": "L4",
+    "depth": "趋势层",
+    "angle": "K2 全面落地与 K1 退役",
+    "keywords_snippet": "Kotlin 2.4,Context Parameters,explicit backing fields,K1退役,Swift Export"
+  },
+  {
+    "module": "09",
+    "date": "2026-11-07",
+    "topic": "Zig 0.17.0",
+    "title": "Zig 0.17.0 稳定版：无着色异步与面向 C 的渐进式替代",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "无着色异步与 C 渐进替代",
+    "keywords_snippet": "Zig 0.17.0,std.Io,comptime,无着色异步,系统编程"
+  },
+  {
+    "module": "09",
+    "date": "2026-11-07",
+    "topic": "Dart 3.12",
+    "title": "Dart 3.12 发布：私有命名参数与实验性主构造函数",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "语法简洁与 AI 工具链融合",
+    "keywords_snippet": "Dart 3.12,private named parameters,primary constructors,Agentic Hot Reload"
   }
 ]

@@ -4238,5 +4238,65 @@
     "depth": "概念层",
     "angle": "code-mixing与HITL本地化管线",
     "keywords_snippet": "新兴市场 本地化 code-mixing HITL 文化禁忌"
+  },
+  {
+    "module": "15",
+    "date": "2026-11-07",
+    "topic": "AI需求优先级",
+    "title": "AI能力优先于功能：用复用度可靠性业务效果三维重构需求优先级",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "能力优先于功能的路线图优先级框架",
+    "keywords_snippet": "能力优先 功能 复用度 可靠性 业务效果 路线图 优先级"
+  },
+  {
+    "module": "15",
+    "date": "2026-11-07",
+    "topic": "AI定价策略",
+    "title": "按价值定价：AI产品信用额度模式如何重塑SaaS收费逻辑",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "信用额度与按价值定价的计费机制",
+    "keywords_snippet": "按价值定价 信用额度 用量计费 SaaS 收费 套餐"
+  },
+  {
+    "module": "15",
+    "date": "2026-11-07",
+    "topic": "AI度量指标",
+    "title": "AI度量指标：用结果信号替代虚荣指标衡量AI真实价值",
+    "level": "L3",
+    "depth": "实践层",
+    "angle": "结果信号度量的生产级落地",
+    "keywords_snippet": "AI度量 结果信号 虚荣指标 接受率 HITL 事件Schema"
+  },
+  {
+    "module": "15",
+    "date": "2026-11-07",
+    "topic": "AI增长黑客",
+    "title": "AI驱动PLG增长：用价值即时交付重塑激活与留存漏斗",
+    "level": "L4",
+    "depth": "前沿层",
+    "angle": "AI驱动PLG与价值即时交付的前沿打法",
+    "keywords_snippet": "AI增长 PLG 价值即时交付 激活 留存 空白状态"
+  },
+  {
+    "module": "15",
+    "date": "2026-11-07",
+    "topic": "AI产品设计模式",
+    "title": "从工具到伙伴：AI产品人机深度共融的协作设计模式",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "深度共融协作设计范式",
+    "keywords_snippet": "从工具到伙伴 深度共融 人机协作 能动性 可控共创"
+  },
+  {
+    "module": "15",
+    "date": "2026-11-07",
+    "topic": "AI用户研究",
+    "title": "AI用户研究：从问卷到行为挖掘的AI需求洞察法",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "行为挖掘替代问卷的研究方法",
+    "keywords_snippet": "AI用户研究 行为挖掘 主题聚类 根因 对抗式校验"
   }
 ]

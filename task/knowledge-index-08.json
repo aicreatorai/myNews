@@ -4116,5 +4116,65 @@
     "depth": "实践层",
     "angle": "Modify Region局部重绘+Lip Sync+画布扩展",
     "keywords_snippet": "Pika Modify Region 局部重绘 Lip Sync Expand canvas 口型同步 视频"
+  },
+  {
+    "module": "08",
+    "date": "2026-11-07",
+    "topic": "Perplexity 实时联网AI搜索",
+    "title": "用实时联网搜索把模糊问题变成带来源的答案",
+    "level": "L1",
+    "depth": "入门层",
+    "angle": "实时联网检索+引用溯源的查证工作流",
+    "keywords_snippet": "Perplexity,答案引擎,来源引用,Pro Search,Spaces"
+  },
+  {
+    "module": "08",
+    "date": "2026-11-07",
+    "topic": "Cursor Agentic IDE 编程",
+    "title": "用Agentic IDE把一句需求直接变成可运行代码",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "Tab补全/Cmd-K/Agent多文件重构实战",
+    "keywords_snippet": "Cursor,VS Code分支,Agent模式,Codebase Indexing,Rules"
+  },
+  {
+    "module": "08",
+    "date": "2026-11-07",
+    "topic": "Suno 文本生成音乐",
+    "title": "用文本提示词生成可商用背景音乐与完整歌曲",
+    "level": "L3",
+    "depth": "应用层",
+    "angle": "Simple/Custom模式与Extend续写工作流",
+    "keywords_snippet": "Suno,文本生音乐,Style提示词,Extend,Studio"
+  },
+  {
+    "module": "08",
+    "date": "2026-11-07",
+    "topic": "Runway AI视频生成",
+    "title": "用文字与图片生成动态短片与精细运镜",
+    "level": "L4",
+    "depth": "创意层",
+    "angle": "Text/Image to Video与Gen-4.5运镜控制",
+    "keywords_snippet": "Runway,Gen-4.5,Image to Video,Motion Brush,镜头语言"
+  },
+  {
+    "module": "08",
+    "date": "2026-11-07",
+    "topic": "ComfyUI 节点工作流生图",
+    "title": "用节点工作流精确控制AI图像生成管线",
+    "level": "L1",
+    "depth": "入门层",
+    "angle": "节点图搭文生图闭环与ControlNet/LoRA控制",
+    "keywords_snippet": "ComfyUI,节点工作流,KSampler,ControlNet,LoRA"
+  },
+  {
+    "module": "08",
+    "date": "2026-11-07",
+    "topic": "HeyGen AI数字人口播",
+    "title": "用AI数字人把脚本变成真人感口播视频",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "虚拟主播Script-to-Video与多语翻译对嘴",
+    "keywords_snippet": "HeyGen,数字人,Script-to-Video,数字分身,影片翻译"
   }
 ]

@@ -4318,5 +4318,65 @@
     "depth": "技术层",
     "angle": "给 Agent 装上网眼读取实时互联网",
     "keywords_snippet": "Agent-Reach, 联网搜索, 社交媒体, CLI, 零 API 费"
+  },
+  {
+    "module": "10",
+    "date": "2026-11-07",
+    "topic": "Sourcegraph Cody 仓库级上下文 AI 编程助手",
+    "title": "Sourcegraph Cody：为超大代码库提供仓库级上下文的 AI 编程助手",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "以代码图谱索引支撑全仓库语义问答",
+    "keywords_snippet": "Cody,仓库级上下文,代码索引,VS Code 扩展,语义检索"
+  },
+  {
+    "module": "10",
+    "date": "2026-11-07",
+    "topic": "Goose MCP 原生本地自主编程智能体",
+    "title": "Goose：由 Linux 基金会治理、MCP 原生的本地自主编程智能体",
+    "level": "L1",
+    "depth": "入门层",
+    "angle": "基金会治理下的本地优先 MCP 智能体",
+    "keywords_snippet": "Goose,Block,Linux 基金会,MCP,Rust,本地智能体"
+  },
+  {
+    "module": "10",
+    "date": "2026-11-07",
+    "topic": "SWE-agent 自主修复 GitHub issue 智能体",
+    "title": "Sweagent：让语言模型在仓库里自走自修、自动定位并修复 issue 的智能体",
+    "level": "L3",
+    "depth": "进阶层",
+    "angle": "Agent-Computer Interface 驱动自动修 issue",
+    "keywords_snippet": "SWE-agent,Princeton,自动修 bug,SWE-bench,ACI"
+  },
+  {
+    "module": "10",
+    "date": "2026-11-07",
+    "topic": "Void 开源 VS Code 分叉 Cursor 替代品",
+    "title": "Void：基于 VS Code 开源自建、可指向任意模型的 Cursor 式编辑器",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "无厂商后端的开源 Cursor 替代",
+    "keywords_snippet": "Void,VS Code fork,Cursor 替代,MIT,本地模型"
+  },
+  {
+    "module": "10",
+    "date": "2026-11-07",
+    "topic": "Tabby 自托管代码补全服务器",
+    "title": "Tabby：可私有化部署、代码永不出内网的自托管补全服务器",
+    "level": "L4",
+    "depth": "专家层",
+    "angle": "Rust 单二进制自托管 Copilot 替代",
+    "keywords_snippet": "Tabby,Rust,自托管,代码补全,Apache-2.0,私有化"
+  },
+  {
+    "module": "10",
+    "date": "2026-11-07",
+    "topic": "Zed Rust 开源 AI 编辑器",
+    "title": "Zed：用 Rust 重写、原生支持多人协作与 AI 的开源代码编辑器",
+    "level": "L3",
+    "depth": "进阶层",
+    "angle": "GPU 加速原生编辑器与 Agentic Editing",
+    "keywords_snippet": "Zed,Rust,GPU 渲染,GPUI,Agentic Editing,ACP,协作"
   }
 ]

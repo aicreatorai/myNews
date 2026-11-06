@@ -4128,5 +4128,65 @@
     "depth": "实践层",
     "angle": "氛围编程+内容获客的单人SaaS冷启动",
     "keywords_snippet": "Vugola 无代码 vibe-coding AI剪辑 MRR 内容获客 19岁"
+  },
+  {
+    "module": "12",
+    "date": "2026-11-07",
+    "topic": "AI法律智能体",
+    "title": "AI法律智能体走俏：合同审查与专利服务月入破百万",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "法律科技AI智能体重构合同审查与专利服务",
+    "keywords_snippet": "Legora,Patizy,Athena,合同审查,专利服务"
+  },
+  {
+    "module": "12",
+    "date": "2026-11-07",
+    "topic": "AI医疗手术机器人",
+    "title": "AI医疗手术机器人创业：显微操作获1.3亿美元融资",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "显微手术机器人感知-规划-执行闭环与监管壁垒",
+    "keywords_snippet": "MMI,Tutor Intelligence,手术机器人,显微操作,FDA"
+  },
+  {
+    "module": "12",
+    "date": "2026-11-07",
+    "topic": "AI客服Agent",
+    "title": "AI客服Agent被27亿美元收购：电商客服月入过万",
+    "level": "L3",
+    "depth": "实践层",
+    "angle": "电商垂直客服Agent的订阅变现与人工介入阈值",
+    "keywords_snippet": "Cresta,Decagon,Shopify客服,月订阅,人工介入"
+  },
+  {
+    "module": "12",
+    "date": "2026-11-07",
+    "topic": "AI时尚电商",
+    "title": "AI时尚电商MOOSS：个人衣橱记忆驱动的穿搭平台",
+    "level": "L4",
+    "depth": "前沿层",
+    "angle": "衣橱记忆驱动的AI搭配与成交分佣双收入",
+    "keywords_snippet": "MOOSS,衣橱记忆,搭配引擎,联盟分佣,Beautiful.ai"
+  },
+  {
+    "module": "12",
+    "date": "2026-11-07",
+    "topic": "工业AI质检",
+    "title": "工业AI质检创业：工厂目检准确率从85%提到99%",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "垂直制造业AI质检的项目制交付与缺陷数据壁垒",
+    "keywords_snippet": "工业AI质检,目检准确率,缺陷数据,B端解决方案"
+  },
+  {
+    "module": "12",
+    "date": "2026-11-07",
+    "topic": "AI招聘智能体",
+    "title": "AI招聘智能体创业：简历筛选到面试安排降本九成",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "招聘执行层Agent的解析匹配与模拟面试洞察",
+    "keywords_snippet": "HireBound,千寻AI聘,Ema,招聘智能体,模拟面试"
   }
 ]
