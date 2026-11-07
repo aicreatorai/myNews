@@ -4188,5 +4188,65 @@
     "depth": "技术层",
     "angle": "招聘执行层Agent的解析匹配与模拟面试洞察",
     "keywords_snippet": "HireBound,千寻AI聘,Ema,招聘智能体,模拟面试"
+  },
+  {
+    "module": "12",
+    "date": "2026-11-08",
+    "topic": "AI产品留存优化",
+    "title": "AI产品留存优化：用生命周期触达把30天留存拉到45%",
+    "level": "L2",
+    "depth": "运营实操层",
+    "angle": "用AI生命周期触达提升留存与续费",
+    "keywords_snippet": "留存优化 生命周期触达 NRR 流失预警"
+  },
+  {
+    "module": "12",
+    "date": "2026-11-08",
+    "topic": "一人公司技术栈",
+    "title": "一人公司技术栈：Supabase加Vercel加Cursor三件套月费60元",
+    "level": "L2",
+    "depth": "技术选型层",
+    "angle": "OPC最低成本起步技术栈",
+    "keywords_snippet": "一人公司 Supabase Vercel Cursor BaaS 技术栈"
+  },
+  {
+    "module": "12",
+    "date": "2026-11-08",
+    "topic": "AI出海收款换汇",
+    "title": "AI出海收款换汇：空中云汇把汇率损耗压到0.3%",
+    "level": "L2",
+    "depth": "支付财务层",
+    "angle": "出海收款同币种留存压汇损",
+    "keywords_snippet": "出海收款 空中云汇 汇率损耗 二次换汇 Stripe"
+  },
+  {
+    "module": "12",
+    "date": "2026-11-08",
+    "topic": "AI编程工具并购",
+    "title": "AI编程工具并购：Cursor被600亿美元买断的独立创业拐点",
+    "level": "L2",
+    "depth": "融资市场层",
+    "angle": "AI编程独立工具被巨头整合趋势",
+    "keywords_snippet": "AI编程 并购 Cursor 600亿美元 独立创业"
+  },
+  {
+    "module": "12",
+    "date": "2026-11-08",
+    "topic": "AI内容版权合规",
+    "title": "AI内容版权合规：生成内容肖像权与训练数据避坑",
+    "level": "L2",
+    "depth": "合规风控层",
+    "angle": "生成内容人格权与训练数据合规",
+    "keywords_snippet": "AI内容合规 肖像权 声音权益 训练数据 最高法意见"
+  },
+  {
+    "module": "12",
+    "date": "2026-11-08",
+    "topic": "AI写真头像定制",
+    "title": "AI写真头像定制：用SDXL做情绪头像月入数万元",
+    "level": "L2",
+    "depth": "变现实操层",
+    "angle": "SDXL头像定制低门槛变现",
+    "keywords_snippet": "AI写真 头像定制 SDXL 变现 副业"
   }
 ]

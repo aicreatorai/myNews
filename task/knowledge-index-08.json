@@ -4176,5 +4176,65 @@
     "depth": "技术层",
     "angle": "虚拟主播Script-to-Video与多语翻译对嘴",
     "keywords_snippet": "HeyGen,数字人,Script-to-Video,数字分身,影片翻译"
+  },
+  {
+    "module": "08",
+    "date": "2026-11-08",
+    "topic": "沉浸式翻译 双语阅读",
+    "title": "沉浸式翻译：用双语对照插件把外文网页变成可核验的阅读现场",
+    "level": "L3",
+    "depth": "实践层-生产级方案与术语库工作流",
+    "angle": "双语对照插件实操与术语核验",
+    "keywords_snippet": "沉浸式翻译 双语对照 术语库 PDF翻译"
+  },
+  {
+    "module": "08",
+    "date": "2026-11-08",
+    "topic": "Cursor AI编程",
+    "title": "Cursor：用 Agent 模式把自然语言需求变成可审查的整段代码",
+    "level": "L4",
+    "depth": "前沿层-并行智能体与worktree",
+    "angle": "Agent模式与上下文工程实战",
+    "keywords_snippet": "Cursor Agent worktree 规则 自我修正"
+  },
+  {
+    "module": "08",
+    "date": "2026-11-08",
+    "topic": "GitHub Copilot",
+    "title": "GitHub Copilot：用云端 Coding Agent 把 GitHub 议题直接变成可合并的 PR",
+    "level": "L4",
+    "depth": "前沿层-云端Agent与异步开发",
+    "angle": "issue到PR异步工作流与护栏",
+    "keywords_snippet": "GitHub Copilot coding agent PR Autofix"
+  },
+  {
+    "module": "08",
+    "date": "2026-11-08",
+    "topic": "飞书智能纪要",
+    "title": "飞书智能纪要：用 AI 转写把会议从听变成可执行的任务",
+    "level": "L3",
+    "depth": "实践层-会议转写与生态联动",
+    "angle": "智能纪要落地与任务联动",
+    "keywords_snippet": "飞书 智能纪要 转写 待办 任务联动"
+  },
+  {
+    "module": "08",
+    "date": "2026-11-08",
+    "topic": "百度文库AI助手",
+    "title": "百度文库 AI 助手：用文心大模型把找资料写文档做PPT收进一个入口",
+    "level": "L3",
+    "depth": "实践层-文档生成与PPT一键",
+    "angle": "文心大模型文档流水线",
+    "keywords_snippet": "百度文库 库库AI 文心 一键PPT 思维导图"
+  },
+  {
+    "module": "08",
+    "date": "2026-11-08",
+    "topic": "美图设计室",
+    "title": "美图设计室：用对话式 AI Agent 把零基础用户变成电商出图高手",
+    "level": "L1",
+    "depth": "概念层-对话式AI设计是什么",
+    "angle": "对话式设计Agent与电商出图",
+    "keywords_snippet": "美图设计室 DesignKit AI Agent 电商主图"
   }
 ]

@@ -3988,5 +3988,65 @@
     "depth": "技术层",
     "angle": "语法简洁与 AI 工具链融合",
     "keywords_snippet": "Dart 3.12,private named parameters,primary constructors,Agentic Hot Reload"
+  },
+  {
+    "module": "09",
+    "date": "2026-11-08",
+    "topic": "Go 1.25",
+    "title": "Go 1.25 泛型重构与 GreenTea GC：删除核心类型概念并提速编译",
+    "level": "L4",
+    "depth": "前沿层-最新演进",
+    "angle": "泛型模型重构与运行时GC优化",
+    "keywords_snippet": "Go 1.25 泛型 核心类型 GreenTea GC Cgroup GOMAXPROCS"
+  },
+  {
+    "module": "09",
+    "date": "2026-11-08",
+    "topic": "Rust 2024 Edition",
+    "title": "Rust 2024 Edition 落地：异步闭包、let chains 与更严 unsafe 纪律",
+    "level": "L3",
+    "depth": "实践层-生产级方案",
+    "angle": "edition 机制与异步闭包/unsafe 纪律",
+    "keywords_snippet": "Rust 2024 Edition 异步闭包 let chains unsafe extern cargo fix"
+  },
+  {
+    "module": "09",
+    "date": "2026-11-08",
+    "topic": "Zig 0.15",
+    "title": "Zig 0.15 自托管后端提速：去 async 关键字、comptime 与 C 互操作",
+    "level": "L1",
+    "depth": "概念层-是什么与不同",
+    "angle": "自托管后端与 comptime 元编程",
+    "keywords_snippet": "Zig 0.15 自托管后端 comptime C 互操作 async 移除"
+  },
+  {
+    "module": "09",
+    "date": "2026-11-08",
+    "topic": "ECMAScript 2026",
+    "title": "ECMAScript 2026 第17版发布：七项标准库补齐高频缺口",
+    "level": "L4",
+    "depth": "前沿层-最新演进",
+    "angle": "标准库务实补齐七项提案",
+    "keywords_snippet": "ECMAScript 2026 第17版 Math.sumPrecise Iterator.concat Array.fromAsync upsert"
+  },
+  {
+    "module": "09",
+    "date": "2026-11-08",
+    "topic": "Julia 1.12",
+    "title": "Julia 1.12 发布：BOLT 优化、trim 瘦身与可重定义类型",
+    "level": "L4",
+    "depth": "前沿层-最新演进",
+    "angle": "工程化优化与二进制瘦身",
+    "keywords_snippet": "Julia 1.12 BOLT trim 可重定义类型 wall-time profiler @atomic"
+  },
+  {
+    "module": "09",
+    "date": "2026-11-08",
+    "topic": "Carbon",
+    "title": "Carbon 语言 2026 进展：双向 C++ 互操作与内存安全双模式",
+    "level": "L3",
+    "depth": "实践层-生产级方案",
+    "angle": "C++ 继任者与渐进迁移路线",
+    "keywords_snippet": "Carbon C++ 继任者 双向互操作 内存安全双模式 places nightly"
   }
 ]

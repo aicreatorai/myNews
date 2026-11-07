@@ -4688,5 +4688,65 @@
     "depth": "前沿层",
     "angle": "三原语+2026无状态规范与中立治理",
     "keywords_snippet": "MCP,Model Context Protocol,工具调用,JSON-RPC,三原语"
+  },
+  {
+    "module": "07",
+    "date": "2026-11-08",
+    "topic": "MCP协议",
+    "title": "MCP协议是什么：AI时代的USB-C统一接入标准",
+    "level": "L3",
+    "depth": "实践层-统一协议概念与架构",
+    "angle": "协议定义与核心原语",
+    "keywords_snippet": "MCP Model Context Protocol USB-C 工具调用 统一协议"
+  },
+  {
+    "module": "07",
+    "date": "2026-11-08",
+    "topic": "MCP协议",
+    "title": "MCP与Function Calling的本质区别与选型",
+    "level": "L3",
+    "depth": "实践层-协议与厂商机制对比",
+    "angle": "MCP vs Function Calling 选型",
+    "keywords_snippet": "MCP Function Calling 工具调用 协议 对比 选型"
+  },
+  {
+    "module": "07",
+    "date": "2026-11-08",
+    "topic": "MCP协议",
+    "title": "从零搭建一个MCP Server：最小可运行实践",
+    "level": "L3",
+    "depth": "实践层-快速搭建 Server",
+    "angle": "FastMCP SDK 最小实践",
+    "keywords_snippet": "MCP Server FastMCP Python SDK 搭建 stdio"
+  },
+  {
+    "module": "07",
+    "date": "2026-11-08",
+    "topic": "图像视频生成",
+    "title": "文生视频2026：Gemini Omni与可灵4.0的草稿-精修工作流",
+    "level": "L3",
+    "depth": "实践层-视频生成工作流",
+    "angle": "草稿升频 工业化交付",
+    "keywords_snippet": "文生视频 Gemini Omni 可灵4.0 草稿精修 工作流"
+  },
+  {
+    "module": "07",
+    "date": "2026-11-08",
+    "topic": "图像视频生成",
+    "title": "可控图像生成：从提示词到参考图锚定的生产实践",
+    "level": "L3",
+    "depth": "实践层-可控图像生成",
+    "angle": "参考图锚定 区域编辑",
+    "keywords_snippet": "可控图像生成 参考图锚定 Reference Adherence 区域标记 Images2.6"
+  },
+  {
+    "module": "07",
+    "date": "2026-11-08",
+    "topic": "图像视频生成",
+    "title": "AI视频工业化：参考图一致性与多角色口型同步难题",
+    "level": "L3",
+    "depth": "实践层-视频一致性工业难题",
+    "angle": "身份/口型/多风格一致性",
+    "keywords_snippet": "AI视频 一致性 参考图 唇形同步 多角色 工业化"
   }
 ]

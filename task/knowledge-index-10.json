@@ -4378,5 +4378,65 @@
     "depth": "进阶层",
     "angle": "GPU 加速原生编辑器与 Agentic Editing",
     "keywords_snippet": "Zed,Rust,GPU 渲染,GPUI,Agentic Editing,ACP,协作"
+  },
+  {
+    "module": "10",
+    "date": "2026-11-08",
+    "topic": "MCP网关统一管理",
+    "title": "MCPJungle：把所有 MCP 服务器收拢到一个端点的自托管网关",
+    "level": "L1",
+    "depth": "概念层-是什么与解决什么",
+    "angle": "MCP生态治理中枢",
+    "keywords_snippet": "MCP网关 统一端点 自托管 工具分组 访问控制"
+  },
+  {
+    "module": "10",
+    "date": "2026-11-08",
+    "topic": "AI代码审查PR",
+    "title": "pr-agent：被 Qodo 捐给社区、可自托管的开源 AI 代码审查智能体",
+    "level": "L1",
+    "depth": "概念层-是什么与解决什么",
+    "angle": "开源PR审查自托管",
+    "keywords_snippet": "pr-agent AI审查 自托管 Apache-2.0 LiteLLM"
+  },
+  {
+    "module": "10",
+    "date": "2026-11-08",
+    "topic": "YAML工作流引擎编码智能体",
+    "title": "Archon：用 YAML 把 AI 编码智能体变成确定性、可版本化工作流的引擎",
+    "level": "L1",
+    "depth": "概念层-是什么与解决什么",
+    "angle": "确定性编码工作流",
+    "keywords_snippet": "Archon YAML harness git worktree 确定性"
+  },
+  {
+    "module": "10",
+    "date": "2026-11-08",
+    "topic": "AI逆向重建软件",
+    "title": "craft-anything：用真实检查工具研究任意软件、再让编码 Agent 按你的栈干净室重做的 Rust 引擎",
+    "level": "L1",
+    "depth": "概念层-是什么与解决什么",
+    "angle": "干净室逆向重建",
+    "keywords_snippet": "craft-anything 干净室 Rust MCP 重建 Claude Code"
+  },
+  {
+    "module": "10",
+    "date": "2026-11-08",
+    "topic": "命令行智能体后台自动化",
+    "title": "agent-autoloop：给命令行 Agent 装上后台自己接活、拿不准才找你拍板的中台",
+    "level": "L1",
+    "depth": "概念层-是什么与解决什么",
+    "angle": "后台常驻自动化中台",
+    "keywords_snippet": "agent-autoloop 后台 事件驱动 决策卡片 零依赖"
+  },
+  {
+    "module": "10",
+    "date": "2026-11-08",
+    "topic": "企业语义本体数据智能体",
+    "title": "auto-ontology：NVIDIA 开源、把企业关系数据变成可推理语义本体并经由 MCP 喂给 Agent 的框架",
+    "level": "L1",
+    "depth": "概念层-是什么与解决什么",
+    "angle": "企业语义接地层",
+    "keywords_snippet": "auto-ontology NVIDIA 语义本体 MCP Text-to-SQL 出处"
   }
 ]
