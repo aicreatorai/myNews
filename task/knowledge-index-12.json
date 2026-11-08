@@ -4248,5 +4248,65 @@
     "depth": "变现实操层",
     "angle": "SDXL头像定制低门槛变现",
     "keywords_snippet": "AI写真 头像定制 SDXL 变现 副业"
+  },
+  {
+    "module": "12",
+    "date": "2026-11-09",
+    "topic": "AI视频生成模型创业",
+    "title": "AI视频生成模型创业：Sand.ai开源模型加应用ARR破千万美元",
+    "level": "L3",
+    "depth": "深度案例",
+    "angle": "基础模型开源+应用变现双轮驱动",
+    "keywords_snippet": "视频生成 AI视频 Sand.ai VidMuse ARR 独角兽 开源"
+  },
+  {
+    "module": "12",
+    "date": "2026-11-09",
+    "topic": "AI运维工程师创业",
+    "title": "AI运维工程师创业：Traversal用生产世界模型融资1亿美元",
+    "level": "L2",
+    "depth": "实操方法",
+    "angle": "AI-SRE诊断生产事故的产品与融资路径",
+    "keywords_snippet": "AI-SRE Traversal 生产世界模型 根因分析 运维智能体 融资"
+  },
+  {
+    "module": "12",
+    "date": "2026-11-09",
+    "topic": "AI语音Agent出海",
+    "title": "AI语音Agent出海：为本地生活商家做多语种语音接单",
+    "level": "L3",
+    "depth": "深度案例",
+    "angle": "非英语本地生活场景的语音Agent部署服务",
+    "keywords_snippet": "voice agent 语音智能体 出海 本地生活 多语种 接单"
+  },
+  {
+    "module": "12",
+    "date": "2026-11-09",
+    "topic": "AI原生代理按效果收费",
+    "title": "AI原生代理按效果收费：一人用AI交付业务结果月入数万",
+    "level": "L1",
+    "depth": "概念入门",
+    "angle": "AI-Native Agency按结果收费的四种服务模板",
+    "keywords_snippet": "AI原生代理 按效果收费 Connor Chris Lee 全漏斗获客 内容部门"
+  },
+  {
+    "module": "12",
+    "date": "2026-11-09",
+    "topic": "MCP Server开发蓝海",
+    "title": "MCP Server开发蓝海：帮企业做模型上下文协议集成",
+    "level": "L2",
+    "depth": "实操方法",
+    "angle": "MCP生态开发作为2026蓝海外包赛道",
+    "keywords_snippet": "MCP Server 模型上下文协议 开发外包 集成 Upwork 蓝海"
+  },
+  {
+    "module": "12",
+    "date": "2026-11-09",
+    "topic": "AI工具出海程序化SEO",
+    "title": "AI工具出海程序化SEO：长尾落地页铺出月流水2万美元",
+    "level": "L4",
+    "depth": "战略趋势",
+    "angle": "程序化SEO长尾落地页的AI工具出海获客打法",
+    "keywords_snippet": "程序化SEO 长尾落地页 AI工具出海 文件处理 Chrome插件 Product Hunt"
   }
 ]

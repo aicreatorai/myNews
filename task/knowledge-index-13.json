@@ -2958,5 +2958,55 @@
     "depth": "概念层-是什么与解决什么",
     "angle": "家庭求解器核对+导师学懂(非教师中心)",
     "keywords_snippet": "AI数学 求解器 引导式导师 理科思维"
+  },
+  {
+    "module": "13",
+    "date": "2026-11-09",
+    "topic": "数字人情境课堂",
+    "title": "AI数字人情境课堂：用角色扮演串起知识探究链",
+    "level": "L2",
+    "depth": "学科课堂重构",
+    "angle": "情境认知与主动建构",
+    "keywords_snippet": "数字人,情境课堂,松山湖,探究链,角色扮演"
+  },
+  {
+    "module": "13",
+    "date": "2026-11-09",
+    "topic": "跨学科项目式学习",
+    "title": "AI跨学科项目式学习：多智能体把抽象原理变可探究任务",
+    "level": "L3",
+    "depth": "跨学科PBL",
+    "angle": "项目式学习与批判思维",
+    "keywords_snippet": "多智能体,PBL,龙岗,AI找茬,跨学科"
+  },
+  {
+    "module": "13",
+    "date": "2026-11-09",
+    "topic": "AI备考自测闭环",
+    "title": "AI备考自测闭环：课件秒变题库与限时模考",
+    "level": "L3",
+    "depth": "备考方法",
+    "angle": "提取练习与间隔效应",
+    "keywords_snippet": "自测,组卷,间隔复习,Jungle,Knowt"
+  },
+  {
+    "module": "13",
+    "date": "2026-11-09",
+    "topic": "师范生AI实训",
+    "title": "AI虚拟课堂：让师范生练透一万次真实授课",
+    "level": "L4",
+    "depth": "教师教育",
+    "angle": "刻意练习与反思性实践",
+    "keywords_snippet": "虚拟课堂,安徽师大,AI学生,赭麓知教"
+  },
+  {
+    "module": "13",
+    "date": "2026-11-09",
+    "topic": "AI生涯规划",
+    "title": "AI生涯规划助手：用数据匹配专业与职业路径",
+    "level": "L2",
+    "depth": "生涯规划",
+    "angle": "数据驱动决策与职业匹配",
+    "keywords_snippet": "志愿填报,夸克,霍兰德,数据匹配,生涯"
   }
 ]

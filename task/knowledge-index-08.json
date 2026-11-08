@@ -4236,5 +4236,65 @@
     "depth": "概念层-对话式AI设计是什么",
     "angle": "对话式设计Agent与电商出图",
     "keywords_snippet": "美图设计室 DesignKit AI Agent 电商主图"
+  },
+  {
+    "module": "08",
+    "date": "2026-11-09",
+    "topic": "Gemini Notebook 文档播客",
+    "title": "Gemini Notebook：把你的文档喂给AI生成播客与问答",
+    "level": "L2",
+    "depth": "实操拆解",
+    "angle": "把私人文档变成可听可问的AI研究助手",
+    "keywords_snippet": "NotebookLM 音频概览 来源 grounding 文档问答 播客生成"
+  },
+  {
+    "module": "08",
+    "date": "2026-11-09",
+    "topic": "可灵AI视频生成",
+    "title": "可灵AI视频：用文生视频与图生视频把创意变动态短片",
+    "level": "L2",
+    "depth": "实操拆解",
+    "angle": "文生/图生视频与产品外观一致性控制",
+    "keywords_snippet": "可灵 Kling 文生视频 图生视频 运镜 产品一致性 短视频"
+  },
+  {
+    "module": "08",
+    "date": "2026-11-09",
+    "topic": "Perplexity Teammates 智能体队友",
+    "title": "Perplexity Teammates：让AI智能体队友在Slack里主动领活",
+    "level": "L3",
+    "depth": "进阶用法",
+    "angle": "让Agent在协作工具里主动承接任务",
+    "keywords_snippet": "Perplexity Teammates 智能体 主动任务 Slack 团队协作"
+  },
+  {
+    "module": "08",
+    "date": "2026-11-09",
+    "topic": "腾讯Marvis 系统级AI管家",
+    "title": "腾讯Marvis：用一句话指挥电脑整理文件与改系统设置",
+    "level": "L2",
+    "depth": "实操拆解",
+    "angle": "操作系统级一句话指挥与本地隐私",
+    "keywords_snippet": "腾讯Marvis 统信UOS AI管家 一句话指令 文件整理 本地模式"
+  },
+  {
+    "module": "08",
+    "date": "2026-11-09",
+    "topic": "千问办公电商版Agent",
+    "title": "千问办公电商版Agent：用跨平台看板与ROI优化做店铺经营",
+    "level": "L3",
+    "depth": "行业落地",
+    "angle": "电商经营跨平台看板与ROI智能优化",
+    "keywords_snippet": "千问办公 电商Agent 跨平台看板 趋势洞察 ROI优化 种草图"
+  },
+  {
+    "module": "08",
+    "date": "2026-11-09",
+    "topic": "ChatGPT Images 2.6 GIF生成",
+    "title": "ChatGPT Images 2.6：用GIF与参考图把创意快速做成动图",
+    "level": "L1",
+    "depth": "新功能上手",
+    "angle": "用GIF与保存参考图快速出图与编辑帧",
+    "keywords_snippet": "ChatGPT Images 2.6 GIF Flare Sunburst 参考图 SVG 动图"
   }
 ]

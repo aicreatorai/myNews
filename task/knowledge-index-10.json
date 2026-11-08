@@ -4438,5 +4438,65 @@
     "depth": "概念层-是什么与解决什么",
     "angle": "企业语义接地层",
     "keywords_snippet": "auto-ontology NVIDIA 语义本体 MCP Text-to-SQL 出处"
+  },
+  {
+    "module": "10",
+    "date": "2026-11-09",
+    "topic": "Pi 智能体开发工具包",
+    "title": "Pi：可自扩展的 AI 智能体开发工具包与交互式编码 CLI",
+    "level": "L2",
+    "depth": "应用实践",
+    "angle": "开源 Agent 工具包与编码 CLI 选型",
+    "keywords_snippet": "agent harness,Pi,CLI,LLM API,多 provider"
+  },
+  {
+    "module": "10",
+    "date": "2026-11-09",
+    "topic": "Infinity 嵌入重排推理引擎",
+    "title": "Infinity：面向嵌入、重排与多模态模型的高吞吐推理引擎",
+    "level": "L3",
+    "depth": "工程实现",
+    "angle": "高吞吐嵌入与重排推理服务",
+    "keywords_snippet": "Infinity,embedding,rerank,multimodal,推理服务"
+  },
+  {
+    "module": "10",
+    "date": "2026-11-09",
+    "topic": "LEANN 私有化 RAG",
+    "title": "LEANN：在个人设备上跑 97% 省存储的私有化 RAG 引擎",
+    "level": "L2",
+    "depth": "应用实践",
+    "angle": "个人设备私有 RAG 与存储压缩",
+    "keywords_snippet": "LEANN,RAG,on-device,storage savings,privacy"
+  },
+  {
+    "module": "10",
+    "date": "2026-11-09",
+    "topic": "Ruflo 智能体元工具",
+    "title": "Ruflo：在 Claude Code 与 Codex 之上叠加百个智能体与自我学习记忆的元工具",
+    "level": "L3",
+    "depth": "工程实现",
+    "angle": "多智能体编排与跨机联邦记忆",
+    "keywords_snippet": "Ruflo,agent meta-harness,swarm,memory,federation"
+  },
+  {
+    "module": "10",
+    "date": "2026-11-09",
+    "topic": "Strata 本地多模态部署",
+    "title": "Strata：在普通游戏电脑上跑 125B 多模态大模型的本地一体化部署方案",
+    "level": "L2",
+    "depth": "应用实践",
+    "angle": "消费级硬件跑大模型的一键部署",
+    "keywords_snippet": "Strata,Qwen,125B,local deploy,gaming PC"
+  },
+  {
+    "module": "10",
+    "date": "2026-11-09",
+    "topic": "WeKnora 图谱 RAG",
+    "title": "WeKnora：腾讯开源的图谱增强 RAG 知识引擎与企业级检索",
+    "level": "L3",
+    "depth": "工程实现",
+    "angle": "知识图谱增强的 RAG 检索",
+    "keywords_snippet": "WeKnora,graph RAG,腾讯,knowledge engine,retrieval"
   }
 ]

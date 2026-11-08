@@ -4748,5 +4748,65 @@
     "depth": "实践层-视频一致性工业难题",
     "angle": "身份/口型/多风格一致性",
     "keywords_snippet": "AI视频 一致性 参考图 唇形同步 多角色 工业化"
+  },
+  {
+    "module": "07",
+    "date": "2026-11-09",
+    "topic": "PD分离推理",
+    "title": "PD分离推理：把读题和答题拆到不同硬件上各展所长",
+    "level": "L1",
+    "depth": "入门科普",
+    "angle": "系统级推理调度",
+    "keywords_snippet": "PD分离,预填充,解码,异构推理,键值缓存"
+  },
+  {
+    "module": "07",
+    "date": "2026-11-09",
+    "topic": "A2A协议",
+    "title": "A2A协议：让不同厂商的AI智能体跨框架协同干活",
+    "level": "L3",
+    "depth": "深入工程",
+    "angle": "跨厂商智能体协作",
+    "keywords_snippet": "A2A,智能体名片,任务委派,跨框架编排"
+  },
+  {
+    "module": "07",
+    "date": "2026-11-09",
+    "topic": "AI安全对齐防御",
+    "title": "AI安全对齐防御新研究：修补大模型脆弱的安全护栏",
+    "level": "L4",
+    "depth": "前沿研究",
+    "angle": "脆弱对齐加固",
+    "keywords_snippet": "安全对齐,减法增强,通用对抗提示,越狱防御"
+  },
+  {
+    "module": "07",
+    "date": "2026-11-09",
+    "topic": "RAG语义切片",
+    "title": "RAG语义切片与Late Chunking：长文档检索不再切断表格代码",
+    "level": "L2",
+    "depth": "进阶实践",
+    "angle": "长文档切分优化",
+    "keywords_snippet": "语义切片,Late Chunking,延迟切块,检索增强"
+  },
+  {
+    "module": "07",
+    "date": "2026-11-09",
+    "topic": "智能体改写推理代码",
+    "title": "智能体改写推理代码：AI Agent连夜把模型推理提速近3倍",
+    "level": "L3",
+    "depth": "深入工程",
+    "angle": "自动推理优化",
+    "keywords_snippet": "智能体,推理优化,Together Compiler,热替换"
+  },
+  {
+    "module": "07",
+    "date": "2026-11-09",
+    "topic": "Agent架构设计模式",
+    "title": "AI Agent架构设计模式：从ReAct单智能体到Swarm蜂群协作",
+    "level": "L2",
+    "depth": "进阶实践",
+    "angle": "架构模式选型",
+    "keywords_snippet": "ReAct,路由,编排者,蜂群,多智能体"
   }
 ]

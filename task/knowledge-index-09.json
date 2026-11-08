@@ -4048,5 +4048,65 @@
     "depth": "实践层-生产级方案",
     "angle": "C++ 继任者与渐进迁移路线",
     "keywords_snippet": "Carbon C++ 继任者 双向互操作 内存安全双模式 places nightly"
+  },
+  {
+    "module": "09",
+    "date": "2026-11-09",
+    "topic": "Go 1.27 encoding/json/v2",
+    "title": "Go 1.27 正式推出 encoding/json/v2：默认严格、反序列化提速 10 倍",
+    "level": "L2",
+    "depth": "标准库API演进",
+    "angle": "默认严格校验与渐进迁移",
+    "keywords_snippet": "encoding/json/v2, jsontext, 重复键, 非法UTF-8, 10倍"
+  },
+  {
+    "module": "09",
+    "date": "2026-11-09",
+    "topic": "Python 3.15 自由线程",
+    "title": "Python 3.15 移除 GIL：自由线程时代真正到来（PEP 703）",
+    "level": "L1",
+    "depth": "并发模型突破",
+    "angle": "GIL移除与真多线程",
+    "keywords_snippet": "GIL, PEP 703, 自由线程, 偏置引用计数, 30%提速"
+  },
+  {
+    "module": "09",
+    "date": "2026-11-09",
+    "topic": "tsrs TypeScript 编译器",
+    "title": "tsrs：Cloudflare 用 Rust 移植 TypeScript 编译器，类型检查提速 8 倍",
+    "level": "L3",
+    "depth": "编译器工程范式",
+    "angle": "AI移植编译器与官方测试验收",
+    "keywords_snippet": "tsrs, Rust, TypeScript, 类型检查, 8倍, WASM"
+  },
+  {
+    "module": "09",
+    "date": "2026-11-09",
+    "topic": "Evergreen 可证明安全语言",
+    "title": "Evergreen 语言：把形式化验证做成编译器出厂设置的可证明安全系统语言",
+    "level": "L4",
+    "depth": "形式化验证语言",
+    "angle": "契约与内存平面内建验证",
+    "keywords_snippet": "Evergreen, 形式化验证, 内存平面, where, ensures, Rust自举"
+  },
+  {
+    "module": "09",
+    "date": "2026-11-09",
+    "topic": "GraalVM LLVM Runtime 托管模式",
+    "title": "GraalVM LLVM Runtime 托管模式：在 GC 堆上安全跑 C/C++ bitcode",
+    "level": "L2",
+    "depth": "托管运行时",
+    "angle": "托管执行拦截越界访问",
+    "keywords_snippet": "GraalVM, LLVM Runtime, --llvm.managed, 托管执行, 内存安全"
+  },
+  {
+    "module": "09",
+    "date": "2026-11-09",
+    "topic": "Java JDK 28 Value Class",
+    "title": "Java JDK 28 引入 Value Class：Valhalla 项目把对象变成扁平值类型",
+    "level": "L3",
+    "depth": "值类型与内存布局",
+    "angle": "值类型消除对象头开销",
+    "keywords_snippet": "JDK 28, Valhalla, Value Class, 扁平值类型, 内存布局"
   }
 ]
