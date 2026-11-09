@@ -4498,5 +4498,65 @@
     "depth": "工程实现",
     "angle": "知识图谱增强的 RAG 检索",
     "keywords_snippet": "WeKnora,graph RAG,腾讯,knowledge engine,retrieval"
+  },
+  {
+    "module": "10",
+    "date": "2026-11-10",
+    "topic": "AI Agent 浏览器自动化",
+    "title": "vercel-labs/agent-browser：给 AI 智能体用的浏览器自动化命令行工具",
+    "level": "L1",
+    "depth": "工具认知",
+    "angle": "Rust 编写、CLI 优先、面向模型的浏览器操控",
+    "keywords_snippet": "agent-browser, Vercel, 浏览器自动化, Rust, CDP, AI Agent"
+  },
+  {
+    "module": "10",
+    "date": "2026-11-10",
+    "topic": "Python 网页抓取框架",
+    "title": "D4Vinci/Scrapling：覆盖单请求到大规模爬取的 Python 网页抓取框架",
+    "level": "L2",
+    "depth": "框架原理",
+    "angle": "抗反爬与动态渲染统一进一套 API",
+    "keywords_snippet": "Scrapling, Python, 爬虫, 反爬, 动态渲染, 智能抽取"
+  },
+  {
+    "module": "10",
+    "date": "2026-11-10",
+    "topic": "聊天机器人执行沙箱",
+    "title": "milind-soni/OpenMausBot：给聊天机器人用的开源虚拟机运行环境",
+    "level": "L3",
+    "depth": "Agent 执行层",
+    "angle": "对话式 AI 加隔离虚拟机，能聊也能做",
+    "keywords_snippet": "OpenMausBot, 虚拟机, 聊天机器人, 隔离执行, TypeScript, Agent"
+  },
+  {
+    "module": "10",
+    "date": "2026-11-10",
+    "topic": "多智能体游戏开发",
+    "title": "Donchitos/Claude-Code-Game-Studios：把 Claude Code 变成 49 个智能体的游戏开发工作室",
+    "level": "L4",
+    "depth": "多智能体协作架构",
+    "angle": "真实工作室层级映射成 Agent 与技能分工",
+    "keywords_snippet": "Game-Studios, Claude Code, 多智能体, 49 Agent, 72 技能, 游戏开发"
+  },
+  {
+    "module": "10",
+    "date": "2026-11-10",
+    "topic": "Python 工具链",
+    "title": "astral-sh/ruff：用 Rust 编写的高性能 Python 代码检查与格式化工具",
+    "level": "L1",
+    "depth": "开发者效率工具",
+    "angle": "一个工具替代 flake8/black/isort",
+    "keywords_snippet": "ruff, Rust, Python, lint, 格式化, Astral"
+  },
+  {
+    "module": "10",
+    "date": "2026-11-10",
+    "topic": "后端本地基础设施",
+    "title": "floci-io/floci：轻量免费的开源 AWS 本地模拟器替代",
+    "level": "L2",
+    "depth": "本地云模拟",
+    "angle": "轻量免费复刻 AWS 接口语义做本地联调",
+    "keywords_snippet": "floci, AWS, 本地模拟器, Java, 云原生, 后端"
   }
 ]

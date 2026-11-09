@@ -4418,5 +4418,65 @@
     "depth": "技术层-上线与回滚策略",
     "angle": "小流量灰度加双轨对照加模型提示双回滚",
     "keywords_snippet": "灰度发布,金丝雀,回滚策略,双轨对照,模型回退"
+  },
+  {
+    "module": "15",
+    "date": "2026-11-10",
+    "topic": "生成式UI范式",
+    "title": "生成式UI范式：让对话Agent直接生成可用界面",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "用生成式UI让对话Agent直接产出界面降低认知搬运",
+    "keywords_snippet": "生成式UI Agent 对话界面 json-render Vercel 腾讯云"
+  },
+  {
+    "module": "15",
+    "date": "2026-11-10",
+    "topic": "AI产品路线图规划",
+    "title": "AI产品路线图规划：按能力成熟度给功能排期",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "按模型能力成熟度给AI功能排期避免承诺落空",
+    "keywords_snippet": "路线图 能力成熟度 排期 AI产品 评测"
+  },
+  {
+    "module": "15",
+    "date": "2026-11-10",
+    "topic": "可恢复Agent架构",
+    "title": "可恢复Agent架构：让智能体断点续跑不丢状态",
+    "level": "L3",
+    "depth": "实践层",
+    "angle": "用持久化与断点续跑让长任务Agent可恢复",
+    "keywords_snippet": "可恢复Agent 持久化 断点续跑 session.continue 沙箱"
+  },
+  {
+    "module": "15",
+    "date": "2026-11-10",
+    "topic": "AI订阅留存运营",
+    "title": "AI订阅留存运营：把尝鲜用户变成长期付费",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "用工作流占位替代价格战提升AI会员续费",
+    "keywords_snippet": "订阅 留存 续费 工作流占位 AI会员"
+  },
+  {
+    "module": "15",
+    "date": "2026-11-10",
+    "topic": "AI出海范式外溢",
+    "title": "AI出海范式外溢：轻量化输出中国方法论",
+    "level": "L4",
+    "depth": "前沿层",
+    "angle": "轻量化输出国内验证的AI方法论到全球市场",
+    "keywords_snippet": "出海 范式外溢 轻量化 张江 东南亚"
+  },
+  {
+    "module": "15",
+    "date": "2026-11-10",
+    "topic": "AI产品工作流编排范式",
+    "title": "AI产品工作流编排范式：用Agent链替代零散订阅",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "用一条Agent链替代零散AI订阅串起业务闭环",
+    "keywords_snippet": "工作流编排 Agent链 企业自动化 订阅"
   }
 ]

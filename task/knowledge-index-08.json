@@ -4296,5 +4296,65 @@
     "depth": "新功能上手",
     "angle": "用GIF与保存参考图快速出图与编辑帧",
     "keywords_snippet": "ChatGPT Images 2.6 GIF Flare Sunburst 参考图 SVG 动图"
+  },
+  {
+    "module": "08",
+    "date": "2026-11-10",
+    "topic": "WorkBuddy 智能体工作台",
+    "title": "WorkBuddy 5.11 三模式实战：让AI真正动手干活",
+    "level": "L1",
+    "depth": "入门实操",
+    "angle": "Ask/Plan/Craft三模式与定时远程",
+    "keywords_snippet": "WorkBuddy 智能体 三模式 定时任务 远程控制"
+  },
+  {
+    "module": "08",
+    "date": "2026-11-10",
+    "topic": "Claude Code 与 Cursor 编程协作",
+    "title": "Claude Code+Cursor 双工具AI编程工作流实战",
+    "level": "L2",
+    "depth": "工作流进阶",
+    "angle": "双工具分工与项目记忆文件",
+    "keywords_snippet": "Claude Code Cursor 编程代理 记忆文件 工作流"
+  },
+  {
+    "module": "08",
+    "date": "2026-11-10",
+    "topic": "AI 写作四段流程",
+    "title": "AI写作四段流：用DeepSeek豆包Kimi跑通成稿",
+    "level": "L3",
+    "depth": "内容生产",
+    "angle": "选题提纲初稿润色结构化提示词",
+    "keywords_snippet": "AI写作 DeepSeek 豆包 Kimi 四段流 提示词"
+  },
+  {
+    "module": "08",
+    "date": "2026-11-10",
+    "topic": "n8n 自动化工作流",
+    "title": "n8n自托管搭建自动日报Agent工作流实战",
+    "level": "L4",
+    "depth": "自动化搭建",
+    "angle": "定时触发抓取总结推送五节点",
+    "keywords_snippet": "n8n 自动日报 Agent 自托管 工作流 节点"
+  },
+  {
+    "module": "08",
+    "date": "2026-11-10",
+    "topic": "扣子 Coze 知识库 Bot",
+    "title": "扣子Coze零代码搭建知识库客服Bot实战",
+    "level": "L2",
+    "depth": "工作流进阶",
+    "angle": "RAG知识库与零代码Bot发布",
+    "keywords_snippet": "扣子 Coze 知识库 客服Bot RAG 低代码"
+  },
+  {
+    "module": "08",
+    "date": "2026-11-10",
+    "topic": "AI 任务拆解方法论",
+    "title": "把模糊任务拆成清单：AI协作四步法",
+    "level": "L1",
+    "depth": "入门实操",
+    "angle": "结构化提示词与可执行清单",
+    "keywords_snippet": "任务拆解 结构化提示词 可执行清单 四步法"
   }
 ]

@@ -3008,5 +3008,55 @@
     "depth": "生涯规划",
     "angle": "数据驱动决策与职业匹配",
     "keywords_snippet": "志愿填报,夸克,霍兰德,数据匹配,生涯"
+  },
+  {
+    "module": "13",
+    "date": "2026-11-10",
+    "topic": "AI语音评测纠正朗读发音",
+    "title": "AI语音评测：用实时纠音练标准朗读发音",
+    "level": "L1",
+    "depth": "概念层-是什么与解决什么",
+    "angle": "学生自主跟读纠音(非教师中心)",
+    "keywords_snippet": "语音评测 音素级 实时纠音 朗读 星空词霸"
+  },
+  {
+    "module": "13",
+    "date": "2026-11-10",
+    "topic": "AI知识漏洞清单备考法",
+    "title": "AI知识漏洞清单：用三级自测题定位薄弱点",
+    "level": "L3",
+    "depth": "实践层-生产级方案与数据对比",
+    "angle": "闭卷自测暴露薄弱点(非教师中心)",
+    "keywords_snippet": "知识漏洞清单 三级自测 提取练习 间隔效应"
+  },
+  {
+    "module": "13",
+    "date": "2026-11-10",
+    "topic": "2026 AI学习工具栈选型",
+    "title": "2026 AI学习工具栈：从笔记到闪卡这样选",
+    "level": "L2",
+    "depth": "工具选型对比",
+    "angle": "分层组合学习工具(非教师中心)",
+    "keywords_snippet": "Gemini Notebook Anki FSRS ChatGPT学习模式 Khanmigo 选型"
+  },
+  {
+    "module": "13",
+    "date": "2026-11-10",
+    "topic": "AI岗位实战训练交付",
+    "title": "AI岗位实战训练：从会用工具到能交付方案",
+    "level": "L4",
+    "depth": "前沿层-职场进阶与交付能力",
+    "angle": "职场人业务落地进阶(非教师中心)",
+    "keywords_snippet": "AI产品经理 FDE交付 NewSeekAI 技能照亮前程 实战"
+  },
+  {
+    "module": "13",
+    "date": "2026-11-10",
+    "topic": "AI航天STEAM探究",
+    "title": "AI航天STEAM：用水火箭与卫星数据做探究",
+    "level": "L1",
+    "depth": "概念层-学科实践",
+    "angle": "学生动手探究科学思维(非教师中心)",
+    "keywords_snippet": "航空航天 STEAM 水火箭 卫星遥感 火星基地 探究"
   }
 ]

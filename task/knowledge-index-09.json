@@ -4108,5 +4108,65 @@
     "depth": "值类型与内存布局",
     "angle": "值类型消除对象头开销",
     "keywords_snippet": "JDK 28, Valhalla, Value Class, 扁平值类型, 内存布局"
+  },
+  {
+    "module": "09",
+    "date": "2026-11-10",
+    "topic": "Python 3.15",
+    "title": "Python 3.15 新特性：惰性导入与内置 frozendict",
+    "level": "L1",
+    "depth": "版本特性",
+    "angle": "年度大版本语言层新特性总览",
+    "keywords_snippet": "惰性导入 frozendict 哨兵 UTF-8 默认编码"
+  },
+  {
+    "module": "09",
+    "date": "2026-11-10",
+    "topic": "Java JDK 28",
+    "title": "Java JDK 28 临近冻结：值对象与结构化并发转正",
+    "level": "L2",
+    "depth": "平台版本路线",
+    "angle": "JDK 发布节奏与预览/孵化特性",
+    "keywords_snippet": "结构化并发 值对象 简单JSON API ZGC AOT"
+  },
+  {
+    "module": "09",
+    "date": "2026-11-10",
+    "topic": "Bun 1.2",
+    "title": "Bun 1.2 发布：Windows 成一等公民与 SQLite 提速",
+    "level": "L3",
+    "depth": "运行时生态",
+    "angle": "跨平台运行时性能与工具链补全",
+    "keywords_snippet": "Windows 一级支持 bun test 覆盖率 bun:sqlite"
+  },
+  {
+    "module": "09",
+    "date": "2026-11-10",
+    "topic": "Swift 6.4.2",
+    "title": "Swift 6.4.2：可选将 C 数组导入为 InlineArray",
+    "level": "L2",
+    "depth": "移动端互操作",
+    "angle": "C 互操作与 ABI 相邻类型改进",
+    "keywords_snippet": "ClangImporter InlineArray C 数组 互操作"
+  },
+  {
+    "module": "09",
+    "date": "2026-11-10",
+    "topic": "Deno 2.1",
+    "title": "Deno 2.1 发布：打包 node_modules 与 JSR 发布稳定",
+    "level": "L3",
+    "depth": "运行时与发布",
+    "angle": "单文件分发与原生 TS Registry",
+    "keywords_snippet": "deno compile node_modules JSR npm 说明符 LTS"
+  },
+  {
+    "module": "09",
+    "date": "2026-11-10",
+    "topic": "Rust 1.99",
+    "title": "Rust 1.99 稳定化 edition 2024：extern C 可变参数与裸指针布局",
+    "level": "L4",
+    "depth": "系统级 FFI",
+    "angle": "C 互操作与裸指针布局精确控制",
+    "keywords_snippet": "C 可变参数 裸指针 布局查询 标准库稳定"
   }
 ]

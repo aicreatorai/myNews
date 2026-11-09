@@ -4808,5 +4808,65 @@
     "depth": "进阶实践",
     "angle": "架构模式选型",
     "keywords_snippet": "ReAct,路由,编排者,蜂群,多智能体"
+  },
+  {
+    "module": "07",
+    "date": "2026-11-10",
+    "topic": "智能体记忆架构",
+    "title": "智能体记忆架构：分层记忆为何胜过原始搜索",
+    "level": "L4",
+    "depth": "前沿层 - 分层记忆与策展机制",
+    "angle": "长任务下用分层记忆与策展替代原始上下文搜索",
+    "keywords_snippet": "智能体记忆,分层记忆,工作记忆,长期记忆,策展,数据包,多智能体"
+  },
+  {
+    "module": "07",
+    "date": "2026-11-10",
+    "topic": "推理压缩",
+    "title": "推理压缩：把模型自身推理改写成精简笔记",
+    "level": "L1",
+    "depth": "概念层 - 推理压缩是什么与为何有效",
+    "angle": "在工具返回前把长推理改写成状态笔记以降低开销",
+    "keywords_snippet": "推理压缩,reasoning compaction,状态笔记,上下文管理,思维链"
+  },
+  {
+    "module": "07",
+    "date": "2026-11-10",
+    "topic": "Together Compiler",
+    "title": "Together Compiler：让智能体自动改写推理代码提速",
+    "level": "L4",
+    "depth": "前沿层 - 智能体驱动的推理栈优化",
+    "angle": "编码智能体热替换前向代码按真实流量持续优化推理",
+    "keywords_snippet": "Together Compiler,智能体优化推理,热替换,持久引擎,并行布局"
+  },
+  {
+    "module": "07",
+    "date": "2026-11-10",
+    "topic": "DeepMem字节级架构",
+    "title": "DeepMem字节级架构：用1/7600算力逼近Transformer",
+    "level": "L1",
+    "depth": "概念层 - 字节级架构与瓶颈精炼",
+    "angle": "非注意力字节级架构以极低算力逼近Transformer",
+    "keywords_snippet": "DeepMem,字节级架构,瓶颈精炼,非注意力,低算力"
+  },
+  {
+    "module": "07",
+    "date": "2026-11-10",
+    "topic": "FlashProve密码学验证",
+    "title": "FlashProve密码学验证：证明AI回答来自承诺权重",
+    "level": "L1",
+    "depth": "概念层 - 模型出处可验证",
+    "angle": "用密码学证明回答确实出自声明的模型权重",
+    "keywords_snippet": "FlashProve,密码学验证,权重承诺,可验证计算,模型出处"
+  },
+  {
+    "module": "07",
+    "date": "2026-11-10",
+    "topic": "Route Anything异构路由",
+    "title": "Route Anything异构路由：让专家模型各司其职",
+    "level": "L1",
+    "depth": "概念层 - 模型与策略路由",
+    "angle": "异构专家生态下按质量成本权衡动态路由",
+    "keywords_snippet": "Route Anything,模型路由,策略路由,异构专家,信息感知"
   }
 ]
