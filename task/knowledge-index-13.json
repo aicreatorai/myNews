@@ -3058,5 +3058,55 @@
     "depth": "概念层-学科实践",
     "angle": "学生动手探究科学思维(非教师中心)",
     "keywords_snippet": "航空航天 STEAM 水火箭 卫星遥感 火星基地 探究"
+  },
+  {
+    "module": "13",
+    "date": "2026-11-11",
+    "topic": "AI写作脚手架",
+    "title": "AI写作脚手架：用四维反馈把作文从凑字数变结构化",
+    "level": "L2",
+    "depth": "中",
+    "angle": "学习实战",
+    "keywords_snippet": "AI写作 四维反馈 习作教学 脚手架 生成效应"
+  },
+  {
+    "module": "13",
+    "date": "2026-11-11",
+    "topic": "AI美术创作课",
+    "title": "AI美术创作课：用风格迁移把名画语言变成可改的构图练习",
+    "level": "L2",
+    "depth": "中",
+    "angle": "艺术教学",
+    "keywords_snippet": "AI美术 风格迁移 构图练习 美育 STEAM"
+  },
+  {
+    "module": "13",
+    "date": "2026-11-11",
+    "topic": "零成本AI学习栈",
+    "title": "零成本AI学习栈：用免费工具组合搭学生专属助学工作流",
+    "level": "L1",
+    "depth": "入门",
+    "angle": "工具实战",
+    "keywords_snippet": "免费AI工具 学习栈 Knowt Quizlet Otter 记忆自测"
+  },
+  {
+    "module": "13",
+    "date": "2026-11-11",
+    "topic": "AI编程项目制学习",
+    "title": "AI编程项目制学习：用真实项目把Python从语法练到交付",
+    "level": "L3",
+    "depth": "深",
+    "angle": "项目实战",
+    "keywords_snippet": "Python 项目制学习 AI导师 刻意练习 生成效应"
+  },
+  {
+    "module": "13",
+    "date": "2026-11-11",
+    "topic": "AI职场微学习",
+    "title": "AI职场微学习：用场景化推送把技能练进每日工作流",
+    "level": "L2",
+    "depth": "中",
+    "angle": "企业赋能",
+    "keywords_snippet": "AI微学习 间隔重复 场景化推送 LXP 企业培训"
   }
 ]

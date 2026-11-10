@@ -4358,5 +4358,65 @@
     "depth": "概念层",
     "angle": "Keep-Problem-Try三栏把复盘产出可行动清单",
     "keywords_snippet": "KPT复盘 Keep Problem Try 敏捷复盘 行动项 闭环学习"
+  },
+  {
+    "module": "14",
+    "date": "2026-11-11",
+    "topic": "信息过载应对",
+    "title": "信息过载应对：用三层筛选把噪音挡在注意力外",
+    "level": "L2",
+    "depth": "中",
+    "angle": "实践方法",
+    "keywords_snippet": "信息过载 注意力 筛选 数字极简"
+  },
+  {
+    "module": "14",
+    "date": "2026-11-11",
+    "topic": "记忆宫殿法",
+    "title": "记忆宫殿法：用空间路线把难记清单钉进大脑",
+    "level": "L1",
+    "depth": "概念",
+    "angle": "记忆技术",
+    "keywords_snippet": "记忆宫殿 位置记忆 空间路线 海马体"
+  },
+  {
+    "module": "14",
+    "date": "2026-11-11",
+    "topic": "GTD时间管理法",
+    "title": "GTD时间管理法：用收集整理执行清空大脑杂念",
+    "level": "L2",
+    "depth": "中",
+    "angle": "实践方法",
+    "keywords_snippet": "GTD 收集 理清 下一步动作 周回顾"
+  },
+  {
+    "module": "14",
+    "date": "2026-11-11",
+    "topic": "延迟满足与自控力",
+    "title": "延迟满足与自控力：用十分钟冷却绕过多巴胺陷阱",
+    "level": "L2",
+    "depth": "中",
+    "angle": "科学原理",
+    "keywords_snippet": "延迟满足 自控力 多巴胺 双系统"
+  },
+  {
+    "module": "14",
+    "date": "2026-11-11",
+    "topic": "积极倾听",
+    "title": "积极倾听：用复述与提问把对话变成真正的连接",
+    "level": "L2",
+    "depth": "中",
+    "angle": "沟通技巧",
+    "keywords_snippet": "积极倾听 复述 共情 反射式倾听"
+  },
+  {
+    "module": "14",
+    "date": "2026-11-11",
+    "topic": "复原力培养",
+    "title": "复原力培养：用认知重构把挫折变成可恢复的反脆弱",
+    "level": "L3",
+    "depth": "中",
+    "angle": "心理训练",
+    "keywords_snippet": "心理韧性 复原力 认知重构 认知灵活性"
   }
 ]

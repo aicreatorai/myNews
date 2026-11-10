@@ -4356,5 +4356,65 @@
     "depth": "入门实操",
     "angle": "结构化提示词与可执行清单",
     "keywords_snippet": "任务拆解 结构化提示词 可执行清单 四步法"
+  },
+  {
+    "module": "08",
+    "date": "2026-11-11",
+    "topic": "Claude Code",
+    "title": "Claude Code 高频工作流：终端里的 AI 副驾",
+    "level": "L2",
+    "depth": "中",
+    "angle": "实战上手",
+    "keywords_snippet": "Claude Code 终端 工作流 MCP"
+  },
+  {
+    "module": "08",
+    "date": "2026-11-11",
+    "topic": "Gamma",
+    "title": "Gamma 一键成片：把文档秒变专业 PPT",
+    "level": "L1",
+    "depth": "中",
+    "angle": "实战上手",
+    "keywords_snippet": "Gamma AI PPT 一键生成"
+  },
+  {
+    "module": "08",
+    "date": "2026-11-11",
+    "topic": "Monica",
+    "title": "Monica 沉浸式翻译：外文网页双语对照读",
+    "level": "L1",
+    "depth": "中",
+    "angle": "实战上手",
+    "keywords_snippet": "Monica 沉浸式翻译 双语"
+  },
+  {
+    "module": "08",
+    "date": "2026-11-11",
+    "topic": "Coze Dify",
+    "title": "Coze Dify 零代码搭 AI 工作流不求人",
+    "level": "L2",
+    "depth": "中",
+    "angle": "实战上手",
+    "keywords_snippet": "Coze Dify 工作流 智能体"
+  },
+  {
+    "module": "08",
+    "date": "2026-11-11",
+    "topic": "即梦 AI",
+    "title": "即梦 AI 文生图：用提示词与参考图做出电商级配图",
+    "level": "L1",
+    "depth": "中",
+    "angle": "实战上手",
+    "keywords_snippet": "即梦AI 文生图 提示词"
+  },
+  {
+    "module": "08",
+    "date": "2026-11-11",
+    "topic": "剪映",
+    "title": "剪映 AI 剪辑：字幕配音特效一条龙",
+    "level": "L1",
+    "depth": "中",
+    "angle": "实战上手",
+    "keywords_snippet": "剪映 AI 剪辑 字幕配音"
   }
 ]

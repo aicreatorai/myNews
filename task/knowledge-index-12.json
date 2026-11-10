@@ -4368,5 +4368,65 @@
     "depth": "AaaS行业落地",
     "angle": "数字员工接管餐饮零售财税",
     "keywords_snippet": "小蓝店长/利楚商服/蚂蚁数科/营川/财谨/AaaS"
+  },
+  {
+    "module": "12",
+    "date": "2026-11-11",
+    "topic": "产融共创三板斧",
+    "title": "产融共创三板斧：AI创业挖掘真实产业场景的方法论",
+    "level": "L2",
+    "depth": "中",
+    "angle": "创业实战",
+    "keywords_snippet": "产融共创 OPC 场景挖掘 商业闭环"
+  },
+  {
+    "module": "12",
+    "date": "2026-11-11",
+    "topic": "中小AI融资突围",
+    "title": "中小AI公司融资突围：四大低估值垂直赛道与BP实操",
+    "level": "L2",
+    "depth": "中",
+    "angle": "创业实战",
+    "keywords_snippet": "AI融资 垂直赛道 工业质检 企业Agent BP"
+  },
+  {
+    "module": "12",
+    "date": "2026-11-11",
+    "topic": "好融风退潮",
+    "title": "好融风退潮：2026下半年AI融资回归业务硬数据",
+    "level": "L3",
+    "depth": "中",
+    "angle": "创业实战",
+    "keywords_snippet": "好融风 融资降温 人设叙事 ARR 具身智能"
+  },
+  {
+    "module": "12",
+    "date": "2026-11-11",
+    "topic": "零预算获客漏斗",
+    "title": "AI创业零预算获客：小红书抖音视频号冷启动增长漏斗",
+    "level": "L3",
+    "depth": "中",
+    "angle": "创业实战",
+    "keywords_snippet": "冷启动 增长漏斗 小红书 抖音 视频号 零预算"
+  },
+  {
+    "module": "12",
+    "date": "2026-11-11",
+    "topic": "垂直小工具高MRR",
+    "title": "垂直小工具闷声赚钱：独立开发者AI SaaS如何做到高MRR",
+    "level": "L3",
+    "depth": "中",
+    "angle": "创业实战",
+    "keywords_snippet": "独立开发者 SaaS MRR 垂直工具 FormulaBot 订阅"
+  },
+  {
+    "module": "12",
+    "date": "2026-11-11",
+    "topic": "AI创业避坑",
+    "title": "AI创业避坑：从套壳无壁垒到虚增ARR的三大致命陷阱",
+    "level": "L2",
+    "depth": "中",
+    "angle": "创业实战",
+    "keywords_snippet": "避坑 套壳 虚增ARR 过早扩张 护城河"
   }
 ]

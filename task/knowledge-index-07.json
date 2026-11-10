@@ -4868,5 +4868,65 @@
     "depth": "概念层 - 模型与策略路由",
     "angle": "异构专家生态下按质量成本权衡动态路由",
     "keywords_snippet": "Route Anything,模型路由,策略路由,异构专家,信息感知"
+  },
+  {
+    "module": "07",
+    "date": "2026-11-11",
+    "topic": "思维链CoT",
+    "title": "【思维链CoT：让大模型一步步思考显著提升推理准确率】",
+    "level": "L1",
+    "depth": "浅",
+    "angle": "提示工程技术原理",
+    "keywords_snippet": "思维链 CoT 推理 提示工程"
+  },
+  {
+    "module": "07",
+    "date": "2026-11-11",
+    "topic": "Few-shot与结构化提示",
+    "title": "【Few-shot与结构化提示：用示例和约束框定输出】",
+    "level": "L2",
+    "depth": "中",
+    "angle": "提示模板与约束工程",
+    "keywords_snippet": "Few-shot 结构化提示 少样本 约束"
+  },
+  {
+    "module": "07",
+    "date": "2026-11-11",
+    "topic": "DSPy自动提示优化",
+    "title": "【DSPy自动提示优化：把提示词当程序编译而非手写】",
+    "level": "L3",
+    "depth": "深",
+    "angle": "程序化提示优化编译",
+    "keywords_snippet": "DSPy 提示优化 编译器 自动"
+  },
+  {
+    "module": "07",
+    "date": "2026-11-11",
+    "topic": "LoRA低秩适配",
+    "title": "【LoRA低秩适配：冻结原模型只训练极小适配器】",
+    "level": "L1",
+    "depth": "浅",
+    "angle": "参数高效微调原理",
+    "keywords_snippet": "LoRA 低秩适配 参数高效微调"
+  },
+  {
+    "module": "07",
+    "date": "2026-11-11",
+    "topic": "QLoRA量化微调",
+    "title": "【QLoRA量化微调：4bit加载让单卡也能训大模型】",
+    "level": "L2",
+    "depth": "中",
+    "angle": "4bit量化微调技术",
+    "keywords_snippet": "QLoRA 量化 4bit 微调"
+  },
+  {
+    "module": "07",
+    "date": "2026-11-11",
+    "topic": "大模型微调生产实践",
+    "title": "【大模型微调生产实践：显存合并与部署三道坎】",
+    "level": "L3",
+    "depth": "深",
+    "angle": "微调部署工程实践",
+    "keywords_snippet": "微调 部署 显存 合并 生产"
   }
 ]

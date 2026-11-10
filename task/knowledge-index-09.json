@@ -4168,5 +4168,65 @@
     "depth": "系统级 FFI",
     "angle": "C 互操作与裸指针布局精确控制",
     "keywords_snippet": "C 可变参数 裸指针 布局查询 标准库稳定"
+  },
+  {
+    "module": "09",
+    "date": "2026-11-11",
+    "topic": "Python 3.14 模板字符串",
+    "title": "【Python 3.14：模板字符串与无GIL正式支持】",
+    "level": "L2",
+    "depth": "中",
+    "angle": "语言特性",
+    "keywords_snippet": "Python 3.14 t-strings 自由线程 尾调用解释器"
+  },
+  {
+    "module": "09",
+    "date": "2026-11-11",
+    "topic": ".NET 11 C# 15 联合类型",
+    "title": "【.NET 11 发布：C# 15 联合类型与运行期异步】",
+    "level": "L4",
+    "depth": "中",
+    "angle": "新版本发布",
+    "keywords_snippet": ".NET 11 C# 15 union types 运行期异步"
+  },
+  {
+    "module": "09",
+    "date": "2026-11-11",
+    "topic": "C++26 标准化进程",
+    "title": "【C++26 进展：DIS投票意外失败，契约陷僵局】",
+    "level": "L4",
+    "depth": "中",
+    "angle": "标准治理",
+    "keywords_snippet": "C++26 DIS投票失败 Contracts 契约 WG21"
+  },
+  {
+    "module": "09",
+    "date": "2026-11-11",
+    "topic": "Java 结构化并发",
+    "title": "【Java 结构化并发转正：任务作用域模型进JDK28】",
+    "level": "L2",
+    "depth": "中",
+    "angle": "并发模型",
+    "keywords_snippet": "Java 结构化并发 StructuredTaskScope 虚拟线程 Loom"
+  },
+  {
+    "module": "09",
+    "date": "2026-11-11",
+    "topic": "WebAssembly WASI 0.3",
+    "title": "【WebAssembly WASI 0.3：组件模型原生异步】",
+    "level": "L2",
+    "depth": "中",
+    "angle": "运行时接口",
+    "keywords_snippet": "WASI 0.3 组件模型 原生异步 三明治问题"
+  },
+  {
+    "module": "09",
+    "date": "2026-11-11",
+    "topic": "JavaScript 运行时对比",
+    "title": "【Bun 对决 Node 与 Deno：2026 运行时性能实测】",
+    "level": "L3",
+    "depth": "中",
+    "angle": "选型对比",
+    "keywords_snippet": "Bun Node Deno 运行时 性能对比 2026"
   }
 ]

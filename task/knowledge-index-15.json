@@ -4478,5 +4478,65 @@
     "depth": "概念层",
     "angle": "用一条Agent链替代零散AI订阅串起业务闭环",
     "keywords_snippet": "工作流编排 Agent链 企业自动化 订阅"
+  },
+  {
+    "module": "15",
+    "date": "2026-11-11",
+    "topic": "AI产品能力边界设计",
+    "title": "AI产品能力边界设计：用三区法划定能承诺什么",
+    "level": "L2",
+    "depth": "中",
+    "angle": "产品实战",
+    "keywords_snippet": "能力边界 三区法 可靠区 辅助区 禁用区 预期管理"
+  },
+  {
+    "module": "15",
+    "date": "2026-11-11",
+    "topic": "AI信任三件套",
+    "title": "AI信任三件套：来源引用、置信表达与可撤销",
+    "level": "L2",
+    "depth": "中",
+    "angle": "产品实战",
+    "keywords_snippet": "信任机制 来源引用 置信表达 可撤销 交互契约 校准信任"
+  },
+  {
+    "module": "15",
+    "date": "2026-11-11",
+    "topic": "AI灰度与A/B实验",
+    "title": "AI产品灰度与A/B实验：用分流验证真实效果",
+    "level": "L2",
+    "depth": "中",
+    "angle": "产品实战",
+    "keywords_snippet": "灰度发布 A/B测试 分流 任务完成率 Harness 对照实验"
+  },
+  {
+    "module": "15",
+    "date": "2026-11-11",
+    "topic": "AI优雅降级设计",
+    "title": "AI产品优雅降级设计：把不确定的回答做成一等公民",
+    "level": "L2",
+    "depth": "中",
+    "angle": "产品实战",
+    "keywords_snippet": "优雅降级 失败体验 承认不知道 错误类型 兜底 信任修复"
+  },
+  {
+    "module": "15",
+    "date": "2026-11-11",
+    "topic": "AI数据飞轮与冷启动",
+    "title": "AI数据飞轮与冷启动：用反馈点预埋转起飞轮",
+    "level": "L3",
+    "depth": "中",
+    "angle": "产品实战",
+    "keywords_snippet": "数据飞轮 冷启动 反馈点 专家播种 回流路径 网络效应"
+  },
+  {
+    "module": "15",
+    "date": "2026-11-11",
+    "topic": "AI评估集与基线",
+    "title": "AI评估集与基线：没有验收标准的AI需求是盲飞",
+    "level": "L2",
+    "depth": "中",
+    "angle": "产品实战",
+    "keywords_snippet": "评估集 基线 验收标准 标注口径 回归测试 概率系统治理"
   }
 ]

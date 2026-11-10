@@ -4558,5 +4558,65 @@
     "depth": "本地云模拟",
     "angle": "轻量免费复刻 AWS 接口语义做本地联调",
     "keywords_snippet": "floci, AWS, 本地模拟器, Java, 云原生, 后端"
+  },
+  {
+    "module": "10",
+    "date": "2026-11-11",
+    "topic": "cloudflare/security-audit-skill",
+    "title": "cloudflare/security-audit-skill：多阶段安全审计技能",
+    "level": "L2",
+    "depth": "中",
+    "angle": "实战上手",
+    "keywords_snippet": "安全审计 Skill 多阶段 机器可读"
+  },
+  {
+    "module": "10",
+    "date": "2026-11-11",
+    "topic": "paperclipai/paperclip",
+    "title": "paperclip：把一群跑着的 Agent 当团队来管",
+    "level": "L2",
+    "depth": "中",
+    "angle": "实战上手",
+    "keywords_snippet": "Agent管理 控制平面 ACPX 治理"
+  },
+  {
+    "module": "10",
+    "date": "2026-11-11",
+    "topic": "D4Vinci/Scrapling",
+    "title": "Scrapling：为 Agent 内置 MCP 服务的网页抓取框架",
+    "level": "L2",
+    "depth": "中",
+    "angle": "实战上手",
+    "keywords_snippet": "网页抓取 MCP 反爬 框架"
+  },
+  {
+    "module": "10",
+    "date": "2026-11-11",
+    "topic": "pingdotgg/t3code",
+    "title": "pingdotgg/t3code：把多个 Agent 编排成可控工作流的智能体控制面",
+    "level": "L2",
+    "depth": "中",
+    "angle": "实战上手",
+    "keywords_snippet": "Agent编排 控制面 工作流"
+  },
+  {
+    "module": "10",
+    "date": "2026-11-11",
+    "topic": "milind-soni/OpenMausBot",
+    "title": "OpenMausBot：为 Agent 提供沙箱虚拟机的开源 Grok 替代",
+    "level": "L2",
+    "depth": "中",
+    "angle": "实战上手",
+    "keywords_snippet": "Agent沙箱 虚拟机 自动化"
+  },
+  {
+    "module": "10",
+    "date": "2026-11-11",
+    "topic": "NousResearch/hermes-agent",
+    "title": "hermes-agent：覆盖桌面与 Android Termux 的跨平台 CLI 智能体",
+    "level": "L2",
+    "depth": "中",
+    "angle": "实战上手",
+    "keywords_snippet": "跨平台 CLI Agent Termux"
   }
 ]
