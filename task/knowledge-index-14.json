@@ -4418,5 +4418,65 @@
     "depth": "中",
     "angle": "心理训练",
     "keywords_snippet": "心理韧性 复原力 认知重构 认知灵活性"
+  },
+  {
+    "module": "14",
+    "date": "2026-11-12",
+    "topic": "习惯堆叠",
+    "title": "习惯堆叠术：把新行为焊进旧routine的自动挡",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "行为设计依附旧习惯锚点",
+    "keywords_snippet": "习惯堆叠 行为设计 神经通路"
+  },
+  {
+    "module": "14",
+    "date": "2026-11-12",
+    "topic": "深度工作",
+    "title": "心流深度工作：用单任务保护前额叶专注力",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "单任务保护前额叶专注力",
+    "keywords_snippet": "深度工作 心流 前额叶 专注"
+  },
+  {
+    "module": "14",
+    "date": "2026-11-12",
+    "topic": "第一性原理",
+    "title": "第一性原理：拆解到底再重建的思考利器",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "溯源拆解重建思考",
+    "keywords_snippet": "第一性原理 溯源思考 马斯克"
+  },
+  {
+    "module": "14",
+    "date": "2026-11-12",
+    "topic": "时间块规划",
+    "title": "时间块规划法：用整段专注替代碎片化忙碌",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "预承诺与时间编排",
+    "keywords_snippet": "时间块 时间管理 预承诺"
+  },
+  {
+    "module": "14",
+    "date": "2026-11-12",
+    "topic": "PARA知识管理",
+    "title": "PARA知识管理：用四类篮筐收拢零散信息",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "按可操作性分层管理",
+    "keywords_snippet": "PARA 知识管理 第二大脑 分类"
+  },
+  {
+    "module": "14",
+    "date": "2026-11-12",
+    "topic": "情绪着陆法",
+    "title": "情绪着陆54321法：用五感拉回失控的当下",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "五感感官锚定应急调节",
+    "keywords_snippet": "54321 情绪着陆 正念 感官"
   }
 ]

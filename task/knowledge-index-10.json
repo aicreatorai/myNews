@@ -4618,5 +4618,65 @@
     "depth": "中",
     "angle": "实战上手",
     "keywords_snippet": "跨平台 CLI Agent Termux"
+  },
+  {
+    "module": "10",
+    "date": "2026-11-12",
+    "topic": "agent-browser 浏览器自动化",
+    "title": "【agent-browser：AI 智能体驾驶真实浏览器的 CLI】",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "浏览器自动化 Agent 工具",
+    "keywords_snippet": "agent-browser 浏览器自动化 MCP Vercel"
+  },
+  {
+    "module": "10",
+    "date": "2026-11-12",
+    "topic": "spec-kit 规格驱动开发",
+    "title": "【spec-kit：GitHub 官方的规格驱动开发 SDD 工具包】",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "SDD 方法论工具",
+    "keywords_snippet": "spec-kit SDD 规格驱动 GitHub"
+  },
+  {
+    "module": "10",
+    "date": "2026-11-12",
+    "topic": "smolagents 代码智能体库",
+    "title": "【smolagents：HuggingFace 极简代码智能体库】",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "极简代码智能体库",
+    "keywords_snippet": "smolagents HuggingFace CodeAgent Python"
+  },
+  {
+    "module": "10",
+    "date": "2026-11-12",
+    "topic": "Agent Skills 技能范式",
+    "title": "【Agent Skills：把能力封装成标准技能包的范式】",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "Agent Skills 技能范式",
+    "keywords_snippet": "Agent Skills anthropics 技能范式"
+  },
+  {
+    "module": "10",
+    "date": "2026-11-12",
+    "topic": "MCP GitHub Project Manager 项目管理",
+    "title": "【GitHub Project Manager：带智能体集群的 AI 项目管理 MCP】",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "项目管理 MCP 与智能体集群",
+    "keywords_snippet": "MCP GitHub Project Manager agent swarm"
+  },
+  {
+    "module": "10",
+    "date": "2026-11-12",
+    "topic": "elephant-goldfish 设计审查插件",
+    "title": "【elephant-goldfish：给编码智能体加设计与审查的开源插件】",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "编码智能体设计与审查插件",
+    "keywords_snippet": "elephant-goldfish Google 设计 审查"
   }
 ]

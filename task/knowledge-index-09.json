@@ -4228,5 +4228,65 @@
     "depth": "中",
     "angle": "选型对比",
     "keywords_snippet": "Bun Node Deno 运行时 性能对比 2026"
+  },
+  {
+    "module": "09",
+    "date": "2026-11-12",
+    "topic": "WASI 0.3",
+    "title": "WASI 0.3：组件模型原生异步，跨语言组合不断链",
+    "level": "L4",
+    "depth": "前沿层",
+    "angle": "规范原语与跨语言异步组合",
+    "keywords_snippet": "WASI 0.3 组件模型 异步"
+  },
+  {
+    "module": "09",
+    "date": "2026-11-12",
+    "topic": "Swift 2026",
+    "title": "Swift 2026 演进：Span、任务标识与构建缓存提速",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "值语义与构建体验增强",
+    "keywords_snippet": "Swift Span 构建缓存"
+  },
+  {
+    "module": "09",
+    "date": "2026-11-12",
+    "topic": "JavaScript 运行时",
+    "title": "JavaScript 运行时三强 2026：Bun 2.0、Node 24、Deno 2.x",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "三运行时性能与哲学对比",
+    "keywords_snippet": "Bun Node Deno 运行时"
+  },
+  {
+    "module": "09",
+    "date": "2026-11-12",
+    "topic": "Scala 3.9 LTS",
+    "title": "Scala 3.9 LTS 与 JVM 语言格局：函数式数据管道稳守",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "JVM 语言格局与 LTS 迁移",
+    "keywords_snippet": "Scala JVM LTS"
+  },
+  {
+    "module": "09",
+    "date": "2026-11-12",
+    "topic": "Rust 生态",
+    "title": "Rust 生态 2026：Tokio 性能飞跃、rustls 默认与 Debian 内核集成",
+    "level": "L3",
+    "depth": "实践层",
+    "angle": "基础设施安全底座落地",
+    "keywords_snippet": "Rust Tokio rustls"
+  },
+  {
+    "module": "09",
+    "date": "2026-11-12",
+    "topic": "Clojure",
+    "title": "Clojure 1.13 与 JVM 函数式演进：持久化数据结构入门",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "持久化数据结构与 JVM Lisp 入门",
+    "keywords_snippet": "Clojure 持久化集合 Babashka"
   }
 ]

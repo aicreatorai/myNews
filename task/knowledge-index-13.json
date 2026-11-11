@@ -3108,5 +3108,55 @@
     "depth": "中",
     "angle": "企业赋能",
     "keywords_snippet": "AI微学习 间隔重复 场景化推送 LXP 企业培训"
+  },
+  {
+    "module": "13",
+    "date": "2026-11-12",
+    "topic": "AI备课助手",
+    "title": "AI备课助手：自然语言一键生成可运行教案",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "教师自然语言生成可运行教案与资源",
+    "keywords_snippet": "AI备课 教案生成 教师助手 RAG"
+  },
+  {
+    "module": "13",
+    "date": "2026-11-12",
+    "topic": "AI课堂理解",
+    "title": "AI课堂理解：录播可对话、自动评课与智能切片",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "音视频多模态理解驱动课堂切片与评课",
+    "keywords_snippet": "课堂理解 音视频 自动评课 超级助教"
+  },
+  {
+    "module": "13",
+    "date": "2026-11-12",
+    "topic": "企业AI培训",
+    "title": "企业AI培训：把岗位任务变成可练的AI实训场景",
+    "level": "L3",
+    "depth": "实践层",
+    "angle": "岗位任务仿真实训与即时反馈闭环",
+    "keywords_snippet": "企业培训 实训场景 岗位任务 人机协同"
+  },
+  {
+    "module": "13",
+    "date": "2026-11-12",
+    "topic": "AI错题本",
+    "title": "AI错题本与智能组卷：错题变同类变式精准突破",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "认知诊断与知识图谱驱动的变式练习",
+    "keywords_snippet": "错题本 智能组卷 认知诊断 变式"
+  },
+  {
+    "module": "13",
+    "date": "2026-11-12",
+    "topic": "AI艺术教育",
+    "title": "AI艺术教育：用生成式模型带孩子做音乐与视觉创作",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "生成式脚手架启发儿童艺术表达",
+    "keywords_snippet": "AI艺术教育 生成式 创意脚手架 音乐视觉"
   }
 ]

@@ -4538,5 +4538,65 @@
     "depth": "中",
     "angle": "产品实战",
     "keywords_snippet": "评估集 基线 验收标准 标注口径 回归测试 概率系统治理"
+  },
+  {
+    "module": "15",
+    "date": "2026-11-12",
+    "topic": "AI产品PMF验证",
+    "title": "AI产品PMF验证：用AI访谈把契合度调研压到48小时",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "AI加速用户研究调研",
+    "keywords_snippet": "PMF 产品市场契合 AI访谈 合成样本 Sean Ellis"
+  },
+  {
+    "module": "15",
+    "date": "2026-11-12",
+    "topic": "AI快速原型验证",
+    "title": "AI快速原型验证：一句话生成可点MVP加速试错",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "一句话生成可点MVP",
+    "keywords_snippet": "快速原型 可点MVP vibe coding 原型验证"
+  },
+  {
+    "module": "15",
+    "date": "2026-11-12",
+    "topic": "AI个性化体验设计",
+    "title": "AI个性化体验设计：为不同角色适配界面与内容",
+    "level": "L3",
+    "depth": "实践层",
+    "angle": "多角色界面适配",
+    "keywords_snippet": "个性化 生成式设计 角色适配 首屏"
+  },
+  {
+    "module": "15",
+    "date": "2026-11-12",
+    "topic": "AI失败模式设计",
+    "title": "AI失败模式设计：先定义不可接受的失败再上线",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "发布门槛与评测集",
+    "keywords_snippet": "失败模式 评测集 发布门槛 release gate"
+  },
+  {
+    "module": "15",
+    "date": "2026-11-12",
+    "topic": "AI需求分析工具选型",
+    "title": "AI需求分析工具选型：五维测评框架落地指南",
+    "level": "L3",
+    "depth": "实践层",
+    "angle": "五维测评框架",
+    "keywords_snippet": "需求分析 工具选型 五维测评 ONES"
+  },
+  {
+    "module": "15",
+    "date": "2026-11-12",
+    "topic": "AI信任界面设计",
+    "title": "AI信任界面设计：用可验证可编辑重建用户信任",
+    "level": "L4",
+    "depth": "前沿层",
+    "angle": "信任即接口",
+    "keywords_snippet": "信任界面 可验证 可编辑 可恢复"
   }
 ]

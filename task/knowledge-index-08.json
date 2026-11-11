@@ -4416,5 +4416,65 @@
     "depth": "中",
     "angle": "实战上手",
     "keywords_snippet": "剪映 AI 剪辑 字幕配音"
+  },
+  {
+    "module": "08",
+    "date": "2026-11-12",
+    "topic": "DeepSeek编程智能体",
+    "title": "【DeepSeek编程智能体：网页端搞定写码与跨文件重构】",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "编程智能体工作流与跨文件重构机制",
+    "keywords_snippet": "DeepSeek 编程智能体 跨文件重构"
+  },
+  {
+    "module": "08",
+    "date": "2026-11-12",
+    "topic": "WPS灵犀",
+    "title": "【WPS灵犀：记住写过的文档一键产出PPT】",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "历史文档知识沉淀与一键产出机制",
+    "keywords_snippet": "WPS灵犀 知识库 办公Agent"
+  },
+  {
+    "module": "08",
+    "date": "2026-11-12",
+    "topic": "Recraft",
+    "title": "【Recraft：用AI生成品牌一致的SVG矢量插画】",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "矢量化解码与品牌风格锁定",
+    "keywords_snippet": "Recraft 矢量 SVG 品牌一致"
+  },
+  {
+    "module": "08",
+    "date": "2026-11-12",
+    "topic": "QuillBot",
+    "title": "【QuillBot：AI改写润色与长文总结一站式】",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "改写润色与摘要的收尾工具定位",
+    "keywords_snippet": "QuillBot 改写 润色 总结"
+  },
+  {
+    "module": "08",
+    "date": "2026-11-12",
+    "topic": "Make.com",
+    "title": "【Make.com：可视化把App用AI推理串成自动化】",
+    "level": "L3",
+    "depth": "实践层",
+    "angle": "可视化工作流中嵌入AI推理的搭建实践",
+    "keywords_snippet": "Make.com 工作流自动化 AI推理"
+  },
+  {
+    "module": "08",
+    "date": "2026-11-12",
+    "topic": "Midjourney V8.2",
+    "title": "【Midjourney V8.2：用对话产出电影级艺术概念图】",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "艺术化生图与风格角色参考机制",
+    "keywords_snippet": "Midjourney 艺术概念图 风格参考"
   }
 ]

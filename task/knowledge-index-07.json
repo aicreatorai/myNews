@@ -4928,5 +4928,65 @@
     "depth": "深",
     "angle": "微调部署工程实践",
     "keywords_snippet": "微调 部署 显存 合并 生产"
+  },
+  {
+    "module": "07",
+    "date": "2026-11-12",
+    "topic": "线性注意力",
+    "title": "【线性注意力与Mamba：把注意力复杂度从平方降到线性】",
+    "level": "L4",
+    "depth": "前沿层",
+    "angle": "用固定状态替代注意力矩阵的复杂度降维",
+    "keywords_snippet": "线性注意力 Mamba 状态空间模型 复杂度"
+  },
+  {
+    "module": "07",
+    "date": "2026-11-12",
+    "topic": "GQA MQA",
+    "title": "【GQA/MQA：共享KV头把推理显存砍半的注意力变体】",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "共享KV头降低推理显存与提升吞吐",
+    "keywords_snippet": "GQA MQA KV Cache 多头注意力"
+  },
+  {
+    "module": "07",
+    "date": "2026-11-12",
+    "topic": "MoE路由",
+    "title": "【MoE路由与无辅助损失均衡：让专家不再忙闲不均】",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "无辅助损失偏置均衡打破专家过载正反馈",
+    "keywords_snippet": "MoE 路由 负载均衡 偏置"
+  },
+  {
+    "module": "07",
+    "date": "2026-11-12",
+    "topic": "模型量化",
+    "title": "【模型量化与KV Cache压缩：INT4/FP8把显存砍掉七成】",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "权重量化与KV Cache低比特压缩降本",
+    "keywords_snippet": "量化 INT4 FP8 KV Cache 显存"
+  },
+  {
+    "module": "07",
+    "date": "2026-11-12",
+    "topic": "PagedAttention",
+    "title": "【PagedAttention与KV Cache分页：像操作系统一样管理显存】",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "分页式KV Cache显存管理降低碎片",
+    "keywords_snippet": "PagedAttention KV Cache 分页 vLLM"
+  },
+  {
+    "module": "07",
+    "date": "2026-11-12",
+    "topic": "Ring Attention",
+    "title": "【Ring Attention与序列并行：百万Token切到多GPU同算】",
+    "level": "L4",
+    "depth": "前沿层",
+    "angle": "序列分块环转实现百万token分布式计算",
+    "keywords_snippet": "Ring Attention 序列并行 长上下文 分布式"
   }
 ]

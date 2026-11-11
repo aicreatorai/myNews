@@ -4428,5 +4428,65 @@
     "depth": "中",
     "angle": "创业实战",
     "keywords_snippet": "避坑 套壳 虚增ARR 过早扩张 护城河"
+  },
+  {
+    "module": "12",
+    "date": "2026-11-12",
+    "topic": "AI自动化工作流落地",
+    "title": "【AI自动化工作流落地：中小企业客单价5000元起】",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "中小企业低代码工作流交付与报价",
+    "keywords_snippet": "n8n Coze Dify 工作流 客单价 月维护"
+  },
+  {
+    "module": "12",
+    "date": "2026-11-12",
+    "topic": "AI独立站出海供应链",
+    "title": "【AI+独立站+供应链出海：刀剪一人公司3万起步】",
+    "level": "L3",
+    "depth": "实践层",
+    "angle": "阳江刀剪一人公司出海案例拆解",
+    "keywords_snippet": "独立站 供应链 刀剪 出海 SEO 毛利率"
+  },
+  {
+    "module": "12",
+    "date": "2026-11-12",
+    "topic": "AI内容营销代运营",
+    "title": "【AI内容营销代运营：B2B内容流水线月费千元起】",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "B2B内容流水线Agent的定价与交付",
+    "keywords_snippet": "内容营销 Agent 代运营 分层定价 ARR"
+  },
+  {
+    "module": "12",
+    "date": "2026-11-12",
+    "topic": "AI知识付费课程",
+    "title": "【AI知识付费课程：教人用AI赚钱年入可达2000万元】",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "OPC知识付费与付费社群变现",
+    "keywords_snippet": "知识付费 课程 付费社群 OPC 年入"
+  },
+  {
+    "module": "12",
+    "date": "2026-11-12",
+    "topic": "AI跨境运营智能体",
+    "title": "【AI跨境运营智能体：汽配选品上架全流程自动化】",
+    "level": "L3",
+    "depth": "实践层",
+    "angle": "垂直小模型驱动的跨境运营平台案例",
+    "keywords_snippet": "跨境 智能体 汽配 选品 垂直小模型"
+  },
+  {
+    "module": "12",
+    "date": "2026-11-12",
+    "topic": "AI垂直智能客服SaaS",
+    "title": "【AI垂直型智能客服SaaS：深耕行业避开通用红海】",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "行业垂直型AI客服SaaS创业机会",
+    "keywords_snippet": "智能客服 SaaS 垂直行业 市场规模"
   }
 ]
