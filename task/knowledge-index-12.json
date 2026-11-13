@@ -4548,5 +4548,65 @@
     "depth": "实践层",
     "angle": "闲置GPU分布式调度生意",
     "keywords_snippet": "分布式算力 闲置GPU 调度"
+  },
+  {
+    "module": "12",
+    "date": "2026-11-14",
+    "topic": "AI SaaS定价",
+    "title": "AI SaaS按量定价：用token成本倒推毛利守住40%",
+    "level": "L1",
+    "depth": "变现技术/定价策略",
+    "angle": "用token成本倒推积分定价守住毛利",
+    "keywords_snippet": "按量定价,credits,token成本,毛利,订阅+计量"
+  },
+  {
+    "module": "12",
+    "date": "2026-11-14",
+    "topic": "出海收款合规",
+    "title": "独立开发者出海收款：美国LLC绑定Stripe实战",
+    "level": "L2",
+    "depth": "出海收款/合规架构",
+    "angle": "美国LLC+Stripe远程收款合规路径",
+    "keywords_snippet": "Stripe,美国LLC,离岸公司,CRS,结汇"
+  },
+  {
+    "module": "12",
+    "date": "2026-11-14",
+    "topic": "免费转付费转化",
+    "title": "免费转付费优化：用AI行为分群把转化拉到5.5%",
+    "level": "L3",
+    "depth": "转化优化/增长",
+    "angle": "AI行为分群驱动freemium转化提升",
+    "keywords_snippet": "freemium,行为分群,onboarding,转化率,AI触发"
+  },
+  {
+    "module": "12",
+    "date": "2026-11-14",
+    "topic": "一人公司MVP",
+    "title": "一人公司48小时搭MVP：Cursor+Lovable跑通付费",
+    "level": "L4",
+    "depth": "一人公司/技术栈",
+    "angle": "AI编程栈48小时从想法到可收款MVP",
+    "keywords_snippet": "vibe coding,Cursor,Lovable,Supabase,48小时MVP"
+  },
+  {
+    "module": "12",
+    "date": "2026-11-14",
+    "topic": "AI自动化代运营",
+    "title": "AI自动化代运营：月付留存续航单人$15K业务",
+    "level": "L1",
+    "depth": "服务模式/月付留存",
+    "angle": "n8n+Claude Code月付代运营单人$15K",
+    "keywords_snippet": "n8n,代运营,月付留存,retainer,单人业务"
+  },
+  {
+    "module": "12",
+    "date": "2026-11-14",
+    "topic": "n8n自托管自动化",
+    "title": "n8n自托管自动化：一人公司月省数十小时",
+    "level": "L2",
+    "depth": "效率工具/自动化",
+    "angle": "自托管n8n配方清单帮一人公司省时",
+    "keywords_snippet": "n8n,自托管,自动化配方,单人降本,VPS"
   }
 ]

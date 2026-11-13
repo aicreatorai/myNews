@@ -4658,5 +4658,65 @@
     "depth": "实践层",
     "angle": "提示注入与越狱的前端拦截设计",
     "keywords_snippet": "安全护栏 提示注入 越狱 最小权限"
+  },
+  {
+    "module": "15",
+    "date": "2026-11-14",
+    "topic": "产品思维与决策",
+    "title": "北极星指标AI版：用领先指标替AI产品锚定真实价值",
+    "level": "L1",
+    "depth": "基础方法论",
+    "angle": "领先指标替AI产品锚定真实价值",
+    "keywords_snippet": "北极星指标 领先指标 护栏 AI产品"
+  },
+  {
+    "module": "15",
+    "date": "2026-11-14",
+    "topic": "用户研究与需求挖掘",
+    "title": "AI-native用户研究：四阶段闭环把真实反馈变成设计依据",
+    "level": "L2",
+    "depth": "实践框架",
+    "angle": "四阶段闭环把真实反馈变成设计依据",
+    "keywords_snippet": "AI-native研究 四阶段 黄金数据集 法官间隙"
+  },
+  {
+    "module": "15",
+    "date": "2026-11-14",
+    "topic": "国内AI产品案例拆解",
+    "title": "国产大模型产品定位拆解：豆包通义文心Kimi各守生态位",
+    "level": "L3",
+    "depth": "案例拆解",
+    "angle": "豆包通义文心Kimi各守生态位",
+    "keywords_snippet": "豆包 通义 文心 Kimi 产品定位 生态位"
+  },
+  {
+    "module": "15",
+    "date": "2026-11-14",
+    "topic": "大模型选型与技术边界",
+    "title": "分层模型选型策略：按任务复杂度把推理成本压到最低档",
+    "level": "L4",
+    "depth": "进阶决策",
+    "angle": "按任务复杂度把推理成本压到最低档",
+    "keywords_snippet": "分层模型 前沿中档预算 路由 单位经济"
+  },
+  {
+    "module": "15",
+    "date": "2026-11-14",
+    "topic": "PM工具与工作流",
+    "title": "规格驱动开发：把PRD变成AI Agent可直接执行的上下文",
+    "level": "L1",
+    "depth": "基础实践",
+    "angle": "PRD变AI Agent可直接执行的上下文",
+    "keywords_snippet": "规格驱动 PRD Markdown O.A.S.I.S MCP"
+  },
+  {
+    "module": "15",
+    "date": "2026-11-14",
+    "topic": "产品伦理与责任",
+    "title": "负责任AI设计：用护栏指标守住可信与安全边界",
+    "level": "L2",
+    "depth": "实践框架",
+    "angle": "用护栏指标守住可信与安全边界",
+    "keywords_snippet": "负责任AI 护栏指标 逆指标 安全边界"
   }
 ]

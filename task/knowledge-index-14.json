@@ -4538,5 +4538,65 @@
     "depth": "技术层",
     "angle": "五步主动阅读加工闭环",
     "keywords_snippet": "SQ3R 主动阅读 生成效应"
+  },
+  {
+    "module": "14",
+    "date": "2026-11-14",
+    "topic": "学习迁移法",
+    "title": "学习迁移法：把已会技能顺滑搬进新场景",
+    "level": "L3",
+    "depth": "实践层",
+    "angle": "近迁移远迁移 Barnett Ceci 概念迁移 抽象重组 哈佛RCT",
+    "keywords_snippet": "学习迁移 近迁移 远迁移 概念迁移 跨学科 抽象重组 转移"
+  },
+  {
+    "module": "14",
+    "date": "2026-11-14",
+    "topic": "二阶思维",
+    "title": "二阶思维：用后手推演避开短视决策",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "一阶二阶效应 眼镜蛇效应 10-10-10 切斯特顿栅栏 连锁反应",
+    "keywords_snippet": "二阶思维 一阶效应 眼镜蛇效应 10-10-10 切斯特顿栅栏 连锁反应 Howard Marks"
+  },
+  {
+    "module": "14",
+    "date": "2026-11-14",
+    "topic": "情绪粒度",
+    "title": "情绪粒度：用精准命名驯服模糊焦虑",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "情绪词汇 命名即驯服 杏仁核 前额叶 情绪标记训练",
+    "keywords_snippet": "情绪粒度 情绪词汇 Barrett 命名即驯服 杏仁核 前额叶 情绪标记"
+  },
+  {
+    "module": "14",
+    "date": "2026-11-14",
+    "topic": "技能半衰期",
+    "title": "技能半衰期：用保鲜清单对抗能力贬值",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "价值折旧 复利型贬值型 70-20-10 WEF2025 学习组合",
+    "keywords_snippet": "技能半衰期 价值折旧 Talentod WEF2025 70-20-10 能力贬值 元技能"
+  },
+  {
+    "module": "14",
+    "date": "2026-11-14",
+    "topic": "设计思维",
+    "title": "设计思维：用共情与原型把模糊需求落地",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "d.school五阶段 共情 原型 双钻 以人为本 迭代",
+    "keywords_snippet": "设计思维 d.school 共情 原型 双钻 五阶段 以人为本 迭代"
+  },
+  {
+    "module": "14",
+    "date": "2026-11-14",
+    "topic": "苏格拉底提问",
+    "title": "苏格拉底提问：用六问把结论逼出证据逻辑",
+    "level": "L3",
+    "depth": "实践层",
+    "angle": "Richard Paul六类型 批判性思维 澄清假设证据视角 CBT",
+    "keywords_snippet": "苏格拉底提问 Richard Paul 六问 批判性思维 澄清 假设 证据 视角 CBT"
   }
 ]

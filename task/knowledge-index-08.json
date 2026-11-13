@@ -4536,5 +4536,65 @@
     "depth": "概念层",
     "angle": "模板引导结构化初稿生成",
     "keywords_snippet": "千笔AI 初稿 写作启动"
+  },
+  {
+    "module": "08",
+    "date": "2026-11-14",
+    "topic": "海绵音乐",
+    "title": "【海绵音乐：输入一句话描述生成可商用歌曲】",
+    "level": "L1",
+    "depth": "入门认知",
+    "angle": "零基础一句话出歌",
+    "keywords_snippet": "AI音乐,一句话生成,abab-music-1,曲风情绪音色"
+  },
+  {
+    "module": "08",
+    "date": "2026-11-14",
+    "topic": "纳米AI搜索",
+    "title": "【纳米AI搜索：360系无广告问答与溯源】",
+    "level": "L2",
+    "depth": "基础实操",
+    "angle": "无广告答案引擎与溯源",
+    "keywords_snippet": "AI搜索,多模型,来源标注,深度搜索"
+  },
+  {
+    "module": "08",
+    "date": "2026-11-14",
+    "topic": "WPS AI",
+    "title": "【WPS AI办公：用智能助手重写润色表格三连】",
+    "level": "L3",
+    "depth": "进阶技巧",
+    "angle": "原地嵌入办公三件套",
+    "keywords_snippet": "WPS AI,写公式,润色,条件格式,伴写"
+  },
+  {
+    "module": "08",
+    "date": "2026-11-14",
+    "topic": "豆包",
+    "title": "【豆包对话AI：用角色提示词搞定写作问答】",
+    "level": "L4",
+    "depth": "专家精通",
+    "angle": "角色提示词框架",
+    "keywords_snippet": "豆包,角色+任务+格式,多轮对话,人设定制"
+  },
+  {
+    "module": "08",
+    "date": "2026-11-14",
+    "topic": "Otter",
+    "title": "【Otter会议转录：用AI把录音秒变带发言人纪要】",
+    "level": "L1",
+    "depth": "入门认知",
+    "angle": "会议实时转录与发言区分",
+    "keywords_snippet": "Otter,会议转录,说话人识别,行动项"
+  },
+  {
+    "module": "08",
+    "date": "2026-11-14",
+    "topic": "Bolt.new",
+    "title": "【Bolt.new对话造应用：用提示词生成可运行网页】",
+    "level": "L2",
+    "depth": "基础实操",
+    "angle": "对话式生成可运行网页",
+    "keywords_snippet": "Bolt.new,prompt-to-app,零代码,一键部署"
   }
 ]

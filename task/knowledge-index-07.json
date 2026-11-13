@@ -5108,5 +5108,65 @@
     "depth": "实践层",
     "angle": "从MoE路由干预过度思考",
     "keywords_snippet": "Routes of Reasoning MoE路由 推理行为 steering"
+  },
+  {
+    "module": "07",
+    "date": "2026-11-14",
+    "topic": "MoE路由与负载均衡",
+    "title": "MoE专家路由：无辅助损失的Sigmoid偏置均衡成主流",
+    "level": "L1",
+    "depth": "入门层",
+    "angle": "从2026开源MoE模型潮切入路由机制",
+    "keywords_snippet": "MoE, 路由, Sigmoid, 无辅助损失, 负载均衡"
+  },
+  {
+    "module": "07",
+    "date": "2026-11-14",
+    "topic": "GRPO强化学习后训练",
+    "title": "GRPO组相对策略优化：去掉Critic让RL训练省一半显存",
+    "level": "L2",
+    "depth": "基础层",
+    "angle": "从推理模型RL深水区切入去Critic",
+    "keywords_snippet": "GRPO, PPO, Critic, 强化学习, 组相对"
+  },
+  {
+    "module": "07",
+    "date": "2026-11-14",
+    "topic": "扩散模型蒸馏少步采样",
+    "title": "扩散模型蒸馏：把50步生成压到1-4步的少步采样",
+    "level": "L3",
+    "depth": "进阶层",
+    "angle": "从NVIDIA rCM实时视频生成切入",
+    "keywords_snippet": "扩散蒸馏, 一致性模型, rCM, 少步采样"
+  },
+  {
+    "module": "07",
+    "date": "2026-11-14",
+    "topic": "VLM视觉编码解耦",
+    "title": "解耦视觉编码：专用视觉容量比预训练先验更重要",
+    "level": "L4",
+    "depth": "深入层",
+    "angle": "从Unbundling Multimodal Vision Encoding切入",
+    "keywords_snippet": "视觉编码, VLM, 专用容量, in-fusion"
+  },
+  {
+    "module": "07",
+    "date": "2026-11-14",
+    "topic": "激活引导可解释性",
+    "title": "激活引导：不改权重在推理时微调模型行为",
+    "level": "L1",
+    "depth": "入门层",
+    "angle": "从ICLR/EMNLP 2026激活引导工作切入",
+    "keywords_snippet": "激活引导, Activation Steering, CAA, PID"
+  },
+  {
+    "module": "07",
+    "date": "2026-11-14",
+    "topic": "端侧4-bit量化部署",
+    "title": "4-bit量化部署：27B模型塞进单张24GB显卡",
+    "level": "L2",
+    "depth": "基础层",
+    "angle": "从Qwen3.8-27B本地部署切入",
+    "keywords_snippet": "4-bit量化, GGUF, Qwen3.8-27B, 端侧部署"
   }
 ]

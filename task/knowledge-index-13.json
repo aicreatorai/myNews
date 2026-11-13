@@ -3208,5 +3208,55 @@
     "depth": "实践层",
     "angle": "场景驱动反向设计与数据飞轮",
     "keywords_snippet": "规模化落地 全场景生态 商业可持续"
+  },
+  {
+    "module": "13",
+    "date": "2026-11-14",
+    "topic": "教育部扶光计划AI素养普惠",
+    "title": "教育部扶光计划落地广西：AI素养分层研修普惠乡村教师",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "政策普惠与教师AI素养分层研修",
+    "keywords_snippet": "扶光计划 中小学 AI素养 教师培训 乡村"
+  },
+  {
+    "module": "13",
+    "date": "2026-11-14",
+    "topic": "AI辅助读写障碍特殊教育",
+    "title": "AI辅助读写障碍儿童：用多模态解码把学不会变学得会",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "多模态解码与可及性工具栈",
+    "keywords_snippet": "读写障碍 ADHD 多模态 特殊需要 辅助"
+  },
+  {
+    "module": "13",
+    "date": "2026-11-14",
+    "topic": "零代码搭建班级AI助教",
+    "title": "零代码搭班级AI助教：用Coze把教材变成24小时答疑老师",
+    "level": "L3",
+    "depth": "实践层",
+    "angle": "Coze零代码教学智能体落地",
+    "keywords_snippet": "扣子 Coze 零代码 智能助教 班级"
+  },
+  {
+    "module": "13",
+    "date": "2026-11-14",
+    "topic": "生成式AI认知负荷与即时反馈",
+    "title": "生成式AI降认知负荷：用即时反馈把讲透难点变常态",
+    "level": "L4",
+    "depth": "前沿层",
+    "angle": "认知负荷理论与支架渐撤",
+    "keywords_snippet": "生成式AI 认知负荷 即时反馈 脚手架"
+  },
+  {
+    "module": "13",
+    "date": "2026-11-14",
+    "topic": "AI学情诊断精准学",
+    "title": "AI学情诊断雷达：用拍照试卷定位薄弱点替代盲目刷题",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "拍照诊断与掌握度模型替代盲目刷题",
+    "keywords_snippet": "学情诊断 拍照试卷 薄弱点 精准学"
   }
 ]

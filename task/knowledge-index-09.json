@@ -4348,5 +4348,65 @@
     "depth": "技术层",
     "angle": "函数式语言渐进类型检查",
     "keywords_snippet": "Elixir 类型检查 BEAM"
+  },
+  {
+    "module": "09",
+    "date": "2026-11-14",
+    "topic": "Python 类型系统",
+    "title": "Python 3.16 类型系统大修：内联泛型与更富表达力注解",
+    "level": "L2",
+    "depth": "语言类型系统/语法特性",
+    "angle": "内联泛型与更富表达力注解",
+    "keywords_snippet": "Python 3.16, PEP 849, PEP 846, 内联类型参数, 类型别名文档字符串"
+  },
+  {
+    "module": "09",
+    "date": "2026-11-14",
+    "topic": "Kotlin 语言特性",
+    "title": "Kotlin 2.2 上下文参数转正：K2 编译器提速两倍的依赖注入新范式",
+    "level": "L3",
+    "depth": "依赖注入/编译器",
+    "angle": "上下文参数与K2编译提速",
+    "keywords_snippet": "Kotlin 2.2, context parameters, K2, 编译提速"
+  },
+  {
+    "module": "09",
+    "date": "2026-11-14",
+    "topic": "C# 与 .NET",
+    "title": "C# 14 与 .NET 10：field 关键字消灭样板、Native AOT 冷启破 10ms",
+    "level": "L2",
+    "depth": "语法糖/运行时性能",
+    "angle": "field关键字与Native AOT",
+    "keywords_snippet": "C# 14, .NET 10, field关键字, 扩展成员, Native AOT"
+  },
+  {
+    "module": "09",
+    "date": "2026-11-14",
+    "topic": "Go 标准库",
+    "title": "Go 1.28 泛型集合来袭：标准库原生 Set、有序 Map 终结手搓 map[T]struct{}",
+    "level": "L2",
+    "depth": "标准库数据结构",
+    "angle": "原生泛型集合Set与有序Map",
+    "keywords_snippet": "Go 1.28, set.Set, 泛型集合, map[T]struct{}"
+  },
+  {
+    "module": "09",
+    "date": "2026-11-14",
+    "topic": "编程语言排行",
+    "title": "TIOBE 2026 年 11 月榜：Rust 跌出前十、Dart 首进前二十",
+    "level": "L4",
+    "depth": "生态趋势/选型",
+    "angle": "Rust跌出前十与Dart首进前二十",
+    "keywords_snippet": "TIOBE 2026 11月, Rust, Dart, Go, Java"
+  },
+  {
+    "module": "09",
+    "date": "2026-11-14",
+    "topic": "TypeScript 语言",
+    "title": "TypeScript 5.9 发布：import defer 与默认开启 strictInference",
+    "level": "L2",
+    "depth": "类型系统/导入机制",
+    "angle": "import defer与strictInference",
+    "keywords_snippet": "TypeScript 5.9, import defer, strictInference, Decorator Metadata"
   }
 ]

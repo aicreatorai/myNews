@@ -4738,5 +4738,125 @@
     "depth": "技术层",
     "angle": "任务对象化与Dev Boards/BeeZilla双入口",
     "keywords_snippet": "Agent编排 任务看板 自托管"
+  },
+  {
+    "module": "10",
+    "date": "2026-11-13",
+    "topic": "xerj 本地优先代码搜索引擎",
+    "title": "[L2] xerj：给编码智能体用的本地优先代码搜索引擎",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "代码检索/本地优先/Elasticsearch兼容",
+    "keywords_snippet": "xerj,本地搜索,Elasticsearch,MCP,编码智能体"
+  },
+  {
+    "module": "10",
+    "date": "2026-11-13",
+    "topic": "astryx React 设计系统",
+    "title": "[L3] astryx：Meta 开源面向人机协作的 React 设计系统",
+    "level": "L3",
+    "depth": "实践层",
+    "angle": "人机协作前端/组件规范/无障碍",
+    "keywords_snippet": "astryx,React,设计系统,Meta,无障碍"
+  },
+  {
+    "module": "10",
+    "date": "2026-11-13",
+    "topic": "cline 开源编码智能体",
+    "title": "[L3] cline：在 VS Code 与终端里都能用的开源编码智能体",
+    "level": "L3",
+    "depth": "实践层",
+    "angle": "多端运行/模型自由/SDK",
+    "keywords_snippet": "cline,编码智能体,VS Code,SDK,多模型"
+  },
+  {
+    "module": "10",
+    "date": "2026-11-13",
+    "topic": "CopilotKit 生成式 UI 框架",
+    "title": "[L1] CopilotKit：把 AI 智能体接进真实产品的生成式 UI 框架",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "生成式UI/AG-UI协议/前端接入",
+    "keywords_snippet": "CopilotKit,生成式UI,AG-UI,React,前端"
+  },
+  {
+    "module": "10",
+    "date": "2026-11-13",
+    "topic": "cc-wf-studio 智能体工作流",
+    "title": "[L1] cc-wf-studio：在画布上拖拽设计智能体工作流的 VSCode 插件",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "可视化工作流/Markdown导出/MCP",
+    "keywords_snippet": "cc-wf-studio,工作流,VS Code,Markdown,MCP"
+  },
+  {
+    "module": "10",
+    "date": "2026-11-13",
+    "topic": "TokenEconomizer 智能体降本",
+    "title": "[L1] TokenEconomizer：让常用仓库里的编码智能体越跑越省的体验系统",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "经验驱动/token降本/跨会话复用",
+    "keywords_snippet": "TokenEconomizer,微软,token节省,经验驱动,编码智能体"
+  },
+  {
+    "module": "10",
+    "date": "2026-11-14",
+    "topic": "iFixAi AI Agent审计",
+    "title": "iFixAi：120秒独立审计AI智能体是否越权",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "AI Agent 独立审计与运营对齐评估",
+    "keywords_snippet": "iFixAi 智能体审计 运营对齐 A-F 评级 五支柱 越权"
+  },
+  {
+    "module": "10",
+    "date": "2026-11-14",
+    "topic": "heretic 免训练模型改写",
+    "title": "heretic：免训练改写大模型去审查降谄媚",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "免训练 ARA 改写大模型行为（去审查/去废话/降谄媚）",
+    "keywords_snippet": "heretic ARA abliteration 免训练 去审查 降谄媚 Optuna"
+  },
+  {
+    "module": "10",
+    "date": "2026-11-14",
+    "topic": "nanochat 本地优先聊天",
+    "title": "nanochat：本地优先的极简开源聊天界面",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "本地优先极简 ChatGPT 替代与 LLM101n 入门",
+    "keywords_snippet": "nanochat Karpathy 本地优先 llama.cpp 极简聊天 LLM101n"
+  },
+  {
+    "module": "10",
+    "date": "2026-11-14",
+    "topic": "uber/ADR 智能体安全",
+    "title": "uber/ADR：企业级AI智能体安全防护框架",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "企业级 AI 编码智能体可观测与威胁检测",
+    "keywords_snippet": "uber ADR 智能体安全 可观测 ADR-Bench 双智能体检测 MLSys2026"
+  },
+  {
+    "module": "10",
+    "date": "2026-11-14",
+    "topic": "artcraft AI创作IDE",
+    "title": "artcraft：面向创作者与影视的AI工艺引擎",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "面向艺术家/影视的 Rust 原生 AI 视觉创作 IDE",
+    "keywords_snippet": "artcraft storytold Rust Tauri AI 视觉创作 IDE 分镜 3D"
+  },
+  {
+    "module": "10",
+    "date": "2026-11-14",
+    "topic": "semantica 图原生问责",
+    "title": "semantica：图原生AI问责基础设施",
+    "level": "L3",
+    "depth": "实践层",
+    "angle": "图原生上下文与决策溯源的可问责 AI 基础设施",
+    "keywords_snippet": "semantica 图原生 Context Graph 知识图谱 决策溯源 PROV-O MIT"
   }
 ]
