@@ -28,7 +28,8 @@ NEWS_DIR = os.path.join(BASE_DIR, "news")
 DB_PATH = os.path.join(BASE_DIR, "task", "content-fingerprint.db")
 
 # 模糊比对只查询最近 N 天（避免全表扫描）
-SIMILARITY_LOOKBACK_DAYS = 60
+# 去重窗口 = 最近一个月（约 30 天）：超过此窗口的历史不再判重
+SIMILARITY_LOOKBACK_DAYS = 30
 
 # 同模块跨天检测：N 天内同模块相似标题预警
 SAME_MODULE_LOOKBACK_DAYS = 7
@@ -240,15 +241,18 @@ def check_headline(headline: str, module: str = ''):
         conn.close()
         return
 
-    # 1. 精确指纹匹配（O(1) 索引查找）
+    # 仅匹配去重窗口内的历史（默认最近 SIMILARITY_LOOKBACK_DAYS 天 = 约一个月）
+    dedup_cutoff = (datetime.now() - timedelta(days=SIMILARITY_LOOKBACK_DAYS)).strftime("%Y-%m-%d")
+
+    # 1. 精确指纹匹配（O(1) 索引查找，限定去重窗口内）
     candidate_fp = extract_content_fingerprint(headline, '')
     row = conn.execute(
-        "SELECT module, date, headline FROM fingerprints WHERE fingerprint = ?",
-        (candidate_fp,)
+        "SELECT module, date, headline FROM fingerprints WHERE fingerprint = ? AND date >= ?",
+        (candidate_fp, dedup_cutoff)
     ).fetchone()
 
     if row:
-        print(f"🔴 与历史内容完全重复（指纹匹配）")
+        print(f"🔴 与历史内容完全重复（指纹匹配，近{SIMILARITY_LOOKBACK_DAYS}天内）")
         print(f"   历史: {row[1]} | [{row[0]}] {row[2]}")
         print(f"   建议跳过")
         conn.close()
@@ -288,7 +292,7 @@ def check_headline(headline: str, module: str = ''):
                 conn.close()
                 return
 
-    # 3. 模糊相似度比对 — 跨模块（只查最近 60 天）
+    # 3. 模糊相似度比对 — 跨模块（只查去重窗口内，默认最近 30 天/一个月）
     cutoff_date = (datetime.now() - timedelta(days=SIMILARITY_LOOKBACK_DAYS)).strftime("%Y-%m-%d")
     rows = conn.execute(
         "SELECT module, date, headline FROM fingerprints WHERE date >= ? ORDER BY date DESC",
@@ -391,17 +395,18 @@ def scan(date_str: str):
     print(f"{'─'*40}")
     cross_day = 0
 
-    # 2a. 精确指纹匹配（跨模块 — 去重的是内容，不管哪个模块写的）
+    # 2a. 精确指纹匹配（跨模块 — 限定去重窗口内，去重的是内容而非模块）
+    crossday_cutoff = (datetime.strptime(date_str, "%Y-%m-%d") - timedelta(days=SIMILARITY_LOOKBACK_DAYS)).strftime("%Y-%m-%d")
     for mod, f, h, lead in today_items:
         fp = extract_content_fingerprint(h, lead)
         row = conn.execute(
-            "SELECT module, date, headline FROM fingerprints WHERE fingerprint = ? AND date != ?",
-            (fp, date_str)
+            "SELECT module, date, headline FROM fingerprints WHERE fingerprint = ? AND date != ? AND date >= ?",
+            (fp, date_str, crossday_cutoff)
         ).fetchone()
         if row:
             cross_day += 1
             found = True
-            print(f"  ❌ [{mod}] 与 [{row[0]}]{row[1]} 指纹完全匹配")
+            print(f"  ❌ [{mod}] 与 [{row[0]}]{row[1]} 指纹完全匹配（近{SIMILARITY_LOOKBACK_DAYS}天内）")
             print(f"     今日: {h}")
             print(f"     历史: {row[2]}")
 
