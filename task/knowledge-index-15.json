@@ -4598,5 +4598,65 @@
     "depth": "前沿层",
     "angle": "信任即接口",
     "keywords_snippet": "信任界面 可验证 可编辑 可恢复"
+  },
+  {
+    "module": "15",
+    "date": "2026-11-13",
+    "topic": "多模态交互编排",
+    "title": "多模态交互编排：让AI看懂图听懂话说人话",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "模态互补与失败降级的产品动线设计",
+    "keywords_snippet": "多模态 交互编排 模态互补 失败降级"
+  },
+  {
+    "module": "15",
+    "date": "2026-11-13",
+    "topic": "AIGC内容合规护栏",
+    "title": "AIGC合规护栏：给生成内容装上审核与责任阀",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "生成内容留痕与责任边界的护栏设计",
+    "keywords_snippet": "AIGC 合规护栏 内容审核 责任边界"
+  },
+  {
+    "module": "15",
+    "date": "2026-11-13",
+    "topic": "对话式UI设计",
+    "title": "对话式UI设计：把命令变成自然对话流",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "引导式开场与纠正回退的对话流",
+    "keywords_snippet": "对话式UI CUI 引导 纠偏 回退"
+  },
+  {
+    "module": "15",
+    "date": "2026-11-13",
+    "topic": "嵌入式AI决策",
+    "title": "嵌入式AI决策：功能嵌入还是独立应用",
+    "level": "L3",
+    "depth": "实践层",
+    "angle": "AI能力形态选择的决策框架",
+    "keywords_snippet": "嵌入式AI 独立应用 形态决策 工作流"
+  },
+  {
+    "module": "15",
+    "date": "2026-11-13",
+    "topic": "提示词工程产品化",
+    "title": "提示词工程产品化：把提示词变可配置资产",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "提示词模板库与评测门的资产化",
+    "keywords_snippet": "提示词 产品化 模板库 评测门"
+  },
+  {
+    "module": "15",
+    "date": "2026-11-13",
+    "topic": "AI安全护栏",
+    "title": "AI安全护栏：把越狱与有害输出挡在前端",
+    "level": "L3",
+    "depth": "实践层",
+    "angle": "提示注入与越狱的前端拦截设计",
+    "keywords_snippet": "安全护栏 提示注入 越狱 最小权限"
   }
 ]

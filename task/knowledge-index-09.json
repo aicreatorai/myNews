@@ -4288,5 +4288,65 @@
     "depth": "概念层",
     "angle": "持久化数据结构与 JVM Lisp 入门",
     "keywords_snippet": "Clojure 持久化集合 Babashka"
+  },
+  {
+    "module": "09",
+    "date": "2026-11-13",
+    "topic": "Zig 0.17 构建系统",
+    "title": "Zig 0.17 重写构建系统，增量编译走进 x86_64",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "构建系统与增量编译工程化",
+    "keywords_snippet": "Zig 构建系统 增量编译"
+  },
+  {
+    "module": "09",
+    "date": "2026-11-13",
+    "topic": "PowerShell 7.7 安全",
+    "title": "PowerShell 7.7：安全加固与 UUID v7 升级",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "脚本语言运行时安全加固",
+    "keywords_snippet": "PowerShell 安全 UUIDv7"
+  },
+  {
+    "module": "09",
+    "date": "2026-11-13",
+    "topic": "WasmEdge 边缘推理",
+    "title": "WasmEdge 把 LLM 推理搬到边缘，跨架构可移植",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "WebAssembly 运行时边缘 AI",
+    "keywords_snippet": "WasmEdge WASI-NN 边缘"
+  },
+  {
+    "module": "09",
+    "date": "2026-11-13",
+    "topic": "Mojo 1.0 AI 语言",
+    "title": "Mojo 1.0 开源：Python 之易与 C 之快的 AI 语言",
+    "level": "L4",
+    "depth": "前沿层",
+    "angle": "AI 系统语言异构编译",
+    "keywords_snippet": "Mojo MLIR AI语言"
+  },
+  {
+    "module": "09",
+    "date": "2026-11-13",
+    "topic": "C23 标准",
+    "title": "C23 标准落地：用 nullptr 与 _BitInt 改写 C 写法",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "C 标准现代化与 UB 治理",
+    "keywords_snippet": "C23 nullptr _BitInt"
+  },
+  {
+    "module": "09",
+    "date": "2026-11-13",
+    "topic": "Elixir 1.20 类型",
+    "title": "Elixir 1.20 引入渐进式类型检查，补语言安全网",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "函数式语言渐进类型检查",
+    "keywords_snippet": "Elixir 类型检查 BEAM"
   }
 ]

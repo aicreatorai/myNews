@@ -4988,5 +4988,125 @@
     "depth": "前沿层",
     "angle": "序列分块环转实现百万token分布式计算",
     "keywords_snippet": "Ring Attention 序列并行 长上下文 分布式"
+  },
+  {
+    "module": "07",
+    "date": "2026-11-13",
+    "topic": "多头潜在注意力MLA",
+    "title": "多头潜在注意力MLA：用潜空间压缩把KV缓存砍数倍",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "KV缓存压缩与注意力变体演进",
+    "keywords_snippet": "MLA KV缓存压缩 注意力机制"
+  },
+  {
+    "module": "07",
+    "date": "2026-11-13",
+    "topic": "MoE专家并行",
+    "title": "MoE专家并行与all-to-all通信：部署中被忽视的木桶短板",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "专家并行通信与负载均衡部署",
+    "keywords_snippet": "MoE 专家并行 all-to-all 负载均衡"
+  },
+  {
+    "module": "07",
+    "date": "2026-11-13",
+    "topic": "模型量化推理",
+    "title": "模型量化推理：从FP16到INT4把显存砍75%的精度账",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "低位宽量化的精度与显存权衡",
+    "keywords_snippet": "量化 INT4 FP8 推理加速"
+  },
+  {
+    "module": "07",
+    "date": "2026-11-13",
+    "topic": "Agent记忆分层管理",
+    "title": "Agent记忆分层管理：短期长期归档撑起跨会话认知",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "Agent记忆分层与上下文管理",
+    "keywords_snippet": "Agent 记忆 分层 上下文"
+  },
+  {
+    "module": "07",
+    "date": "2026-11-13",
+    "topic": "RoPE长上下文扩展",
+    "title": "RoPE长上下文扩展：YaRN与LongRoPE拉伸至百万上下文",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "位置编码外推与长上下文扩展",
+    "keywords_snippet": "RoPE YaRN LongRoPE 长上下文"
+  },
+  {
+    "module": "07",
+    "date": "2026-11-13",
+    "topic": "连续批处理PagedAttention",
+    "title": "连续批处理与PagedAttention：把GPU利用率拉到八成",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "推理服务批处理与KV缓存分页",
+    "keywords_snippet": "连续批处理 PagedAttention 推理吞吐"
+  },
+  {
+    "module": "07",
+    "date": "2026-11-13",
+    "topic": "MatMoE动态混合精度量化",
+    "title": "[L1]【MatMoE动态混合精度量化：小设备也能跑MoE大模型】",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "动态混合精度量化原理与边缘部署",
+    "keywords_snippet": "MatMoE 动态混合精度 量化 MoE 边缘推理"
+  },
+  {
+    "module": "07",
+    "date": "2026-11-13",
+    "topic": "Computer Use无障碍树",
+    "title": "[L3]【Computer Use无障碍树：Agent不靠截图看屏幕】",
+    "level": "L3",
+    "depth": "实践层",
+    "angle": "无障碍树替代截图的Agent桌面操作",
+    "keywords_snippet": "Computer Use 无障碍树 agent-desktop 截图替代"
+  },
+  {
+    "module": "07",
+    "date": "2026-11-13",
+    "topic": "SafeStart MoE推理安全",
+    "title": "[L4]【SafeStart：MoE推理优化的隐藏安全代价】",
+    "level": "L4",
+    "depth": "前沿层",
+    "angle": "推理优化对安全行为的隐性影响",
+    "keywords_snippet": "SafeStart MoE 专家削减 安全退化 推理优化"
+  },
+  {
+    "module": "07",
+    "date": "2026-11-13",
+    "topic": "子代理任务条件授权",
+    "title": "[L2]【子代理任务条件授权：多智能体协作的权限边界】",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "多智能体权限最小化授权",
+    "keywords_snippet": "子代理 任务条件授权 ClawArena-Team 权限"
+  },
+  {
+    "module": "07",
+    "date": "2026-11-13",
+    "topic": "Multimodal-SEA多模态欺骗",
+    "title": "[L2]【Multimodal-SEA：伪造多模态内容如何骗过个人Agent】",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "伪造多模态内容对Agent的欺骗",
+    "keywords_snippet": "Multimodal-SEA 多模态欺骗 Agent安全 红队"
+  },
+  {
+    "module": "07",
+    "date": "2026-11-13",
+    "topic": "Routes of Reasoning",
+    "title": "[L3]【Routes of Reasoning：从MoE路由读出并改写推理行为】",
+    "level": "L3",
+    "depth": "实践层",
+    "angle": "从MoE路由干预过度思考",
+    "keywords_snippet": "Routes of Reasoning MoE路由 推理行为 steering"
   }
 ]

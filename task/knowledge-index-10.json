@@ -4678,5 +4678,65 @@
     "depth": "技术层",
     "angle": "编码智能体设计与审查插件",
     "keywords_snippet": "elephant-goldfish Google 设计 审查"
+  },
+  {
+    "module": "10",
+    "date": "2026-11-13",
+    "topic": "rea Agent逆向工程",
+    "title": "morluto/rea：用 Agent 逆向任何软件从行为到原生二进制",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "多Agent逆向流水线+证据闭环架构",
+    "keywords_snippet": "Agent逆向 证据库 动态静态分析"
+  },
+  {
+    "module": "10",
+    "date": "2026-11-13",
+    "topic": "claude-mem Agent记忆",
+    "title": "thedotmack/claude-mem：让每个 Agent 跨会话持久记忆",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "捕获-压缩-注入三段式记忆机制",
+    "keywords_snippet": "Agent记忆 跨会话 语义检索"
+  },
+  {
+    "module": "10",
+    "date": "2026-11-13",
+    "topic": "worktrunk Git worktree",
+    "title": "max-sixty/worktrunk：为并行 Agent 工作流管理 Git worktree",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "Git worktree并行隔离入门与标签化管理",
+    "keywords_snippet": "Git工作树 并行Agent 隔离"
+  },
+  {
+    "module": "10",
+    "date": "2026-11-13",
+    "topic": "spec-kit 规格驱动开发",
+    "title": "github/spec-kit：规格驱动开发 SDD 上手工具包",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "SDD三文档分层与一致性校验方法论",
+    "keywords_snippet": "规格驱动 SDD 需求设计任务"
+  },
+  {
+    "module": "10",
+    "date": "2026-11-13",
+    "topic": "Dexto Agent工具包",
+    "title": "Truffle AI Dexto：配置驱动的 Agent 开发工具包与编排框架",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "声明式配置加运行时编排器架构",
+    "keywords_snippet": "Agent harness MCP 配置驱动"
+  },
+  {
+    "module": "10",
+    "date": "2026-11-13",
+    "topic": "Agent Relay 任务编排",
+    "title": "Agent Relay：自托管的 AI 编程任务看板与编排器",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "任务对象化与Dev Boards/BeeZilla双入口",
+    "keywords_snippet": "Agent编排 任务看板 自托管"
   }
 ]

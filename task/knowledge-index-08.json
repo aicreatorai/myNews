@@ -4476,5 +4476,65 @@
     "depth": "概念层",
     "angle": "艺术化生图与风格角色参考机制",
     "keywords_snippet": "Midjourney 艺术概念图 风格参考"
+  },
+  {
+    "module": "08",
+    "date": "2026-11-13",
+    "topic": "影刀RPA桌面自动化",
+    "title": "【影刀RPA：把财务票据等重复操作交给AI】",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "RPA+AI录制元件流程原理与搭建",
+    "keywords_snippet": "影刀RPA RPA 桌面自动化"
+  },
+  {
+    "module": "08",
+    "date": "2026-11-13",
+    "topic": "Reclaim.ai智能排程",
+    "title": "【Reclaim.ai：让日历自动安排任务与专注时间】",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "AI日历时块化自动排程概念",
+    "keywords_snippet": "Reclaim.ai 日历排程 专注时间"
+  },
+  {
+    "module": "08",
+    "date": "2026-11-13",
+    "topic": "Ideogram图中文字",
+    "title": "【Ideogram：把清晰文字与Logo直接生进画面】",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "文生图文字渲染原理与海报实战",
+    "keywords_snippet": "Ideogram 生图 图中文字"
+  },
+  {
+    "module": "08",
+    "date": "2026-11-13",
+    "topic": "Sudowrite小说写作",
+    "title": "【Sudowrite：用AI陪你写长篇小说的故事圣经】",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "故事圣经一致性创作原理",
+    "keywords_snippet": "Sudowrite 小说 故事圣经"
+  },
+  {
+    "module": "08",
+    "date": "2026-11-13",
+    "topic": "360纳米Work企业AI员工",
+    "title": "【360纳米Work：给中小企业配安全合规AI员工】",
+    "level": "L3",
+    "depth": "实践层",
+    "angle": "安全合规AI员工落地场景",
+    "keywords_snippet": "360纳米Work AI员工 安全合规"
+  },
+  {
+    "module": "08",
+    "date": "2026-11-13",
+    "topic": "千笔AI初稿生成",
+    "title": "【千笔AI：输入关键词十分钟拿到结构初稿】",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "模板引导结构化初稿生成",
+    "keywords_snippet": "千笔AI 初稿 写作启动"
   }
 ]

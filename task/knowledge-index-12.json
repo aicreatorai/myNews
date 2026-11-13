@@ -4488,5 +4488,65 @@
     "depth": "技术层",
     "angle": "行业垂直型AI客服SaaS创业机会",
     "keywords_snippet": "智能客服 SaaS 垂直行业 市场规模"
+  },
+  {
+    "module": "12",
+    "date": "2026-11-13",
+    "topic": "AI智能体收费模式",
+    "title": "AI智能体收费四模式：席位用量结果固定怎么选",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "AI智能体四种计费模型与毛利测算",
+    "keywords_snippet": "AI智能体 收费模式 定价 按结果"
+  },
+  {
+    "module": "12",
+    "date": "2026-11-13",
+    "topic": "AI陪伴机器人出海",
+    "title": "AI情感陪伴机器人出海：硬件加订阅双收入",
+    "level": "L3",
+    "depth": "实践层",
+    "angle": "硬件+订阅双收入出海模型与案例",
+    "keywords_snippet": "陪伴机器人 出海 订阅 硬件"
+  },
+  {
+    "module": "12",
+    "date": "2026-11-13",
+    "topic": "垂直小模型本地部署",
+    "title": "垂直小模型本地部署：算力成本压到近乎零",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "垂直行业小模型本地化降本",
+    "keywords_snippet": "垂直小模型 本地部署 降本 算力"
+  },
+  {
+    "module": "12",
+    "date": "2026-11-13",
+    "topic": "AI产品化服务",
+    "title": "AI产品化服务打包：固定套餐月入数万元",
+    "level": "L3",
+    "depth": "实践层",
+    "angle": "固定范围套餐跑通现金流",
+    "keywords_snippet": "产品化服务 套餐 交付 现金流"
+  },
+  {
+    "module": "12",
+    "date": "2026-11-13",
+    "topic": "具身智能端侧计算平台",
+    "title": "具身智能端侧计算平台：芯片工具链场景验证",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "芯片+工具链+场景验证平台化",
+    "keywords_snippet": "具身智能 端侧芯片 计算平台"
+  },
+  {
+    "module": "12",
+    "date": "2026-11-13",
+    "topic": "分布式算力网",
+    "title": "分布式算力网创业：闲置显卡变稳定收入",
+    "level": "L3",
+    "depth": "实践层",
+    "angle": "闲置GPU分布式调度生意",
+    "keywords_snippet": "分布式算力 闲置GPU 调度"
   }
 ]

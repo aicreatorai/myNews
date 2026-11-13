@@ -3158,5 +3158,55 @@
     "depth": "概念层",
     "angle": "生成式脚手架启发儿童艺术表达",
     "keywords_snippet": "AI艺术教育 生成式 创意脚手架 音乐视觉"
+  },
+  {
+    "module": "13",
+    "date": "2026-11-13",
+    "topic": "AI多模态个性化学习",
+    "title": "AI多模态个性化学习：按视觉听觉交互偏好匹配内容",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "多模态偏好建模与受限生成",
+    "keywords_snippet": "多模态 个性化学习 自适应"
+  },
+  {
+    "module": "13",
+    "date": "2026-11-13",
+    "topic": "AI课堂智能分析",
+    "title": "AI课堂智能分析：用互动数据生成教学体检报告",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "多模态信号采集与教学体检报告",
+    "keywords_snippet": "课堂分析 学情诊断 教学体检"
+  },
+  {
+    "module": "13",
+    "date": "2026-11-13",
+    "topic": "AI编程教育",
+    "title": "AI时代编程教育：从背语法到练架构思维",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "语法时代到逻辑时代范式转变",
+    "keywords_snippet": "编程教育 架构思维 AI协作"
+  },
+  {
+    "module": "13",
+    "date": "2026-11-13",
+    "topic": "AI过程性评价",
+    "title": "AI过程性评价：用全周期数据画能力画像",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "形成性评价与能力画像建模",
+    "keywords_snippet": "过程性评价 能力画像 动态评估"
+  },
+  {
+    "module": "13",
+    "date": "2026-11-13",
+    "topic": "AI教育规模化落地",
+    "title": "AI教育规模化落地：从单点工具到全场景生态",
+    "level": "L3",
+    "depth": "实践层",
+    "angle": "场景驱动反向设计与数据飞轮",
+    "keywords_snippet": "规模化落地 全场景生态 商业可持续"
   }
 ]
