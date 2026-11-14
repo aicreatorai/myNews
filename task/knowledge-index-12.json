@@ -4608,5 +4608,65 @@
     "depth": "效率工具/自动化",
     "angle": "自托管n8n配方清单帮一人公司省时",
     "keywords_snippet": "n8n,自托管,自动化配方,单人降本,VPS"
+  },
+  {
+    "module": "12",
+    "date": "2026-11-15",
+    "topic": "AI创业融资条款谈判",
+    "title": "【AI创业融资条款谈判：估值、股权与SAFE避坑三张表】",
+    "level": "L2",
+    "depth": "深度",
+    "angle": "用三张表讲清估值/股权稀释/SAFE与清算优先权",
+    "keywords_snippet": "估值 pre-money post-money SAFE 清算优先权 反稀释 cap table"
+  },
+  {
+    "module": "12",
+    "date": "2026-11-15",
+    "topic": "AI出海合规与本地化",
+    "title": "【AI出海合规与本地化：从数据跨境到内容审核的落地账】",
+    "level": "L2",
+    "depth": "深度",
+    "angle": "数据主权分层加内容合规双轨加本地主体架构",
+    "keywords_snippet": "GDPR 数据跨境 内容审核 本地化 主体架构 水印"
+  },
+  {
+    "module": "12",
+    "date": "2026-11-15",
+    "topic": "AI创业团队搭建与人才",
+    "title": "【AI创业团队搭建与人才：技术合伙人选择与股权分配】",
+    "level": "L2",
+    "depth": "深度",
+    "angle": "能力四边形加贡献折现股权加驻场交付",
+    "keywords_snippet": "能力四边形 技术合伙人 股权 vesting 驻场交付 AI素养"
+  },
+  {
+    "module": "12",
+    "date": "2026-11-15",
+    "topic": "AI初创并购与被收购",
+    "title": "【AI初创并购与被收购：退出路径与估值锚点拆解】",
+    "level": "L2",
+    "depth": "深度",
+    "angle": "acqui-hire估值锚点加交易结构加反向尽调",
+    "keywords_snippet": "M&A 并购 acqui-hire earn-out 估值锚点 反向尽调"
+  },
+  {
+    "module": "12",
+    "date": "2026-11-15",
+    "topic": "AI创业护城河构建",
+    "title": "【AI创业护城河构建：数据飞轮与网络效应双引擎】",
+    "level": "L2",
+    "depth": "深度",
+    "angle": "数据飞轮加网络效应加知识沉淀资产化",
+    "keywords_snippet": "护城河 数据飞轮 网络效应 知识沉淀 切换成本"
+  },
+  {
+    "module": "12",
+    "date": "2026-11-15",
+    "topic": "垂直行业AI落地",
+    "title": "【垂直行业AI落地案例：医疗、法律、制造三场景拆解】",
+    "level": "L2",
+    "depth": "深度",
+    "angle": "医疗助手与法律初稿与制造经验资产化三范式",
+    "keywords_snippet": "垂直落地 医疗AI 法律AI 制造AI 可归因ROI 责任链"
   }
 ]

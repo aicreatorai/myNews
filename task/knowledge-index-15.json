@@ -4718,5 +4718,65 @@
     "depth": "实践框架",
     "angle": "用护栏指标守住可信与安全边界",
     "keywords_snippet": "负责任AI 护栏指标 逆指标 安全边界"
+  },
+  {
+    "module": "15",
+    "date": "2026-11-15",
+    "topic": "AI产品需求优先级排序",
+    "title": "AI产品需求优先级排序：用RICE乘不确定性四维定序",
+    "level": "L2",
+    "depth": "中深",
+    "angle": "RICE乘不确定性五因子排序框架",
+    "keywords_snippet": "需求优先级 RICE 不确定性 排期 风险收敛"
+  },
+  {
+    "module": "15",
+    "date": "2026-11-15",
+    "topic": "AI产品用户访谈与洞察",
+    "title": "AI产品用户访谈：在不确定中挖出真需求的三步法",
+    "level": "L2",
+    "depth": "中深",
+    "angle": "行为还原-场景锚定-假设校验三步法",
+    "keywords_snippet": "用户访谈 真需求 行为还原 场景锚定 假设校验"
+  },
+  {
+    "module": "15",
+    "date": "2026-11-15",
+    "topic": "AI产品Onboarding设计",
+    "title": "AI产品Onboarding设计：用首值体验把试用变留存",
+    "level": "L2",
+    "depth": "中深",
+    "angle": "首值体验设计把试用变留存",
+    "keywords_snippet": "onboarding 首值体验 信任临界点 新用户留存"
+  },
+  {
+    "module": "15",
+    "date": "2026-11-15",
+    "topic": "AI产品多模态交互设计",
+    "title": "AI产品多模态交互：语音图像手势如何互补不堆叠",
+    "level": "L2",
+    "depth": "中深",
+    "angle": "模态互补不堆叠的职责划分",
+    "keywords_snippet": "多模态交互 语音 图像 手势 模态互补"
+  },
+  {
+    "module": "15",
+    "date": "2026-11-15",
+    "topic": "AI产品合规与风险管理",
+    "title": "AI产品合规与风险管理：把可接受风险写进上线闸门",
+    "level": "L2",
+    "depth": "中深",
+    "angle": "上线闸门与四维测评红线机制",
+    "keywords_snippet": "合规 风险管理 上线闸门 安全红线 四维测评"
+  },
+  {
+    "module": "15",
+    "date": "2026-11-15",
+    "topic": "AI产品与模型团队协作",
+    "title": "AI产品与模型团队协作：让需求与能力在缝隙处对齐",
+    "level": "L2",
+    "depth": "中深",
+    "angle": "缝隙对齐三件套行集合底线日期",
+    "keywords_snippet": "模型团队协作 缝隙对齐 行集合 底线 修复率"
   }
 ]

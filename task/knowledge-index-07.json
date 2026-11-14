@@ -5168,5 +5168,65 @@
     "depth": "基础层",
     "angle": "从Qwen3.8-27B本地部署切入",
     "keywords_snippet": "4-bit量化, GGUF, Qwen3.8-27B, 端侧部署"
+  },
+  {
+    "module": "07",
+    "date": "2026-11-15",
+    "topic": "知识蒸馏",
+    "title": "在线策略蒸馏与自蒸馏：2026年知识蒸馏从压缩工具走向训练范式",
+    "level": "L2",
+    "depth": "深度",
+    "angle": "多教师在线策略蒸馏与自蒸馏的范式演进",
+    "keywords_snippet": "知识蒸馏 在线策略蒸馏 自蒸馏 多教师 MOPD 软标签 KL散度"
+  },
+  {
+    "module": "07",
+    "date": "2026-11-15",
+    "topic": "多模态大模型对齐",
+    "title": "多模态大模型对齐：让视觉语言模型真正听懂图文指令",
+    "level": "L2",
+    "depth": "深度",
+    "angle": "渐进多阶段训练与对齐空间锚定",
+    "keywords_snippet": "多模态对齐 VLM 投影器 渐进训练 锚定 几何正则 幻觉"
+  },
+  {
+    "module": "07",
+    "date": "2026-11-15",
+    "topic": "投机解码",
+    "title": "投机解码：用草稿模型给大模型打草稿实现无损加速",
+    "level": "L2",
+    "depth": "深度",
+    "angle": "草稿验证无损加速与主流变体对比",
+    "keywords_snippet": "投机解码 草稿模型 EAGLE Medusa 多词元预测 无损加速"
+  },
+  {
+    "module": "07",
+    "date": "2026-11-15",
+    "topic": "扩散模型采样器",
+    "title": "扩散模型采样器：从DDPM的逐步去噪到DDIM的跳步提速",
+    "level": "L2",
+    "depth": "深度",
+    "angle": "DDPM随机去噪与DDIM确定性跳步",
+    "keywords_snippet": "扩散模型 DDPM DDIM 采样器 去噪 常微分方程 DPM-Solver"
+  },
+  {
+    "module": "07",
+    "date": "2026-11-15",
+    "topic": "GRPO与PPO强化学习对齐",
+    "title": "GRPO与PPO：用强化学习把大模型对齐到人类偏好",
+    "level": "L2",
+    "depth": "深度",
+    "angle": "组内相对优势与评论家估优势取舍",
+    "keywords_snippet": "GRPO PPO 强化学习对齐 评论家 组内归一化 奖励黑客"
+  },
+  {
+    "module": "07",
+    "date": "2026-11-15",
+    "topic": "模型稀疏化与剪枝",
+    "title": "模型稀疏化与剪枝：把冗余权重剪掉让大模型瘦身跑更快",
+    "level": "L2",
+    "depth": "深度",
+    "angle": "非结构化与结构化剪枝及硬件加速",
+    "keywords_snippet": "模型剪枝 稀疏化 非结构化 结构化 彩票假设 SparseGPT"
   }
 ]

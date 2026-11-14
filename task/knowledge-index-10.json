@@ -4858,5 +4858,65 @@
     "depth": "实践层",
     "angle": "图原生上下文与决策溯源的可问责 AI 基础设施",
     "keywords_snippet": "semantica 图原生 Context Graph 知识图谱 决策溯源 PROV-O MIT"
+  },
+  {
+    "module": "10",
+    "date": "2026-11-15",
+    "topic": "GitHub spec-kit 规范驱动开发",
+    "title": "github/spec-kit：GitHub官方规范驱动开发工具包",
+    "level": "L2",
+    "depth": "深度",
+    "angle": "规范先行替代氛围编程的方法论",
+    "keywords_snippet": "spec-kit 规范驱动 扩展 预设 工作流"
+  },
+  {
+    "module": "10",
+    "date": "2026-11-15",
+    "topic": "gstack 虚拟工程团队",
+    "title": "garrytan/gstack：把Claude Code变成虚拟工程团队",
+    "level": "L2",
+    "depth": "深度",
+    "angle": "用角色指令编排多智能体协作",
+    "keywords_snippet": "gstack 角色 斜杠命令 Markdown 团队"
+  },
+  {
+    "module": "10",
+    "date": "2026-11-15",
+    "topic": "Jane Street agent_skills 苏格拉底导师",
+    "title": "janestreet/agent_skills：Jane Street 开源的苏格拉底式导师技能",
+    "level": "L2",
+    "depth": "深度",
+    "angle": "把学习科学编码进 SKILL.md 的教学范式",
+    "keywords_snippet": "agent_skills socratic-tutor 苏格拉底 SKILL.md"
+  },
+  {
+    "module": "10",
+    "date": "2026-11-15",
+    "topic": "lightpanda AI 无头浏览器",
+    "title": "lightpanda-io/browser：专为AI打造的Zig无头浏览器",
+    "level": "L2",
+    "depth": "深度",
+    "angle": "为智能体而非人类重写的浏览器内核",
+    "keywords_snippet": "lightpanda Zig 无头浏览器 CDP 自动化"
+  },
+  {
+    "module": "10",
+    "date": "2026-11-15",
+    "topic": "rea 智能体逆向工程",
+    "title": "morluto/rea：让Agent无需源码即可逆向工程软件",
+    "level": "L2",
+    "depth": "深度",
+    "angle": "把反汇编工具交给智能体并强制带证据",
+    "keywords_snippet": "rea 逆向工程 Ghidra 证据 本地"
+  },
+  {
+    "module": "10",
+    "date": "2026-11-15",
+    "topic": "AWS 本地模拟器",
+    "title": "aws/aws-emulator：在本地免费模拟AWS API做测试",
+    "level": "L2",
+    "depth": "深度",
+    "angle": "用 Rust 仿真云 API 做离线 CI 测试",
+    "keywords_snippet": "aws-emulator Rust 仿真 CI 本地"
   }
 ]

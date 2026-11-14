@@ -4408,5 +4408,65 @@
     "depth": "类型系统/导入机制",
     "angle": "import defer与strictInference",
     "keywords_snippet": "TypeScript 5.9, import defer, strictInference, Decorator Metadata"
+  },
+  {
+    "module": "09",
+    "date": "2026-11-15",
+    "topic": "Kotlin 2.3 与 Compose 多平台",
+    "title": "【Kotlin 2.3 与 Compose 多平台：共享 UI 首次稳定】",
+    "level": "L2",
+    "depth": "深度",
+    "angle": "共享UI首次稳定与内联值类擦除",
+    "keywords_snippet": "Kotlin 2.3 Compose Multiplatform Skiko 内联值类 Valhalla"
+  },
+  {
+    "module": "09",
+    "date": "2026-11-15",
+    "topic": "TypeScript 6.0 类型系统",
+    "title": "【TypeScript 6.0 类型系统：全程逆变检查与装饰器终章】",
+    "level": "L2",
+    "depth": "深度",
+    "angle": "全程型变检查与装饰器标准化",
+    "keywords_snippet": "TypeScript 6.0 型变 variance 装饰器 并行增量编译"
+  },
+  {
+    "module": "09",
+    "date": "2026-11-15",
+    "topic": "Haskell GHC 10.0",
+    "title": "【Haskell GHC 10.0 发布：严格字段默认与线性类型实践落地】",
+    "level": "L2",
+    "depth": "深度",
+    "angle": "线性类型与严格字段控制资源与空间",
+    "keywords_snippet": "GHC 10.0 线性类型 严格字段 空间泄漏"
+  },
+  {
+    "module": "09",
+    "date": "2026-11-15",
+    "topic": "OCaml 5.4 并行与代数效应",
+    "title": "【OCaml 5.4 并行与代数效应：多核调度进入默认时代】",
+    "level": "L2",
+    "depth": "深度",
+    "angle": "多域并行与代数效应处理器",
+    "keywords_snippet": "OCaml 5.4 多域 纤维 代数效应 effect handler"
+  },
+  {
+    "module": "09",
+    "date": "2026-11-15",
+    "topic": "汇编与 LLVM 中间表示",
+    "title": "【汇编与 LLVM 中间表示：MLIR 与 znver6 后端如何重塑编译】",
+    "level": "L2",
+    "depth": "深度",
+    "angle": "LLVM IR 与 MLIR 多级表示及 znver6 后端",
+    "keywords_snippet": "LLVM IR MLIR AOCC 6.0 znver6 SSA 中间表示"
+  },
+  {
+    "module": "09",
+    "date": "2026-11-15",
+    "topic": "Dart 3.8 与宏系统",
+    "title": "【Dart 3.8 与宏系统：原生编译与结构化并发补齐】",
+    "level": "L2",
+    "depth": "深度",
+    "angle": "编译期宏与结构化并发削减样板",
+    "keywords_snippet": "Dart 3.8 macros 宏 空安全 AOT 结构化并发"
   }
 ]

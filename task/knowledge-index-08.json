@@ -4596,5 +4596,65 @@
     "depth": "基础实操",
     "angle": "对话式生成可运行网页",
     "keywords_snippet": "Bolt.new,prompt-to-app,零代码,一键部署"
+  },
+  {
+    "module": "08",
+    "date": "2026-11-15",
+    "topic": "Perplexity 研究助手",
+    "title": "Perplexity 研究助手：用对话式搜索产出带引用的研究报告",
+    "level": "L2",
+    "depth": "深度",
+    "angle": "检索增强生成产出带引用答案",
+    "keywords_snippet": "Perplexity 答案引擎 引用 研究助手 检索增强"
+  },
+  {
+    "module": "08",
+    "date": "2026-11-15",
+    "topic": "v0 网页生成",
+    "title": "v0 网页生成：用提示词生成可部署的前端页面",
+    "level": "L2",
+    "depth": "深度",
+    "angle": "文字生成可运行前端页面",
+    "keywords_snippet": "v0 Vercel React Tailwind 界面生成 部署"
+  },
+  {
+    "module": "08",
+    "date": "2026-11-15",
+    "topic": "Runway 视频生成",
+    "title": "Runway 视频生成：用文生视频做短片素材与特效",
+    "level": "L2",
+    "depth": "深度",
+    "angle": "文生视频做电影感镜头素材",
+    "keywords_snippet": "Runway 文生视频 Gen-4.5 镜头控制 图生视频"
+  },
+  {
+    "module": "08",
+    "date": "2026-11-15",
+    "topic": "飞书 AI 助理",
+    "title": "飞书 AI 助理：在企业协作里搭一个会办事的智能伙伴",
+    "level": "L2",
+    "depth": "深度",
+    "angle": "协作软件内零代码搭办事智能体",
+    "keywords_snippet": "飞书 AI助理 多维表格 知识库 定时触发"
+  },
+  {
+    "module": "08",
+    "date": "2026-11-15",
+    "topic": "钉钉 AI 助理",
+    "title": "钉钉 AI 助理：用自然语言自动写日报与排会议",
+    "level": "L2",
+    "depth": "深度",
+    "angle": "自然语言自动写日报与排会议",
+    "keywords_snippet": "钉钉 AI助理 日报 排会议 待办 数字员工"
+  },
+  {
+    "module": "08",
+    "date": "2026-11-15",
+    "topic": "智谱清言 GLM",
+    "title": "智谱清言 GLM 助手：用国产大模型做文档问答与长文写作",
+    "level": "L2",
+    "depth": "深度",
+    "angle": "国产大模型做文档问答与长文写作",
+    "keywords_snippet": "智谱清言 GLM 文档问答 长文写作 提纲"
   }
 ]
