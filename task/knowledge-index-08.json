@@ -4656,5 +4656,125 @@
     "depth": "深度",
     "angle": "国产大模型做文档问答与长文写作",
     "keywords_snippet": "智谱清言 GLM 文档问答 长文写作 提纲"
+  },
+  {
+    "module": "08",
+    "date": "2026-11-16",
+    "topic": "Adobe Creative Agent跨应用编排",
+    "title": "Adobe Creative Agent实测：自然语言指令驱动PS与PR批量改稿",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "跨软件编排与全程可编辑的工程化能力拆解",
+    "keywords_snippet": "Adobe Creative Agent Firefly Photoshop Illustrator Premiere 模型上下文协议 MCP 可编辑 跨应用编排"
+  },
+  {
+    "module": "08",
+    "date": "2026-11-16",
+    "topic": "Gemini Omni 1.2 Flash视频受控修订",
+    "title": "Gemini Omni 1.2 Flash上手：15秒短片局部反复修改不重来",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "短片生成后的局部受控修订与迭代链机制拆解",
+    "keywords_snippet": "Gemini Omni 1.2 Flash 视频生成 受控修订 15秒 局部修改 迭代链 多镜头一致性"
+  },
+  {
+    "module": "08",
+    "date": "2026-11-16",
+    "topic": "ElevenAI会议知识库",
+    "title": "ElevenAI上手：会议录音转写与跨会议检索的团队知识库",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "会议数据从转写到跨会议检索与任务联动的知识流转机制",
+    "keywords_snippet": "ElevenAI ElevenLabs 会议转写 跨会议检索 行业术语 实时检索增强 ElevenAgent 团队知识库"
+  },
+  {
+    "module": "08",
+    "date": "2026-11-16",
+    "topic": "Quillo PDF听读问答",
+    "title": "Quillo实测：把PDF念给你听还能随时追问",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "文档解析与语音朗读及基于原文问答的听读链路拆解",
+    "keywords_snippet": "Quillo PDF 文本转语音 自然语音朗读 文档问答 扫描件识别 播放问答联动 Product Hunt"
+  },
+  {
+    "module": "08",
+    "date": "2026-11-16",
+    "topic": "Claude Sheets自然语言建表",
+    "title": "Claude Sheets上手：自然语言生成带公式的多标签表格",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "需求解析到多标签结构生成与公式校验的可编辑交付机制",
+    "keywords_snippet": "Claude Sheets Anthropic 自然语言建表 多标签 公式校验 单元格编辑 下拉选项 办公协作"
+  },
+  {
+    "module": "08",
+    "date": "2026-11-16",
+    "topic": "Levo Mac安全清理智能体",
+    "title": "Levo实测：让AI找出Mac上可安全清理的垃圾文件",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "磁盘扫描与安全风险分级判定的可确认清理机制拆解",
+    "keywords_snippet": "Levo Mac 磁盘清理 安全删除判定 缓存 风险分级 清单确认 可恢复 Product Hunt 智能体"
+  },
+  {
+    "module": "08",
+    "date": "2026-11-17",
+    "topic": "Claude Personal Finance个人理财",
+    "title": "Claude Personal Finance实战：用自然语言读懂每月钱花在哪",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "只读账户连接与自然语言财务问答归集链路拆解",
+    "keywords_snippet": "Claude Personal Finance Plaid 只读账户 消费分类 自然语言记账 账单日历 异常扣款 财务可视化"
+  },
+  {
+    "module": "08",
+    "date": "2026-11-17",
+    "topic": "uniTerm v1.12 AI终端",
+    "title": "uniTerm v1.12上手：内置AI Agent在终端里跑多轮Shell命令",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "五协议整合与内置Agent多轮命令链及多租户部署拆解",
+    "keywords_snippet": "uniTerm v1.12 AI Agent 终端 Shell命令 多轮对话 SSH SFTP Docker多租户 终端录制 批量执行 开源"
+  },
+  {
+    "module": "08",
+    "date": "2026-11-17",
+    "topic": "Antigravity远程智能体",
+    "title": "Google Antigravity远程智能体：断网也干活手机审批云端任务",
+    "level": "L3",
+    "depth": "实践层",
+    "angle": "云端隔离VM执行与移动端审批桥接的远程任务工作流拆解",
+    "keywords_snippet": "Google Antigravity Remote Agents 云端虚拟机 离线运行 手机审批 GitHub仓库 Google Drive 跨端同步 付费订阅"
+  },
+  {
+    "module": "08",
+    "date": "2026-11-17",
+    "topic": "OpenAI Images 2.6图像编辑",
+    "title": "OpenAI Images 2.6标记编辑：锁定角色一致性做可复用素材",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "角色参考一致性与标记引导局部编辑及矢量输出机制拆解",
+    "keywords_snippet": "OpenAI Images 2.6 角色参考 标记引导编辑 局部修改 SVG矢量输出 循环GIF 渲染提速 ChatGPT Codex"
+  },
+  {
+    "module": "08",
+    "date": "2026-11-17",
+    "topic": "Mistral Studio可恢复工作流",
+    "title": "Mistral Studio可恢复工作流：让托管智能体断点续跑",
+    "level": "L3",
+    "depth": "实践层",
+    "angle": "托管运行时与断点续跑及多云部署可观测链路拆解",
+    "keywords_snippet": "Mistral Studio 托管智能体 可恢复工作流 断点续跑 幂等 公有云 VPC 本地部署 OpenTelemetry 追踪评估"
+  },
+  {
+    "module": "08",
+    "date": "2026-11-17",
+    "topic": "Planet卫星图像AI搜索",
+    "title": "Planet卫星图像AI搜索：一句话找出十年间地表变化",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "影像档案索引与语义检索变化检测及报告生成链路拆解",
+    "keywords_snippet": "Planet 卫星影像 自然语言搜索 十年档案 变化检测 可视化对比 研究报告 遥感 灾害监测 毁林 农业产量"
   }
 ]

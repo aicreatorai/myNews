@@ -5228,5 +5228,125 @@
     "depth": "深度",
     "angle": "非结构化与结构化剪枝及硬件加速",
     "keywords_snippet": "模型剪枝 稀疏化 非结构化 结构化 彩票假设 SparseGPT"
+  },
+  {
+    "module": "07",
+    "date": "2026-11-16",
+    "topic": "权重空间编程",
+    "title": "权重空间编程：大模型免训练直接读写神经网络权重",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "免训练微调新范式，推理即编程",
+    "keywords_snippet": "权重空间编程 SAE 免训练微调 病灶定位 权重修改"
+  },
+  {
+    "module": "07",
+    "date": "2026-11-16",
+    "topic": "投机解码",
+    "title": "投机解码Speculative Decoding：小模型起草大模型一次验证多Token",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "解码阶段无损加速，草稿模型加并行验证",
+    "keywords_snippet": "投机解码 Speculative Decoding 草稿模型 接受率 无损"
+  },
+  {
+    "module": "07",
+    "date": "2026-11-16",
+    "topic": "Self-RAG与CRAG",
+    "title": "Self-RAG与纠正性检索CRAG：给检索装上自我纠错回路",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "检索后评估与重试的自我纠错闭环",
+    "keywords_snippet": "Self-RAG CRAG 纠正性检索 相关性评估 查询改写"
+  },
+  {
+    "module": "07",
+    "date": "2026-11-16",
+    "topic": "Agentic RAG",
+    "title": "Agentic RAG：把检索变成智能体自主决策的闭环",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "决策权交给智能体的检索架构",
+    "keywords_snippet": "Agentic RAG 智能体 编排 工具调用 证据评估"
+  },
+  {
+    "module": "07",
+    "date": "2026-11-16",
+    "topic": "数据高效安全对齐",
+    "title": "Less is Safer：SAE可解释特征引导的数据高效安全对齐",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "以质取胜的千级样本安全对齐",
+    "keywords_snippet": "LIS 稀疏自编码器 安全对齐 过度拒绝 对抗合成"
+  },
+  {
+    "module": "07",
+    "date": "2026-11-16",
+    "topic": "思维链监控",
+    "title": "思维链监控压力测试TraceMRT：识破伪装成正常推理的隐蔽目标",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "红队压测思维链监控可靠性",
+    "keywords_snippet": "TraceMRT 思维链监控 隐蔽目标 贝叶斯轨迹监控 红队"
+  },
+  {
+    "module": "07",
+    "date": "2026-11-17",
+    "topic": "FlashOffloading KV卸载",
+    "title": "FlashOffloading：把KV Cache全量卸载到主机DRAM的长上下文推理架构",
+    "level": "L2",
+    "depth": "技术层 - 滚动HBM缓存、热缓存、反向稀疏索引与计算加载重叠",
+    "angle": "以主机DRAM为中心重构预填充与解码两阶段的KV全量卸载",
+    "keywords_snippet": "FlashOffloading,KV Cache卸载,主机DRAM,HBM,反向稀疏索引,计算加载重叠,vllm-ascend"
+  },
+  {
+    "module": "07",
+    "date": "2026-11-17",
+    "topic": "MCPHallu智能体幻觉基准",
+    "title": "MCPHallu：把四类幻觉失败写进考题的MCP智能体基准",
+    "level": "L3",
+    "depth": "实践层 - 结构触发器与四类失败子类型诊断",
+    "angle": "把失败风险前置到出题阶段、按子类型选模型而非聚合分",
+    "keywords_snippet": "MCPHallu,MCP智能体,幻觉基准,分支塌缩,目标不可达,工具误用,上下文遗忘"
+  },
+  {
+    "module": "07",
+    "date": "2026-11-17",
+    "topic": "MemSidecar记忆调度",
+    "title": "MemSidecar：让记忆调度从任务执行中解耦的边车架构",
+    "level": "L4",
+    "depth": "前沿层 - Hooks事件投递与Foresight预测预取两种模式",
+    "angle": "将记忆调度从主任务剥离、并行送达的边车范式",
+    "keywords_snippet": "MemSidecar,记忆调度,边车,Hooks,Foresight,MCP-Persona,预测预取"
+  },
+  {
+    "module": "07",
+    "date": "2026-11-17",
+    "topic": "可溯源GraphRAG",
+    "title": "可溯源 GraphRAG：用事实三元组双锚定把结论钉回原文",
+    "level": "L2",
+    "depth": "技术层 - 事实三元组加段落ID双锚定与向量图谱双通道联合排序",
+    "angle": "让每个结论反向钉回原文、以引用脚注实现可验证溯源",
+    "keywords_snippet": "GraphRAG,知识图谱,事实三元组,段落ID,双通道检索,引用脚注,溯源映射表"
+  },
+  {
+    "module": "07",
+    "date": "2026-11-17",
+    "topic": "部分RoPE与NoPE层",
+    "title": "NoPE层与部分RoPE：Raschka 2026位置编码指南拆解",
+    "level": "L3",
+    "depth": "实践层 - 全量RoPE、部分RoPE、NoPE层与实现一致性纪律",
+    "angle": "拆解2026位置编码方案全景与权重迁移的约定一致性",
+    "keywords_snippet": "RoPE,部分RoPE,NoPE,Raschka,MiniMax-M3,SmolLM3,长度外推,旋转约定"
+  },
+  {
+    "module": "07",
+    "date": "2026-11-17",
+    "topic": "对齐税分级",
+    "title": "对齐税分级：DPO加SFT保留项的能力损失并非均匀",
+    "level": "L4",
+    "depth": "前沿层 - 长度归一化DPO加SFT保留项的任务选择性能力损失",
+    "angle": "把对齐税定位到具体任务类型与奖励边距区间的预注册研究",
+    "keywords_snippet": "对齐税,DPO,长度归一化,SFT保留项,稀疏LoRA,奖励边距,TOST,Qwen3.5"
   }
 ]

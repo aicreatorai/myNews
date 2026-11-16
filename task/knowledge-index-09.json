@@ -4468,5 +4468,125 @@
     "depth": "深度",
     "angle": "编译期宏与结构化并发削减样板",
     "keywords_snippet": "Dart 3.8 macros 宏 空安全 AOT 结构化并发"
+  },
+  {
+    "module": "09",
+    "date": "2026-11-16",
+    "topic": "Cargo依赖冷却期",
+    "title": "Cargo 依赖冷却期：Rust 1.100 用等待窗口挡住恶意投毒",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "从供应链攻击时间窗切入解析版本筛选时间谓词与锁文件豁免",
+    "keywords_snippet": "Cargo 冷却期 crates.io 供应链攻击 时间谓词 锁文件 yanked"
+  },
+  {
+    "module": "09",
+    "date": "2026-11-16",
+    "topic": "Kotlin值类直连Valhalla",
+    "title": "Kotlin 值类直连 Valhalla：KEEP-0471 如何抹掉 JVM 对象头",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "从JVM对象头开销切入解析值类到Valhalla值对象的字节码改造",
+    "keywords_snippet": "KEEP-0471 Valhalla JEP-401 值类 ACC_IDENTITY strict 装箱"
+  },
+  {
+    "module": "09",
+    "date": "2026-11-16",
+    "topic": "JDK28撤回原始类型模式",
+    "title": "JDK 28 撤回原始类型模式：模式匹配与 Valhalla 的路线冲突",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "从预览特性撤回事件切入解析类型转换规则与Valhalla数值类型的路线冲突",
+    "keywords_snippet": "JDK28 primitive patterns Amber Valhalla 常量模式 instanceof 预览"
+  },
+  {
+    "module": "09",
+    "date": "2026-11-16",
+    "topic": "Zig0.17替代C内存安全辨析",
+    "title": "Zig 0.17 替代 C 的内存安全辨析：errdefer 与 comptime 治愈 goto 却非内存安全银弹",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "从资深C开发者转向Zig切入辨析工程提效原语与时序内存安全的边界",
+    "keywords_snippet": "Zig 0.17 errdefer comptime 切片 时序内存安全 use-after-free 分配器"
+  },
+  {
+    "module": "09",
+    "date": "2026-11-16",
+    "topic": "Rust自定义分配器AllocatorAPI",
+    "title": "Rust 1.100 自定义分配器稳定：Allocator API 让 Vec 与 Box 换内存池",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "从Allocator API稳定化切入解析容器级分配器 trait 及其对AI推理内存布局的意义",
+    "keywords_snippet": "Rust 1.100 Allocator trait new_in 竞技场 DropGuard AI推理 内存池"
+  },
+  {
+    "module": "09",
+    "date": "2026-11-16",
+    "topic": "Zig推理引擎跨平台统一AI底层",
+    "title": "Zig 推理引擎挑战 CUDA 锁定：Metal 与 Vulkan 跨平台统一 AI 底层",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "从Zig推理引擎登榜切入解析硬件抽象层与Python税对异构部署的改写",
+    "keywords_snippet": "Zig LLM推理 Metal CUDA Vulkan 硬件抽象 Python税 可移植性 llama.cpp"
+  },
+  {
+    "module": "09",
+    "date": "2026-11-17",
+    "topic": "AMD AOCC 6.0 编译器 Zen 6 优化",
+    "title": "AMD AOCC 6.0 编译器首发 Zen 6 深度优化：aoc 品牌化与 aof Fortran 上位",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "HPC编译器工具链的软硬协同与Zen 6指令集优化",
+    "keywords_snippet": "AOCC 6.0, Zen 6, znver6, AOCL-LibM, aof Fortran, aoc"
+  },
+  {
+    "module": "09",
+    "date": "2026-11-17",
+    "topic": "OpenAssembler 逆向 NVIDIA SASS 编译器",
+    "title": "OpenAssembler 开源逆向 NVIDIA SASS：从 Python 直编 cubin，GEMM 提速 3-12%",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "GPU底层编译器逆向与GEMM kernel优化",
+    "keywords_snippet": "OpenAssembler, NVIDIA SASS, cubin, GEMM, Python编译器, 逆向"
+  },
+  {
+    "module": "09",
+    "date": "2026-11-17",
+    "topic": "Node.js 27 alpha 子进程超时与X.509",
+    "title": "Node.js 27 alpha 上线：子进程超时状态与 X.509 检查护栏变更",
+    "level": "L3",
+    "depth": "实践层",
+    "angle": "JS运行时早期预览版的子进程与TLS校验变更",
+    "keywords_snippet": "Node.js 27 alpha, 子进程超时, X.509, TLS, v27.0.0-alpha"
+  },
+  {
+    "module": "09",
+    "date": "2026-11-17",
+    "topic": "微软 Reactor 纯C#原生Windows应用",
+    "title": "微软 Reactor 预览：纯 C# 不写 XAML 造原生 Windows 应用，MVU 直驱 WinUI",
+    "level": "L4",
+    "depth": "前沿层",
+    "angle": "函数式MVU架构驱动原生Windows UI的新范式",
+    "keywords_snippet": "Reactor, C#, XAML, MVU, WinUI, 原生Windows应用"
+  },
+  {
+    "module": "09",
+    "date": "2026-11-17",
+    "topic": "TinyML 部署工具链 Helium SIMD",
+    "title": "TinyML 部署工具链实测：CMSIS-NN 与 Helium SIMD 把推理压到 310 毫秒",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "边缘部署编译图重排与软硬协同优化",
+    "keywords_snippet": "TinyML, CMSIS-NN, Helium SIMD, Cortex-M7, MobileNetV2, 算子融合"
+  },
+  {
+    "module": "09",
+    "date": "2026-11-17",
+    "topic": "Go 1.27 泛型方法进 ORM",
+    "title": "Go 1.27 泛型方法进 ORM：编译期校验取代代码生成，类型安全不再靠 generate",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "泛型方法在ORM类型安全中的编译期特化机制",
+    "keywords_snippet": "Go 1.27, 泛型方法, ORM, 编译期校验, sqlc, 代码生成"
   }
 ]

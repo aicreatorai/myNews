@@ -4918,5 +4918,125 @@
     "depth": "深度",
     "angle": "用 Rust 仿真云 API 做离线 CI 测试",
     "keywords_snippet": "aws-emulator Rust 仿真 CI 本地"
+  },
+  {
+    "module": "10",
+    "date": "2026-11-16",
+    "topic": "agent-desktop 桌面自动化CLI",
+    "title": "【[L2] agent-desktop：让AI智能体用无障碍树操作真实桌面的Rust CLI】",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "用无障碍树取代像素截图实现稳定桌面操作",
+    "keywords_snippet": "vercel-labs,Rust,accessibility tree,computer use,稳定引用,MCP"
+  },
+  {
+    "module": "10",
+    "date": "2026-11-16",
+    "topic": "gstack 虚拟工程团队工具集",
+    "title": "【[L2] gstack：把Claude Code变成23人虚拟工程团队的开源工具集】",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "把工程角色固化为斜杠命令实现多角色工作流",
+    "keywords_snippet": "garrytan,gstack,Claude Code,虚拟团队,斜杠命令,Markdown,多运行器"
+  },
+  {
+    "module": "10",
+    "date": "2026-11-16",
+    "topic": "graphify 代码知识图谱检索",
+    "title": "【[L2] graphify：把代码库变成可查询知识图谱的确定性检索引擎】",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "用确定性AST解析对抗向量检索的模糊性",
+    "keywords_snippet": "Graphify-Labs,知识图谱,抽象语法树,确定性检索,绕过向量库,可解释"
+  },
+  {
+    "module": "10",
+    "date": "2026-11-16",
+    "topic": "Agent-Reach 智能体联网能力层",
+    "title": "【[L2] Agent-Reach：给AI智能体装上读取全网能力层的开源项目】",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "以可插拔能力层绕开付费墙实现智能体联网读取",
+    "keywords_snippet": "Panniantion,Agent-Reach,能力层,联网读取,零接口费用,反爬,社交媒体"
+  },
+  {
+    "module": "10",
+    "date": "2026-11-16",
+    "topic": "hyperframes 智能体视频生成管线",
+    "title": "【[L2] hyperframes：写HTML就能渲染视频的面向智能体生成管线】",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "以HTML为中间语言让智能体工程化生成视频",
+    "keywords_snippet": "HeyGen,hyperframes,HTML渲染视频,生成式视频,MCP,帧合成,运动一致性"
+  },
+  {
+    "module": "10",
+    "date": "2026-11-16",
+    "topic": "opencode 并发编码智能体",
+    "title": "【[L2] opencode：子智能体默认后台并发的开源终端编码智能体】",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "子智能体后台默认并发实现终端多任务并行",
+    "keywords_snippet": "anomalyco,opencode,终端编码智能体,后台并发,子智能体,模型无关,v2.3.0"
+  },
+  {
+    "module": "10",
+    "date": "2026-11-17",
+    "topic": "VibeVoice 开源语音AI模型家族",
+    "title": "【[L2] VibeVoice：微软开源的前沿语音AI模型家族，一次转录一小时音频】（⭐ 约 55.7K）",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "低帧率连续分词与长音频结构化转录",
+    "keywords_snippet": "microsoft,VibeVoice,语音AI,ASR,TTS,长音频转录,BitNet,说话人分离"
+  },
+  {
+    "module": "10",
+    "date": "2026-11-17",
+    "topic": "Switchyard LLM跨模型流量路由",
+    "title": "【[L3] Switchyard：NVIDIA 开源的 LLM 跨模型流量路由中间件】（⭐ 约 2.3K）",
+    "level": "L3",
+    "depth": "实践层",
+    "angle": "OpenAI兼容接口下的多供应商路由与故障转移",
+    "keywords_snippet": "NVIDIA-NeMo,Switchyard,模型路由,OpenAI兼容,流量治理,故障转移"
+  },
+  {
+    "module": "10",
+    "date": "2026-11-17",
+    "topic": "Instatic 开源可视化CMS",
+    "title": "【[L1] Instatic：可自托管的开源可视化CMS，替代 Webflow 与 WordPress】（⭐ 约 7.2K）",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "自托管可视化建站与干净代码输出",
+    "keywords_snippet": "CoreBunch,Instatic,可视化CMS,自托管,干净代码,Webflow替代,智能体驱动"
+  },
+  {
+    "module": "10",
+    "date": "2026-11-17",
+    "topic": "xtool 跨平台iOS构建",
+    "title": "【[L2] xtool：用 SwiftPM 在 Linux 与 Windows 上构建 iOS 应用的 Xcode 替代】（⭐ 约 10K）",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "SwiftPM交叉编译打破iOS构建对macOS的依赖",
+    "keywords_snippet": "xtool-org,xtool,SwiftPM,交叉编译,iOS构建,Xcode替代,跨平台CI"
+  },
+  {
+    "module": "10",
+    "date": "2026-11-17",
+    "topic": "project-nomad 离线生存计算机",
+    "title": "【[L1] project-nomad：把关键工具与知识打包进离线生存计算机】（⭐ 约 33.9K）",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "自包含离线工具箱与知识库的数字韧性",
+    "keywords_snippet": "Crosstalk-Solutions,project-nomad,离线,生存计算机,自包含,备灾,数字自主"
+  },
+  {
+    "module": "10",
+    "date": "2026-11-17",
+    "topic": "reclip 自托管视频下载器",
+    "title": "【[L2] reclip：轻量自托管、带干净 Web 界面的网页视频下载器】（⭐ 约 8.1K）",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "通用下载引擎加网页界面的自托管视频下载",
+    "keywords_snippet": "averygan,reclip,视频下载,自托管,网页界面,yt-dlp,媒体下载器"
   }
 ]
