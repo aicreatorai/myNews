@@ -249,6 +249,35 @@ body {
     box-shadow: 0 2px 12px rgba(67, 97, 238, 0.4);
 }
 
+/* 题库入口 */
+.bank-btn {
+    background: linear-gradient(135deg, #f0932b, #c56a00);
+    border: none;
+    border-radius: 20px;
+    height: 30px;
+    padding: 0 12px;
+    font-size: 0.82rem;
+    font-weight: 700;
+    color: #fff;
+    text-decoration: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: var(--transition);
+    letter-spacing: 0.5px;
+    flex-shrink: 0;
+    white-space: nowrap;
+}
+.bank-btn:hover {
+    transform: scale(1.08);
+    box-shadow: 0 2px 12px rgba(240, 147, 43, 0.45);
+}
+.bank-btn:active {
+    transform: scale(0.96);
+}
+.bank-btn .bk-i { display: none; }
+
 /* 隐身按钮 */
 .stealth-btn {
     background: rgba(0,0,0,0.05);
@@ -1133,6 +1162,23 @@ body.stealth-mode .mobile-category-strip {
     background: rgba(255,255,255,0.03);
 }
 /* 手机端滑动提示：右侧渐变遮罩暗示可滚动 */
+/* 窄屏（iPhone 等 ≤430px）：顶栏按钮太多会挤掉标题，暂时收起字号控件，标题单行截断 */
+@media (max-width: 430px) {
+    .fontsize-controls {
+        display: none !important;
+    }
+    .logo {
+        flex: 1 1 auto;
+        min-width: 0;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+    .topbar-right {
+        flex-shrink: 0;
+    }
+}
+
 @media (hover: none) and (pointer: coarse) {
     .card-body .table-wrap {
         background: 
@@ -1223,6 +1269,15 @@ body.stealth-mode .mobile-category-strip {
         font-size: 0.72rem;
     }
 
+    .bank-btn {
+        height: 26px;
+        width: 26px;
+        padding: 0;
+        border-radius: 50%;
+        font-size: 0.78rem;
+    }
+    .bank-btn .bk-t { display: none; }
+    .bank-btn .bk-i { display: inline; }
     .stealth-btn,
     .theme-toggle {
         width: 30px;
