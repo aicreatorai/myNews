@@ -4588,5 +4588,65 @@
     "depth": "技术层",
     "angle": "泛型方法在ORM类型安全中的编译期特化机制",
     "keywords_snippet": "Go 1.27, 泛型方法, ORM, 编译期校验, sqlc, 代码生成"
+  },
+  {
+    "module": "09",
+    "date": "2026-11-18",
+    "topic": "Rust Allocator API",
+    "title": "Rust 1.100 Allocator API 与 DropGuard：自定义分配器与事务式回滚",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "从自定义内存池与事务式收尾需求切入标准库新设施",
+    "keywords_snippet": "Allocator trait、Vec::new_in、Box::new_in、DropGuard、dismiss、conjure_zst、Allocators 1.0"
+  },
+  {
+    "module": "09",
+    "date": "2026-11-18",
+    "topic": "Python 惰性导入",
+    "title": "Python 3.15 惰性导入落地：不改代码砍掉重型依赖启动开销",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "从 CLI 与短命任务反复支付启动成本切入",
+    "keywords_snippet": "lazy imports、types.LazyImportType、sys.set_lazy_imports_filter、冷启动、ML 栈"
+  },
+  {
+    "module": "09",
+    "date": "2026-11-18",
+    "topic": "Python sentinel",
+    "title": "Python 3.15 sentinel 内置哨兵：PEP 661 五年长跑终结 None 歧义",
+    "level": "L2",
+    "depth": "应用层",
+    "angle": "从 None 三态歧义与 object() 私有标记痛点切入",
+    "keywords_snippet": "PEP 661、sentinel、MISSING、is 比较、pickle、三态接口、typing_extensions"
+  },
+  {
+    "module": "09",
+    "date": "2026-11-18",
+    "topic": "Tachyon 采样分析器",
+    "title": "Python 3.15 Tachyon 采样分析器：PEP 799 不改代码给线上程序做 X 光",
+    "level": "L2",
+    "depth": "工具层",
+    "angle": "从生产环境低侵入性能剖析与火焰图切入",
+    "keywords_snippet": "PEP 799、profiling.sampling、Tachyon、火焰图、attach、cProfile、profiling.tracing"
+  },
+  {
+    "module": "09",
+    "date": "2026-11-18",
+    "topic": "Kotlin 多字段值类",
+    "title": "Kotlin 2.5.0-RC 多字段值类进 Alpha：官方实测协程不输虚拟线程",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "从领域概念类型安全与零成本抽象切入",
+    "keywords_snippet": "Multi-Field Value Classes、2.5.0-RC、KEEP、协程、Project Loom、Kotensor、值类擦除"
+  },
+  {
+    "module": "09",
+    "date": "2026-11-18",
+    "topic": "Vite Rolldown",
+    "title": "Vite 8 换芯 Rolldown：Rust 统一打包引擎实测生产构建提速三倍",
+    "level": "L2",
+    "depth": "工具层",
+    "angle": "从双引擎边界开销与 HMR 延迟切入构建工具链重写",
+    "keywords_snippet": "Vite 8、Rolldown、Rust 打包器、esbuild、Rollup、HMR 回传、生产构建提速"
   }
 ]

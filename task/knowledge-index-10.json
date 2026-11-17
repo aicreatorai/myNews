@@ -5038,5 +5038,65 @@
     "depth": "技术层",
     "angle": "通用下载引擎加网页界面的自托管视频下载",
     "keywords_snippet": "averygan,reclip,视频下载,自托管,网页界面,yt-dlp,媒体下载器"
+  },
+  {
+    "module": "10",
+    "date": "2026-11-18",
+    "topic": "openclaw",
+    "title": "【[L1] openclaw：让 AI 真正动手干活的跨平台本地智能体】（⭐ 约 39.4 万）",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "从对话工具到执行代理的范式迁移",
+    "keywords_snippet": "跨平台 AI 智能体 本地优先 模型可插拔 执行闭环"
+  },
+  {
+    "module": "10",
+    "date": "2026-11-18",
+    "topic": "NVIDIA auto-ontology",
+    "title": "【[L2] NVIDIA auto-ontology：为企业数据铺一层确定性语义图谱推理层】（⭐ 约 5,529）",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "语义图谱如何为 AI 分析注入确定性",
+    "keywords_snippet": "企业元数据 语义图谱 确定性查询 来源追溯 MCP"
+  },
+  {
+    "module": "10",
+    "date": "2026-11-18",
+    "topic": "PR-Agent",
+    "title": "【[L3] PR-Agent：把 AI 代码审查做成跨平台的开源老兵】（⭐ 约 1.49 万）",
+    "level": "L3",
+    "depth": "实践层",
+    "angle": "确定性规则与智能体语义审查的分工",
+    "keywords_snippet": "AI代码审查 多平台 多供应商SDK 来源标注 自托管"
+  },
+  {
+    "module": "10",
+    "date": "2026-11-18",
+    "topic": "Plannotator",
+    "title": "【[L4] Plannotator：把决策和反馈钉在计划上的智能体工作空间】（⭐ 约 1.18 万）",
+    "level": "L4",
+    "depth": "前沿层",
+    "angle": "智能体协作从聊天记录转向结构化工作空间",
+    "keywords_snippet": "智能体工作空间 计划捕获 行级反馈 阻塞可选 人机协同"
+  },
+  {
+    "module": "10",
+    "date": "2026-11-18",
+    "topic": "kimi-k3-in-c",
+    "title": "【[L2] kimi-k3-in-c：纯 C99 零依赖把万亿参数 MoE 塞进 8GB 内存】（⭐ 约 1.04 万）",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "纯C99零依赖如何突破大模型内存墙",
+    "keywords_snippet": "C99 零依赖 MoE稀疏激活 磁盘流式加载 字节级一致"
+  },
+  {
+    "module": "10",
+    "date": "2026-11-18",
+    "topic": "Univer",
+    "title": "【[L3] Univer：让 AI 智能体也能读写算的嵌入式办公 SDK】（⭐ 约 2.56 万）",
+    "level": "L3",
+    "depth": "实践层",
+    "angle": "为智能体提供可安全操作的办公结构化底座",
+    "keywords_snippet": "办公SDK 公式引擎 结构化API 权限护栏 人机同源"
   }
 ]

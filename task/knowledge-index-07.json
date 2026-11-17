@@ -5348,5 +5348,65 @@
     "depth": "前沿层 - 长度归一化DPO加SFT保留项的任务选择性能力损失",
     "angle": "把对齐税定位到具体任务类型与奖励边距区间的预注册研究",
     "keywords_snippet": "对齐税,DPO,长度归一化,SFT保留项,稀疏LoRA,奖励边距,TOST,Qwen3.5"
+  },
+  {
+    "module": "07",
+    "date": "2026-11-18",
+    "topic": "置信辩论偏好数据",
+    "title": "AbCD置信辩论：无需标准答案从辩论记录里炼出偏好数据",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "从多智能体辩论记录构造偏好数据替代标准答案与奖励模型标注",
+    "keywords_snippet": "AbCD 置信辩论 多智能体 偏好数据 DPO 语义等价聚类 共识准确率"
+  },
+  {
+    "module": "07",
+    "date": "2026-11-18",
+    "topic": "权重清零微调",
+    "title": "Deletion Tuning：清零0.05%权重就能匹敌全量微调",
+    "level": "L3",
+    "depth": "实践层",
+    "angle": "把极小比例权重置零当作后训练动作以匹敌全量微调并缩小产物",
+    "keywords_snippet": "Deletion Tuning 权重置零 后训练 NeurIPS 删除掩码 全量微调 重要性准则"
+  },
+  {
+    "module": "07",
+    "date": "2026-11-18",
+    "topic": "混合检索重排序",
+    "title": "混合检索与重排序：cross-encoder打破向量相似度陷阱",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "BM25与向量混合召回加交叉编码器精排以兼顾召回率与精确率",
+    "keywords_snippet": "混合检索 BM25 RRF cross-encoder 重排序 召回 精确率 新鲜度"
+  },
+  {
+    "module": "07",
+    "date": "2026-11-18",
+    "topic": "双时态知识图谱",
+    "title": "双时态知识图谱：用事件时间回答当时什么是真的",
+    "level": "L4",
+    "depth": "前沿层",
+    "angle": "用事件时间与入库时间双轴让事实可按任意时点回放与审计",
+    "keywords_snippet": "双时态 Zep Graphiti 事件时间 入库时间 事实版本 审计 增量更新"
+  },
+  {
+    "module": "07",
+    "date": "2026-11-18",
+    "topic": "记忆与RAG分工",
+    "title": "Agentic Memory与RAG分工：只读检索与可写记忆的边界",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "厘清只读RAG与可写记忆在控制权与写路径上的本质差异与分工",
+    "keywords_snippet": "Agentic Memory RAG 写权限 记忆分层 六阶段流水线 新近度 冲突消解"
+  },
+  {
+    "module": "07",
+    "date": "2026-11-18",
+    "topic": "分页上下文记忆",
+    "title": "MemGPT分页上下文：把记忆当虚拟内存换入换出",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "把上下文当主存外部存储当辅存由模型通过函数调用自主换页",
+    "keywords_snippet": "MemGPT Letta 分页上下文 虚拟内存 函数调用 自编辑记忆 稳定前缀"
   }
 ]

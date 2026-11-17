@@ -4776,5 +4776,65 @@
     "depth": "技术层",
     "angle": "影像档案索引与语义检索变化检测及报告生成链路拆解",
     "keywords_snippet": "Planet 卫星影像 自然语言搜索 十年档案 变化检测 可视化对比 研究报告 遥感 灾害监测 毁林 农业产量"
+  },
+  {
+    "module": "08",
+    "date": "2026-11-18",
+    "topic": "口喷鸡Blurt",
+    "title": "口喷鸡Blurt开源输入法：边操作边吐槽自动生成修复清单",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "技术层拆解多模态输入、跨模态对齐与Agent修复闭环，给出可复现实测流程",
+    "keywords_snippet": "多模态输入法,录屏走查,截图标注,MCP事项库,git worktree修复"
+  },
+  {
+    "module": "08",
+    "date": "2026-11-18",
+    "topic": "Gemini Canvas草图转应用",
+    "title": "Gemini Canvas草图转应用：拍张手绘就能跑的可编辑网页",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "技术层拆解图像理解、意图翻译、代码生成与迭代闭环，提醒链接可编辑数据的坑",
+    "keywords_snippet": "手绘草图,图像理解,可编辑应用,预览窗口,Code view,Show console"
+  },
+  {
+    "module": "08",
+    "date": "2026-11-18",
+    "topic": "llama.cpp 1.0",
+    "title": "llama.cpp 1.0落地：本地文档助手升级前先跑回归测试",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "技术层拆解语义版本契约、接口边界、回归集与变更归因，建立升级前自检动作",
+    "keywords_snippet": "llama.cpp,ggml,语义版本,固定版本,回归测试,峰值内存"
+  },
+  {
+    "module": "08",
+    "date": "2026-11-18",
+    "topic": "Graphed UGC Studio",
+    "title": "Graphed UGC Studio：用Agent批量产出竖屏视频广告",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "技术层拆解网站理解、脚本生成、渲染合成与批量变体，给出成本真实核算方法",
+    "keywords_snippet": "UGC广告,竖屏口播,网站驱动脚本,批量变体,按秒计价,肖像授权"
+  },
+  {
+    "module": "08",
+    "date": "2026-11-18",
+    "topic": "Notion AI长任务",
+    "title": "Notion AI长时Agent：后台任务跑24小时还帮省九成积分",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "技术层拆解长任务编排、模型路由、MCP连接与知识上下文，强调厂商成本需实测",
+    "keywords_snippet": "Notion AI,24小时Agent,模型路由,MCP,外部工具,积分核算"
+  },
+  {
+    "module": "08",
+    "date": "2026-11-18",
+    "topic": "Factory Droid Script Mode",
+    "title": "Factory Droid Script Mode：一次脚本跑完上百次工具调用",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "技术层拆解工具抽象、脚本执行、错误定位与SDK集成，给出只读先行验证法",
+    "keywords_snippet": "Droid 1.0,Script Mode,程序化工具调用,模型往返,SDK,回滚"
   }
 ]

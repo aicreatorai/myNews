@@ -4838,5 +4838,65 @@
     "depth": "前沿层",
     "angle": "用抗操纵的主动推荐信号替代点击率并延伸到AI回答可见性",
     "keywords_snippet": "排序信号 主动推荐 点击率 抗操纵 AI可见性 HackerTube"
+  },
+  {
+    "module": "15",
+    "date": "2026-11-18",
+    "topic": "60-20-20路线图配比",
+    "title": "60-20-20路线图：用三段式配比让AI产品规划扛住模型迭代",
+    "level": "L2",
+    "depth": "方法层",
+    "angle": "用确定交付与期权下注的三段配比让路线图扛住模型每两周迭代",
+    "keywords_snippet": "60-20-20 路线图配比 能力距离 期权下注 模型跃迁 活文档 五条提示词起评测"
+  },
+  {
+    "module": "15",
+    "date": "2026-11-18",
+    "topic": "AI产品发现方法",
+    "title": "AI产品发现陷阱：用真实工作流观察替代完美Demo立项",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "用真实任务观察纠正行为与边界原型替代黄金路径Demo立项",
+    "keywords_snippet": "产品发现 真实工作流 纠正行为 边界原型 护栏 退出边界 长尾"
+  },
+  {
+    "module": "15",
+    "date": "2026-11-18",
+    "topic": "准确率延迟成本三角权衡",
+    "title": "accuracy-latency-cost三角：5亿用户AI助手的8周生产决策",
+    "level": "L3",
+    "depth": "案例层",
+    "angle": "JioStar五亿用户八周上线用三角权衡两段评估护栏先行领域专家种子数据",
+    "keywords_snippet": "accuracy-latency-cost 三角权衡 两段式评估 护栏先于范围 领域专家种子数据 语音视觉界面"
+  },
+  {
+    "module": "15",
+    "date": "2026-11-18",
+    "topic": "AI-PDLC六智能体流水线",
+    "title": "AI-PDLC六智能体流水线：把客户信号变成可审批的产品规格",
+    "level": "L4",
+    "depth": "实践层",
+    "angle": "六智能体接力加人工审批关口把客户信号转成可追溯可交接规格",
+    "keywords_snippet": "AI-PDLC 六智能体 人工审批 痛点看板 PR-FAQ prototype_spec 可追溯 交接契约"
+  },
+  {
+    "module": "15",
+    "date": "2026-11-18",
+    "topic": "端云混合部署取舍",
+    "title": "端云混合部署：PM如何为手机端AI做架构与成本取舍",
+    "level": "L2",
+    "depth": "架构层",
+    "angle": "移动端AI按任务分层做端云分工并用双指标合规前置管理模型生命周期",
+    "keywords_snippet": "端云混合 任务分层 双指标 隐私合规 旧模型淘汰 MLOps 耗电延迟"
+  },
+  {
+    "module": "15",
+    "date": "2026-11-18",
+    "topic": "AI PM能力重心迁移",
+    "title": "AI PM能力重心迁移：从写需求文档到产出有分量的原型",
+    "level": "L3",
+    "depth": "认知层",
+    "angle": "PM价值从文档产出转向问题选择判断标准与结果负责",
+    "keywords_snippet": "能力重心迁移 判断驱动 有分量的原型 四个新基本功 五项能力盘点 对模型有观点"
   }
 ]

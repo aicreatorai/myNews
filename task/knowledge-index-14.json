@@ -4718,5 +4718,65 @@
     "depth": "实践层 - 生产级方案、踩坑经验、数据对比",
     "angle": "职业解构：用作品集能力证明绕过被压缩的入门阶梯",
     "keywords_snippet": "职业阶梯压缩 PwC 入门岗 作品集 90天路径 能力证明 专业化 民主化"
+  },
+  {
+    "module": "14",
+    "date": "2026-11-18",
+    "topic": "时间块工作法",
+    "title": "时间块工作法：用日程预占把深度专注变成不可侵犯的承诺",
+    "level": "L2",
+    "depth": "方法层",
+    "angle": "用窗口兑现率替代工时，把深度专注预占进日程",
+    "keywords_snippet": "Time Blocking 时间块 窗口兑现率 预承诺 注意力残留 Huberman 深度工作"
+  },
+  {
+    "module": "14",
+    "date": "2026-11-18",
+    "topic": "认知重评",
+    "title": "认知重评：用改写解读方式把情绪从对抗变成调节",
+    "level": "L2",
+    "depth": "原理层",
+    "angle": "先行关注策略从源头换框，三问重评法",
+    "keywords_snippet": "Gross 情绪调节 先行关注 表达抑制 前额叶 杏仁核 去个人化 成长化"
+  },
+  {
+    "module": "14",
+    "date": "2026-11-18",
+    "topic": "交错练习",
+    "title": "交错练习：用刻意打乱顺序把短期吃力换成长期记得牢",
+    "level": "L2",
+    "depth": "方法层",
+    "angle": "用合意困难对抗流畅性错觉，打乱类型换取长期迁移",
+    "keywords_snippet": "Interleaving 交错练习 合意困难 辨别学习 提取强度 Bjork Rohrer 集中练习"
+  },
+  {
+    "module": "14",
+    "date": "2026-11-18",
+    "topic": "微休息策略",
+    "title": "微休息策略：用几秒到几分钟的主动间歇把精力续航拉满",
+    "level": "L2",
+    "depth": "方法层",
+    "angle": "微休息叠加工作统筹，恢复与聚焦在同一小时共存",
+    "keywords_snippet": "Micro-break 微休息 注意力恢复 生理唤醒 掌控感 Parker NSDR 精力续航"
+  },
+  {
+    "module": "14",
+    "date": "2026-11-18",
+    "topic": "重复偏差识别",
+    "title": "重复偏差识别：用主动引入新选项打破熟悉即好的决策惯性",
+    "level": "L2",
+    "depth": "原理层",
+    "angle": "单纯重复制造价值感，主动引入对照选项纠偏",
+    "keywords_snippet": "repetition bias 重复偏差 认知吝啬 偏好建构 Wagner Communications Psychology 现状偏差"
+  },
+  {
+    "module": "14",
+    "date": "2026-11-18",
+    "topic": "生时效应",
+    "title": "生时效应：用时间地标把宏大目标拆成随时可重启的起点",
+    "level": "L2",
+    "depth": "原理层",
+    "angle": "用时间地标做归因分离，自设小周期实现高频重启",
+    "keywords_snippet": "Fresh Start Effect 生时效应 时间地标 归因分离 心理账户 Dai Milkman Riis"
   }
 ]
