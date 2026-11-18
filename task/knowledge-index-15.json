@@ -4898,5 +4898,65 @@
     "depth": "认知层",
     "angle": "PM价值从文档产出转向问题选择判断标准与结果负责",
     "keywords_snippet": "能力重心迁移 判断驱动 有分量的原型 四个新基本功 五项能力盘点 对模型有观点"
+  },
+  {
+    "module": "15",
+    "date": "2026-11-19",
+    "topic": "Eval评估体系",
+    "title": "Eval驱动迭代：把AI产品感觉变好了变成可量化评估闭环",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "把概率系统行为转化为可回归样本集，用分维度量规与真实业务基线量化每次迭代",
+    "keywords_snippet": "Eval 评估集 评分量规 回归 基线 LifeVal 腾讯混元Hy4"
+  },
+  {
+    "module": "15",
+    "date": "2026-11-19",
+    "topic": "失败契约与降级恢复",
+    "title": "失败契约：给AI的不确定性写一份降级与恢复说明书",
+    "level": "L3",
+    "depth": "实践层",
+    "angle": "用Detect-Prevent-Contain-Recover-Learn五动作框架为概率错误设计确定性护栏与转人工逻辑",
+    "keywords_snippet": "失败契约 降级逻辑 转人工 确定性规则 错误代价 宁可认怂不可瞎编"
+  },
+  {
+    "module": "15",
+    "date": "2026-11-19",
+    "topic": "上下文工程",
+    "title": "上下文工程：多轮任务中比Prompt更决定体验上限的战场",
+    "level": "L4",
+    "depth": "前沿层",
+    "angle": "从分层、检索注入、压缩遗忘、隔离传递拆解多轮Agent的上下文信息架构与记忆分工",
+    "keywords_snippet": "上下文工程 长期记忆 动态压缩 Agent隔离 Grok Bot Qwen4-Max"
+  },
+  {
+    "module": "15",
+    "date": "2026-11-19",
+    "topic": "AI立项三问",
+    "title": "AI立项三问：把AI两个字拿掉价值还成立吗",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "立项前用拿掉AI检验、错误代价评估、结果证明三问拦截有AI形无产品魂的伪需求",
+    "keywords_snippet": "立项三问 需求价值检验 机会陈述 输出与结果 规则优先"
+  },
+  {
+    "module": "15",
+    "date": "2026-11-19",
+    "topic": "渐进式信任",
+    "title": "渐进式信任：从对话框到Agent同事如何交出任务所有权",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "用意图澄清、中间状态可视化、同事化与记忆分工设计控制权从完全掌控到高度委托的逐步让渡",
+    "keywords_snippet": "渐进式信任 同事化 Agent 意图澄清 领导Bot 任务所有权 Grok Bot"
+  },
+  {
+    "module": "15",
+    "date": "2026-11-19",
+    "topic": "陪伴感增长飞轮",
+    "title": "陪伴感飞轮：交互门槛坍塌如何成为Personal AI增长引擎",
+    "level": "L3",
+    "depth": "实践层",
+    "angle": "拆解语音门槛坍塌、上下文燃料、黏性飞轮的正循环及情感依赖双刃剑，含豆包A/B与MIT实验数据",
+    "keywords_snippet": "陪伴感 语音 交互门槛 上下文燃料 情感依赖 豆包8.34% Muse"
   }
 ]

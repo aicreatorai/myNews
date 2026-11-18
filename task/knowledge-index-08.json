@@ -4836,5 +4836,65 @@
     "depth": "技术层",
     "angle": "技术层拆解工具抽象、脚本执行、错误定位与SDK集成，给出只读先行验证法",
     "keywords_snippet": "Droid 1.0,Script Mode,程序化工具调用,模型往返,SDK,回滚"
+  },
+  {
+    "module": "08",
+    "date": "2026-11-19",
+    "topic": "Tesseract",
+    "title": "【Tesseract】一句话交付成品的桌面AI执行器",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "一句话交付成品的桌面AI执行器，计划先行并调用本地已有智能体",
+    "keywords_snippet": "Tesseract 桌面AI执行器 计划审批 多智能体 本地交付"
+  },
+  {
+    "module": "08",
+    "date": "2026-11-19",
+    "topic": "DevEco Code",
+    "title": "【DevEco Code】鸿蒙AI编程三模式上手",
+    "level": "L4",
+    "depth": "前沿层",
+    "angle": "鸿蒙官方开源终端AI编程Agent的Build/Plan+Build/Goal三模式与免费GLM额度",
+    "keywords_snippet": "DevEco Code 鸿蒙 GLM 免费额度 Build Plan Goal 三模式"
+  },
+  {
+    "module": "08",
+    "date": "2026-11-19",
+    "topic": "Fleeep",
+    "title": "【Fleeep】免费笔记不拿你数据训练",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "以不拿用户数据训练为卖点的免费多模态笔记聚合工具",
+    "keywords_snippet": "Fleeep 免费笔记 不训练数据 截图书签语音 隐私"
+  },
+  {
+    "module": "08",
+    "date": "2026-11-19",
+    "topic": "墨刀",
+    "title": "【墨刀】自然语言生成可交互原型上手",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "国产原型工具用自然语言生成可点击流程稿并验证流程闭环",
+    "keywords_snippet": "墨刀 国产 原型 自然语言 交互 流程验证"
+  },
+  {
+    "module": "08",
+    "date": "2026-11-19",
+    "topic": "PasteGuard",
+    "title": "【PasteGuard】剪贴板密钥本地打码不上云",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "Mac剪贴板密钥自动打码、本地处理与可逆Restore保护AI对话输入",
+    "keywords_snippet": "PasteGuard 剪贴板 密钥打码 本地 Restore 隐私"
+  },
+  {
+    "module": "08",
+    "date": "2026-11-19",
+    "topic": "CodeBuddy子代理",
+    "title": "【CodeBuddy子代理】给AI编程配一支虚拟团队",
+    "level": "L3",
+    "depth": "实践层",
+    "angle": "CodeBuddy Code子代理的上下文隔离、权限分级与团队共享配置实战",
+    "keywords_snippet": "CodeBuddy 子代理 subagents 上下文隔离 权限分级 团队共享"
   }
 ]

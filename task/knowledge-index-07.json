@@ -5408,5 +5408,65 @@
     "depth": "技术层",
     "angle": "把上下文当主存外部存储当辅存由模型通过函数调用自主换页",
     "keywords_snippet": "MemGPT Letta 分页上下文 虚拟内存 函数调用 自编辑记忆 稳定前缀"
+  },
+  {
+    "module": "07",
+    "date": "2026-11-19",
+    "topic": "连续注意力",
+    "title": "连续注意力：把词向量连成曲线做积分检索的新注意力范式",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "从离散注意力到连续积分检索的直觉理解与技术脉络",
+    "keywords_snippet": "Continuum Attention 连续注意力 积分检索 轨迹 连续softmax"
+  },
+  {
+    "module": "07",
+    "date": "2026-11-19",
+    "topic": "分组查询注意力",
+    "title": "GQA分组查询注意力：多个查询头共享KV头把显存砍下来",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "从KV Cache膨胀看GQA的分组共享与MHA/MQA插值机制",
+    "keywords_snippet": "GQA 分组查询注意力 KV Cache num_key_value_heads 显存"
+  },
+  {
+    "module": "07",
+    "date": "2026-11-19",
+    "topic": "端侧小模型协同设计",
+    "title": "端侧小模型协同设计：173MB模型跑出466 token每秒的工程账",
+    "level": "L3",
+    "depth": "实践层",
+    "angle": "以MNN-Pocket-0.3B为样本拆解架构/数据/训练/推理全链路co-design",
+    "keywords_snippet": "端侧小模型 协同设计 硬件感知 词表剪枝 量化感知训练 MNN"
+  },
+  {
+    "module": "07",
+    "date": "2026-11-19",
+    "topic": "Re3Rank推理条件检索头",
+    "title": "Re3Rank推理条件检索头：让重排序器先写推理轨迹再打分",
+    "level": "L4",
+    "depth": "前沿层",
+    "angle": "精读ICML相关新论文：推理轨迹当查询的RRHeads与直通估计器",
+    "keywords_snippet": "Re3Rank RRHeads 推理轨迹 listwise重排序 straight-through estimator NDCG"
+  },
+  {
+    "module": "07",
+    "date": "2026-11-19",
+    "topic": "联邦学习",
+    "title": "联邦学习：数据不动模型动，医疗AI如何破解数据孤岛",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "以医疗数据孤岛切入讲清联邦学习分类、FedAvg原理与隐私价值",
+    "keywords_snippet": "联邦学习 数据不动模型动 FedAvg non-IID 数据孤岛 医疗"
+  },
+  {
+    "module": "07",
+    "date": "2026-11-19",
+    "topic": "可解释联邦学习",
+    "title": "xFedAlign可解释联邦学习：ICML2026让各地解释对齐全局先验",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "拆解xFedAlign的任务-解释解耦、top-k归因与全局解释先验软对齐",
+    "keywords_snippet": "xFedAlign 可解释联邦学习 归因对齐 Global Explanation Prior top-k ICML2026"
   }
 ]

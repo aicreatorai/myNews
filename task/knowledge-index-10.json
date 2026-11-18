@@ -5098,5 +5098,65 @@
     "depth": "实践层",
     "angle": "为智能体提供可安全操作的办公结构化底座",
     "keywords_snippet": "办公SDK 公式引擎 结构化API 权限护栏 人机同源"
+  },
+  {
+    "module": "10",
+    "date": "2026-11-19",
+    "topic": "NVIDIA/auto-ontology",
+    "title": "【NVIDIA/auto-ontology】语义知识图谱推理层让AI分析不再答非所问",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "从模型三元组与本体构建拆解确定性查询生成机制",
+    "keywords_snippet": "语义知识图谱,本体推理,确定性查询,RAG消除幻觉,可追溯"
+  },
+  {
+    "module": "10",
+    "date": "2026-11-19",
+    "topic": "thedotmack/claude-mem",
+    "title": "【thedotmack/claude-mem】给编码智能体装上跨会话持久记忆",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "从捕获压缩存储注入四步闭环拆解持久记忆引擎",
+    "keywords_snippet": "跨会话记忆,ChromaDB,SQLite,上下文注入,会话压缩"
+  },
+  {
+    "module": "10",
+    "date": "2026-11-19",
+    "topic": "FareedKhan-dev/kimi-k3-in-c",
+    "title": "【FareedKhan-dev/kimi-k3-in-c】纯C99在8GB内存单CPU跑通2.78万亿参数大模型",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "从磁盘流式加载与稀疏路由拆解极限推理工程",
+    "keywords_snippet": "纯C99,混合专家,流式加载,零依赖,确定性输出"
+  },
+  {
+    "module": "10",
+    "date": "2026-11-19",
+    "topic": "The-PR-Agent/pr-agent",
+    "title": "【The-PR-Agent/pr-agent】开源AI代码审查的社区接棒者",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "从多提供方管道拆解AI代码审查完整流程",
+    "keywords_snippet": "AI代码审查,拉取请求,多提供方,提示词模板,持续集成"
+  },
+  {
+    "module": "10",
+    "date": "2026-11-19",
+    "topic": "max-sixty/worktrunk",
+    "title": "【max-sixty/worktrunk】用Git worktree为并行智能体隔离工作区",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "从Git工作树机制拆解并行智能体任务隔离",
+    "keywords_snippet": "Git worktree,并行智能体,任务隔离,工作区管理,Rust"
+  },
+  {
+    "module": "10",
+    "date": "2026-11-19",
+    "topic": "D4Vinci/Scrapling",
+    "title": "【D4Vinci/Scrapling】语义自适应选择器破解现代反爬采集",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "从请求层解析层调度层拆解自适应采集原理",
+    "keywords_snippet": "语义选择器,反指纹,自适应解析,数据采集,反反爬"
   }
 ]

@@ -4648,5 +4648,65 @@
     "depth": "工具层",
     "angle": "从双引擎边界开销与 HMR 延迟切入构建工具链重写",
     "keywords_snippet": "Vite 8、Rolldown、Rust 打包器、esbuild、Rollup、HMR 回传、生产构建提速"
+  },
+  {
+    "module": "09",
+    "date": "2026-11-19",
+    "topic": "语言特性",
+    "title": "PHP 8.6 部分函数应用：问号占位符终结一次性闭包",
+    "level": "L4",
+    "depth": "前沿层",
+    "angle": "从被否决RFC到33票全票通过的演进，讲清占位符保留反射元数据的价值与创建时求值陷阱",
+    "keywords_snippet": "PHP 8.6 部分函数应用 PFA 问号占位符 管道操作符 Zend闭包"
+  },
+  {
+    "module": "09",
+    "date": "2026-11-19",
+    "topic": "语言特性",
+    "title": "PHP 8.6 Io\\Poll：给异步运行时铺好 epoll 底座",
+    "level": "L4",
+    "depth": "前沿层",
+    "angle": "对比stream_select的1024描述符瓶颈，拆解epoll/kqueue事件驱动原理与十万级并发基准",
+    "keywords_snippet": "PHP 8.6 Io\\Poll epoll kqueue stream_select 异步运行时 Revolt"
+  },
+  {
+    "module": "09",
+    "date": "2026-11-19",
+    "topic": "语言特性",
+    "title": "Scala 3.10 SIP-77：方法块结束标记让嵌套参数一目了然",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "从DSL括号迷路痛点切入，讲清end标记如何把缩进约定升级为编译期可校验约束",
+    "keywords_snippet": "Scala 3.10 SIP-77 方法块结束标记 end marker 柯里化 DSL"
+  },
+  {
+    "module": "09",
+    "date": "2026-11-19",
+    "topic": "语言特性",
+    "title": "Swift 6.4 安全 Continuation：Copyable 把双重 resume 变编译错误",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "对比Unsafe与Checked两难，讲清~Copyable消费语义如何把resume正确性前移到编译期",
+    "keywords_snippet": "Swift 6.4 SE-0528 Copyable Continuation typed throws async桥接"
+  },
+  {
+    "module": "09",
+    "date": "2026-11-19",
+    "topic": "语言特性",
+    "title": "Java 28 Simple JSON API：标准库终于内置 JSON 解析",
+    "level": "L3",
+    "depth": "实践层",
+    "angle": "围绕二十年争论落地，拆解孵化模块策略并给出与Jackson/Gson分工的选型与验证用例",
+    "keywords_snippet": "Java 28 Simple JSON API 孵化模块 incubator Jackson Valhalla JDK"
+  },
+  {
+    "module": "09",
+    "date": "2026-11-19",
+    "topic": "语言特性",
+    "title": "ES2026 落地：Map getOrInsert 与 Math sumPrecise 终结手写工具函数",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "按集合迭代/数值判定/数据转换三类梳理七项特性，讲清各自替换的样板代码与兼容边界",
+    "keywords_snippet": "ES2026 getOrInsert Math.sumPrecise Error.isError Uint8Array Base64 TC39"
   }
 ]
