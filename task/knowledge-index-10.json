@@ -5158,5 +5158,65 @@
     "depth": "技术层",
     "angle": "从请求层解析层调度层拆解自适应采集原理",
     "keywords_snippet": "语义选择器,反指纹,自适应解析,数据采集,反反爬"
+  },
+  {
+    "module": "10",
+    "date": "2026-11-20",
+    "topic": "端侧语音听写",
+    "title": "anomalyco/hex：按住说话松手即粘贴的纯端侧语音听写工具",
+    "level": "L1",
+    "depth": "实战",
+    "angle": "本地优先工具用可控精度换隐私与离线确定性",
+    "keywords_snippet": "hex,Rust,端侧语音识别,本地优先,量化模型"
+  },
+  {
+    "module": "10",
+    "date": "2026-11-20",
+    "topic": "文档转Markdown工具链",
+    "title": "microsoft/markitdown：把任意文件转成大模型友好 Markdown 的工具链",
+    "level": "L2",
+    "depth": "实战",
+    "angle": "统一文档摄取为RAG提供干净结构化文本",
+    "keywords_snippet": "markitdown,文档转换,Markdown,RAG,数据摄取"
+  },
+  {
+    "module": "10",
+    "date": "2026-11-20",
+    "topic": "AI工程实战教程",
+    "title": "patchy631/ai-engineering-hub：93 个生产级项目组成的分层 AI 实战教程库",
+    "level": "L3",
+    "depth": "实战",
+    "angle": "项目驱动三级分层把学习路径拆成可执行台阶",
+    "keywords_snippet": "ai-engineering-hub,AI教程,项目驱动,检索增强生成,多智能体"
+  },
+  {
+    "module": "10",
+    "date": "2026-11-20",
+    "topic": "边缘混合专家推理",
+    "title": "FlashML-org/FreeToken：让消费级显卡跑动 290B 参数 MoE 的边缘推理引擎",
+    "level": "L4",
+    "depth": "实战",
+    "angle": "带宽自适应CPU与GPU协同加语义缓存降低大模型部署门槛",
+    "keywords_snippet": "FreeToken,混合专家MoE,边缘推理,带宽自适应,语义缓存"
+  },
+  {
+    "module": "10",
+    "date": "2026-11-20",
+    "topic": "AI设计技能",
+    "title": "Nutlope/hallmark：让 AI 生成界面摆脱千篇一律的反 AI 味设计技能",
+    "level": "L2",
+    "depth": "实战",
+    "angle": "用结构化设计约束纠正AI生成界面的审美同质化",
+    "keywords_snippet": "hallmark,设计技能,反AI味,前端生成,编码智能体"
+  },
+  {
+    "module": "10",
+    "date": "2026-11-20",
+    "topic": "开源AI安全运营",
+    "title": "beenuar/AiSOC：零 API 密钥、本地大模型驱动的开源 AI 安全运营中心",
+    "level": "L3",
+    "depth": "实战",
+    "angle": "本地大模型研判配可重放调查账本实现零密钥安全运营",
+    "keywords_snippet": "AiSOC,安全运营,本地大模型,检测规则,模型上下文协议"
   }
 ]

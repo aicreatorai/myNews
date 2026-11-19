@@ -4708,5 +4708,65 @@
     "depth": "概念层",
     "angle": "按集合迭代/数值判定/数据转换三类梳理七项特性，讲清各自替换的样板代码与兼容边界",
     "keywords_snippet": "ES2026 getOrInsert Math.sumPrecise Error.isError Uint8Array Base64 TC39"
+  },
+  {
+    "module": "09",
+    "date": "2026-11-20",
+    "topic": "Python 3.15 标准库",
+    "title": "Python 3.15 内置 frozendict 与 sentinel 类型：标准库补齐不可变映射与哨兵语义",
+    "level": "L1",
+    "depth": "方法",
+    "angle": "不可变数据结构与缺省值身份建模",
+    "keywords_snippet": "Python 3.15 frozendict sentinel 不可变字典 哨兵类型 MappingProxyType"
+  },
+  {
+    "module": "09",
+    "date": "2026-11-20",
+    "topic": "ES2026 显式资源管理",
+    "title": "ES2026 显式资源管理：using 关键字让资源释放不再靠 try/finally 兜底",
+    "level": "L2",
+    "depth": "方法",
+    "angle": "作用域绑定生命周期实现异常安全",
+    "keywords_snippet": "ES2026 using await using Symbol.dispose 显式资源管理 资源泄漏"
+  },
+  {
+    "module": "09",
+    "date": "2026-11-20",
+    "topic": "TypeScript 7 Go 重写",
+    "title": "TypeScript 7 编译器用 Go 重写：tsgo 带来十倍速类型检查的大迁移",
+    "level": "L3",
+    "depth": "方法",
+    "angle": "编译器实现语言替换换取数量级性能",
+    "keywords_snippet": "TypeScript 7 tsgo Go 编译器 类型检查 架构对等 十倍提速"
+  },
+  {
+    "module": "09",
+    "date": "2026-11-20",
+    "topic": "Kotlin 2.5.0 返回值检查",
+    "title": "Kotlin 2.5.0 RC 未使用返回值检查器：让被忽略的函数调用无处遁形",
+    "level": "L4",
+    "depth": "方法",
+    "angle": "返回值用途分析把逻辑错误挡在编译期",
+    "keywords_snippet": "Kotlin 2.5.0 未使用返回值检查器 CheckReturnValue 完整值类 KMP .kar"
+  },
+  {
+    "module": "09",
+    "date": "2026-11-20",
+    "topic": "Swift ARC 所有权修复",
+    "title": "Swift 编译器 ARC 所有权修复：非逃逸参数不再被误判导致过早释放",
+    "level": "L1",
+    "depth": "方法",
+    "angle": "优化器正确建模借用语义守住内存安全",
+    "keywords_snippet": "Swift ARC ARCSequenceOpts 非逃逸参数 mark_dependence use-after-free Span"
+  },
+  {
+    "module": "09",
+    "date": "2026-11-20",
+    "topic": "Rust never type 稳定",
+    "title": "Rust never type 稳定：十年五次失败后叹号终成普通类型",
+    "level": "L2",
+    "depth": "方法",
+    "angle": "底类型稳定化收尾类型系统长期设计",
+    "keywords_snippet": "Rust 1.100 never type 叹号 Infallible 底类型 DropGuard 回退规则"
   }
 ]

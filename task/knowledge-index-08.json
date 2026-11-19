@@ -4896,5 +4896,65 @@
     "depth": "实践层",
     "angle": "CodeBuddy Code子代理的上下文隔离、权限分级与团队共享配置实战",
     "keywords_snippet": "CodeBuddy 子代理 subagents 上下文隔离 权限分级 团队共享"
+  },
+  {
+    "module": "08",
+    "date": "2026-11-20",
+    "topic": "Claude Code与Cursor双工具编程工作流",
+    "title": "CLAUDE.md记忆文件加Plan模式：Claude Code与Cursor双工具编程工作流",
+    "level": "L1",
+    "depth": "方法",
+    "angle": "双工具按强项分工与记忆文件先规划后动手",
+    "keywords_snippet": "CLAUDE.md, Plan模式, init clear命令, 小步提交, Git交接, 图形化审查"
+  },
+  {
+    "module": "08",
+    "date": "2026-11-20",
+    "topic": "生成式原型工具Bolt.new与Lovable",
+    "title": "Bolt.new与Lovable：提示词驱动生成可点击MVP的原型验证工作流",
+    "level": "L2",
+    "depth": "方法",
+    "angle": "从一句话描述到可点击原型的短循环验证",
+    "keywords_snippet": "Bolt.new, Lovable, 可点击MVP, 原型验证, 提示词驱动, 快速证伪"
+  },
+  {
+    "module": "08",
+    "date": "2026-11-20",
+    "topic": "三要素提示词模板",
+    "title": "三要素提示词模板：豆包DeepSeek通用的提问与追问法",
+    "level": "L3",
+    "depth": "方法",
+    "angle": "身份任务要求一次说清配合三句追问",
+    "keywords_snippet": "三要素模板, 豆包, DeepSeek, 追问法, 答非所问, 语音输入"
+  },
+  {
+    "module": "08",
+    "date": "2026-11-20",
+    "topic": "人机协作边界与Prompt模板库",
+    "title": "AI初稿加人类精修：PM人机协作边界与Prompt模板库实战",
+    "level": "L4",
+    "depth": "方法",
+    "angle": "AI初稿人类精修的采纳率与三级指令体系",
+    "keywords_snippet": "人机协作边界, Prompt模板库, AI初稿人类精修, pair对话, 三级指令, 错误复盘"
+  },
+  {
+    "module": "08",
+    "date": "2026-11-20",
+    "topic": "单栈深耕30天上手路径",
+    "title": "单栈深耕30天法：从追新工具到AI真正上手的路径",
+    "level": "L1",
+    "depth": "方法",
+    "angle": "选一个痛点用一套小栈四周渐进",
+    "keywords_snippet": "单栈深耕, 30天计划, 委派智能体, 守护判断, 衡量收益, 每日节奏"
+  },
+  {
+    "module": "08",
+    "date": "2026-11-20",
+    "topic": "对话式数据分析四步法",
+    "title": "对话式数据分析四步法：从原始数据表到带结论的图表",
+    "level": "L2",
+    "depth": "方法",
+    "angle": "上传指令迭代校验把数据表变成带结论图表",
+    "keywords_snippet": "对话式数据分析, 结构化指令, 柱状图, 核心结论, 交叉验证, 公式生成"
   }
 ]

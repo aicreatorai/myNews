@@ -5468,5 +5468,65 @@
     "depth": "技术层",
     "angle": "拆解xFedAlign的任务-解释解耦、top-k归因与全局解释先验软对齐",
     "keywords_snippet": "xFedAlign 可解释联邦学习 归因对齐 Global Explanation Prior top-k ICML2026"
+  },
+  {
+    "module": "07",
+    "date": "2026-11-20",
+    "topic": "BPE分词",
+    "title": "【BPE分词：大模型如何把一句话切成词元】",
+    "level": "L1",
+    "depth": "概念",
+    "angle": "从字节对合并算法拆解词元切分原理与多语言成本差异",
+    "keywords_snippet": "BPE 子词分词 词表 字节对编码 词元"
+  },
+  {
+    "module": "07",
+    "date": "2026-11-20",
+    "topic": "向量检索与Embedding",
+    "title": "【向量检索与Embedding：语义相似的数学底座】",
+    "level": "L2",
+    "depth": "概念",
+    "angle": "从嵌入训练与余弦相似度讲清语义检索的数学机理",
+    "keywords_snippet": "Embedding 向量检索 余弦相似度 混合检索 HNSW"
+  },
+  {
+    "module": "07",
+    "date": "2026-11-20",
+    "topic": "KV缓存与PagedAttention",
+    "title": "【KV缓存与PagedAttention：自回归推理的显存账本】",
+    "level": "L3",
+    "depth": "方法",
+    "angle": "按配置数字估算KV显存并拆解分页管理与联合缓存",
+    "keywords_snippet": "KV Cache PagedAttention 显存 自回归解码 Joint-KV"
+  },
+  {
+    "module": "07",
+    "date": "2026-11-20",
+    "topic": "测试时计算",
+    "title": "【测试时计算：推理模型如何用更多Token换准确率】",
+    "level": "L4",
+    "depth": "方法",
+    "angle": "拆解搜索与验证如何把推理预算换成准确率",
+    "keywords_snippet": "test-time compute 自一致性 best-of-n 过程奖励 回滚"
+  },
+  {
+    "module": "07",
+    "date": "2026-11-20",
+    "topic": "闭环微调",
+    "title": "【闭环微调：把生产失败信号变成重训数据的飞轮】",
+    "level": "L1",
+    "depth": "方法",
+    "angle": "从失败检测到标注再触发重训的闭环数据飞轮",
+    "keywords_snippet": "闭环微调 失败信号 LoRA 奖励信号 灾难性遗忘"
+  },
+  {
+    "module": "07",
+    "date": "2026-11-20",
+    "topic": "机制干预",
+    "title": "【机制干预：让模型在训练中自己写Python代码改写架构】",
+    "level": "L2",
+    "depth": "实战",
+    "angle": "拆解幽灵梯度定位与零初始化门控的代码插入机制",
+    "keywords_snippet": "机制干预 幽灵梯度 门控 代码插入 自我改进"
   }
 ]
