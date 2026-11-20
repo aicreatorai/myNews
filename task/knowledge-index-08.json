@@ -4956,5 +4956,65 @@
     "depth": "方法",
     "angle": "上传指令迭代校验把数据表变成带结论图表",
     "keywords_snippet": "对话式数据分析, 结构化指令, 柱状图, 核心结论, 交叉验证, 公式生成"
+  },
+  {
+    "module": "08",
+    "date": "2026-11-21",
+    "topic": "Meta Muse语音",
+    "title": "【Meta Muse语音实时对话上手：会打断会做表情的虚拟形象怎么玩】",
+    "level": "L1",
+    "depth": "概念",
+    "angle": "从双模型分工与流式对齐拆解实时语音加表情头像的交互链路",
+    "keywords_snippet": "Muse Realtime Voice、Realtime Avatar、870毫秒、448x768、随时打断、三档呈现"
+  },
+  {
+    "module": "08",
+    "date": "2026-11-21",
+    "topic": "问卷分析",
+    "title": "【Google Forms洞察上手：Gemini写Python把问卷答案算成结论】",
+    "level": "L2",
+    "depth": "机制",
+    "angle": "拆解Gemini写Python跑问卷分析的准入条件、代码执行与跨问题关联",
+    "keywords_snippet": "Google Forms、Gemini洞察、Python、12份3题、跨问题关联、pandas复核"
+  },
+  {
+    "module": "08",
+    "date": "2026-11-21",
+    "topic": "编程效率度量",
+    "title": "【AI编程工具收益怎么算：25%到40%的真实提升从哪来】",
+    "level": "L3",
+    "depth": "实践",
+    "angle": "用生产仓库实验数据拆解真实收益来源与组织级净收益落差",
+    "keywords_snippet": "25%到40%、PR周期、基线、5人30天试点、评审负担、组织级收益"
+  },
+  {
+    "module": "08",
+    "date": "2026-11-21",
+    "topic": "代码库索引",
+    "title": "【Cursor代码库索引上手：@codebase让AI读懂整个项目再动手】",
+    "level": "L1",
+    "depth": "概念",
+    "angle": "拆解@codebase索引召回与Composer多文件编辑的能力边界",
+    "keywords_snippet": "Cursor、@codebase、Composer、索引召回、多文件编辑、Apply to all files"
+  },
+  {
+    "module": "08",
+    "date": "2026-11-21",
+    "topic": "代码安全扫描",
+    "title": "【Amazon Q安全扫描上手：AWS项目提交前自动查密钥和漏洞】",
+    "level": "L2",
+    "depth": "机制",
+    "angle": "拆解AWS场景下提交前安全扫描的规则判定与拦截时机",
+    "keywords_snippet": "Amazon Q、CodeWhisperer、IAM、密钥扫描、CodePipeline、按量计费"
+  },
+  {
+    "module": "08",
+    "date": "2026-11-21",
+    "topic": "文件操作审批",
+    "title": "【Dropbox AI文件操作上手：先出计划再执行做完还能撤销】",
+    "level": "L3",
+    "depth": "实践",
+    "angle": "拆解计划审批执行撤销闭环的权限边界与回滚验证方法",
+    "keywords_snippet": "Dropbox AI、计划审批、权限约束、操作记录、撤销、小范围验证"
   }
 ]

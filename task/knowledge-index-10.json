@@ -5218,5 +5218,65 @@
     "depth": "实战",
     "angle": "本地大模型研判配可重放调查账本实现零密钥安全运营",
     "keywords_snippet": "AiSOC,安全运营,本地大模型,检测规则,模型上下文协议"
+  },
+  {
+    "module": "10",
+    "date": "2026-11-21",
+    "topic": "caveman 极简表达技能",
+    "title": "caveman 技能实测：用穴居人式极简表达给编码智能体省下 65% Token",
+    "level": "L3",
+    "depth": "机制",
+    "angle": "输出侧代理改写削减Token与上下文噪音",
+    "keywords_snippet": "caveman 穴居人 极简表达 token 代理 技能"
+  },
+  {
+    "module": "10",
+    "date": "2026-11-21",
+    "topic": "PR-Agent 开源代码审查",
+    "title": "PR-Agent 开源回归：把 AI 代码审查搬进 GitHub 与 GitLab 的合并请求",
+    "level": "L4",
+    "depth": "机制",
+    "angle": "多提供商SDK与多平台自动初筛",
+    "keywords_snippet": "PR-Agent 代码审查 合并请求 多平台 自托管"
+  },
+  {
+    "module": "10",
+    "date": "2026-11-21",
+    "topic": "Anthropic skills 官方技能标准",
+    "title": "Anthropic 官方 skills 仓库拆解：把说明脚本素材打包成可加载的技能",
+    "level": "L3",
+    "depth": "机制",
+    "angle": "渐进式披露与技能文件夹结构",
+    "keywords_snippet": "anthropics skills 技能标准 渐进式披露 模块化"
+  },
+  {
+    "module": "10",
+    "date": "2026-11-21",
+    "topic": "Orca 编码智能体舰队",
+    "title": "Orca 上手：用自己订阅在桌面与手机跑一支编码智能体舰队",
+    "level": "L2",
+    "depth": "机制",
+    "angle": "多实例并发调度隔离与自带订阅",
+    "keywords_snippet": "orca 智能体集群 并发 远程运行 自带订阅"
+  },
+  {
+    "module": "10",
+    "date": "2026-11-21",
+    "topic": "Handy 本地语音听写",
+    "title": "Handy 实测：Rust 加 Tauri 做全平台本地语音听写，音频不出本机",
+    "level": "L1",
+    "depth": "机制",
+    "angle": "Rust加Tauri离线推理与隐私听写",
+    "keywords_snippet": "Handy 本地语音 听写 Rust Tauri 离线 隐私"
+  },
+  {
+    "module": "10",
+    "date": "2026-11-21",
+    "topic": "ai-goofish-monitor 闲鱼监控",
+    "title": "ai-goofish-monitor 实测：Playwright 加 AI 帮你蹲守闲鱼好物",
+    "level": "L2",
+    "depth": "机制",
+    "angle": "浏览器采集加语义判断的二手监控链路",
+    "keywords_snippet": "ai-goofish-monitor 闲鱼 监控 Playwright 语义筛选"
   }
 ]

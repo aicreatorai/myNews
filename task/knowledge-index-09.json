@@ -4768,5 +4768,65 @@
     "depth": "方法",
     "angle": "底类型稳定化收尾类型系统长期设计",
     "keywords_snippet": "Rust 1.100 never type 叹号 Infallible 底类型 DropGuard 回退规则"
+  },
+  {
+    "module": "09",
+    "date": "2026-11-21",
+    "topic": "F# 11 并发限流",
+    "title": "F# 11 并发工作限流：给异步集合装上信号量，别让批量任务压垮服务",
+    "level": "L2",
+    "depth": "机制",
+    "angle": "从无界并发压垮下游切入，讲清配额闸门与背压如何约束在途任务数",
+    "keywords_snippet": "F# 11 并发限流 异步集合 信号量 背压 FSharp.Core 编译器内存"
+  },
+  {
+    "module": "09",
+    "date": "2026-11-21",
+    "topic": "Elixir 1.20 OTP 28",
+    "title": "Elixir 1.20 携 OTP 28 落地：Phoenix 项目从 mix 部署到并发治理的实践",
+    "level": "L2",
+    "depth": "机制",
+    "angle": "从长连接并发部署链路切入，拆解BEAM轻量进程调度与监督树故障隔离",
+    "keywords_snippet": "Elixir 1.20 OTP 28 Phoenix mix发布 BEAM轻量进程 监督树 环境变量注入"
+  },
+  {
+    "module": "09",
+    "date": "2026-11-21",
+    "topic": "Deno 2.9 运行时",
+    "title": "Deno 2.9 运行时工程化：从 deno.json 自动检测到 MAIN 入口的落地路径",
+    "level": "L2",
+    "depth": "机制",
+    "angle": "从配置推断与冷启动切入，讲清模块图确定性、TypeScript剥离与最小权限",
+    "keywords_snippet": "Deno 2.9 deno.json 检测 MAIN入口 TypeScript原生 权限模型 锁文件 模块图"
+  },
+  {
+    "module": "09",
+    "date": "2026-11-21",
+    "topic": "PHP 8.4 属性钩子",
+    "title": "PHP 8.4 属性钩子与不对称可见性：把 getter/setter 从样板里解放出来",
+    "level": "L2",
+    "depth": "机制",
+    "angle": "从getter/setter样板切入，拆解有存储属性与虚拟属性的编译路径",
+    "keywords_snippet": "PHP 8.4 属性钩子 不对称可见性 虚拟属性 底层存储 编译期可见规则"
+  },
+  {
+    "module": "09",
+    "date": "2026-11-21",
+    "topic": "Ruby 3.4 JIT 编译",
+    "title": "Ruby 3.4 JIT 与 Prism 解析器：从解释执行到生产部署的性能取舍",
+    "level": "L2",
+    "depth": "机制",
+    "angle": "从解释执行到生产负载切入，讲清语法树到热点编译与去优化的渐进管线",
+    "keywords_snippet": "Ruby 3.4 Prism解析器 JIT 热点编译 去优化 抽象语法树 指令序列"
+  },
+  {
+    "module": "09",
+    "date": "2026-11-21",
+    "topic": "Zstandard 内置压缩 .NET",
+    "title": ".NET 11 内置 Zstandard 压缩：从字典压缩到流式 API 的内存数据实践",
+    "level": "L2",
+    "depth": "机制",
+    "angle": "从压缩率与速度取舍切入，拆解字典匹配熵编码与免拷贝内存视图",
+    "keywords_snippet": "Zstandard .NET 11 内置压缩 字典匹配 熵编码 流式API 免拷贝 压缩级别"
   }
 ]

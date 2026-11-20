@@ -4908,5 +4908,65 @@
     "depth": "避坑",
     "angle": "资金功能入产品的架构合规",
     "keywords_snippet": "嵌入式金融 客户身份识别 反洗钱 交易日志 资金划转权限 持牌伙伴"
+  },
+  {
+    "module": "12",
+    "date": "2026-11-21",
+    "topic": "AI推理云融资",
+    "title": "Fal九十亿元融资：把AI推理云做成规模生意的账怎么算",
+    "level": "L1",
+    "depth": "机制",
+    "angle": "推理即服务的规模经济与单位经济账",
+    "keywords_snippet": "AI推理云 基础设施 融资 GPU利用率 毛利率 客户留存"
+  },
+  {
+    "module": "12",
+    "date": "2026-11-21",
+    "topic": "企业定制AI",
+    "title": "18个月做到七亿元年化收入：Applied Compute的企业定制AI生意",
+    "level": "L1",
+    "depth": "机制",
+    "angle": "平台加服务的价值捕获与工作流嵌深形成的切换成本",
+    "keywords_snippet": "企业定制AI 年化收入 基础设施 切换成本 深度集成"
+  },
+  {
+    "module": "12",
+    "date": "2026-11-21",
+    "topic": "AI可靠性智能体",
+    "title": "把软件故障调查做成AI生意：Traversal八亿元融资背后的可靠性产品",
+    "level": "L1",
+    "depth": "机制",
+    "angle": "数据遍历加假设验证把故障根因定位做成可售卖结果",
+    "keywords_snippet": "软件故障调查 智能体 可靠性产品 SRE 根因定位 价值锚定"
+  },
+  {
+    "module": "12",
+    "date": "2026-11-21",
+    "topic": "结果导向定价",
+    "title": "按结果收费取代按席位订阅：AI创业的定价转向",
+    "level": "L1",
+    "depth": "机制",
+    "angle": "价值捕获对齐原理与结果可衡量的定价迁移",
+    "keywords_snippet": "结果导向定价 按解决工单收费 outcome-based 席位订阅 风险转移"
+  },
+  {
+    "module": "12",
+    "date": "2026-11-21",
+    "topic": "超级垂直长尾",
+    "title": "超级垂直与软件长尾：AI把细分赛道创业成本压到百分之一",
+    "level": "L1",
+    "depth": "机制",
+    "angle": "成本结构改写与护城河从模型迁移到分发数据",
+    "keywords_snippet": "超级垂直 细分市场 长尾 边际成本 护城河重构 窗口期"
+  },
+  {
+    "module": "12",
+    "date": "2026-11-21",
+    "topic": "新兴市场AI理财订阅",
+    "title": "把AI理财做成订阅生意：PowerUp Money靠十万付费用户跑通新兴市场",
+    "level": "L1",
+    "depth": "机制",
+    "angle": "低客单价乘大规模乘高留存的订阅信任飞轮",
+    "keywords_snippet": "财富管理 订阅制 新兴市场 信任飞轮 生命周期价值 合规"
   }
 ]
