@@ -4828,5 +4828,95 @@
     "depth": "机制",
     "angle": "从压缩率与速度取舍切入，拆解字典匹配熵编码与免拷贝内存视图",
     "keywords_snippet": "Zstandard .NET 11 内置压缩 字典匹配 熵编码 流式API 免拷贝 压缩级别"
+  },
+  {
+    "module": "09",
+    "date": "2026-11-22",
+    "topic": "C# 15 联合类型",
+    "title": "C# 15 联合类型随 .NET 11 落地：编译器穷尽检查取代防御判断",
+    "level": "L1",
+    "depth": "概念层 - 是什么、解决什么问题、与什么不同",
+    "angle": "类型系统穷尽检查与序列化边界",
+    "keywords_snippet": [
+      "C# 15",
+      "联合类型",
+      ".NET 11",
+      "穷尽检查"
+    ]
+  },
+  {
+    "module": "09",
+    "date": "2026-11-22",
+    "topic": "Swift CocoaPods 退役",
+    "title": "Swift CocoaPods 12月2日停收新版本：SwiftPM 迁移进入倒计时",
+    "level": "L1",
+    "depth": "概念层 - 是什么、解决什么问题、与什么不同",
+    "angle": "依赖管理器日落与迁移路径",
+    "keywords_snippet": [
+      "CocoaPods",
+      "SwiftPM",
+      "依赖管理",
+      "日落计划"
+    ]
+  },
+  {
+    "module": "09",
+    "date": "2026-11-22",
+    "topic": "Vue 3.6 Vapor",
+    "title": "Vue 3.6 Vapor 模式跳过虚拟 DOM：组件密集渲染提速近九成七",
+    "level": "L1",
+    "depth": "概念层 - 是什么、解决什么问题、与什么不同",
+    "angle": "渲染模型替换与性能基准",
+    "keywords_snippet": [
+      "Vue 3.6",
+      "Vapor",
+      "虚拟 DOM",
+      "渲染性能"
+    ]
+  },
+  {
+    "module": "09",
+    "date": "2026-11-22",
+    "topic": "Kotlin JS 安全公告",
+    "title": "Kotlin JS 工具链集中关闭安全公告：KT-90987 系列漏洞修复",
+    "level": "L1",
+    "depth": "概念层 - 是什么、解决什么问题、与什么不同",
+    "angle": "工具链安全治理与版本自查",
+    "keywords_snippet": [
+      "Kotlin/JS",
+      "安全公告",
+      "工具链",
+      "YouTrack"
+    ]
+  },
+  {
+    "module": "09",
+    "date": "2026-11-22",
+    "topic": "Svelte 5 Runes",
+    "title": "Svelte 5 Runes 收编四年 API 之争：响应式原语走出组件",
+    "level": "L1",
+    "depth": "概念层 - 是什么、解决什么问题、与什么不同",
+    "angle": "响应式原语边界与组件外状态",
+    "keywords_snippet": [
+      "Svelte 5",
+      "Runes",
+      "响应式原语",
+      "组件外状态"
+    ]
+  },
+  {
+    "module": "09",
+    "date": "2026-11-22",
+    "topic": "React Compiler",
+    "title": "React Compiler GA 后手写 useMemo 可收工：前端优化重心转移",
+    "level": "L1",
+    "depth": "概念层 - 是什么、解决什么问题、与什么不同",
+    "angle": "编译期记忆化取代手写优化",
+    "keywords_snippet": [
+      "React Compiler",
+      "useMemo",
+      "记忆化",
+      "React 19"
+    ]
   }
 ]

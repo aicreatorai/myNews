@@ -5016,5 +5016,65 @@
     "depth": "实践",
     "angle": "拆解计划审批执行撤销闭环的权限边界与回滚验证方法",
     "keywords_snippet": "Dropbox AI、计划审批、权限约束、操作记录、撤销、小范围验证"
+  },
+  {
+    "module": "08",
+    "date": "2026-11-22",
+    "topic": "双工具编程工作流Claude Code加Cursor",
+    "title": "双工具编程工作流：Claude Code规划加Cursor打磨",
+    "level": "L1",
+    "depth": "概念层 - 是什么、解决什么问题、与什么不同",
+    "angle": "Claude Code规划与Cursor打磨的分工流水线",
+    "keywords_snippet": "Claude Code, Cursor, 编程工作流"
+  },
+  {
+    "module": "08",
+    "date": "2026-11-22",
+    "topic": "cursor-agent三模型并行代码审查",
+    "title": "用cursor-agent让三个模型并行审查同一份代码",
+    "level": "L2",
+    "depth": "技术层 - 内部机制、关键参数、优化策略",
+    "angle": "多模型交叉审查消除谄媚偏差",
+    "keywords_snippet": "cursor-agent, 多模型审查, Claude Code"
+  },
+  {
+    "module": "08",
+    "date": "2026-11-22",
+    "topic": "交付简报式提示词目标导向",
+    "title": "从提示词到交付简报：给AI一个能负责的目标",
+    "level": "L3",
+    "depth": "实践层 - 生产级方案、踩坑经验、数据对比",
+    "angle": "问题证据交付物成功标准五要素",
+    "keywords_snippet": "提示词, 交付简报, 目标导向"
+  },
+  {
+    "module": "08",
+    "date": "2026-11-22",
+    "topic": "三端口诀DeepSeek豆包Kimi选型",
+    "title": "三端上手口诀：动脑DeepSeek动手豆包长文Kimi",
+    "level": "L4",
+    "depth": "前沿层 - 最新演进、与传统方案的融合",
+    "angle": "网页桌面手机三端场景化选型",
+    "keywords_snippet": "DeepSeek, 豆包, Kimi, 国产AI选型"
+  },
+  {
+    "module": "08",
+    "date": "2026-11-22",
+    "topic": "DeepSeek深度思考提示词模板",
+    "title": "DeepSeek深度思考加15条可复制提示词模板实战",
+    "level": "L1",
+    "depth": "概念层 - 是什么、解决什么问题、与什么不同",
+    "angle": "模式选择与模板复用变量替换",
+    "keywords_snippet": "DeepSeek, 深度思考, 提示词模板"
+  },
+  {
+    "module": "08",
+    "date": "2026-11-22",
+    "topic": "一人公司电商图文流水线国产模型分工",
+    "title": "一人公司电商图文流水线：四款国产模型分工",
+    "level": "L2",
+    "depth": "技术层 - 内部机制、关键参数、优化策略",
+    "angle": "四模型分发加模板化的内容生产流水线",
+    "keywords_snippet": "通义千问, DeepSeek, Kimi, 电商内容"
   }
 ]

@@ -5278,5 +5278,65 @@
     "depth": "机制",
     "angle": "浏览器采集加语义判断的二手监控链路",
     "keywords_snippet": "ai-goofish-monitor 闲鱼 监控 Playwright 语义筛选"
+  },
+  {
+    "module": "10",
+    "date": "2026-11-22",
+    "topic": "superpowers 智能体技能方法论",
+    "title": "obra/superpowers 把完整软件开发方法论打包成自动触发的智能体技能",
+    "level": "L1",
+    "depth": "机制",
+    "angle": "自动触发与跨工具兼容的开发流程封装",
+    "keywords_snippet": "superpowers Agent Skills 自动触发 软件工程方法论"
+  },
+  {
+    "module": "10",
+    "date": "2026-11-22",
+    "topic": "CLI-Anything 软件接口自动补齐",
+    "title": "HKUDS/CLI-Anything 给没有API的软件自动套一层智能体可调用的命令行外壳",
+    "level": "L2",
+    "depth": "机制",
+    "angle": "源码分析生成命令行外壳让智能体调用无接口软件",
+    "keywords_snippet": "CLI-Anything HKUDS 源码分析 命令行外壳 智能体接口"
+  },
+  {
+    "module": "10",
+    "date": "2026-11-22",
+    "topic": "Cloudflare 安全审计技能",
+    "title": "Cloudflare/security-audit-skill 多阶段独立验证把AI代码审查做成可机读的安全审计",
+    "level": "L3",
+    "depth": "机制",
+    "angle": "多阶段独立验证与机器可读的安全审计流程",
+    "keywords_snippet": "security-audit-skill Cloudflare 安全审计 独立验证 代码审查"
+  },
+  {
+    "module": "10",
+    "date": "2026-11-22",
+    "topic": "impeccable 设计词汇技能",
+    "title": "pbakaus/impeccable 用24条设计指令治好编码智能体生成页面的AI味",
+    "level": "L4",
+    "depth": "机制",
+    "angle": "设计指令词汇表与生成后审查把关闭环",
+    "keywords_snippet": "impeccable 设计技能 AI味 UI设计 Rust"
+  },
+  {
+    "module": "10",
+    "date": "2026-11-22",
+    "topic": "LoopForge 多智能体工作流编排",
+    "title": "腾讯LoopForge 自托管多智能体工作流编排让人工审批卡在关键节点",
+    "level": "L1",
+    "depth": "机制",
+    "angle": "自托管编排与人工审批门的状态机设计",
+    "keywords_snippet": "LoopForge 腾讯 工作流编排 人工审批 自托管"
+  },
+  {
+    "module": "10",
+    "date": "2026-11-22",
+    "topic": "t3code 远程接管编码智能体",
+    "title": "pingdotgg/t3code 从手机或任意电脑远程接管Claude Code与Codex",
+    "level": "L2",
+    "depth": "机制",
+    "angle": "本地运行加远端桥接的远程控制链路",
+    "keywords_snippet": "t3code 远程控制 Claude Code Codex 移动办公"
   }
 ]
