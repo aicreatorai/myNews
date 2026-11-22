@@ -5076,5 +5076,65 @@
     "depth": "技术层 - 内部机制、关键参数、优化策略",
     "angle": "四模型分发加模板化的内容生产流水线",
     "keywords_snippet": "通义千问, DeepSeek, Kimi, 电商内容"
+  },
+  {
+    "module": "08",
+    "date": "2026-11-23",
+    "topic": "T3 Code智能体控制台",
+    "title": "T3 Code v0.1.7：子代理审批收进父线程的开源控制台",
+    "level": "L3",
+    "depth": "实践层 - 生产级方案、踩坑经验、数据对比",
+    "angle": "多智能体审批治理与用量对账的父线程控制台实操",
+    "keywords_snippet": "T3 Code v0.1.7 子代理审批 父线程 一次性调度 用量过滤 Windows组策略 Kiro beta Claude Code Codex Cursor"
+  },
+  {
+    "module": "08",
+    "date": "2026-11-23",
+    "topic": "agent-desktop桌面MCP",
+    "title": "agent-desktop v1.2.0：把桌面操控开放成MCP工具",
+    "level": "L4",
+    "depth": "前沿层 - 最新演进、与传统方案的融合",
+    "angle": "把56个CLI命令暴露为MCP工具以无障碍树替代截图定位",
+    "keywords_snippet": "agent-desktop v1.2.0 MCP stdio 无障碍树 JSON 元素引用 stdin Vercel 桌面自动化"
+  },
+  {
+    "module": "08",
+    "date": "2026-11-23",
+    "topic": "Antigravity Orchestrator",
+    "title": "Antigravity Orchestrator：贵模型规划审查便宜模型写代码",
+    "level": "L1",
+    "depth": "概念层 - 是什么、解决什么问题、与什么不同",
+    "angle": "规划者与执行者分离的模型分工模式与成本账",
+    "keywords_snippet": "Antigravity Orchestrator Neon Hydrogen 规划审查 回退 512K上下文 AI Pro Ultra"
+  },
+  {
+    "module": "08",
+    "date": "2026-11-23",
+    "topic": "Granola会议记录",
+    "title": "Granola会议记录：把讨论变成带责任人的决策台账",
+    "level": "L2",
+    "depth": "技术层 - 内部机制、关键参数、优化策略",
+    "angle": "采集抽取人审分发四段式把会议转写收敛为行动项",
+    "keywords_snippet": "Granola 会议记录 转写 决策 行动项 责任人 截止时间 逐字稿 Fathom Fireflies 日历"
+  },
+  {
+    "module": "08",
+    "date": "2026-11-23",
+    "topic": "腾讯ima个人资料库",
+    "title": "腾讯ima个人资料库：网页收藏后让AI基于自己的材料回答",
+    "level": "L3",
+    "depth": "实践层 - 生产级方案、踩坑经验、数据对比",
+    "angle": "先建库再检索后生成的溯源问答与原文核对方法",
+    "keywords_snippet": "腾讯ima 个人资料库 网页收藏 引用溯源 自然语言检索 免费工具 长辈"
+  },
+  {
+    "module": "08",
+    "date": "2026-11-23",
+    "topic": "n8n自托管工作流",
+    "title": "n8n自托管工作流：AI步骤可审批可重试的自动化流水线",
+    "level": "L4",
+    "depth": "前沿层 - 最新演进、与传统方案的融合",
+    "angle": "触发器审批重试执行历史护栏把AI接进业务流程",
+    "keywords_snippet": "n8n 自托管 工作流 审批节点 失败重试 去重 执行历史 Zapier Make AI自动化"
   }
 ]

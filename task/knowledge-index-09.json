@@ -4918,5 +4918,65 @@
       "记忆化",
       "React 19"
     ]
+  },
+  {
+    "module": "09",
+    "date": "2026-11-23",
+    "topic": "Go 复合字面量省略类型",
+    "title": "Go 复合字面量省略类型：return {}, err 终于合法",
+    "level": "L2",
+    "depth": "技术层 - 内部机制、关键参数、优化策略",
+    "angle": "从提案#12854切入讲清可赋值性规则扩展与上下文推断边界，用return {}, err对照改造前后",
+    "keywords_snippet": "Go 1.28 复合字面量 省略类型 可赋值性 return {} err 提案12854 类型推断"
+  },
+  {
+    "module": "09",
+    "date": "2026-11-23",
+    "topic": "encoding/json/v2 重写",
+    "title": "encoding/json/v2 落地：Go JSON 包重写提速十倍",
+    "level": "L3",
+    "depth": "实践层 - 生产级方案、踩坑经验、数据对比",
+    "angle": "讲jsontext流式底座与选项模式，给出旧包内部换引擎的无感升级与显式迁移两步验证法",
+    "keywords_snippet": "Go encoding/json v2 jsontext 流式 反序列化 十倍提速 严格默认 迁移"
+  },
+  {
+    "module": "09",
+    "date": "2026-11-23",
+    "topic": "C# 15 联合类型",
+    "title": "C# 15 联合类型：枚举式结果终于不用继承",
+    "level": "L1",
+    "depth": "概念层 - 是什么、解决什么问题、与什么不同",
+    "angle": "解释sum type与穷尽性检查，对比Rust enum/TypeScript|/F#可辨识联合与OneOf库",
+    "keywords_snippet": "C# 15 union types 联合类型 sum type 穷尽性 switch closed hierarchies OneOf"
+  },
+  {
+    "module": "09",
+    "date": "2026-11-23",
+    "topic": ".NET 11 Runtime Async",
+    "title": ".NET 11 Runtime Async：把 async 状态机搬进运行时",
+    "level": "L2",
+    "depth": "技术层 - 内部机制、关键参数、优化策略",
+    "angle": "拆解编译器与JIT的职责分界，用44ns/72B与栈帧17降5的数据讲性能与可观测性收益",
+    "keywords_snippet": "Runtime Async async 状态机 JIT 挂起恢复 44ns ExecutionContext Native AOT"
+  },
+  {
+    "module": "09",
+    "date": "2026-11-23",
+    "topic": "Swift SE-0553 Task Identity",
+    "title": "Swift SE-0553 Task Identity：给任务装上轻量身份探针",
+    "level": "L3",
+    "depth": "实践层 - 生产级方案、踩坑经验、数据对比",
+    "angle": "讲Task.currentID进程内唯一与低开销原理，落到结构化日志与tracing的可观测性集成",
+    "keywords_snippet": "Swift SE-0553 Task.currentID 任务标识 可观测性 结构化日志 tracing withUnsafeCurrentTask"
+  },
+  {
+    "module": "09",
+    "date": "2026-11-23",
+    "topic": "Rust 预定义枚举属性 Pre-RFC",
+    "title": "Rust 预定义枚举属性 Pre-RFC：Java 式枚举写法进 Rust",
+    "level": "L4",
+    "depth": "前沿层 - 最新演进、与传统方案的融合",
+    "angle": "追踪Rust Internals新提案，讲变体属性一处定义与稳定访问器，对比Java枚举/派生crate/带数据变体",
+    "keywords_snippet": "Rust Pre-RFC enum 预定义属性 FromStr Display Java枚举 strum 样板代码"
   }
 ]

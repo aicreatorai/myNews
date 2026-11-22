@@ -5678,5 +5678,65 @@
       "块缩放",
       "量化格式"
     ]
+  },
+  {
+    "module": "07",
+    "date": "2026-11-23",
+    "topic": "MIIB多模态信息瓶颈",
+    "title": "MIIB多模态信息瓶颈：对齐之外还要留住独有与协同信息",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "从部分信息分解视角理解多模态自监督中冗余独有协同三类信息的保留",
+    "keywords_snippet": "MIIB,多模态信息瓶颈,部分信息分解,冗余独有协同,PID,信息瓶颈"
+  },
+  {
+    "module": "07",
+    "date": "2026-11-23",
+    "topic": "CogAlign认知对齐",
+    "title": "CogAlign：用66维人类感知图谱对齐认知结构而非标准答案",
+    "level": "L2",
+    "depth": "方法层",
+    "angle": "对齐人类认知潜在结构而非偏好答案的多模态训练三阶段方法",
+    "keywords_snippet": "CogAlign,THINGS,66维感知图谱,SPoSE,Jackknife,认知对齐"
+  },
+  {
+    "module": "07",
+    "date": "2026-11-23",
+    "topic": "NVFP4-MLA量化",
+    "title": "NVFP4-MLA：多头潜在注意力FP4量化把KV缓存压到3.2倍",
+    "level": "L3",
+    "depth": "机制层",
+    "angle": "算法内核缓存协同设计下MLA全链路FP4量化的机制拆解",
+    "keywords_snippet": "NVFP4-MLA,多头潜在注意力,FP4量化,KV缓存,二维量化块,残差补偿"
+  },
+  {
+    "module": "07",
+    "date": "2026-11-23",
+    "topic": "CoMixKV混合精度量化",
+    "title": "CoMixKV：多Agent共享内存预算下的协调混合精度KV量化",
+    "level": "L4",
+    "depth": "工程层",
+    "angle": "多智能体并发场景下共享内存预算的联合精度分配工程方案",
+    "keywords_snippet": "CoMixKV,混合精度,KV缓存量化,多Agent,共享预算,在线敏感度"
+  },
+  {
+    "module": "07",
+    "date": "2026-11-23",
+    "topic": "上下文感知检索与双层记忆",
+    "title": "上下文感知检索加双层记忆：主动式AI助手的概览细节架构",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "主动式AI助手中上下文补注自主检索与概览细节双层记忆的概念框架",
+    "keywords_snippet": "上下文感知检索,双层记忆,智能体化RAG,概览细节,记忆写回"
+  },
+  {
+    "module": "07",
+    "date": "2026-11-23",
+    "topic": "APP锚点保持投影",
+    "title": "APP锚点保持投影：让视觉单向投影进文本空间的非对称对齐",
+    "level": "L3",
+    "depth": "机制层",
+    "angle": "以文本空间为锚点用谱滤波SVD保住跨模态对齐几何的机制",
+    "keywords_snippet": "APP,锚点保持投影,非对称对齐,谱滤波,SVD,任务向量"
   }
 ]

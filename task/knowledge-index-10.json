@@ -5338,5 +5338,65 @@
     "depth": "机制",
     "angle": "本地运行加远端桥接的远程控制链路",
     "keywords_snippet": "t3code 远程控制 Claude Code Codex 移动办公"
+  },
+  {
+    "module": "10",
+    "date": "2026-11-23",
+    "topic": "freellmapi 免费模型API网关",
+    "title": "tashfeenahmed/freellmapi：34家免费LLM供应商聚合到单一v1端点的开源网关",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "协议归一化加供应商路由与故障转移把碎片化免费额度聚成池",
+    "keywords_snippet": "freellmapi 免费LLM 网关 OpenAI兼容 模型聚合 token成本"
+  },
+  {
+    "module": "10",
+    "date": "2026-11-23",
+    "topic": "open-code-review 混合代码审查",
+    "title": "alibaba/open-code-review：确定性流水线加大模型智能体的混合代码审查工具",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "确定性规则与大模型阶段分离让每条审查发现可追溯来源",
+    "keywords_snippet": "open-code-review 阿里 代码审查 确定性流水线 行级评论 误报控制"
+  },
+  {
+    "module": "10",
+    "date": "2026-11-23",
+    "topic": "claude-seo SEO技能包",
+    "title": "AgriciDaniel/claude-seo：用26个子技能与19个子智能体做技术SEO的万能技能包",
+    "level": "L3",
+    "depth": "实践层",
+    "angle": "子技能按需加载与子智能体分工把SEO方法论编码进编码环节",
+    "keywords_snippet": "claude-seo SEO技能 E-E-A-T 结构化数据 GEO Claude Code"
+  },
+  {
+    "module": "10",
+    "date": "2026-11-23",
+    "topic": "portal-ai-plugins 企业IDE插件",
+    "title": "spotify/portal-ai-plugins：Spotify把内部开发者平台塞进Claude Code与Cursor的插件集",
+    "level": "L4",
+    "depth": "前沿层",
+    "angle": "把内部开发者平台工作流固化为带验证确认的智能体插件并按任务分流模型",
+    "keywords_snippet": "portal-ai-plugins Spotify 内部开发者平台 插件 模型分流 企业智能体"
+  },
+  {
+    "module": "10",
+    "date": "2026-11-23",
+    "topic": "agentes.chat 智能体团队协同",
+    "title": "agentes.chat：人和AI智能体同频道共事且按预算计费的自托管团队聊天",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "智能体成员化把角色归属预算内置进身份体系实现可治理协作",
+    "keywords_snippet": "agentes.chat 自托管 团队聊天 AI智能体 预算计费 AGPL"
+  },
+  {
+    "module": "10",
+    "date": "2026-11-23",
+    "topic": "SkillEvaluator 技能回归评测",
+    "title": "NVIDIA/SkillEvaluator：量化自定义智能体技能行为回归的开源评测框架",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "基线快照与干预注入的对照实验量化技能带来的行为变化与回归",
+    "keywords_snippet": "SkillEvaluator NVIDIA 技能评测 行为回归 对照实验 token开销"
   }
 ]
