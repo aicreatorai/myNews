@@ -5398,5 +5398,65 @@
     "depth": "技术层",
     "angle": "基线快照与干预注入的对照实验量化技能带来的行为变化与回归",
     "keywords_snippet": "SkillEvaluator NVIDIA 技能评测 行为回归 对照实验 token开销"
+  },
+  {
+    "module": "10",
+    "date": "2026-11-24",
+    "topic": "Claude-BugHunter安全技能包",
+    "title": "Claude-BugHunter上手：83个漏洞挖掘技能把编码智能体训练成红队老手",
+    "level": "L2",
+    "depth": "把83个漏洞挖掘技能与681份报告范式打包成编码智能体可按需加载的安全能力包",
+    "angle": "从方法论显式化拆解安全技能如何把研究员经验固化成可复核工作流",
+    "keywords_snippet": "漏洞挖掘,红队,安全技能包,HackerOne,MCP渗透测试,技能加载"
+  },
+  {
+    "module": "10",
+    "date": "2026-11-24",
+    "topic": "OpenBot智能体沙箱治理",
+    "title": "OpenBot上手：给每个智能体配一台隔离电脑并在治理层前后审计",
+    "level": "L3",
+    "depth": "用AG-UI协议为每个智能体配隔离浏览器与文件系统并在治理层前后拦截审计",
+    "angle": "从权限治理落地实践拆解隔离沙箱与动作前后审计的四环节链路",
+    "keywords_snippet": "OpenBot,AG-UI,沙箱隔离,治理层,动作审计,CopilotKit"
+  },
+  {
+    "module": "10",
+    "date": "2026-11-24",
+    "topic": "MCP官方注册中心",
+    "title": "MCP官方注册中心上手：给海量智能体工具建一座npm式索引",
+    "level": "L1",
+    "depth": "官方社区驱动的MCP服务器元数据索引只存server.json不托管代码",
+    "angle": "从工具生态发现难题讲索引型基础设施的定位与边界",
+    "keywords_snippet": "MCP registry,server.json,元数据服务,工具发现,Go,PostgreSQL"
+  },
+  {
+    "module": "10",
+    "date": "2026-11-24",
+    "topic": "讯飞astron-rpa桌面自动化",
+    "title": "讯飞astron-rpa上手：让智能体直接调用开源RPA驱动桌面应用",
+    "level": "L2",
+    "depth": "把RPA引擎做成智能体可经MCP调用的本地执行能力桥接无接口老系统",
+    "angle": "从无接口旧系统痛点拆解智能体决策与RPA执行分层的稳定封装",
+    "keywords_snippet": "astron-rpa,科大讯飞,RPA,桌面自动化,MCP,本地部署,老旧系统"
+  },
+  {
+    "module": "10",
+    "date": "2026-11-24",
+    "topic": "MROffice可嵌入在线办公",
+    "title": "MROffice上手：一套可嵌入的开源在线Office把文档表格演示搬进浏览器",
+    "level": "L3",
+    "depth": "用TypeScript开源套件把文档表格演示做成可经SDK嵌入的编辑底座",
+    "angle": "从智能体办公场景切入讲可嵌入编辑器的架构分层与许可合规",
+    "keywords_snippet": "MROffice,在线办公,嵌入式SDK,AGPL,文档编辑器,TypeScript"
+  },
+  {
+    "module": "10",
+    "date": "2026-11-24",
+    "topic": "Blender AI副驾插件",
+    "title": "Blender AI副驾上手：用自然语言驱动bpy脚本完成建模与场景编辑",
+    "level": "L4",
+    "depth": "用MCP把Blender场景能力暴露为标准工具让模型在真实上下文中生成bpy脚本",
+    "angle": "从桥接与上下文注入拆解语言驱动三维创作与传统参数化建模的融合",
+    "keywords_snippet": "blender-ai-mcp-addon,Blender,bpy,MCP,自然语言建模,多智能体"
   }
 ]

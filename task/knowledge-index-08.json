@@ -5136,5 +5136,65 @@
     "depth": "前沿层 - 最新演进、与传统方案的融合",
     "angle": "触发器审批重试执行历史护栏把AI接进业务流程",
     "keywords_snippet": "n8n 自托管 工作流 审批节点 失败重试 去重 执行历史 Zapier Make AI自动化"
+  },
+  {
+    "module": "08",
+    "date": "2026-11-24",
+    "topic": "剪映11.7生成落时间线",
+    "title": "剪映11.7上手：AI生成直接落进时间线，剪映助手一句话剪口播",
+    "level": "L1",
+    "depth": "拆解剪映11.7让AI生成片段直接落入多轨道时间线的四层工作流",
+    "angle": "实操上手视角",
+    "keywords_snippet": "剪映 CapCut 剪映助手 时间线 MCP EditPilot"
+  },
+  {
+    "module": "08",
+    "date": "2026-11-24",
+    "topic": "Gemini Omni对话式视频编辑",
+    "title": "Gemini Omni对话改视频上手：一句话换背景调光不用时间线",
+    "level": "L2",
+    "depth": "拆解Gemini Omni在同一片段上连续修订的跨模态编辑机制",
+    "angle": "技术层机制拆解",
+    "keywords_snippet": "Gemini Omni Veo SynthID 对话编辑 连续修订"
+  },
+  {
+    "module": "08",
+    "date": "2026-11-24",
+    "topic": "CrommaCode智能体过程可视化",
+    "title": "CrommaCode上手：把Agent工具调用变成五种游戏画面实时看",
+    "level": "L3",
+    "depth": "拆解CrommaCode用hook采集事件流并做可视化审计与并行隔离的实战方案",
+    "angle": "实践层踩坑与审计",
+    "keywords_snippet": "CrommaCode hook Game View worktree Bees 可视化"
+  },
+  {
+    "module": "08",
+    "date": "2026-11-24",
+    "topic": "GitHub Copilot免费层协作工作流",
+    "title": "GitHub Copilot免费层上手：代码补全加Agent模式零成本跑通第一个PR",
+    "level": "L4",
+    "depth": "拆解免费层额度下小步提交与验证闭环的人机协作前沿实践",
+    "angle": "前沿层协作范式",
+    "keywords_snippet": "GitHub Copilot 免费层 Agent模式 diff 测试"
+  },
+  {
+    "module": "08",
+    "date": "2026-11-24",
+    "topic": "Google Flow参考图分镜一致性",
+    "title": "Google Flow分镜上手：Frames与Ingredients锁住角色做40秒短片",
+    "level": "L1",
+    "depth": "拆解Flow用Frames与Ingredients锚定角色做多镜头短片的入门流程",
+    "angle": "实操上手视角",
+    "keywords_snippet": "Google Flow Frames Ingredients 参考图 分镜 SynthID"
+  },
+  {
+    "module": "08",
+    "date": "2026-11-24",
+    "topic": "HeyGen AI Studio数字人精修",
+    "title": "HeyGen AI Studio精修上手：脚本改写换装与动态图形一条龙",
+    "level": "L2",
+    "depth": "拆解AI Studio局部可控改写与时间轴对齐的精修机制",
+    "angle": "技术层机制拆解",
+    "keywords_snippet": "HeyGen AI Studio Video Agent Motion Designer AI edit 字幕"
   }
 ]

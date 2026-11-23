@@ -5738,5 +5738,65 @@
     "depth": "机制层",
     "angle": "以文本空间为锚点用谱滤波SVD保住跨模态对齐几何的机制",
     "keywords_snippet": "APP,锚点保持投影,非对称对齐,谱滤波,SVD,任务向量"
+  },
+  {
+    "module": "07",
+    "date": "2026-11-24",
+    "topic": "量化配方自动搜索",
+    "title": "【QDA量化配方自动搜索：智能体用KL散度几分钟筛出最优低比特方案】",
+    "level": "L3",
+    "depth": "智能体自动构建测试低比特量化配方，用未见轨迹上的KL散度把单次评估从数十GPU小时压到几分钟",
+    "angle": "量化工程自动化与评估成本重构",
+    "keywords_snippet": "QDA 量化配方 KL散度 PTQ NVFP4 W4A4 GLM-5.3-Flash"
+  },
+  {
+    "module": "07",
+    "date": "2026-11-24",
+    "topic": "PD分离与动态路由",
+    "title": "【PD分离与PPD动态路由：Agent多轮工具调用下把Turn2+首Token延迟压低68%】",
+    "level": "L3",
+    "depth": "按SLO权重动态决定append-prefill是否本地处理，解决多轮工具调用中KV跨池传输吃掉TTFT收益的悖论",
+    "angle": "推理架构按请求形状动态开关策略",
+    "keywords_snippet": "PD分离 PPD动态路由 TTFT RDMA append-prefill Agent多轮"
+  },
+  {
+    "module": "07",
+    "date": "2026-11-24",
+    "topic": "循环权重与低比特部署",
+    "title": "【Loop-9B循环权重复用：32层物理层跑出56次计算，4bit量化把权重压到4.9GB】",
+    "level": "L2",
+    "depth": "用Looped Transformer复用中间层权重增加有效计算深度，配合mHC与4bit量化把9B模型压到4.9GB",
+    "angle": "参数效率换部署范围的工程账",
+    "keywords_snippet": "Loop-9B Looped Transformer mHC 4bit量化 4.9GB 512K"
+  },
+  {
+    "module": "07",
+    "date": "2026-11-24",
+    "topic": "ReAct推理行动交织",
+    "title": "【ReAct推理行动交织：Agent规划模块如何把复杂目标拆成可执行子任务】",
+    "level": "L1",
+    "depth": "解释Thought-Action-Observation交替轨迹如何把外部工具结果接回推理链并纠正纯思维链的错误累积",
+    "angle": "Agent规划与行动交界的基本单元",
+    "keywords_snippet": "ReAct 规划 思维链 Function Calling 工具调用 LangGraph CrewAI"
+  },
+  {
+    "module": "07",
+    "date": "2026-11-24",
+    "topic": "MCP与A2A分层协议",
+    "title": "【MCP纵向总线与A2A横向总线：智能体工具调用与跨体协作的分层协议】",
+    "level": "L2",
+    "depth": "MCP纵向连接工具、A2A横向协调Agent，2026年6月融合草案与五道闸安全治理构成生产架构骨架",
+    "angle": "协议分层与集成爆炸治理",
+    "keywords_snippet": "MCP A2A Linux Foundation Agent Card 五道闸 USB-C"
+  },
+  {
+    "module": "07",
+    "date": "2026-11-24",
+    "topic": "MCP长期记忆工具",
+    "title": "【MCP长期记忆工具：Mem0与Supermemory如何让Agent跨会话记住用户事实】",
+    "level": "L2",
+    "depth": "盘点Basic Memory、Mem0、Supermemory、Cognee等MCP记忆后端的写入存储检索三阶段与并发局限",
+    "angle": "记忆层从框架剥离为可插拔MCP端点",
+    "keywords_snippet": "MCP记忆 Basic Memory Mem0 Supermemory Cognee LongMemEval LoCoMo"
   }
 ]

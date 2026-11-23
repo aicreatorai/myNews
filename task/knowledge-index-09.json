@@ -4978,5 +4978,65 @@
     "depth": "前沿层 - 最新演进、与传统方案的融合",
     "angle": "追踪Rust Internals新提案，讲变体属性一处定义与稳定访问器，对比Java枚举/派生crate/带数据变体",
     "keywords_snippet": "Rust Pre-RFC enum 预定义属性 FromStr Display Java枚举 strum 样板代码"
+  },
+  {
+    "module": "09",
+    "date": "2026-11-24",
+    "topic": "编译器性能",
+    "title": "Rust 编译器并行前端默认启用：类型检查与借用检查开始吃满多核",
+    "level": "L4",
+    "depth": "Rust 编译器前端从串行改为多线程并行，类型检查与借用检查吃满多核，8线程下单crate cargo check最高提速约2倍",
+    "angle": "编译器执行模型改造与多核并行原理",
+    "keywords_snippet": "Rust, 并行前端, 类型检查, 借用检查, cargo check, jobs-frontend, nightly"
+  },
+  {
+    "module": "09",
+    "date": "2026-11-24",
+    "topic": "语言生态趋势",
+    "title": "C 语言逆势上涨：AI 基建与嵌入式把最老语言推成 TIOBE 十一月唯一赢家",
+    "level": "L1",
+    "depth": "TIOBE 2026年11月C语言同比涨1.80%至11.48%，AI基建与嵌入式推动最老语言成为前十唯一赢家",
+    "angle": "从TIOBE榜单看AI基建对底层语言的需求拉动",
+    "keywords_snippet": "C语言, TIOBE, 嵌入式, AI基建, 语言排名"
+  },
+  {
+    "module": "09",
+    "date": "2026-11-24",
+    "topic": "生态与框架",
+    "title": "Dart 史上首进 TIOBE 前二十：Flutter 生态如何反向抬升一门语言",
+    "level": "L2",
+    "depth": "Dart 史上首次进入TIOBE前20，Flutter生态扩张反向拉动语言热度，揭示框架决定语言流行度的规律",
+    "angle": "框架生态与语言流行度的关系",
+    "keywords_snippet": "Dart, Flutter, TIOBE, 生态红利, 跨平台"
+  },
+  {
+    "module": "09",
+    "date": "2026-11-24",
+    "topic": "多榜单口径",
+    "title": "Go 反超 Rust 重回前十：State of Go 2026 里的全栈化转向",
+    "level": "L3",
+    "depth": "TIOBE 11月Go以1.69%反超Rust重回前十，State of Go 2026显示全栈比例从30%升至40%，Go后端配TypeScript前端成主流",
+    "angle": "多榜单统计口径差异与Go全栈化转向",
+    "keywords_snippet": "Go, Rust, TIOBE, State of Go, 全栈, TypeScript, GitHub Octoverse"
+  },
+  {
+    "module": "09",
+    "date": "2026-11-24",
+    "topic": "语言生态趋势",
+    "title": "Python 首超 JavaScript 登顶：JetBrains 2026 报告里的 AI 驱动力",
+    "level": "L1",
+    "depth": "JetBrains 2026报告显示Python以65%使用率首超JavaScript登顶，AI工具链与数据管道是核心驱动力",
+    "angle": "AI驱动的语言格局十年变迁",
+    "keywords_snippet": "Python, JavaScript, JetBrains, 开发者生态, AI, TIOBE"
+  },
+  {
+    "module": "09",
+    "date": "2026-11-24",
+    "topic": "类型安全",
+    "title": "TypeScript 领跑语言承诺指数：AI 生成代码时代类型安全为何成刚需",
+    "level": "L2",
+    "depth": "TypeScript以212分领跑JetBrains 2026语言承诺指数，AI生成代码时代类型安全成为刚需",
+    "angle": "类型安全在AI编码时代的价值",
+    "keywords_snippet": "TypeScript, 语言承诺指数, 类型安全, AI生成代码, GitHub Octoverse"
   }
 ]
