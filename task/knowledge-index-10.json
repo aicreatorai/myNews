@@ -5458,5 +5458,65 @@
     "depth": "用MCP把Blender场景能力暴露为标准工具让模型在真实上下文中生成bpy脚本",
     "angle": "从桥接与上下文注入拆解语言驱动三维创作与传统参数化建模的融合",
     "keywords_snippet": "blender-ai-mcp-addon,Blender,bpy,MCP,自然语言建模,多智能体"
+  },
+  {
+    "module": "10",
+    "date": "2026-11-25",
+    "topic": "floci AWS本地模拟",
+    "title": "floci上手：本地跑EC2、S3、SQS的AWS模拟器，把云依赖从测试里赶出去",
+    "level": "L1",
+    "depth": "用协议兼容加容器封装在本地复刻EC2、S3、SQS、ECS接口语义",
+    "angle": "从测试环境云依赖痛点切入讲本地模拟的边界与Testcontainers集成",
+    "keywords_snippet": "floci,AWS本地模拟,Testcontainers,S3,SQS,ECS,云测试"
+  },
+  {
+    "module": "10",
+    "date": "2026-11-25",
+    "topic": "magpie 桌面模型路由",
+    "title": "magpie上手：从菜单栏给Codex和Claude Code换模型，一个入口接管多家供应商",
+    "level": "L2",
+    "depth": "用菜单栏常驻代理把多家模型端点与密钥收拢为编码智能体的统一切换层",
+    "angle": "从多供应商切换成本切入讲本地代理的改写转发与协议兼容机制",
+    "keywords_snippet": "magpie,模型路由,菜单栏,Codex,Claude Code,DeepSeek,Kimi,本地代理"
+  },
+  {
+    "module": "10",
+    "date": "2026-11-25",
+    "topic": "VibeVoice 开源语音AI",
+    "title": "microsoft/VibeVoice上手：开源前沿语音AI，把高质量语音合成与理解交到开发者手里",
+    "level": "L3",
+    "depth": "用声学标记序列建模加声码器还原实现长时段多说话人可控语音生成",
+    "angle": "从闭源语音接口的合规与成本痛点切入讲开源前沿语音的部署与验证",
+    "keywords_snippet": "VibeVoice,语音合成,语音理解,多说话人,声学标记,开源语音AI"
+  },
+  {
+    "module": "10",
+    "date": "2026-11-25",
+    "topic": "Claude-Code-Game-Studios 多智能体游戏开发",
+    "title": "Claude-Code-Game-Studios上手：49个智能体加72个工作流技能把Claude Code变成游戏工作室",
+    "level": "L4",
+    "depth": "用四十九个角色智能体与七十二个技能复刻工作室层级实现分工交接",
+    "angle": "从游戏开发长链条协作切入讲角色分层与交接文件化的多智能体实践",
+    "keywords_snippet": "Claude-Code-Game-Studios,多智能体,游戏开发,工作流技能,角色分工,Claude Code"
+  },
+  {
+    "module": "10",
+    "date": "2026-11-25",
+    "topic": "PageIndex 无向量长文档检索",
+    "title": "PageIndex上手：不用向量数据库，靠层级树索引让大模型像翻目录一样读长文档",
+    "level": "L1",
+    "depth": "用层级树索引与模型导航替代向量相似度检索并附可核对原文引用",
+    "angle": "从财报长文档检索失真切入讲结构导航与语义相似度两条路线对比",
+    "keywords_snippet": "PageIndex,层级树索引,无向量数据库,长文档检索,RAG,可追溯引用"
+  },
+  {
+    "module": "10",
+    "date": "2026-11-25",
+    "topic": "elephant-goldfish-model 设计评审方法",
+    "title": "google/elephant-goldfish-model上手：用大象长记忆与金鱼无状态评审把设计缺陷挡在写代码之前",
+    "level": "L2",
+    "depth": "用长上下文设计会话与无状态评审会话的上下文隔离对抗确认偏误",
+    "angle": "从长上下文确认偏误切入讲把独立评审前移到设计阶段的工程流程",
+    "keywords_snippet": "elephant-goldfish-model,上下文隔离,设计评审,确认偏误,实现计划,谷歌开源"
   }
 ]

@@ -5798,5 +5798,65 @@
     "depth": "盘点Basic Memory、Mem0、Supermemory、Cognee等MCP记忆后端的写入存储检索三阶段与并发局限",
     "angle": "记忆层从框架剥离为可插拔MCP端点",
     "keywords_snippet": "MCP记忆 Basic Memory Mem0 Supermemory Cognee LongMemEval LoCoMo"
+  },
+  {
+    "module": "07",
+    "date": "2026-11-25",
+    "topic": "MoE混合专家架构",
+    "title": "MoE混合专家：路由器给每个词元只挑几个专家",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "按词元动态选路的稀疏激活架构",
+    "keywords_snippet": "MoE 混合专家 路由 负载均衡 激活参数"
+  },
+  {
+    "module": "07",
+    "date": "2026-11-25",
+    "topic": "强化学习对齐",
+    "title": "可验证奖励RLVR：用答案对错当奖励练模型",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "用程序可验证奖励替代人类偏好",
+    "keywords_snippet": "RLVR 可验证奖励 GRPO 强化学习 Pass@1"
+  },
+  {
+    "module": "07",
+    "date": "2026-11-25",
+    "topic": "注意力机制优化",
+    "title": "稀疏注意力与线性注意力：给长上下文降复杂度",
+    "level": "L3",
+    "depth": "实践层",
+    "angle": "稀疏选取与核近似重排降低长序列复杂度",
+    "keywords_snippet": "稀疏注意力 线性注意力 长上下文 FLOPs 复杂度"
+  },
+  {
+    "module": "07",
+    "date": "2026-11-25",
+    "topic": "Agent记忆架构",
+    "title": "Agent分层记忆：工作情景语义程序四层各司其职",
+    "level": "L4",
+    "depth": "前沿层",
+    "angle": "分层存储与存取忘策略支撑跨会话复用",
+    "keywords_snippet": "Agent记忆 分层记忆 向量检索 长期记忆 上下文"
+  },
+  {
+    "module": "07",
+    "date": "2026-11-25",
+    "topic": "推理系统优化",
+    "title": "Prefill与Decode：大模型推理的两段人生与访存瓶颈",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "两阶段推理的计算受限与带宽受限差异",
+    "keywords_snippet": "Prefill Decode 首字延迟 访存瓶颈 连续批处理"
+  },
+  {
+    "module": "07",
+    "date": "2026-11-25",
+    "topic": "模型训练规律",
+    "title": "缩放法则：算力数据参数可预测地换能力",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "幂律关系指导预训练预算分配",
+    "keywords_snippet": "Scaling Law Chinchilla 算力 数据 参数 损失"
   }
 ]

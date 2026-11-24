@@ -5038,5 +5038,65 @@
     "depth": "TypeScript以212分领跑JetBrains 2026语言承诺指数，AI生成代码时代类型安全成为刚需",
     "angle": "类型安全在AI编码时代的价值",
     "keywords_snippet": "TypeScript, 语言承诺指数, 类型安全, AI生成代码, GitHub Octoverse"
+  },
+  {
+    "module": "09",
+    "date": "2026-11-25",
+    "topic": "Odin 变量对齐与 core:diff",
+    "title": "Odin 十一月版加入 @(align=N) 变量对齐与 core:diff：系统语言补齐底层控制力",
+    "level": "L3",
+    "depth": "从@(align=N)变量对齐与全局原子序检查切入讲清底层布局约束，用Silesia语料基准验证core:compress重写收益",
+    "angle": "系统语言把平台经验固化进工具链",
+    "keywords_snippet": "Odin, @(align=N), core:diff, core:compress, Android目标, LZ4"
+  },
+  {
+    "module": "09",
+    "date": "2026-11-25",
+    "topic": "Zig 部分运算符优先级",
+    "title": "Zig 0.17.1 把十年悬案部分运算符优先级纳入主干：表达式歧义终于有规可循",
+    "level": "L4",
+    "depth": "从十年悬案合入主干切入拆解部分优先级规则导致的多语法树歧义，给出括号回归与格式化对照验证法",
+    "angle": "表达式歧义收拢为明确规则",
+    "keywords_snippet": "Zig 0.17.1, 运算符优先级, 抽象语法树, 惰性求值, RediWM"
+  },
+  {
+    "module": "09",
+    "date": "2026-11-25",
+    "topic": "Java FFM 堆外分配",
+    "title": "Java FFM 堆外分配提速 15 倍：Project Detroit 重做多语言互操作的底层通道",
+    "level": "L1",
+    "depth": "从15倍提速数字切入拆解Arena生命周期、MemorySegment边界检查内联与downcall方法句柄固化",
+    "angle": "平台内建能力替代JNI胶水层",
+    "keywords_snippet": "Java, FFM, MemorySegment, Arena, Project Detroit, AutoJDK"
+  },
+  {
+    "module": "09",
+    "date": "2026-11-25",
+    "topic": "Go maps.Grow 与 futex",
+    "title": "Go 标准库 maps 合入 Grow 预分配：自旋 M 改 futex 把 STW 延迟压下来",
+    "level": "L2",
+    "depth": "从映射桶扩容抖动与自旋M空转切入讲清预分配与futex等待两条降延迟路径，用gctrace做尾延迟回归",
+    "angle": "标准库与运行时共同削减最坏情况开销",
+    "keywords_snippet": "Go, maps.Grow, futex, 自旋M, STW, 渐进扩容"
+  },
+  {
+    "module": "09",
+    "date": "2026-11-25",
+    "topic": "Python PEP 852 原生协程",
+    "title": "Python PEP 852 为 C API 引入原生协程：free-threaded 峰值内存削减 95%",
+    "level": "L3",
+    "depth": "从C扩展与异步生态割裂切入拆解协程状态机下沉到C API，兼顾延迟释放修复与print单字符缓存",
+    "angle": "跨语言边界的异步一致性",
+    "keywords_snippet": "Python, PEP 852, C API, free-threaded, 延迟释放, asyncio"
+  },
+  {
+    "module": "09",
+    "date": "2026-11-25",
+    "topic": "Scarp alpha 系列迭代",
+    "title": "Scarp alpha 系列密集迭代：条件表达式与 Unicode 转义把实验语言推向可用",
+    "level": "L4",
+    "depth": "从预发布密集迭代切入拆解惰性分支、Unicode标量校验、确定性统计与token语法语义三级缓存失效策略",
+    "angle": "实验语言把统计能力内建化",
+    "keywords_snippet": "Scarp, alpha.6.7, 惰性分支, Unicode转义, Top-P, Pearson, 可选缓存"
   }
 ]

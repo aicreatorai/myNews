@@ -5196,5 +5196,65 @@
     "depth": "拆解AI Studio局部可控改写与时间轴对齐的精修机制",
     "angle": "技术层机制拆解",
     "keywords_snippet": "HeyGen AI Studio Video Agent Motion Designer AI edit 字幕"
+  },
+  {
+    "module": "08",
+    "date": "2026-11-25",
+    "topic": "cursor-agent多模型交叉审查",
+    "title": "Claude Code借cursor-agent做多模型交叉审查",
+    "level": "L3",
+    "depth": "拆解用cursor-agent技能并行派发多模型审查并合并分歧的实战方案",
+    "angle": "合并前把关与自我审查盲区规避",
+    "keywords_snippet": "Claude Code,cursor-agent,多模型交叉审查,只读模式,奉承偏差"
+  },
+  {
+    "module": "08",
+    "date": "2026-11-25",
+    "topic": "Gemini for Mac Computer Use",
+    "title": "Gemini for Mac后台替你点鼠标Computer Use上手",
+    "level": "L4",
+    "depth": "拆解隔离窗口权限勾选与断点确认三件套的桌面执行前沿实践",
+    "angle": "后台跨应用多步事务与敏感步骤人确认",
+    "keywords_snippet": "Gemini for Mac,Computer Use,Tasks in Gemini,隔离窗口,权限勾选"
+  },
+  {
+    "module": "08",
+    "date": "2026-11-25",
+    "topic": "Tesseract桌面成品Agent",
+    "title": "Tesseract一句话出成品不用API Key的桌面Agent",
+    "level": "L1",
+    "depth": "拆解一句话交付成品与复用已有订阅账号的入门流程",
+    "angle": "先规划后执行与模板化成品交付",
+    "keywords_snippet": "Tesseract,Product Hunt,编码智能体,无API Key,计划审批"
+  },
+  {
+    "module": "08",
+    "date": "2026-11-25",
+    "topic": "n8n Nod本地桌面助手",
+    "title": "n8n Nod本地桌面助手连上邮箱替你找发票",
+    "level": "L2",
+    "depth": "拆解连接器本机运行时模型调用三段链路的本地自动化机制",
+    "angle": "本地执行隐私与睡眠即停边界",
+    "keywords_snippet": "n8n Nod,本地桌面助手,研究预览,Gmail,找发票"
+  },
+  {
+    "module": "08",
+    "date": "2026-11-25",
+    "topic": "Cursor Projects多人模式",
+    "title": "Cursor Projects多人模式共享任务板免重复交代",
+    "level": "L3",
+    "depth": "拆解共享任务板与AGENTS.md约定文件双平面协作的实战方案",
+    "angle": "团队共享上下文与隐性知识沉淀",
+    "keywords_snippet": "Cursor Projects,多人协作,AGENTS.md,CLAUDE.md,任务板"
+  },
+  {
+    "module": "08",
+    "date": "2026-11-25",
+    "topic": "Tripo App手机3D建模",
+    "title": "Tripo App手机拍照做3D出门看到就能建模",
+    "level": "L4",
+    "depth": "拆解单图像重建生成补全与手机采集桌面精修分工的前沿实践",
+    "angle": "现场起稿与打印尺寸验证",
+    "keywords_snippet": "Tripo App,手机拍照3D,Tripo Studio,三维重建,3D打印"
   }
 ]
