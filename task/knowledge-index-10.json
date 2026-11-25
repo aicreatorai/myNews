@@ -5518,5 +5518,65 @@
     "depth": "用长上下文设计会话与无状态评审会话的上下文隔离对抗确认偏误",
     "angle": "从长上下文确认偏误切入讲把独立评审前移到设计阶段的工程流程",
     "keywords_snippet": "elephant-goldfish-model,上下文隔离,设计评审,确认偏误,实现计划,谷歌开源"
+  },
+  {
+    "module": "10",
+    "date": "2026-11-26",
+    "topic": "Agent Skills 调参自动化",
+    "title": "inference-optimisation-skill 实测：把爬山调参写成标准流程，本地大模型提速不再靠玄学",
+    "level": "L1",
+    "depth": "概念层 - 是什么、解决什么问题、与什么不同",
+    "angle": "把爬山调参从玄学经验变成智能体可执行、可复现的标准流程",
+    "keywords_snippet": "Agent Skills 爬山法 推理调参 Claude Code"
+  },
+  {
+    "module": "10",
+    "date": "2026-11-26",
+    "topic": "dbx 数据库管理",
+    "title": "t8y2/dbx 拆解：25MB 单文件管百种数据库，MCP server 三级权限划清智能体边界",
+    "level": "L2",
+    "depth": "技术层 - 内部机制、关键参数、优化策略",
+    "angle": "拆解统一连接层与 MCP 三级权限设计，讲清智能体访问数据库的边界",
+    "keywords_snippet": "dbx Rust 数据库 MCP 权限分级 AI SQL"
+  },
+  {
+    "module": "10",
+    "date": "2026-11-26",
+    "topic": "songe 本地个性化蒸馏",
+    "title": "sous-labs/songe 上手：旁听你的纠正与重试，夜里把本地模型蒸馏成私人适配器",
+    "level": "L3",
+    "depth": "实践层 - 生产级方案、踩坑经验、数据对比",
+    "angle": "从采集纠正信号到夜间蒸馏适配器的落地路径与踩坑提醒",
+    "keywords_snippet": "songe 本地蒸馏 LoRA 个性化 适配器 隐私"
+  },
+  {
+    "module": "10",
+    "date": "2026-11-26",
+    "topic": "MCP 两周年协议演进",
+    "title": "MCP 两周年新演进：Skills over MCP 让工具自带说明书按需加载，长任务与风险审批写进协议",
+    "level": "L4",
+    "depth": "前沿层 - 最新演进、与传统方案的融合",
+    "angle": "从协议层解读 Skills 按需加载、Tasks 后台任务与 Elicitation 审批的原语化",
+    "keywords_snippet": "MCP Skills over MCP Tasks Elicitation 按需加载"
+  },
+  {
+    "module": "10",
+    "date": "2026-11-26",
+    "topic": "GitHub Actions 供应链安全",
+    "title": "GitHub Actions workflow lockfiles 上手：给浮动版本标签上锁，让 CI 供应链可复现",
+    "level": "L1",
+    "depth": "概念层 - 是什么、解决什么问题、与什么不同",
+    "angle": "讲清锁文件如何在标签可读性与 SHA 安全性之间取平衡",
+    "keywords_snippet": "GitHub Actions lockfile SHA 供应链 可复现"
+  },
+  {
+    "module": "10",
+    "date": "2026-11-26",
+    "topic": "创意类 Agent 技能",
+    "title": "antialgorithm 拆解：一条专治AI第一反应最平庸的技能，怎么让模型跳出首个答案",
+    "level": "L2",
+    "depth": "技术层 - 内部机制、关键参数、优化策略",
+    "angle": "拆解反向约束与发散筛选机制，讲清技能如何让创意输出跳出概率峰值",
+    "keywords_snippet": "antialgorithm Agent Skill 创意 发散 反向约束"
   }
 ]

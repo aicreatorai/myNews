@@ -5858,5 +5858,65 @@
     "depth": "技术层",
     "angle": "幂律关系指导预训练预算分配",
     "keywords_snippet": "Scaling Law Chinchilla 算力 数据 参数 损失"
+  },
+  {
+    "module": "07",
+    "date": "2026-11-26",
+    "topic": "脑信号引导推理",
+    "title": "【脑信号引导推理：NARI与NARF把fMRI变成模型的纠错指南针】",
+    "level": "L1",
+    "depth": "概念层 - 是什么、解决什么问题、与什么不同",
+    "angle": "用fMRI神经信号引导模型内部表征纠正逻辑错误，区分NARI推理时干预与NARF训练时内化两条路径",
+    "keywords_snippet": "NARI NARF fMRI 神经引导 表征干预 逻辑推理"
+  },
+  {
+    "module": "07",
+    "date": "2026-11-26",
+    "topic": "RL后训练激活引导",
+    "title": "【RL后训练即激活引导：一个固定steering向量省下65倍参数】",
+    "level": "L2",
+    "depth": "技术层 - 内部机制、关键参数、优化策略",
+    "angle": "把扩散Transformer的RL后训练收益解释为一个与输入无关的固定steering向量，少65倍参数恢复90-96%收益",
+    "keywords_snippet": "activation steering 激活引导 RL后训练 扩散Transformer 65倍参数"
+  },
+  {
+    "module": "07",
+    "date": "2026-11-26",
+    "topic": "自主后训练Skill-FT",
+    "title": "【自主后训练AutoMaster：用技能清单让模型把自己教成更好的老师】",
+    "level": "L3",
+    "depth": "实践层 - 生产级方案、踩坑经验、数据对比",
+    "angle": "用自然语言技能清单在教师轨迹中抑制不良习惯、激发有效行为，实现模型的自我后训练",
+    "keywords_snippet": "AutoMaster Skill-FT 自主后训练 技能清单 自蒸馏"
+  },
+  {
+    "module": "07",
+    "date": "2026-11-26",
+    "topic": "视觉token混合压缩",
+    "title": "【MiniCPM-V 4.7视觉token混合压缩：4倍与16倍之间的算力账】",
+    "level": "L4",
+    "depth": "前沿层 - 最新演进、与传统方案的融合",
+    "angle": "在视觉编码器内部提前做4倍与16倍混合压缩，端侧多模态视觉算力降半并与非对称投影对齐互补",
+    "keywords_snippet": "视觉token压缩 MiniCPM-V SigLIP2 4倍 16倍 端侧多模态"
+  },
+  {
+    "module": "07",
+    "date": "2026-11-26",
+    "topic": "极致轻量端侧模型",
+    "title": "【MNN-Pocket 0.3B：173MB完整包跑出466tok/s的端侧极限】",
+    "level": "L1",
+    "depth": "概念层 - 是什么、解决什么问题、与什么不同",
+    "angle": "以安装包体积为第一约束的0.3B端侧模型，INT4量化感知训练加MNN引擎协同，173MB完整包",
+    "keywords_snippet": "MNN-Pocket INT4 QAT 173MB 端侧小模型 安装包"
+  },
+  {
+    "module": "07",
+    "date": "2026-11-26",
+    "topic": "端侧榜单评测口径",
+    "title": "【AA Index v4.2到v5.0：端侧小模型榜单口径为何不能直接比】",
+    "level": "L2",
+    "depth": "技术层 - 内部机制、关键参数、优化策略",
+    "angle": "揭示AA Index版本升级导致的分数口径漂移，强调同版本同推理预算内比较与自建评测复测",
+    "keywords_snippet": "AA Index v4.2 v5.0 评测口径 榜单版本 推理预算 参数口径"
   }
 ]

@@ -5256,5 +5256,65 @@
     "depth": "拆解单图像重建生成补全与手机采集桌面精修分工的前沿实践",
     "angle": "现场起稿与打印尺寸验证",
     "keywords_snippet": "Tripo App,手机拍照3D,Tripo Studio,三维重建,3D打印"
+  },
+  {
+    "module": "08",
+    "date": "2026-11-26",
+    "topic": "AI编码Agent选型",
+    "title": "六大编码Agent选型：Claude Code到OpenCode怎么挑",
+    "level": "L1",
+    "depth": "概念层 - 是什么、解决什么问题、与什么不同",
+    "angle": "从环境、预算、任务三维度给出六款主流编码Agent的横向选型路径",
+    "keywords_snippet": "Claude Code Codex Cursor Agent Copilot Gemini CLI OpenCode 选型 价格 工作流"
+  },
+  {
+    "module": "08",
+    "date": "2026-11-26",
+    "topic": "提示词防返工写法",
+    "title": "Prompt不返工四招：给参照物、拆任务、划禁区、定验收",
+    "level": "L2",
+    "depth": "技术层 - 内部机制、关键参数、优化策略",
+    "angle": "从注意力衰减与上下文机制拆解四招提示词写法的底层原理与Temperature设置",
+    "keywords_snippet": "提示词 参照物 任务拆解 负面约束 验收标准 Temperature CREAT框架"
+  },
+  {
+    "module": "08",
+    "date": "2026-11-26",
+    "topic": "Copilot浏览器操作",
+    "title": "Copilot浏览器实操：/plugin装browser use驱动Chrome",
+    "level": "L3",
+    "depth": "实践层 - 生产级方案、踩坑经验、数据对比",
+    "angle": "以公开预览的browser use插件为线索走一遍驱动已登录Chrome做页面验收的实操",
+    "keywords_snippet": "Copilot browser use plugin Chrome 登录态 可访问性树 Playwright 页面验收"
+  },
+  {
+    "module": "08",
+    "date": "2026-11-26",
+    "topic": "SKILL.md技能库",
+    "title": "Google开源stitch-skills：SKILL.md治过时前端码",
+    "level": "L4",
+    "depth": "前沿层 - 最新演进、与传统方案的融合",
+    "angle": "从Google开源技能库切入解析SKILL.md标准与延迟加载如何外置前端规范",
+    "keywords_snippet": "stitch-skills modern-web-guidance SKILL.md Agent Skills MCP 延迟加载 可访问性"
+  },
+  {
+    "module": "08",
+    "date": "2026-11-26",
+    "topic": "开源代码审查",
+    "title": "阿里开源Open Code Review：CLI本地代码审查上手",
+    "level": "L1",
+    "depth": "概念层 - 是什么、解决什么问题、与什么不同",
+    "angle": "介绍阿里开源本地审查工具的两种形态及其与商业云扫描、人工审查的定位差异",
+    "keywords_snippet": "Open Code Review 阿里巴巴 Apache-2.0 ocr review 本地审查 代码审查"
+  },
+  {
+    "module": "08",
+    "date": "2026-11-26",
+    "topic": "Gemini CLI用量分析",
+    "title": "Gemini CLI 0.69上手：/stats热力图加/model切模型",
+    "level": "L2",
+    "depth": "技术层 - 内部机制、关键参数、优化策略",
+    "angle": "围绕0.69版stats热力图与model切模型讲清上下文账本与模型热切换机制",
+    "keywords_snippet": "Gemini CLI 0.69 stats 热力图 model tool retrieval 上下文 token"
   }
 ]

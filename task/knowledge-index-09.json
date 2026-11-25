@@ -5098,5 +5098,65 @@
     "depth": "从预发布密集迭代切入拆解惰性分支、Unicode标量校验、确定性统计与token语法语义三级缓存失效策略",
     "angle": "实验语言把统计能力内建化",
     "keywords_snippet": "Scarp, alpha.6.7, 惰性分支, Unicode转义, Top-P, Pearson, 可选缓存"
+  },
+  {
+    "module": "09",
+    "date": "2026-11-26",
+    "topic": "Rust Allocator API",
+    "title": "Rust 1.100 稳定分配器 API 核心：Allocator trait 让 Vec 与 Box 自定义内存",
+    "level": "L1",
+    "depth": "概念层 - 是什么、解决什么问题、与什么不同",
+    "angle": "从全局分配到按容器注入的内存策略语义转变",
+    "keywords_snippet": "Rust 1.100 Allocator API 自定义分配 Allocators 1.0"
+  },
+  {
+    "module": "09",
+    "date": "2026-11-26",
+    "topic": "Go Green Tea GC 路线图",
+    "title": "Go 官方回顾 17 周年：从 Green Tea GC 到 Go 1.28 泛型集合路线图",
+    "level": "L2",
+    "depth": "技术层 - 内部机制、关键参数、优化策略",
+    "angle": "从17周年官方盘点拆解GC与标准库的底层演进",
+    "keywords_snippet": "Go 17 Green Tea GC SIMD Go 1.28 后量子密码"
+  },
+  {
+    "module": "09",
+    "date": "2026-11-26",
+    "topic": "TypeScript 7.1 Compiler API",
+    "title": "TypeScript 7.1 Beta 恢复 Compiler API：Vue 类型检查提速四倍半",
+    "level": "L3",
+    "depth": "实践层 - 生产级方案、踩坑经验、数据对比",
+    "angle": "以Vue项目实测数据看Compiler API回归的迁移价值",
+    "keywords_snippet": "TypeScript 7.1 Compiler API Vue 类型检查 Go 移植"
+  },
+  {
+    "module": "09",
+    "date": "2026-11-26",
+    "topic": "Kotlin 协程与虚拟线程",
+    "title": "Kotlin 官方实测协程不换虚拟线程：Loom 调度策略全面落后",
+    "level": "L4",
+    "depth": "前沿层 - 最新演进、与传统方案的融合",
+    "angle": "官方基准证伪协程换虚拟线程的必要性",
+    "keywords_snippet": "Kotlin 协程 Loom 虚拟线程 Dispatchers.Default KEEP"
+  },
+  {
+    "module": "09",
+    "date": "2026-11-26",
+    "topic": "Python uv ruff 工具链",
+    "title": "uv 与 ruff 收敛 pyproject.toml：把 Python 环境变成可审计工件",
+    "level": "L1",
+    "depth": "概念层 - 是什么、解决什么问题、与什么不同",
+    "angle": "把环境状态从机器抽离为仓库可审计工件的工程收敛",
+    "keywords_snippet": "uv ruff pyproject.toml uv.lock Python 工具链"
+  },
+  {
+    "module": "09",
+    "date": "2026-11-26",
+    "topic": "Cargo min-publish-age",
+    "title": "Rust 1.100 Cargo 依赖冷却期：min-publish-age 把安全推进供应链",
+    "level": "L2",
+    "depth": "技术层 - 内部机制、关键参数、优化策略",
+    "angle": "依赖冷却期如何嵌入Cargo版本解析状态机",
+    "keywords_snippet": "Cargo min-publish-age 依赖冷却期 供应链 Rust 1.100"
   }
 ]
