@@ -5316,5 +5316,65 @@
     "depth": "技术层 - 内部机制、关键参数、优化策略",
     "angle": "围绕0.69版stats热力图与model切模型讲清上下文账本与模型热切换机制",
     "keywords_snippet": "Gemini CLI 0.69 stats 热力图 model tool retrieval 上下文 token"
+  },
+  {
+    "module": "08",
+    "date": "2026-11-27",
+    "topic": "TRIRO 提示词原则",
+    "title": "TRIRO提示词原则：五步结构让ChatGPT不再说废话",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "五步结构化发问框架",
+    "keywords_snippet": "TRIRO 任务 角色 迭代 参考 输出 ChatGPT Claude Gemini 提示词"
+  },
+  {
+    "module": "08",
+    "date": "2026-11-27",
+    "topic": "Mermaid 图表预加载",
+    "title": "Mermaid图表预加载：给AI编程助手一张压缩架构地图",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "用图表注入系统提示补全架构上下文",
+    "keywords_snippet": "Mermaid append-system-prompt AI/diagrams 架构地图 Claude Code 上下文"
+  },
+  {
+    "module": "08",
+    "date": "2026-11-27",
+    "topic": "SDD 规格驱动开发",
+    "title": "SDD规格驱动开发：先写清输入输出边界再让AI写代码",
+    "level": "L3",
+    "depth": "实践层",
+    "angle": "规格先行约束AI编码边界",
+    "keywords_snippet": "SDD 规格驱动 Vibe Coding 三层分工 验收清单 diff"
+  },
+  {
+    "module": "08",
+    "date": "2026-11-27",
+    "topic": "Cursor Rules 规则配置",
+    "title": "Cursor Rules规则配置：让AI每次都按项目约定写代码",
+    "level": "L4",
+    "depth": "前沿层",
+    "angle": "规则文件自动生效与持续进化",
+    "keywords_snippet": "cursorrules CLAUDE.md /init /clear hook 自定义斜杠命令 代码规范"
+  },
+  {
+    "module": "08",
+    "date": "2026-11-27",
+    "topic": "ChatGPT 互动回答",
+    "title": "ChatGPT互动回答：五个提示词把答案变成可操作工具",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "用提示词叫出可交互界面",
+    "keywords_snippet": "Intelligent UI 互动回答 分账计算器 可拖动图表 并排比较"
+  },
+  {
+    "module": "08",
+    "date": "2026-11-27",
+    "topic": "知识库投喂模板",
+    "title": "知识库投喂模板：给每条笔记补齐来源时间与结论",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "元数据模板提升RAG检索质量",
+    "keywords_snippet": "投喂模板 来源 时间 要点 我的思考 RAG 语义检索 复盘"
   }
 ]

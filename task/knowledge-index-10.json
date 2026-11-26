@@ -5578,5 +5578,65 @@
     "depth": "技术层 - 内部机制、关键参数、优化策略",
     "angle": "拆解反向约束与发散筛选机制，讲清技能如何让创意输出跳出概率峰值",
     "keywords_snippet": "antialgorithm Agent Skill 创意 发散 反向约束"
+  },
+  {
+    "module": "10",
+    "date": "2026-11-27",
+    "topic": "paper-orchestra 多智能体论文写作",
+    "title": "paper-orchestra：谷歌把论文写作拆成六工种的垂直多智能体框架",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "从五天涨3.2倍的垂直智能体现象切入讲清角色分工与共享状态流水线",
+    "keywords_snippet": "Google Research 多智能体 学术论文 LaTeX 文献回顾 大纲 修订 绘图 垂直交付"
+  },
+  {
+    "module": "10",
+    "date": "2026-11-27",
+    "topic": "minimind 小模型全流程训练",
+    "title": "minimind：两小时从零训出64M模型把预训练到RLHF全流程塞进桌面",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "拆解分词器预训练微调对齐混合专家五阶段的数据流与损失机制",
+    "keywords_snippet": "PyTorch 64M 预训练 SFT 对齐 MoE 分词器 下一词预测 教学实验"
+  },
+  {
+    "module": "10",
+    "date": "2026-11-27",
+    "topic": "localcode 本地智能体编程",
+    "title": "localcode：一条命令在Mac跑通代码不出机器的本地智能体编程",
+    "level": "L3",
+    "depth": "实践层",
+    "angle": "从合规与断网场景切入讲本地模型代码索引工具层的闭环验证",
+    "keywords_snippet": "Mac 本地推理 Apple Silicon 代码索引 工具调用 隐私 断网可用 一条命令"
+  },
+  {
+    "module": "10",
+    "date": "2026-11-27",
+    "topic": "LocalAI 自托管多模态兼容端点",
+    "title": "LocalAI：一台服务器同时接管文本图像语音的OpenAI兼容端点",
+    "level": "L4",
+    "depth": "前沿层",
+    "angle": "从接口碎片化成本切入讲统一兼容层与可插拔后端的企业落地",
+    "keywords_snippet": "Go MIT OpenAI兼容 文本嵌入语音图像 后端抽象 懒加载 自托管网关"
+  },
+  {
+    "module": "10",
+    "date": "2026-11-27",
+    "topic": "ffmpeg-skill 视频剪辑技能包",
+    "title": "ffmpeg-skill：42个FFmpeg工具打包成本地视频剪辑智能体技能",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "讲清把复杂命令行知识固化成智能体技能的安全边界与参数模板机制",
+    "keywords_snippet": "FFmpeg 技能包 42工具 剪辑 转码 响度归一化 本地执行 参数模板"
+  },
+  {
+    "module": "10",
+    "date": "2026-11-27",
+    "topic": "ggml 零依赖张量库",
+    "title": "ggml：撑起llama.cpp的零依赖C/C++张量库与多后端抽象",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "从张量计算图量化格式与后端抽象四层拆解端侧推理内核设计",
+    "keywords_snippet": "C/C++ 零依赖 张量 计算图 量化 后端抽象 RISC-V WebAssembly llama.cpp"
   }
 ]

@@ -5268,5 +5268,65 @@
     "depth": "技术层 - 内部机制、关键参数、优化策略",
     "angle": "拆解57倍估值倍数、480%增长与87%价值流向应用层的定价逻辑，结合垂直45%存活率给出选型",
     "keywords_snippet": "AI100 估值倍数 应用层 垂直存活率 结果定价"
+  },
+  {
+    "module": "12",
+    "date": "2026-11-27",
+    "topic": "录音卡硬件订阅",
+    "title": "硬件木马订阅现金流：Plaud录音卡把50%用户转成付费",
+    "level": "L1",
+    "depth": "从订阅ARR两年增长到近50%付费转化切入讲入口与现金流结构",
+    "angle": "硬件是木马订阅才是现金流，个人上下文代理抬高天花板",
+    "keywords_snippet": "Plaud 磁吸录音卡 订阅ARR 付费转化 个人上下文代理"
+  },
+  {
+    "module": "12",
+    "date": "2026-11-27",
+    "topic": "一人SaaS ARR账本",
+    "title": "一人SaaS百万ARR账本：82%留存下的客户跑步机",
+    "level": "L2",
+    "depth": "拆解ARR到手账与流失漏斗的四个漏口",
+    "angle": "用净留存、绑卡试用与地理套利算出真实收入",
+    "keywords_snippet": "一人SaaS ARR 净留存 绑卡试用 地理套利 客户跑步机"
+  },
+  {
+    "module": "12",
+    "date": "2026-11-27",
+    "topic": "按量付费SEO执行层",
+    "title": "按量付费SEO执行层：RankSpot把优化做成Agent接口",
+    "level": "L3",
+    "depth": "从Product Hunt月榜切入讲采样决策执行审计闭环",
+    "angle": "把SEO从诊断报告变成按量计费的可回滚Agent动作",
+    "keywords_snippet": "RankSpot 按量付费 SEO执行层 MCP 审计 召回"
+  },
+  {
+    "module": "12",
+    "date": "2026-11-27",
+    "topic": "垂直关键词App退出",
+    "title": "垂直关键词App退出账：RedSim四个月27,000美元成交",
+    "level": "L4",
+    "depth": "从RedSim退出案例讲垂直词获客与可交易资产化",
+    "angle": "用高购买意图长尾词做独立App并按年利润倍数退出",
+    "keywords_snippet": "RedSim 垂直关键词 eSIM 自然流量 退出 微型SaaS"
+  },
+  {
+    "module": "12",
+    "date": "2026-11-27",
+    "topic": "批准收件匣",
+    "title": "批准收件匣走红：把AI审批做成一人公司订阅产品",
+    "level": "L1",
+    "depth": "从PH周报三个方向讲人在环信任层产品化",
+    "angle": "把审批、权限边界与撤销做成可收费的信任层",
+    "keywords_snippet": "批准收件匣 人在环 权限边界 失败回放 撤销"
+  },
+  {
+    "module": "12",
+    "date": "2026-11-27",
+    "topic": "卖软件过时分发信任",
+    "title": "卖软件不如卖分发：独立开发者的信任渠道生意",
+    "level": "L2",
+    "depth": "从Selling Software Is Obsolete趋势讲渠道信任稀缺性",
+    "angle": "先内容后产品，把分发渠道清单做成可售卖资产",
+    "keywords_snippet": "卖软件过时 分发渠道 社区信任 先内容后产品 V2EX"
   }
 ]

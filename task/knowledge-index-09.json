@@ -5158,5 +5158,65 @@
     "depth": "技术层 - 内部机制、关键参数、优化策略",
     "angle": "依赖冷却期如何嵌入Cargo版本解析状态机",
     "keywords_snippet": "Cargo min-publish-age 依赖冷却期 供应链 Rust 1.100"
+  },
+  {
+    "module": "09",
+    "date": "2026-11-27",
+    "topic": "UUID C 实现",
+    "title": "Python 3.16 UUID 改用 C 实现：微基准快 15 到 30 倍",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "从纯Python字节拼装到C层线性扫描的提速原理与无感升级价值",
+    "keywords_snippet": "Python 3.16 UUID uuid4 uuid7 C实现 微基准 15倍 30倍"
+  },
+  {
+    "module": "09",
+    "date": "2026-11-27",
+    "topic": "惰性常量 JEP 547",
+    "title": "JEP 547 惰性常量锁定 JDK 28：一次计算终身复用",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "拆状态机CAS与JIT常量折叠，讲禁null约束与启动成本权衡",
+    "keywords_snippet": "JEP 547 Lazy Constants JDK28 惰性常量 常量折叠 null"
+  },
+  {
+    "module": "09",
+    "date": "2026-11-27",
+    "topic": "ZGC 自适应堆",
+    "title": "ZGC 自适应堆大小：JDK 28 让堆内存自己伸缩",
+    "level": "L3",
+    "depth": "实践层",
+    "angle": "用存活集与分配速率驱动堆伸缩，给出容器RSS验证法",
+    "keywords_snippet": "ZGC Adaptive Heap Sizing 自适应堆 JDK28 Region 容器内存 RSS"
+  },
+  {
+    "module": "09",
+    "date": "2026-11-27",
+    "topic": "Project Leyden 提前编译",
+    "title": "Project Leyden 提前编译：Java 兼得毫秒启动与 JIT 峰值",
+    "level": "L4",
+    "depth": "前沿层",
+    "angle": "以CDS档案提前固化状态，对比Native Image闭世界与JIT峰值的折中",
+    "keywords_snippet": "Project Leyden Premain CDS 提前编译 Native Image JIT 冷启动"
+  },
+  {
+    "module": "09",
+    "date": "2026-11-27",
+    "topic": "TornadoVM GPU 互操作",
+    "title": "TornadoVM 8.1 零拷贝互操作：Java 内核直读设备内存",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "从设备内存往返复制痛点切入讲零拷贝句柄与异步设备初始化",
+    "keywords_snippet": "TornadoVM 8.1 零拷贝 设备内存 GPU 内核 initializeDeviceAsync TaskGraph"
+  },
+  {
+    "module": "09",
+    "date": "2026-11-27",
+    "topic": "nanoTime 时钟争用",
+    "title": "去掉 nanoTime 全局比较：JDK 28 修好 macOS 时钟争用",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "从伪共享与全局校准切入讲AArch64硬件单调性如何消除争用",
+    "keywords_snippet": "JDK-8397817 nanoTime macOS AArch64 _max_abstime 伪共享 单调时钟"
   }
 ]

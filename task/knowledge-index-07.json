@@ -5918,5 +5918,65 @@
     "depth": "技术层 - 内部机制、关键参数、优化策略",
     "angle": "揭示AA Index版本升级导致的分数口径漂移，强调同版本同推理预算内比较与自建评测复测",
     "keywords_snippet": "AA Index v4.2 v5.0 评测口径 榜单版本 推理预算 参数口径"
+  },
+  {
+    "module": "07",
+    "date": "2026-11-27",
+    "topic": "MTP多token预测",
+    "title": "MTP多token预测：一次前向同时监督未来多个位置",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "用多步监督替代单步交叉熵，训练信号密度提升约k倍且推理阶段可拆",
+    "keywords_snippet": "MTP 多token预测 训练信号密度 DeepSeek 投机解码草稿"
+  },
+  {
+    "module": "07",
+    "date": "2026-11-27",
+    "topic": "DPO直接偏好优化",
+    "title": "DPO直接偏好优化：绕开奖励模型的闭式对齐损失",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "隐式奖励与参考模型KL约束，从四模型降到两模型的闭式损失",
+    "keywords_snippet": "DPO 偏好优化 隐式奖励 参考模型 beta TRL"
+  },
+  {
+    "module": "07",
+    "date": "2026-11-27",
+    "topic": "奖励模型训练",
+    "title": "奖励模型训练与奖励黑客：KL约束为何不能省",
+    "level": "L3",
+    "depth": "实践层",
+    "angle": "奖励黑客成因与KL约束网格搜索，盯住奖励分与人工分背离点",
+    "keywords_snippet": "奖励模型 奖励黑客 KL约束 beta 长度偏见 RLVR"
+  },
+  {
+    "module": "07",
+    "date": "2026-11-27",
+    "topic": "MuonClip训练稳定性",
+    "title": "MuonClip稳住万亿参数训练：从Logits爆炸到注意力残差",
+    "level": "L4",
+    "depth": "前沿层",
+    "angle": "谱范数约束抑制Logits爆炸与跨层注意力残差，48B效率提升1.25倍",
+    "keywords_snippet": "MuonClip Logits爆炸 Attention Residuals 万亿参数 FP8"
+  },
+  {
+    "module": "07",
+    "date": "2026-11-27",
+    "topic": "LangGraph状态图编排",
+    "title": "LangGraph状态图编排：把Agent流程拆成可控可审批节点",
+    "level": "L1",
+    "depth": "概念层",
+    "angle": "状态图显式化控制流，节点可单测可审批可从断点恢复",
+    "keywords_snippet": "LangGraph 状态图 节点 边 人工审批 checkpointer"
+  },
+  {
+    "module": "07",
+    "date": "2026-11-27",
+    "topic": "Supervisor中心调度",
+    "title": "Supervisor中心调度：任务DAG驱动的多Agent协同范式",
+    "level": "L2",
+    "depth": "技术层",
+    "angle": "任务DAG依赖解析加MCP子Agent封装，一次封装处处编排",
+    "keywords_snippet": "Supervisor 任务DAG 多Agent MCP Server 协同范式"
   }
 ]
