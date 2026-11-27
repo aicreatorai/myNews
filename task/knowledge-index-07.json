@@ -5978,5 +5978,65 @@
     "depth": "技术层",
     "angle": "任务DAG依赖解析加MCP子Agent封装，一次封装处处编排",
     "keywords_snippet": "Supervisor 任务DAG 多Agent MCP Server 协同范式"
+  },
+  {
+    "module": "07",
+    "date": "2026-11-28",
+    "topic": "极简RAG与Agent长期记忆",
+    "title": "BRIDGE极简RAG：砍掉复杂模块，10块检索打平记忆SOTA",
+    "level": "L2",
+    "depth": "约900字",
+    "angle": "从arXiv:2611.22179受控对齐实验切入，拆解切块-观察笔记-双路RRF融合-三七配比的成本质量权衡",
+    "keywords_snippet": "BRIDGE RRF RAG Agent记忆"
+  },
+  {
+    "module": "07",
+    "date": "2026-11-28",
+    "topic": "Agent记忆架构与编排",
+    "title": "Octop Memory五环节：让Agent记忆可回看可审批可更新",
+    "level": "L2",
+    "depth": "约900字",
+    "angle": "以腾讯Octop Memory五环节链路为主线，讲清库与宿主的权责边界和证据可回看机制",
+    "keywords_snippet": "Octop Memory 记忆审批 证据留存"
+  },
+  {
+    "module": "07",
+    "date": "2026-11-28",
+    "topic": "三元权重与端侧代理模型",
+    "title": "三元权重1.76bit：27B代理模型压进5.9GB跑长程工具调用",
+    "level": "L2",
+    "depth": "约900字",
+    "angle": "以Ternary Bonsai 2.5为样本，拆解三值映射、分组缩放与代理能力保持的关系",
+    "keywords_snippet": "三元权重 1.76bit 代理模型 消费级硬件"
+  },
+  {
+    "module": "07",
+    "date": "2026-11-28",
+    "topic": "端侧NPU低比特推理",
+    "title": "MixFold输出通道分组：让手机NPU高效跑通sub-4bit大模型",
+    "level": "L2",
+    "depth": "约900字",
+    "angle": "软硬件协同视角，解释输出通道分组如何对齐NPU矩阵切片把带宽收益兑现为吞吐",
+    "keywords_snippet": "MixFold sub-4bit NPU 输出通道分组"
+  },
+  {
+    "module": "07",
+    "date": "2026-11-28",
+    "topic": "世界动作模型与具身预训练",
+    "title": "GR00T 2人类视频预训练：43万小时把技能冷启动按任务算",
+    "level": "L2",
+    "depth": "约900字",
+    "angle": "从43万小时人类第一视角视频切入，讲清动作学习建在世界预测之上的跨本体迁移机制",
+    "keywords_snippet": "GR00T 2 人类视频 跨本体 世界模型"
+  },
+  {
+    "module": "07",
+    "date": "2026-11-28",
+    "topic": "具身世界表征与物理预判",
+    "title": "CloudRobo-WM1.2世界表征：让机器人预判推杯子会滑还是倒",
+    "level": "L2",
+    "depth": "约900字",
+    "angle": "围绕PPA世界表征与DualAct动作直出，拆解物理交互预判与多粒度监督的数据闭环",
+    "keywords_snippet": "CloudRobo-WM1.2 世界表征 DualAct 物理预判"
   }
 ]

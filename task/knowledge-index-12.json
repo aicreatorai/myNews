@@ -5328,5 +5328,65 @@
     "depth": "从Selling Software Is Obsolete趋势讲渠道信任稀缺性",
     "angle": "先内容后产品，把分发渠道清单做成可售卖资产",
     "keywords_snippet": "卖软件过时 分发渠道 社区信任 先内容后产品 V2EX"
+  },
+  {
+    "module": "12",
+    "date": "2026-11-28",
+    "topic": "AI陪伴商业化",
+    "title": "AI陪伴跑通商业闭环：Tipsy月入过亿，情绪价值如何变成订阅现金流",
+    "level": "L2",
+    "depth": "约1800字",
+    "angle": "以Tipsy为样本拆解AI陪伴的订阅变现、买量获客与角色记忆机制",
+    "keywords_snippet": "AI陪伴 Tipsy 订阅变现 情绪价值 PMF"
+  },
+  {
+    "module": "12",
+    "date": "2026-11-28",
+    "topic": "AI应用PMF赛道",
+    "title": "已被验证的AI应用PMF地图：四条赛道谁在真正赚钱",
+    "level": "L3",
+    "depth": "约1700字",
+    "angle": "梳理多模态、AI Coding、AI Agents、深度研究四条已验证赛道的ARR与切入缝隙",
+    "keywords_snippet": "PMF 赛道 ARR AI Coding 深度研究"
+  },
+  {
+    "module": "12",
+    "date": "2026-11-28",
+    "topic": "单人创业与小微自动化",
+    "title": "单人创业淘金潮：小微企业AI渗透率从1/34升到1/8，后台自动化怎么复制",
+    "level": "L2",
+    "depth": "约1800字",
+    "angle": "用Novo渗透率数据拆解单人创业的工具、知识、规模三层杠杆与复制步骤",
+    "keywords_snippet": "单人创业 小微企业 后台自动化 渗透率"
+  },
+  {
+    "module": "12",
+    "date": "2026-11-28",
+    "topic": "岗位级Agent变现",
+    "title": "岗位级Agent先变现：月访问破3亿次，0到1团队怎么切进销售报表与门店运营",
+    "level": "L3",
+    "depth": "约1780字",
+    "angle": "从3亿月访问切入，讲岗位级Agent的数据闭环、任务完成率与落地验证",
+    "keywords_snippet": "岗位级Agent 数据闭环 任务完成率 AI办公"
+  },
+  {
+    "module": "12",
+    "date": "2026-11-28",
+    "topic": "具身智能物流商业化",
+    "title": "45台机器人进邮局：具身智能靠ROI可测算跑通物流生意",
+    "level": "L2",
+    "depth": "约1860字",
+    "angle": "以星动纪元45台机器人进邮区为样本，拆解需求真实、路径清晰、ROI可量化、可复制四条件",
+    "keywords_snippet": "具身智能 物流 星动纪元 ROI PMF"
+  },
+  {
+    "module": "12",
+    "date": "2026-11-28",
+    "topic": "企业AI Agent出海",
+    "title": "出海做企业AI大脑：星尘浩宇把审计Agent连续跑300天拿到了什么",
+    "level": "L3",
+    "depth": "约1900字",
+    "angle": "以星尘浩宇为例讲出海企业AI Agent的生产级稳定性、三层架构与获客路径",
+    "keywords_snippet": "企业AI Agent 出海 星尘浩宇 生产级 审计"
   }
 ]

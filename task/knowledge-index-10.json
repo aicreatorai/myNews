@@ -5638,5 +5638,65 @@
     "depth": "技术层",
     "angle": "从张量计算图量化格式与后端抽象四层拆解端侧推理内核设计",
     "keywords_snippet": "C/C++ 零依赖 张量 计算图 量化 后端抽象 RISC-V WebAssembly llama.cpp"
+  },
+  {
+    "module": "10",
+    "date": "2026-11-28",
+    "topic": "firecrawl 智能体数据底座",
+    "title": "firecrawl上手：用一个API把550多家数据源变成智能体可搜索可抓取的知识底座",
+    "level": "L3",
+    "depth": "约1540字",
+    "angle": "单一API整合550余数据源的搜索抓取清洗链路与输出格式优先设计",
+    "keywords_snippet": "firecrawl 智能体 数据采集 知识基础设施 API RAG"
+  },
+  {
+    "module": "10",
+    "date": "2026-11-28",
+    "topic": "graphify 代码知识图谱",
+    "title": "graphify上手：把代码库文档SQL结构变成可查询知识图谱让Agent按图索骥",
+    "level": "L2",
+    "depth": "约1460字",
+    "angle": "代码文档SQL配置PDF多资产入图构建异构图与精确依赖查询",
+    "keywords_snippet": "graphify 知识图谱 代码库 静态分析 血缘 Agent技能"
+  },
+  {
+    "module": "10",
+    "date": "2026-11-28",
+    "topic": "browser-use 浏览器自动化",
+    "title": "browser-use上手：开源Python库让AI智能体真正操纵浏览器完成点击填表与抓取",
+    "level": "L3",
+    "depth": "约1480字",
+    "angle": "可访问性树观察加标准动作空间的闭环设计与自托管服务选型",
+    "keywords_snippet": "browser-use 浏览器智能体 Python 自动化 可访问性树"
+  },
+  {
+    "module": "10",
+    "date": "2026-11-28",
+    "topic": "ponytail 极简编码技能",
+    "title": "ponytail上手：让AI智能体像最懒的资深工程师思考把不写代码当成默认选项",
+    "level": "L2",
+    "depth": "约1380字",
+    "angle": "目标重写候选排序自我质疑三层约束把少写代码变成强制流程",
+    "keywords_snippet": "ponytail 编码智能体 极简 技能包 代码克制"
+  },
+  {
+    "module": "10",
+    "date": "2026-11-28",
+    "topic": "taste-skill 前端审美技能",
+    "title": "taste-skill上手：给编码智能体装上艺术方向用参考图和浏览器检查替代AI俗套页面",
+    "level": "L3",
+    "depth": "约1390字",
+    "angle": "艺术方向参考图对齐浏览器校验三段闭环消除AI味页面",
+    "keywords_snippet": "taste-skill 设计品味 前端 参考图 Agent技能"
+  },
+  {
+    "module": "10",
+    "date": "2026-11-28",
+    "topic": "Agent-Reach 社区信息获取",
+    "title": "Agent-Reach上手：一条命令零API费用让智能体读搜国内外主流社区内容",
+    "level": "L2",
+    "depth": "约1410字",
+    "angle": "统一CLI入口加平台适配器零接口费用覆盖多社区与合规边界",
+    "keywords_snippet": "Agent-Reach 社区数据 CLI 舆情 智能体 零API费用"
   }
 ]

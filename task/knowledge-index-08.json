@@ -5376,5 +5376,65 @@
     "depth": "技术层",
     "angle": "元数据模板提升RAG检索质量",
     "keywords_snippet": "投喂模板 来源 时间 要点 我的思考 RAG 语义检索 复盘"
+  },
+  {
+    "module": "08",
+    "date": "2026-11-28",
+    "topic": "Gemini 4 Carbon 思考档位",
+    "title": "Gemini 4 Carbon上手：low到high调思考档位跑长任务不浪费算力",
+    "level": "L2",
+    "depth": "约1930字",
+    "angle": "实操角度：按任务难度调low/medium/high三档思考力度，配合一百万token上下文跑跨文件长任务并核对账单",
+    "keywords_snippet": "Gemini 4 Carbon 思考档位 长上下文 真实工作流 尝鲜价"
+  },
+  {
+    "module": "08",
+    "date": "2026-11-28",
+    "topic": "Claude Plugins 插件技能连接器",
+    "title": "Claude Plugins统一入口上手：插件技能连接器一处管理免断连踩坑",
+    "level": "L2",
+    "depth": "约1780字",
+    "angle": "实操角度：统一Plugins页面查找添加管理工具，重点验证移除插件不自动断连连接器需手动断开的坑",
+    "keywords_snippet": "Claude Plugins 技能 连接器 授权范围 手动断连"
+  },
+  {
+    "module": "08",
+    "date": "2026-11-28",
+    "topic": "GPT-6.2 聊天图片理解",
+    "title": "GPT-6.2聊天上手：图片理解71.7%复杂指令遵循怎么用到日常",
+    "level": "L2",
+    "depth": "约1890字",
+    "angle": "实操角度：用白板截图与多约束指令验证图片理解和复杂指令遵循提升，区分厂商内测与真实任务表现",
+    "keywords_snippet": "GPT-6.2 Sol 图片理解 复杂指令遵循 分批推送"
+  },
+  {
+    "module": "08",
+    "date": "2026-11-28",
+    "topic": "Kimi Code 智能体编码",
+    "title": "Kimi Code上手：终端加IDE双模式让智能体读懂整个代码库",
+    "level": "L3",
+    "depth": "约1800字",
+    "angle": "实践角度：先要项目结构与实施计划再动手，终端批量与IDE审查双模式配合，在陌生仓库验证跨文件改动一致性",
+    "keywords_snippet": "Kimi Code 代码库感知 长上下文 终端IDE双模式 免费额度"
+  },
+  {
+    "module": "08",
+    "date": "2026-11-28",
+    "topic": "豆包工作 工作台 额度倍率",
+    "title": "豆包工作工作台上手：21个职业场景加额度倍率透明选模型",
+    "level": "L2",
+    "depth": "约1850字",
+    "angle": "实操角度：用21个职业场景起步，按报告环节切换模型并对照额度倍率核算成本，验证分层调度的性价比",
+    "keywords_snippet": "豆包工作 工作台 额度消耗倍率 多模型聚合 分层调度"
+  },
+  {
+    "module": "08",
+    "date": "2026-11-28",
+    "topic": "MiniMax 4K生图 开源权重",
+    "title": "MiniMax 4K生图上手：10秒出图加开源权重本地跑通高清出图",
+    "level": "L2",
+    "depth": "约1680字",
+    "angle": "实操角度：核对显存拉取开源权重搭推理环境，按官方步数生成四K封面并计时，复现十秒出图的真实条件",
+    "keywords_snippet": "MiniMax 4K生图 开源权重 本地部署 少步蒸馏 半精度"
   }
 ]

@@ -5218,5 +5218,65 @@
     "depth": "技术层",
     "angle": "从伪共享与全局校准切入讲AArch64硬件单调性如何消除争用",
     "keywords_snippet": "JDK-8397817 nanoTime macOS AArch64 _max_abstime 伪共享 单调时钟"
+  },
+  {
+    "module": "09",
+    "date": "2026-11-28",
+    "topic": "Kotlin Multiplatform 编译方案",
+    "title": "Kotlin 2.5.0-RC2 引入新多平台编译方案：修复 Wasm 性能回退",
+    "level": "L2",
+    "depth": "约1187字",
+    "angle": "编译前端与IDE解析一致性、Wasm性能回退修复",
+    "keywords_snippet": "Kotlin 2.5.0 RC2 KMP common source set Wasm"
+  },
+  {
+    "module": "09",
+    "date": "2026-11-28",
+    "topic": "CPython 公历转换算法",
+    "title": "CPython datetime 换装 Neri-Schneider 仿射算法：公历转换提速",
+    "level": "L3",
+    "depth": "约1089字",
+    "angle": "从欧几里得分段扣减到仿射变换的算法重构原理",
+    "keywords_snippet": "Python datetime Neri-Schneider 仿射算法 vectorcall"
+  },
+  {
+    "module": "09",
+    "date": "2026-11-28",
+    "topic": "Rust 时区安全时间库",
+    "title": "Jiff 1.0 稳定：ripgrep 作者用时区安全重造 Rust 时间库",
+    "level": "L2",
+    "depth": "约1003字",
+    "angle": "三层时间类型消解夏令时歧义的设计",
+    "keywords_snippet": "Rust Jiff 1.0 Temporal 时区 DST"
+  },
+  {
+    "module": "09",
+    "date": "2026-11-28",
+    "topic": "Kotlin 与 Swift 语言选型",
+    "title": "Kotlin 与 Swift 选型对比：JVM 生态与苹果原生的分野",
+    "level": "L3",
+    "depth": "约1001字",
+    "angle": "运行模型、内存管理与并发范式的横向对比",
+    "keywords_snippet": "Kotlin Swift 选型 对比 ARC GC"
+  },
+  {
+    "module": "09",
+    "date": "2026-11-28",
+    "topic": "Go 泛型集合提案",
+    "title": "Go 泛型集合提案落地 x/exp/collection：sets 与有序映射进实验田",
+    "level": "L2",
+    "depth": "约1011字",
+    "angle": "泛型集合的底层实现与先实验后入库策略",
+    "keywords_snippet": "Go 泛型 集合 x/exp/collection sets ordered map"
+  },
+  {
+    "module": "09",
+    "date": "2026-11-28",
+    "topic": "Kotlin 类级上下文注入",
+    "title": "Kotlin KEEP-0012 类级上下文注入：服务层 DI 胶水代码有望清零",
+    "level": "L3",
+    "depth": "约1030字",
+    "angle": "四种上下文注入语法设计与隐式解析权衡",
+    "keywords_snippet": "Kotlin KEEP-0012 context injection 上下文参数"
   }
 ]
